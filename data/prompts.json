@@ -1,0 +1,70 @@
+[
+  {
+    "id": "0efa36c9-4285-48dd-890d-c4c18c27e9c4",
+    "title": "Code Refactoring Expert",
+    "promptText": "Analyze the provided code snippet for performance bottlenecks, readability issues, and anti-patterns. Suggest improvements with explained reasoning and provide the refactored code using modern best practices.",
+    "systemInstruction": "You are a senior software engineer specializing in code refactoring.",
+    "tags": [
+      "coding",
+      "refactoring"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/awesome-prompts/code-refactor",
+    "modelTarget": "gemini-1.5-pro",
+    "modality": [
+      "text"
+    ],
+    "metaMetrics": {
+      "stars": 120
+    },
+    "fetchedAt": "2025-11-25T16:18:34.833Z"
+  },
+  {
+    "id": "b4fcfc29-f8b2-4204-91b4-f8ff5f8c4433",
+    "title": "Visual Storyteller",
+    "promptText": "Based on this image, write a short mystery story about what happened just before this scene.",
+    "tags": [
+      "creative",
+      "writing",
+      "multimodal"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://ai.google.dev/gemini-api/prompts/storyteller",
+    "modelTarget": "gemini-pro-vision",
+    "modality": [
+      "text",
+      "image"
+    ],
+    "fetchedAt": "2025-11-25T16:18:34.833Z"
+  },
+  {
+    "id": "3890370f-bf59-48ec-a9ed-263234ee5917",
+    "title": "JSON Data Extractor",
+    "promptText": "Extract the following fields from the invoice text: invoice_id, date, total_amount, vendor_name.",
+    "tags": [
+      "data-extraction",
+      "json"
+    ],
+    "sourcePlatform": "reddit",
+    "originUrl": "https://reddit.com/r/GoogleGeminiAI/comments/12345/json_extraction",
+    "modelTarget": "gemini-1.5-flash",
+    "modality": [
+      "text"
+    ],
+    "outputSchema": {
+      "type": "object",
+      "properties": {
+        "invoice_id": {
+          "type": "string"
+        },
+        "total_amount": {
+          "type": "number"
+        }
+      }
+    },
+    "metaMetrics": {
+      "upvotes": 45
+    },
+    "fetchedAt": "2025-11-25T16:18:34.833Z"
+  }
+]
