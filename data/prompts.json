@@ -68,7 +68,133 @@
     "fetchedAt": "2025-11-25T16:18:34.833Z"
   },
   {
-    "id": "1091b976-4772-4418-a963-23d32a47481a",
+    "id": "a126e90d-fbf1-401c-8184-46f99982a2b1",
+    "promptText": "Made with gemini 3. Basic combat showcase made in 5 minutes",
+    "title": "Two Prompt Gladiator Game",
+    "tags": [
+      "interesting"
+    ],
+    "sourcePlatform": "reddit",
+    "originUrl": "https://www.reddit.com/r/Bard/comments/1p6l2d5/two_prompt_gladiator_game/",
+    "author": "Plexarius",
+    "modality": [
+      "text"
+    ],
+    "metaMetrics": {
+      "upvotes": 8
+    },
+    "fetchedAt": "2025-11-26T00:28:56.472Z"
+  },
+  {
+    "id": "c9523989-632b-4424-afc6-9c1955179f48",
+    "promptText": "Collect 500+ Nano Banana Pro prompts, each paired with an image and the exact prompt text. \n\nOver 200+ prompts support parameter inputs and are compatible with Raycast snippets syntax.\n\nHope you enjoy it!\n\n🔗： [https://youmind.com/nano-banana-pro-prompts](https://youmind.com/nano-banana-pro-prompts)\n\nhttps://preview.redd.it/guk2c4tudf3g1.png?width=2940&amp;format=png&amp;auto=webp&amp;s=dea81debc02ee3e119e0da44e9de363b083fa75e\n\nhttps://preview.redd.it/flg0m9dvdf3g1.png?width=2736&amp;format=png&amp;auto=webp&amp;s=233bea9cfd1df727c642cce7c892d2928ac34f97\n\n\n\n",
+    "title": "I just collected 500+ Nano Banana Pro prompts (with images &amp; parameters!)",
+    "tags": [
+      "ressource"
+    ],
+    "sourcePlatform": "reddit",
+    "originUrl": "https://www.reddit.com/r/GeminiAI/comments/1p6g3pr/i_just_collected_500_nano_banana_pro_prompts_with/",
+    "author": "Outrageous-Mood-1516",
+    "modality": [
+      "text"
+    ],
+    "metaMetrics": {
+      "upvotes": 52
+    },
+    "fetchedAt": "2025-11-26T00:28:57.535Z"
+  },
+  {
+    "id": "aa88f18e-5994-47ea-a81a-23e9596a4136",
+    "promptText": "what if these characters became macy’s day parade balloon’s",
+    "title": "Macy’s Day Parade Balloon: AI Edition",
+    "tags": [
+      "generated images (with prompt)"
+    ],
+    "sourcePlatform": "reddit",
+    "originUrl": "https://www.reddit.com/r/GeminiAI/comments/1p6hxec/macys_day_parade_balloon_ai_edition/",
+    "author": "ForeignOne297",
+    "modality": [
+      "text"
+    ],
+    "metaMetrics": {
+      "upvotes": 9
+    },
+    "fetchedAt": "2025-11-26T00:28:57.535Z"
+  },
+  {
+    "id": "71225530-0c60-44d6-9bed-0566de6c9b23",
+    "promptText": "I want to create a storybook for my young children. I've written a story and want Gemini/Nano Banana Pro (I have Gemini Plus) to create the images. We've determined a visual style and look for the protaganist, and this is used as a reference image. However, it relies on it too much. \n\nImage 1 is the reference image. I prompt something like:  \n*This is what I want Hubert to look like. Don't add other colors to his tail and mane and make sure he stays the same age/height throughout the images. This picture will be used as scene 1.1, him just standing in a meadow with the junkfood pictured. Use this image as reference for the artstyle and Hubert's looks, not for the composition. Every scene should have a distinct cloud formation and foliage, no repeated patterns. Please create scene 1.2 in which we see Poepoe running down a hill, chased by a toilet roll. We see Hubert spring into action to save Poepoe.*\n\nThen it comes back with image 2. It added colors to his tail and mane and most of the grass and plants in the foreground are exactly the same even though I specifically told it not to.\n\nI prompt it to change it, but it just keeps it mostly the same. Also, after a while of repainting it with prompts, it gets blocky and pixelated like in image 3. \n\n  \nHow do I get it to use a reference image for artstyle and character consistency, without it just duplicating elements? And how do I get it to repaint certain elements without it losing quality?\n\n  \nThanks in advance!\n\n",
+    "title": "Am I prompting wrong?",
+    "tags": [
+      "help/question"
+    ],
+    "sourcePlatform": "reddit",
+    "originUrl": "https://www.reddit.com/r/GeminiAI/comments/1p6rra7/am_i_prompting_wrong/",
+    "author": "Particular-Speaker-6",
+    "modality": [
+      "text"
+    ],
+    "metaMetrics": {
+      "upvotes": 2
+    },
+    "fetchedAt": "2025-11-26T00:28:57.535Z"
+  },
+  {
+    "id": "0dfe7a71-d577-4758-8c3d-84066128b423",
+    "promptText": "I've been digging into the \"My Activity\" page for Gemini (the one on `myactivity.google.com/product/gemini`) because I really appreciate the idea of having granular control – like being able to delete a single prompt instead of deleting a whole chat, which most other AIs don't let you do.\n\nHowever, I've run into some pretty significant issues and wanted to see if others have experienced the same, or if maybe I'm misunderstanding something.\n\nHere's what I found:\n\n**Issue 1: Weird Prompt Grouping &amp; Deletion**\n\n* **Observation:** If you send the exact same prompt multiple times consecutively (even across different chats), the Activity log groups them all into *one single item*. The details show merged responses (latest first).\n* **The Problem:** If you try to delete that single grouped item, it deletes *all* the prompts that got grouped together from your chat(s). You can't delete just one specific instance if it got merged.\n* **Example:** Ask \"Test A\" three times in a row. Go to Activity. Delete the single \"Test A\" entry. All three prompts disappear from your chat.\n\nVideo Demonstration:\n\n[Issue 1: Weird Prompt Grouping &amp; Deletion](https://reddit.com/link/1oghh5r/video/zl3wd393wdxf1/player)\n\n**Issue 2: The \"Ghost Chat\" - UI Bug**\n\n* **Observation:** If you use the Activity log to delete *all* the prompts within a specific chat, the chat *is* deleted successfully.\n* **The Problem:** The sidebar list of chats doesn't update. It keeps showing a link to the deleted chat. Clicking it just gives an error (\"Couldn't load...\"), and the only way to make the dead chat disappear from the list is to completely reload the Gemini web app/restart the mobile app.\n* **Impact:** It just feels buggy and makes the sidebar inaccurate until you manually refresh everything.\n\nVideo Demonstration:\n\n[Issue 2: The \\\\\"Ghost Chat\\\\\" - UI Bug](https://reddit.com/link/1oghh5r/video/nh9symjfwdxf1/player)\n\n**Issue 3: Critical Data Loss When Deleting Mid-Chat Prompts**\n\n* **Observation:** Deleting the *very last* prompt of a chat from the Activity log works fine (removes only that one).\n* **The Problem:** If you delete a prompt from the *middle* of a chat via the Activity log (say, prompt #10 out of 20), Gemini deletes **that prompt AND every single prompt that came before it** (so prompts 1 through 10 would be gone).\n* **Impact:** This is potentially catastrophic. Imagine deleting prompt `60` in a `200-prompt chat`, only to find out that you've accidentally wiped out the first `60` prompts of your conversation history!\n\nVideo Demonstration:\n\n[Issue 3: Critical Data Loss When Deleting Mid-Chat Prompts](https://reddit.com/link/1oghh5r/video/o5h2851vwdxf1/player)\n\n**So, my questions for the community:**\n\n1. Do you guys actually **use the \"My Activity\" page** to manage your Gemini chats or delete specific prompts?\n2. Have any of you **noticed these same issues** (the grouping, the ghost chats, or the mid-chat deletion bug)?\n3. How serious do these issues **feel** to you? Am I overreacting, or are these real problems?\n4. And finally, **am I explaining this right, or am I making any mistakes** in my observations?\n\nReally appreciate the intended granular control feature, but these bugs make it pretty risky to use right now. Curious to hear your thoughts!",
+    "title": "Deleting Individual Prompts From Gemini's \"My Activity\": Found Some Weird Bugs (Including Data Lo...",
+    "tags": [
+      "reddit"
+    ],
+    "sourcePlatform": "reddit",
+    "originUrl": "https://www.reddit.com/r/GoogleBard/comments/1oghh5r/deleting_individual_prompts_from_geminis_my/",
+    "author": "code-explorer-O",
+    "modality": [
+      "text"
+    ],
+    "metaMetrics": {
+      "upvotes": 2
+    },
+    "fetchedAt": "2025-11-26T00:28:58.793Z"
+  },
+  {
+    "id": "4face376-a7bf-4213-aed9-2ba3f1d93a1b",
+    "promptText": "I got frustrated seeing people post amazing AI images on Instagram, x, and tiktok, but whenever I wanted the prompt, I had to comment, wait, or even follow them just to get it. That felt annoying and unnecessary. So I decided to build a simple mobile app where the images and prompts are shared openly so anyone can copy it instantly.\n\n👉 search PFP AI on playstore or use this link PFP AI\n\nHere’s what you can do with it:\n\n* Discover a gallery of AI images.\n* See the exact prompts used to generate each image.\n* Generate Images within the app for better trained qualities and without NSFW if you dont have a pro account in gemini\n* Seperate Categories for Boys, Girls and Couples\n\nIt’s still early days, but I’d love feedback from this community:\n\n* Is this something you’d use regularly?\n* Any features you’d like to see added?\n* Do you think prompt + image discovery has long-term value, or is it more of a short-term game?\n\nReally curious what you all think I’ve been iterating fast and want to shape this into something genuinely useful.\n\nThanks for checking it out 🙏",
+    "title": "I scrolled each IG reel, x, tiktok and collected all 1000+ Trending AI Image prompts in a single ...",
+    "tags": [
+      "reddit"
+    ],
+    "sourcePlatform": "reddit",
+    "originUrl": "https://www.reddit.com/r/GoogleBard/comments/1nx6vg0/i_scrolled_each_ig_reel_x_tiktok_and_collected/",
+    "author": "No_Count_1533",
+    "modality": [
+      "text"
+    ],
+    "metaMetrics": {
+      "upvotes": 40
+    },
+    "fetchedAt": "2025-11-26T00:28:58.793Z"
+  },
+  {
+    "id": "0e3b602b-153b-4100-a338-909e6a8da73e",
+    "promptText": "\n**More cool prompts on my profile Free** 🆓\n\n❇️ **Here's the Prompt** 👇🏻👇🏻👇🏻\n```\n{ \"description\": \"Inside a deep teal lacquered box, styled like a storm-tossed vessel adrift in\r\nthe cosmos, lies a surreal oceanic scene. As the lid opens, crashing waves and swirling mist\r\nenvelop a miniature boat sailing through a tempestuous sea. Beyond the box, the infinite\r\nuniverse stretches in all directions—stars shimmer, galaxies swirl, and cosmic light dances\r\nacross the void. At the center of the stormy sea, a sculpted bottle of 'Acqua di Gioia –\r\nArmani' perfume stands firmly on the deck, its glass glistening with sea spray and defiance.\r\nLightning flashes illuminate the dark waters, while the boat rocks gently in the storm. The\r\ncamera begins with a macro focus on the Armani logo etched into the bottle, then pulls back\r\nto reveal the full dramatic tableau within the box, framed by the vastness of space. The inner\r\nlid of the box reveals the elegant 'ARMANI' logo in silver foil, glowing like moonlight through\r\nthe storm. The entire composition evokes aquatic strength, emotional depth, and cosmic\r\nelegance.\", \"style\": \"editorial high-fashion, surreal luxury with stormy ocean tones and\r\ncosmic realism\", \"camera\": { \"type\": \"macro to wide shot\", \"movement\": \"macro focus on\r\nArmani logo → pull back to reveal stormy sea scene inside box → slow pan across waves,\r\nmist, and perfume bottle → final pullback to reveal box floating in the universe\" }, \"lighting\":\r\n\"moody storm light with flashes of lightning inside the box; soft cosmic glow outside;\r\nshimmering reflections on wet glass and water\", \"environment\": { \"location\": \"inside a deep\r\nteal lacquered box styled as a storm-tossed vessel adrift in space\", \"props\": [ \"miniature\r\nstormy sea\", \"drifting boat\", \"lightning flashes\", \"Acqua di Gioia – Armani perfume bottle\",\r\n\"swirling mist\", \"silver foil ARMANI logo on inner lid\", \"cosmic starscape surrounding the box\"\r\n] }, \"elements\": [ \"miniature stormy ocean\", \"perfume bottle on boat deck\", \"crashing waves\",\r\n\"swirling mist\", \"luxurious Armani box setting\", \"cosmic backdrop\", \"editorial composition with\r\nstormy and celestial tones\" ], \"motion\": { \"waves\": \"crash and surge around the boat\", \"mist\":\r\n\"swirls dramatically in the wind\", \"camera\": \"macro focus transitions to wide view, pans\r\nacross stormy ocean scene, then pulls back to reveal box floating in space\" }, \"ending\": \"The\r\ncamera lingers on the Acqua di Gioia bottle as it glows defiantly amid the storm, framed by\r\nwaves and the silver ARMANI logo, then slowly zooms out to reveal the box adrift in the\r\ninfinite universe, evoking a sense of aquatic resilience and cosmic beauty.\", \"audio\": { \"sfx\": [\r\n\"crashing waves\", \"howling wind\", \"lightning crack\", \"ambient storm hum\", \"distant cosmic\r\nhum\" ] }, \"text\": \"none\", \"keywords\": [ \"Armani box\", \"miniature stormy ocean\", \"Acqua di\r\nGioia perfume\", \"aquatic luxury\", \"editorial fashion\", \"surreal advertising\", \"photographic\r\nrealism\", \"emotional depth\", \"cosmic elegance\", \"infinite universe\" ] }\n```\n",
+    "title": "Armani Unboxing (prompt in comment)",
+    "tags": [
+      "reddit"
+    ],
+    "sourcePlatform": "reddit",
+    "originUrl": "https://www.reddit.com/r/GoogleBard/comments/1n8ko57/armani_unboxing_prompt_in_comment/",
+    "author": "shadow--404",
+    "modality": [
+      "text"
+    ],
+    "metaMetrics": {
+      "upvotes": 0
+    },
+    "fetchedAt": "2025-11-26T00:28:58.793Z"
+  },
+  {
+    "id": "59153a43-f3be-403e-b48b-21a90fb43194",
     "promptText": "You are an expert software engineer...",
     "title": "Advanced Coding Assistant",
     "tags": [
@@ -80,6 +206,42 @@
     "modality": [
       "text"
     ],
-    "fetchedAt": "2025-11-26T12:50:21.844Z"
+    "fetchedAt": "2025-11-26T00:28:58.793Z"
+  },
+  {
+    "id": "523675b6-8220-4f13-8346-ee72fdc47785",
+    "title": "Photorealistic cast of Persona 5",
+    "promptText": "The prompt was just: \"Create a photorealistic image of the main characters of the video game Persona 5 Royale\".\n\nJust crazy. A year from now, it'll probably create an entire movie with one prompt.",
+    "tags": [
+      "generated images (with prompt)"
+    ],
+    "sourcePlatform": "reddit",
+    "originUrl": "https://www.reddit.com/r/GeminiAI/comments/1p7164l/photorealistic_cast_of_persona_5/",
+    "author": "SvenLorenz",
+    "modality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-26T14:22:09.987Z",
+    "metaMetrics": {
+      "upvotes": 49
+    }
+  },
+  {
+    "id": "f9014cf3-dfd3-4272-a752-3f3a13d1330d",
+    "title": "Banana is a real Pro",
+    "promptText": "Prompt:\n\nA image of GTA VI with a female character walking around in Florida with ray tracing lights shadows on unreal engine 5 on the highest settings 4k with lively with npc florida vice city environment like I'm playing the game right now, with very realistic npcs and props and vegetation and tress around and very detailed environments, with modern colorful bright cars around parked on road side or running the main road, cars from gta online DLC.",
+    "tags": [
+      "generated images (with prompt)"
+    ],
+    "sourcePlatform": "reddit",
+    "originUrl": "https://www.reddit.com/r/GeminiAI/comments/1p76enz/banana_is_a_real_pro/",
+    "author": "Zestyclose-Wear7237",
+    "modality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-26T14:22:09.988Z",
+    "metaMetrics": {
+      "upvotes": 9
+    }
   }
 ]
