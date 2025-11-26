@@ -1,9 +1,9 @@
 [
   {
     "id": "0efa36c9-4285-48dd-890d-c4c18c27e9c4",
-    "title": "Code Refactoring Expert",
     "promptText": "Analyze the provided code snippet for performance bottlenecks, readability issues, and anti-patterns. Suggest improvements with explained reasoning and provide the refactored code using modern best practices.",
     "systemInstruction": "You are a senior software engineer specializing in code refactoring.",
+    "title": "Code Refactoring Expert",
     "tags": [
       "coding",
       "refactoring"
@@ -21,8 +21,8 @@
   },
   {
     "id": "b4fcfc29-f8b2-4204-91b4-f8ff5f8c4433",
-    "title": "Visual Storyteller",
     "promptText": "Based on this image, write a short mystery story about what happened just before this scene.",
+    "title": "Visual Storyteller",
     "tags": [
       "creative",
       "writing",
@@ -39,8 +39,8 @@
   },
   {
     "id": "3890370f-bf59-48ec-a9ed-263234ee5917",
-    "title": "JSON Data Extractor",
     "promptText": "Extract the following fields from the invoice text: invoice_id, date, total_amount, vendor_name.",
+    "title": "JSON Data Extractor",
     "tags": [
       "data-extraction",
       "json"
@@ -66,5 +66,20 @@
       "upvotes": 45
     },
     "fetchedAt": "2025-11-25T16:18:34.833Z"
+  },
+  {
+    "id": "1136daa6-6556-4c0c-ba5b-46b5aac8bd89",
+    "promptText": "You are an expert software engineer...",
+    "title": "Advanced Coding Assistant",
+    "tags": [
+      "coding",
+      "python"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/example/prompt",
+    "modality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-26T01:47:35.696Z"
   }
 ]
