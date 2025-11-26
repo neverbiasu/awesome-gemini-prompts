@@ -65,14 +65,37 @@ export async function scrapeGithub(): Promise<GeminiPrompt[]> {
       if (repo.object?.text) {
         try {
           const repoPrompts = JSON.parse(repo.object.text);
-          // Basic validation/mapping could happen here
           if (Array.isArray(repoPrompts)) {
-             // Map to our schema if needed, or assume compatibility
-             // For now, we just log found repos
-             console.log(`   Found prompts in ${repo.owner.login}/${repo.name}`);
+             console.log(`   Found ${repoPrompts.length} prompts in ${repo.owner.login}/${repo.name}`);
+             
+             repoPrompts.forEach((p: any) => {
+                // Basic mapping to ensure compatibility
+                const prompt: GeminiPrompt = {
+                  id: crypto.randomUUID(), // Generate new ID for local storage
+                  title: p.title || "Untitled Prompt",
+                  promptText: p.promptText || p.prompt || "",
+                  systemInstruction: p.systemInstruction,
+                  tags: Array.isArray(p.tags) ? p.tags : [],
+                  sourcePlatform: "github",
+                  originUrl: p.originUrl || repo.url,
+                  author: p.author || repo.owner.login,
+                  modelTarget: p.modelTarget,
+                  modality: Array.isArray(p.modality) ? p.modality : ["text"],
+                  fetchedAt: new Date().toISOString(),
+                  metaMetrics: {
+                    stars: p.metaMetrics?.stars || 0,
+                    forks: p.metaMetrics?.forks || 0,
+                  }
+                };
+                
+                // Only add if it has the minimum required fields
+                if (prompt.promptText && prompt.promptText.length >= 10) {
+                  prompts.push(prompt);
+                }
+             });
           }
         } catch (e) {
-          // Ignore parse errors
+          console.warn(`   Failed to parse prompts.json from ${repo.owner.login}/${repo.name}`);
         }
       }
     });

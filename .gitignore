@@ -17,10 +17,13 @@
 /.next/
 /out/
 
-
 # Documentation
 docs/
-.DS_Store
+
+
+
+
+
 *.pem
 
 # debug
