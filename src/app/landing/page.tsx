@@ -38,7 +38,7 @@ export default function LandingPage() {
                 Explore the Hub
               </Button>
             </Link>
-            <Link href="https://github.com/nev4rb14su/awesome-gemini-prompts" target="_blank">
+            <Link href="https://github.com/neverbiasu/awesome-gemini-prompts" target="_blank">
               <Button 
                 size="lg" 
                 variant="bordered" 
