@@ -68,7 +68,7 @@
     "fetchedAt": "2025-11-25T16:18:34.833Z"
   },
   {
-    "id": "6e9a9855-cd0c-455c-98ed-a07ff5ba62de",
+    "id": "1091b976-4772-4418-a963-23d32a47481a",
     "promptText": "You are an expert software engineer...",
     "title": "Advanced Coding Assistant",
     "tags": [
@@ -80,6 +80,6 @@
     "modality": [
       "text"
     ],
-    "fetchedAt": "2025-11-26T06:35:32.866Z"
+    "fetchedAt": "2025-11-26T12:50:21.844Z"
   }
 ]
