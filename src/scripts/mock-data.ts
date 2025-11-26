@@ -4,40 +4,57 @@ import { GeminiPrompt } from '../schema/prompt';
 
 const DATA_FILE = path.join(process.cwd(), 'data', 'prompts.json');
 
-const MOCK_PROMPTS: GeminiPrompt[] = [
+export const MOCK_PROMPTS: GeminiPrompt[] = [
   {
-    id: crypto.randomUUID(),
-    title: "Code Refactoring Expert",
-    promptText: "Analyze the provided code snippet for performance bottlenecks, readability issues, and anti-patterns. Suggest improvements with explained reasoning and provide the refactored code using modern best practices.",
-    systemInstruction: "You are a senior software engineer specializing in code refactoring.",
-    tags: ["coding", "refactoring"],
+    id: "1",
+    title: "Creative Storyteller",
+    promptText: "Write a short story about a robot who discovers emotions...",
+    systemInstruction: "Act as an award-winning sci-fi author.",
+    tags: ["creative", "writing", "sci-fi"],
+    sourcePlatform: "user",
+    originUrl: "https://example.com",
+    modelTarget: ["gemini-1.5-pro", "gemini-ultra"],
+    inputModality: ["text"],
+    outputModality: ["text"],
+    confidenceScore: 1.0,
+    metaMetrics: {
+      upvotes: 120,
+      stars: 45
+    },
+    author: {
+      name: "GeminiFan",
+      profileUrl: "https://github.com/geminifan"
+    },
+    fetchedAt: new Date().toISOString()
+  },
+  {
+    id: "2",
+    title: "Code Optimizer",
+    promptText: "Optimize this Python function for time complexity...",
+    tags: ["coding", "python", "optimization"],
     sourcePlatform: "github",
-    originUrl: "https://github.com/awesome-prompts/code-refactor",
-    modelTarget: "gemini-1.5-pro",
-    modality: ["text"],
-    metaMetrics: { stars: 120 },
-    fetchedAt: new Date().toISOString(),
+    originUrl: "https://github.com/some-repo/code-optimizer",
+    modelTarget: ["gemini-1.5-pro"],
+    inputModality: ["text"],
+    outputModality: ["code"],
+    confidenceScore: 0.95,
+    metaMetrics: {
+      upvotes: 80,
+      stars: 30
+    },
+    fetchedAt: new Date().toISOString()
   },
   {
-    id: crypto.randomUUID(),
-    title: "Visual Storyteller",
-    promptText: "Based on this image, write a short mystery story about what happened just before this scene.",
-    tags: ["creative", "writing", "multimodal"],
-    sourcePlatform: "official_docs",
-    originUrl: "https://ai.google.dev/gemini-api/prompts/storyteller",
-    modelTarget: "gemini-pro-vision",
-    modality: ["text", "image"],
-    fetchedAt: new Date().toISOString(),
-  },
-  {
-    id: crypto.randomUUID(),
+    id: "3",
     title: "JSON Data Extractor",
     promptText: "Extract the following fields from the invoice text: invoice_id, date, total_amount, vendor_name.",
     tags: ["data-extraction", "json"],
-    sourcePlatform: "reddit",
-    originUrl: "https://reddit.com/r/GoogleGeminiAI/comments/12345/json_extraction",
-    modelTarget: "gemini-1.5-flash",
-    modality: ["text"],
+    sourcePlatform: "web",
+    originUrl: "https://example.com/json",
+    modelTarget: ["gemini-1.5-flash"],
+    inputModality: ["text"],
+    outputModality: ["code"],
+    confidenceScore: 0.88,
     outputSchema: {
       type: "object",
       properties: {
@@ -46,7 +63,7 @@ const MOCK_PROMPTS: GeminiPrompt[] = [
       }
     },
     metaMetrics: { upvotes: 45 },
-    fetchedAt: new Date().toISOString(),
+    fetchedAt: new Date().toISOString()
   }
 ];
 

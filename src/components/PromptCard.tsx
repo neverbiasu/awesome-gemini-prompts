@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Card, CardHeader, CardBody, CardFooter, Button } from "@heroui/react";
+import { Card, CardHeader, CardBody, CardFooter, Button, Chip } from "@heroui/react";
 import { GeminiPrompt } from "../schema/prompt";
 
 const PLATFORM_CONFIG: Record<string, { color: string; label: string; icon: string }> = {
@@ -74,31 +74,54 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
       
       {/* Body: Content & Specs */}
       <CardBody className="p-5 flex flex-col gap-4">
-        {/* System Instruction (if present) */}
+        {/* System Instruction (Persona) */}
         {prompt.systemInstruction && (
-          <div className="relative overflow-hidden rounded-lg bg-blue-500/5 border border-blue-500/10 p-3">
-            <div className="absolute top-0 left-0 w-1 h-full bg-blue-500/50" />
-            <p className="text-[10px] uppercase font-bold text-blue-400 mb-1">System Instruction</p>
-            <p className="text-xs text-blue-200/80 line-clamp-2 font-mono">{prompt.systemInstruction}</p>
+          <div className="mb-3 p-3 bg-default-100 rounded-lg border-l-4 border-secondary text-xs font-mono text-default-600">
+            <div className="flex justify-between items-center mb-1">
+              <div className="uppercase text-[10px] font-bold text-secondary tracking-wider">System Instruction</div>
+              <Chip size="sm" variant="flat" color="warning" className="h-5 text-[10px] px-1">API Only</Chip>
+            </div>
+            {prompt.systemInstruction}
           </div>
         )}
 
-        {/* Main Prompt Content - IDE Style */}
-        <div className="relative flex-1 min-h-[120px] rounded-lg bg-black/40 border border-white/5 p-4 font-mono text-sm text-zinc-300 leading-relaxed overflow-y-auto scrollbar-thin scrollbar-thumb-zinc-800 scrollbar-track-transparent">
-          {prompt.promptText}
+        {/* User Prompt */}
+        <div className="relative group">
+          <div className="uppercase text-[10px] font-bold text-default-400 mb-1 tracking-wider">User Prompt</div>
+          <p className="text-sm text-default-600 line-clamp-3 group-hover:line-clamp-none transition-all duration-300">
+            {prompt.promptText}
+          </p>
         </div>
 
         {/* Tags & Modality */}
-        <div className="flex flex-wrap gap-2 items-center justify-between mt-auto pt-2">
-          <div className="flex flex-wrap gap-1.5">
-            {prompt.modelTarget && (
-               <span className="px-2 py-0.5 rounded text-[10px] font-medium bg-zinc-800 text-zinc-400 border border-zinc-700/50">
-                 {prompt.modelTarget}
-               </span>
-            )}
-            {prompt.modality?.map(m => (
-               <span key={m} className="px-2 py-0.5 rounded text-[10px] font-medium bg-zinc-800 text-zinc-400 border border-zinc-700/50">
-                 {m}
+        <div className="flex items-center gap-2 mt-4 text-xs text-default-400">
+          {/* Input Modality */}
+          <div className="flex gap-1">
+            {(prompt.inputModality || ["text"]).map((m) => (
+              <Chip key={m} size="sm" variant="flat" color="default" className="capitalize">
+                In: {m}
+              </Chip>
+            ))}
+          </div>
+          
+          <span>→</span>
+
+          {/* Output Modality */}
+          <div className="flex gap-1">
+            {(prompt.outputModality || ["text"]).map((m) => (
+              <Chip key={m} size="sm" variant="flat" color="primary" className="capitalize">
+                Out: {m}
+              </Chip>
+            ))}
+          </div>
+
+          <div className="w-px h-3 bg-default-300 mx-1" />
+
+          {/* Model Targets */}
+          <div className="flex gap-1">
+            {(Array.isArray(prompt.modelTarget) ? prompt.modelTarget : (prompt.modelTarget ? [prompt.modelTarget] : ["gemini-1.5-pro"])).map((model) => (
+               <span key={model} className="px-1.5 py-0.5 rounded bg-default-100 border border-default-200 text-[10px]">
+                 {model.replace('gemini-', '')}
                </span>
             ))}
           </div>
@@ -108,7 +131,7 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
       {/* Footer: Action */}
       <CardFooter className="p-5 pt-0 flex justify-between items-center border-t border-white/5 mt-auto">
         <div className="flex gap-2 overflow-hidden">
-           {prompt.tags.slice(0, 3).map((tag) => (
+           {(prompt.tags || []).slice(0, 3).map((tag) => (
             <span key={tag} className="text-xs text-zinc-500 hover:text-zinc-300 transition-colors cursor-default">
               #{tag}
             </span>
