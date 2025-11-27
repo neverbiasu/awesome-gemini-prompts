@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Card, CardHeader, CardBody, CardFooter, Button, Chip } from "@heroui/react";
+import { Card, CardHeader, CardBody, CardFooter, Button, Chip, Tooltip } from "@heroui/react";
 import { GeminiPrompt } from "../schema/prompt";
 
 const PLATFORM_CONFIG: Record<string, { color: string; label: string; icon: string }> = {
@@ -12,48 +12,62 @@ const PLATFORM_CONFIG: Record<string, { color: string; label: string; icon: stri
   social: { color: "text-sky-400 bg-sky-400/10", label: "Social", icon: "twitter" },
 };
 
-function CopyButton({ text }: { text: string }) {
+function CopyButton({ text, tooltip = "Copy Prompt" }: { text: string; tooltip?: string }) {
   const [copied, setCopied] = useState(false);
 
-  const handleCopy = async () => {
+  const handleCopy = async (e: React.MouseEvent) => {
+    e.stopPropagation(); // Prevent opening modal
+    e.preventDefault();
     await navigator.clipboard.writeText(text);
     setCopied(true);
     setTimeout(() => setCopied(false), 2000);
   };
 
   return (
-    <Button
-      isIconOnly
-      onPress={handleCopy}
-      size="sm"
-      variant="light"
-      className={`transition-all duration-300 ${
-        copied 
-          ? "text-emerald-400 bg-emerald-400/10" 
-          : "text-zinc-400 hover:text-zinc-100 hover:bg-white/5"
-      }`}
-      aria-label="Copy prompt"
-    >
-      {copied ? (
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-        </svg>
-      ) : (
-        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
-        </svg>
-      )}
-    </Button>
+    <Tooltip content={copied ? "Copied!" : tooltip}>
+      <Button
+        isIconOnly
+        onClick={handleCopy}
+        size="sm"
+        variant="light"
+        className={`transition-all duration-300 min-w-8 w-8 h-8 ${
+          copied 
+            ? "text-emerald-400 bg-emerald-400/10" 
+            : "text-zinc-400 hover:text-zinc-100 hover:bg-white/5"
+        }`}
+        aria-label={tooltip}
+      >
+        {copied ? (
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+          </svg>
+        ) : (
+          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+          </svg>
+        )}
+      </Button>
+    </Tooltip>
   );
 }
 
 export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
   const platform = PLATFORM_CONFIG[prompt.sourcePlatform] || PLATFORM_CONFIG.web;
 
+  // Helper to format model list
+  const models = Array.isArray(prompt.modelTarget) ? prompt.modelTarget : (prompt.modelTarget ? [prompt.modelTarget] : ["gemini-1.5-pro"]);
+  const displayModel = models[0].replace('gemini-', '');
+  const extraModelsCount = models.length - 1;
+
   return (
-    <Card className="group w-full h-full border border-white/5 bg-zinc-900/40 hover:bg-zinc-900/80 hover:border-white/10 transition-all duration-300 rounded-xl backdrop-blur-sm">
+    <Card 
+      isPressable={false}
+      className="group w-full h-[380px] border border-white/5 bg-zinc-900/40 hover:bg-zinc-900/80 hover:border-white/10 transition-all duration-300 rounded-xl backdrop-blur-sm flex flex-col text-left"
+    >
       {/* Header: Title & Meta */}
-      <CardHeader className="flex flex-col items-start gap-3 p-5 pb-0">
+      <CardHeader 
+        className="flex flex-col items-start gap-3 p-5 pb-0 shrink-0 w-full"
+      >
         <div className="flex w-full justify-between items-start">
           <div className={`px-2 py-1 rounded text-[10px] uppercase font-bold tracking-wider ${platform.color} border border-white/5`}>
             {platform.label}
@@ -67,77 +81,96 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
             </div>
           )}
         </div>
-        <h3 className="text-lg font-semibold text-zinc-100 leading-tight group-hover:text-white transition-colors">
-          {prompt.title}
-        </h3>
+        <Tooltip content={prompt.title} delay={1000}>
+          <h3 className="text-lg font-semibold text-zinc-100 leading-tight group-hover:text-white transition-colors line-clamp-1 w-full">
+            {prompt.title}
+          </h3>
+        </Tooltip>
       </CardHeader>
       
       {/* Body: Content & Specs */}
-      <CardBody className="p-5 flex flex-col gap-4">
+      <CardBody 
+        className="p-5 flex flex-col gap-3 overflow-hidden w-full h-full"
+      >
         {/* System Instruction (Persona) */}
         {prompt.systemInstruction && (
-          <div className="mb-3 p-3 bg-default-100 rounded-lg border-l-4 border-secondary text-xs font-mono text-default-600">
+          <div className={`
+            relative rounded-lg border-l-4 border-secondary bg-default-100/50 p-3 text-xs font-mono text-default-600
+            ${!prompt.promptText ? 'flex-1 overflow-hidden' : 'shrink-0 max-h-[40%] overflow-hidden'}
+          `}>
             <div className="flex justify-between items-center mb-1">
-              <div className="uppercase text-[10px] font-bold text-secondary tracking-wider">System Instruction</div>
-              <Chip size="sm" variant="flat" color="warning" className="h-5 text-[10px] px-1">API Only</Chip>
+              <span className="uppercase text-[10px] font-bold text-secondary tracking-wider">System</span>
+              <span className="text-[9px] text-warning uppercase font-bold tracking-wider border border-warning/20 px-1 rounded">API Only</span>
             </div>
-            {prompt.systemInstruction}
+            <div className="relative h-full">
+                 <p className="whitespace-pre-wrap line-clamp-none">{prompt.systemInstruction}</p>
+            </div>
           </div>
         )}
 
         {/* User Prompt */}
-        <div className="relative group">
-          <div className="uppercase text-[10px] font-bold text-default-400 mb-1 tracking-wider">User Prompt</div>
-          <p className="text-sm text-default-600 line-clamp-3 group-hover:line-clamp-none transition-all duration-300">
-            {prompt.promptText}
-          </p>
-        </div>
+        {prompt.promptText && (
+          <div className="relative group flex-1 overflow-hidden flex flex-col">
+            <Chip size="sm" variant="flat" color="secondary" className="mb-2 h-5 text-[10px] uppercase font-bold tracking-wider bg-secondary/10 text-secondary shrink-0 w-fit">
+              User Prompt
+            </Chip>
+            <div className="relative flex-1 overflow-hidden">
+              <p className="text-sm text-default-500 whitespace-pre-wrap font-mono leading-relaxed">
+                {prompt.promptText}
+              </p>
+            </div>
+          </div>
+        )}
 
-        {/* Tags & Modality */}
-        <div className="flex items-center gap-2 mt-4 text-xs text-default-400">
+        {/* Tech Stack (Footer Top) */}
+        <div className="flex items-center gap-2 mt-auto pt-3 text-xs text-default-400 shrink-0 border-t border-white/5 w-full">
           {/* Input Modality */}
           <div className="flex gap-1">
-            {(prompt.inputModality || ["text"]).map((m) => (
-              <Chip key={m} size="sm" variant="flat" color="default" className="capitalize">
-                In: {m}
+            {(prompt.inputModality || ["text"]).slice(0, 2).map((m) => (
+              <Chip key={m} size="sm" variant="dot" color="default" className="h-5 text-[10px] border-none pl-1">
+                {m}
               </Chip>
             ))}
           </div>
           
-          <span>→</span>
-
-          {/* Output Modality */}
-          <div className="flex gap-1">
-            {(prompt.outputModality || ["text"]).map((m) => (
-              <Chip key={m} size="sm" variant="flat" color="primary" className="capitalize">
-                Out: {m}
-              </Chip>
-            ))}
-          </div>
-
-          <div className="w-px h-3 bg-default-300 mx-1" />
+          <div className="w-px h-3 bg-default-300/20 mx-1" />
 
           {/* Model Targets */}
-          <div className="flex gap-1">
-            {(Array.isArray(prompt.modelTarget) ? prompt.modelTarget : (prompt.modelTarget ? [prompt.modelTarget] : ["gemini-1.5-pro"])).map((model) => (
-               <span key={model} className="px-1.5 py-0.5 rounded bg-default-100 border border-default-200 text-[10px]">
-                 {model.replace('gemini-', '')}
+          <Tooltip content={models.join(", ")}>
+            <div className="flex items-center gap-1 cursor-help">
+               <span className="px-1.5 py-0.5 rounded bg-zinc-800 border border-zinc-700 text-[10px] text-zinc-300">
+                 {displayModel}
                </span>
-            ))}
-          </div>
+               {extraModelsCount > 0 && (
+                 <span className="text-[10px] text-zinc-500">+{extraModelsCount}</span>
+               )}
+            </div>
+          </Tooltip>
         </div>
       </CardBody>
       
       {/* Footer: Action */}
-      <CardFooter className="p-5 pt-0 flex justify-between items-center border-t border-white/5 mt-auto">
-        <div className="flex gap-2 overflow-hidden">
+      <CardFooter className="p-5 pt-0 flex justify-between items-center shrink-0 h-[50px] w-full relative z-20">
+        <div className="flex gap-2 overflow-hidden mask-linear-fade">
            {(prompt.tags || []).slice(0, 3).map((tag) => (
-            <span key={tag} className="text-xs text-zinc-500 hover:text-zinc-300 transition-colors cursor-default">
-              #{tag}
+            <span key={tag} className="px-2 py-0.5 rounded-md bg-zinc-800/50 border border-zinc-700/50 text-[10px] text-zinc-400 hover:text-zinc-200 transition-colors cursor-default whitespace-nowrap">
+              {tag}
             </span>
           ))}
         </div>
-        <CopyButton text={prompt.promptText} />
+        <div className="flex gap-1 items-center">
+            
+          {/* Dual Copy Buttons for Hybrid Mode */}
+          {prompt.systemInstruction ? (
+            <>
+              <div className="w-px h-4 bg-white/10 mx-1" />
+              <CopyButton text={prompt.systemInstruction} tooltip="Copy System Instruction" />
+              <CopyButton text={prompt.promptText} tooltip="Copy User Prompt" />
+            </>
+          ) : (
+            <CopyButton text={prompt.promptText} tooltip="Copy User Prompt" />
+          )}
+        </div>
       </CardFooter>
     </Card>
   );
