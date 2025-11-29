@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "scrape": "tsx src/scripts/main.ts"
   },
   "dependencies": {
     "@ai-sdk/google": "^2.0.43",
@@ -20,8 +21,10 @@
     "framer-motion": "^12.23.24",
     "fs-extra": "^11.3.2",
     "next": "16.0.4",
+    "octokit": "^5.0.5",
     "react": "19.2.0",
     "react-dom": "19.2.0",
+    "snoowrap": "^1.23.0",
     "tailwind-merge": "^3.4.0",
     "zod": "^4.1.13"
   },
@@ -32,11 +35,13 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/snoowrap": "^1.16.1",
     "eslint": "^9",
     "eslint-config-next": "16.0.4",
     "playwright": "^1.56.1",
     "tailwindcss": "^4",
     "ts-node": "^10.9.2",
+    "tsx": "^4.20.6",
     "typescript": "^5"
   }
 }

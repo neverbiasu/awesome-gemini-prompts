@@ -1,0 +1,1129 @@
+[
+  {
+    "id": "edc6db89-099f-4c5c-a73f-647f0c1eed1c",
+    "title": "Audio Diarization",
+    "promptText": "Transcribe audio with speaker details and timestamps.",
+    "description": "Transcribe audio with speaker details and timestamps.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/audio-diarization",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.363Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "2a1df33c-bd33-4685-b07c-42e89b5d2b61",
+    "title": "Video Q&A",
+    "promptText": "Ask questions about key details in a video.",
+    "description": "Ask questions about key details in a video.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/video-qa",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "a690df81-82d0-4c6c-9425-3a9cc8db5368",
+    "title": "Recipe to JSON",
+    "promptText": "Create recipe in JSON mode using an image.",
+    "description": "Create recipe in JSON mode using an image.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/recipe-list-json",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "9cca5393-396d-425d-9118-b7e74d5e5e8f",
+    "title": "Listing recipes using JSON schema",
+    "promptText": "Create JSON based on specified schema.",
+    "description": "Create JSON based on specified schema.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/recipe-to-json",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "02622f46-477c-423d-8c81-18196a7a6d54",
+    "title": "Math Tutor",
+    "promptText": "Teach me a lesson on quadratic equations.",
+    "description": "Teach me a lesson on quadratic equations.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/math-tutor",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "9bdf7db1-f3cf-4f0e-ac39-b506ee9a4199",
+    "title": "Math Worksheet Generator",
+    "promptText": "Create a set of elementary math worksheets for math educators and parents.",
+    "description": "Create a set of elementary math worksheets for math educators and parents.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/worksheet-generator",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "3cebe0d9-dd9b-4767-b815-1e17f85fde41",
+    "title": "Scavenger Hunt",
+    "promptText": "Create a curated list of scavenger hunt concepts.",
+    "description": "Create a curated list of scavenger hunt concepts.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/scavanger-hunt",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "ec16ce70-70af-43a7-aa5b-eddc529e28df",
+    "title": "Unit Testing",
+    "promptText": "Add unit tests for a Python function.",
+    "description": "Add unit tests for a Python function.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/unit-testing",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "c3088d70-5021-408e-8fd8-27c6cd7467ae",
+    "title": "Geometry problem solving",
+    "promptText": "Solve for X in an image.",
+    "description": "Solve for X in an image.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/geometry-problem",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "26af1aa0-a881-4e43-acc2-06419eca3df1",
+    "title": "Trip recommendations",
+    "promptText": "Convert unorganized text into structured tables.",
+    "description": "Convert unorganized text into structured tables.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/trip-recommendations",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "0f10de95-f8a4-447a-a227-96323f7cbb23",
+    "title": "Time complexity",
+    "promptText": "Identify the time complexity of a function and optimize it.",
+    "description": "Identify the time complexity of a function and optimize it.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/time-complexity",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "cc2d6a9f-4778-4c16-bbb9-35b07d2a75ff",
+    "title": "Opossum Search",
+    "promptText": "Create a webpage based on the user’s specifications.",
+    "description": "Create a webpage based on the user’s specifications.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/opposum-search",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "9757ec7c-5cf8-4a70-a392-3ba6fb76fe65",
+    "title": "Object identifier",
+    "promptText": "Get a description of an object and its uses from a photo.",
+    "description": "Get a description of an object and its uses from a photo.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/object-identifier",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "29eeecd3-f613-499f-bdeb-966729be5e49",
+    "title": "Marketing writer",
+    "promptText": "Get catchy advertising copy tailored to your product and target audience.",
+    "description": "Get catchy advertising copy tailored to your product and target audience.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/marketing-description-writer",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "b98e7095-f4ec-4a28-9148-b3809947bb39",
+    "title": "List items from image",
+    "promptText": "Get a list of objects in a photo.",
+    "description": "Get a list of objects in a photo.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/list-items-from-image",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "0ecc59a2-0f03-4365-8af4-810e62572b3a",
+    "title": "Blog post creator",
+    "promptText": "Generate a unique blog post from a single image.",
+    "description": "Generate a unique blog post from a single image.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/blog-post-creator",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "a2045078-b2d4-49b7-8137-8c1880c0e66f",
+    "title": "Barista Bot",
+    "promptText": "Order common coffee drinks from this virtual barista.",
+    "description": "Order common coffee drinks from this virtual barista.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/barista-bot",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "045fc5c1-81ef-4d3a-9b47-2f9178f21bf4",
+    "title": "ML confusion matrix",
+    "promptText": "Get help generating a confusion matrix and metrics for your classifier.",
+    "description": "Get help generating a confusion matrix and metrics for your classifier.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/ml-confusion-matrix",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "863b5dcd-7bb6-44e4-b0be-efc194d7759e",
+    "title": "Sentiment analysis",
+    "promptText": "Analyze the sentiment of text messages.",
+    "description": "Analyze the sentiment of text messages.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/sentiment-analysis-chat",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "42e3de45-a3e5-4143-8ff2-050da970b4f2",
+    "title": "Research Assistant",
+    "promptText": "Understand the key attributes of the research paper’s methodology.",
+    "description": "Understand the key attributes of the research paper’s methodology.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/research-assistant",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "92c23e4a-4d75-4098-b1a3-081633e10c1b",
+    "title": "Which shape comes next?",
+    "promptText": "Given a series of shapes, guess which shape comes next.",
+    "description": "Given a series of shapes, guess which shape comes next.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/what-shape-comes-next",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "66ef3b30-21e2-4b99-b779-a49b88cce91e",
+    "title": "Plant care",
+    "promptText": "How do I best care for this plant.",
+    "description": "How do I best care for this plant.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/plant-care",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "e5992105-9038-40cc-b49f-a7e5e724a3a3",
+    "title": "Docker Script",
+    "promptText": "Writing a script in Docker to set up your environment.",
+    "description": "Writing a script in Docker to set up your environment.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/docker-script",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "fc89a4f5-7fef-4b15-87d0-1d950c7fb543",
+    "title": "Santa’s Mailbox",
+    "promptText": "Capture a handwritten letter to Santa and write back as him.",
+    "description": "Capture a handwritten letter to Santa and write back as him.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/santas-mailbox",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "7738fb49-2ba9-40ec-b3cc-678a1b35b50d",
+    "title": "Brand Extractor",
+    "promptText": "Extract product and brand names from text.",
+    "description": "Extract product and brand names from text.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/brand-extractor",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "3cffe636-3030-4ac9-8224-a86b54904626",
+    "title": "Cook Helper",
+    "promptText": "Get recipe ideas based on an image of the ingredients you have on hand.",
+    "description": "Get recipe ideas based on an image of the ingredients you have on hand.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/cook-helper",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "c932ee31-5fe1-4c57-a398-ce3806ef57de",
+    "title": "Game Character Brainstorm",
+    "promptText": "Create a character design based on a provided context.",
+    "description": "Create a character design based on a provided context.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/game-character-brainstorming",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "642590b1-11c2-4dee-a78c-d4a358cf385d",
+    "title": "Modify writing style",
+    "promptText": "Change the tone and writing style of a blurb.",
+    "description": "Change the tone and writing style of a blurb.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/modify-tone-writing-style",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "72983441-19c9-419b-96e3-a2aae3b4e3b4",
+    "title": "Regexed",
+    "promptText": "Convert natural language queries and constraints to regex constructs.",
+    "description": "Convert natural language queries and constraints to regex constructs.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/regexed",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:13.364Z",
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "confidenceScore": 0.8
+  },
+  {
+    "id": "d7e13137-a22f-43a8-a9a6-4bc204d1f34b",
+    "title": "Story_Writing_with_Prompt_Chaining",
+    "promptText": "##### Copyright 2025 Google LLC.... (See Notebook)",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/Story_Writing_with_Prompt_Chaining.ipynb",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code",
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:14.579Z",
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "confidenceScore": 0.9
+  },
+  {
+    "id": "8ce14c95-ba9a-49a9-abc8-6fefacfe7f3b",
+    "title": "Role_prompting",
+    "promptText": "\n    You are a highly regarded music connoisseur, you are a big fan of Mozart.\n    You recently listened to Mozart's Requiem.\n",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/prompting/Role_prompting.ipynb",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code",
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:14.821Z",
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "confidenceScore": 0.9
+  },
+  {
+    "id": "0c9381c0-6fa3-4cf1-989d-b18ac3e04b46",
+    "title": "Self_ask_prompting",
+    "promptText": "\n  Question: Who was the president of the united states when Mozart died?\n  Are follow up questions needed?: yes.\n  Follow up: When did Mozart died?\n  Intermediate answer: 1791.\n  Follow up: Who was the president of the united states in 1791?\n  Intermediate answer: George Washington.\n  Final answer: When Mozart died George Washington was the president of the USA.\n\n  Question: Where did the Emperor of Japan, who ruled the year Maria\n  Skłodowska was born, die?\n",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/prompting/Self_ask_prompting.ipynb",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code",
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:15.078Z",
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "confidenceScore": 0.9
+  },
+  {
+    "id": "8d1f569c-1221-45b5-8c44-975bad8a7454",
+    "title": "Basic_Information_Extraction",
+    "promptText": "\n  You are given a list of groceries. Complete the following:\n  - Organize groceries into categories for easier shopping.\n  - List each item one under another with a checkbox [].\n",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/prompting/Basic_Information_Extraction.ipynb",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code",
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:15.298Z",
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "confidenceScore": 0.9
+  },
+  {
+    "id": "1f654dea-4f31-4eac-967c-f9c25f060100",
+    "title": "Get_started_LearnLM",
+    "promptText": "\n  Help me study for a undergrad cognition test on theories of emotion\n  generation.\n",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/quickstarts/Get_started_LearnLM.ipynb",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code",
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:15.515Z",
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "confidenceScore": 0.9
+  },
+  {
+    "id": "950c2bde-307a-4b5d-8eda-4fe39bcda8f7",
+    "title": "Few_shot_prompting",
+    "promptText": "\n    Sort the animals from biggest to smallest.\n    Question: Sort Tiger, Bear, Dog\n    Answer: Bear > Tiger > Dog}\n    Question: Sort Cat, Elephant, Zebra\n    Answer: Elephant > Zebra > Cat}\n    Question: Sort Whale, Goldfish, Monkey\n    Answer:\n",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/prompting/Few_shot_prompting.ipynb",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code",
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:15.717Z",
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "confidenceScore": 0.9
+  },
+  {
+    "id": "589048bb-e1cb-485d-a15f-79651e870377",
+    "title": "Basic_Code_Generation",
+    "promptText": "\n  Create a countdown timer that ticks down every second and prints\n  \"Time is up!\" after 20 seconds\n",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/prompting/Basic_Code_Generation.ipynb",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code",
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:15.939Z",
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "confidenceScore": 0.9
+  },
+  {
+    "id": "024192b1-4194-4353-9efb-1ad3bc0aaac1",
+    "title": "Search_reranking_using_embeddings",
+    "promptText": "##### Copyright 2025 Google LLC.... (See Notebook)",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/Search_reranking_using_embeddings.ipynb",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code",
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:16.191Z",
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "confidenceScore": 0.9
+  },
+  {
+    "id": "07f2b54a-7ec7-406d-83bb-0b71da806caf",
+    "title": "Entity_Extraction",
+    "promptText": "##### Copyright 2025 Google LLC.... (See Notebook)",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/Entity_Extraction.ipynb",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code",
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:16.621Z",
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "confidenceScore": 0.9
+  },
+  {
+    "id": "757c730c-3a40-4398-a3be-1b37f61e985a",
+    "title": "Prompting_REST",
+    "promptText": "##### Copyright 2025 Google LLC.... (See Notebook)",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/quickstarts/rest/Prompting_REST.ipynb",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code",
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:02:17.035Z",
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "confidenceScore": 0.9
+  },
+  {
+    "title": "Nano Banana Pro is insane",
+    "promptText": "Nano Banana Pro is insane",
+    "sourcePlatform": "reddit",
+    "originUrl": "https://www.reddit.com/r/GeminiAI/comments/1p8rtqb/nano_banana_pro_is_insane/",
+    "tags": [
+      "GeminiAI",
+      "Generated Images (with prompt)"
+    ],
+    "author": {
+      "name": "Hvnfw",
+      "profileUrl": "https://www.reddit.com/user/Hvnfw"
+    },
+    "metaMetrics": {
+      "upvotes": 6,
+      "commentCount": 1
+    }
+  },
+  {
+    "title": "AI MADE THIS?!",
+    "promptText": "I'm amazed. This was made by Nano Banana\nPrompt is in the first picture",
+    "sourcePlatform": "reddit",
+    "originUrl": "https://www.reddit.com/r/GeminiAI/comments/1p8ej5p/ai_made_this/",
+    "tags": [
+      "GeminiAI",
+      "Generated Images (with prompt)"
+    ],
+    "author": {
+      "name": "Every-Leadership-138",
+      "profileUrl": "https://www.reddit.com/user/Every-Leadership-138"
+    },
+    "metaMetrics": {
+      "upvotes": 65,
+      "commentCount": 8
+    }
+  },
+  {
+    "title": "want realistic looking images? use JSON (prompt in comment)",
+    "promptText": "take an image, feed it into claude/chatgpt/gemini, then tell it to replicate it in JSON format.\n\nhere's an example JSON code, adjust however you like :) \n\n{\n\n  \"subject\": {\n\n\"description\": \"A young woman taking a mirror selfie, playfully biting the straw of an iced green drink\",\n\n\"mirror\\_rules\": \"ignore mirror physics for text on clothing, display text forward and legible to viewer, no extra characters\",\n\n\"age\": \"young adult\",\n\n\"expression\": \"playful, nose scrunched, biting straw\",\n\n\"hair\": {\n\n\"color\": \"brown\",\n\n\"style\": \"long straight hair falling over shoulders\"\n\n},\n\n\"clothing\": {\n\n\"top\": {\n\n\"type\": \"ribbed knit cami top\",\n\n\"color\": \"white\",\n\n\"details\": \"cropped fit, thin straps, small dainty bow at neckline\"\n\n},\n\n\"bottom\": {\n\n\"type\": \"denim jeans\",\n\n\"color\": \"light wash blue\",\n\n\"details\": \"relaxed fit, visible button fly\"\n\n}\n\n},\n\n\"face\": {\n\n\"preserve\\_original\": true,\n\n\"makeup\": \"natural sunkissed look, glowing skin, nude glossy lips\"\n\n}\n\n  },\n\n  \"accessories\": {\n\n\"headwear\": {\n\n\"type\": \"olive green baseball cap\",\n\n\"details\": \"white NY logo embroidery, silver over-ear headphones worn over the cap\"\n\n},\n\n\"jewelry\": {\n\n\"earrings\": \"large gold hoop earrings\",\n\n\"necklace\": \"thin gold chain with cross pendant\",\n\n\"wrist\": \"gold bangles and bracelets mixed\",\n\n\"rings\": \"multiple gold rings\"\n\n},\n\n\"device\": {\n\n\"type\": \"smartphone\",\n\n\"details\": \"white case with pink floral pattern\"\n\n},\n\n\"prop\": {\n\n\"type\": \"iced beverage\",\n\n\"details\": \"plastic cup with iced matcha latte and green straw\"\n\n}\n\n  },\n\n  \"photography\": {\n\n\"camera\\_style\": \"smartphone mirror selfie aesthetic\",\n\n\"angle\": \"eye-level mirror reflection\",\n\n\"shot\\_type\": \"waist-up composition, subject positioned on the right side of the frame\",\n\n\"aspect\\_ratio\": \"9:16 vertical\",\n\n\"texture\": \"sharp focus, natural indoor lighting, social media realism, clean details\"\n\n  },\n\n  \"background\": {\n\n\"setting\": \"bright casual bedroom\",\n\n\"wall\\_color\": \"plain white\",\n\n\"elements\": \\[\n\n\"bed with white textured duvet\",\n\n\"black woven shoulder bag lying on bed\",\n\n\"leopard print throw pillow\",\n\n\"distressed white vintage nightstand\",\n\n\"modern bedside lamp with white shade\"\n\n\\],\n\n\"atmosphere\": \"casual lifestyle, cozy, spontaneous\",\n\n\"lighting\": \"soft natural daylight\"\n\n  }\n\n}",
+    "sourcePlatform": "reddit",
+    "originUrl": "https://www.reddit.com/r/GeminiAI/comments/1p8szt5/want_realistic_looking_images_use_json_prompt_in/",
+    "tags": [
+      "GeminiAI",
+      "Ressource"
+    ],
+    "author": {
+      "name": "OverFlow10",
+      "profileUrl": "https://www.reddit.com/user/OverFlow10"
+    },
+    "metaMetrics": {
+      "upvotes": 5,
+      "commentCount": 0
+    }
+  }
+]

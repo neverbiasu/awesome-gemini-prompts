@@ -243,5 +243,1415 @@
     "metaMetrics": {
       "upvotes": 9
     }
+  },
+  {
+    "title": "Image Generation of a Person Eating a Banana",
+    "promptText": "young Donald Trump is eating a banana, street",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "image"
+    ],
+    "modelTarget": [
+      "gemini-3-pro-image-preview",
+      "gemini-2.5-flash-image",
+      "imagen-3.0-generate-002"
+    ],
+    "tags": [
+      "image generation",
+      "celebrity",
+      "simple prompt",
+      "street photography"
+    ],
+    "sourcePlatform": "reddit",
+    "originUrl": "https://www.reddit.com/r/GeminiAI/comments/1p7wxkn/nanao_banana_pro_is_seriously_next_level/",
+    "confidenceScore": 1,
+    "metaMetrics": {
+      "upvotes": 44
+    },
+    "author": {
+      "name": "Inevitable_Gur_461",
+      "profileUrl": "https://www.reddit.com/user/Inevitable_Gur_461"
+    },
+    "reasoning": "This is a clear and direct prompt for image generation. The conversational text preceding the prompt was removed to isolate the core instruction.",
+    "id": "5ca8be09-9ce0-4e39-a9be-26ea93862141",
+    "fetchedAt": "2025-11-27T16:16:33.453Z"
+  },
+  {
+    "title": "AI becoming meme maker 😭😭😭",
+    "promptText": "AI becoming meme maker 😭😭😭",
+    "sourcePlatform": "reddit",
+    "originUrl": "https://www.reddit.com/r/GeminiAI/comments/1p7ry1d/ai_becoming_meme_maker/",
+    "tags": [
+      "GeminiAI",
+      "Generated Images (with prompt)"
+    ],
+    "author": {
+      "name": "Isra000000",
+      "profileUrl": "https://www.reddit.com/user/Isra000000"
+    },
+    "metaMetrics": {
+      "upvotes": 15,
+      "commentCount": 5
+    },
+    "id": "f394b14d-dfe0-4b79-b308-545efc071bc2",
+    "fetchedAt": "2025-11-27T16:27:03.788Z",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ]
+  },
+  {
+    "title": "Audio Diarization",
+    "promptText": "Transcribe the provided audio file, identifying each speaker and providing timestamps for their speech.",
+    "inputModality": [
+      "text",
+      "audio"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "audio",
+      "transcription",
+      "diarization",
+      "speaker-identification"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/audio-diarization",
+    "confidenceScore": 1,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "The original prompt text was placeholder content. Replaced it with the more descriptive content from the 'description' field and clarified the expected output. Corrected input modality to include 'audio' as it is essential for the task.",
+    "id": "0dea67ff-df2a-47e5-9d19-b217092ab954",
+    "fetchedAt": "2025-11-28T02:48:05.626Z"
+  },
+  {
+    "title": "Video Q&A",
+    "promptText": "Analyze the provided video and answer the following question: [Your question here]",
+    "inputModality": [
+      "text",
+      "video"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "video",
+      "qa",
+      "video-analysis",
+      "summarization"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/video-qa",
+    "confidenceScore": 1,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "The original prompt text was placeholder content. The description ('Ask questions about key details in a video') was a use-case, not a prompt. I've rephrased it into a direct, reusable prompt template for asking questions about a video. Corrected input modality to 'video'.",
+    "id": "dc42cb53-7cfc-498a-a01c-a28f54b69a6a",
+    "fetchedAt": "2025-11-28T02:48:05.626Z"
+  },
+  {
+    "title": "Recipe to JSON from Image",
+    "promptText": "From the image of the recipe, generate a JSON response based on the following schema: { \"recipe_name\": \"\", \"ingredients\": [ { \"name\": \"\", \"quantity\": \"\" } ], \"instructions\": [] }",
+    "inputModality": [
+      "text",
+      "image"
+    ],
+    "outputModality": [
+      "code"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "json",
+      "image-to-text",
+      "data-extraction",
+      "food"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/recipe-list-json",
+    "confidenceScore": 1,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "outputSchema": "{ \"type\": \"object\", \"properties\": { \"recipe_name\": { \"type\": \"string\" }, \"ingredients\": { \"type\": \"array\", \"items\": { \"type\": \"object\", \"properties\": { \"name\": { \"type\": \"string\" }, \"quantity\": { \"type\": \"string\" } }, \"required\": [\"name\", \"quantity\"] } }, \"instructions\": { \"type\": \"array\", \"items\": { \"type\": \"string\" } } }, \"required\": [\"recipe_name\", \"ingredients\", \"instructions\"] }",
+    "reasoning": "The original prompt text was placeholder content. Replaced it with the full prompt from the official Google AI Studio example, which includes the required JSON schema. Extracted the schema into the outputSchema field and updated modalities.",
+    "id": "962819f9-90b4-424a-b8d2-3c71be70e6e6",
+    "fetchedAt": "2025-11-28T02:48:05.626Z"
+  },
+  {
+    "title": "List Multiple Recipes to JSON from Image",
+    "promptText": "Given an image of a cookbook, list the recipes in a JSON format. Only extract the recipes and not any other text. Here's a schema to follow: { \"recipes\": [ { \"recipe_name\": \"\", \"page_number\": \"\" } ] }",
+    "inputModality": [
+      "text",
+      "image"
+    ],
+    "outputModality": [
+      "code"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "json",
+      "image-to-text",
+      "data-extraction",
+      "schema"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/recipe-to-json",
+    "confidenceScore": 1,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "outputSchema": "{ \"type\": \"object\", \"properties\": { \"recipes\": { \"type\": \"array\", \"items\": { \"type\": \"object\", \"properties\": { \"recipe_name\": { \"type\": \"string\" }, \"page_number\": { \"type\": \"integer\" } }, \"required\": [\"recipe_name\", \"page_number\"] } } }, \"required\": [\"recipes\"] }",
+    "reasoning": "The original prompt text was placeholder content. Replaced it with the full prompt from the official Google AI Studio example, which specifies the context (cookbook image) and the required JSON schema. Extracted the schema into the outputSchema field and updated modalities.",
+    "id": "9cc2b9b1-1cf8-49a4-8425-efd19badcaa3",
+    "fetchedAt": "2025-11-28T02:48:05.626Z"
+  },
+  {
+    "title": "Math Tutor",
+    "promptText": "Teach me a lesson on quadratic equations.",
+    "systemInstruction": "You are a friendly and encouraging math tutor. Your goal is to explain concepts clearly, provide step-by-step examples, and check for understanding.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "education",
+      "tutoring",
+      "mathematics",
+      "persona"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/math-tutor",
+    "confidenceScore": 1,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "The original prompt text was placeholder content. Replaced it with the content from the 'description' field, which is a valid user request. Added a system instruction to define the AI's persona as a math tutor for better-quality responses.",
+    "id": "0b525409-070c-40ad-85f4-a5d5316fb9a1",
+    "fetchedAt": "2025-11-28T02:48:05.626Z"
+  },
+  {
+    "title": "Math Worksheet Generator",
+    "promptText": "Create a set of elementary math worksheets for math educators and parents. The topic is {{topic}}, and it should be appropriate for {{grade_level}} students. Include {{num_questions}} questions with an answer key at the end.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "education",
+      "math",
+      "worksheet-generator",
+      "teachers"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/worksheet-generator",
+    "confidenceScore": 0.8,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "The original promptText was a generic cookie notice and was discarded. The prompt was reconstructed from the 'description' field to be a usable and clear instruction. Added placeholders for customization.",
+    "id": "54e20312-ade3-4d6e-8ad5-015a04232ff2",
+    "fetchedAt": "2025-11-28T03:13:33.277Z"
+  },
+  {
+    "title": "Scavenger Hunt Creator",
+    "promptText": "Create a curated list of scavenger hunt concepts for a {{event_type}} with the theme of '{{theme}}'. The list should include at least 10 creative ideas suitable for {{age_group}}.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "creative",
+      "recreation",
+      "event-planning",
+      "games"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/scavanger-hunt",
+    "confidenceScore": 0.8,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "The original promptText was a generic cookie notice and was discarded. The prompt was reconstructed from the 'description' and 'title' fields. Placeholders were added to make the prompt more versatile.",
+    "id": "8b78d16c-0003-4a0b-af63-e61891ce3432",
+    "fetchedAt": "2025-11-28T03:13:33.277Z"
+  },
+  {
+    "title": "Python Unit Test Generator",
+    "promptText": "Add unit tests for the following Python function. Please generate a comprehensive test suite that covers edge cases, valid inputs, and invalid inputs.\n\n```python\ndef is_palindrome(word):\n  \"\"\"\n  Checks whether a word is a palindrome.\n\n  Args:\n    word: The word to check.\n\n  Returns:\n    True if the word is a palindrome, False otherwise.\n  \"\"\"\n\n  # Convert the word to lowercase and remove non-alphanumeric characters.\n  word = ''.join(char.lower() for char in word if char.isalnum())\n\n  # Check if the word is the same forwards and backwards.\n  return word == word[::-1]\n```",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "coding",
+      "python",
+      "unit-testing",
+      "code-generation"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/unit-testing",
+    "confidenceScore": 0.9,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "The original promptText contained only a code snippet. The prompt was reconstructed by combining the instruction from the 'description' field with the provided code to create a complete and actionable prompt for code generation.",
+    "id": "4d86a031-f3bc-4af9-a837-76bcd6388b79",
+    "fetchedAt": "2025-11-28T03:13:33.277Z"
+  },
+  {
+    "title": "Geometry Problem Solver",
+    "promptText": "Analyze the attached image containing a geometry problem and solve for X. Please provide a step-by-step explanation of your reasoning.",
+    "inputModality": [
+      "text",
+      "image"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "multimodal",
+      "image-analysis",
+      "math",
+      "geometry"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/geometry-problem",
+    "confidenceScore": 0.8,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "The original promptText was a generic cookie notice and was discarded. The prompt was reconstructed from the 'description' field, which clearly describes a multimodal task involving image analysis and text-based reasoning.",
+    "id": "bc2cd52f-4213-44ec-8036-3b8c33c86fe5",
+    "fetchedAt": "2025-11-28T03:13:33.277Z"
+  },
+  {
+    "title": "Unstructured Text to Trip Recommendations Table",
+    "promptText": "Convert the following unorganized text into a structured table format. The table should contain columns for Destination, Recommended Activities, Estimated Cost, and Best Time to Visit. Extract the relevant information from the text and populate the table.\n\n[Insert unorganized text here]",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "data-extraction",
+      "formatting",
+      "text-to-table",
+      "travel"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/trip-recommendations",
+    "confidenceScore": 0.8,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "outputSchema": "{\"type\":\"array\",\"items\":{\"type\":\"object\",\"properties\":{\"Destination\":{\"type\":\"string\"},\"Recommended Activities\":{\"type\":\"string\"},\"Estimated Cost\":{\"type\":\"string\"},\"Best Time to Visit\":{\"type\":\"string\"}},\"required\":[\"Destination\",\"Recommended Activities\"]}}",
+    "reasoning": "The original promptText was a generic cookie notice and was discarded. The prompt was reconstructed by combining the generic action from the 'description' (Convert unorganized text into structured tables) with the specific context from the 'title' (Trip recommendations) to create a clear, actionable prompt.",
+    "id": "7e82ef68-1cce-47ac-88ca-ddce8a1b78c5",
+    "fetchedAt": "2025-11-28T03:13:33.277Z"
+  },
+  {
+    "title": "Analyze and Optimize Code Time Complexity",
+    "promptText": "Identify the time complexity of the following function and optimize it.\n\n```python\n\"\"\"\n  This function sorts a list of numbers in ascending order using the bubble sort algorithm.\n\n  Args:\n    list_to_sort: A list of numbers to be sorted.\n\n  Returns:\n    A new list with the numbers sorted in ascending order.\n  \"\"\"\n  # Create a copy of the list to avoid modifying the original\n  sorted_list = list_to_sort.copy()\n  n = len(sorted_list)\n\n  # Iterate through the list n-1 times\n  for i in range(n-1):\n    # Flag to track if any swaps were made in a pass\n    swapped = False\n    # Iterate through the unsorted portion of the list\n    for j in range(n-i-1):\n      # Compare adjacent elements and swap if necessary\n      if sorted_list[j] > sorted_list[j+1]:\n        sorted_list[j], sorted_list[j+1] = sorted_list[j+1], sorted_list[j]\n        swapped = True\n    # If no swaps were made, the list is already sorted\n    if not swapped:\n      break\n\n  # Return the sorted list\n  return sorted_list\n\n# Example usage\nmy_list = [1, 9, 5, 2, 1, 8, 6, 6, 3, 4, 10, 7]\nsorted_list = sort_list(my_list)\nprint(sorted_list)  # Output: [1, 1, 2, 3, 4, 5, 6, 6, 7, 8, 9, 10]\n```",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text",
+      "code"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "code analysis",
+      "optimization",
+      "time complexity",
+      "python"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/time-complexity",
+    "confidenceScore": 1,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "The original candidate contained a Python code snippet and a separate description of the task. I combined these into a single, coherent prompt that instructs the model to analyze the provided code's time complexity and then optimize it. This creates a complete and usable prompt for a common coding task.",
+    "id": "782fb8d2-1d40-40aa-821b-2520f76deba3",
+    "fetchedAt": "2025-11-28T03:13:53.294Z"
+  },
+  {
+    "title": "Extract Brands and Products into JSON",
+    "promptText": "From the following text, extract all product names and their corresponding brand names. Format the output as a single valid JSON object where each key is a brand name and the value is a list of its product names found in the text.\n\nText:\n\"\"\"\n[Insert text here]\n\"\"\"",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "data-extraction",
+      "json",
+      "named-entity-recognition",
+      "marketing"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/brand-extractor",
+    "confidenceScore": 0.8,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "outputSchema": "{\"type\":\"object\",\"patternProperties\":{\".*\":{\"type\":\"array\",\"items\":{\"type\":\"string\"}}},\"description\":\"A JSON object where keys are brand names (string) and values are lists of product names (array of strings). Example: { \\\"Apple\\\": [\\\"iPhone 15\\\", \\\"MacBook Pro\\\"] }\"}",
+    "reasoning": "The original promptText was a boilerplate cookie notice. The prompt was reconstructed based on the clear 'description' field. The prompt was enhanced to specify a structured JSON output, and a corresponding output schema was created.",
+    "id": "10a53447-c6a1-4422-9668-28d296d55250",
+    "fetchedAt": "2025-11-28T03:14:55.353Z"
+  },
+  {
+    "title": "Plant Care Guide",
+    "promptText": "How do I best care for this plant?",
+    "inputModality": [
+      "image",
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "gardening",
+      "plant-care",
+      "image-analysis",
+      "how-to"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/plant-care",
+    "confidenceScore": 0.8,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "The original promptText was clearly a scraper error ('Email or phone'). The prompt has been reconstructed based on the title 'Plant care' and description 'How do I best care for this plant.' The input modality was updated to include 'image' as this is a common multimodal use case for this type of query.",
+    "id": "6c207db0-b878-4795-933e-43479083c71c",
+    "fetchedAt": "2025-11-28T15:00:25.348Z"
+  },
+  {
+    "title": "Docker Environment Setup Script",
+    "promptText": "Write a Docker script to set up a development environment for a Python Flask application.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "docker",
+      "coding",
+      "devops",
+      "scripting",
+      "environment-setup"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/docker-script",
+    "confidenceScore": 0.8,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "The original promptText was a scraper error. The prompt was reconstructed from the title 'Docker Script' and description 'Writing a script in Docker to set up your environment.' A specific technology (Python Flask) was added for clarity and to make the prompt directly usable.",
+    "id": "484a6d57-5a8e-47d1-94cb-3bd7bd181981",
+    "fetchedAt": "2025-11-28T15:00:25.350Z"
+  },
+  {
+    "title": "Reply as Santa to a Child's Letter",
+    "promptText": "Read the attached handwritten letter from a child and write a warm, magical, and jolly reply.",
+    "systemInstruction": "You are Santa Claus. Your tone is jolly, warm, and magical. You are writing back to a child who has sent you a letter.",
+    "inputModality": [
+      "image"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "creative-writing",
+      "persona",
+      "role-playing",
+      "ocr",
+      "holiday"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/santas-mailbox",
+    "confidenceScore": 0.85,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "The original promptText was a scraper error. Reconstructed the prompt from the description: 'Capture a handwritten letter to Santa and write back as him.' A system instruction was created to establish the Santa persona, and the input modality was set to 'image' to reflect the 'handwritten letter' aspect.",
+    "id": "1bb742f2-55b6-447c-8617-97c0992b9fc5",
+    "fetchedAt": "2025-11-28T15:00:25.350Z"
+  },
+  {
+    "title": "Recipe Ideas from Ingredients",
+    "promptText": "Based on this image of my ingredients, what are some recipes I can make? Please provide at least 3 ideas with cooking instructions.",
+    "inputModality": [
+      "image"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "cooking",
+      "recipe-generation",
+      "image-analysis",
+      "food",
+      "lifestyle"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/cook-helper",
+    "confidenceScore": 0.9,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "The original promptText was a scraper error. The prompt was rewritten based on the clear description: 'Get recipe ideas based on an image of the ingredients you have on hand.' The input modality is correctly set to 'image' and the prompt text is phrased as a direct request.",
+    "id": "bf9593f9-ecc6-4894-972d-a01a1a9ff676",
+    "fetchedAt": "2025-11-28T15:00:25.350Z"
+  },
+  {
+    "title": "Game Character Brainstorming",
+    "promptText": "Brainstorm a new game character based on the following context: a rogue space pirate in a dystopian future who secretly collects vintage teacups.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "game-design",
+      "character-creation",
+      "creative-writing",
+      "brainstorming",
+      "ideation"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/game-character-brainstorming",
+    "confidenceScore": 0.8,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "The original promptText was a scraper error. The prompt was reconstructed based on the title and description: 'Create a character design based on a provided context.' An example context was added to make the prompt more concrete and immediately usable.",
+    "id": "d09b0b43-0618-4a36-82b2-8ee327a8d3b4",
+    "fetchedAt": "2025-11-28T15:00:25.350Z"
+  },
+  {
+    "title": "Generate Realistic Images Using JSON",
+    "promptText": "{\n  \"subject\": {\n    \"description\": \"A young woman taking a mirror selfie, playfully biting the straw of an iced green drink\",\n    \"mirror_rules\": \"ignore mirror physics for text on clothing, display text forward and legible to viewer, no extra characters\",\n    \"age\": \"young adult\",\n    \"expression\": \"playful, nose scrunched, biting straw\",\n    \"hair\": {\n      \"color\": \"brown\",\n      \"style\": \"long straight hair falling over shoulders\"\n    },\n    \"clothing\": {\n      \"top\": {\n        \"type\": \"ribbed knit cami top\",\n        \"color\": \"white\",\n        \"details\": \"cropped fit, thin straps, small dainty bow at neckline\"\n      },\n      \"bottom\": {\n        \"type\": \"denim jeans\",\n        \"color\": \"light wash blue\",\n        \"details\": \"relaxed fit, visible button fly\"\n      }\n    },\n    \"face\": {\n      \"preserve_original\": true,\n      \"makeup\": \"natural sunkissed look, glowing skin, nude glossy lips\"\n    }\n  },\n  \"accessories\": {\n    \"headwear\": {\n      \"type\": \"olive green baseball cap\",\n      \"details\": \"white NY logo embroidery, silver over-ear headphones worn over the cap\"\n    },\n    \"jewelry\": {\n      \"earrings\": \"large gold hoop earrings\",\n      \"necklace\": \"thin gold chain with cross pendant\",\n      \"wrist\": \"gold bangles and bracelets mixed\",\n      \"rings\": \"multiple gold rings\"\n    },\n    \"device\": {\n      \"type\": \"smartphone\",\n      \"details\": \"white case with pink floral pattern\"\n    },\n    \"prop\": {\n      \"type\": \"iced beverage\",\n      \"details\": \"plastic cup with iced matcha latte and green straw\"\n    }\n  },\n  \"photography\": {\n    \"camera_style\": \"smartphone mirror selfie aesthetic\",\n    \"angle\": \"eye-level mirror reflection\",\n    \"shot_type\": \"waist-up composition, subject positioned on the right side of the frame\",\n    \"aspect_ratio\": \"9:16 vertical\",\n    \"texture\": \"sharp focus, natural indoor lighting, social media realism, clean details\"\n  },\n  \"background\": {\n    \"setting\": \"bright casual bedroom\",\n    \"wall_color\": \"plain white\",\n    \"elements\": [\n      \"bed with white textured duvet\",\n      \"black woven shoulder bag lying on bed\",\n      \"leopard print throw pillow\",\n      \"distressed white vintage nightstand\",\n      \"modern bedside lamp with white shade\"\n    ],\n    \"atmosphere\": \"casual lifestyle, cozy, spontaneous\",\n    \"lighting\": \"soft natural daylight\"\n  }\n}",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "image"
+    ],
+    "modelTarget": [
+      "gemini-3-pro-image-preview",
+      "gemini-2.5-flash-image",
+      "imagen-3.0-generate-002"
+    ],
+    "tags": [
+      "image generation",
+      "json",
+      "structured prompt",
+      "photorealism",
+      "technique"
+    ],
+    "sourcePlatform": "reddit",
+    "originUrl": "https://www.reddit.com/r/GeminiAI/comments/1p8szt5/want_realistic_looking_images_use_json_prompt_in/",
+    "confidenceScore": 1,
+    "metaMetrics": {
+      "upvotes": 4
+    },
+    "author": {
+      "name": "OverFlow10",
+      "profileUrl": "https://www.reddit.com/user/OverFlow10"
+    },
+    "inputSchema": "{\"subject\":{\"description\":\"string\",\"mirror_rules\":\"string\",\"age\":\"string\",\"expression\":\"string\",\"hair\":{\"color\":\"string\",\"style\":\"string\"},\"clothing\":{\"top\":{\"type\":\"string\",\"color\":\"string\",\"details\":\"string\"},\"bottom\":{\"type\":\"string\",\"color\":\"string\",\"details\":\"string\"}},\"face\":{\"preserve_original\":\"boolean\",\"makeup\":\"string\"}},\"accessories\":{\"headwear\":{\"type\":\"string\",\"details\":\"string\"},\"jewelry\":{\"earrings\":\"string\",\"necklace\":\"string\",\"wrist\":\"string\",\"rings\":\"string\"},\"device\":{\"type\":\"string\",\"details\":\"string\"},\"prop\":{\"type\":\"string\",\"details\":\"string\"}},\"photography\":{\"camera_style\":\"string\",\"angle\":\"string\",\"shot_type\":\"string\",\"aspect_ratio\":\"string\",\"texture\":\"string\"},\"background\":{\"setting\":\"string\",\"wall_color\":\"string\",\"elements\":[\"string\"],\"atmosphere\":\"string\",\"lighting\":\"string\"}}",
+    "reasoning": "This is a high-quality example of a structured prompt using JSON to achieve photorealistic image generation. The prompt text is the JSON object itself, providing detailed instructions to the image model. The preceding conversational text was removed.",
+    "id": "8cf5bb37-79a8-44af-93f6-74f5296ead6b",
+    "fetchedAt": "2025-11-28T15:00:52.980Z"
+  },
+  {
+    "title": "Turn a Real Person into a Barbie Doll",
+    "promptText": "Turning a real person into a Barbie doll",
+    "inputModality": [
+      "image",
+      "text"
+    ],
+    "outputModality": [
+      "image"
+    ],
+    "modelTarget": [
+      "gemini-3-pro-image-preview",
+      "gemini-2.5-flash-image",
+      "imagen-3.0-generate-002"
+    ],
+    "tags": [
+      "image-generation",
+      "style-transfer",
+      "character-creation",
+      "photo-editing"
+    ],
+    "sourcePlatform": "reddit",
+    "originUrl": "https://www.reddit.com/r/GeminiAI/comments/1p8r94n/turning_a_real_person_into_a_barbie_doll/",
+    "confidenceScore": 0.8,
+    "metaMetrics": {
+      "upvotes": 3
+    },
+    "author": {
+      "name": "Conscious-Coyote2811",
+      "profileUrl": "https://www.reddit.com/user/Conscious-Coyote2811"
+    },
+    "reasoning": "This is a simple but valid prompt for an image generation or image editing model. It clearly states the desired transformation. The input modality is inferred to be both text (the prompt itself) and an image (the 'real person' to be transformed).",
+    "id": "86f77010-81b6-4737-bdb3-d096e433505b",
+    "fetchedAt": "2025-11-28T15:01:06.472Z"
+  },
+  {
+    "title": "Webpage Generator from Specifications",
+    "promptText": "Create the HTML, CSS, and JavaScript for a webpage based on the following specifications: {{specifications}}",
+    "description": "A prompt to generate a complete webpage (HTML, CSS, JS) from a user's description of their requirements.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "web development",
+      "coding",
+      "html",
+      "frontend"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/opposum-search",
+    "confidenceScore": 0.9,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "The original prompt was a generic description of a task. It has been rewritten as a more direct and actionable instruction for an LLM, including a clear placeholder for user input and specifying the output modality as code.",
+    "id": "ab879836-8b8d-4f77-8a5f-c652309c378c",
+    "fetchedAt": "2025-11-28T16:03:07.858Z"
+  },
+  {
+    "title": "Object Identifier from Image",
+    "promptText": "Analyze the provided image. Identify the main object and provide a detailed description of it, including its likely uses.",
+    "description": "A prompt for a vision model to describe an object in a photo and explain its uses.",
+    "inputModality": [
+      "image"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "image analysis",
+      "object recognition",
+      "vision",
+      "utility"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/object-identifier",
+    "confidenceScore": 0.95,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "The original text described the prompt's function rather than being a direct command. It has been rephrased as an explicit instruction to the AI. The input modality was corrected from 'text' to 'image' to match the prompt's content.",
+    "id": "6b9baea8-7140-4811-9336-157a3ed026df",
+    "fetchedAt": "2025-11-28T16:03:07.858Z"
+  },
+  {
+    "title": "Catchy Advertising Copy Generator",
+    "promptText": "Generate three versions of catchy advertising copy. The copy should be tailored to the following product and target audience.\n\nProduct: {{product_description}}\n\nTarget Audience: {{target_audience}}",
+    "systemInstruction": "You are a witty and creative marketing writer.",
+    "description": "A prompt to generate multiple advertising copy options based on a product description and target audience.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "marketing",
+      "copywriting",
+      "advertising",
+      "creative writing"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/marketing-description-writer",
+    "confidenceScore": 0.95,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "The original text was a high-level goal. It was transformed into a specific, actionable prompt with clear placeholders for product and audience details. A system instruction was added to define the AI's persona, enhancing the quality of the output.",
+    "id": "a1b7e8e9-fbcd-4b44-aaa5-db29a4ca7291",
+    "fetchedAt": "2025-11-28T16:03:07.858Z"
+  },
+  {
+    "title": "List Objects from Image",
+    "promptText": "Analyze the provided image and generate a comma-separated list of all the identifiable objects within it.",
+    "description": "A prompt for a vision model to list all objects found in an image.",
+    "inputModality": [
+      "image"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "image analysis",
+      "object recognition",
+      "vision",
+      "listing"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/list-items-from-image",
+    "confidenceScore": 0.95,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "Rephrased the original description into a direct command for an AI model. The input modality was corrected from 'text' to 'image' to accurately reflect the task.",
+    "id": "09331c60-11f1-4181-95e9-5a3df6c0055b",
+    "fetchedAt": "2025-11-28T16:03:07.858Z"
+  },
+  {
+    "title": "Blog Post from Image",
+    "promptText": "Write an engaging blog post inspired by the provided image. Include a catchy title.",
+    "systemInstruction": "You are a witty and creative blogger.",
+    "description": "A prompt to generate a creative blog post, complete with a title, based on a single image.",
+    "inputModality": [
+      "image"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "creative writing",
+      "blogging",
+      "content creation",
+      "image to text"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/blog-post-creator",
+    "confidenceScore": 0.95,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "The original prompt was a good starting point but lacked personality. It was enhanced by adding a system instruction to define the AI's persona as a blogger and clarifying the expected output (engaging post with a title). The input modality was also corrected to 'image'.",
+    "id": "d83623ba-997d-4ad7-bc79-0699b09ad2cb",
+    "fetchedAt": "2025-11-28T16:03:07.858Z"
+  },
+  {
+    "title": "Which shape comes next?",
+    "promptText": "Given a series of shapes, guess which shape comes next.",
+    "description": "A prompt designed to test a model's ability to recognize visual patterns and predict the next element in a sequence.",
+    "inputModality": [
+      "text",
+      "image"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "visual-reasoning",
+      "pattern-recognition",
+      "logic-puzzle",
+      "multimodal"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/what-shape-comes-next",
+    "confidenceScore": 1,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "This is a valid multimodal prompt for a visual reasoning task. The original inputModality was 'text', which was corrected to 'text' and 'image' to reflect the prompt's requirement to analyze a 'series of shapes'. The other candidates were discarded because their 'promptText' was a high-level description of the prompt's function rather than the actual instructional prompt text itself.",
+    "id": "fe7720f5-449c-4cf1-8780-82065321f61e",
+    "fetchedAt": "2025-11-28T16:03:29.667Z"
+  },
+  {
+    "title": "Modify Writing Style and Tone",
+    "promptText": "Please change the tone and writing style of the following blurb to be more [TARGET_TONE]. \n\nBlurb:\n\"\"\"\n[BLURB_TEXT]\n\"\"\"",
+    "description": "A prompt to rewrite a given piece of text (a blurb) into a different tone and writing style, such as making it more formal, casual, witty, or professional.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "rewriting",
+      "editing",
+      "tone",
+      "style-transfer"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/modify-tone-writing-style",
+    "confidenceScore": 1,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "The original prompt text was a high-level command. I have reformatted it into a more complete and actionable prompt with clear placeholders for the user to fill in, making it more practical for direct use.",
+    "id": "ff7e6c84-826f-438e-8837-5c50322409e1",
+    "fetchedAt": "2025-11-28T16:04:19.095Z"
+  },
+  {
+    "title": "Natural Language to Regex Converter",
+    "promptText": "Convert the following natural language description into a regular expression (regex). \n\nDescription: \"[NATURAL_LANGUAGE_DESCRIPTION]\"\n\nProvide only the regex pattern.",
+    "description": "A prompt that takes a natural language description of a text pattern and converts it into a corresponding regular expression (regex).",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text",
+      "code"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "regex",
+      "coding",
+      "text-processing",
+      "developer-tool"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/regexed",
+    "confidenceScore": 1,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "The original prompt text was a task description. I've rephrased it as a specific, actionable prompt with a placeholder for the user's natural language input, making it directly usable.",
+    "id": "b7075d6b-962d-46ba-a580-5f15d6746957",
+    "fetchedAt": "2025-11-28T16:04:19.096Z"
+  },
+  {
+    "title": "Story Plot Generator",
+    "promptText": "Generate a plot for a story about [topic]. The plot should have a clear beginning, middle, and end. It should also include a protagonist, an antagonist, and a conflict.",
+    "description": "Part of a prompt chain, this prompt generates a complete story plot based on a user-provided topic. The plot includes a beginning, middle, end, protagonist, antagonist, and conflict.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "creative-writing",
+      "story-generation",
+      "plot",
+      "chain-of-thought"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/Story_Writing_with_Prompt_Chaining.ipynb",
+    "confidenceScore": 1,
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "reasoning": "Extracted the first prompt from the 'Story_Writing_with_Prompt_Chaining.ipynb' notebook. The original candidate was not a prompt but a reference to a notebook. This prompt is designed to generate a foundational plot for a story.",
+    "id": "b9c759d9-0ec2-4683-95d1-b421f2cf623f",
+    "fetchedAt": "2025-11-28T16:04:19.096Z"
+  },
+  {
+    "title": "Story Character Generator from Plot",
+    "promptText": "Generate a list of well-developed characters with distinct personalities for a story with the following plot:\n\nPlot:\n\"\"\"\n[story_plot]\n\"\"\"",
+    "description": "Part of a prompt chain, this prompt takes a story plot as input and generates a list of well-developed characters with distinct personalities to populate the narrative.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "creative-writing",
+      "story-generation",
+      "character-design",
+      "chain-of-thought"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/Story_Writing_with_Prompt_Chaining.ipynb",
+    "confidenceScore": 1,
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "reasoning": "Extracted the second prompt from the 'Story_Writing_with_Prompt_Chaining.ipynb' notebook. The original candidate was not a prompt but a reference to a notebook. This prompt builds upon a previously generated plot to create a cast of characters.",
+    "id": "9ff241d3-516a-4dae-be32-88b54f626aea",
+    "fetchedAt": "2025-11-28T16:04:19.096Z"
+  },
+  {
+    "title": "Story Chapter Writer from Plot and Characters",
+    "promptText": "Write the first chapter of a story using the following plot and characters. The chapter should be engaging and set the scene for the rest of the story.\n\nPlot:\n\"\"\"\n[story_plot]\n\"\"\"\n\nCharacters:\n\"\"\"\n[character_list]\n\"\"\"",
+    "description": "The final part of a story-writing prompt chain. This prompt takes a plot and a list of characters to write an engaging first chapter, setting the scene for the narrative.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "creative-writing",
+      "story-generation",
+      "narrative",
+      "chain-of-thought"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/Story_Writing_with_Prompt_Chaining.ipynb",
+    "confidenceScore": 1,
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "reasoning": "Extracted the third prompt from the 'Story_Writing_with_Prompt_Chaining.ipynb' notebook. The original candidate was not a prompt but a reference to a notebook. This final prompt in the chain uses the plot and characters to write the beginning of the story.",
+    "id": "2ad67bad-e66a-4a8b-81c4-b919648fc1c6",
+    "fetchedAt": "2025-11-28T16:04:19.096Z"
+  },
+  {
+    "title": "Role-Play as a Music Connoisseur",
+    "promptText": "What did you think of the last piece you listened to (Mozart's Requiem)?",
+    "systemInstruction": "You are a highly regarded music connoisseur, and you are a big fan of Mozart. You recently listened to Mozart's Requiem.",
+    "description": "A role-playing prompt where the AI adopts the persona of a Mozart-loving music connoisseur to review his Requiem.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "role-playing",
+      "persona",
+      "music",
+      "review",
+      "creative"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/prompting/Role_prompting.ipynb",
+    "confidenceScore": 1,
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "reasoning": "Extracted the prompt from the 'Role_prompting.ipynb' notebook. The original text was only the persona setup. I separated the persona into the 'systemInstruction' field and included the follow-up question from the notebook in the 'promptText' to create a complete, actionable prompt.",
+    "id": "04764d61-19c9-4e6a-8363-428f047d1482",
+    "fetchedAt": "2025-11-28T16:04:19.096Z"
+  },
+  {
+    "title": "Self-Ask Prompt for Multi-Hop Questions",
+    "promptText": "Question: Who was the president of the united states when Mozart died?\nAre follow up questions needed?: yes.\nFollow up: When did Mozart died?\nIntermediate answer: 1791.\nFollow up: Who was the president of the united states in 1791?\nIntermediate answer: George Washington.\nFinal answer: When Mozart died George Washington was the president of the USA.\n\nQuestion: Where did the Emperor of Japan, who ruled the year Maria Skłodowska was born, die?",
+    "description": "A few-shot prompt that teaches the model to break down a complex question into smaller, answerable parts before arriving at a final conclusion. This example asks a multi-hop historical question.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "few-shot",
+      "reasoning",
+      "chain-of-thought",
+      "self-ask",
+      "question-answering"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/prompting/Self_ask_prompting.ipynb",
+    "confidenceScore": 1,
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "reasoning": "This is a classic few-shot prompt demonstrating the 'self-ask' technique for complex, multi-hop questions. The full text, including the example, is preserved as it is essential for the prompt to work correctly.",
+    "id": "be0af56d-a0ec-4229-bcc0-2b7a0bb47ba6",
+    "fetchedAt": "2025-11-28T16:04:19.096Z"
+  },
+  {
+    "title": "Organize a Grocery List",
+    "promptText": "You are given a list of groceries. Complete the following:\n- Organize groceries into categories for easier shopping.\n- List each item one under another with a checkbox [].",
+    "description": "A prompt that takes a list of groceries and organizes them into categories with checkboxes for easy shopping.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "organization",
+      "list-making",
+      "information-extraction",
+      "shopping"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/prompting/Basic_Information_Extraction.ipynb",
+    "confidenceScore": 1,
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "reasoning": "This is a high-quality, clear prompt for a common task (organizing information). The original tags were generic and have been replaced with more descriptive tags related to the task itself. The output modality was corrected from code/text to just text.",
+    "id": "8e6f07e9-dfdf-43d6-8948-9e6452eeb649",
+    "fetchedAt": "2025-11-28T16:04:51.616Z"
+  },
+  {
+    "title": "Study Helper for Cognition Test",
+    "promptText": "Help me study for a undergrad cognition test on theories of emotion generation.",
+    "description": "A prompt to ask an AI to act as a study partner for a university-level cognition test on theories of emotion generation.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "education",
+      "studying",
+      "test-prep",
+      "psychology"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/quickstarts/Get_started_LearnLM.ipynb",
+    "confidenceScore": 1,
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "reasoning": "A clear and concise prompt for an educational use case. The original generic tags were replaced with more specific ones related to the prompt's content. The output modality was corrected from code/text to just text.",
+    "id": "370281f0-d6ea-4fed-9b44-140ed75568ab",
+    "fetchedAt": "2025-11-28T16:04:51.617Z"
+  },
+  {
+    "title": "Few-Shot Animal Sorting",
+    "promptText": "Sort the animals from biggest to smallest.\nQuestion: Sort Tiger, Bear, Dog\nAnswer: Bear > Tiger > Dog\nQuestion: Sort Cat, Elephant, Zebra\nAnswer: Elephant > Zebra > Cat\nQuestion: Sort Whale, Goldfish, Monkey\nAnswer:",
+    "description": "A few-shot prompt that demonstrates how to sort animals by size. It provides two complete examples before asking the model to complete a third.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "few-shot",
+      "logic",
+      "sorting",
+      "classification"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/prompting/Few_shot_prompting.ipynb",
+    "confidenceScore": 1,
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "reasoning": "This is an excellent example of a few-shot prompting technique, providing clear examples for the model to follow. The prompt is self-contained and effective. I've cleaned up minor formatting issues (extra curly braces) in the original text and refined the tags.",
+    "id": "175ccc16-336b-40be-8794-047f0d5bc510",
+    "fetchedAt": "2025-11-28T16:04:51.617Z"
+  },
+  {
+    "title": "Generate a Countdown Timer",
+    "promptText": "Create a countdown timer that ticks down every second and prints \"Time is up!\" after 20 seconds.",
+    "description": "A prompt asking the AI to generate code for a simple 20-second countdown timer.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "code-generation",
+      "timer",
+      "scripting"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/prompting/Basic_Code_Generation.ipynb",
+    "confidenceScore": 1,
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "reasoning": "A straightforward and high-quality prompt for code generation. It specifies the requirements for the code clearly. The output modality was refined from code/text to just code for better precision, and tags were improved.",
+    "id": "c6bd78c0-3733-411e-b83d-be55292bf95f",
+    "fetchedAt": "2025-11-28T16:04:51.617Z"
+  },
+  {
+    "title": "Virtual Barista Roleplay",
+    "promptText": "Hi, I'd like to order a coffee.",
+    "systemInstruction": "You are a friendly and efficient virtual barista. Your job is to take coffee orders from customers. You should be able to handle common coffee drinks like lattes, cappuccinos, espressos, and americanos. Ask clarifying questions if an order is ambiguous (e.g., 'What kind of milk would you like?').",
+    "description": "A system instruction prompt for setting up an AI to act as a virtual coffee shop barista, capable of taking and clarifying customer orders.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "roleplay",
+      "chatbot",
+      "customer-service",
+      "fun"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/barista-bot",
+    "confidenceScore": 0.9,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "reasoning": "The original text was a high-level description of a persona. It has been modified into a direct system instruction to define the AI's role as a virtual barista, with an example user turn, making it a usable and effective prompt.",
+    "id": "2cd28dd8-1d38-47d4-88f9-e3715356e221",
+    "fetchedAt": "2025-11-28T16:46:33.403Z"
+  },
+  {
+    "title": "Generate Confusion Matrix and Classifier Metrics",
+    "promptText": "Given the true labels and predicted labels from a classification model, generate a confusion matrix. Additionally, calculate the following metrics: accuracy, precision, recall, and F1-score.\n\nTrue Labels: {{true_labels}}\nPredicted Labels: {{predicted_labels}}",
+    "description": "A prompt for generating a confusion matrix and calculating standard classification metrics (accuracy, precision, recall, F1-score) from a list of true and predicted labels.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text",
+      "code"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "machine-learning",
+      "data-science",
+      "classification",
+      "metrics"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/ml-confusion-matrix",
+    "confidenceScore": 0.95,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "inputSchema": "{\"type\":\"object\",\"properties\":{\"true_labels\":{\"type\":\"array\",\"items\":{\"type\":\"integer\"},\"description\":\"An array of the ground truth labels.\"},\"predicted_labels\":{\"type\":\"array\",\"items\":{\"type\":\"integer\"},\"description\":\"An array of the labels predicted by the model.\"}}}",
+    "reasoning": "The original text was a vague description of a capability. It has been transformed into a specific, structured prompt that requests the generation of a confusion matrix and key classification metrics from provided labels, making it directly usable for machine learning tasks.",
+    "id": "033079fc-4640-4305-be48-cddbd9b9a357",
+    "fetchedAt": "2025-11-28T16:46:33.404Z"
+  },
+  {
+    "title": "Text Sentiment Analysis with Justification",
+    "promptText": "Analyze the sentiment of the following text. Classify it as one of the following: 'Positive', 'Negative', or 'Neutral'. Provide a one-sentence explanation for your classification.\n\nText: \"{{user_text}}\"",
+    "description": "A prompt that takes a piece of text and classifies its sentiment as Positive, Negative, or Neutral, and provides a short justification for the classification.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "sentiment-analysis",
+      "text-classification",
+      "nlp",
+      "data-analysis"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/sentiment-analysis-chat",
+    "confidenceScore": 0.95,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "inputSchema": "{\"type\":\"object\",\"properties\":{\"user_text\":{\"type\":\"string\",\"description\":\"The text to be analyzed for sentiment.\"}}}",
+    "reasoning": "The original text was a high-level description of a task. It was modified into a specific, actionable prompt with a clear instruction, defined output categories, and a placeholder for user input, creating a reusable sentiment analysis template.",
+    "id": "8d87295a-ee8c-4a60-912a-e2c34acb4909",
+    "fetchedAt": "2025-11-28T16:46:33.404Z"
+  },
+  {
+    "title": "Extract Methodology from Research Paper",
+    "promptText": "From the methodology section of the provided research paper, please identify and summarize the following key attributes in a structured list:\n\n1.  **Research Design**: (e.g., Randomized Controlled Trial, Cohort Study, Qualitative Case Study)\n2.  **Participants/Sample Size**: (e.g., Number of participants, demographics)\n3.  **Data Collection Methods**: (e.g., Surveys, Interviews, Experiments, Observations)\n4.  **Data Analysis Techniques**: (e.g., T-test, ANOVA, Thematic Analysis, Regression Analysis)\n\nHere is the methodology section:\n\n\"{{methodology_section}}\"",
+    "systemInstruction": "You are an expert Research Assistant specializing in analyzing scientific papers.",
+    "description": "Acts as a research assistant to extract and summarize key methodological details (design, sample size, data collection, analysis) from a given text of a research paper's methodology section.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "research",
+      "academic",
+      "text-extraction",
+      "summarization"
+    ],
+    "sourcePlatform": "official_docs",
+    "originUrl": "https://aistudio.google.com/app/prompts/research-assistant",
+    "confidenceScore": 0.95,
+    "author": {
+      "name": "Google",
+      "profileUrl": "https://ai.google.dev"
+    },
+    "inputSchema": "{\"type\":\"object\",\"properties\":{\"methodology_section\":{\"type\":\"string\",\"description\":\"The full text of the methodology section from a research paper.\"}}}",
+    "reasoning": "The original text described a goal. It has been refined into a structured prompt for a research assistant persona, specifically tasked with extracting key methodological attributes from a research paper, making it a practical tool for academic work.",
+    "id": "65161891-a93d-48dc-9f41-ab2cdfc34847",
+    "fetchedAt": "2025-11-28T16:46:33.404Z"
+  },
+  {
+    "title": "Simple Entity Extraction (Drug and Person)",
+    "promptText": "Extract the drug and the person from the following sentence: John took 200mg of ibuprofen.",
+    "description": "A prompt from an official Google notebook that demonstrates how to extract specific entities (a drug and a person) from a sentence.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "entity-extraction",
+      "json-output",
+      "structured-data",
+      "official-example"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/Entity_Extraction.ipynb",
+    "confidenceScore": 1,
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "outputSchema": "{\"type\": \"object\", \"properties\": {\"drug\": {\"type\": \"string\", \"description\": \"The name of the drug mentioned.\"}, \"person\": {\"type\": \"string\", \"description\": \"The name of the person mentioned.\"}}, \"required\": [\"drug\", \"person\"]}",
+    "reasoning": "Extracted from an official Google Gemini cookbook notebook. This is a clear, concise example of entity extraction with an implied JSON output format.",
+    "id": "764115d8-6268-476e-bbd8-9e7d5ad9b53a",
+    "fetchedAt": "2025-11-28T16:47:09.940Z"
+  },
+  {
+    "title": "Schema-Driven Entity Extraction (People and Companies)",
+    "promptText": "Extract the entities from the following text based on the provided schema.\nText: Alice is a software engineer at Google. Bob is a product manager at Microsoft.\nSchema: {\"Person\": \"Name of the person\", \"Company\": \"Company the person works for\", \"Job Title\": \"Job title of the person\"}",
+    "description": "A prompt from an official Google notebook that shows how to provide an inline schema to guide the model in extracting multiple entities into a structured JSON array.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text",
+      "code"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "entity-extraction",
+      "schema-driven",
+      "json-output",
+      "few-shot"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/Entity_Extraction.ipynb",
+    "confidenceScore": 1,
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "outputSchema": "{\"type\": \"array\", \"items\": {\"type\": \"object\", \"properties\": {\"Person\": {\"type\": \"string\"}, \"Company\": {\"type\": \"string\"}, \"Job Title\": {\"type\": \"string\"}}, \"required\": [\"Person\", \"Company\", \"Job Title\"]}}",
+    "reasoning": "Extracted from an official Google Gemini cookbook notebook. This prompt explicitly provides a schema to guide the model's JSON output for entity extraction.",
+    "id": "b78bc1a3-1bc7-48a0-a51e-8c105560a1b9",
+    "fetchedAt": "2025-11-28T16:47:09.940Z"
+  },
+  {
+    "title": "Simple Creative Writing Prompt",
+    "promptText": "Write a story about a magic backpack.",
+    "description": "A basic prompt from a Google quickstart guide, asking the model to write a short story on a given topic. Ideal for beginners.",
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "creative-writing",
+      "story-generation",
+      "getting-started",
+      "official-example"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/quickstarts/rest/Prompting_REST.ipynb",
+    "confidenceScore": 1,
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "reasoning": "Extracted from an official Google Gemini cookbook notebook. This is a fundamental, clear prompt for creative text generation.",
+    "id": "428d52fc-904b-49bc-82b8-9ddb8619c84c",
+    "fetchedAt": "2025-11-28T16:47:09.940Z"
+  },
+  {
+    "title": "Basic Image Description",
+    "promptText": "What is shown in this image?",
+    "description": "A fundamental multimodal prompt from a Google quickstart guide that asks the model to describe the contents of an image.",
+    "inputModality": [
+      "text",
+      "image"
+    ],
+    "outputModality": [
+      "text"
+    ],
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "tags": [
+      "image-analysis",
+      "vision",
+      "multimodal",
+      "description"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/quickstarts/rest/Prompting_REST.ipynb",
+    "confidenceScore": 1,
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "reasoning": "Extracted from an official Google Gemini cookbook notebook. This is a classic multimodal prompt for image understanding.",
+    "id": "7bf38c02-f90c-404b-9c83-652a6cb96d41",
+    "fetchedAt": "2025-11-28T16:47:09.940Z"
   }
 ]

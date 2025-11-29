@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Nano Banana Pro is insane",
+    "promptText": "Nano Banana Pro is insane",
+    "sourcePlatform": "reddit",
+    "originUrl": "https://www.reddit.com/r/GeminiAI/comments/1p8rtqb/nano_banana_pro_is_insane/",
+    "tags": [
+      "GeminiAI",
+      "Generated Images (with prompt)"
+    ],
+    "author": {
+      "name": "Hvnfw",
+      "profileUrl": "https://www.reddit.com/user/Hvnfw"
+    },
+    "metaMetrics": {
+      "upvotes": 10,
+      "commentCount": 1
+    }
+  },
+  {
+    "title": "AI MADE THIS?!",
+    "promptText": "I'm amazed. This was made by Nano Banana\nPrompt is in the first picture",
+    "sourcePlatform": "reddit",
+    "originUrl": "https://www.reddit.com/r/GeminiAI/comments/1p8ej5p/ai_made_this/",
+    "tags": [
+      "GeminiAI",
+      "Generated Images (with prompt)"
+    ],
+    "author": {
+      "name": "Every-Leadership-138",
+      "profileUrl": "https://www.reddit.com/user/Every-Leadership-138"
+    },
+    "metaMetrics": {
+      "upvotes": 65,
+      "commentCount": 8
+    }
+  },
+  {
+    "title": "want realistic looking images? use JSON (prompt in comment)",
+    "promptText": "take an image, feed it into claude/chatgpt/gemini, then tell it to replicate it in JSON format.\n\nhere's an example JSON code, adjust however you like :) \n\n{\n\n  \"subject\": {\n\n\"description\": \"A young woman taking a mirror selfie, playfully biting the straw of an iced green drink\",\n\n\"mirror\\_rules\": \"ignore mirror physics for text on clothing, display text forward and legible to viewer, no extra characters\",\n\n\"age\": \"young adult\",\n\n\"expression\": \"playful, nose scrunched, biting straw\",\n\n\"hair\": {\n\n\"color\": \"brown\",\n\n\"style\": \"long straight hair falling over shoulders\"\n\n},\n\n\"clothing\": {\n\n\"top\": {\n\n\"type\": \"ribbed knit cami top\",\n\n\"color\": \"white\",\n\n\"details\": \"cropped fit, thin straps, small dainty bow at neckline\"\n\n},\n\n\"bottom\": {\n\n\"type\": \"denim jeans\",\n\n\"color\": \"light wash blue\",\n\n\"details\": \"relaxed fit, visible button fly\"\n\n}\n\n},\n\n\"face\": {\n\n\"preserve\\_original\": true,\n\n\"makeup\": \"natural sunkissed look, glowing skin, nude glossy lips\"\n\n}\n\n  },\n\n  \"accessories\": {\n\n\"headwear\": {\n\n\"type\": \"olive green baseball cap\",\n\n\"details\": \"white NY logo embroidery, silver over-ear headphones worn over the cap\"\n\n},\n\n\"jewelry\": {\n\n\"earrings\": \"large gold hoop earrings\",\n\n\"necklace\": \"thin gold chain with cross pendant\",\n\n\"wrist\": \"gold bangles and bracelets mixed\",\n\n\"rings\": \"multiple gold rings\"\n\n},\n\n\"device\": {\n\n\"type\": \"smartphone\",\n\n\"details\": \"white case with pink floral pattern\"\n\n},\n\n\"prop\": {\n\n\"type\": \"iced beverage\",\n\n\"details\": \"plastic cup with iced matcha latte and green straw\"\n\n}\n\n  },\n\n  \"photography\": {\n\n\"camera\\_style\": \"smartphone mirror selfie aesthetic\",\n\n\"angle\": \"eye-level mirror reflection\",\n\n\"shot\\_type\": \"waist-up composition, subject positioned on the right side of the frame\",\n\n\"aspect\\_ratio\": \"9:16 vertical\",\n\n\"texture\": \"sharp focus, natural indoor lighting, social media realism, clean details\"\n\n  },\n\n  \"background\": {\n\n\"setting\": \"bright casual bedroom\",\n\n\"wall\\_color\": \"plain white\",\n\n\"elements\": \\[\n\n\"bed with white textured duvet\",\n\n\"black woven shoulder bag lying on bed\",\n\n\"leopard print throw pillow\",\n\n\"distressed white vintage nightstand\",\n\n\"modern bedside lamp with white shade\"\n\n\\],\n\n\"atmosphere\": \"casual lifestyle, cozy, spontaneous\",\n\n\"lighting\": \"soft natural daylight\"\n\n  }\n\n}",
+    "sourcePlatform": "reddit",
+    "originUrl": "https://www.reddit.com/r/GeminiAI/comments/1p8szt5/want_realistic_looking_images_use_json_prompt_in/",
+    "tags": [
+      "GeminiAI",
+      "Ressource"
+    ],
+    "author": {
+      "name": "OverFlow10",
+      "profileUrl": "https://www.reddit.com/user/OverFlow10"
+    },
+    "metaMetrics": {
+      "upvotes": 3,
+      "commentCount": 0
+    }
+  }
+]

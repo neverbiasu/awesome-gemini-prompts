@@ -1,0 +1,292 @@
+[
+  {
+    "id": "6a899968-75f4-4152-ac11-9787e268de64",
+    "title": "Story_Writing_with_Prompt_Chaining",
+    "promptText": "##### Copyright 2025 Google LLC.... (See Notebook)",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/Story_Writing_with_Prompt_Chaining.ipynb",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code",
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:45:37.152Z",
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "confidenceScore": 0.9
+  },
+  {
+    "id": "19c33ad6-019f-46b4-ab89-2a3f47343aa4",
+    "title": "Role_prompting",
+    "promptText": "\n    You are a highly regarded music connoisseur, you are a big fan of Mozart.\n    You recently listened to Mozart's Requiem.\n",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/prompting/Role_prompting.ipynb",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code",
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:45:37.377Z",
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "confidenceScore": 0.9
+  },
+  {
+    "id": "67dbd4c8-4e21-459b-966e-070aee269273",
+    "title": "Self_ask_prompting",
+    "promptText": "\n  Question: Who was the president of the united states when Mozart died?\n  Are follow up questions needed?: yes.\n  Follow up: When did Mozart died?\n  Intermediate answer: 1791.\n  Follow up: Who was the president of the united states in 1791?\n  Intermediate answer: George Washington.\n  Final answer: When Mozart died George Washington was the president of the USA.\n\n  Question: Where did the Emperor of Japan, who ruled the year Maria\n  Skłodowska was born, die?\n",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/prompting/Self_ask_prompting.ipynb",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code",
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:45:37.555Z",
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "confidenceScore": 0.9
+  },
+  {
+    "id": "50483cf0-0231-49fc-bc0b-37f72a34342c",
+    "title": "Basic_Information_Extraction",
+    "promptText": "\n  You are given a list of groceries. Complete the following:\n  - Organize groceries into categories for easier shopping.\n  - List each item one under another with a checkbox [].\n",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/prompting/Basic_Information_Extraction.ipynb",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code",
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:45:37.731Z",
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "confidenceScore": 0.9
+  },
+  {
+    "id": "52e2089b-0ddf-4bbb-9dcb-7458d1599483",
+    "title": "Get_started_LearnLM",
+    "promptText": "\n  Help me study for a undergrad cognition test on theories of emotion\n  generation.\n",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/quickstarts/Get_started_LearnLM.ipynb",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code",
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:45:37.939Z",
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "confidenceScore": 0.9
+  },
+  {
+    "id": "7d98f39a-f1eb-4197-a9d5-b31797e047b3",
+    "title": "Few_shot_prompting",
+    "promptText": "\n    Sort the animals from biggest to smallest.\n    Question: Sort Tiger, Bear, Dog\n    Answer: Bear > Tiger > Dog}\n    Question: Sort Cat, Elephant, Zebra\n    Answer: Elephant > Zebra > Cat}\n    Question: Sort Whale, Goldfish, Monkey\n    Answer:\n",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/prompting/Few_shot_prompting.ipynb",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code",
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:45:38.113Z",
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "confidenceScore": 0.9
+  },
+  {
+    "id": "55c8f7f1-bd04-4321-9b22-152bbf99f5b9",
+    "title": "Basic_Code_Generation",
+    "promptText": "\n  Create a countdown timer that ticks down every second and prints\n  \"Time is up!\" after 20 seconds\n",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/prompting/Basic_Code_Generation.ipynb",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code",
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:45:38.303Z",
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "confidenceScore": 0.9
+  },
+  {
+    "id": "786d8149-ea1c-4547-8430-5d1feddd4620",
+    "title": "Search_reranking_using_embeddings",
+    "promptText": "##### Copyright 2025 Google LLC.... (See Notebook)",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/Search_reranking_using_embeddings.ipynb",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code",
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:45:38.660Z",
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "confidenceScore": 0.9
+  },
+  {
+    "id": "3f6cf7d9-76d4-45a1-8d91-8d7f87343f50",
+    "title": "Entity_Extraction",
+    "promptText": "##### Copyright 2025 Google LLC.... (See Notebook)",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/examples/Entity_Extraction.ipynb",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code",
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:45:38.995Z",
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "confidenceScore": 0.9
+  },
+  {
+    "id": "fb738ab3-5a6e-4b36-8d8d-37be990c6419",
+    "title": "Prompting_REST",
+    "promptText": "##### Copyright 2025 Google LLC.... (See Notebook)",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "sourcePlatform": "github",
+    "originUrl": "https://github.com/google-gemini/cookbook/blob/3d2069097a95c850dca8075433e2b3877d99d99c/quickstarts/rest/Prompting_REST.ipynb",
+    "modelTarget": [
+      "gemini-1.5-pro"
+    ],
+    "inputModality": [
+      "text"
+    ],
+    "outputModality": [
+      "code",
+      "text"
+    ],
+    "fetchedAt": "2025-11-28T16:45:39.365Z",
+    "author": {
+      "name": "google-gemini",
+      "profileUrl": "https://github.com/google-gemini"
+    },
+    "confidenceScore": 0.9
+  }
+]

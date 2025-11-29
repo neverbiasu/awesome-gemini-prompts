@@ -1,6 +1,6 @@
 import { generateObject } from 'ai';
 import { google } from '@ai-sdk/google';
-import { openai } from '@ai-sdk/openai';
+import { createOpenAI } from '@ai-sdk/openai';
 import { z } from 'zod';
 import { suggestModelsForModality } from '../config/model-capabilities';
 import { GeminiPrompt, PromptSchema } from '../schema/prompt';
@@ -41,10 +41,11 @@ export async function cleanPromptsWithLLM(rawPrompts: Partial<GeminiPrompt>[]): 
     // Using the verified Gemini 2.5 Pro model from API list
     // Note: The ai-sdk `openai` provider is used here to connect to GitHub Models' OpenAI-compatible endpoint.
     // The model name 'gemini-2.5-pro' is passed to this endpoint.
-    model = openai('gemini-2.5-pro', {
+    const githubOpenAI = createOpenAI({
       baseURL: 'https://models.inference.ai.azure.com',
       apiKey: githubToken
     });
+    model = githubOpenAI('gemini-2.5-pro');
   } else {
     console.warn("⚠️ No AI API Key found (GEMINI_API_KEY or GITHUB_TOKEN). Skipping LLM cleaning.");
     return rawPrompts as GeminiPrompt[];
