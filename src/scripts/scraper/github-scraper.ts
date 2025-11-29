@@ -71,20 +71,24 @@ export async function scrapeGithub(): Promise<GeminiPrompt[]> {
                  prompts.push({
                     id: crypto.randomUUID(),
                     title: item.name.replace('.ipynb', '').split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' '),
-                    promptText: extractedPrompt,
                     description: `Official example from ${item.repository.full_name}`,
                     tags: ["official", "cookbook", "code"],
-                    sourcePlatform: "github",
-                    originUrl: item.html_url,
-                    modelTarget: ["gemini-1.5-pro"],
-                    inputModality: ["text"],
-                    outputModality: ["code", "text"],
-                    fetchedAt: new Date().toISOString(),
+                    originalSourceUrl: item.html_url,
+                    compatibleModels: ["gemini-1.5-pro"],
+                    
+                    contents: [{
+                      role: "user",
+                      parts: [{ text: extractedPrompt }]
+                    }],
+                    
                     author: {
                       name: item.repository.owner.login,
-                      profileUrl: item.repository.owner.html_url
+                      url: item.repository.owner.html_url,
+                      platform: "GitHub"
                     },
-                    confidenceScore: 0.9
+                    stats: { views: 0, copies: 0, likes: 0 },
+                    createdAt: new Date().toISOString(),
+                    updatedAt: new Date().toISOString()
                  });
              }
 

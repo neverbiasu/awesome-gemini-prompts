@@ -37,17 +37,25 @@ export async function scrapeWeb(): Promise<GeminiPrompt[]> {
        prompts.push({
          id: crypto.randomUUID(),
          title: card.title,
-         promptText: card.description || card.title, // Placeholder
          description: card.description,
          tags: ["official", "google"],
-         sourcePlatform: "official_docs",
-         originUrl: card.url,
-         modelTarget: ["gemini-1.5-pro"],
-         inputModality: ["text"],
-         outputModality: ["text"],
-         fetchedAt: new Date().toISOString(),
-         author: { name: "Google", profileUrl: "https://ai.google.dev" },
-         confidenceScore: 0.8 
+         originalSourceUrl: card.url,
+         compatibleModels: ["gemini-1.5-pro"],
+         
+         // Placeholder content since we can't scrape details yet
+         contents: [{
+           role: "user",
+           parts: [{ text: card.description || card.title }]
+         }],
+         
+         author: { 
+           name: "Google", 
+           url: "https://ai.google.dev",
+           platform: "Google"
+         },
+         stats: { views: 0, copies: 0, likes: 0 },
+         createdAt: new Date().toISOString(),
+         updatedAt: new Date().toISOString()
        });
     }
 

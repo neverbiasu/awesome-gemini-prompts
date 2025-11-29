@@ -5,11 +5,11 @@ import { Card, CardHeader, CardBody, CardFooter, Button, Chip, Tooltip } from "@
 import { GeminiPrompt } from "../schema/prompt";
 
 const PLATFORM_CONFIG: Record<string, { color: string; label: string; icon: string }> = {
-  github: { color: "text-white bg-zinc-800", label: "GitHub", icon: "github" },
-  reddit: { color: "text-orange-400 bg-orange-400/10", label: "Reddit", icon: "reddit" },
-  official_docs: { color: "text-blue-400 bg-blue-400/10", label: "Google", icon: "google" },
-  web: { color: "text-emerald-400 bg-emerald-400/10", label: "Web", icon: "globe" },
-  social: { color: "text-sky-400 bg-sky-400/10", label: "Social", icon: "twitter" },
+  GitHub: { color: "text-white bg-zinc-800", label: "GitHub", icon: "github" },
+  Reddit: { color: "text-orange-400 bg-orange-400/10", label: "Reddit", icon: "reddit" },
+  Google: { color: "text-blue-400 bg-blue-400/10", label: "Google", icon: "google" },
+  UserSubmission: { color: "text-emerald-400 bg-emerald-400/10", label: "Community", icon: "globe" },
+  Discord: { color: "text-indigo-400 bg-indigo-400/10", label: "Discord", icon: "discord" },
 };
 
 function CopyButton({ text, tooltip = "Copy Prompt" }: { text: string; tooltip?: string }) {
@@ -52,12 +52,17 @@ function CopyButton({ text, tooltip = "Copy Prompt" }: { text: string; tooltip?:
 }
 
 export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
-  const platform = PLATFORM_CONFIG[prompt.sourcePlatform] || PLATFORM_CONFIG.web;
+  const platformKey = prompt.author?.platform || "Google";
+  const platform = PLATFORM_CONFIG[platformKey] || PLATFORM_CONFIG.Google;
 
   // Helper to format model list
-  const models = Array.isArray(prompt.modelTarget) ? prompt.modelTarget : (prompt.modelTarget ? [prompt.modelTarget] : ["gemini-1.5-pro"]);
+  const models = prompt.compatibleModels || ["gemini-1.5-pro"];
   const displayModel = models[0].replace('gemini-', '');
   const extraModelsCount = models.length - 1;
+
+  // Extract text content
+  const systemText = prompt.systemInstruction?.parts?.[0]?.text;
+  const userText = prompt.contents?.[0]?.parts?.[0]?.text || "";
 
   return (
     <Card 
@@ -72,12 +77,12 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
           <div className={`px-2 py-1 rounded text-[10px] uppercase font-bold tracking-wider ${platform.color} border border-white/5`}>
             {platform.label}
           </div>
-          {prompt.metaMetrics && (
+          {prompt.stats && (
             <div className="flex items-center gap-1.5 text-xs text-zinc-500 font-mono">
               <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24">
                 <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
               </svg>
-              <span>{prompt.metaMetrics.stars || prompt.metaMetrics.upvotes || 0}</span>
+              <span>{prompt.stats.likes || prompt.stats.views || 0}</span>
             </div>
           )}
         </div>
@@ -93,30 +98,30 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
         className="p-5 flex flex-col gap-3 overflow-hidden w-full h-full"
       >
         {/* System Instruction (Persona) */}
-        {prompt.systemInstruction && (
+        {systemText && (
           <div className={`
             relative rounded-lg border-l-4 border-secondary bg-default-100/50 p-3 text-xs font-mono text-default-600
-            ${!prompt.promptText ? 'flex-1 overflow-hidden' : 'shrink-0 max-h-[40%] overflow-hidden'}
+            ${!userText ? 'flex-1 overflow-hidden' : 'shrink-0 max-h-[40%] overflow-hidden'}
           `}>
             <div className="flex justify-between items-center mb-1">
               <span className="uppercase text-[10px] font-bold text-secondary tracking-wider">System</span>
               <span className="text-[9px] text-warning uppercase font-bold tracking-wider border border-warning/20 px-1 rounded">API Only</span>
             </div>
             <div className="relative h-full">
-                 <p className="whitespace-pre-wrap line-clamp-none">{prompt.systemInstruction}</p>
+                 <p className="whitespace-pre-wrap line-clamp-none">{systemText}</p>
             </div>
           </div>
         )}
 
         {/* User Prompt */}
-        {prompt.promptText && (
+        {userText && (
           <div className="relative group flex-1 overflow-hidden flex flex-col">
             <Chip size="sm" variant="flat" color="secondary" className="mb-2 h-5 text-[10px] uppercase font-bold tracking-wider bg-secondary/10 text-secondary shrink-0 w-fit">
               User Prompt
             </Chip>
             <div className="relative flex-1 overflow-hidden">
               <p className="text-sm text-default-500 whitespace-pre-wrap font-mono leading-relaxed">
-                {prompt.promptText}
+                {userText}
               </p>
             </div>
           </div>
@@ -124,17 +129,7 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
 
         {/* Tech Stack (Footer Top) */}
         <div className="flex items-center gap-2 mt-auto pt-3 text-xs text-default-400 shrink-0 border-t border-white/5 w-full">
-          {/* Input Modality */}
-          <div className="flex gap-1">
-            {(prompt.inputModality || ["text"]).slice(0, 2).map((m) => (
-              <Chip key={m} size="sm" variant="dot" color="default" className="h-5 text-[10px] border-none pl-1">
-                {m}
-              </Chip>
-            ))}
-          </div>
           
-          <div className="w-px h-3 bg-default-300/20 mx-1" />
-
           {/* Model Targets */}
           <Tooltip content={models.join(", ")}>
             <div className="flex items-center gap-1 cursor-help">
@@ -161,14 +156,14 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
         <div className="flex gap-1 items-center">
             
           {/* Dual Copy Buttons for Hybrid Mode */}
-          {prompt.systemInstruction ? (
+          {systemText ? (
             <>
               <div className="w-px h-4 bg-white/10 mx-1" />
-              <CopyButton text={prompt.systemInstruction} tooltip="Copy System Instruction" />
-              <CopyButton text={prompt.promptText} tooltip="Copy User Prompt" />
+              <CopyButton text={systemText} tooltip="Copy System Instruction" />
+              <CopyButton text={userText} tooltip="Copy User Prompt" />
             </>
           ) : (
-            <CopyButton text={prompt.promptText} tooltip="Copy User Prompt" />
+            <CopyButton text={userText} tooltip="Copy User Prompt" />
           )}
         </div>
       </CardFooter>
