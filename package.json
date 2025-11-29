@@ -7,11 +7,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "scrape": "tsx src/scripts/main.ts"
+    "scrape": "tsx src/scripts/scrape.ts",
+    "clean": "tsx src/scripts/clean.ts",
+    "pipeline": "npm run scrape && npm run clean"
   },
   "dependencies": {
     "@ai-sdk/google": "^2.0.43",
     "@ai-sdk/openai": "^2.0.72",
+    "@google/generative-ai": "^0.24.1",
     "@heroui/react": "^2.8.5",
     "@octokit/graphql": "^9.0.3",
     "@octokit/rest": "^22.0.1",
@@ -24,6 +27,7 @@
     "octokit": "^5.0.5",
     "react": "19.2.0",
     "react-dom": "19.2.0",
+    "rss-parser": "^3.13.0",
     "snoowrap": "^1.23.0",
     "tailwind-merge": "^3.4.0",
     "zod": "^4.1.13"

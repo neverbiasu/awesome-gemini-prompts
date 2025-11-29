@@ -1,175 +1,100 @@
-import Snoowrap from 'snoowrap';
-import { GeminiPrompt } from '../../schema/prompt';
+import Parser from 'rss-parser';
 
-// Subreddit-specific configuration
-const SUBREDDIT_CONFIG: Record<string, { whitelist: string[], blacklist: string[] }> = {
-  'GeminiAI': {
-    whitelist: [
-      'Ressource', 
-      'Generated Images (with prompt)', 
-      'Generated Videos (with prompt) FLOW / VEO 3', 
-      'GEMs (Custom Gemini Expert)', 
-      'Ideas (enhanced/written with AI)', 
-      'NotebookLM'
-    ],
-    blacklist: [
-      'Discussion', 'Help/question', 'News', 'Other', 'Self promo', 
-      'Funny (Highlight/meme)', 'Interesting response (Highlight)', 
-      'Gemini CLI', 'NanoBanana'
-    ]
-  },
-  'Bard': {
-    whitelist: ['Prompt', 'Share', 'Resource', 'Creative'],
-    blacklist: ['Question', 'Help', 'Bug', 'Issue', 'News', 'Discussion']
-  },
-  'GoogleBard': {
-    whitelist: ['Prompt', 'Share', 'Resource', 'Creative'],
-    blacklist: ['Question', 'Help', 'Bug', 'Issue', 'News', 'Discussion']
+// Initialize RSS Parser
+const parser = new Parser({
+  headers: {
+    'User-Agent': 'GeminiPromptScraper/1.0 (RSS)'
   }
-};
+});
 
-export async function scrapeReddit(): Promise<Partial<GeminiPrompt>[]> {
-  const clientId = process.env.REDDIT_CLIENT_ID;
-  const clientSecret = process.env.REDDIT_CLIENT_SECRET;
-  const username = process.env.REDDIT_USERNAME;
-  const password = process.env.REDDIT_PASSWORD;
+const SUBREDDITS = ['GoogleGeminiAI', 'Bard', 'PromptEngineering', 'ChatGPT'];
+const FLAIRS = ['Prompt', 'Share', 'Resource', 'Guide', 'Educational', 'Tip'];
 
-  if (clientId && clientSecret && username && password) {
-    console.log("👽 Starting Reddit Scraper (Authenticated via Snoowrap)...");
-    try {
-      const results = await scrapeRedditAuthenticated(clientId, clientSecret, username, password);
-      if (results.length > 0) {
-        return results;
-      }
-      console.warn("⚠️ Reddit Auth returned 0 results (possible Auth error). Falling back to No-Auth mode.");
-      return scrapeRedditNoAuth();
-    } catch (e) {
-      console.warn("⚠️ Reddit Auth failed (check credentials). Falling back to No-Auth mode.");
-      return scrapeRedditNoAuth();
-    }
-  } else {
-    console.log("👽 Starting Reddit Scraper (No-Auth Fallback)...");
-    console.log("   (Tip: Add REDDIT_CLIENT_ID etc. to .env for better stability)");
-    return scrapeRedditNoAuth();
-  }
-}
-
-async function scrapeRedditAuthenticated(clientId: string, clientSecret: string, username: string, password: string): Promise<Partial<GeminiPrompt>[]> {
-  const userAgent = process.env.REDDIT_USER_AGENT || 'GeminiPromptScraper/1.0';
+export async function scrapeReddit(): Promise<any[]> {
+  console.log('🤖 Starting Reddit Scraper (RSS Search Mode)...');
   
-  const r = new Snoowrap({
-    userAgent,
-    clientId,
-    clientSecret,
-    username,
-    password
-  });
+  const rawPosts: any[] = [];
+  const seenUrls = new Set<string>();
 
-  const subreddits = ['Bard', 'GeminiAI', 'GoogleBard'];
-  const candidates: Partial<GeminiPrompt>[] = [];
+  for (const subName of SUBREDDITS) {
+    for (const flair of FLAIRS) {
+      try {
+        // Search for specific flairs via RSS
+        // URL encoding is critical here
+        const encodedFlair = encodeURIComponent(`flair:"${flair}"`);
+        const feedUrl = `https://www.reddit.com/r/${subName}/search.rss?q=${encodedFlair}&restrict_sr=1&sort=top&t=all&limit=50`;
+        
+        console.log(`   Fetching RSS feed for r/${subName} [${flair}]...`);
+        
+        const feed = await parser.parseURL(feedUrl);
+        console.log(`   Found ${feed.items.length} entries in r/${subName} [${flair}].`);
 
-  for (const sub of subreddits) {
-    try {
-      console.log(`   Scraping r/${sub}...`);
-      const posts = await r.getSubreddit(sub).getHot({ limit: 25 });
-      const config = SUBREDDIT_CONFIG[sub] || { whitelist: [], blacklist: [] };
+        for (const item of feed.items) {
+          // Filter low quality or irrelevant items based on title/content length
+          if (!item.title || !item.link) continue;
+          
+          // Dedup across flairs/subreddits
+          if (seenUrls.has(item.link)) continue;
+          seenUrls.add(item.link);
 
-      for (const post of posts) {
-        if (shouldSkipPost(post, config)) continue;
+          try {
+            // Construct JSON URL (append .json to the post link)
+            const jsonUrl = item.link.endsWith('/') ? `${item.link}.json` : `${item.link}/.json`;
+            
+            // Add a small delay to respect rate limits (1s)
+            await new Promise(resolve => setTimeout(resolve, 1000));
 
-        candidates.push({
-          title: post.title,
-          promptText: post.selftext || post.title,
-          sourcePlatform: "reddit",
-          originUrl: `https://www.reddit.com${post.permalink}`,
-          tags: [sub, post.link_flair_text].filter(Boolean) as string[],
-          author: {
-            name: post.author.name,
-            profileUrl: `https://www.reddit.com/user/${post.author.name}`
-          },
-          metaMetrics: {
-            upvotes: post.ups,
-            commentCount: post.num_comments
+            const response = await fetch(jsonUrl, {
+              headers: {
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+              }
+            });
+
+            if (!response.ok) {
+              console.warn(`      ⚠️ Failed to fetch JSON for ${item.title}: ${response.status}`);
+              continue;
+            }
+
+            const data = await response.json();
+            const postData = data[0]?.data?.children?.[0]?.data;
+
+            if (!postData) {
+               continue;
+            }
+            
+            // Quality Check: Must have selftext (body) and reasonable length
+            if (!postData.selftext || postData.selftext.length < 50) {
+                continue;
+            }
+
+            console.log(`      Found: ${postData.title.substring(0, 50)}...`);
+
+            rawPosts.push({
+              source: 'reddit',
+              subreddit: subName,
+              flair: flair,
+              title: postData.title,
+              content: postData.selftext, 
+              url: postData.url || item.link,
+              author: postData.author,
+              date: new Date(postData.created_utc * 1000).toISOString(),
+              stats: {
+                upvotes: postData.ups,
+                comments: postData.num_comments
+              }
+            });
+
+          } catch (err: any) {
+            console.error(`      ❌ Error processing item ${item.title}:`, err.message);
           }
-        });
-      }
-    } catch (error: any) {
-      console.error(`   Error scraping r/${sub} (Auth):`, error.message || error);
-    }
-  }
-  
-  console.log(`   Found ${candidates.length} prompts from Reddit (Auth).`);
-  return candidates;
-}
-
-async function scrapeRedditNoAuth(): Promise<Partial<GeminiPrompt>[]> {
-  const subreddits = ['Bard', 'GeminiAI', 'GoogleBard'];
-  const candidates: Partial<GeminiPrompt>[] = [];
-
-  for (const sub of subreddits) {
-    try {
-      console.log(`   Scraping r/${sub}...`);
-      const response = await fetch(`https://www.reddit.com/r/${sub}/hot.json?limit=25`, {
-        headers: {
-            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
         }
-      });
-      
-      if (!response.ok) {
-        console.warn(`   Failed to fetch r/${sub}: ${response.statusText}`);
-        continue;
+
+      } catch (error: any) {
+        // Some subreddits might not have the flair, just ignore
+        // console.error(`❌ Failed to scrape r/${subName} [${flair}]:`, error.message);
       }
-
-      const data = await response.json();
-      const posts = data.data.children;
-      const config = SUBREDDIT_CONFIG[sub] || { whitelist: [], blacklist: [] };
-
-      for (const postWrapper of posts) {
-        const post = postWrapper.data;
-        if (shouldSkipPost(post, config)) continue;
-
-        candidates.push({
-          title: post.title,
-          promptText: post.selftext || post.title,
-          sourcePlatform: "reddit",
-          originUrl: `https://www.reddit.com${post.permalink}`,
-          tags: [sub, post.link_flair_text].filter(Boolean) as string[],
-          author: {
-            name: post.author,
-            profileUrl: `https://www.reddit.com/user/${post.author}`
-          },
-          metaMetrics: {
-            upvotes: post.ups,
-            commentCount: post.num_comments
-          }
-        });
-      }
-    } catch (error: any) {
-      console.error(`   Error scraping r/${sub} (No-Auth):`, error.message || error);
     }
   }
 
-  console.log(`   Found ${candidates.length} prompts from Reddit (No-Auth).`);
-  return candidates;
-}
-
-// Shared filtering logic
-function shouldSkipPost(post: any, config: { whitelist: string[], blacklist: string[] }): boolean {
-    // 1. Metric Filtering
-    if (post.ups < 3) return true;
-
-    // 2. Content Filtering
-    if (post.title.match(/^(How to|Why|Is there|Help)/i)) return true;
-
-    // 3. Flair Filtering
-    const flair = post.link_flair_text;
-    
-    if (config.whitelist.length > 0) {
-        if (flair && config.blacklist.some(b => flair.includes(b))) return true;
-        if (!flair || !config.whitelist.some(w => flair.includes(w))) return true;
-    } else {
-        if (flair && ['Question', 'Help', 'Bug', 'Issue', 'News'].some(k => flair.includes(k))) return true;
-    }
-    
-    return false;
+  return rawPosts;
 }
