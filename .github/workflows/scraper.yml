@@ -29,8 +29,8 @@ jobs:
       - name: Install Playwright Browsers
         run: npx playwright install --with-deps chromium
         
-      - name: Execute Scraper
-        run: npx tsx src/scripts/main.ts
+      - name: Execute Scraper Pipeline
+        run: npm run pipeline
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
