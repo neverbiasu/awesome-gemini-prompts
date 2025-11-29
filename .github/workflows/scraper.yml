@@ -2,7 +2,7 @@ name: Gemini Prompt Automated Scraper
 
 on:
   schedule:
-    - cron: '0 */6 * * *' # Run every 6 hours
+    - cron: '0 0 * * *' # Run once a day at midnight UTC
   workflow_dispatch: # Allow manual trigger
 
 permissions:
@@ -40,4 +40,3 @@ jobs:
         with:
           commit_message: "chore(data): update gemini prompts [skip ci]"
           file_pattern: data/*.json
-          branch: main
