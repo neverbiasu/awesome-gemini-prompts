@@ -1,785 +1,1017 @@
 [
   {
-    "id": "e1a8b544-c8da-4ab0-a419-d1ec2473f683",
+    "id": "9bc349a5-78b7-4a20-bd07-bebce434f26f",
     "title": "Audio Diarization",
-    "promptText": "Transcribe audio with speaker details and timestamps.",
     "description": "Transcribe audio with speaker details and timestamps.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/audio-diarization",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/audio-diarization",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Transcribe audio with speaker details and timestamps."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.562Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.525Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "2d3f1013-18c5-42c6-b92c-fff47a0aa980",
+    "id": "64d97e05-e4cd-4735-b9b4-b77591bbecd6",
     "title": "Video Q&A",
-    "promptText": "Ask questions about key details in a video.",
     "description": "Ask questions about key details in a video.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/video-qa",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/video-qa",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Ask questions about key details in a video."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "65edb737-9f1e-4a38-8541-1be41d04926a",
+    "id": "85f1696b-7b08-42bd-bf51-e0a4513d7922",
     "title": "Recipe to JSON",
-    "promptText": "Create recipe in JSON mode using an image.",
     "description": "Create recipe in JSON mode using an image.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/recipe-list-json",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/recipe-list-json",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create recipe in JSON mode using an image."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "0e74b448-7939-4c48-871f-97ce64c834bd",
+    "id": "6561235a-2883-4704-8912-c267444f6611",
     "title": "Listing recipes using JSON schema",
-    "promptText": "Create JSON based on specified schema.",
     "description": "Create JSON based on specified schema.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/recipe-to-json",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/recipe-to-json",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create JSON based on specified schema."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "19041ced-8dae-440c-bbe7-8f5c0f61e0b8",
+    "id": "8ba6cc69-879f-4d44-8a6d-8c085e771f19",
     "title": "Math Tutor",
-    "promptText": "Teach me a lesson on quadratic equations.",
     "description": "Teach me a lesson on quadratic equations.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/math-tutor",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/math-tutor",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Teach me a lesson on quadratic equations."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "e7f8e8d3-055d-45cc-8907-18ed3765ef2a",
+    "id": "de89bdf1-2fb0-4250-9b23-1f8e23b0e64b",
     "title": "Math Worksheet Generator",
-    "promptText": "Create a set of elementary math worksheets for math educators and parents.",
     "description": "Create a set of elementary math worksheets for math educators and parents.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/worksheet-generator",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/worksheet-generator",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a set of elementary math worksheets for math educators and parents."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "9c1eff99-fee3-4f01-9eee-d05d44832b62",
+    "id": "eafb9a38-2384-4664-b3c2-e790edd2c293",
     "title": "Scavenger Hunt",
-    "promptText": "Create a curated list of scavenger hunt concepts.",
     "description": "Create a curated list of scavenger hunt concepts.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/scavanger-hunt",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/scavanger-hunt",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a curated list of scavenger hunt concepts."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "b4444993-34d8-4d95-b75a-5f7674a9c363",
+    "id": "e016f339-dc05-449f-819e-aad8a48f3238",
     "title": "Unit Testing",
-    "promptText": "Add unit tests for a Python function.",
     "description": "Add unit tests for a Python function.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/unit-testing",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/unit-testing",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Add unit tests for a Python function."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "237969ce-421b-4123-b9ca-a7496f77e363",
+    "id": "e4a9b83d-0df2-438b-900f-c841dc57073f",
     "title": "Geometry problem solving",
-    "promptText": "Solve for X in an image.",
     "description": "Solve for X in an image.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/geometry-problem",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/geometry-problem",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Solve for X in an image."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "b0348096-7754-492b-a2f8-73638831bb5f",
+    "id": "3f81d2cf-1b53-4971-965c-6e1bfb907192",
     "title": "Trip recommendations",
-    "promptText": "Convert unorganized text into structured tables.",
     "description": "Convert unorganized text into structured tables.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/trip-recommendations",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/trip-recommendations",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Convert unorganized text into structured tables."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "e4fe8b10-3c65-48b2-915a-b9d47add1cd1",
+    "id": "b04adc8f-ea11-4fff-98de-5ded60e0ea24",
     "title": "Time complexity",
-    "promptText": "Identify the time complexity of a function and optimize it.",
     "description": "Identify the time complexity of a function and optimize it.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/time-complexity",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/time-complexity",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Identify the time complexity of a function and optimize it."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "56d94a8e-032b-4d7e-961d-0553ccc12fc3",
+    "id": "543ea4b2-dc9b-4390-ba9d-40d8f124d756",
     "title": "Opossum Search",
-    "promptText": "Create a webpage based on the user’s specifications.",
     "description": "Create a webpage based on the user’s specifications.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/opposum-search",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/opposum-search",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a webpage based on the user’s specifications."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "670e5eba-61f7-42fc-a815-9bdd0d5da85a",
+    "id": "ede7fa6a-92cf-43fe-ace2-028d374e0e3c",
     "title": "Object identifier",
-    "promptText": "Get a description of an object and its uses from a photo.",
     "description": "Get a description of an object and its uses from a photo.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/object-identifier",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/object-identifier",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Get a description of an object and its uses from a photo."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "8704f72c-cc24-4f5e-beac-b2cef4de499c",
+    "id": "cda42d3f-0f3d-4cd8-9b18-55d1a51d58b9",
     "title": "Marketing writer",
-    "promptText": "Get catchy advertising copy tailored to your product and target audience.",
     "description": "Get catchy advertising copy tailored to your product and target audience.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/marketing-description-writer",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/marketing-description-writer",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Get catchy advertising copy tailored to your product and target audience."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "360ac988-4571-494e-9c5a-e98c3d9583bc",
+    "id": "bb5dc01c-57eb-429b-aedb-aea4d93557ad",
     "title": "List items from image",
-    "promptText": "Get a list of objects in a photo.",
     "description": "Get a list of objects in a photo.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/list-items-from-image",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/list-items-from-image",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Get a list of objects in a photo."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "e384d8d8-2086-47b5-bd69-1e588ca2c221",
+    "id": "e68881bd-6394-444e-890f-56bd8b6e1a0f",
     "title": "Blog post creator",
-    "promptText": "Generate a unique blog post from a single image.",
     "description": "Generate a unique blog post from a single image.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/blog-post-creator",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/blog-post-creator",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Generate a unique blog post from a single image."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "25231846-b212-411a-8776-67c3f2b2f9d3",
+    "id": "34aff65d-b0d0-4a67-a293-eaf3914bde4e",
     "title": "Barista Bot",
-    "promptText": "Order common coffee drinks from this virtual barista.",
     "description": "Order common coffee drinks from this virtual barista.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/barista-bot",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/barista-bot",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Order common coffee drinks from this virtual barista."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "838f1ada-49e6-4df8-8f2e-04176b6326a4",
+    "id": "dc517a24-2a36-44c3-9045-422c8a1604af",
     "title": "ML confusion matrix",
-    "promptText": "Get help generating a confusion matrix and metrics for your classifier.",
     "description": "Get help generating a confusion matrix and metrics for your classifier.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/ml-confusion-matrix",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/ml-confusion-matrix",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Get help generating a confusion matrix and metrics for your classifier."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "de7e3357-5868-469e-b85e-dd21faaaa284",
+    "id": "88fb65f4-deb3-4d61-8215-b4c03e0bf450",
     "title": "Sentiment analysis",
-    "promptText": "Analyze the sentiment of text messages.",
     "description": "Analyze the sentiment of text messages.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/sentiment-analysis-chat",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/sentiment-analysis-chat",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Analyze the sentiment of text messages."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "fb6f9d79-89ea-4437-9c81-0de467aad071",
+    "id": "9d04292b-2ecd-47fa-bdd5-1644c7cc4b1c",
     "title": "Research Assistant",
-    "promptText": "Understand the key attributes of the research paper’s methodology.",
     "description": "Understand the key attributes of the research paper’s methodology.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/research-assistant",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/research-assistant",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Understand the key attributes of the research paper’s methodology."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "80460b21-b8b6-4eb6-ab22-e30639144f4d",
+    "id": "e22aef4c-5be5-491a-937c-d882305c665a",
     "title": "Which shape comes next?",
-    "promptText": "Given a series of shapes, guess which shape comes next.",
     "description": "Given a series of shapes, guess which shape comes next.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/what-shape-comes-next",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/what-shape-comes-next",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Given a series of shapes, guess which shape comes next."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "7783affc-11cc-49da-9e6e-afb069f7629c",
+    "id": "42aca81c-6812-4216-a84d-b253207f7bb9",
     "title": "Plant care",
-    "promptText": "How do I best care for this plant.",
     "description": "How do I best care for this plant.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/plant-care",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/plant-care",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "How do I best care for this plant."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "752063df-3d53-4af1-aec7-65cc71afead5",
+    "id": "30ac4654-0fff-4ca5-b7e7-844953ca7529",
     "title": "Docker Script",
-    "promptText": "Writing a script in Docker to set up your environment.",
     "description": "Writing a script in Docker to set up your environment.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/docker-script",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/docker-script",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Writing a script in Docker to set up your environment."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "f9895587-2729-42d9-994d-ea0496f72bf6",
+    "id": "12bb0772-c1e5-4e2b-b604-56a72803457d",
     "title": "Santa’s Mailbox",
-    "promptText": "Capture a handwritten letter to Santa and write back as him.",
     "description": "Capture a handwritten letter to Santa and write back as him.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/santas-mailbox",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/santas-mailbox",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Capture a handwritten letter to Santa and write back as him."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "7f8e326a-9b47-402e-b523-83042ac2345c",
+    "id": "92aebd53-d4da-4f3e-843b-4f62c6e673a3",
     "title": "Brand Extractor",
-    "promptText": "Extract product and brand names from text.",
     "description": "Extract product and brand names from text.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/brand-extractor",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/brand-extractor",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Extract product and brand names from text."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "6cef0bf3-1942-4d95-8c92-fa50a1a9c075",
+    "id": "9247091a-7cb6-4d37-9680-243d319ec765",
     "title": "Cook Helper",
-    "promptText": "Get recipe ideas based on an image of the ingredients you have on hand.",
     "description": "Get recipe ideas based on an image of the ingredients you have on hand.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/cook-helper",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/cook-helper",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Get recipe ideas based on an image of the ingredients you have on hand."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "3ffa9347-2c94-41b5-99ef-7f08f49fbe0e",
+    "id": "71c101db-6119-4a1a-89d5-d9aafeed2643",
     "title": "Game Character Brainstorm",
-    "promptText": "Create a character design based on a provided context.",
     "description": "Create a character design based on a provided context.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/game-character-brainstorming",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/game-character-brainstorming",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a character design based on a provided context."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "a9e3ebcc-ceaf-4394-ad1a-6e991437176c",
+    "id": "64a1ea04-00a2-4fff-84df-57439d7cd270",
     "title": "Modify writing style",
-    "promptText": "Change the tone and writing style of a blurb.",
     "description": "Change the tone and writing style of a blurb.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/modify-tone-writing-style",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/modify-tone-writing-style",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Change the tone and writing style of a blurb."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   },
   {
-    "id": "40bbf1d3-e836-43f0-9dae-99d3e20843ad",
+    "id": "8a7739e9-b50f-41ba-9bc4-df77f970b8c3",
     "title": "Regexed",
-    "promptText": "Convert natural language queries and constraints to regex constructs.",
     "description": "Convert natural language queries and constraints to regex constructs.",
     "tags": [
       "official",
       "google"
     ],
-    "sourcePlatform": "official_docs",
-    "originUrl": "https://aistudio.google.com/app/prompts/regexed",
-    "modelTarget": [
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/regexed",
+    "compatibleModels": [
       "gemini-1.5-pro"
     ],
-    "inputModality": [
-      "text"
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Convert natural language queries and constraints to regex constructs."
+          }
+        ]
+      }
     ],
-    "outputModality": [
-      "text"
-    ],
-    "fetchedAt": "2025-11-28T16:45:36.563Z",
     "author": {
       "name": "Google",
-      "profileUrl": "https://ai.google.dev"
+      "url": "https://ai.google.dev",
+      "platform": "Google"
     },
-    "confidenceScore": 0.8
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-29T15:48:38.527Z",
+    "updatedAt": "2025-11-29T15:48:38.527Z"
   }
 ]
