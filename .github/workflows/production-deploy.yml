@@ -5,7 +5,9 @@ on:
     branches: [master]
 
 permissions:
-  contents: read
+  contents: write
+  issues: write
+  pull-requests: write
   deployments: write
 
 jobs:
