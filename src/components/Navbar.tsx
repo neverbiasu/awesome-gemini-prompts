@@ -14,14 +14,20 @@ export default function Navbar() {
         {/* Logo / Brand */}
         <Link href="/" className="flex items-center gap-2 group">
           <div className="relative w-8 h-8 group-hover:scale-110 transition-transform duration-500">
-            <div className="absolute inset-0 bg-blue-500/20 blur-lg rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+            <div className="absolute inset-0 bg-blue-500/20 blur-lg rounded-full opacity-50 animate-pulse" />
             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full drop-shadow-[0_0_10px_rgba(155,110,243,0.5)]">
               <path d="M12 2C12.5 7.5 16.5 11.5 22 12C16.5 12.5 12.5 16.5 12 22C11.5 16.5 7.5 12.5 2 12C7.5 11.5 11.5 7.5 12 2Z" fill="url(#gemini-gradient)" />
               <defs>
-                <linearGradient id="gemini-gradient" x1="2" y1="2" x2="22" y2="22" gradientUnits="userSpaceOnUse">
-                  <stop stopColor="#4E8CFF" />
-                  <stop offset="0.5" stopColor="#9B6EF3" />
-                  <stop offset="1" stopColor="#FF9E64" />
+                <linearGradient id="gemini-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stopColor="#4E8CFF">
+                    <animate attributeName="stop-color" values="#4E8CFF; #9B6EF3; #FF9E64; #4E8CFF" dur="4s" repeatCount="indefinite" />
+                  </stop>
+                  <stop offset="50%" stopColor="#9B6EF3">
+                    <animate attributeName="stop-color" values="#9B6EF3; #FF9E64; #4E8CFF; #9B6EF3" dur="4s" repeatCount="indefinite" />
+                  </stop>
+                  <stop offset="100%" stopColor="#FF9E64">
+                    <animate attributeName="stop-color" values="#FF9E64; #4E8CFF; #9B6EF3; #FF9E64" dur="4s" repeatCount="indefinite" />
+                  </stop>
                 </linearGradient>
               </defs>
             </svg>
