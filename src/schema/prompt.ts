@@ -48,6 +48,7 @@ export interface GeminiPrompt {
   slug?: string;           // URL-friendly string (Optional for now, can be generated)
   title: string;
   description: string;
+  promptText?: string; // Legacy field for backward compatibility
   tags: string[];         // e.g., "coding", "creative-writing", "json"
   
   // Version Control & Source Tracking

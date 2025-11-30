@@ -10,7 +10,7 @@ export default function LandingPage() {
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]"></div>
       <div className="absolute left-0 right-0 top-0 -z-10 m-auto h-[310px] w-[310px] rounded-full bg-blue-500 opacity-20 blur-[100px]"></div>
 
-      <div className="container mx-auto px-6 z-10 pt-32 pb-20">
+      <div className="container mx-auto px-6 z-10 pt-20 pb-20">
         
         {/* Hero Section */}
         <div className="flex flex-col items-center text-center space-y-8 max-w-4xl mx-auto">
@@ -104,7 +104,7 @@ export default function LandingPage() {
           <div className="p-8 rounded-3xl bg-zinc-900/30 border border-white/10 hover:border-white/20 transition-all">
             <h3 className="text-xl font-bold mb-2 text-white">Daily Updates</h3>
             <p className="text-zinc-400 text-sm">
-              Fresh prompts delivered every 6 hours via GitHub Actions.
+              Fresh prompts delivered daily via GitHub Actions.
             </p>
           </div>
         </div>

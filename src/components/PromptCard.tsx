@@ -62,7 +62,7 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
 
   // Extract text content
   const systemText = prompt.systemInstruction?.parts?.[0]?.text;
-  const userText = prompt.contents?.[0]?.parts?.[0]?.text || "";
+  const userText = prompt.contents?.[0]?.parts?.[0]?.text || prompt.promptText || "";
 
   return (
     <Card 
