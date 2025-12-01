@@ -22,14 +22,24 @@ async function main() {
     console.log('Mw Creating new production data file.');
   }
 
-  // 2. Load raw candidates
+  // 2. Load raw candidates from multiple sources
   let rawCandidates: any[] = [];
-  try {
-    const rawFileContent = await fs.readFile(RAW_FILE, 'utf-8');
-    rawCandidates = JSON.parse(rawFileContent);
-    console.log(`📥 Loaded ${rawCandidates.length} raw candidates from ${RAW_FILE}`);
-  } catch (error) {
-    console.error(`❌ Could not load ${RAW_FILE}. Did you run 'npm run scrape' first?`);
+  const sourceFiles = ['reddit.json', 'github.json', 'aistudio_scraped.json', 'aistudio.json'];
+  
+  for (const file of sourceFiles) {
+    try {
+      const filePath = path.join(DATA_DIR, file);
+      const content = await fs.readFile(filePath, 'utf-8');
+      const prompts = JSON.parse(content);
+      rawCandidates.push(...prompts);
+      console.log(`📥 Loaded ${prompts.length} candidates from ${file}`);
+    } catch (error) {
+      console.warn(`⚠️ Could not load ${file} (skipping).`);
+    }
+  }
+
+  if (rawCandidates.length === 0) {
+    console.error(`❌ No candidates loaded from any source file. Did you run 'npm run scrape'?`);
     process.exit(1);
   }
 
@@ -93,4 +103,9 @@ async function main() {
   console.log(`✅ Successfully saved ${allPrompts.length} prompts to ${PROMPTS_FILE}`);
 }
 
-main().catch(console.error);
+main()
+  .then(() => process.exit(0))
+  .catch((error) => {
+    console.error(error);
+    process.exit(1);
+  });
