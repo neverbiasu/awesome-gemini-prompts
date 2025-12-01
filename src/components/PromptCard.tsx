@@ -52,7 +52,16 @@ function CopyButton({ text, tooltip = "Copy Prompt" }: { text: string; tooltip?:
 }
 
 export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
-  const platformKey = prompt.author?.platform || "Google";
+  // Determine platform with legacy fallback
+  let platformKey = prompt.author?.platform;
+  if (!platformKey) {
+    const source = (prompt as any).sourcePlatform;
+    if (source === 'reddit') platformKey = 'Reddit';
+    else if (source === 'github') platformKey = 'GitHub';
+    else if (source === 'official_docs') platformKey = 'Google';
+    else platformKey = 'Google'; // Default fallback
+  }
+  
   const platform = PLATFORM_CONFIG[platformKey] || PLATFORM_CONFIG.Google;
 
   // Helper to format model list
@@ -63,6 +72,10 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
   // Extract text content
   const systemText = prompt.systemInstruction?.parts?.[0]?.text;
   const userText = prompt.contents?.[0]?.parts?.[0]?.text || prompt.promptText || "";
+
+  // Handle legacy fields
+  const sourceUrl = prompt.originalSourceUrl || (prompt as any).originUrl;
+  const likes = prompt.stats?.likes || (prompt as any).metaMetrics?.stars || (prompt as any).metaMetrics?.upvotes || 0;
 
   return (
     <Card 
@@ -77,12 +90,16 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
           <div className={`px-2 py-1 rounded text-[10px] uppercase font-bold tracking-wider ${platform.color} border border-white/5`}>
             {platform.label}
           </div>
-          {prompt.stats && (
-            <div className="flex items-center gap-1.5 text-xs text-zinc-500 font-mono">
-              <svg className="w-3.5 h-3.5" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"/>
-              </svg>
-              <span>{prompt.stats.likes || prompt.stats.views || 0}</span>
+          
+          {/* Metrics */}
+          {likes > 0 && platformKey !== 'Google' && (
+            <div className="flex items-center gap-3 text-xs text-zinc-500 font-mono">
+              <div className="flex items-center gap-1" title="Upvotes/Likes">
+                <svg className="w-3.5 h-3.5 text-rose-500/70" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
+                </svg>
+                <span>{likes}</span>
+              </div>
             </div>
           )}
         </div>
@@ -154,11 +171,32 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
           ))}
         </div>
         <div className="flex gap-1 items-center">
+          
+          {/* Source Link */}
+          {sourceUrl && (
+            <Tooltip content={`View on ${platform.label}`}>
+              <Button
+                isIconOnly
+                as="a"
+                href={sourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                size="sm"
+                variant="light"
+                className="text-zinc-400 hover:text-white min-w-8 w-8 h-8"
+              >
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </Button>
+            </Tooltip>
+          )}
+
+          <div className="w-px h-4 bg-white/10 mx-1" />
             
           {/* Dual Copy Buttons for Hybrid Mode */}
           {systemText ? (
             <>
-              <div className="w-px h-4 bg-white/10 mx-1" />
               <CopyButton text={systemText} tooltip="Copy System Instruction" />
               <CopyButton text={userText} tooltip="Copy User Prompt" />
             </>
