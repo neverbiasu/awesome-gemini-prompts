@@ -2,77 +2,107 @@ import Parser from 'rss-parser';
 
 // Initialize RSS Parser
 const parser = new Parser({
+  timeout: 5000,
   headers: {
     'User-Agent': 'GeminiPromptScraper/1.0 (RSS)'
   }
 });
 
-const SUBREDDITS = ['GoogleGeminiAI', 'Bard', 'PromptEngineering', 'ChatGPT'];
+const SUBREDDITS = ['GoogleGeminiAI', 'GeminiAI', 'GoogleGemini', 'Bard', 'ChatGPT_Gemini', 'PromptEngineering', 'nanobanana', 'GeminiNanoBanana2'];
 const FLAIRS = ['Prompt', 'Share', 'Resource', 'Guide', 'Educational', 'Tip'];
+const KEYWORDS = ['prompt', 'system instruction', 'act as a', 'you are a'];
 
 export async function scrapeReddit(): Promise<any[]> {
-  console.log('🤖 Starting Reddit Scraper (RSS Search Mode)...');
+  console.log('🤖 Starting Reddit Scraper (Multi-Dimension Search Mode)...');
   
   const rawPosts: any[] = [];
   const seenUrls = new Set<string>();
 
+  // Helper to build RSS URLs
+  const buildUrl = (sub: string, query: string, sort: string, time: string = 'all') => {
+      const encodedQuery = encodeURIComponent(query);
+      return `https://www.reddit.com/r/${sub}/search.rss?q=${encodedQuery}&restrict_sr=1&sort=${sort}&t=${time}&limit=50`;
+  };
+
   for (const subName of SUBREDDITS) {
+    console.log(`\n🔎 Scanning r/${subName}...`);
+
+    // 1. Search by Flair (High Precision)
     for (const flair of FLAIRS) {
-      try {
-        // Search for specific flairs via RSS
-        // URL encoding is critical here
-        const encodedFlair = encodeURIComponent(`flair:"${flair}"`);
-        const feedUrl = `https://www.reddit.com/r/${subName}/search.rss?q=${encodedFlair}&restrict_sr=1&sort=top&t=all&limit=50`;
+        const query = `flair:"${flair}"`;
         
-        console.log(`   Fetching RSS feed for r/${subName} [${flair}]...`);
+        // Strategy: Top (All Time), Top (Year), New, Hot
+        const strategies = [
+            { sort: 'top', time: 'all', label: 'Top-All' },
+            { sort: 'top', time: 'year', label: 'Top-Year' },
+            { sort: 'new', time: 'all', label: 'New' },
+            { sort: 'hot', time: 'all', label: 'Hot' }
+        ];
+
+        for (const strat of strategies) {
+            try {
+                const feedUrl = buildUrl(subName, query, strat.sort, strat.time);
+                await processFeed(feedUrl, subName, `${flair} [${strat.label}]`);
+            } catch (e) { /* ignore */ }
+        }
+    }
+
+    // 2. Search by Keyword (Broad Discovery)
+    for (const keyword of KEYWORDS) {
+        // Strategy: Top (All Time) only for keywords to avoid noise
+        try {
+            const feedUrl = buildUrl(subName, keyword, 'top', 'all');
+            await processFeed(feedUrl, subName, `Keyword: "${keyword}"`);
+        } catch (e) { /* ignore */ }
+    }
+  }
+
+  return rawPosts;
+
+  async function processFeed(feedUrl: string, subName: string, sourceLabel: string) {
+    try {
+        console.log(`   Fetching RSS: r/${subName} - ${sourceLabel}`);
         
         const feed = await parser.parseURL(feedUrl);
-        console.log(`   Found ${feed.items.length} entries in r/${subName} [${flair}].`);
+        if (feed.items.length > 0) {
+            console.log(`   Found ${feed.items.length} entries in r/${subName} [${sourceLabel}]`);
+        }
 
         for (const item of feed.items) {
-          // Filter low quality or irrelevant items based on title/content length
           if (!item.title || !item.link) continue;
           
-          // Dedup across flairs/subreddits
+          // Dedup
           if (seenUrls.has(item.link)) continue;
           seenUrls.add(item.link);
 
           try {
-            // Construct JSON URL (append .json to the post link)
             const jsonUrl = item.link.endsWith('/') ? `${item.link}.json` : `${item.link}/.json`;
-            
-            // Add a small delay to respect rate limits (1s)
-            await new Promise(resolve => setTimeout(resolve, 1000));
+            await new Promise(resolve => setTimeout(resolve, 200)); // Reduced delay for speed
 
             const response = await fetch(jsonUrl, {
+              signal: AbortSignal.timeout(5000),
               headers: {
                 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
               }
             });
 
-            if (!response.ok) {
-              console.warn(`      ⚠️ Failed to fetch JSON for ${item.title}: ${response.status}`);
-              continue;
-            }
+            if (!response.ok) continue;
 
             const data = await response.json();
             const postData = data[0]?.data?.children?.[0]?.data;
 
-            if (!postData) {
-               continue;
-            }
+            if (!postData) continue;
             
-            // Quality Check: Must have selftext (body) and reasonable length
-            if (!postData.selftext || postData.selftext.length < 50) {
-                continue;
-            }
+            // Quality Check: Must have selftext (body)
+            // REMOVED 50-char limit as requested
+            if (!postData.selftext) continue;
 
-            console.log(`      Found: ${postData.title.substring(0, 50)}...`);
+            // console.log(`      + [${postData.ups} ups] ${postData.title.substring(0, 60)}...`);
 
             rawPosts.push({
               source: 'reddit',
               subreddit: subName,
-              flair: flair,
+              flair: sourceLabel,
               title: postData.title,
               content: postData.selftext, 
               url: postData.url || item.link,
@@ -85,16 +115,11 @@ export async function scrapeReddit(): Promise<any[]> {
             });
 
           } catch (err: any) {
-            console.error(`      ❌ Error processing item ${item.title}:`, err.message);
+             // Silent fail for individual items
           }
         }
-
-      } catch (error: any) {
-        // Some subreddits might not have the flair, just ignore
-        // console.error(`❌ Failed to scrape r/${subName} [${flair}]:`, error.message);
-      }
+    } catch (error: any) {
+        // Silent fail for feeds
     }
   }
-
-  return rawPosts;
 }
