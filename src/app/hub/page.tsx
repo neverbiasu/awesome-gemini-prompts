@@ -1,7 +1,7 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import { GeminiPrompt } from '@/schema/prompt';
-import PromptCard from '@/components/PromptCard';
+import PromptGrid from '@/components/PromptGrid';
 
 export const revalidate = 3600;
 
@@ -20,10 +20,34 @@ export default async function HubPage() {
   const allPrompts = await getPrompts();
   
   // Filter out prompts that don't have any text content
-  const prompts = allPrompts.filter(p => 
+  const validPrompts = allPrompts.filter(p => 
     (p.contents && p.contents.length > 0 && p.contents[0].parts.some(part => part.text)) || 
     (p.promptText && p.promptText.trim().length > 0)
   );
+
+  // Sorting Logic
+  const prompts = validPrompts.sort((a, b) => {
+    // 1. Priority: Official Google Sources
+    const isGoogleA = a.author?.platform === 'Google' || (a as any).sourcePlatform === 'official_docs';
+    const isGoogleB = b.author?.platform === 'Google' || (b as any).sourcePlatform === 'official_docs';
+    
+    if (isGoogleA && !isGoogleB) return -1;
+    if (!isGoogleA && isGoogleB) return 1;
+
+    // 2. Priority: Likes/Upvotes/Stars (Descending)
+    const likesA = a.stats?.likes || (a as any).metaMetrics?.stars || (a as any).metaMetrics?.upvotes || 0;
+    const likesB = b.stats?.likes || (b as any).metaMetrics?.stars || (b as any).metaMetrics?.upvotes || 0;
+
+    if (likesB !== likesA) {
+      return likesB - likesA;
+    }
+
+    // 3. Priority: Date (Newest First)
+    const dateA = new Date(a.createdAt || (a as any).fetchedAt || 0).getTime();
+    const dateB = new Date(b.createdAt || (b as any).fetchedAt || 0).getTime();
+    
+    return dateB - dateA;
+  });
 
   return (
     <main className="min-h-screen bg-black text-zinc-200 relative overflow-hidden">
@@ -50,23 +74,7 @@ export default async function HubPage() {
           </div>
         </header>
       
-        {prompts.length === 0 ? (
-          <div className="flex flex-col items-center justify-center py-20 text-center space-y-4">
-            <div className="w-16 h-16 rounded-full bg-zinc-900 flex items-center justify-center border border-white/5">
-              <svg className="w-8 h-8 text-zinc-600" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
-              </svg>
-            </div>
-            <p className="text-zinc-500">No prompts found in the database.</p>
-            <p className="text-xs text-zinc-600">Run `npm run scrape` to populate data.</p>
-          </div>
-        ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-            {prompts.map((prompt) => (
-              <PromptCard key={prompt.id || prompt.originalSourceUrl} prompt={prompt} />
-            ))}
-          </div>
-        )}
+        <PromptGrid prompts={prompts} />
       </div>
     </main>
   );
