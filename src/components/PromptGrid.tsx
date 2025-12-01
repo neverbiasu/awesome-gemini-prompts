@@ -15,10 +15,12 @@ export default function PromptGrid({ prompts }: PromptGridProps) {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedModel, setSelectedModel] = useState("all");
   const [selectedTag, setSelectedTag] = useState("all");
+  const [selectedPlatform, setSelectedPlatform] = useState("all");
 
-  // Extract unique models and tags for filters
+  // Extract unique models, tags, and platforms for filters
   const allModels = Array.from(new Set(prompts.flatMap(p => p.compatibleModels || []))).sort();
   const allTags = Array.from(new Set(prompts.flatMap(p => p.tags || []))).sort();
+  const allPlatforms = Array.from(new Set(prompts.map(p => p.author?.platform || "Unknown"))).sort();
 
   // Filter Logic
   const filteredPrompts = prompts.filter(prompt => {
@@ -28,14 +30,15 @@ export default function PromptGrid({ prompts }: PromptGridProps) {
     
     const matchesModel = selectedModel === "all" || (prompt.compatibleModels && (prompt.compatibleModels as string[]).includes(selectedModel));
     const matchesTag = selectedTag === "all" || (prompt.tags && prompt.tags.includes(selectedTag));
+    const matchesPlatform = selectedPlatform === "all" || (prompt.author?.platform === selectedPlatform);
 
-    return matchesSearch && matchesModel && matchesTag;
+    return matchesSearch && matchesModel && matchesTag && matchesPlatform;
   });
 
   // Reset to page 1 when filters change
   useEffect(() => {
     setCurrentPage(1);
-  }, [searchTerm, selectedModel, selectedTag]);
+  }, [searchTerm, selectedModel, selectedTag, selectedPlatform]);
 
   const totalPages = Math.ceil(filteredPrompts.length / ITEMS_PER_PAGE);
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
@@ -63,7 +66,18 @@ export default function PromptGrid({ prompts }: PromptGridProps) {
           />
         </div>
         
-        <div className="flex gap-2">
+        <div className="flex gap-2 flex-wrap">
+          <select 
+            value={selectedPlatform}
+            onChange={(e) => setSelectedPlatform(e.target.value)}
+            className="px-3 py-2 bg-black/50 border border-white/10 rounded-lg text-sm text-zinc-300 focus:outline-none focus:border-blue-500/50 cursor-pointer"
+          >
+            <option value="all">All Platforms</option>
+            {allPlatforms.map(platform => (
+              <option key={platform} value={platform}>{platform}</option>
+            ))}
+          </select>
+
           <select 
             value={selectedModel}
             onChange={(e) => setSelectedModel(e.target.value)}
