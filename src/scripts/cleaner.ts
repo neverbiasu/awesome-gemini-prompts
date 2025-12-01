@@ -13,7 +13,7 @@ const CleanedPromptOutputSchema = z.object({
   systemInstruction: z.string().optional().describe("The system instruction/persona if present"),
   userPrompt: z.string().describe("The main user prompt text"),
   tags: z.array(z.string()).describe("3-5 relevant tags"),
-  compatibleModels: z.array(z.enum(["gemini-1.0-pro", "gemini-1.5-pro", "gemini-1.5-flash", "gemini-ultra", "gemini-2.5-flash-preview-09-2025"])).default(["gemini-2.5-flash-preview-09-2025"]),
+  compatibleModels: z.array(z.enum(["gemini-1.0-pro", "gemini-1.5-pro", "gemini-1.5-flash", "gemini-ultra", "gemini-2.0-flash-exp"])).default(["gemini-2.0-flash-exp"]),
   safetySettings: z.array(z.object({
     category: z.nativeEnum(HarmCategory),
     threshold: z.nativeEnum(HarmBlockThreshold)
@@ -73,7 +73,10 @@ export async function cleanPromptsWithLLM(rawPrompts: any[]): Promise<GeminiProm
           2. **DISCARD** questions, news, discussions, or bugs. KEEP only actual prompts.
           3. **SEPARATE** 'systemInstruction' (persona) vs 'userPrompt' (task) if clearly distinct in the text.
           4. **INFER** 'safetySettings' if the prompt is risky.
-          5. **ASSIGN** 'compatibleModels'.
+          5. **ASSIGN** 'compatibleModels' intelligently:
+             - If simple/short, support [gemini-1.5-flash, gemini-2.0-flash-exp].
+             - If complex/reasoning-heavy, support [gemini-1.5-pro, gemini-2.0-flash-exp].
+             - **UPWARD COMPATIBILITY**: If it works on 1.5 Flash, it works on 1.5 Pro and 2.0 Flash. Always include the latest models.
           6. **RETURN** the 'batchIndex' for each item so we can map it back to the original data.
           7. **MULTI-PROMPT POSTS**: If a single candidate contains multiple prompts, extract them as separate items. **IMPORTANT**: ALL extracted items must share the SAME 'batchIndex' as the source candidate.
 

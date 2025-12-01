@@ -33,30 +33,76 @@ export async function scrapeWeb(): Promise<GeminiPrompt[]> {
     console.log(`   Found ${cards.length} prompt cards.`);
 
     // 3. Map to GeminiPrompt (Metadata only)
-    for (const card of cards) {
-       prompts.push({
-         id: crypto.randomUUID(),
-         title: card.title,
-         description: card.description,
-         tags: ["official", "google"],
-         originalSourceUrl: card.url,
-         compatibleModels: ["gemini-1.5-pro"],
-         
-         // Placeholder content since we can't scrape details yet
-         contents: [{
-           role: "user",
-           parts: [{ text: card.description || card.title }]
-         }],
-         
-         author: { 
-           name: "Google", 
-           url: "https://ai.google.dev",
-           platform: "Google"
-         },
-         stats: { views: 0, copies: 0, likes: 0 },
-         createdAt: new Date().toISOString(),
-         updatedAt: new Date().toISOString()
-       });
+    // 3. Extract Details from Each Page
+    console.log(`   Extracting details for ${cards.length} prompts...`);
+    
+    for (const [index, card] of cards.entries()) {
+        try {
+            console.log(`   [${index + 1}/${cards.length}] Scraping: ${card.title}`);
+            await page.goto(card.url, { waitUntil: 'domcontentloaded', timeout: 10000 });
+            
+            // Wait for content to load
+            await page.waitForSelector('h1', { timeout: 5000 }).catch(() => {});
+
+            const details = await page.evaluate(() => {
+                // Try to find the prompt text. This is a best-guess based on common structure.
+                // We look for code blocks or specific containers.
+                const codeBlocks = Array.from(document.querySelectorAll('pre, code, .code-block'));
+                const mainText = codeBlocks.map(cb => cb.textContent).join('\n\n') || 
+                                 document.querySelector('main')?.innerText || 
+                                 document.body.innerText;
+                
+                return {
+                    fullText: mainText.trim()
+                };
+            });
+
+            prompts.push({
+                id: crypto.randomUUID(),
+                title: card.title,
+                description: card.description,
+                tags: ["official", "google"],
+                originalSourceUrl: card.url,
+                compatibleModels: ["gemini-1.5-pro", "gemini-1.5-flash"], // Inferred broad compatibility
+                
+                contents: [{
+                    role: "user",
+                    parts: [{ text: details.fullText || card.description || card.title }]
+                }],
+                
+                author: { 
+                    name: "Google", 
+                    url: "https://ai.google.dev",
+                    platform: "Google"
+                },
+                stats: { views: 0, copies: 0, likes: 0 },
+                createdAt: new Date().toISOString(),
+                updatedAt: new Date().toISOString()
+            });
+
+            // Small delay to be nice
+            await page.waitForTimeout(1000);
+
+        } catch (err: any) {
+            console.warn(`   ⚠️ Failed to scrape details for ${card.title}: ${err.message}`);
+            // Fallback to basic info
+            prompts.push({
+                id: crypto.randomUUID(),
+                title: card.title,
+                description: card.description,
+                tags: ["official", "google"],
+                originalSourceUrl: card.url,
+                compatibleModels: ["gemini-1.5-pro"],
+                contents: [{
+                    role: "user",
+                    parts: [{ text: card.description || card.title }]
+                }],
+                author: { name: "Google", url: "https://ai.google.dev", platform: "Google" },
+                stats: { views: 0, copies: 0, likes: 0 },
+                createdAt: new Date().toISOString(),
+                updatedAt: new Date().toISOString()
+            });
+        }
     }
 
   } catch (error: any) {

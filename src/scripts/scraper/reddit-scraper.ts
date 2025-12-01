@@ -68,55 +68,62 @@ export async function scrapeReddit(): Promise<any[]> {
             console.log(`   Found ${feed.items.length} entries in r/${subName} [${sourceLabel}]`);
         }
 
-        for (const item of feed.items) {
-          if (!item.title || !item.link) continue;
-          
-          // Dedup
-          if (seenUrls.has(item.link)) continue;
-          seenUrls.add(item.link);
+        // Process items in batches to improve speed while respecting rate limits
+        const BATCH_SIZE = 5;
+        for (let i = 0; i < feed.items.length; i += BATCH_SIZE) {
+            const batch = feed.items.slice(i, i + BATCH_SIZE);
+            await Promise.all(batch.map(async (item) => {
+                if (!item.title || !item.link) return;
+                
+                // Dedup
+                if (seenUrls.has(item.link)) return;
+                seenUrls.add(item.link);
 
-          try {
-            const jsonUrl = item.link.endsWith('/') ? `${item.link}.json` : `${item.link}/.json`;
-            await new Promise(resolve => setTimeout(resolve, 200)); // Reduced delay for speed
+                try {
+                    const jsonUrl = item.link.endsWith('/') ? `${item.link}.json` : `${item.link}/.json`;
+                    
+                    // Small random delay to avoid exact simultaneous hits
+                    await new Promise(resolve => setTimeout(resolve, Math.random() * 500));
 
-            const response = await fetch(jsonUrl, {
-              signal: AbortSignal.timeout(5000),
-              headers: {
-                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-              }
-            });
+                    const response = await fetch(jsonUrl, {
+                        signal: AbortSignal.timeout(5000),
+                        headers: {
+                            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+                        }
+                    });
 
-            if (!response.ok) continue;
+                    if (!response.ok) return;
 
-            const data = await response.json();
-            const postData = data[0]?.data?.children?.[0]?.data;
+                    const data = await response.json();
+                    const postData = data[0]?.data?.children?.[0]?.data;
 
-            if (!postData) continue;
+                    if (!postData) return;
+                    
+                    // Quality Check: Must have selftext (body)
+                    if (!postData.selftext) return;
+
+                    rawPosts.push({
+                        source: 'reddit',
+                        subreddit: subName,
+                        flair: sourceLabel,
+                        title: postData.title,
+                        content: postData.selftext, 
+                        url: postData.url || item.link,
+                        author: postData.author,
+                        date: new Date(postData.created_utc * 1000).toISOString(),
+                        stats: {
+                            upvotes: postData.ups,
+                            comments: postData.num_comments
+                        }
+                    });
+
+                } catch (err: any) {
+                    // Silent fail for individual items
+                }
+            }));
             
-            // Quality Check: Must have selftext (body)
-            // REMOVED 50-char limit as requested
-            if (!postData.selftext) continue;
-
-            // console.log(`      + [${postData.ups} ups] ${postData.title.substring(0, 60)}...`);
-
-            rawPosts.push({
-              source: 'reddit',
-              subreddit: subName,
-              flair: sourceLabel,
-              title: postData.title,
-              content: postData.selftext, 
-              url: postData.url || item.link,
-              author: postData.author,
-              date: new Date(postData.created_utc * 1000).toISOString(),
-              stats: {
-                upvotes: postData.ups,
-                comments: postData.num_comments
-              }
-            });
-
-          } catch (err: any) {
-             // Silent fail for individual items
-          }
+            // Small delay between batches
+            await new Promise(resolve => setTimeout(resolve, 500));
         }
     } catch (error: any) {
         // Silent fail for feeds
