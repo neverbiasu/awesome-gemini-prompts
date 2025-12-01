@@ -7,6 +7,7 @@ import { GeminiPrompt, GeminiPromptZodSchema, HarmCategory, HarmBlockThreshold }
 // Define a schema for the cleaner's output that matches our new GeminiPrompt structure
 // We use a subset of the full schema for the LLM to generate
 const CleanedPromptOutputSchema = z.object({
+  batchIndex: z.number().describe("The index of the raw candidate in the provided batch"),
   title: z.string(),
   description: z.string(),
   systemInstruction: z.string().optional().describe("The system instruction/persona if present"),
@@ -28,7 +29,7 @@ const CleanedPromptsResponseSchema = z.object({
 export async function cleanPromptsWithLLM(rawPrompts: any[]): Promise<GeminiPrompt[]> {
   console.log(`✨ Starting LLM Cleaning for ${rawPrompts.length} candidates...`);
 
-  const apiKey = process.env.GEMINI_API_KEY;
+  const apiKey = process.env.GOOGLE_GENERATIVE_AI_API_KEY || process.env.GEMINI_API_KEY;
   const githubToken = process.env.GITHUB_TOKEN;
   
   let model;
@@ -54,6 +55,9 @@ export async function cleanPromptsWithLLM(rawPrompts: any[]): Promise<GeminiProm
 
   for (let i = 0; i < rawPrompts.length; i += BATCH_SIZE) {
     const batch = rawPrompts.slice(i, i + BATCH_SIZE);
+    // Add temporary index for correlation
+    const batchWithIndices = batch.map((item, idx) => ({ ...item, batchIndex: idx }));
+    
     console.log(`   Processing batch ${Math.floor(i/BATCH_SIZE) + 1}/${Math.ceil(rawPrompts.length/BATCH_SIZE)}...`);
 
     try {
@@ -70,14 +74,26 @@ export async function cleanPromptsWithLLM(rawPrompts: any[]): Promise<GeminiProm
           3. **SEPARATE** 'systemInstruction' (persona) vs 'userPrompt' (task) if clearly distinct in the text.
           4. **INFER** 'safetySettings' if the prompt is risky.
           5. **ASSIGN** 'compatibleModels'.
+          6. **RETURN** the 'batchIndex' for each item so we can map it back to the original data.
+          7. **MULTI-PROMPT POSTS**: If a single candidate contains multiple prompts, extract them as separate items. **IMPORTANT**: ALL extracted items must share the SAME 'batchIndex' as the source candidate.
 
           RAW CANDIDATES:
-          ${JSON.stringify(batch, null, 2)}
+          ${JSON.stringify(batchWithIndices, null, 2)}
         `,
       });
 
       for (const cleaned of object.prompts) {
         if (cleaned.confidenceScore > 0.7) {
+          // Recover original metadata using batchIndex
+          const original = batch[cleaned.batchIndex];
+          
+          // Map stats if available
+          const stats = {
+            views: 0,
+            copies: 0,
+            likes: original?.stats?.upvotes || original?.metaMetrics?.stars || 0
+          };
+
           cleanedResults.push({
             id: crypto.randomUUID(),
             title: cleaned.title,
@@ -97,15 +113,19 @@ export async function cleanPromptsWithLLM(rawPrompts: any[]): Promise<GeminiProm
             safetySettings: cleaned.safetySettings,
             
             author: {
-              name: "Community",
-              platform: "UserSubmission"
+              name: original?.author || "Community",
+              platform: (original?.source === 'reddit' ? 'Reddit' : 
+                         original?.source === 'github' ? 'GitHub' : 
+                         original?.source === 'web' ? 'Google' : 'UserSubmission') as any,
+              url: original?.authorUrl
             },
-            stats: { views: 0, copies: 0, likes: 0 },
-            createdAt: new Date().toISOString(),
+            originalSourceUrl: original?.url || original?.originUrl,
+            stats: stats,
+            createdAt: original?.date || new Date().toISOString(),
             updatedAt: new Date().toISOString()
           } as GeminiPrompt);
           
-          console.log(`      ✅ Kept: "${cleaned.title}"`);
+          console.log(`      ✅ Kept: "${cleaned.title}" (Source: ${original?.source})`);
         }
       }
 
