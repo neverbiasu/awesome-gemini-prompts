@@ -83,7 +83,7 @@ async function main() {
             description: "Act as an expert software engineer...",
             tags: ["coding", "python"],
             originalSourceUrl: "https://github.com/google/gemini-cookbook",
-            compatibleModels: ["gemini-1.5-pro"],
+            compatibleModels: ["gemini-2.5-pro"],
             contents: [{
                 role: "user",
                 parts: [{ text: "Act as an expert software engineer..." }]

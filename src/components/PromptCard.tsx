@@ -65,7 +65,7 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
   const platform = PLATFORM_CONFIG[platformKey] || PLATFORM_CONFIG.Google;
 
   // Helper to format model list
-  const models = prompt.compatibleModels || ["gemini-1.5-pro"];
+  const models = prompt.compatibleModels || ["gemini-2.5-pro"];
   const displayModel = models[0].replace('gemini-', '');
   const extraModelsCount = models.length - 1;
 

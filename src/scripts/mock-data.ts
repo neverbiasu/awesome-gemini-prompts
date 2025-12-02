@@ -10,7 +10,7 @@ export const MOCK_PROMPTS: GeminiPrompt[] = [
     title: "Sci-Fi Story Generator",
     description: "Generates creative sci-fi story concepts.",
     tags: ["creative", "writing"],
-    compatibleModels: ["gemini-1.5-pro"],
+    compatibleModels: ["gemini-2.5-pro"],
     systemInstruction: {
       parts: [{ text: "Act as an award-winning sci-fi author." }]
     },
@@ -32,7 +32,7 @@ export const MOCK_PROMPTS: GeminiPrompt[] = [
     title: "Python Optimizer",
     description: "Optimizes Python code for performance.",
     tags: ["coding", "python"],
-    compatibleModels: ["gemini-1.5-pro", "gemini-1.5-flash"],
+    compatibleModels: ["gemini-2.5-pro", "gemini-2.5-flash"],
     contents: [{
       role: "user",
       parts: [{ text: "Optimize this Python function for time complexity..." }]
@@ -50,7 +50,7 @@ export const MOCK_PROMPTS: GeminiPrompt[] = [
     title: "Invoice Extractor",
     description: "Extracts data from invoice text.",
     tags: ["data-extraction", "business"],
-    compatibleModels: ["gemini-1.5-flash"],
+    compatibleModels: ["gemini-2.5-flash"],
     contents: [{
       role: "user",
       parts: [{ text: "Extract the following fields from the invoice text: invoice_id, date, total_amount, vendor_name." }]

@@ -74,7 +74,7 @@ export async function scrapeGithub(): Promise<GeminiPrompt[]> {
                     description: `Official example from ${item.repository.full_name}`,
                     tags: ["official", "cookbook", "code"],
                     originalSourceUrl: item.html_url,
-                    compatibleModels: ["gemini-1.5-pro"],
+                    compatibleModels: ["gemini-2.5-pro"],
                     
                     contents: [{
                       role: "user",
