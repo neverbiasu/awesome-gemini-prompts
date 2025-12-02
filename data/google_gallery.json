@@ -1,0 +1,263 @@
+[
+  {
+    "title": "Audio Diarization",
+    "description": "Transcribe audio with speaker details and timestamps.",
+    "url": "https://aistudio.google.com/app/prompts/audio-diarization",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Video Q&A",
+    "description": "Ask questions about key details in a video.",
+    "url": "https://aistudio.google.com/app/prompts/video-qa",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Recipe to JSON",
+    "description": "Create recipe in JSON mode using an image.",
+    "url": "https://aistudio.google.com/app/prompts/recipe-list-json",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Listing recipes using JSON schema",
+    "description": "Create JSON based on specified schema.",
+    "url": "https://aistudio.google.com/app/prompts/recipe-to-json",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Math Tutor",
+    "description": "Teach me a lesson on quadratic equations.",
+    "url": "https://aistudio.google.com/app/prompts/math-tutor",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Math Worksheet Generator",
+    "description": "Create a set of elementary math worksheets for math educators and parents.",
+    "url": "https://aistudio.google.com/app/prompts/worksheet-generator",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Scavenger Hunt",
+    "description": "Create a curated list of scavenger hunt concepts.",
+    "url": "https://aistudio.google.com/app/prompts/scavanger-hunt",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Unit Testing",
+    "description": "Add unit tests for a Python function.",
+    "url": "https://aistudio.google.com/app/prompts/unit-testing",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Geometry problem solving",
+    "description": "Solve for X in an image.",
+    "url": "https://aistudio.google.com/app/prompts/geometry-problem",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Trip recommendations",
+    "description": "Convert unorganized text into structured tables.",
+    "url": "https://aistudio.google.com/app/prompts/trip-recommendations",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Time complexity",
+    "description": "Identify the time complexity of a function and optimize it.",
+    "url": "https://aistudio.google.com/app/prompts/time-complexity",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Opossum Search",
+    "description": "Create a webpage based on the user’s specifications.",
+    "url": "https://aistudio.google.com/app/prompts/opposum-search",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Object identifier",
+    "description": "Get a description of an object and its uses from a photo.",
+    "url": "https://aistudio.google.com/app/prompts/object-identifier",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Marketing writer",
+    "description": "Get catchy advertising copy tailored to your product and target audience.",
+    "url": "https://aistudio.google.com/app/prompts/marketing-description-writer",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "List items from image",
+    "description": "Get a list of objects in a photo.",
+    "url": "https://aistudio.google.com/app/prompts/list-items-from-image",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Blog post creator",
+    "description": "Generate a unique blog post from a single image.",
+    "url": "https://aistudio.google.com/app/prompts/blog-post-creator",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Barista Bot",
+    "description": "Order common coffee drinks from this virtual barista.",
+    "url": "https://aistudio.google.com/app/prompts/barista-bot",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "ML confusion matrix",
+    "description": "Get help generating a confusion matrix and metrics for your classifier.",
+    "url": "https://aistudio.google.com/app/prompts/ml-confusion-matrix",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Sentiment analysis",
+    "description": "Analyze the sentiment of text messages.",
+    "url": "https://aistudio.google.com/app/prompts/sentiment-analysis-chat",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Research Assistant",
+    "description": "Understand the key attributes of the research paper’s methodology.",
+    "url": "https://aistudio.google.com/app/prompts/research-assistant",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Which shape comes next?",
+    "description": "Given a series of shapes, guess which shape comes next.",
+    "url": "https://aistudio.google.com/app/prompts/what-shape-comes-next",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Plant care",
+    "description": "How do I best care for this plant.",
+    "url": "https://aistudio.google.com/app/prompts/plant-care",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Docker Script",
+    "description": "Writing a script in Docker to set up your environment.",
+    "url": "https://aistudio.google.com/app/prompts/docker-script",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Santa’s Mailbox",
+    "description": "Capture a handwritten letter to Santa and write back as him.",
+    "url": "https://aistudio.google.com/app/prompts/santas-mailbox",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Brand Extractor",
+    "description": "Extract product and brand names from text.",
+    "url": "https://aistudio.google.com/app/prompts/brand-extractor",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Cook Helper",
+    "description": "Get recipe ideas based on an image of the ingredients you have on hand.",
+    "url": "https://aistudio.google.com/app/prompts/cook-helper",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Game Character Brainstorm",
+    "description": "Create a character design based on a provided context.",
+    "url": "https://aistudio.google.com/app/prompts/game-character-brainstorming",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Modify writing style",
+    "description": "Change the tone and writing style of a blurb.",
+    "url": "https://aistudio.google.com/app/prompts/modify-tone-writing-style",
+    "tags": [
+      "google",
+      "official"
+    ]
+  },
+  {
+    "title": "Regexed",
+    "description": "Convert natural language queries and constraints to regex constructs.",
+    "url": "https://aistudio.google.com/app/prompts/regexed",
+    "tags": [
+      "google",
+      "official"
+    ]
+  }
+]

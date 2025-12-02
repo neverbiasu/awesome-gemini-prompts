@@ -63,7 +63,7 @@ export async function scrapeWeb(): Promise<GeminiPrompt[]> {
                 description: card.description,
                 tags: ["official", "google"],
                 originalSourceUrl: card.url,
-                compatibleModels: ["gemini-1.5-pro", "gemini-1.5-flash"], // Inferred broad compatibility
+                compatibleModels: ["gemini-2.5-pro", "gemini-2.5-flash"], // Inferred broad compatibility
                 
                 contents: [{
                     role: "user",
@@ -92,7 +92,7 @@ export async function scrapeWeb(): Promise<GeminiPrompt[]> {
                 description: card.description,
                 tags: ["official", "google"],
                 originalSourceUrl: card.url,
-                compatibleModels: ["gemini-1.5-pro"],
+                compatibleModels: ["gemini-2.5-pro"],
                 contents: [{
                     role: "user",
                     parts: [{ text: card.description || card.title }]

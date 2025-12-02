@@ -1,114 +1,94 @@
 import { chromium } from 'playwright';
-import { GeminiPrompt } from '../../schema/prompt';
 import fs from 'fs/promises';
 import path from 'path';
+import { z } from 'zod';
 
-export async function scrapeGoogleGallery(): Promise<GeminiPrompt[]> {
-  console.log('🕷️ Starting Google Gallery Scraper (Strict Mode)...');
-  
+// Define a local schema for the raw scraped data
+const GoogleGallerySchema = z.object({
+  title: z.string(),
+  description: z.string(), // This will be used as the prompt content
+  url: z.string(),
+  tags: z.array(z.string()).default([]),
+});
+
+type GoogleGalleryItem = z.infer<typeof GoogleGallerySchema>;
+
+async function scrapeGoogleGallery() {
+  console.log('Starting Google Gallery Scraper...');
   const browser = await chromium.launch({ headless: true });
-  const context = await browser.newContext({
-    userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-    viewport: { width: 1920, height: 1080 },
-  });
-
-  const prompts: GeminiPrompt[] = [];
+  const page = await browser.newPage();
+  const url = 'https://ai.google.dev/gemini-api/prompts';
 
   try {
-    const page = await context.newPage();
-    const targetUrl = 'https://ai.google.dev/gemini-api/prompts';
-    
-    console.log(`   Navigating to ${targetUrl}...`);
-    await page.goto(targetUrl, { waitUntil: 'domcontentloaded' });
-    await page.waitForTimeout(2000);
+    console.log(`Navigating to ${url}...`);
+    await page.goto(url, { waitUntil: 'domcontentloaded' });
+    await page.waitForTimeout(5000); // Wait for dynamic content
 
-    // Extract List Items
-    const cards = await page.evaluate(() => {
-      const elements = document.querySelectorAll('.gemini-gradient-CTA_wrapper a');
-      return Array.from(elements).map(el => ({
-        title: el.querySelector('h3')?.innerText?.trim() || "Untitled",
-        description: el.querySelector('p')?.innerText?.trim() || "",
-        url: (el as HTMLAnchorElement).href
-      }));
+    // Extract data from cards
+    console.log('Extracting prompts from gallery cards...');
+    const rawPrompts = await page.evaluate(() => {
+      const cards = Array.from(document.querySelectorAll('a'));
+      return cards
+        .filter(card => card.href.includes('prompts/'))
+        .map(card => {
+          const text = card.innerText.trim();
+          const parts = text.split('\n').filter(line => line.trim() !== '');
+          const title = parts[0] || 'Untitled';
+          const description = parts.slice(1).join('\n').trim();
+          
+          return {
+            title,
+            description,
+            url: card.href,
+            tags: ['google', 'official'] // Default tags
+          };
+        });
     });
-    console.log(`   Found ${cards.length} potential prompts.`);
 
-    // Extract Details from Each Page
-    for (const [index, card] of cards.entries()) {
-        try {
-            console.log(`   [${index + 1}/${cards.length}] Scraping: ${card.title}`);
-            await page.goto(card.url, { waitUntil: 'domcontentloaded', timeout: 10000 });
-            
-            // Wait for content to load
-            await page.waitForSelector('h1', { timeout: 5000 }).catch(() => {});
+    console.log(`Found ${rawPrompts.length} potential prompts.`);
 
-            const details = await page.evaluate(() => {
-                // Strict extraction: We MUST find code blocks or specific content containers.
-                // If we fallback to body text, we get garbage.
-                const codeBlocks = Array.from(document.querySelectorAll('pre, code, .code-block, .prompt-content'));
-                
-                // Filter out short snippets that might be UI elements
-                const validBlocks = codeBlocks
-                    .map(cb => cb.textContent?.trim())
-                    .filter(text => text && text.length > 20);
+    const validPrompts: GoogleGalleryItem[] = [];
 
-                if (validBlocks.length === 0) return null;
+    for (const raw of rawPrompts) {
+      // Strict validation: Must have a description (prompt content)
+      if (!raw.description || raw.description.length < 10) {
+        console.log(`Skipping "${raw.title}": No valid description/content found.`);
+        continue;
+      }
 
-                return {
-                    fullText: validBlocks.join('\n\n')
-                };
-            });
-
-            if (!details || !details.fullText) {
-                console.warn(`      ⚠️ Skipping "${card.title}" - Could not extract valid prompt text.`);
-                continue;
-            }
-
-            prompts.push({
-                id: crypto.randomUUID(),
-                title: card.title,
-                description: card.description,
-                tags: ["official", "google"],
-                originalSourceUrl: card.url,
-                compatibleModels: ["gemini-1.5-pro", "gemini-1.5-flash"],
-                
-                contents: [{
-                    role: "user",
-                    parts: [{ text: details.fullText }]
-                }],
-                
-                author: { 
-                    name: "Google", 
-                    url: "https://ai.google.dev",
-                    platform: "Google"
-                },
-                stats: { views: 0, copies: 0, likes: 0 },
-                createdAt: new Date().toISOString(),
-                updatedAt: new Date().toISOString()
-            });
-
-            // Small delay to be nice
-            await page.waitForTimeout(1000);
-
-        } catch (err: any) {
-            console.warn(`      ❌ Error scraping "${card.title}": ${err.message}`);
-        }
+      validPrompts.push({
+        title: raw.title,
+        description: raw.description,
+        url: raw.url,
+        tags: raw.tags
+      });
     }
 
-  } catch (error: any) {
-    console.error('❌ Google Gallery scraping failed:', error.message || error);
+    console.log(`Successfully extracted ${validPrompts.length} valid prompts.`);
+
+    // Save to file
+    const outputDir = path.resolve(process.cwd(), 'data');
+    // Check if directory exists, if not create it.
+    try {
+        await fs.access(outputDir);
+    } catch {
+        await fs.mkdir(outputDir, { recursive: true });
+    }
+    
+    const outputPath = path.join(outputDir, 'google_gallery.json');
+    await fs.writeFile(outputPath, JSON.stringify(validPrompts, null, 2));
+    console.log(`Saved data to ${outputPath}`);
+
+  } catch (error) {
+    console.error('Error scraping Google Gallery:', error);
   } finally {
     await browser.close();
   }
-
-  // Save to dedicated file
-  if (prompts.length > 0) {
-      const outputPath = path.join(process.cwd(), 'data', 'google_gallery.json');
-      await fs.writeFile(outputPath, JSON.stringify(prompts, null, 2));
-      console.log(`✅ Saved ${prompts.length} valid Google prompts to data/google_gallery.json`);
-  } else {
-      console.warn("⚠️ No valid Google prompts found. Nothing saved.");
-  }
-
-  return prompts;
 }
+
+// Execute if run directly
+if (import.meta.url === `file://${process.argv[1]}`) {
+  scrapeGoogleGallery();
+}
+
+export { scrapeGoogleGallery };

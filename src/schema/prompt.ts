@@ -69,7 +69,7 @@ export interface GeminiPrompt {
   };
 
   // 2. Compatible Models (Support for multiple versions)
-  compatibleModels: Array<"gemini-1.0-pro" | "gemini-1.5-pro" | "gemini-1.5-flash" | "gemini-ultra">;
+  compatibleModels: Array<"gemini-2.0-flash" | "gemini-2.5-flash" | "gemini-2.5-pro" | "gemini-3-pro-preview" | "gemini-2.5-flash-image" | "gemini-2.5-flash-image-preview" | "gemini-3-pro-image-preview" | "nano-banana-pro-preview" | "imagen-4.0-generate-preview-06-06" | "imagen-4.0-ultra-generate-preview-06-06">;
 
   // 3. Core Content Area (Few-shot Examples)
   contents: Array<{
@@ -127,7 +127,18 @@ export const GeminiPromptZodSchema = z.object({
     parts: z.array(z.object({ text: z.string() }))
   }).optional(),
 
-  compatibleModels: z.array(z.enum(["gemini-1.0-pro", "gemini-1.5-pro", "gemini-1.5-flash", "gemini-ultra", "gemini-2.5-flash-preview-09-2025"])).default(["gemini-2.5-flash-preview-09-2025"]),
+  compatibleModels: z.array(z.enum([
+    "gemini-2.0-flash",
+    "gemini-2.5-flash", 
+    "gemini-2.5-pro",
+    "gemini-3-pro-preview",
+    "gemini-2.5-flash-image",
+    "gemini-2.5-flash-image-preview",
+    "gemini-3-pro-image-preview",
+    "nano-banana-pro-preview",
+    "imagen-4.0-generate-preview-06-06",
+    "imagen-4.0-ultra-generate-preview-06-06"
+  ])).default(["gemini-2.5-flash"]),
 
   contents: z.array(z.object({
     role: z.enum(["user", "model"]),

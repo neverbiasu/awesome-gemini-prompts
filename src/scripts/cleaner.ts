@@ -13,7 +13,18 @@ const CleanedPromptOutputSchema = z.object({
   systemInstruction: z.string().optional().describe("The system instruction/persona if present"),
   userPrompt: z.string().describe("The main user prompt text"),
   tags: z.array(z.string()).describe("Exactly 3 relevant tags (lowercase, no 'google', 'gemini', 'prompt')"),
-  compatibleModels: z.array(z.enum(["gemini-1.0-pro", "gemini-1.5-pro", "gemini-1.5-flash", "gemini-ultra", "gemini-2.0-flash-exp"])).default(["gemini-2.0-flash-exp"]),
+  compatibleModels: z.array(z.enum([
+    "gemini-2.0-flash", 
+    "gemini-2.5-flash", 
+    "gemini-2.5-pro", 
+    "gemini-3-pro-preview",
+    "gemini-2.5-flash-image",
+    "gemini-2.5-flash-image-preview",
+    "gemini-3-pro-image-preview",
+    "nano-banana-pro-preview",
+    "imagen-4.0-generate-preview-06-06",
+    "imagen-4.0-ultra-generate-preview-06-06"
+  ])).default(["gemini-2.5-flash"]),
   safetySettings: z.array(z.object({
     category: z.nativeEnum(HarmCategory),
     threshold: z.nativeEnum(HarmBlockThreshold)
@@ -75,9 +86,11 @@ export async function cleanPromptsWithLLM(rawPrompts: any[]): Promise<GeminiProm
           4. **SEPARATE** 'systemInstruction' (persona) vs 'userPrompt' (task) if clearly distinct in the text.
           4. **INFER** 'safetySettings' if the prompt is risky.
           5. **ASSIGN** 'compatibleModels' intelligently:
-             - If simple/short, support [gemini-1.5-flash, gemini-2.0-flash-exp].
-             - If complex/reasoning-heavy, support [gemini-1.5-pro, gemini-2.0-flash-exp].
-             - **UPWARD COMPATIBILITY**: If it works on 1.5 Flash, it works on 1.5 Pro and 2.0 Flash. Always include the latest models.
+             - **IMAGE GEN**: If it creates images, assign [imagen-4.0-generate-preview-06-06, imagen-4.0-ultra-generate-preview-06-06].
+             - **IMAGE EDIT**: If it edits/transforms images, assign [gemini-2.5-flash-image, nano-banana-pro-preview, gemini-3-pro-image-preview].
+             - **TEXT (SIMPLE)**: [gemini-2.5-flash, gemini-2.0-flash].
+             - **TEXT (COMPLEX)**: [gemini-2.5-pro, gemini-3-pro-preview].
+             - **UPWARD COMPATIBILITY**: If it works on Flash, it works on Pro.
           6. **RETURN** the 'batchIndex' for each item so we can map it back to the original data.
           7. **MULTI-PROMPT POSTS**: If a single candidate contains multiple prompts, extract them as separate items. **IMPORTANT**: ALL extracted items must share the SAME 'batchIndex' as the source candidate.
 
@@ -98,6 +111,47 @@ export async function cleanPromptsWithLLM(rawPrompts: any[]): Promise<GeminiProm
             likes: original?.stats?.upvotes || original?.metaMetrics?.stars || 0
           };
 
+          // Determine compatible models
+          const compatibleModels: string[] = []; 
+          
+          const lowerDesc = cleaned.description.toLowerCase();
+          const lowerTitle = cleaned.title.toLowerCase();
+          
+          // 1. Pure Image Generation (e.g. "Create an image of...")
+          const isImageGen = lowerDesc.includes("generate an image") || lowerDesc.includes("create an image") || lowerDesc.includes("image of") || lowerTitle.includes("image generation");
+          
+          // 2. Image Editing / Multimodal (e.g. "Edit this", "Describe this image", "Nano Banana")
+          // Note: "Nano Banana" prompts are typically image editing/generation via Gemini
+          const isImageEdit = lowerDesc.includes("edit") || lowerDesc.includes("transform") || lowerDesc.includes("style") || lowerTitle.includes("nano banana") || lowerTitle.includes("image prompt");
+
+          if (isImageGen) {
+              compatibleModels.push("imagen-4.0-generate-preview-06-06", "imagen-4.0-ultra-generate-preview-06-06");
+          } 
+          
+          if (isImageEdit || isImageGen) {
+              // Add Gemini Image models for both generation and editing tasks
+              compatibleModels.push(
+                  "gemini-2.5-flash-image", 
+                  "gemini-2.5-flash-image-preview", 
+                  "gemini-3-pro-image-preview", 
+                  "nano-banana-pro-preview"
+              );
+          }
+
+          if (!isImageGen && !isImageEdit) {
+              // Text / General Tasks
+              // Default to Flash models
+              compatibleModels.push("gemini-2.5-flash", "gemini-2.0-flash");
+              
+              // Check for complex reasoning needs
+              if (lowerDesc.includes("complex") || lowerDesc.includes("reasoning") || lowerDesc.includes("code") || lowerDesc.includes("architect") || lowerDesc.includes("analyze")) {
+                  compatibleModels.push("gemini-2.5-pro", "gemini-3-pro-preview");
+              } else {
+                  // Upward compatibility: If it works on Flash, it works on Pro
+                  compatibleModels.push("gemini-2.5-pro"); 
+              }
+          }
+
           cleanedResults.push({
             id: crypto.randomUUID(),
             title: cleaned.title,
@@ -106,7 +160,7 @@ export async function cleanPromptsWithLLM(rawPrompts: any[]): Promise<GeminiProm
                 .map(t => t.toLowerCase())
                 .filter(t => !['google', 'gemini', 'prompt', 'official', 'ai'].includes(t))
                 .slice(0, 3),
-            compatibleModels: cleaned.compatibleModels,
+            compatibleModels: compatibleModels,
             
             systemInstruction: cleaned.systemInstruction ? {
               parts: [{ text: cleaned.systemInstruction }]

@@ -16,7 +16,8 @@ async function main() {
   let existingPrompts: GeminiPrompt[] = [];
   try {
     const fileContent = await fs.readFile(PROMPTS_FILE, 'utf-8');
-    existingPrompts = JSON.parse(fileContent);
+    existingPrompts = []; // Force empty to rebuild from scratch
+    // existingPrompts = JSON.parse(fileContent);
     console.log(`📦 Loaded ${existingPrompts.length} existing production prompts.`);
   } catch (error) {
     console.log('Mw Creating new production data file.');
@@ -46,9 +47,10 @@ async function main() {
   // 3. Deduplicate
   // We only want to clean candidates that are NOT already in our production DB (by URL)
   const newCandidates = rawCandidates.filter(candidate => {
-     // If no originalSourceUrl, we can't dedup easily, so treat as new.
-     if (!candidate.originalSourceUrl) return true;
-     return !existingPrompts.some(p => p.originalSourceUrl === candidate.originalSourceUrl);
+     // Force re-clean all data to apply new model mapping logic
+     return true;
+     // if (!candidate.originalSourceUrl) return true;
+     // return !existingPrompts.some(p => p.originalSourceUrl === candidate.originalSourceUrl);
   });
 
   console.log(`🔍 Found ${newCandidates.length} new candidates to clean (deduplicated against existing).`);
