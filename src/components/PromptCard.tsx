@@ -192,6 +192,27 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
             </Tooltip>
           )}
 
+          {/* Run in AI Studio */}
+          <Tooltip content="Run in Google AI Studio">
+            <Button
+              isIconOnly
+              size="sm"
+              variant="light"
+              className="text-blue-400 hover:text-blue-300 hover:bg-blue-400/10 min-w-8 w-8 h-8"
+              onClick={async (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                const textToCopy = systemText ? `System: ${systemText}\n\nUser: ${userText}` : userText;
+                await navigator.clipboard.writeText(textToCopy);
+                window.open('https://aistudio.google.com/', '_blank');
+              }}
+            >
+              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M8 5v14l11-7z" />
+              </svg>
+            </Button>
+          </Tooltip>
+
           <div className="w-px h-4 bg-white/10 mx-1" />
             
           {/* Dual Copy Buttons for Hybrid Mode */}

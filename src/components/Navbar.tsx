@@ -12,7 +12,7 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 border-b border-white/5 bg-black/50 backdrop-blur-xl">
       <div className="container mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo / Brand */}
-        <Link href="/" className="flex items-center gap-2 group">
+        <Link href="/" className="flex items-center gap-2 group" aria-label="Awesome Gemini Prompts Home">
           <div className="relative w-8 h-8 group-hover:scale-110 transition-transform duration-500">
             <div className="absolute inset-0 bg-blue-500/20 blur-lg rounded-full opacity-50 animate-pulse" />
             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full drop-shadow-[0_0_10px_rgba(155,110,243,0.5)]">
@@ -42,7 +42,7 @@ export default function Navbar() {
           <Link 
             href="/hub" 
             className={`text-sm font-medium transition-colors ${
-              isHub ? "text-white" : "text-zinc-400 hover:text-white"
+              isHub ? "text-white" : "text-zinc-300 hover:text-white"
             }`}
           >
             Prompt Hub
@@ -50,7 +50,7 @@ export default function Navbar() {
           <Link 
             href="https://github.com/neverbiasu/awesome-gemini-prompts" 
             target="_blank"
-            className="text-sm font-medium text-zinc-400 hover:text-white transition-colors"
+            className="text-sm font-medium text-zinc-300 hover:text-white transition-colors"
           >
             GitHub
           </Link>

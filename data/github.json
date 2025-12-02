@@ -1,6 +1,6 @@
 [
   {
-    "id": "6b01a1c9-6c26-46fc-ab4c-83e69b487cda",
+    "id": "164eca71-8172-41fd-8018-cf563e64ebd6",
     "title": "Story_Writing_with_Prompt_Chaining",
     "description": "Official example from google-gemini/cookbook",
     "tags": [
@@ -10,7 +10,7 @@
     ],
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/aa218e8c403f86f2d942f645f1e99ca8ed7f7080/examples/Story_Writing_with_Prompt_Chaining.ipynb",
     "compatibleModels": [
-      "gemini-1.5-pro"
+      "gemini-2.5-pro"
     ],
     "contents": [
       {
@@ -32,11 +32,11 @@
       "copies": 0,
       "likes": 0
     },
-    "createdAt": "2025-12-02T02:09:50.837Z",
-    "updatedAt": "2025-12-02T02:09:50.837Z"
+    "createdAt": "2025-12-02T18:22:49.650Z",
+    "updatedAt": "2025-12-02T18:22:49.651Z"
   },
   {
-    "id": "0391555b-6653-4463-a45d-6ca23ccd8678",
+    "id": "e12c8339-eaef-4c9b-a0d7-0c6873fe14ae",
     "title": "Role_prompting",
     "description": "Official example from google-gemini/cookbook",
     "tags": [
@@ -46,7 +46,7 @@
     ],
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/aa218e8c403f86f2d942f645f1e99ca8ed7f7080/examples/prompting/Role_prompting.ipynb",
     "compatibleModels": [
-      "gemini-1.5-pro"
+      "gemini-2.5-pro"
     ],
     "contents": [
       {
@@ -68,11 +68,11 @@
       "copies": 0,
       "likes": 0
     },
-    "createdAt": "2025-12-02T02:09:50.973Z",
-    "updatedAt": "2025-12-02T02:09:50.973Z"
+    "createdAt": "2025-12-02T18:22:49.888Z",
+    "updatedAt": "2025-12-02T18:22:49.888Z"
   },
   {
-    "id": "26785c78-cb58-466e-96fb-a5d2b870e82d",
+    "id": "a3980700-8b21-4810-8f20-b8acc3cc10ab",
     "title": "Self_ask_prompting",
     "description": "Official example from google-gemini/cookbook",
     "tags": [
@@ -82,7 +82,7 @@
     ],
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/aa218e8c403f86f2d942f645f1e99ca8ed7f7080/examples/prompting/Self_ask_prompting.ipynb",
     "compatibleModels": [
-      "gemini-1.5-pro"
+      "gemini-2.5-pro"
     ],
     "contents": [
       {
@@ -104,11 +104,11 @@
       "copies": 0,
       "likes": 0
     },
-    "createdAt": "2025-12-02T02:09:51.124Z",
-    "updatedAt": "2025-12-02T02:09:51.124Z"
+    "createdAt": "2025-12-02T18:22:50.118Z",
+    "updatedAt": "2025-12-02T18:22:50.118Z"
   },
   {
-    "id": "96ca580b-ff51-401e-8978-433724576657",
+    "id": "d41adc7a-2381-4ad1-9e9b-6c3dbc00feb4",
     "title": "Basic_Information_Extraction",
     "description": "Official example from google-gemini/cookbook",
     "tags": [
@@ -118,7 +118,7 @@
     ],
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/aa218e8c403f86f2d942f645f1e99ca8ed7f7080/examples/prompting/Basic_Information_Extraction.ipynb",
     "compatibleModels": [
-      "gemini-1.5-pro"
+      "gemini-2.5-pro"
     ],
     "contents": [
       {
@@ -140,11 +140,11 @@
       "copies": 0,
       "likes": 0
     },
-    "createdAt": "2025-12-02T02:09:51.249Z",
-    "updatedAt": "2025-12-02T02:09:51.249Z"
+    "createdAt": "2025-12-02T18:22:50.422Z",
+    "updatedAt": "2025-12-02T18:22:50.422Z"
   },
   {
-    "id": "e258ec56-779b-47d4-8dfd-e82da14e5853",
+    "id": "141432e4-758c-43a6-9c69-4c02d3d35ba8",
     "title": "Get_started_LearnLM",
     "description": "Official example from google-gemini/cookbook",
     "tags": [
@@ -154,7 +154,7 @@
     ],
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/aa218e8c403f86f2d942f645f1e99ca8ed7f7080/quickstarts/Get_started_LearnLM.ipynb",
     "compatibleModels": [
-      "gemini-1.5-pro"
+      "gemini-2.5-pro"
     ],
     "contents": [
       {
@@ -176,11 +176,11 @@
       "copies": 0,
       "likes": 0
     },
-    "createdAt": "2025-12-02T02:09:51.379Z",
-    "updatedAt": "2025-12-02T02:09:51.379Z"
+    "createdAt": "2025-12-02T18:22:50.757Z",
+    "updatedAt": "2025-12-02T18:22:50.757Z"
   },
   {
-    "id": "7daf1bf8-949f-4cf9-92a3-fded5b615162",
+    "id": "92b29e9f-b029-43fd-ad5a-70cebcde379b",
     "title": "Few_shot_prompting",
     "description": "Official example from google-gemini/cookbook",
     "tags": [
@@ -190,7 +190,7 @@
     ],
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/aa218e8c403f86f2d942f645f1e99ca8ed7f7080/examples/prompting/Few_shot_prompting.ipynb",
     "compatibleModels": [
-      "gemini-1.5-pro"
+      "gemini-2.5-pro"
     ],
     "contents": [
       {
@@ -212,11 +212,11 @@
       "copies": 0,
       "likes": 0
     },
-    "createdAt": "2025-12-02T02:09:51.507Z",
-    "updatedAt": "2025-12-02T02:09:51.507Z"
+    "createdAt": "2025-12-02T18:22:51.013Z",
+    "updatedAt": "2025-12-02T18:22:51.013Z"
   },
   {
-    "id": "abb6f707-ee40-4501-aca5-61ca77a70985",
+    "id": "a7d7a529-5382-4662-9e4b-21a166097198",
     "title": "Basic_Code_Generation",
     "description": "Official example from google-gemini/cookbook",
     "tags": [
@@ -226,7 +226,7 @@
     ],
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/aa218e8c403f86f2d942f645f1e99ca8ed7f7080/examples/prompting/Basic_Code_Generation.ipynb",
     "compatibleModels": [
-      "gemini-1.5-pro"
+      "gemini-2.5-pro"
     ],
     "contents": [
       {
@@ -248,11 +248,11 @@
       "copies": 0,
       "likes": 0
     },
-    "createdAt": "2025-12-02T02:09:51.648Z",
-    "updatedAt": "2025-12-02T02:09:51.648Z"
+    "createdAt": "2025-12-02T18:22:51.372Z",
+    "updatedAt": "2025-12-02T18:22:51.372Z"
   },
   {
-    "id": "fb1106b5-c56b-4575-8b3e-9f4435b6f7fa",
+    "id": "5e91c611-8ea7-49f3-b304-b4f34144e907",
     "title": "Search_reranking_using_embeddings",
     "description": "Official example from google-gemini/cookbook",
     "tags": [
@@ -262,7 +262,7 @@
     ],
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/aa218e8c403f86f2d942f645f1e99ca8ed7f7080/examples/Search_reranking_using_embeddings.ipynb",
     "compatibleModels": [
-      "gemini-1.5-pro"
+      "gemini-2.5-pro"
     ],
     "contents": [
       {
@@ -284,11 +284,11 @@
       "copies": 0,
       "likes": 0
     },
-    "createdAt": "2025-12-02T02:09:51.790Z",
-    "updatedAt": "2025-12-02T02:09:51.790Z"
+    "createdAt": "2025-12-02T18:22:51.670Z",
+    "updatedAt": "2025-12-02T18:22:51.670Z"
   },
   {
-    "id": "7df3a4af-a3e9-4e2a-be7f-16d2d3eeea87",
+    "id": "bffbaf6c-407e-416e-8dc6-66c6f3a43da7",
     "title": "Entity_Extraction",
     "description": "Official example from google-gemini/cookbook",
     "tags": [
@@ -298,7 +298,7 @@
     ],
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/aa218e8c403f86f2d942f645f1e99ca8ed7f7080/examples/Entity_Extraction.ipynb",
     "compatibleModels": [
-      "gemini-1.5-pro"
+      "gemini-2.5-pro"
     ],
     "contents": [
       {
@@ -320,11 +320,11 @@
       "copies": 0,
       "likes": 0
     },
-    "createdAt": "2025-12-02T02:09:51.919Z",
-    "updatedAt": "2025-12-02T02:09:51.919Z"
+    "createdAt": "2025-12-02T18:22:51.873Z",
+    "updatedAt": "2025-12-02T18:22:51.873Z"
   },
   {
-    "id": "273f3e2c-0de5-4043-9888-f00f2c662bee",
+    "id": "dfab39c1-ee53-4f7e-a7d9-d177b8b9cad4",
     "title": "Prompting_REST",
     "description": "Official example from google-gemini/cookbook",
     "tags": [
@@ -334,7 +334,7 @@
     ],
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/aa218e8c403f86f2d942f645f1e99ca8ed7f7080/quickstarts/rest/Prompting_REST.ipynb",
     "compatibleModels": [
-      "gemini-1.5-pro"
+      "gemini-2.5-pro"
     ],
     "contents": [
       {
@@ -356,7 +356,7 @@
       "copies": 0,
       "likes": 0
     },
-    "createdAt": "2025-12-02T02:09:52.042Z",
-    "updatedAt": "2025-12-02T02:09:52.042Z"
+    "createdAt": "2025-12-02T18:22:52.170Z",
+    "updatedAt": "2025-12-02T18:22:52.170Z"
   }
 ]

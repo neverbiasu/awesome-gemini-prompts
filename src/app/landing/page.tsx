@@ -24,7 +24,7 @@ export default function LandingPage() {
             Gemini Prompts
           </h1>
           
-          <p className="text-xl text-zinc-400 max-w-2xl mx-auto leading-relaxed font-light">
+          <p className="text-xl text-zinc-300 max-w-2xl mx-auto leading-relaxed font-light">
             The open-source prompt engineering IDE for the Gemini era. <br className="hidden md:block"/>
             Automated discovery, strict schema validation, and developer-first design.
           </p>
@@ -58,11 +58,11 @@ export default function LandingPage() {
           {/* Feature 1: Large */}
           <div className="md:col-span-2 p-8 rounded-3xl bg-zinc-900/30 border border-white/10 hover:border-white/20 transition-all group overflow-hidden relative">
             <div className="absolute inset-0 bg-gradient-to-br from-blue-500/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"/>
-            <h3 className="text-2xl font-bold mb-2 text-white">Automated Discovery Engine</h3>
-            <p className="text-zinc-400 mb-6 max-w-md">
+            <h2 className="text-2xl font-bold mb-2 text-white">Automated Discovery Engine</h2>
+            <p className="text-zinc-300 mb-6 max-w-md">
               Our bots scour GitHub, Reddit, and official docs 24/7. We don't just copy-paste; we validate, clean, and structure the data.
             </p>
-            <div className="flex gap-2 font-mono text-xs text-zinc-500 border-t border-white/5 pt-4">
+            <div className="flex gap-2 font-mono text-xs text-zinc-300 border-t border-white/5 pt-4">
               <span className="px-2 py-1 bg-zinc-800 rounded">Playwright</span>
               <span className="px-2 py-1 bg-zinc-800 rounded">GitHub GraphQL</span>
               <span className="px-2 py-1 bg-zinc-800 rounded">Zod Schema</span>
@@ -72,8 +72,8 @@ export default function LandingPage() {
           {/* Feature 2: Tall */}
           <div className="md:row-span-2 p-8 rounded-3xl bg-zinc-900/30 border border-white/10 hover:border-white/20 transition-all group relative overflow-hidden">
              <div className="absolute top-0 right-0 w-32 h-32 bg-purple-500/10 blur-3xl"/>
-             <h3 className="text-2xl font-bold mb-2 text-white">Strict Schema</h3>
-             <p className="text-zinc-400 mb-8">
+             <h2 className="text-2xl font-bold mb-2 text-white">Strict Schema</h2>
+             <p className="text-zinc-300 mb-8">
                Every prompt is treated as code. We enforce a strict JSON schema to ensure interoperability.
              </p>
              <div className="space-y-3 font-mono text-xs text-zinc-300">
@@ -90,27 +90,27 @@ export default function LandingPage() {
                  <span className="text-purple-400">array</span>
                </div>
              </div>
-          </div>
+           </div>
 
           {/* Feature 3: Standard */}
           <div className="p-8 rounded-3xl bg-zinc-900/30 border border-white/10 hover:border-white/20 transition-all">
-            <h3 className="text-xl font-bold mb-2 text-white">Open Source</h3>
-            <p className="text-zinc-400 text-sm">
+            <h2 className="text-xl font-bold mb-2 text-white">Open Source</h2>
+            <p className="text-zinc-300 text-sm">
               MIT Licensed. The data belongs to the community. Fork it, extend it, build on it.
             </p>
           </div>
 
           {/* Feature 4: Standard */}
           <div className="p-8 rounded-3xl bg-zinc-900/30 border border-white/10 hover:border-white/20 transition-all">
-            <h3 className="text-xl font-bold mb-2 text-white">Daily Updates</h3>
-            <p className="text-zinc-400 text-sm">
+            <h2 className="text-xl font-bold mb-2 text-white">Daily Updates</h2>
+            <p className="text-zinc-300 text-sm">
               Fresh prompts delivered daily via GitHub Actions.
             </p>
           </div>
         </div>
 
         {/* Footer */}
-        <div className="mt-32 pt-8 border-t border-white/5 text-center text-zinc-600 text-sm">
+        <div className="mt-32 pt-8 border-t border-white/5 text-center text-zinc-400 text-sm">
           <p>© 2025 Awesome Gemini Prompts. Built for the AI era.</p>
         </div>
       </div>

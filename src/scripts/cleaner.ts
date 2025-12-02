@@ -55,7 +55,7 @@ export async function cleanPromptsWithLLM(rawPrompts: any[]): Promise<GeminiProm
       baseURL: 'https://models.inference.ai.azure.com',
       apiKey: githubToken
     });
-    model = githubOpenAI('gemini-1.5-pro-latest');
+    model = githubOpenAI('gemini-2.5-pro');
   } else {
     console.warn("⚠️ No AI API Key found. Skipping LLM cleaning.");
     return [];
