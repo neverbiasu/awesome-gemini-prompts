@@ -16,8 +16,7 @@ async function main() {
   let existingPrompts: GeminiPrompt[] = [];
   try {
     const fileContent = await fs.readFile(PROMPTS_FILE, 'utf-8');
-    existingPrompts = []; // Force empty to rebuild from scratch
-    // existingPrompts = JSON.parse(fileContent);
+    existingPrompts = JSON.parse(fileContent);
     console.log(`📦 Loaded ${existingPrompts.length} existing production prompts.`);
   } catch (error) {
     console.log('Mw Creating new production data file.');
@@ -101,6 +100,12 @@ async function main() {
   }
 
   // 6. Save to JSON
+  // SAFETY CHECK: Ensure we don't accidentally wipe the database
+  if (allPrompts.length < existingPrompts.length * 0.5) {
+      console.error(`❌ SAFETY STOP: New prompt count (${allPrompts.length}) is significantly lower than existing (${existingPrompts.length}). Aborting save to prevent data loss.`);
+      process.exit(1);
+  }
+
   await fs.writeFile(PROMPTS_FILE, JSON.stringify(allPrompts, null, 2));
   console.log(`✅ Successfully saved ${allPrompts.length} prompts to ${PROMPTS_FILE}`);
 }

@@ -50,12 +50,13 @@ export async function cleanPromptsWithLLM(rawPrompts: any[]): Promise<GeminiProm
     process.env.GOOGLE_GENERATIVE_AI_API_KEY = apiKey;
     model = google('gemini-2.5-flash-preview-09-2025');
   } else if (githubToken) {
-    console.log("   Using Gemini 1.5 Pro (via GitHub Models)");
+    console.log("   Using AI21 Jamba 1.5 Large (via GitHub Models)");
     const githubOpenAI = createOpenAI({
       baseURL: 'https://models.inference.ai.azure.com',
       apiKey: githubToken
     });
-    model = githubOpenAI('gemini-2.5-pro');
+    // Use AI21 Jamba 1.5 Large as requested
+    model = githubOpenAI('AI21-Jamba-1.5-Large');
   } else {
     console.warn("⚠️ No AI API Key found. Skipping LLM cleaning.");
     return [];
