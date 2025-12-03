@@ -3,16 +3,18 @@
 import { useState } from "react";
 import { Card, CardHeader, CardBody, CardFooter, Button, Chip, Tooltip } from "@heroui/react";
 import { GeminiPrompt } from "../schema/prompt";
+import { FaGithub, FaReddit, FaGoogle, FaDiscord, FaGlobe, FaCopy, FaCheck, FaExternalLinkAlt, FaPlay } from "react-icons/fa";
+import { SiGoogle } from "react-icons/si";
 
-const PLATFORM_CONFIG: Record<string, { color: string; label: string; icon: string }> = {
-  GitHub: { color: "text-white bg-zinc-800", label: "GitHub", icon: "github" },
-  Reddit: { color: "text-orange-400 bg-orange-400/10", label: "Reddit", icon: "reddit" },
-  Google: { color: "text-blue-400 bg-blue-400/10", label: "Google", icon: "google" },
-  UserSubmission: { color: "text-emerald-400 bg-emerald-400/10", label: "Community", icon: "globe" },
-  Discord: { color: "text-indigo-400 bg-indigo-400/10", label: "Discord", icon: "discord" },
+const PLATFORM_CONFIG: Record<string, { color: string; label: string; icon: React.ElementType }> = {
+  GitHub: { color: "text-white bg-zinc-800", label: "GitHub", icon: FaGithub },
+  Reddit: { color: "text-orange-400 bg-orange-400/10", label: "Reddit", icon: FaReddit },
+  Google: { color: "text-blue-400 bg-blue-400/10", label: "Google", icon: SiGoogle },
+  UserSubmission: { color: "text-emerald-400 bg-emerald-400/10", label: "Community", icon: FaGlobe },
+  Discord: { color: "text-indigo-400 bg-indigo-400/10", label: "Discord", icon: FaDiscord },
 };
 
-function CopyButton({ text, tooltip = "Copy Prompt" }: { text: string; tooltip?: string }) {
+function CopyButton({ text, tooltip = "Copy", className = "" }: { text: string; tooltip?: string; className?: string }) {
   const [copied, setCopied] = useState(false);
 
   const handleCopy = async (e: React.MouseEvent) => {
@@ -24,28 +26,20 @@ function CopyButton({ text, tooltip = "Copy Prompt" }: { text: string; tooltip?:
   };
 
   return (
-    <Tooltip content={copied ? "Copied!" : tooltip}>
+    <Tooltip content={copied ? "Copied!" : tooltip} placement="left" className="text-xs">
       <Button
         isIconOnly
         onClick={handleCopy}
         size="sm"
         variant="light"
-        className={`transition-all duration-300 min-w-8 w-8 h-8 ${
+        className={`transition-all duration-300 min-w-6 w-6 h-6 absolute top-2 right-2 z-10 ${className} ${
           copied 
             ? "text-emerald-400 bg-emerald-400/10" 
-            : "text-zinc-400 hover:text-zinc-100 hover:bg-white/5"
+            : "text-zinc-500 hover:text-zinc-200 hover:bg-white/10"
         }`}
         aria-label={tooltip}
       >
-        {copied ? (
-          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
-          </svg>
-        ) : (
-          <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
-          </svg>
-        )}
+        {copied ? <FaCheck size={10} /> : <FaCopy size={10} />}
       </Button>
     </Tooltip>
   );
@@ -63,6 +57,7 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
   }
   
   const platform = PLATFORM_CONFIG[platformKey] || PLATFORM_CONFIG.Google;
+  const PlatformIcon = platform.icon;
 
   // Helper to format model list
   const models = prompt.compatibleModels || ["gemini-2.5-pro"];
@@ -77,25 +72,42 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
   const sourceUrl = prompt.originalSourceUrl || (prompt as any).originUrl;
   const likes = prompt.stats?.likes || (prompt as any).metaMetrics?.stars || (prompt as any).metaMetrics?.upvotes || 0;
 
+  const handleRunInAIStudio = async (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    
+    // Copy full prompt context to clipboard as a backup/convenience
+    const textToCopy = systemText ? `System: ${systemText}\n\nUser: ${userText}` : userText;
+    await navigator.clipboard.writeText(textToCopy);
+
+    // Construct Deep Link
+    const baseUrl = 'https://aistudio.google.com/app/prompts/new_chat';
+    const params = new URLSearchParams();
+    if (userText) params.append('prompt', userText);
+    
+    window.open(`${baseUrl}?${params.toString()}`, '_blank');
+  };
+
   return (
     <Card 
       isPressable={false}
-      className="group w-full h-[380px] border border-white/5 bg-zinc-900/40 hover:bg-zinc-900/80 hover:border-white/10 transition-all duration-300 rounded-xl backdrop-blur-sm flex flex-col text-left"
+      className="group w-full h-[400px] border border-white/5 bg-zinc-900/40 hover:bg-zinc-900/60 hover:border-white/10 transition-all duration-500 rounded-2xl backdrop-blur-md flex flex-col text-left shadow-2xl shadow-black/20"
     >
       {/* Header: Title & Meta */}
       <CardHeader 
-        className="flex flex-col items-start gap-3 p-5 pb-0 shrink-0 w-full"
+        className="flex flex-col items-start gap-4 p-6 pb-2 shrink-0 w-full"
       >
-        <div className="flex w-full justify-between items-start">
-          <div className={`px-2 py-1 rounded text-[10px] uppercase font-bold tracking-wider ${platform.color} border border-white/5`}>
+        <div className="flex w-full justify-between items-center">
+          <div className={`px-2.5 py-1 rounded-full text-[10px] uppercase font-bold tracking-wider ${platform.color} border border-white/5 shadow-sm flex items-center gap-1.5`}>
+            <PlatformIcon size={12} />
             {platform.label}
           </div>
           
           {/* Metrics */}
           {likes > 0 && platformKey !== 'Google' && (
-            <div className="flex items-center gap-3 text-xs text-zinc-500 font-mono">
+            <div className="flex items-center gap-3 text-xs text-zinc-500 font-mono bg-white/5 px-2 py-1 rounded-full">
               <div className="flex items-center gap-1" title="Upvotes/Likes">
-                <svg className="w-3.5 h-3.5 text-rose-500/70" fill="currentColor" viewBox="0 0 24 24">
+                <svg className="w-3.5 h-3.5 text-rose-500/80" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
                 </svg>
                 <span>{likes}</span>
@@ -103,8 +115,8 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
             </div>
           )}
         </div>
-        <Tooltip content={prompt.title} delay={1000}>
-          <h3 className="text-lg font-semibold text-zinc-100 leading-tight group-hover:text-white transition-colors line-clamp-1 w-full">
+        <Tooltip content={prompt.title} delay={500} placement="top" className="max-w-xs">
+          <h3 className="text-xl font-bold text-zinc-100 leading-tight group-hover:text-white transition-colors line-clamp-1 w-full tracking-tight">
             {prompt.title}
           </h3>
         </Tooltip>
@@ -112,32 +124,36 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
       
       {/* Body: Content & Specs */}
       <CardBody 
-        className="p-5 flex flex-col gap-3 overflow-hidden w-full h-full"
+        className="p-6 pt-2 flex flex-col gap-4 overflow-hidden w-full h-full"
       >
-        {/* System Instruction (Persona) */}
+        {/* System Prompt */}
         {systemText && (
           <div className={`
-            relative rounded-lg border-l-4 border-secondary bg-default-100/50 p-3 text-xs font-mono text-default-600
-            ${!userText ? 'flex-1 overflow-hidden' : 'shrink-0 max-h-[40%] overflow-hidden'}
+            relative flex flex-col min-h-0
+            ${userText ? 'h-1/2' : 'flex-1'}
           `}>
-            <div className="flex justify-between items-center mb-1">
-              <span className="uppercase text-[10px] font-bold text-secondary tracking-wider">System</span>
-              <span className="text-[9px] text-warning uppercase font-bold tracking-wider border border-warning/20 px-1 rounded">API Only</span>
+            <div className="flex items-center gap-2 mb-1.5">
+               <span className="uppercase text-[9px] font-bold text-blue-400 tracking-widest">System Prompt</span>
             </div>
-            <div className="relative h-full">
-                 <p className="whitespace-pre-wrap line-clamp-none">{systemText}</p>
+            <div className="relative rounded-xl border border-white/5 bg-black/20 p-3 flex-1 overflow-hidden group/code">
+                 <CopyButton text={systemText} tooltip="Copy System Prompt" className="opacity-0 group-hover/code:opacity-100 transition-opacity" />
+                 <p className="whitespace-pre-wrap leading-relaxed opacity-80 text-xs font-mono text-zinc-400 line-clamp-3">{systemText}</p>
             </div>
           </div>
         )}
 
         {/* User Prompt */}
         {userText && (
-          <div className="relative group flex-1 overflow-hidden flex flex-col">
-            <Chip size="sm" variant="flat" color="secondary" className="mb-2 h-5 text-[10px] uppercase font-bold tracking-wider bg-secondary/10 text-secondary shrink-0 w-fit">
-              User Prompt
-            </Chip>
-            <div className="relative flex-1 overflow-hidden">
-              <p className="text-sm text-default-500 whitespace-pre-wrap font-mono leading-relaxed">
+          <div className={`
+            relative flex flex-col min-h-0
+            ${systemText ? 'h-1/2' : 'flex-1'}
+          `}>
+            <div className="flex items-center gap-2 mb-1.5">
+               <span className="uppercase text-[9px] font-bold text-zinc-500 tracking-widest">User Prompt</span>
+            </div>
+            <div className="relative rounded-xl border border-white/5 bg-white/5 p-3 flex-1 overflow-hidden group/code">
+              <CopyButton text={userText} tooltip="Copy User Prompt" className="opacity-0 group-hover/code:opacity-100 transition-opacity" />
+              <p className="text-sm text-zinc-300 whitespace-pre-wrap font-mono leading-relaxed line-clamp-6">
                 {userText}
               </p>
             </div>
@@ -145,12 +161,11 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
         )}
 
         {/* Tech Stack (Footer Top) */}
-        <div className="flex items-center gap-2 mt-auto pt-3 text-xs text-default-400 shrink-0 border-t border-white/5 w-full">
-          
+        <div className="flex items-center gap-2 mt-auto pt-2 text-xs text-zinc-500 shrink-0 w-full">
           {/* Model Targets */}
-          <Tooltip content={models.join(", ")}>
-            <div className="flex items-center gap-1 cursor-help">
-               <span className="px-1.5 py-0.5 rounded bg-zinc-800 border border-zinc-700 text-[10px] text-zinc-300">
+          <Tooltip content={models.join(", ")} placement="bottom">
+            <div className="flex items-center gap-1 cursor-help hover:text-zinc-300 transition-colors">
+               <span className="px-2 py-0.5 rounded-md bg-zinc-800/50 border border-zinc-700/50 text-[10px]">
                  {displayModel}
                </span>
                {extraModelsCount > 0 && (
@@ -162,19 +177,19 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
       </CardBody>
       
       {/* Footer: Action */}
-      <CardFooter className="p-5 pt-0 flex justify-between items-center shrink-0 h-[50px] w-full relative z-20">
-        <div className="flex gap-2 overflow-hidden mask-linear-fade">
+      <CardFooter className="p-6 pt-0 flex justify-between items-center shrink-0 h-[60px] w-full relative z-20">
+        <div className="flex gap-2 overflow-hidden mask-linear-fade w-2/3">
            {(prompt.tags || []).slice(0, 3).map((tag) => (
-            <span key={tag} className="px-2 py-0.5 rounded-md bg-zinc-800/50 border border-zinc-700/50 text-[10px] text-zinc-400 hover:text-zinc-200 transition-colors cursor-default whitespace-nowrap">
+            <span key={tag} className="px-2 py-1 rounded-md bg-zinc-800/30 border border-zinc-700/30 text-[10px] text-zinc-400 hover:text-zinc-200 transition-colors cursor-default whitespace-nowrap">
               {tag}
             </span>
           ))}
         </div>
-        <div className="flex gap-1 items-center">
+        <div className="flex gap-2 items-center">
           
           {/* Source Link */}
           {sourceUrl && (
-            <Tooltip content={`View on ${platform.label}`}>
+            <Tooltip content={`View on ${platform.label}`} placement="top">
               <Button
                 isIconOnly
                 as="a"
@@ -183,47 +198,27 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
                 rel="noopener noreferrer"
                 size="sm"
                 variant="light"
-                className="text-zinc-400 hover:text-white min-w-8 w-8 h-8"
+                className="text-zinc-500 hover:text-white min-w-8 w-8 h-8"
               >
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
-                </svg>
+                {platformKey === 'Reddit' ? <FaReddit size={16} /> : <FaExternalLinkAlt size={14} />}
               </Button>
             </Tooltip>
           )}
 
+          <div className="w-px h-4 bg-white/10 mx-1" />
+
           {/* Run in AI Studio */}
-          <Tooltip content="Run in Google AI Studio">
+          <Tooltip content="Run in Google AI Studio" placement="top">
             <Button
-              isIconOnly
               size="sm"
-              variant="light"
-              className="text-blue-400 hover:text-blue-300 hover:bg-blue-400/10 min-w-8 w-8 h-8"
-              onClick={async (e) => {
-                e.preventDefault();
-                e.stopPropagation();
-                const textToCopy = systemText ? `System: ${systemText}\n\nUser: ${userText}` : userText;
-                await navigator.clipboard.writeText(textToCopy);
-                window.open('https://aistudio.google.com/', '_blank');
-              }}
+              variant="flat"
+              className="bg-blue-500/10 text-blue-400 font-semibold text-xs px-3 h-8 rounded-full hover:bg-blue-500/20 transition-all flex items-center gap-2"
+              onClick={handleRunInAIStudio}
             >
-              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M8 5v14l11-7z" />
-              </svg>
+              <FaPlay size={10} />
+              <span>Run</span>
             </Button>
           </Tooltip>
-
-          <div className="w-px h-4 bg-white/10 mx-1" />
-            
-          {/* Dual Copy Buttons for Hybrid Mode */}
-          {systemText ? (
-            <>
-              <CopyButton text={systemText} tooltip="Copy System Instruction" />
-              <CopyButton text={userText} tooltip="Copy User Prompt" />
-            </>
-          ) : (
-            <CopyButton text={userText} tooltip="Copy User Prompt" />
-          )}
         </div>
       </CardFooter>
     </Card>

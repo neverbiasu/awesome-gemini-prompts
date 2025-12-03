@@ -2,14 +2,23 @@
 
 import Link from "next/link";
 import { Button } from "@heroui/react";
-import { usePathname } from "next/navigation";
+import { usePathname, useSearchParams } from "next/navigation";
+import { FaGithub, FaReddit } from "react-icons/fa";
 
 export default function Navbar() {
   const pathname = usePathname();
-  const isHub = pathname === "/hub";
+  const searchParams = useSearchParams();
+  const currentCategory = searchParams.get("category");
+  
+  const navItems = [
+    { name: "Text", href: "/hub?category=text" },
+    { name: "Image", href: "/hub?category=image" },
+    { name: "Video", href: "/hub?category=video" },
+    { name: "Audio", href: "/hub?category=audio" },
+  ];
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 border-b border-white/5 bg-black/50 backdrop-blur-xl">
+    <nav className="fixed top-0 left-0 right-0 z-50 border-b border-white/5 bg-black/50 backdrop-blur-xl supports-[backdrop-filter]:bg-black/20">
       <div className="container mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo / Brand */}
         <Link href="/" className="flex items-center gap-2 group" aria-label="Awesome Gemini Prompts Home">
@@ -39,25 +48,47 @@ export default function Navbar() {
 
         {/* Navigation Links */}
         <div className="flex items-center gap-6">
-          <Link 
-            href="/hub" 
-            className={`text-sm font-medium transition-colors ${
-              isHub ? "text-white" : "text-zinc-300 hover:text-white"
-            }`}
-          >
-            Prompt Hub
-          </Link>
-          <Link 
-            href="https://github.com/neverbiasu/awesome-gemini-prompts" 
-            target="_blank"
-            className="text-sm font-medium text-zinc-300 hover:text-white transition-colors"
-          >
-            GitHub
-          </Link>
-          
-          <div className="h-4 w-px bg-white/10 mx-2" />
+          <div className="hidden md:flex items-center gap-1 bg-white/5 rounded-full p-1 border border-white/5">
+            {navItems.map((item) => {
+              const isActive = pathname === "/hub" && currentCategory === item.name.toLowerCase();
+              return (
+                <Link 
+                  key={item.name}
+                  href={item.href}
+                  className={`px-4 py-1.5 rounded-full text-sm font-medium transition-all duration-300 ${
+                    isActive 
+                      ? "bg-white/10 text-white shadow-lg shadow-white/5" 
+                      : "text-zinc-400 hover:text-white hover:bg-white/5"
+                  }`}
+                >
+                  {item.name}
+                </Link>
+              );
+            })}
+          </div>
 
-          <Link href="https://ai.google.dev" target="_blank">
+          <div className="h-4 w-px bg-white/10 mx-2 hidden md:block" />
+
+          <div className="flex items-center gap-3">
+            <Link 
+              href="https://github.com/neverbiasu/awesome-gemini-prompts" 
+              target="_blank"
+              className="p-2 text-zinc-400 hover:text-white transition-colors hover:bg-white/5 rounded-full"
+              aria-label="GitHub"
+            >
+              <FaGithub size={20} />
+            </Link>
+            <Link 
+              href="https://www.reddit.com/r/GeminiAI/" 
+              target="_blank"
+              className="p-2 text-zinc-400 hover:text-[#FF4500] transition-colors hover:bg-white/5 rounded-full"
+              aria-label="Reddit"
+            >
+              <FaReddit size={20} />
+            </Link>
+          </div>
+
+          <Link href="https://ai.google.dev" target="_blank" className="hidden sm:block">
             <Button 
               size="sm" 
               className="bg-white text-black font-semibold text-xs px-4 rounded-full hover:bg-zinc-200"

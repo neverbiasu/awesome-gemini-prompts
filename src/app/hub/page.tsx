@@ -3,7 +3,7 @@ import path from 'path';
 import { GeminiPrompt } from '@/schema/prompt';
 import PromptGrid from '@/components/PromptGrid';
 
-export const revalidate = 3600;
+export const revalidate = 0;
 
 async function getPrompts(): Promise<GeminiPrompt[]> {
   const filePath = path.join(process.cwd(), 'data', 'prompts.json');
@@ -16,14 +16,40 @@ async function getPrompts(): Promise<GeminiPrompt[]> {
   }
 }
 
-export default async function HubPage() {
+interface HubPageProps {
+  searchParams: Promise<{ category?: string }>;
+}
+
+export default async function HubPage(props: HubPageProps) {
+  const searchParams = await props.searchParams;
+  const category = searchParams.category?.toLowerCase();
+  
   const allPrompts = await getPrompts();
   
   // Filter out prompts that don't have any text content
-  const validPrompts = allPrompts.filter(p => 
+  let validPrompts = allPrompts.filter(p => 
     (p.contents && p.contents.length > 0 && p.contents[0].parts.some(part => part.text)) || 
-    (p.promptText && p.promptText.trim().length > 0)
+    (p.promptText && p.promptText.trim().length > 0) ||
+    (p.systemInstruction && p.systemInstruction.parts && p.systemInstruction.parts.some(part => part.text))
   );
+
+  // Category Filtering
+  if (category) {
+    validPrompts = validPrompts.filter(p => {
+      const tags = p.tags?.map(t => t.toLowerCase()) || [];
+      if (category === 'text') {
+        // Text is default, but if we want strict filtering:
+        // Exclude image/video/audio if those tags exist?
+        // Or just return everything that isn't explicitly another modality?
+        // For now, let's assume everything is text unless tagged otherwise, 
+        // OR check for specific text-related tags if they exist.
+        // Given the current data, let's return everything for 'text' 
+        // that DOESN'T have image/video/audio tags.
+        return !tags.some(t => ['image', 'video', 'audio'].includes(t));
+      }
+      return tags.some(t => t.includes(category));
+    });
+  }
 
   // Sorting Logic
   const prompts = validPrompts.sort((a, b) => {
@@ -59,10 +85,10 @@ export default async function HubPage() {
         <header className="mb-12 flex flex-col md:flex-row justify-between items-end gap-6 border-b border-white/5 pb-8">
           <div className="space-y-2">
             <h1 className="text-3xl font-bold text-white tracking-tight">
-              Prompt Hub
+              {category ? `${category.charAt(0).toUpperCase() + category.slice(1)} Prompts` : 'Prompt Hub'}
             </h1>
             <p className="text-zinc-400 text-sm max-w-xl">
-              Explore {prompts.length} curated prompts for Gemini. Optimized for 1.5 Pro, Flash, and Ultra.
+              Explore {prompts.length} curated prompts for Gemini. Optimized for 2.0 Flash, 2.5 Pro, and 3.0.
             </p>
           </div>
           
