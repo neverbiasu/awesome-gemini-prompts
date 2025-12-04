@@ -5,7 +5,9 @@ import { Button } from "@heroui/react";
 import { usePathname, useSearchParams } from "next/navigation";
 import { FaGithub, FaReddit } from "react-icons/fa";
 
-export default function Navbar() {
+import { Suspense } from "react";
+
+function NavbarContent() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const currentCategory = searchParams.get("category");
@@ -100,5 +102,13 @@ export default function Navbar() {
         </div>
       </div>
     </nav>
+  );
+}
+
+export default function Navbar() {
+  return (
+    <Suspense fallback={null}>
+      <NavbarContent />
+    </Suspense>
   );
 }

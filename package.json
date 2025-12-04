@@ -9,6 +9,7 @@
     "lint": "eslint",
     "scrape": "tsx src/scripts/scrape.ts",
     "clean": "tsx src/scripts/clean.ts",
+    "archive:ui": "tsx src/scripts/archive-ui.ts",
     "pipeline": "npm run scrape && npm run clean"
   },
   "dependencies": {
@@ -23,7 +24,7 @@
     "dotenv": "^17.2.3",
     "framer-motion": "^12.23.24",
     "fs-extra": "^11.3.2",
-    "next": "16.0.4",
+    "next": "16.0.7",
     "octokit": "^5.0.5",
     "react": "19.2.0",
     "react-dom": "19.2.0",
@@ -44,7 +45,7 @@
     "@vercel/analytics": "^1.6.1",
     "@vercel/speed-insights": "^1.3.1",
     "eslint": "^9",
-    "eslint-config-next": "16.0.4",
+    "eslint-config-next": "16.0.7",
     "playwright": "^1.56.1",
     "tailwindcss": "^4",
     "ts-node": "^10.9.2",

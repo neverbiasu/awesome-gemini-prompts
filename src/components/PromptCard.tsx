@@ -177,15 +177,15 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
       </CardBody>
       
       {/* Footer: Action */}
-      <CardFooter className="p-6 pt-0 flex justify-between items-center shrink-0 h-[60px] w-full relative z-20">
-        <div className="flex gap-2 overflow-hidden mask-linear-fade w-2/3">
-           {(prompt.tags || []).slice(0, 3).map((tag) => (
-            <span key={tag} className="px-2 py-1 rounded-md bg-zinc-800/30 border border-zinc-700/30 text-[10px] text-zinc-400 hover:text-zinc-200 transition-colors cursor-default whitespace-nowrap">
+      <CardFooter className="p-6 pt-0 flex items-center gap-3 shrink-0 h-[60px] w-full relative z-20">
+        <div className="flex-1 flex gap-2 overflow-x-auto no-scrollbar mask-linear-fade min-w-0 items-center">
+           {(prompt.tags || []).map((tag) => (
+            <span key={tag} className="px-2 py-1 rounded-md bg-zinc-800/50 border border-zinc-700/50 text-[10px] text-zinc-400 hover:text-zinc-200 transition-colors cursor-default whitespace-nowrap shrink-0">
               {tag}
             </span>
           ))}
         </div>
-        <div className="flex gap-2 items-center">
+        <div className="flex gap-2 items-center shrink-0">
           
           {/* Source Link */}
           {sourceUrl && (
