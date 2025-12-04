@@ -210,13 +210,13 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
           {/* Run in AI Studio */}
           <Tooltip content="Run in Google AI Studio" placement="top">
             <Button
+              isIconOnly
               size="sm"
               variant="flat"
-              className="bg-blue-500/10 text-blue-400 font-semibold text-xs px-3 h-8 rounded-full hover:bg-blue-500/20 transition-all flex items-center gap-2"
+              className="bg-blue-500/10 text-blue-400 font-semibold text-xs min-w-8 w-8 h-8 rounded-full hover:bg-blue-500/20 transition-all flex items-center justify-center"
               onClick={handleRunInAIStudio}
             >
               <FaPlay size={10} />
-              <span>Run</span>
             </Button>
           </Tooltip>
         </div>

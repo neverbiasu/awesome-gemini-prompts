@@ -85,15 +85,17 @@ export async function cleanPromptsWithLLM(rawPrompts: any[]): Promise<GeminiProm
           2. **DISCARD** questions, news, discussions, or bugs. KEEP only actual prompts.
           3. **TAGS**: Exactly 3 tags. lowercase. NO 'google', 'gemini', 'prompt', 'official'.
           4. **SEPARATE** 'systemInstruction' (persona) vs 'userPrompt' (task) if clearly distinct in the text.
-          4. **INFER** 'safetySettings' if the prompt is risky.
-          5. **ASSIGN** 'compatibleModels' intelligently:
+          5. **INFER** 'safetySettings' if the prompt is risky.
+          6. **ASSIGN** 'compatibleModels' intelligently:
+             - **VIDEO GEN**: If it generates video (e.g. "Create a video of...", "Animate this..."), assign [imagen-4.0-generate-preview-06-06].
              - **IMAGE GEN**: If it creates images, assign [imagen-4.0-generate-preview-06-06, imagen-4.0-ultra-generate-preview-06-06].
              - **IMAGE EDIT**: If it edits/transforms images, assign [gemini-2.5-flash-image, nano-banana-pro-preview, gemini-3-pro-image-preview].
              - **TEXT (SIMPLE)**: [gemini-2.5-flash, gemini-2.0-flash].
              - **TEXT (COMPLEX)**: [gemini-2.5-pro, gemini-3-pro-preview].
              - **UPWARD COMPATIBILITY**: If it works on Flash, it works on Pro.
-          6. **RETURN** the 'batchIndex' for each item so we can map it back to the original data.
-          7. **MULTI-PROMPT POSTS**: If a single candidate contains multiple prompts, extract them as separate items. **IMPORTANT**: ALL extracted items must share the SAME 'batchIndex' as the source candidate.
+          7. **RETURN** the 'batchIndex' for each item so we can map it back to the original data.
+          8. **MULTI-PROMPT POSTS**: If a single candidate contains multiple prompts, extract them as separate items. **IMPORTANT**: ALL extracted items must share the SAME 'batchIndex' as the source candidate.
+          9. **QUALITY FILTER**: For Video/Image prompts, DISCARD simple 1-line requests like "make a video of a cat". Keep only detailed, descriptive prompts that showcase the model's capability.
 
           RAW CANDIDATES:
           ${JSON.stringify(batchWithIndices, null, 2)}
