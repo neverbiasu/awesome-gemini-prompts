@@ -29239,5 +29239,400 @@
     },
     "createdAt": "2025-12-04T00:48:57.286Z",
     "updatedAt": "2025-12-04T00:48:57.286Z"
+  },
+  {
+    "id": "4146dcf0-7be8-4f6a-8c77-2dbb2a94e2c5",
+    "title": "Story_Writing_with_Prompt_Chaining",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/aa218e8c403f86f2d942f645f1e99ca8ed7f7080/examples/Story_Writing_with_Prompt_Chaining.ipynb",
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "##### Copyright 2025 Google LLC.... (See Notebook)"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "google-gemini",
+      "url": "https://github.com/google-gemini",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-04T02:10:18.196Z",
+    "updatedAt": "2025-12-04T02:10:18.196Z"
+  },
+  {
+    "id": "1be56bdc-e68b-4022-b91d-bf707ed22c7d",
+    "title": "Role_prompting",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/aa218e8c403f86f2d942f645f1e99ca8ed7f7080/examples/prompting/Role_prompting.ipynb",
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "\n    You are a highly regarded music connoisseur, you are a big fan of Mozart.\n    You recently listened to Mozart's Requiem.\n"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "google-gemini",
+      "url": "https://github.com/google-gemini",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-04T02:10:18.398Z",
+    "updatedAt": "2025-12-04T02:10:18.398Z"
+  },
+  {
+    "id": "4e71d9fb-5e3c-4ac8-897b-9972a507c88f",
+    "title": "Self_ask_prompting",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/aa218e8c403f86f2d942f645f1e99ca8ed7f7080/examples/prompting/Self_ask_prompting.ipynb",
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "\n  Question: Who was the president of the united states when Mozart died?\n  Are follow up questions needed?: yes.\n  Follow up: When did Mozart died?\n  Intermediate answer: 1791.\n  Follow up: Who was the president of the united states in 1791?\n  Intermediate answer: George Washington.\n  Final answer: When Mozart died George Washington was the president of the USA.\n\n  Question: Where did the Emperor of Japan, who ruled the year Maria\n  Skłodowska was born, die?\n"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "google-gemini",
+      "url": "https://github.com/google-gemini",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-04T02:10:18.609Z",
+    "updatedAt": "2025-12-04T02:10:18.609Z"
+  },
+  {
+    "id": "a5d6805a-4f73-48be-9928-6ba1f748d3dc",
+    "title": "Basic_Information_Extraction",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/aa218e8c403f86f2d942f645f1e99ca8ed7f7080/examples/prompting/Basic_Information_Extraction.ipynb",
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "\n  You are given a list of groceries. Complete the following:\n  - Organize groceries into categories for easier shopping.\n  - List each item one under another with a checkbox [].\n"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "google-gemini",
+      "url": "https://github.com/google-gemini",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-04T02:10:18.814Z",
+    "updatedAt": "2025-12-04T02:10:18.814Z"
+  },
+  {
+    "id": "f16b62da-2c66-474e-8c60-15b8c02eae60",
+    "title": "Get_started_LearnLM",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/aa218e8c403f86f2d942f645f1e99ca8ed7f7080/quickstarts/Get_started_LearnLM.ipynb",
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "\n  Help me study for a undergrad cognition test on theories of emotion\n  generation.\n"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "google-gemini",
+      "url": "https://github.com/google-gemini",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-04T02:10:19.026Z",
+    "updatedAt": "2025-12-04T02:10:19.026Z"
+  },
+  {
+    "id": "f740f8b6-7d93-4180-8d9a-e073e6cfcb11",
+    "title": "Few_shot_prompting",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/aa218e8c403f86f2d942f645f1e99ca8ed7f7080/examples/prompting/Few_shot_prompting.ipynb",
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "\n    Sort the animals from biggest to smallest.\n    Question: Sort Tiger, Bear, Dog\n    Answer: Bear > Tiger > Dog}\n    Question: Sort Cat, Elephant, Zebra\n    Answer: Elephant > Zebra > Cat}\n    Question: Sort Whale, Goldfish, Monkey\n    Answer:\n"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "google-gemini",
+      "url": "https://github.com/google-gemini",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-04T02:10:19.250Z",
+    "updatedAt": "2025-12-04T02:10:19.250Z"
+  },
+  {
+    "id": "40245855-5a20-4d41-bb25-663338c509c4",
+    "title": "Basic_Code_Generation",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/aa218e8c403f86f2d942f645f1e99ca8ed7f7080/examples/prompting/Basic_Code_Generation.ipynb",
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "\n  Create a countdown timer that ticks down every second and prints\n  \"Time is up!\" after 20 seconds\n"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "google-gemini",
+      "url": "https://github.com/google-gemini",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-04T02:10:19.445Z",
+    "updatedAt": "2025-12-04T02:10:19.445Z"
+  },
+  {
+    "id": "741268bb-6fdf-411c-886f-0e81a9d264da",
+    "title": "Search_reranking_using_embeddings",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/aa218e8c403f86f2d942f645f1e99ca8ed7f7080/examples/Search_reranking_using_embeddings.ipynb",
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "##### Copyright 2025 Google LLC.... (See Notebook)"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "google-gemini",
+      "url": "https://github.com/google-gemini",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-04T02:10:19.766Z",
+    "updatedAt": "2025-12-04T02:10:19.766Z"
+  },
+  {
+    "id": "7ea59639-af02-46a0-b514-2d22b5a1f75b",
+    "title": "Entity_Extraction",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/aa218e8c403f86f2d942f645f1e99ca8ed7f7080/examples/Entity_Extraction.ipynb",
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "##### Copyright 2025 Google LLC.... (See Notebook)"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "google-gemini",
+      "url": "https://github.com/google-gemini",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-04T02:10:19.962Z",
+    "updatedAt": "2025-12-04T02:10:19.962Z"
+  },
+  {
+    "id": "ef833407-e1ba-45eb-830f-101b49b67cd6",
+    "title": "Prompting_REST",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/aa218e8c403f86f2d942f645f1e99ca8ed7f7080/quickstarts/rest/Prompting_REST.ipynb",
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "##### Copyright 2025 Google LLC.... (See Notebook)"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "google-gemini",
+      "url": "https://github.com/google-gemini",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-04T02:10:20.165Z",
+    "updatedAt": "2025-12-04T02:10:20.165Z"
+  },
+  {
+    "id": "73d2c118-8d82-45e9-843c-6244d4fbccd3",
+    "title": "Audio Diarization",
+    "description": "Transcribe audio with speaker details and timestamps.",
+    "tags": [
+      "official",
+      "google"
+    ],
+    "originalSourceUrl": "https://aistudio.google.com/app/prompts/audio-diarization",
+    "compatibleModels": [
+      "gemini-2.5-flash"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Generate audio diarization, including transcriptions and speaker information for each transcription, for this interview. Organize the transcription by the time they happened."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Google",
+      "url": "https://ai.google.dev",
+      "platform": "Google"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-11-30T21:41:08.915Z",
+    "updatedAt": "2025-11-30T21:41:08.916Z"
   }
 ]
