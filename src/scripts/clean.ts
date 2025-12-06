@@ -46,10 +46,20 @@ async function main() {
   // 3. Deduplicate
   // We only want to clean candidates that are NOT already in our production DB (by URL)
   const newCandidates = rawCandidates.filter(candidate => {
-     // Force re-clean all data to apply new model mapping logic
+     // 1. Check by URL (if available)
+     if (candidate.originalSourceUrl) {
+       const exists = existingPrompts.some(p => p.originalSourceUrl === candidate.originalSourceUrl);
+       if (exists) return false;
+     }
+     
+     // 2. Check by Title (fuzzy match to catch re-runs)
+     // If a prompt with the exact same title exists, skip it.
+     if (candidate.title) {
+        const exists = existingPrompts.some(p => p.title === candidate.title);
+        if (exists) return false;
+     }
+
      return true;
-     // if (!candidate.originalSourceUrl) return true;
-     // return !existingPrompts.some(p => p.originalSourceUrl === candidate.originalSourceUrl);
   });
 
   console.log(`🔍 Found ${newCandidates.length} new candidates to clean (deduplicated against existing).`);

@@ -26,7 +26,7 @@ function CopyButton({ text, tooltip = "Copy", className = "" }: { text: string; 
   };
 
   return (
-    <Tooltip content={copied ? "Copied!" : tooltip} placement="left" className="text-xs">
+    <Tooltip content={copied ? "Copied!" : tooltip} placement="top" offset={10} className="text-xs z-50">
       <Button
         isIconOnly
         onClick={handleCopy}
@@ -49,7 +49,7 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
   // Determine platform with legacy fallback
   let platformKey = prompt.author?.platform;
   if (!platformKey) {
-    const source = (prompt as any).sourcePlatform;
+    const source = (prompt as unknown as { sourcePlatform?: string }).sourcePlatform;
     if (source === 'reddit') platformKey = 'Reddit';
     else if (source === 'github') platformKey = 'GitHub';
     else if (source === 'official_docs') platformKey = 'Google';
@@ -69,8 +69,9 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
   const userText = prompt.contents?.[0]?.parts?.[0]?.text || prompt.promptText || "";
 
   // Handle legacy fields
-  const sourceUrl = prompt.originalSourceUrl || (prompt as any).originUrl;
-  const likes = prompt.stats?.likes || (prompt as any).metaMetrics?.stars || (prompt as any).metaMetrics?.upvotes || 0;
+  const sourceUrl = prompt.originalSourceUrl || (prompt as unknown as { originUrl?: string }).originUrl;
+  const legacyMetrics = (prompt as unknown as { metaMetrics?: { stars?: number; upvotes?: number } }).metaMetrics;
+  const likes = prompt.stats?.likes || legacyMetrics?.stars || legacyMetrics?.upvotes || 0;
 
   const handleRunInAIStudio = async (e: React.MouseEvent) => {
     e.preventDefault();
@@ -115,8 +116,14 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
             </div>
           )}
         </div>
-        <Tooltip content={prompt.title} delay={500} placement="top" className="max-w-xs">
-          <h3 className="text-xl font-bold text-zinc-100 leading-tight group-hover:text-white transition-colors line-clamp-1 w-full tracking-tight">
+        <Tooltip 
+          content={prompt.title} 
+          delay={500} 
+          placement="top" 
+          offset={15}
+          className="max-w-[300px] z-[9999] pointer-events-none text-center bg-zinc-950 border border-white/10 shadow-2xl"
+        >
+          <h3 className="text-xl font-bold text-zinc-100 leading-tight group-hover:text-white transition-colors line-clamp-1 w-full tracking-tight cursor-default">
             {prompt.title}
           </h3>
         </Tooltip>
@@ -163,7 +170,7 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
         {/* Tech Stack (Footer Top) */}
         <div className="flex items-center gap-2 mt-auto pt-2 text-xs text-zinc-500 shrink-0 w-full">
           {/* Model Targets */}
-          <Tooltip content={models.join(", ")} placement="bottom">
+          <Tooltip content={models.join(", ")} placement="bottom" offset={10} className="z-50">
             <div className="flex items-center gap-1 cursor-help hover:text-zinc-300 transition-colors">
                <span className="px-2 py-0.5 rounded-md bg-zinc-800/50 border border-zinc-700/50 text-[10px]">
                  {displayModel}
@@ -189,7 +196,7 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
           
           {/* Source Link */}
           {sourceUrl && (
-            <Tooltip content={`View on ${platform.label}`} placement="top">
+            <Tooltip content={`View on ${platform.label}`} placement="top" offset={10} className="z-50">
               <Button
                 isIconOnly
                 as="a"
@@ -208,7 +215,7 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
           <div className="w-px h-4 bg-white/10 mx-1" />
 
           {/* Run in AI Studio */}
-          <Tooltip content="Run in Google AI Studio" placement="top">
+          <Tooltip content="Run in Google AI Studio" placement="top" offset={10} className="z-50">
             <Button
               isIconOnly
               size="sm"

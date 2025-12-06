@@ -38,14 +38,15 @@ export default async function HubPage(props: HubPageProps) {
     validPrompts = validPrompts.filter(p => {
       const tags = p.tags?.map(t => t.toLowerCase()) || [];
       if (category === 'text') {
-        // Text is default, but if we want strict filtering:
-        // Exclude image/video/audio if those tags exist?
-        // Or just return everything that isn't explicitly another modality?
-        // For now, let's assume everything is text unless tagged otherwise, 
-        // OR check for specific text-related tags if they exist.
-        // Given the current data, let's return everything for 'text' 
-        // that DOESN'T have image/video/audio tags.
-        return !tags.some(t => ['image', 'video', 'audio'].includes(t));
+        // Text is default. Exclude prompts that are explicitly tagged as image, video, or audio.
+        // We check if any tag *contains* these keywords (e.g. "image generation" matches "image")
+        return !tags.some(t => 
+          t.includes('image') || 
+          t.includes('video') || 
+          t.includes('audio') ||
+          t.includes('music') ||
+          t.includes('speech')
+        );
       }
       return tags.some(t => t.includes(category));
     });
