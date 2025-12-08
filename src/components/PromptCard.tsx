@@ -3,13 +3,14 @@
 import { useState } from "react";
 import { Card, CardHeader, CardBody, CardFooter, Button, Chip, Tooltip } from "@heroui/react";
 import { GeminiPrompt } from "../schema/prompt";
-import { FaGithub, FaReddit, FaGoogle, FaDiscord, FaGlobe, FaCopy, FaCheck, FaExternalLinkAlt, FaPlay } from "react-icons/fa";
+import { FaGithub, FaReddit, FaGoogle, FaDiscord, FaGlobe, FaCopy, FaCheck, FaExternalLinkAlt, FaPlay, FaTwitter } from "react-icons/fa";
 import { SiGoogle } from "react-icons/si";
 
-const PLATFORM_CONFIG: Record<string, { color: string; label: string; icon: React.ElementType }> = {
+  const PLATFORM_CONFIG: Record<string, { color: string; label: string; icon: React.ElementType }> = {
   GitHub: { color: "text-white bg-zinc-800", label: "GitHub", icon: FaGithub },
   Reddit: { color: "text-orange-400 bg-orange-400/10", label: "Reddit", icon: FaReddit },
   Google: { color: "text-blue-400 bg-blue-400/10", label: "Google", icon: SiGoogle },
+  Twitter: { color: "text-sky-400 bg-sky-400/10", label: "X (Twitter)", icon: FaTwitter },
   UserSubmission: { color: "text-emerald-400 bg-emerald-400/10", label: "Community", icon: FaGlobe },
   Discord: { color: "text-indigo-400 bg-indigo-400/10", label: "Discord", icon: FaDiscord },
 };
@@ -53,6 +54,7 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
     if (source === 'reddit') platformKey = 'Reddit';
     else if (source === 'github') platformKey = 'GitHub';
     else if (source === 'official_docs') platformKey = 'Google';
+    else if (source === 'twitter') platformKey = 'Twitter';
     else platformKey = 'Google'; // Default fallback
   }
   
@@ -105,7 +107,7 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
           </div>
           
           {/* Metrics */}
-          {likes > 0 && platformKey !== 'Google' && (
+          {likes > 0 && (
             <div className="flex items-center gap-3 text-xs text-zinc-500 font-mono bg-white/5 px-2 py-1 rounded-full">
               <div className="flex items-center gap-1" title="Upvotes/Likes">
                 <svg className="w-3.5 h-3.5 text-rose-500/80" fill="currentColor" viewBox="0 0 24 24">

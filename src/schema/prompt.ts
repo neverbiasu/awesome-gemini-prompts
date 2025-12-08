@@ -58,7 +58,7 @@ export interface GeminiPrompt {
   author?: {
     name: string;
     url?: string;
-    platform?: "Reddit" | "GitHub" | "Discord" | "UserSubmission" | "Google";
+    platform?: "Reddit" | "GitHub" | "Discord" | "UserSubmission" | "Google" | "Twitter";
   };
   originalSourceUrl?: string; // Link to original post
 
@@ -118,7 +118,7 @@ export const GeminiPromptZodSchema = z.object({
   author: z.object({
     name: z.string(),
     url: z.string().url().optional(),
-    platform: z.enum(["Reddit", "GitHub", "Discord", "UserSubmission", "Google"]).optional()
+    platform: z.enum(["Reddit", "GitHub", "Discord", "UserSubmission", "Google", "Twitter"]).optional()
   }).optional(),
   
   originalSourceUrl: z.string().url().optional(),
