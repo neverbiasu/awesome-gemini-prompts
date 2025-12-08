@@ -1,7 +1,7 @@
 import { chromium } from 'playwright';
 import * as fs from 'fs/promises';
 import * as path from 'path';
-import { GeminiPrompt } from '../types/prompt';
+import { GeminiPrompt } from '../schema/prompt';
 
 // Configuration
 const TARGET_ACCOUNTS = [
@@ -151,7 +151,33 @@ async function extractTweetsFromPage(page: any, username: string) {
         const promptText = extractPromptFromText(text) || text; // Fallback to full text if searching
 
         if (promptText && text.length > 20) { // Basic noise filter
-             // ... (Existing extraction logic) ...
+             // Extract Likes
+             let likes = 0;
+             try {
+                 const likeLabel = await tweetEl.locator('[data-testid="like"]').getAttribute('aria-label');
+                 // aria-label format: "156 likes" or "156 Likes"
+                 if (likeLabel) {
+                     const match = likeLabel.match(/(\d+(?:,\d+)*)\s*likes?/i);
+                     if (match) {
+                         likes = parseInt(match[1].replace(/,/g, ''), 10);
+                     }
+                 }
+                 // Fallback: try to read the text content if aria-label fails (sometimes it's just a number)
+                 if (likes === 0) {
+                      const likeText = await tweetEl.locator('[data-testid="like"] [data-testid="app-text-transition-container"]').innerText().catch(() => '');
+                      if (likeText) {
+                          // Handle K, M suffixes
+                          let multiplier = 1;
+                          let numStr = likeText.toUpperCase();
+                          if (numStr.includes('K')) { multiplier = 1000; numStr = numStr.replace('K', ''); }
+                          else if (numStr.includes('M')) { multiplier = 1000000; numStr = numStr.replace('M', ''); }
+                          likes = Math.floor(parseFloat(numStr) * multiplier);
+                      }
+                 }
+             } catch (e) {
+                 // Ignore like extraction errors
+             }
+
              const timeEl = tweetEl.locator('time');
              const timestamp = await timeEl.getAttribute('datetime').catch(() => new Date().toISOString());
              const link = await tweetEl.locator('a[href*="/status/"]').first().getAttribute('href').catch(() => '');
@@ -161,18 +187,19 @@ async function extractTweetsFromPage(page: any, username: string) {
                   id: `twitter-${tweetId}`,
                   title: `Tweet by @${username}`,
                   description: text.substring(0, 100) + '...',
-                  tags: ['twitter', 'community', 'playwright', 'search-result'],
+                  tags: [], // Leave empty for LLM to fill
                   author: {
                       name: `@${username}`,
                       url: `https://twitter.com/${username}`,
-                      platform: 'Twitter'
+                      platform: 'Twitter' as any // Cast to any to avoid type error until schema is updated
                   },
                   originalSourceUrl: `https://twitter.com${link}`,
                   contents: [{
                       role: 'user',
                       parts: [{ text: promptText }]
                   }],
-                  stats: { views: 0, likes: 0, copies: 0 },
+                  stats: { views: 0, likes: likes, copies: 0 },
+                  compatibleModels: ["gemini-2.5-flash"], // Default, will be refined by LLM
                   createdAt: timestamp || new Date().toISOString(),
                   updatedAt: new Date().toISOString()
               });
