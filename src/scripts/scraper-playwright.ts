@@ -1,0 +1,225 @@
+import { chromium } from 'playwright';
+import * as fs from 'fs/promises';
+import * as path from 'path';
+import { GeminiPrompt } from '../types/prompt';
+
+// Configuration
+const TARGET_ACCOUNTS = [
+  // Official & Core
+  'GoogleDeepMind',
+  'GeminiApp',
+  'GoogleLabs',
+  'NotebookLM',
+  'googleaidevs',
+  'GoogleAIStudio',
+  
+  // Influencers & Creators
+  'NanoBanana',
+  'nutlope',
+  'svpino',
+  'rowancheung',
+  'alexalbert__',
+  'lilianweng',
+  'karpathy',
+  'bindureddy',
+  'ylecun',
+  'fofrAI',
+  'godofprompt',
+  'aiwithjainam',
+  'ShreyaYadav___',
+  'AiwithSaad',
+  'Whizz_ai',
+  'MimiTheDesigner',
+  'AlexRiad84837',
+  'JihadSameul',
+  'Emmgkreativity',
+  'CodebyNihan',
+  'YaseenK7212',
+  'xmliisu',
+  'ZaraIrahh',
+  'saniaspeaks_',
+  'SimplyAnnisa',
+  'NanoBanana_labs',
+  'LearnWithAbbay',
+  'lexx_aura',
+  'dotey',
+  'CodeByPoonam'
+];
+
+const OUTPUT_FILE = path.join(process.cwd(), 'data', 'x.json');
+
+async function ensureDir(dir: string) {
+  try {
+    await fs.access(dir);
+  } catch {
+    await fs.mkdir(dir, { recursive: true });
+  }
+}
+
+async function savePromptsToXJson(newPrompts: GeminiPrompt[]) {
+    let existingPrompts: GeminiPrompt[] = [];
+    try {
+        const content = await fs.readFile(OUTPUT_FILE, 'utf-8');
+        existingPrompts = JSON.parse(content);
+    } catch (error) {
+        // File doesn't exist or is invalid, start fresh
+    }
+
+    // Merge and Deduplicate (by ID)
+    const promptMap = new Map<string, GeminiPrompt>();
+    existingPrompts.forEach(p => promptMap.set(p.id, p));
+    newPrompts.forEach(p => promptMap.set(p.id, p)); // Overwrite with newer
+
+    const mergedPrompts = Array.from(promptMap.values());
+    
+    await ensureDir(path.dirname(OUTPUT_FILE));
+    await fs.writeFile(OUTPUT_FILE, JSON.stringify(mergedPrompts, null, 2));
+    console.log(`✅ Saved ${newPrompts.length} new prompts to ${OUTPUT_FILE} (Total: ${mergedPrompts.length})`);
+}
+
+function extractPromptFromText(text: string): string | null {
+    const isPrompt = text.toLowerCase().includes('prompt:') || 
+                     text.toLowerCase().includes('gemini') ||
+                     text.includes('```');
+    if (!isPrompt) return null;
+
+    let promptText = text;
+    const promptMatch = text.match(/Prompt:\s*([\s\S]*?)(?:\n\n|$)/i);
+    if (promptMatch) {
+        promptText = promptMatch[1].trim();
+    }
+    return promptText;
+}
+
+async function scrapeUserTimeline(page: any, username: string) {
+    console.log(`\n🐦 Visiting @${username}...`);
+    await page.goto(`https://twitter.com/${username}`, { waitUntil: 'domcontentloaded' });
+    await page.waitForTimeout(5000);
+
+    // Check for Login Wall
+    if (await page.getByText('Sign in to X').isVisible()) {
+        console.warn(`⚠️ Hit Login Wall for @${username}. Skipping.`);
+        return [];
+    }
+
+    // Auto-scroll
+    console.log('   Scrolling to load more content...');
+    for (let i = 0; i < 5; i++) { // Scroll more
+        await page.mouse.wheel(0, 1000);
+        await page.waitForTimeout(1500);
+    }
+
+    return extractTweetsFromPage(page, username);
+}
+
+async function scrapeUserSearch(page: any, username: string) {
+    // Search query: "from:username prompt OR gemini"
+    const query = `from:${username} (prompt OR gemini OR instruction)`;
+    const encodedQuery = encodeURIComponent(query);
+    const searchUrl = `https://twitter.com/search?q=${encodedQuery}&src=typed_query&f=live`;
+
+    console.log(`\n🔍 Searching @${username} for prompts: "${query}"...`);
+    await page.goto(searchUrl, { waitUntil: 'domcontentloaded' });
+    await page.waitForTimeout(5000);
+
+    // Check for Login Wall or No Results
+    if (await page.getByText('Sign in to X').isVisible()) {
+        console.warn(`⚠️ Hit Login Wall for search @${username}. Skipping.`);
+        return [];
+    }
+    
+    // Auto-scroll (Search results need scrolling too)
+    console.log('   Scrolling search results...');
+    for (let i = 0; i < 5; i++) {
+        await page.mouse.wheel(0, 1000);
+        await page.waitForTimeout(1500);
+    }
+
+    return extractTweetsFromPage(page, username);
+}
+
+async function extractTweetsFromPage(page: any, username: string) {
+    const tweetElements = await page.locator('article[data-testid="tweet"]').all();
+    console.log(`   Found ${tweetElements.length} visible tweets.`);
+
+    const prompts: GeminiPrompt[] = [];
+    for (const tweetEl of tweetElements) {
+        const text = await tweetEl.locator('[data-testid="tweetText"]').innerText().catch(() => '');
+        
+        // In search mode, we trust the query, so we relax the extraction filter slightly
+        // But we still want to ensure it looks like a prompt
+        const promptText = extractPromptFromText(text) || text; // Fallback to full text if searching
+
+        if (promptText && text.length > 20) { // Basic noise filter
+             // ... (Existing extraction logic) ...
+             const timeEl = tweetEl.locator('time');
+             const timestamp = await timeEl.getAttribute('datetime').catch(() => new Date().toISOString());
+             const link = await tweetEl.locator('a[href*="/status/"]').first().getAttribute('href').catch(() => '');
+             const tweetId = link ? link.split('/').pop() : Date.now().toString();
+
+             prompts.push({
+                  id: `twitter-${tweetId}`,
+                  title: `Tweet by @${username}`,
+                  description: text.substring(0, 100) + '...',
+                  tags: ['twitter', 'community', 'playwright', 'search-result'],
+                  author: {
+                      name: `@${username}`,
+                      url: `https://twitter.com/${username}`,
+                      platform: 'Twitter'
+                  },
+                  originalSourceUrl: `https://twitter.com${link}`,
+                  contents: [{
+                      role: 'user',
+                      parts: [{ text: promptText }]
+                  }],
+                  stats: { views: 0, likes: 0, copies: 0 },
+                  createdAt: timestamp || new Date().toISOString(),
+                  updatedAt: new Date().toISOString()
+              });
+        }
+    }
+    return prompts;
+}
+
+async function main() {
+  console.log('🚀 Starting Playwright Twitter Scraper (Guest Mode)...');
+  
+  const browser = await chromium.launch({ headless: true });
+  const context = await browser.newContext({
+      userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+  });
+
+  for (const username of TARGET_ACCOUNTS) {
+      const page = await context.newPage();
+      try {
+          // Strategy: Try Search first (more targeted), then fallback to Timeline if empty?
+          // Or just do both? Let's do Search as it matches the user's "recursive query" request better.
+          
+          let prompts = await scrapeUserSearch(page, username);
+          
+          if (prompts.length === 0) {
+              console.log(`   Search returned 0 results. Falling back to Timeline...`);
+              prompts = await scrapeUserTimeline(page, username);
+          }
+
+          if (prompts.length > 0) {
+              // Deduplicate locally before saving
+              const uniquePrompts = Array.from(new Map(prompts.map(p => [p.id, p])).values());
+              console.log(`   Found ${uniquePrompts.length} unique prompts.`);
+              await savePromptsToXJson(uniquePrompts);
+          } else {
+              console.log(`   No prompts found for @${username} (Search & Timeline).`);
+          }
+
+      } catch (error) {
+          console.error(`❌ Error scraping @${username}:`, error);
+      } finally {
+          await page.close();
+      }
+  }
+
+  await browser.close();
+  console.log('\n✨ Scraper finished.');
+}
+
+main().catch(console.error);

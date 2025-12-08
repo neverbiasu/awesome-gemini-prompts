@@ -24,7 +24,7 @@ async function main() {
 
   // 2. Load raw candidates from multiple sources
   let rawCandidates: any[] = [];
-  const sourceFiles = ['reddit.json', 'github.json', 'google_gallery.json', 'aistudio.json'];
+  const sourceFiles = ['reddit.json', 'github.json', 'google_gallery.json', 'aistudio.json', 'x.json'];
   
   for (const file of sourceFiles) {
     try {

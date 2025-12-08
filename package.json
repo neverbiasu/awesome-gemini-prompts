@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "eslint",
     "scrape": "tsx src/scripts/scrape.ts",
+    "scrape:x": "tsx src/scripts/scraper-playwright.ts",
     "clean": "tsx src/scripts/clean.ts",
     "archive:ui": "tsx src/scripts/archive-ui.ts",
     "pipeline": "npm run scrape && npm run clean"
@@ -19,6 +20,7 @@
     "@heroui/react": "^2.8.5",
     "@octokit/graphql": "^9.0.3",
     "@octokit/rest": "^22.0.1",
+    "@the-convocation/twitter-scraper": "^0.21.0",
     "ai": "^5.0.102",
     "clsx": "^2.1.1",
     "dotenv": "^17.2.3",
@@ -32,6 +34,7 @@
     "rss-parser": "^3.13.0",
     "snoowrap": "^1.23.0",
     "tailwind-merge": "^3.4.0",
+    "twitter-api-v2": "^1.28.0",
     "zod": "^4.1.13"
   },
   "devDependencies": {
