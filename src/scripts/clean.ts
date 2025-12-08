@@ -66,11 +66,23 @@ async function main() {
 
   // 4. Clean Data with LLM
   // We separate "Structured" (already good, e.g. from GitHub/Web) from "Unstructured" (Raw Reddit posts)
-  const structuredCandidates = newCandidates.filter(c => c.contents && Array.isArray(c.contents));
-  const unstructuredCandidates = newCandidates.filter(c => !c.contents || !Array.isArray(c.contents));
+  // UPDATE: We also treat "Structured but untagged" (e.g. Twitter) as needing LLM processing to generate tags/metadata
+  const structuredCandidates = newCandidates.filter(c => 
+      c.contents && 
+      Array.isArray(c.contents) && 
+      c.tags && 
+      c.tags.length > 0
+  );
+  
+  const unstructuredCandidates = newCandidates.filter(c => 
+      !c.contents || 
+      !Array.isArray(c.contents) || 
+      !c.tags || 
+      c.tags.length === 0
+  );
 
-  console.log(`   - Structured (Skipping LLM): ${structuredCandidates.length}`);
-  console.log(`   - Unstructured (Sending to LLM): ${unstructuredCandidates.length}`);
+  console.log(`   - Structured & Tagged (Skipping LLM): ${structuredCandidates.length}`);
+  console.log(`   - Unstructured or Untagged (Sending to LLM): ${unstructuredCandidates.length}`);
 
   let cleanedPrompts: GeminiPrompt[] = [];
   if (unstructuredCandidates.length > 0) {
