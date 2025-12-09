@@ -360,41 +360,6 @@
     "updatedAt": "2025-12-03T02:09:31.409Z"
   },
   {
-    "id": "73d2c118-8d82-45e9-843c-6244d4fbccd3",
-    "title": "Audio Diarization",
-    "description": "Transcribe audio with speaker details and timestamps.",
-    "tags": [
-      "official",
-      "google"
-    ],
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/audio-diarization",
-    "compatibleModels": [
-      "gemini-2.5-flash"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Generate audio diarization, including transcriptions and speaker information for each transcription, for this interview. Organize the transcription by the time they happened."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Google",
-      "url": "https://ai.google.dev",
-      "platform": "Google"
-    },
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-11-30T21:41:08.915Z",
-    "updatedAt": "2025-11-30T21:41:08.916Z"
-  },
-  {
     "id": "2f7ab635-e7b3-4ca6-81d4-1bf6bd26b15d",
     "title": "OpenAPI Definition Merger and Linter",
     "description": "Instructs the model to merge multiple OpenApi definition files (JSON/YAML) into a single file and then run a specified linter (ibm-OpenApi validator) to check for errors and warnings. This task requires complex code manipulation and adherence to external tooling standards.",
@@ -6344,752 +6309,6 @@
     "updatedAt": "2025-12-03T23:28:58.778Z"
   },
   {
-    "id": "8debd8f7-9b4f-45f1-a557-e50abab47929",
-    "title": "Listing recipes using JSON schema",
-    "description": "Create JSON based on specified schema.",
-    "tags": [
-      "json",
-      "data-processing",
-      "recipes"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Create JSON based on specified schema."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/recipe-to-json",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-03T23:29:06.048Z",
-    "updatedAt": "2025-12-03T23:29:06.048Z"
-  },
-  {
-    "id": "25587047-32cf-498b-9229-33224b3f6451",
-    "title": "Math Tutor",
-    "description": "Teach me a lesson on quadratic equations.",
-    "tags": [
-      "education",
-      "math",
-      "tutor"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Teach me a lesson on quadratic equations."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/math-tutor",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-03T23:29:06.048Z",
-    "updatedAt": "2025-12-03T23:29:06.048Z"
-  },
-  {
-    "id": "2a5c05db-a9bc-4d0f-8bcd-5dd783cee9e5",
-    "title": "Math Worksheet Generator",
-    "description": "Create a set of elementary math worksheets for math educators and parents.",
-    "tags": [
-      "education",
-      "worksheet",
-      "generator"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Create a set of elementary math worksheets for math educators and parents."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/worksheet-generator",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-03T23:29:06.048Z",
-    "updatedAt": "2025-12-03T23:29:06.048Z"
-  },
-  {
-    "id": "50d68338-b4ba-4952-aade-4958090c60d2",
-    "title": "Scavenger Hunt",
-    "description": "Create a curated list of scavenger hunt concepts.",
-    "tags": [
-      "creative",
-      "game",
-      "list"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Create a curated list of scavenger hunt concepts."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/scavanger-hunt",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-03T23:29:06.048Z",
-    "updatedAt": "2025-12-03T23:29:06.048Z"
-  },
-  {
-    "id": "9bb8f882-fcfb-4ef9-8d3d-6d52f8545b8a",
-    "title": "Unit Testing",
-    "description": "Add unit tests for a Python function.",
-    "tags": [
-      "coding",
-      "python",
-      "testing"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Add unit tests for a Python function."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/unit-testing",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-03T23:29:06.048Z",
-    "updatedAt": "2025-12-03T23:29:06.048Z"
-  },
-  {
-    "id": "ae24220d-3c94-4411-ba14-ff2639ebc3d4",
-    "title": "Geometry problem solving",
-    "description": "Solve for X in an image.",
-    "tags": [
-      "geometry",
-      "mathematics",
-      "analysis"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Solve for X in an image."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/geometry-problem",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-03T23:29:15.877Z",
-    "updatedAt": "2025-12-03T23:29:15.877Z"
-  },
-  {
-    "id": "1a3ef13e-10f9-4984-a80b-f2be90e12986",
-    "title": "Trip recommendations",
-    "description": "Convert unorganized text into structured tables.",
-    "tags": [
-      "formatting",
-      "travel",
-      "tables"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Convert unorganized text into structured tables."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/trip-recommendations",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-03T23:29:15.878Z",
-    "updatedAt": "2025-12-03T23:29:15.878Z"
-  },
-  {
-    "id": "8f3090d2-fb70-4f03-828e-91c5d77378da",
-    "title": "Time complexity",
-    "description": "Identify the time complexity of a function and optimize it.",
-    "tags": [
-      "programming",
-      "algorithm",
-      "optimization"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro",
-      "gemini-3-pro-preview"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Identify the time complexity of a function and optimize it."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/time-complexity",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-03T23:29:15.878Z",
-    "updatedAt": "2025-12-03T23:29:15.878Z"
-  },
-  {
-    "id": "190d28f9-219f-45f1-98fd-60c89e720f1a",
-    "title": "Opossum Search",
-    "description": "Create a webpage based on the user\ness specifications.",
-    "tags": [
-      "web development",
-      "coding",
-      "creation"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Create a webpage based on the user\ness specifications."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/opposum-search",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-03T23:29:15.878Z",
-    "updatedAt": "2025-12-03T23:29:15.878Z"
-  },
-  {
-    "id": "2cc50cd2-faee-4aa6-8119-06098a5bd906",
-    "title": "Object identifier",
-    "description": "Get a description of an object and its uses from a photo.",
-    "tags": [
-      "vision",
-      "identification",
-      "analysis"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Get a description of an object and its uses from a photo."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/object-identifier",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-03T23:29:15.878Z",
-    "updatedAt": "2025-12-03T23:29:15.878Z"
-  },
-  {
-    "id": "13168835-f55a-4dc7-955b-ddf50b6bdc04",
-    "title": "Sentiment analysis",
-    "description": "Analyze the sentiment of text messages.",
-    "tags": [
-      "analysis",
-      "text",
-      "nlp"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro",
-      "gemini-3-pro-preview"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Analyze the sentiment of text messages."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/sentiment-analysis-chat",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-03T23:29:31.956Z",
-    "updatedAt": "2025-12-03T23:29:31.956Z"
-  },
-  {
-    "id": "2ed6f703-7531-43f7-a6cb-d4e0e00943ff",
-    "title": "Research Assistant",
-    "description": "Understand the key attributes of the research paper\r\n\r\n’s methodology.",
-    "tags": [
-      "research",
-      "methodology",
-      "academic"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Understand the key attributes of the research paper\r\n\r\n’s methodology."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/research-assistant",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-03T23:29:31.957Z",
-    "updatedAt": "2025-12-03T23:29:31.957Z"
-  },
-  {
-    "id": "2d00f25e-5c69-4ffd-8164-e98d5b7f5cf7",
-    "title": "Which shape comes next?",
-    "description": "Given a series of shapes, guess which shape comes next.",
-    "tags": [
-      "puzzle",
-      "reasoning",
-      "pattern"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Given a series of shapes, guess which shape comes next."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/what-shape-comes-next",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-03T23:29:31.957Z",
-    "updatedAt": "2025-12-03T23:29:31.957Z"
-  },
-  {
-    "id": "ad12ba95-40ba-4235-99fa-84c741c2a9d3",
-    "title": "Plant care",
-    "description": "How do I best care for this plant.",
-    "tags": [
-      "advice",
-      "gardening",
-      "nature"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "How do I best care for this plant."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/plant-care",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-03T23:29:31.957Z",
-    "updatedAt": "2025-12-03T23:29:31.957Z"
-  },
-  {
-    "id": "322eda81-890e-47c9-9850-eb073a066390",
-    "title": "Docker Script",
-    "description": "Writing a script in Docker to set up your environment.",
-    "tags": [
-      "coding",
-      "docker",
-      "scripting"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Writing a script in Docker to set up your environment."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/docker-script",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-03T23:29:31.957Z",
-    "updatedAt": "2025-12-03T23:29:31.957Z"
-  },
-  {
-    "id": "ce7de25d-224d-4789-a3dd-5bb5f65f6db0",
-    "title": "Santa's Mailbox",
-    "description": "Capture a handwritten letter to Santa and write back as him.",
-    "tags": [
-      "roleplay",
-      "creative writing",
-      "christmas"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Analyze the provided image of a handwritten letter to Santa Claus. Based on the contents, write a detailed and encouraging response back to the sender, adopting the persona of Santa Claus."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/santas-mailbox",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-03T23:29:42.964Z",
-    "updatedAt": "2025-12-03T23:29:42.964Z"
-  },
-  {
-    "id": "234e4938-ed3e-404f-bf1e-d7ecdca0dde8",
-    "title": "Brand Extractor",
-    "description": "Extract product and brand names from text.",
-    "tags": [
-      "data extraction",
-      "analysis",
-      "json"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Extract all product names and associated brand names from the following text. Present the results in a structured JSON format with 'product' and 'brand' keys. [Input Text Here]"
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/brand-extractor",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-03T23:29:42.964Z",
-    "updatedAt": "2025-12-03T23:29:42.964Z"
-  },
-  {
-    "id": "2f8c53cb-6a8d-4c54-818a-6bf9e7b4d29e",
-    "title": "Cook Helper",
-    "description": "Get recipe ideas based on an image of the ingredients you have on hand.",
-    "tags": [
-      "cooking",
-      "recipe generation",
-      "image analysis"
-    ],
-    "compatibleModels": [
-      "imagen-4.0-generate-preview-06-06",
-      "imagen-4.0-ultra-generate-preview-06-06",
-      "gemini-2.5-flash-image",
-      "gemini-2.5-flash-image-preview",
-      "gemini-3-pro-image-preview",
-      "nano-banana-pro-preview"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Analyze the attached image showing my available ingredients. Generate 3 distinct and detailed recipe ideas that utilize these ingredients effectively."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/cook-helper",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-03T23:29:42.964Z",
-    "updatedAt": "2025-12-03T23:29:42.964Z"
-  },
-  {
-    "id": "a05a8af5-3e54-4b14-99bf-9b58e984cd64",
-    "title": "Game Character Brainstorm",
-    "description": "Create a character design based on a provided context.",
-    "tags": [
-      "creative writing",
-      "character design",
-      "storytelling"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Based on the context provided below, brainstorm and create a detailed game character profile, including backstory, abilities, personality traits, and suggested visual description. Context: [Input Context Here]"
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/game-character-brainstorming",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-03T23:29:42.964Z",
-    "updatedAt": "2025-12-03T23:29:42.964Z"
-  },
-  {
-    "id": "1db9e042-67eb-42b3-8604-4f02ef0db23f",
-    "title": "Modify writing style",
-    "description": "Change the tone and writing style of a blurb.",
-    "tags": [
-      "editing",
-      "tone",
-      "transformation"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash-image",
-      "gemini-2.5-flash-image-preview",
-      "gemini-3-pro-image-preview",
-      "nano-banana-pro-preview"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Rewrite the following blurb to adopt a [Desired Tone] tone and a [Desired Style] writing style. Blurb: [Input Blurb Here]"
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/modify-tone-writing-style",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-03T23:29:42.964Z",
-    "updatedAt": "2025-12-03T23:29:42.964Z"
-  },
-  {
     "id": "496d40eb-bee9-4caf-8c8c-54127f5f57e4",
     "title": "AI Learning Implementation Planner",
     "description": "Generates actionable implementation steps based on a consumed piece of content (a book idea or concept), focused on real-world career or relationship applications.",
@@ -7430,191 +6649,6 @@
     },
     "createdAt": "2025-03-25T18:06:20.000Z",
     "updatedAt": "2025-12-04T00:47:44.619Z"
-  },
-  {
-    "id": "1eed93b9-9ead-4f92-b031-429bb559752c",
-    "title": "Marketing writer",
-    "description": "Get catchy advertising copy tailored to your product and target audience.",
-    "tags": [
-      "marketing",
-      "copywriting",
-      "business"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Get catchy advertising copy tailored to your product and target audience."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/marketing-description-writer",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-04T00:48:38.254Z",
-    "updatedAt": "2025-12-04T00:48:38.254Z"
-  },
-  {
-    "id": "fbcf154b-4a15-4e7f-b948-1e6b30b530e1",
-    "title": "List items from image",
-    "description": "Get a list of objects in a photo.",
-    "tags": [
-      "vision",
-      "multimodal",
-      "listing"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Get a list of objects in a photo."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/list-items-from-image",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-04T00:48:38.254Z",
-    "updatedAt": "2025-12-04T00:48:38.254Z"
-  },
-  {
-    "id": "86a61727-0655-4547-8257-398cc2c62cfc",
-    "title": "Blog post creator",
-    "description": "Generate a unique blog post from a single image.",
-    "tags": [
-      "blogging",
-      "content",
-      "multimodal"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Generate a unique blog post from a single image."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/blog-post-creator",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-04T00:48:38.254Z",
-    "updatedAt": "2025-12-04T00:48:38.254Z"
-  },
-  {
-    "id": "ca3f7c33-de5a-428d-8d37-87f2464c6b30",
-    "title": "Barista Bot",
-    "description": "Order common coffee drinks from this virtual barista.",
-    "tags": [
-      "persona",
-      "roleplay",
-      "chat"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Order common coffee drinks from this virtual barista."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/barista-bot",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-04T00:48:38.254Z",
-    "updatedAt": "2025-12-04T00:48:38.254Z"
-  },
-  {
-    "id": "6cb1ce10-0c4b-4e06-ab5d-2271bc0ffb4f",
-    "title": "ML confusion matrix",
-    "description": "Get help generating a confusion matrix and metrics for your classifier.",
-    "tags": [
-      "machine learning",
-      "data science",
-      "analysis"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Get help generating a confusion matrix and metrics for your classifier."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Community",
-      "platform": "UserSubmission"
-    },
-    "originalSourceUrl": "https://aistudio.google.com/app/prompts/ml-confusion-matrix",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-04T00:48:38.254Z",
-    "updatedAt": "2025-12-04T00:48:38.254Z"
   },
   {
     "id": "twitter-sim-search-1",
@@ -21820,5 +20854,460 @@
     },
     "createdAt": "2025-12-01T18:16:32.000Z",
     "updatedAt": "2025-12-08T21:02:54.586Z"
+  },
+  {
+    "id": "2bd665fc-fb52-41b3-a3f4-1013e02c1591",
+    "title": "Merge OpenAPI definitions and validate",
+    "description": "Instructions for combining multiple OpenAPI files into one and then running a specific linter (ibm-OpenApi validator) to check for errors and warnings.",
+    "tags": [
+      "coding",
+      "openapi",
+      "development"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "please join these OpenApi definitions in a single file and use the ibm-OpenApi validator (a linter I already had installed) to check for errors and warnings."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "TatoPennato",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1ll2u16/a_scary_vibe_coding_session_with_gemini_25pro/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 725
+    },
+    "createdAt": "2025-06-26T15:19:18.000Z",
+    "updatedAt": "2025-12-08T22:50:25.244Z"
+  },
+  {
+    "id": "dafb76a9-b85a-4c28-8c0f-808d01be7910",
+    "title": "Calculate currency conversion estimate",
+    "description": "A request for a simple, approximate currency conversion (South Korean Yuan to USD).",
+    "tags": [
+      "math",
+      "calculation",
+      "currency"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "100M South Korean Yuan is about how much dollars."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "WideElderberry5262",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1j0pqnf/gemini_is_amazingly_dumb/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 491
+    },
+    "createdAt": "2025-03-01T03:03:34.000Z",
+    "updatedAt": "2025-12-08T22:50:25.244Z"
+  },
+  {
+    "id": "5a99a439-644c-47c1-8dcf-7a4cf3b5ea59",
+    "title": "Identify new features on my device",
+    "description": "Asking the AI, specifically on a mobile device, what new features have been added to the phone.",
+    "tags": [
+      "technology",
+      "query",
+      "knowledge"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "what is new on my phone."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "althius1",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1iifsdc/gemini_should_be_an_embarrassment_to_google/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 376
+    },
+    "createdAt": "2025-02-05T17:40:50.000Z",
+    "updatedAt": "2025-12-08T22:50:25.244Z"
+  },
+  {
+    "id": "c177b620-4a3b-4e02-aa64-a88fc7d1f25b",
+    "title": "Expectation query regarding product knowledge",
+    "description": "A meta-query asking the AI if it is reasonable for the user to expect the AI to know its creator's product lineup.",
+    "tags": [
+      "technology",
+      "metacognition",
+      "query"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "is it unreasonable for me to expect you to be aware of Google's current product lineup?"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "althius1",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1iifsdc/gemini_should_be_an_embarrassment_to_google/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 376
+    },
+    "createdAt": "2025-02-05T17:40:50.000Z",
+    "updatedAt": "2025-12-08T22:50:25.244Z"
+  },
+  {
+    "id": "44b481ba-fe80-474b-bd37-665709638206",
+    "title": "Photorealistic Hong Kong Retro Portrait",
+    "description": "Highly descriptive prompt for generating a detailed, photorealistic portrait using 1990s film aesthetics and an image reference for the face.",
+    "tags": [
+      "photorealistic",
+      "portrait",
+      "cinematic"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a Photorealistic Hong Kong retro portrait with authentic 1990s film look.Use image[0] as face reference. Half-body. Subject leaning against newspaper-covered wall, gaze soft and Hair messy, strands falling across face.Makeup glossy lips, dewy skin, cowl top.Narrow Hong Kong room, walls plastered with old yellowed Cantonese newspapers.Tungsten bulb glow with faint green spill. Shadows heavy, highlights bloom."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "weScaleLateGameGG",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/yld94olzai2g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 267
+    },
+    "createdAt": "2025-11-21T00:41:55.000Z",
+    "updatedAt": "2025-12-08T22:51:14.347Z"
+  },
+  {
+    "id": "44890c02-0670-4323-a181-5b2d87d1c83b",
+    "title": "Replace Subjects in a Polaroid Photo",
+    "description": "Instructions for image editing (inpainting/replacement) to swap out existing subjects in a photo with new reference images while preserving the original style.",
+    "tags": [
+      "image editing",
+      "inpainting",
+      "photomanipulation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Please change out the two people hugging each other in the first Polaroid photo with the young and old person from image 2 and 3. preserve the style of the polaroid and simply change out the people in the original Polaroid with the new attached people."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "OverFlow10",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1nuejlj",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 233
+    },
+    "createdAt": "2025-09-30T14:22:17.000Z",
+    "updatedAt": "2025-12-08T22:51:14.347Z"
+  },
+  {
+    "id": "04c4b614-2e53-4308-baca-51625c68972f",
+    "title": "AI Studio Code Engineer System Instruction (Leaked)",
+    "description": "The complete system instruction that dictates the behavior of the \"Build apps with Gemini\" coding assistant, including developer persona, API SDK guidelines, output format (XML), and execution workflow.",
+    "tags": [
+      "system instruction",
+      "coding",
+      "api guidance"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "Act as a world-class senior frontend engineer with deep expertise Gemini API and UI/UX design. The user will ask you to change the current application. Do your best to satisfy their request.General code structureCurrent structure is an index.html and index.tsx with es6 module that is automatically imported by the index.html.As part of the user's prompt they will provide you with the content of all of the existing files.If the user is asking you a question, respond with natural language. If the user is asking you to make changes to the app, you should satisfy their request by updatingthe app's code. Keep updates as minimal as you can while satisfying the user's request. To update files, you must output the followingXMLONLY return the xml in the above format, DO NOT ADD any more explanation. Only return files in the XML that need to be updated. Assume that if you do not provide a file it will not be changed.If the app needs to use the camera or microphone, add them to metadata.json like so:{\"requestFramePermissions\": [\"camera\",\"microphone\"]}Only add permissions you need.== QualityEnsure offline functionality, responsiveness, accessibility (use ARIA attributes), and cross-browser compatibility.Prioritize clean, readable, well-organized, and performant code.u/google/genai coding guidelinesThis library is sometimes calledGoogle Gemini APIGoogle GenAI APIGoogle GenAI SDKGemini APIu/google/genaiThe Google GenAI SDK can be used to call gemini models.Do not use or import below types from u/google/genai, these are old deprecated API and no longer work.Incorrect GoogleGenerativeAIIncorrect google.generativeaiIncorrect models.createIncorrect ai.models.createIncorrect models.getGenerativeModelIncorrect ai.models.getModelIncorrect ai.models['model_name']Incorrect generationConfigIncorrect GoogleGenAIErrorIncorrect GenerateContentResult, Correct GenerateContentResponse.Incorrect GenerateContentRequest, Correct GenerateContentParametersWhen using generate content for text answer, Do not define the model first and call generate content later, you must use ai.models.generateContent to query GenAI with both model name and prompt.InitializationAlways use const ai = new GoogleGenAI({apiKey: process.env.API_KEY});.Incorrect const ai = new GoogleGenAI(process.env.API_KEY); // Must use named parameterAPI KEYThe API key must be obtained exclusively from the environment variable process.env.API_KEY. Assume this variable is pre-configured, valid, and accessible in the execution context where the API client is initialized.Use this process.env.API_KEY string directly when initializing the u/google/genai client instance (must use new GoogleGenAI({ apiKey: process.env.API_KEY })).Strict Prohibition: Generate any UI elements (input fields, forms, prompts, configuration sections) or code snippets for entering or managing the API key. Do not define process.env or request from the user to update the API_KEY in the code. The key's availability is handled externally and is a hard requirement. The application must not ask the user for it under any circumstances.ModelOnly use below models when using u/google/genai:General Text Tasks: 'gemini-2.5-flash-preview-04-17'Image Generation Tasks: 'imagen-3.0-generate-002'Dot not use below deprecated mode:Prohibited:: gemini-1.5-flashProhibited:: gemini-1.5-proProhibited:: gemini-proImportAlways use import {GoogleGenAI} from \"@google/genai\";.Prohibited: import { GoogleGenerativeAI } from \"@google/genai\";Prohibited: import type { GoogleGenAI} from \"@google/genai\";Prohibited: declare var GoogleGenAI.Generate ContentGenerate response from the model.import { GoogleGenAI } from \"@google/genai\";const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });const response = await ai.models.generateContent({model: 'gemini-2.5-flash-preview-04-17',contents: 'why is the sky blue?',});console.log(response.text);Generate content with multiple parts, for example, send an image and a text prompt to the model.import { GoogleGenAI, GenerateContentResponse } from \"@google/genai\";const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });const imagePart = {inlineData: {mimeType: 'image/png', // Could be other IANA standard MIME type of the source data.data: base64EncodeString, // base64 encoded string},};const textPart = {text: promptString // text prompt};const response: GenerateContentResponse = await ai.models.generateContent({model: 'gemini-2.5-flash-preview-04-17',contents: { parts: [imagePart, textPart] },});Extracting Text Output from GenerateContentResponseWhen you use ai.models.generateContent, it returns a GenerateContentResponse object.The simplest and most direct way to get the generated text content is by accessing the .text property on this object.Correct MethodThe GenerateContentResponse object has a property called text that directly provides the string output.import { GoogleGenAI, GenerateContentResponse } from \"@google/genai\";const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });const response: GenerateContentResponse = await ai.models.generateContent({model: 'gemini-2.5-flash-preview-04-17',contents: 'why is the sky blue?',});const text = response.text;console.log(text);Incorrect Methods to avoidIncorrect:const text = response?.response?.text?;Incorrect:const text = response?.response?.text();Incorrect:const text = response?.response?.text?.()?.trim();Incorrect:const response = response?.response; const text = response?.text();Incorrect: const json = response.candidates?.[0]?.content?.parts?.[0]?.json;System Instruction and Other Model ConfigsGenerate response with system instruction and other model configs.import { GoogleGenAI } from \"@google/genai\";const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });const response = await ai.models.generateContent({model: \"gemini-2.5-flash-preview-04-17\",contents: \"Tell me a story in 100 words.\",config: {systemInstruction: \"you are a storyteller for kids under 5 years old\",topK: 64,topP: 0.95,temperature: 1,responseMimeType: \"application/json\",seed: 42,},});console.log(response.text);Thinking ConfigThinking Config is only available to the gemini-2.5-flash-preview-04-17 model. Never use it with other models.For Game AI Opponents / Low Latency: Disable thinking by adding this to generate content config:content_copydownloadUse code with caution.import { GoogleGenAI } from \"@google/genai\";  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY }); const response = await ai.models.generateContent({   model: \"gemini-2.5-flash-preview-04-17\",   contents: \"Tell me a story in 100 words.\",   config: { thinkingConfig: { thinkingBudget: 0 } } }); console.log(response.text);For All Other Tasks: Omit thinkingConfig entirely (defaults to enable thinking for higher quality).JSON responseAsk the model to return a response in json format.There is no property called json in GenerateContentResponse, you need to parse the text into json.Note: the json string might be wrapped in json markdown, you need to remove the markdown and then parse it to jsonFollow below example:The output text could be an array of the specified json object, please check if it is an array of the expected object.import { GoogleGenAI } from \"@google/genai\";const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });const response = await ai.models.generateContent({model: \"gemini-2.5-flash-preview-04-17\",contents: \"Tell me a story in 100 words.\",config: {responseMimeType: \"application/json\",},});let jsonStr = response.text.trim();const fenceRegex = /^```(\\w*)?\\s*\\n?(.*?)\\n?\\s*```$/s;const match = jsonStr.match(fenceRegex);if (match && match[2]) {jsonStr = match[2].trim(); // Trim the extracted content itself}try {const parsedData = JSON.parse(jsonStr);} catch (e) {console.error(\"Failed to parse JSON response:\", e);}Generate Content (Streaming)Generate response from the model in streaming mode.import { GoogleGenAI } from \"@google/genai\";const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });const response = await ai.models.generateContentStream({model: \"gemini-2.5-flash-preview-04-17\",contents: \"Tell me a story in 300 words.\",});for await (const chunk of response) {console.log(chunk.text);}Generate ImageGenerate images from the model.import { GoogleGenAI } from \"@google/genai\";const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });const response = await ai.models.generateImages({model: 'imagen-3.0-generate-002',prompt: 'Robot holding a red skateboard',config: {numberOfImages: 1, outputMimeType: 'image/jpeg'},});const base64ImageBytes: string = response.generatedImages[0].image.imageBytes;const imageUrl = `data:image/png;base64,${base64ImageBytes}`;ChatStarts a chat and sends a message to the model.import { GoogleGenAI, Chat, GenerateContentResponse } from \"@google/genai\";const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });const chat: Chat = ai.chats.create({model: 'gemini-2.5-flash-preview-04-17',// The config is same as models.generateContent config.config: {systemInstruction: 'You are a storyteller for 5 year old kids',},});let response: GenerateContentResponse = await chat.sendMessage({message:\"Tell me a story in 100 words\"});console.log(response.text)response = await chat.sendMessage({message:\"What happened after that?\"});console.log(response.text)Chat (Streaming)Starts a chat and sends a message to the model and receives a streaming response.import { GoogleGenAI, Chat } from \"@google/genai\";const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });const chat: Chat = ai.chats.create({model: 'gemini-2.5-flash-preview-04-17',// The config is same as models.generateContent config.config: {systemInstruction: 'You are a storyteller for 5 year old kids',},});let response = await chat.sendMessageStream({message:\"Tell me a story in 100 words\"});for await (const chunk of response) { // chunk type is GenerateContentResponseconsole.log(chunk.text)}response = await chat.sendMessageStream({message:\"What happened after that?\"});for await (const chunk of response) {console.log(chunk.text)}Search GroundingUse Google Search grounding for queries that relate to recent events, recent news or up-to-date or trending information that the user wants from the web. If Google Search is used then you MUST ALWAYS extract the URLs from groundingChunks and list them on the webapp.DO NOT add other configs except for tools googleSearch.DO NOT add responseMimeType: \"application/json\" when using googleSearch.Correctimport { GoogleGenAI } from \"@google/genai\";const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });const response = await ai.models.generateContent({model: \"gemini-2.5-flash-preview-04-17\",contents: \"Who individually won the most bronze medals during the Paris olympics in 2024?\",config: {tools: [{googleSearch: {}},],},});console.log(response.text);/* To get website urls, in the form [{\"web\": {\"uri\": \"\", \"title\": \"\"},  ... }] */console.log(response.candidates?.[0]?.groundingMetadata?.groundingChunks);Incorrectimport { GoogleGenAI } from \"@google/genai\";const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });const response = await ai.models.generateContent({model: \"gemini-2.5-flash-preview-04-17\",contents: \"Who individually won the most bronze medals during the Paris olympics in 2024?\",config: {tools: [{ googleSearch: {} }],responseMimeType: \"application/json\", // `application/json` is not supported when using the `googleSearch` tool.},\n    });console.log(response.text);API Error handlingImplement robust handling for API errors (e.g., 4xx/5xx) and unexpected responses.Use graceful retry logic (like exponential backoff) to avoid overwhelming the backend.Execution processOnce you get the prompt,If it is NOT a request to change the app, just respond to the user. Do NOT change code unless the user asks you to make updates. Try to keep the response concise while satisfying the user request. The user does not need to read a novel in response to their question!!!If it is a request to change the app, FIRST come up with a specification that lists details about the exact design choices that need to be made in order to fulfill the user's request and make them happy. Specifically provide a specification that lists (i) what updates need to be made to the current app (ii) the behaviour of the updates (iii) their visual appearance. Be extremely concrete and creative and provide a full and complete description of the above.THEN, take this specification, ADHERE TO ALL the rules given so far and produce all the required code in the XML block that completely implements the webapp specification.You MAY but do not have to also respond conversationally to the user about what you did. Do this in natural language outside of the XML block.Finally, remember! AESTHETICS ARE VERY IMPORTANT. All webapps should LOOK AMAZING and have GREAT FUNCTIONALITY!"
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Add a dark mode toggle button to the top right corner of the application."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "tosha_chehonte",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1l92yqd/google_ai_studios_build_apps_with_gemini_leaked/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 160
+    },
+    "createdAt": "2025-06-11T20:16:06.000Z",
+    "updatedAt": "2025-12-08T22:51:14.347Z"
+  },
+  {
+    "id": "66f9c524-d4b0-4481-864e-6e80d43fc69c",
+    "title": "Structured HTML Transcription of Scanned Newspaper",
+    "description": "Converts a scanned historical newspaper image (input) into a structured, accessible HTML document, preserving layout and identifying elements like headings, ads, and images.",
+    "tags": [
+      "transcription",
+      "html",
+      "archive"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Generate an accessible HTML version of this newspaper, using structured semantic elements like headings (H1, H2, etc.). The newspaper title should be the only H1. Preserve formatting as much as possible. Ads and images need only be described briefly, rather than in great detail, but should be clearly identified as ads or cartoons or images."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Merdball",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1k1k1k9/look_i_know_im_a_newspaper_archive_nerd_but_this/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 157
+    },
+    "createdAt": "2025-04-17T18:30:06.000Z",
+    "updatedAt": "2025-12-08T22:51:41.732Z"
+  },
+  {
+    "id": "da94e9bf-4556-46c4-99db-9b19931d11cc",
+    "title": "Iterative Drawing: Overlay Structure Lines",
+    "description": "Instructs the image model to overlay structure and guide lines onto a provided reference image, mimicking the initial stages of human anatomical sketching.",
+    "tags": [
+      "sketching",
+      "anatomy",
+      "artistic process"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "overlay the image with structure lines."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "CognitiveSourceress",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1jcswzw/gemini_drawing_with_a_humanlike_procedure/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 125
+    },
+    "createdAt": "2025-03-16T19:02:59.000Z",
+    "updatedAt": "2025-12-08T22:51:41.733Z"
+  },
+  {
+    "id": "723ea31b-f613-47fa-9fc9-7291a01cc29f",
+    "title": "Iterative Drawing: Refine to Superhero Sketch",
+    "description": "Instructs the image model to refine a previous gesture drawing into a rough sketch while simultaneously introducing a new thematic element (superhero design).",
+    "tags": [
+      "character design",
+      "superhero",
+      "rough sketch"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Then create a rough sketch and make her a superhero."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "CognitiveSourceress",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1jcswzw/gemini_drawing_with_a_humanlike_procedure/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 125
+    },
+    "createdAt": "2025-03-16T19:02:59.000Z",
+    "updatedAt": "2025-12-08T22:51:41.733Z"
+  },
+  {
+    "id": "a6fa781d-1e05-48fe-8ac7-0551dff2913a",
+    "title": "Iterative Drawing: Comic Book Composition",
+    "description": "Instructs the image model to adjust the final composition to a specific format, applying a comic book aspect ratio and ensuring proper layout space for typography.",
+    "tags": [
+      "comic book",
+      "composition",
+      "aspect ratio"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "put it into a comic book aspect ratio and leave headroom for a title."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "CognitiveSourceress",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1jcswzw/gemini_drawing_with_a_humanlike_procedure/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 125
+    },
+    "createdAt": "2025-03-16T19:02:59.000Z",
+    "updatedAt": "2025-12-08T22:51:41.733Z"
+  },
+  {
+    "id": "44c5c808-ce0e-46c1-8541-7fa2314549a7",
+    "title": "Hyper-Realistic 3D Collectible Figurine Product Shot",
+    "description": "A viral, highly detailed prompt designed to generate a photorealistic image of a 1/7 scale commercialized figurine placed in a specific environment (computer desk), complete with accessory meta-details like packaging and ZBrush modeling process on screen.",
+    "tags": [
+      "3d rendering",
+      "figurine",
+      "product shot"
+    ],
+    "compatibleModels": [
+      "imagen-4.0-generate-preview-06-06",
+      "imagen-4.0-ultra-generate-preview-06-06",
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "create a 1/7 scale commercialized figurine of the characters in the picture, in a realistic style, in a real environment. The figurine is placed on a computer desk. The figurine has a round transparent acrylic base, with no text on the base. The content on the computer screen is the Zbrush modeling process of this figurine. Next to the computer screen is a BANDAI-style toy packaging box printed with the original artwork. The packaging features two-dimensional flat illustrations."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "tipseason",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1ng6dwa/nano_banana_3d_figurine_image_prompt_thats/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 121
+    },
+    "createdAt": "2025-09-13T19:25:19.000Z",
+    "updatedAt": "2025-12-08T22:51:41.733Z"
   }
 ]
