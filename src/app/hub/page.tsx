@@ -2,8 +2,13 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { GeminiPrompt } from '@/schema/prompt';
 import PromptGrid from '@/components/PromptGrid';
+import SearchBar from '@/components/SearchBar';
+import Pagination from '@/components/Pagination';
+import SortDropdown from '@/components/SortDropdown';
+import Fuse from 'fuse.js';
 
 export const revalidate = 0;
+const ITEMS_PER_PAGE = 12;
 
 async function getPrompts(): Promise<GeminiPrompt[]> {
   const filePath = path.join(process.cwd(), 'data', 'prompts.json');
@@ -16,65 +21,79 @@ async function getPrompts(): Promise<GeminiPrompt[]> {
   }
 }
 
+import HubClientLayout from '@/components/HubClientLayout';
+
+// ... (imports remain the same)
+
 interface HubPageProps {
-  searchParams: Promise<{ category?: string }>;
+  searchParams: Promise<{ category?: string; q?: string; page?: string; sort?: string; platforms?: string; models?: string; tags?: string }>;
 }
 
 export default async function HubPage(props: HubPageProps) {
   const searchParams = await props.searchParams;
   const category = searchParams.category?.toLowerCase();
+  const query = searchParams.q;
+  const page = Number(searchParams.page) || 1;
+  const sort = searchParams.sort || 'relevance';
   
+
+
   const allPrompts = await getPrompts();
   
-  // Filter out prompts that don't have any text content
+  // 1. Initial Filtering (Content & Category)
   let validPrompts = allPrompts.filter(p => 
     (p.contents && p.contents.length > 0 && p.contents[0].parts.some(part => part.text)) || 
     (p.promptText && p.promptText.trim().length > 0) ||
     (p.systemInstruction && p.systemInstruction.parts && p.systemInstruction.parts.some(part => part.text))
   );
 
-  // Category Filtering
   if (category) {
     validPrompts = validPrompts.filter(p => {
       const tags = p.tags?.map(t => t.toLowerCase()) || [];
       if (category === 'text') {
-        // Text is default. Exclude prompts that are explicitly tagged as image, video, or audio.
-        // We check if any tag *contains* these keywords (e.g. "image generation" matches "image")
-        return !tags.some(t => 
-          t.includes('image') || 
-          t.includes('video') || 
-          t.includes('audio') ||
-          t.includes('music') ||
-          t.includes('speech')
-        );
+        return !tags.some(t => t.includes('image') || t.includes('video') || t.includes('audio') || t.includes('music') || t.includes('speech'));
       }
       return tags.some(t => t.includes(category));
     });
   }
 
-  // Sorting Logic
-  const prompts = validPrompts.sort((a, b) => {
-    // 1. Priority: Official Google Sources
+  // 2. Search Logic
+  if (query) {
+    const fuse = new Fuse(validPrompts, {
+      keys: ['title', 'description', 'tags', 'contents.parts.text'],
+      threshold: 0.4,
+      ignoreLocation: true
+    });
+    validPrompts = fuse.search(query).map(result => result.item);
+  }
+
+  // 3. Sorting Logic
+  const sortedPrompts = validPrompts.sort((a, b) => {
+    const getLikes = (p: GeminiPrompt) => p.stats?.likes || (p as any).metaMetrics?.stars || (p as any).metaMetrics?.upvotes || 0;
+    const getDate = (p: GeminiPrompt) => new Date(p.createdAt || (p as any).fetchedAt || 0).getTime();
+
+    if (sort === 'newest') return getDate(b) - getDate(a);
+    if (sort === 'popular') return getLikes(b) - getLikes(a);
+
+    // Default: Relevance
     const isGoogleA = a.author?.platform === 'Google' || (a as any).sourcePlatform === 'official_docs';
     const isGoogleB = b.author?.platform === 'Google' || (b as any).sourcePlatform === 'official_docs';
     
     if (isGoogleA && !isGoogleB) return -1;
     if (!isGoogleA && isGoogleB) return 1;
 
-    // 2. Priority: Likes/Upvotes/Stars (Descending)
-    const likesA = a.stats?.likes || (a as any).metaMetrics?.stars || (a as any).metaMetrics?.upvotes || 0;
-    const likesB = b.stats?.likes || (b as any).metaMetrics?.stars || (b as any).metaMetrics?.upvotes || 0;
-
-    if (likesB !== likesA) {
-      return likesB - likesA;
-    }
-
-    // 3. Priority: Date (Newest First)
-    const dateA = new Date(a.createdAt || (a as any).fetchedAt || 0).getTime();
-    const dateB = new Date(b.createdAt || (b as any).fetchedAt || 0).getTime();
+    const likesA = getLikes(a);
+    const likesB = getLikes(b);
+    if (likesB !== likesA) return likesB - likesA;
     
-    return dateB - dateA;
+    return getDate(b) - getDate(a);
   });
+
+  // 4. Pagination
+  const totalItems = sortedPrompts.length;
+  const startIndex = (page - 1) * ITEMS_PER_PAGE;
+  const endIndex = startIndex + ITEMS_PER_PAGE;
+  const prompts = sortedPrompts.slice(startIndex, endIndex);
 
   return (
     <main className="min-h-screen bg-black text-zinc-200 relative overflow-hidden">
@@ -83,25 +102,24 @@ export default async function HubPage(props: HubPageProps) {
        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[1000px] h-[400px] bg-blue-500/10 blur-[120px] rounded-full pointer-events-none"></div>
 
       <div className="container mx-auto px-4 py-12 relative z-10">
-        <header className="mb-12 flex flex-col md:flex-row justify-between items-end gap-6 border-b border-white/5 pb-8">
-          <div className="space-y-2">
-            <h1 className="text-3xl font-bold text-white tracking-tight">
+        <header className="mb-8 flex flex-col items-center gap-6">
+          <div className="text-center space-y-4 max-w-2xl">
+            <h1 className="text-4xl md:text-5xl font-bold text-white tracking-tight bg-clip-text text-transparent bg-gradient-to-b from-white to-white/60">
               {category ? `${category.charAt(0).toUpperCase() + category.slice(1)} Prompts` : 'Prompt Hub'}
             </h1>
-            <p className="text-zinc-400 text-sm max-w-xl">
-              Explore {prompts.length} curated prompts for Gemini. Optimized for 2.0 Flash, 2.5 Pro, and 3.0.
+            <p className="text-zinc-400 text-sm md:text-base">
+              Explore {totalItems} curated prompts for Gemini. Optimized for 2.0 Flash, 2.5 Pro, and 3.0.
             </p>
-          </div>
-          
-          {/* Stats / Filters (Placeholder for now) */}
-          <div className="flex gap-2">
-             <div className="px-3 py-1 rounded-full bg-white/5 border border-white/10 text-xs text-zinc-400">
-               Latest Update: {new Date().toLocaleDateString()}
-             </div>
           </div>
         </header>
       
-        <PromptGrid prompts={prompts} />
+        <HubClientLayout 
+          totalItems={totalItems} 
+          updatedDate={new Date().toLocaleDateString()}
+        >
+          <PromptGrid prompts={prompts} />
+          <Pagination totalItems={totalItems} itemsPerPage={ITEMS_PER_PAGE} />
+        </HubClientLayout>
       </div>
     </main>
   );

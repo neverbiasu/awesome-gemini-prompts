@@ -7,6 +7,8 @@ import { FaGithub, FaReddit } from "react-icons/fa";
 
 import { Suspense } from "react";
 
+
+
 function NavbarContent() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
@@ -70,6 +72,8 @@ function NavbarContent() {
 
         {/* Right Side Actions */}
         <div className="flex items-center gap-4">
+
+
           <div className="flex items-center gap-2">
             <Link 
               href="https://github.com/neverbiasu/awesome-gemini-prompts" 
