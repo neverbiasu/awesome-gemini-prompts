@@ -3,8 +3,9 @@
 import { useState } from "react";
 import { Card, CardHeader, CardBody, CardFooter, Button, Chip, Tooltip } from "@heroui/react";
 import { GeminiPrompt } from "../schema/prompt";
-import { FaGithub, FaReddit, FaGoogle, FaDiscord, FaGlobe, FaCopy, FaCheck, FaExternalLinkAlt, FaPlay, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaReddit, FaGoogle, FaDiscord, FaGlobe, FaCopy, FaCheck, FaExternalLinkAlt, FaPlay, FaTwitter, FaExpand } from "react-icons/fa";
 import { SiGoogle } from "react-icons/si";
+import Link from "next/link";
 
   const PLATFORM_CONFIG: Record<string, { color: string; label: string; icon: React.ElementType }> = {
   GitHub: { color: "text-white bg-zinc-800", label: "GitHub", icon: FaGithub },
@@ -125,9 +126,11 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
           offset={15}
           className="max-w-[300px] z-[9999] pointer-events-none text-center bg-zinc-950 border border-white/10 shadow-2xl"
         >
-          <h3 className="text-xl font-bold text-zinc-100 leading-tight group-hover:text-white transition-colors line-clamp-1 w-full tracking-tight cursor-default">
-            {prompt.title}
-          </h3>
+          <Link href={`/prompt/${prompt.id}`} className="w-full block">
+            <h3 className="text-xl font-bold text-zinc-100 leading-tight group-hover:text-blue-400 transition-colors line-clamp-1 w-full tracking-tight">
+              {prompt.title}
+            </h3>
+          </Link>
         </Tooltip>
       </CardHeader>
       
@@ -196,6 +199,20 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
         </div>
         <div className="flex gap-2 items-center shrink-0">
           
+          {/* View Details */}
+          <Tooltip content="View Details" placement="top" offset={10} className="z-50">
+            <Button
+              isIconOnly
+              as={Link}
+              href={`/prompt/${prompt.id}`}
+              size="sm"
+              variant="light"
+              className="text-zinc-500 hover:text-white min-w-8 w-8 h-8"
+            >
+              <FaExpand size={14} />
+            </Button>
+          </Tooltip>
+
           {/* Source Link */}
           {sourceUrl && (
             <Tooltip content={`View on ${platform.label}`} placement="top" offset={10} className="z-50">
