@@ -21309,5 +21309,41 @@
     },
     "createdAt": "2025-09-13T19:25:19.000Z",
     "updatedAt": "2025-12-08T22:51:41.733Z"
+  },
+  {
+    "id": "2f686d78-2f7a-45ab-a5eb-4d509b083e70",
+    "title": "Basic_Classification",
+    "description": "Official example from google-gemini/cookbook",
+    "tags": [
+      "official",
+      "cookbook",
+      "code"
+    ],
+    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/39cd660a75afe57ea5986271e945472486dc6a95/examples/prompting/Basic_Classification.ipynb",
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "\n  As a social media moderation system, your task is to categorize user\n  comments under a post. Analyze the comment related to the topic and\n  classify it into one of the following categories:\n\n  Abusive\n  Spam\n  Offensive\n\n  If the comment does not fit any of the above categories,\n  classify it as: Neutral.\n\n  Provide only the category as a response without explanations.\n"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "google-gemini",
+      "url": "https://github.com/google-gemini",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-10T02:12:38.564Z",
+    "updatedAt": "2025-12-10T02:12:38.564Z"
   }
 ]
