@@ -2,7 +2,6 @@
 
 import { Select, SelectItem } from "@heroui/react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { FaSortAmountDown } from "react-icons/fa";
 
 const SORT_OPTIONS = [
   { key: "relevance", label: "Recommended" },

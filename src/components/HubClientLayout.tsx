@@ -1,5 +1,8 @@
+"use client";
+
 import SearchBar from "./SearchBar";
 import SortDropdown from "./SortDropdown";
+import { motion } from "framer-motion";
 
 interface HubClientLayoutProps {
   children: React.ReactNode;
@@ -15,7 +18,12 @@ export default function HubClientLayout({
   return (
     <>
       {/* Control Bar */}
-      <div className="sticky top-[64px] z-30 bg-black/80 backdrop-blur-xl border-y border-white/10 -mx-4 px-4 md:px-8 py-4 flex flex-col md:flex-row items-center gap-4 transition-all">
+      <motion.div 
+        initial={{ y: -20, opacity: 0 }}
+        animate={{ y: 0, opacity: 1 }}
+        transition={{ duration: 0.5, ease: "easeOut" }}
+        className="sticky top-[64px] z-30 bg-black/80 backdrop-blur-xl border-y border-white/10 -mx-4 px-4 md:px-8 py-4 flex flex-col md:flex-row items-center gap-4 transition-all"
+      >
          {/* Left: Count */}
          <div className="flex items-center gap-6 w-full md:w-auto md:flex-1 justify-between md:justify-start">
             <div className="flex items-center gap-2">
@@ -41,7 +49,7 @@ export default function HubClientLayout({
          <div className="flex items-center gap-4 w-full md:w-auto md:flex-1 justify-end">
             <SortDropdown />
          </div>
-      </div>
+      </motion.div>
 
       {/* Main Content Area */}
       <div className="mt-8">

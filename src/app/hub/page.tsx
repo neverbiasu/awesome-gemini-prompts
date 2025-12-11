@@ -2,9 +2,7 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { GeminiPrompt } from '@/schema/prompt';
 import PromptGrid from '@/components/PromptGrid';
-import SearchBar from '@/components/SearchBar';
 import Pagination from '@/components/Pagination';
-import SortDropdown from '@/components/SortDropdown';
 import Fuse from 'fuse.js';
 
 export const revalidate = 0;
@@ -67,17 +65,33 @@ export default async function HubPage(props: HubPageProps) {
     validPrompts = fuse.search(query).map(result => result.item);
   }
 
+interface LegacyPrompt extends GeminiPrompt {
+  metaMetrics?: { stars?: number; upvotes?: number };
+  fetchedAt?: string | number;
+  sourcePlatform?: string;
+}
+
   // 3. Sorting Logic
   const sortedPrompts = validPrompts.sort((a, b) => {
-    const getLikes = (p: GeminiPrompt) => p.stats?.likes || (p as any).metaMetrics?.stars || (p as any).metaMetrics?.upvotes || 0;
-    const getDate = (p: GeminiPrompt) => new Date(p.createdAt || (p as any).fetchedAt || 0).getTime();
+    const getLikes = (p: GeminiPrompt) => {
+      const legacy = p as LegacyPrompt;
+      return p.stats?.likes || legacy.metaMetrics?.stars || legacy.metaMetrics?.upvotes || 0;
+    };
+    
+    const getDate = (p: GeminiPrompt) => {
+       const legacy = p as LegacyPrompt;
+       return new Date(p.createdAt || legacy.fetchedAt || 0).getTime();
+    };
 
     if (sort === 'newest') return getDate(b) - getDate(a);
     if (sort === 'popular') return getLikes(b) - getLikes(a);
 
     // Default: Relevance
-    const isGoogleA = a.author?.platform === 'Google' || (a as any).sourcePlatform === 'official_docs';
-    const isGoogleB = b.author?.platform === 'Google' || (b as any).sourcePlatform === 'official_docs';
+    const legacyA = a as LegacyPrompt;
+    const legacyB = b as LegacyPrompt;
+    
+    const isGoogleA = a.author?.platform === 'Google' || legacyA.sourcePlatform === 'official_docs';
+    const isGoogleB = b.author?.platform === 'Google' || legacyB.sourcePlatform === 'official_docs';
     
     if (isGoogleA && !isGoogleB) return -1;
     if (!isGoogleA && isGoogleB) return 1;

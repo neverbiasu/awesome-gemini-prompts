@@ -2,10 +2,26 @@
 
 import { GeminiPrompt } from '@/schema/prompt';
 import PromptCard from '@/components/PromptCard';
+import { motion } from 'framer-motion';
 
 interface PromptGridProps {
   prompts: GeminiPrompt[];
 }
+
+const container = {
+  hidden: { opacity: 0 },
+  show: {
+    opacity: 1,
+    transition: {
+      staggerChildren: 0.05
+    }
+  }
+};
+
+const item = {
+  hidden: { opacity: 0, y: 20 },
+  show: { opacity: 1, y: 0 }
+};
 
 export default function PromptGrid({ prompts }: PromptGridProps) {
   if (prompts.length === 0) {
@@ -21,11 +37,21 @@ export default function PromptGrid({ prompts }: PromptGridProps) {
     );
   }
 
+  const gridKey = prompts.map(p => p.id).join('-');
+
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6">
+    <motion.div 
+      key={gridKey}
+      variants={container}
+      initial="hidden"
+      animate="show"
+      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6"
+    >
       {prompts.map((prompt) => (
-        <PromptCard key={prompt.id || prompt.originalSourceUrl} prompt={prompt} />
+        <motion.div key={prompt.id || prompt.originalSourceUrl} variants={item}>
+            <PromptCard prompt={prompt} />
+        </motion.div>
       ))}
-    </div>
+    </motion.div>
   );
 }
