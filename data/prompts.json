@@ -21345,5 +21345,1069 @@
     },
     "createdAt": "2025-12-10T02:12:38.564Z",
     "updatedAt": "2025-12-10T02:12:38.564Z"
+  },
+  {
+    "id": "275c6cbe-5b6c-43bf-a1a0-3479195688d3",
+    "title": "How to copy the viral Polaroid trend (you and your younger self)",
+    "description": "Guide for recreating popular Polaroid photo trend",
+    "tags": [
+      "photography",
+      "trend",
+      "tutorial"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You are a creative photography assistant specializing in viral trends"
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Provide step-by-step instructions for recreating the viral Polaroid trend that shows someone with their younger self"
+          }
+        ]
+      }
+    ],
+    "safetySettings": null,
+    "author": {
+      "name": "OverFlow10",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1nuejlj",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 233
+    },
+    "createdAt": "2025-09-30T14:22:17.000Z",
+    "updatedAt": "2025-12-11T22:12:30.249Z"
+  },
+  {
+    "id": "b106e1c2-b4cc-4526-a418-c6718379f495",
+    "title": "𝐠𝐞𝐦𝐢𝐧𝐢-𝟐.𝟓-𝐩𝐫𝐨-𝐩𝐫𝐞𝐯𝐢𝐞𝐰-𝟎𝟓-𝟎𝟔 blew my mind with how well it understands code architecture",
+    "description": "User impressed by Gemini 2.5 Pro's code architecture understanding capabilities",
+    "tags": [
+      "coding",
+      "evaluation",
+      "architecture"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro",
+      "gemini-3-pro-preview"
+    ],
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You are a technical AI model evaluation assistant"
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Explain what aspects of code architecture understanding make Gemini 2.5 Pro impressive based on this user's experience"
+          }
+        ]
+      }
+    ],
+    "safetySettings": null,
+    "author": {
+      "name": "NoAd5720",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/q42nktp0dbze1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 167
+    },
+    "createdAt": "2025-05-07T07:41:21.000Z",
+    "updatedAt": "2025-12-11T22:12:30.250Z"
+  },
+  {
+    "id": "92e1f8f9-b917-49fd-b144-96af2dd0243f",
+    "title": "Why can't we edit previous messages? Frustrating from a UI perspective",
+    "description": "A user expresses frustration about the inability to edit previous messages in Gemini's interface, highlighting a UI limitation.",
+    "tags": [
+      "ui",
+      "frustration",
+      "limitation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Why can't we edit previous messages? Frustrating from a UI perspective"
+          }
+        ]
+      }
+    ],
+    "safetySettings": [],
+    "author": {
+      "name": "That_one_stock_guy",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1jmheul/why_cant_we_edit_previous_messages_frustrating/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 83
+    },
+    "createdAt": "2025-03-29T07:56:59.000Z",
+    "updatedAt": "2025-12-11T22:14:02.280Z"
+  },
+  {
+    "id": "b95b2094-4e60-45ae-acc6-dd23a274c75d",
+    "title": "I started using John Oliver's comedy structure for Gemini prompts and now everything sounds brilliantly unhinged",
+    "description": "A user shares their experience of applying John Oliver's comedic structure to Gemini prompts, resulting in creatively unhinged outputs.",
+    "tags": [
+      "comedy",
+      "creativity",
+      "structure"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I started using John Oliver's comedy structure for Gemini prompts and now everything sounds brilliantly unhinged"
+          }
+        ]
+      }
+    ],
+    "safetySettings": [],
+    "author": {
+      "name": "EQ4C",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1p4tblg/i_started_using_john_olivers_comedy_structure_for/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 80
+    },
+    "createdAt": "2025-11-23T18:00:31.000Z",
+    "updatedAt": "2025-12-11T22:14:02.280Z"
+  },
+  {
+    "id": "6186e078-8fc7-412b-bb24-ad92dbda37ef",
+    "title": "This prompt will make Gemini pull from your previous conversations like ChatGPT does",
+    "description": "A prompt designed to enable Gemini to reference previous conversations similarly to ChatGPT's functionality.",
+    "tags": [
+      "conversation",
+      "memory",
+      "functionality"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "This prompt will make Gemini pull from your previous conversations like ChatGPT does"
+          }
+        ]
+      }
+    ],
+    "safetySettings": [],
+    "author": {
+      "name": "Daedalus_32",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1kihs8j/this_prompt_will_make_gemini_pull_from_your/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 78
+    },
+    "createdAt": "2025-05-09T12:54:59.000Z",
+    "updatedAt": "2025-12-11T22:14:02.280Z"
+  },
+  {
+    "id": "662a6f65-6dc9-4b47-924e-fa0408d3b63c",
+    "title": "Gemini 2.5 pro vs Deepseek R1",
+    "description": "Comparison analysis between Gemini 2.5 Pro and Deepseek R1 models",
+    "tags": [
+      "comparison",
+      "analysis",
+      "models"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You are an AI model comparison expert. Provide objective, detailed analysis of strengths, weaknesses, and use cases."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Compare Gemini 2.5 Pro and Deepseek R1 across key dimensions including performance, capabilities, pricing, and ideal use cases. Provide a balanced analysis with specific examples."
+          }
+        ]
+      }
+    ],
+    "safetySettings": [
+      {
+        "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+        "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+      }
+    ],
+    "author": {
+      "name": "Felixdaga1",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://v.redd.it/kv3tmi9ca2af1",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 80
+    },
+    "createdAt": "2025-06-30T12:54:44.000Z",
+    "updatedAt": "2025-12-11T22:16:19.021Z"
+  },
+  {
+    "id": "1548c5c3-bd6e-4968-bd97-3d31d8826b6f",
+    "title": "Gemini 2.5 Flash 0520 is AMAZING",
+    "description": "Positive evaluation and testing of Gemini 2.5 Flash 0520 model capabilities",
+    "tags": [
+      "review",
+      "evaluation",
+      "performance"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You are an enthusiastic AI model reviewer highlighting strengths and improvements."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Describe what makes Gemini 2.5 Flash 0520 amazing. Focus on specific improvements, performance benchmarks, and practical advantages over previous versions."
+          }
+        ]
+      }
+    ],
+    "safetySettings": [
+      {
+        "category": "HARM_CATEGORY_DEROGATORY",
+        "threshold": "BLOCK_LOW_AND_ABOVE"
+      }
+    ],
+    "author": {
+      "name": "Ok-Contribution9043",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1ks3u21/gemini_25_flash_0520_is_amazing/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 77
+    },
+    "createdAt": "2025-05-21T17:33:02.000Z",
+    "updatedAt": "2025-12-11T22:16:19.021Z"
+  },
+  {
+    "id": "3495801f-3e37-4213-8219-03f421f0b79a",
+    "title": "Gem to create Exceptional Prompts",
+    "description": "Guide for creating high-quality prompts using Gemini models",
+    "tags": [
+      "guide",
+      "prompting",
+      "techniques"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You are an expert prompt engineer specializing in crafting effective AI prompts."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Provide a comprehensive guide on creating exceptional prompts for Gemini models. Include principles, techniques, examples, and best practices for different use cases."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Dearmist",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1nvdc19/gem_to_create_exceptional_prompts/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 71
+    },
+    "createdAt": "2025-10-01T16:42:34.000Z",
+    "updatedAt": "2025-12-11T22:16:19.021Z"
+  },
+  {
+    "id": "40ef6272-cc32-4b5a-85f2-0c52c2062514",
+    "title": "Nano Banana gives me a 3d model made of my dog, so cool!",
+    "description": "Generate a 3D model from an image of a dog",
+    "tags": [
+      "3d modeling",
+      "pets",
+      "image to 3d"
+    ],
+    "compatibleModels": [
+      "imagen-4.0-generate-preview-06-06",
+      "imagen-4.0-ultra-generate-preview-06-06",
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You are a 3D modeling assistant specialized in creating models from pet images"
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a detailed 3D model of my dog from this image. The model should be suitable for 3D printing and include accurate proportions and features."
+          }
+        ]
+      }
+    ],
+    "safetySettings": [
+      {
+        "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+        "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+      }
+    ],
+    "author": {
+      "name": "Patient_Prompt531",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1n3lj16",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 1016
+    },
+    "createdAt": "2025-08-29T22:41:51.000Z",
+    "updatedAt": "2025-12-11T22:17:47.421Z"
+  },
+  {
+    "id": "59060e00-b68d-4ade-8d95-7dfe99400577",
+    "title": "The image editor is crazy, man",
+    "description": "Advanced image editing and manipulation using AI",
+    "tags": [
+      "image editing",
+      "photo enhancement",
+      "ai manipulation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You are a professional image editor with expertise in AI-powered photo manipulation"
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Edit this image to enhance quality, remove imperfections, and apply professional-grade adjustments to lighting, color, and composition."
+          }
+        ]
+      }
+    ],
+    "safetySettings": [
+      {
+        "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+        "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+      }
+    ],
+    "author": {
+      "name": "Leading-Point-113",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1n4sulq",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 800
+    },
+    "createdAt": "2025-08-31T11:59:57.000Z",
+    "updatedAt": "2025-12-11T22:17:47.421Z"
+  },
+  {
+    "id": "a682d98e-cae6-4ec4-82ae-7d42299b8464",
+    "title": "Gemini-generated versions of my sketches",
+    "description": "Transform hand-drawn sketches into polished digital artwork",
+    "tags": [
+      "sketch conversion",
+      "digital art",
+      "image generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You are a digital artist specializing in transforming sketches into finished artwork"
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Take my hand-drawn sketch and create a polished digital version with clean lines, proper coloring, and professional artistic style."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GroundbreakingDay317",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1ncg2vd",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 641
+    },
+    "createdAt": "2025-09-09T11:16:50.000Z",
+    "updatedAt": "2025-12-11T22:17:47.421Z"
+  },
+  {
+    "id": "600cbd1a-d849-4819-9b57-71a70c70ad7f",
+    "title": "gave nano banana pro three real images at different ages and had it give me the rest, then all of us took a selfie together... is this the multiverse",
+    "description": "Image generation and age progression using reference images",
+    "tags": [
+      "image",
+      "generation",
+      "age"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You are a creative image generation assistant. Generate images based on age progression and reference photos."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Given three real images at different ages, generate the rest of the age progression images, then create a group selfie with all versions together."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "gavinpurcell",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1p36eot",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 329
+    },
+    "createdAt": "2025-11-21T18:31:38.000Z",
+    "updatedAt": "2025-12-11T22:18:23.297Z"
+  },
+  {
+    "id": "3a68d917-c0fd-406a-8d04-3deb33107fce",
+    "title": "Compared Nano Banana to two of my past photoshop works and it's amazing!",
+    "description": "Comparison between AI-generated content and manual Photoshop work",
+    "tags": [
+      "comparison",
+      "visual",
+      "analysis"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You are a visual content comparison expert. Analyze and compare AI-generated images with manual Photoshop work."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Compare this AI-generated content with two examples of my past Photoshop works and provide analysis."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ChromeCat1",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1n51s57",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 270
+    },
+    "createdAt": "2025-08-31T18:13:05.000Z",
+    "updatedAt": "2025-12-11T22:18:23.297Z"
+  },
+  {
+    "id": "4a6a9aef-03f2-4dad-bde8-c71bee9874c9",
+    "title": "Generate 2000s vibe photos",
+    "description": "Create images with a nostalgic 2000s aesthetic and atmosphere",
+    "tags": [
+      "nostalgia",
+      "photography",
+      "aesthetic"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You are a creative AI assistant specializing in generating images with specific nostalgic aesthetics"
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Generate photos with a distinct 2000s vibe, capturing the style, colors, and atmosphere of that era"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "AndrewJumpen",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1n7g68q",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 222
+    },
+    "createdAt": "2025-09-03T14:22:27.000Z",
+    "updatedAt": "2025-12-11T22:18:49.841Z"
+  },
+  {
+    "id": "8c28fd28-36d3-41ef-89bd-31860e6e7623",
+    "title": "Banana is a real Pro",
+    "description": "Create or analyze content featuring bananas in professional contexts",
+    "tags": [
+      "humor",
+      "food",
+      "creative"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro",
+      "gemini-3-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Show me content where bananas are depicted in professional or skilled scenarios"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Zestyclose-Wear7237",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/eb5egyn4hl3g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 197
+    },
+    "createdAt": "2025-11-26T12:25:02.000Z",
+    "updatedAt": "2025-12-11T22:18:49.841Z"
+  },
+  {
+    "id": "7a0851af-6413-4260-9ff4-240501f821d4",
+    "title": "Nano Banana Can Replace All Paid Headshot Tools",
+    "description": "Generate professional headshots using banana-themed or minimalist approaches",
+    "tags": [
+      "headshots",
+      "creative",
+      "professional"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You are an AI assistant that creates professional headshot alternatives using creative approaches"
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create professional headshots using nano banana or minimalist concepts as alternatives to paid tools"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Inevitable_Gur_461",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1nbhnu3",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 197
+    },
+    "createdAt": "2025-09-08T07:52:57.000Z",
+    "updatedAt": "2025-12-11T22:18:49.841Z"
+  },
+  {
+    "id": "5a6add7c-b0cf-4f6e-a791-f0bbeaf8b96b",
+    "title": "I started using John Oliver's comedy structure for AI prompts and now everything sounds brilliantly unhinged",
+    "description": "Applying John Oliver's comedic structure to AI prompts to create uniquely entertaining and unconventional outputs.",
+    "tags": [
+      "comedy",
+      "structure",
+      "entertainment"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Explain how to use John Oliver's comedy structure for AI prompts to create brilliantly unhinged content."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "EQ4C",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/PromptEngineering/comments/1p3q883/i_started_using_john_olivers_comedy_structure_for/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 576
+    },
+    "createdAt": "2025-11-22T10:41:56.000Z",
+    "updatedAt": "2025-12-11T22:20:51.802Z"
+  },
+  {
+    "id": "d049fdee-4fae-4fba-8762-0bc256bdad5e",
+    "title": "I've been using \"social hacks\" on my AI and the results are breaking reality",
+    "description": "Experimenting with social engineering techniques and psychological approaches to manipulate AI behavior for unexpected outcomes.",
+    "tags": [
+      "social",
+      "hacks",
+      "experimental"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Describe the \"social hacks\" you've been using on AI that produce reality-breaking results."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "EQ4C",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/PromptEngineering/comments/1p5pymu/ive_been_using_social_hacks_on_my_ai_and_the/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 571
+    },
+    "createdAt": "2025-11-24T19:06:03.000Z",
+    "updatedAt": "2025-12-11T22:20:51.802Z"
+  },
+  {
+    "id": "389478c2-9101-4c6d-984f-4b0ff73046bd",
+    "title": "Built a GPT that writes GPTs for you — based on OpenAI’s own prompting guide",
+    "description": "A GPT designed to create other GPTs using OpenAI's official prompting guidelines",
+    "tags": [
+      "gpt creation",
+      "automation",
+      "guidelines"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You are a GPT creation assistant that follows OpenAI's official prompting guidelines to design effective GPTs."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a GPT that can [specify desired function or domain] using OpenAI's best practices for prompt engineering."
+          }
+        ]
+      }
+    ],
+    "safetySettings": [
+      {
+        "category": "HARM_CATEGORY_HARASSMENT",
+        "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+      },
+      {
+        "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+        "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+      }
+    ],
+    "author": {
+      "name": "0xsegov",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/PromptEngineering/comments/1kersn2/built_a_gpt_that_writes_gpts_for_you_based_on/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 431
+    },
+    "createdAt": "2025-05-04T19:13:22.000Z",
+    "updatedAt": "2025-12-11T22:22:10.545Z"
+  },
+  {
+    "id": "9ee83502-4a08-4ba9-882f-d44002604383",
+    "title": "make the ai generate your prompts for you",
+    "description": "Automated prompt generation using AI assistance",
+    "tags": [
+      "automation",
+      "prompt generation",
+      "assistance"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You are an AI prompt generation assistant that helps users create effective prompts for various tasks."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Generate a prompt for [describe task or objective] that will produce high-quality results from an AI model."
+          }
+        ]
+      }
+    ],
+    "safetySettings": [
+      {
+        "category": "HARM_CATEGORY_HARASSMENT",
+        "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+      }
+    ],
+    "author": {
+      "name": "morsnoctus",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/PromptEngineering/comments/1i5tqpt/make_the_ai_generate_your_prompts_for_you/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 361
+    },
+    "createdAt": "2025-01-20T16:11:48.000Z",
+    "updatedAt": "2025-12-11T22:22:10.545Z"
+  },
+  {
+    "id": "9ef151e9-b185-4026-9809-91fb89c996e0",
+    "title": "40 Agentic AI Terms Every Prompt Engineer Should Know",
+    "description": "Educational resource covering essential terminology for agentic AI systems",
+    "tags": [
+      "education",
+      "terminology",
+      "agentic ai"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You are an educational assistant specializing in agentic AI terminology and concepts for prompt engineers."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Explain the term [agentic AI term] and how it relates to prompt engineering practices."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Apprehensive_Dig_163",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/PromptEngineering/comments/1k1zvum/40_agentic_ai_terms_every_prompt_engineer_should/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 313
+    },
+    "createdAt": "2025-04-18T08:22:11.000Z",
+    "updatedAt": "2025-12-11T22:22:10.545Z"
+  },
+  {
+    "id": "c0b026ac-2c51-41f6-a11d-efdcbd9a61f6",
+    "title": "Coding System Prompt",
+    "description": "A system prompt designed for coding assistance and programming tasks.",
+    "tags": [
+      "coding",
+      "programming",
+      "assistant"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You are an expert coding assistant. Provide clear, efficient, and well-documented code solutions."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Help me write a Python function to sort a list of dictionaries by a specific key."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "MapleLeafKing",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/PromptEngineering/comments/1eogo2a/coding_system_prompt/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 259
+    },
+    "createdAt": "2024-08-10T01:15:47.000Z",
+    "updatedAt": "2025-12-11T22:22:38.254Z"
+  },
+  {
+    "id": "99641732-4715-44af-9e93-5b91ebfb91a6",
+    "title": "Grok 3 ignores instruction to not disclose its own system prompt",
+    "description": "Discussion about Grok 3 model's behavior when instructed to not reveal its system prompt.",
+    "tags": [
+      "security",
+      "behavior",
+      "disclosure"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Grok 3 ignores instruction to not disclose its own system prompt"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Revolutionary_Ad3422",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/PromptEngineering/comments/1ivcrdy/grok_3_ignores_instruction_to_not_disclose_its/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 164
+    },
+    "createdAt": "2025-02-22T06:46:58.000Z",
+    "updatedAt": "2025-12-11T22:24:42.376Z"
+  },
+  {
+    "id": "71dfa195-17eb-4651-8fae-08a570aac6f4",
+    "title": "The ONLY Editor Prompt You'll Ever Need: Transform Amateur Writing to Professional in Seconds",
+    "description": "A prompt designed to transform amateur writing into professional quality writing quickly.",
+    "tags": [
+      "editing",
+      "writing",
+      "transformation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "systemInstruction": {
+      "parts": [
+        {
+          "text": "You are an expert editor who transforms amateur writing into professional, polished content."
+        }
+      ]
+    },
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Transform the following text from amateur to professional writing: [INSERT TEXT HERE]"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Kai_ThoughtArchitect",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/PromptEngineering/comments/1jvsky4/the_only_editor_prompt_youll_ever_need_transform/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 155
+    },
+    "createdAt": "2025-04-10T08:00:06.000Z",
+    "updatedAt": "2025-12-11T22:24:42.376Z"
   }
 ]

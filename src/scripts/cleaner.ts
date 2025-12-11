@@ -2,7 +2,9 @@ import { generateObject } from 'ai';
 import { google } from '@ai-sdk/google';
 import { createOpenAI } from '@ai-sdk/openai';
 import { z } from 'zod';
-import { GeminiPrompt, GeminiPromptZodSchema, HarmCategory, HarmBlockThreshold } from '../schema/prompt';
+import { GeminiPrompt, HarmCategory, HarmBlockThreshold } from '../schema/prompt';
+import ModelClient, { isUnexpected } from "@azure-rest/ai-inference";
+import { AzureKeyCredential } from "@azure/core-auth";
 
 // Define a schema for the cleaner's output that matches our new GeminiPrompt structure
 // We use a subset of the full schema for the LLM to generate
@@ -42,67 +44,231 @@ export async function cleanPromptsWithLLM(rawPrompts: any[]): Promise<GeminiProm
 
   const apiKey = process.env.GOOGLE_GENERATIVE_AI_API_KEY || process.env.GEMINI_API_KEY;
   const githubToken = process.env.GITHUB_TOKEN;
+  const useGithub = process.env.USE_GITHUB === 'true' || process.env.USE_GITHUB === '1';
   
-  let model;
+  const modelScopeApiKey = process.env.MODELSCOPE_API_KEY;
+  const useModelScope = process.env.USE_MODELSCOPE === 'true' || process.env.USE_MODELSCOPE === '1';
+  
+  let model: any;
+  let azureClient: any;
 
-  if (apiKey) {
+  if (useModelScope && modelScopeApiKey) {
+    console.log(`   Using ModelScope (DeepSeek-V3.2 via Raw Fetch) [Key Length: ${modelScopeApiKey.length}]`);
+    // We do not initialize 'model' or 'azureClient' here.
+    // The loop will handle 'useModelScope' directly via raw fetch.
+
+  } else if (apiKey && !useGithub) {
     console.log(`   Using Google Gemini 2.5 Flash (via Google AI Studio) [Key Length: ${apiKey.length}]`);
     process.env.GOOGLE_GENERATIVE_AI_API_KEY = apiKey;
     model = google('gemini-2.5-flash-preview-09-2025');
+
   } else if (githubToken) {
-    console.log("   Using AI21 Jamba 1.5 Large (via GitHub Models)");
-    const githubOpenAI = createOpenAI({
-      baseURL: 'https://models.inference.ai.azure.com',
-      apiKey: githubToken
-    });
-    // Use AI21 Jamba 1.5 Large as requested
-    model = githubOpenAI('AI21-Jamba-1.5-Large');
+    console.log("   Using GPT-4o (via GitHub Models & Azure SDK)");
+    azureClient = ModelClient(
+      "https://models.github.ai/inference",
+      new AzureKeyCredential(githubToken)
+    );
   } else {
     console.warn("⚠️ No AI API Key found. Skipping LLM cleaning.");
     return [];
   }
 
   const cleanedResults: GeminiPrompt[] = [];
-  const BATCH_SIZE = 5;
+  // OPTIMIZATION: Reduced batch size to 3 to avoid Token Limits (8k limit on some Free models)
+  const BATCH_SIZE = 3;
+
+  const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
 
   for (let i = 0; i < rawPrompts.length; i += BATCH_SIZE) {
+    // Add rate limiting delay
+    if (i > 0) {
+      console.log("      ⏳ Waiting 5s to respect API rate limits...");
+      await delay(5000);
+    }
+
     const batch = rawPrompts.slice(i, i + BATCH_SIZE);
-    // Add temporary index for correlation
     const batchWithIndices = batch.map((item, idx) => ({ ...item, batchIndex: idx }));
     
+    // Minify payload to save tokens
+    const minifiedBatch = batchWithIndices.map(p => ({
+        batchIndex: p.batchIndex,
+        source: p.source,
+        title: p.title,
+        text: p.selftext || p.description || p.promptText || p.contents?.[0]?.parts?.[0]?.text || "",
+        url: p.url || p.originalSourceUrl
+    }));
+
     console.log(`   Processing batch ${Math.floor(i/BATCH_SIZE) + 1}/${Math.ceil(rawPrompts.length/BATCH_SIZE)}...`);
 
     try {
-      const { object } = await generateObject({
-        model: model,
-        schema: CleanedPromptsResponseSchema,
-        prompt: `
-          You are a Data Curator for a Gemini Prompt Database.
-          Review these raw candidates (mostly from Reddit) and extract structured Gemini Prompts.
+      let cleanedBatch: z.infer<typeof CleanedPromptsResponseSchema>;
 
-          CRITICAL RULES:
-          1. **EXTRACT VERBATIM**: Do NOT rewrite, summarize, or "fix" the prompt text. Use the exact text found in the post.
-          2. **DISCARD** questions, news, discussions, or bugs. KEEP only actual prompts.
-          3. **TAGS**: Exactly 3 tags. lowercase. NO 'google', 'gemini', 'prompt', 'official'.
-          4. **SEPARATE** 'systemInstruction' (persona) vs 'userPrompt' (task) if clearly distinct in the text.
-          5. **INFER** 'safetySettings' if the prompt is risky.
-          6. **ASSIGN** 'compatibleModels' intelligently:
-             - **VIDEO GEN**: If it generates video (e.g. "Create a video of...", "Animate this..."), assign [imagen-4.0-generate-preview-06-06].
-             - **IMAGE GEN**: If it creates images, assign [imagen-4.0-generate-preview-06-06, imagen-4.0-ultra-generate-preview-06-06].
-             - **IMAGE EDIT**: If it edits/transforms images, assign [gemini-2.5-flash-image, nano-banana-pro-preview, gemini-3-pro-image-preview].
-             - **TEXT (SIMPLE)**: [gemini-2.5-flash, gemini-2.0-flash].
-             - **TEXT (COMPLEX)**: [gemini-2.5-pro, gemini-3-pro-preview].
-             - **UPWARD COMPATIBILITY**: If it works on Flash, it works on Pro.
-          7. **RETURN** the 'batchIndex' for each item so we can map it back to the original data.
-          8. **MULTI-PROMPT POSTS**: If a single candidate contains multiple prompts, extract them as separate items. **IMPORTANT**: ALL extracted items must share the SAME 'batchIndex' as the source candidate.
-          9. **QUALITY FILTER**: For Video/Image prompts, DISCARD simple 1-line requests like "make a video of a cat". Keep only detailed, descriptive prompts that showcase the model's capability.
+      if (model) {
+        // Vercel AI SDK (Gemini)
+        const result = await generateObject({
+          model: model,
+          schema: CleanedPromptsResponseSchema,
+          prompt: `
+            You are a Data Curator for a Gemini Prompt Database.
+            Review these raw candidates (mostly from Reddit) and extract structured Gemini Prompts.
 
-          RAW CANDIDATES:
-          ${JSON.stringify(batchWithIndices, null, 2)}
-        `,
-      });
+            CRITICAL RULES:
+            1. **EXTRACT VERBATIM**: Do NOT rewrite, summarize, or "fix" the prompt text. Use the exact text found in the post.
+            2. **DISCARD** questions, news, discussions, or bugs. KEEP only actual prompts.
+            3. **TAGS**: Exactly 3 tags. lowercase. NO 'google', 'gemini', 'prompt', 'official'.
+            4. **SEPARATE** 'systemInstruction' (persona) vs 'userPrompt' (task) if clearly distinct in the text.
+            5. **INFER** 'safetySettings' if the prompt is risky.
+            6. **ASSIGN** 'compatibleModels' intelligently:
+               - **VIDEO GEN**: If it generates video (e.g. "Create a video of...", "Animate this..."), assign [imagen-4.0-generate-preview-06-06].
+               - **IMAGE GEN**: If it creates images, assign [imagen-4.0-generate-preview-06-06, imagen-4.0-ultra-generate-preview-06-06].
+               - **IMAGE EDIT**: If it edits/transforms images, assign [gemini-2.5-flash-image, nano-banana-pro-preview, gemini-3-pro-image-preview].
+               - **TEXT (SIMPLE)**: [gemini-2.5-flash, gemini-2.0-flash].
+               - **TEXT (COMPLEX)**: [gemini-2.5-pro, gemini-3-pro-preview].
+               - **UPWARD COMPATIBILITY**: If it works on Flash, it works on Pro.
+            7. **RETURN** the 'batchIndex' for each item so we can map it back to the original data.
+            8. **MULTI-PROMPT POSTS**: If a single candidate contains multiple prompts, extract them as separate items. **IMPORTANT**: ALL extracted items must share the SAME 'batchIndex' as the source candidate.
+            9. **QUALITY FILTER**: For Video/Image prompts, DISCARD simple 1-line requests like "make a video of a cat". Keep only detailed, descriptive prompts that showcase the model's capability.
 
-      for (const cleaned of object.prompts) {
+            RAW CANDIDATES:
+            ${JSON.stringify(minifiedBatch, null, 2)}
+          `,
+        });
+        cleanedBatch = result.object;
+
+      } else if (useModelScope) {
+         // ModelScope (DeepSeek) via Raw Fetch
+         console.log("      🚀 Sending request to ModelScope...");
+         const response = await fetch("https://api-inference.modelscope.cn/v1/chat/completions", {
+            method: "POST",
+            headers: {
+               "Content-Type": "application/json",
+               "Authorization": `Bearer ${modelScopeApiKey}`
+            },
+            body: JSON.stringify({
+               model: "deepseek-ai/DeepSeek-V3.2",
+               messages: [
+                  { role: "system", content: "You are a data cleaning assistant. Respond with valid JSON only." },
+                  { role: "user", content: `
+                    Extract structured Gemini Prompts from the following raw data.
+                    
+                    OUTPUT SCHEMA (JSON):
+                    {
+                      "prompts": [
+                        {
+                          "batchIndex": number,
+                          "title": string,
+                          "description": string,
+                          "systemInstruction": string (optional),
+                          "userPrompt": string,
+                          "tags": string[],
+                          "compatibleModels": string[],
+                          "safetySettings": object[] (optional),
+                          "confidenceScore": number,
+                          "reasoning": string
+                        }
+                      ]
+                    }
+
+                    RULES:
+                    1. Extract verbatim.
+                    2. Discard garbage.
+                    3. Tags: 3 lowercase tags.
+                    4. Infer compatible models.
+                    
+                    RAW DATA:
+                    ${JSON.stringify(minifiedBatch)}
+                  ` }
+               ],
+               temperature: 0.1,
+               response_format: { type: "json_object" }
+            })
+         });
+
+         console.log(`      📩 Received response: ${response.status} ${response.statusText}`);
+
+         if (!response.ok) {
+            const errText = await response.text();
+            throw new Error(`ModelScope Error (${response.status}): ${errText}`);
+         }
+
+         const data = await response.json();
+         let rawContent = data.choices?.[0]?.message?.content || "";
+         
+         console.log(`      📝 Raw content length: ${rawContent.length}`);
+         if (rawContent.length < 100) console.log(`      Excerpt: ${rawContent}`);
+
+         // Remove markdown code blocks if present
+         rawContent = rawContent.replace(/```json\n?|\n?```/g, "").trim();
+
+         try {
+            cleanedBatch = JSON.parse(rawContent);
+            console.log(`      ✅ Parsed ${cleanedBatch.prompts?.length || 0} prompts.`);
+         } catch (e) {
+            console.error("JSON Parse Error on ModelScope response:", rawContent);
+            throw e;
+         }
+
+      } else if (azureClient) {
+        // Azure AI SDK (GitHub Models - Jamba/GPT-4o)
+        // We must manually instruct for JSON since we aren't using generateObject
+        const response = await azureClient.path("/chat/completions").post({
+          body: {
+            messages: [
+              { role: "system", content: "You are a data cleaning assistant. You MUST respond with valid JSON only." },
+              { role: "user", content: `
+                Extract structured Gemini Prompts from the following raw data.
+                
+                OUTPUT SCHEMA (JSON):
+                {
+                  "prompts": [
+                    {
+                      "batchIndex": number,
+                      "title": string,
+                      "description": string,
+                      "systemInstruction": string (optional),
+                      "userPrompt": string,
+                      "tags": string[],
+                      "compatibleModels": string[],
+                      "safetySettings": object[] (optional),
+                      "confidenceScore": number,
+                      "reasoning": string
+                    }
+                  ]
+                }
+
+                RULES:
+                1. Extract verbatim.
+                2. Discard garbage.
+                3. Tags: 3 lowercase tags.
+                4. Infer compatible models (e.g. gemini-2.5-flash for text, imagen-4.0 for images).
+                
+                RAW DATA:
+                ${JSON.stringify(minifiedBatch)}
+              ` }
+            ],
+            temperature: 0.0,
+            model: "gpt-4o", 
+            response_format: { type: "json_object" }
+          }
+        });
+
+        if (isUnexpected(response)) {
+          throw new Error("Azure SDK Error: " + JSON.stringify(response.body));
+        }
+
+        const rawContent = response.body.choices[0].message.content;
+        // Parse JSON manually
+        try {
+           cleanedBatch = JSON.parse(rawContent);
+        } catch (e) {
+           console.error("JSON Parse Error on Azure response:", rawContent);
+           throw e;
+        }
+      } else {
+        throw new Error("No model or client available.");
+      }
+
+      for (const cleaned of cleanedBatch.prompts) {
         if (cleaned.confidenceScore > 0.7) {
           // Recover original metadata using batchIndex
           const original = batch[cleaned.batchIndex];

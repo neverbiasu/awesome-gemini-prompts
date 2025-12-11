@@ -23,7 +23,7 @@ async function main() {
   }
 
   // 2. Load raw candidates from multiple sources
-  let rawCandidates: any[] = [];
+  const rawCandidates: any[] = [];
   const sourceFiles = ['reddit.json', 'github.json', 'google_gallery.json', 'aistudio.json', 'x.json'];
   
   for (const file of sourceFiles) {
@@ -44,21 +44,82 @@ async function main() {
   }
 
   // 3. Deduplicate
-  // We only want to clean candidates that are NOT already in our production DB (by URL)
+  // We clean candidates that are NOT already in our production DB AND not duplicates within the current batch.
+  const uniqueKeys = new Set<string>();
+  const seenContent = new Set<string>();
+
+  const normalizeUrl = (url: string) => {
+    try {
+      const u = new URL(url);
+      return u.origin + u.pathname;
+    } catch {
+      return url.trim();
+    }
+  };
+
+  const getNormalizedContent = (p: any): string => {
+    let text = "";
+    
+    // 1. System Instruction
+    if (p.systemInstruction?.parts) {
+      text += p.systemInstruction.parts.map((part: any) => part.text).join("");
+    } else if (p.promptText) {
+       // Legacy or simple format
+       text += p.promptText;
+    }
+
+    // 2. User/Model Contents
+    if (p.contents && Array.isArray(p.contents)) {
+      p.contents.forEach((c: any) => {
+        if (c.parts) {
+          text += c.parts.map((part: any) => part.text).join("");
+        }
+      });
+    }
+
+    // Normalize: lowercase and remove all non-alphanumeric for strict comparison
+    // This handles "slight formatting differences" (like markdown, spaces, punctuation)
+    return text.toLowerCase().replace(/[^a-z0-9]/g, "");
+  };
+
+  const getPromptKey = (p: any) => {
+    if (p.originalSourceUrl) {
+      return `url:${normalizeUrl(p.originalSourceUrl)}`;
+    }
+    if (p.title) {
+      return `title:${p.title.trim().toLowerCase()}`;
+    }
+    return `random:${Math.random()}`; 
+  };
+
+  // A. Register existing prompts
+  existingPrompts.forEach(p => {
+    const pKey = getPromptKey(p);
+    uniqueKeys.add(pKey);
+    
+    const contentFingerprint = getNormalizedContent(p);
+    if (contentFingerprint.length > 10) { // Only track substantial content
+       seenContent.add(contentFingerprint);
+    }
+  });
+
   const newCandidates = rawCandidates.filter(candidate => {
-     // 1. Check by URL (if available)
-     if (candidate.originalSourceUrl) {
-       const exists = existingPrompts.some(p => p.originalSourceUrl === candidate.originalSourceUrl);
-       if (exists) return false;
-     }
-     
-     // 2. Check by Title (fuzzy match to catch re-runs)
-     // If a prompt with the exact same title exists, skip it.
-     if (candidate.title) {
-        const exists = existingPrompts.some(p => p.title === candidate.title);
-        if (exists) return false;
+     // 1. Check Identity (URL / Title)
+     const key = getPromptKey(candidate);
+     if (uniqueKeys.has(key)) {
+         return false; 
      }
 
+     // 2. Check Content (Strict)
+     const contentFingerprint = getNormalizedContent(candidate);
+     if (contentFingerprint.length > 10 && seenContent.has(contentFingerprint)) {
+         return false; // Content duplicate found!
+     }
+     
+     uniqueKeys.add(key);
+     if (contentFingerprint.length > 10) {
+        seenContent.add(contentFingerprint);
+     }
      return true;
   });
 
