@@ -1,9 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { Card, CardHeader, CardBody, CardFooter, Button, Chip, Tooltip } from "@heroui/react";
+import { Card, CardHeader, CardBody, CardFooter, Button, Tooltip } from "@heroui/react";
 import { GeminiPrompt } from "../schema/prompt";
-import { FaGithub, FaReddit, FaGoogle, FaDiscord, FaGlobe, FaCopy, FaCheck, FaExternalLinkAlt, FaPlay, FaTwitter, FaExpand } from "react-icons/fa";
+import { FaGithub, FaReddit, FaDiscord, FaGlobe, FaCopy, FaCheck, FaExternalLinkAlt, FaPlay, FaTwitter, FaExpand } from "react-icons/fa";
 import { SiGoogle } from "react-icons/si";
 import Link from "next/link";
 
@@ -16,36 +16,7 @@ import Link from "next/link";
   Discord: { color: "text-indigo-400 bg-indigo-400/10", label: "Discord", icon: FaDiscord },
 };
 
-function CopyButton({ text, tooltip = "Copy", className = "" }: { text: string; tooltip?: string; className?: string }) {
-  const [copied, setCopied] = useState(false);
-
-  const handleCopy = async (e: React.MouseEvent) => {
-    e.stopPropagation(); // Prevent opening modal
-    e.preventDefault();
-    await navigator.clipboard.writeText(text);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
-  };
-
-  return (
-    <Tooltip content={copied ? "Copied!" : tooltip} placement="top" offset={10} className="text-xs z-50">
-      <Button
-        isIconOnly
-        onClick={handleCopy}
-        size="sm"
-        variant="light"
-        className={`transition-all duration-300 min-w-6 w-6 h-6 absolute top-2 right-2 z-10 ${className} ${
-          copied 
-            ? "text-emerald-400 bg-emerald-400/10" 
-            : "text-zinc-500 hover:text-zinc-200 hover:bg-white/10"
-        }`}
-        aria-label={tooltip}
-      >
-        {copied ? <FaCheck size={10} /> : <FaCopy size={10} />}
-      </Button>
-    </Tooltip>
-  );
-}
+import CopyButton from "./CopyButton";
 
 export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
   // Determine platform with legacy fallback
@@ -148,7 +119,7 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
                <span className="uppercase text-[9px] font-bold text-blue-400 tracking-widest">System Prompt</span>
             </div>
             <div className="relative rounded-xl border border-white/5 bg-black/20 p-3 flex-1 overflow-hidden group/code">
-                 <CopyButton text={systemText} tooltip="Copy System Prompt" className="opacity-0 group-hover/code:opacity-100 transition-opacity" />
+                 <CopyButton text={systemText} tooltip="Copy System Prompt" className="absolute top-2 right-2 opacity-0 group-hover/code:opacity-100 transition-opacity" />
                  <p className="whitespace-pre-wrap leading-relaxed opacity-80 text-xs font-mono text-zinc-400 line-clamp-3">{systemText}</p>
             </div>
           </div>
@@ -164,7 +135,7 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
                <span className="uppercase text-[9px] font-bold text-zinc-500 tracking-widest">User Prompt</span>
             </div>
             <div className="relative rounded-xl border border-white/5 bg-white/5 p-3 flex-1 overflow-hidden group/code">
-              <CopyButton text={userText} tooltip="Copy User Prompt" className="opacity-0 group-hover/code:opacity-100 transition-opacity" />
+              <CopyButton text={userText} tooltip="Copy User Prompt" className="absolute top-2 right-2 opacity-0 group-hover/code:opacity-100 transition-opacity" />
               <p className="text-sm text-zinc-300 whitespace-pre-wrap font-mono leading-relaxed line-clamp-6">
                 {userText}
               </p>
@@ -242,7 +213,7 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
               className="bg-blue-500/10 text-blue-400 font-semibold text-xs min-w-8 w-8 h-8 rounded-full hover:bg-blue-500/20 transition-all flex items-center justify-center"
               onClick={handleRunInAIStudio}
             >
-              <FaPlay size={10} />
+              <FaPlay size={12} />
             </Button>
           </Tooltip>
         </div>

@@ -2,10 +2,11 @@ import { promises as fs } from 'fs';
 import path from 'path';
 import { GeminiPrompt } from '@/schema/prompt';
 import { Button, Chip, Card, CardBody } from "@heroui/react";
-import { FaCopy, FaExternalLinkAlt, FaTwitter, FaGithub, FaReddit, FaDiscord, FaGlobe } from "react-icons/fa";
+import { FaExternalLinkAlt, FaTwitter, FaGithub, FaReddit, FaDiscord, FaGlobe } from "react-icons/fa";
 import { SiGoogle } from "react-icons/si";
 import Link from 'next/link';
 import PromptGrid from '@/components/PromptGrid';
+import CopyButton from '@/components/CopyButton';
 
 export const revalidate = 0;
 
@@ -112,7 +113,6 @@ export default async function PromptDetailPage(props: PageProps) {
           >
             Open in {prompt.author?.platform || 'Source'}
           </Button>
-          {/* We can add a Copy button here with client component wrapper if needed */}
         </div>
 
         {/* Content */}
@@ -124,7 +124,11 @@ export default async function PromptDetailPage(props: PageProps) {
                 System Instructions
               </h3>
               <Card className="bg-zinc-900/50 border border-white/10 backdrop-blur-sm">
-                <CardBody className="p-0">
+                <CardBody className="p-0 relative group">
+                  <CopyButton 
+                    text={prompt.systemInstruction.parts.map(p => p.text).join('\n')} 
+                    className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity" 
+                  />
                   <pre className="p-6 overflow-x-auto text-sm font-mono text-zinc-300 whitespace-pre-wrap">
                     {prompt.systemInstruction.parts.map(p => p.text).join('\n')}
                   </pre>
@@ -140,7 +144,11 @@ export default async function PromptDetailPage(props: PageProps) {
                 {content.role === 'user' ? 'User Prompt' : 'Model Response'}
               </h3>
               <Card className="bg-zinc-900/50 border border-white/10 backdrop-blur-sm">
-                <CardBody className="p-0">
+                <CardBody className="p-0 relative group">
+                  <CopyButton 
+                     text={content.parts.map(p => p.text).join('\n')} 
+                     className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity"
+                  />
                   <pre className="p-6 overflow-x-auto text-sm font-mono text-zinc-300 whitespace-pre-wrap">
                     {content.parts.map(p => p.text).join('\n')}
                   </pre>
