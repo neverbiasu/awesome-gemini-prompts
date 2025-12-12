@@ -1,6 +1,6 @@
 "use client";
 
-import { Select, SelectItem } from "@heroui/react";
+import { Select, SelectItem } from "@heroui/select";
 import { useRouter, useSearchParams } from "next/navigation";
 
 const SORT_OPTIONS = [

@@ -1,7 +1,15 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  transpilePackages: [
+    '@heroui/react',
+    '@heroui/system',
+    '@heroui/theme',
+    '@react-aria/visually-hidden'
+  ],
+  experimental: {
+    optimizePackageImports: ['@heroui/react'],
+  },
 };
 
 export default nextConfig;

@@ -1,6 +1,7 @@
 "use client";
 
-import { Button, Input } from "@heroui/react";
+import { Button } from "@heroui/button";
+import { Input } from "@heroui/input";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useState, useEffect } from "react";

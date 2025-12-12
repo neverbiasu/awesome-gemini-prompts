@@ -1,7 +1,9 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import { GeminiPrompt } from '@/schema/prompt';
-import { Button, Chip, Card, CardBody } from "@heroui/react";
+import { Button } from "@heroui/button";
+import { Chip } from "@heroui/chip";
+import { Card, CardBody } from "@heroui/card";
 import { FaExternalLinkAlt, FaTwitter, FaGithub, FaReddit, FaDiscord, FaGlobe } from "react-icons/fa";
 import { SiGoogle } from "react-icons/si";
 import Link from 'next/link';
@@ -102,7 +104,7 @@ export default async function PromptDetailPage(props: PageProps) {
         {/* Actions */}
         <div className="flex flex-wrap gap-4 mb-12">
           <Button 
-            as={Link}
+            as="a"
             href={prompt.originalSourceUrl || '#'}
             target="_blank"
             color="primary"

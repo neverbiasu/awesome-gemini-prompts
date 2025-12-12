@@ -1,7 +1,9 @@
 "use client";
 
 import { useState } from "react";
-import { Card, CardHeader, CardBody, CardFooter, Button, Tooltip } from "@heroui/react";
+import { Card, CardHeader, CardBody, CardFooter } from "@heroui/card";
+import { Button } from "@heroui/button";
+import { Tooltip } from "@heroui/tooltip";
 import { GeminiPrompt } from "../schema/prompt";
 import { FaGithub, FaReddit, FaDiscord, FaGlobe, FaCopy, FaCheck, FaExternalLinkAlt, FaPlay, FaTwitter, FaExpand } from "react-icons/fa";
 import { SiGoogle } from "react-icons/si";
@@ -172,16 +174,16 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
           
           {/* View Details */}
           <Tooltip content="View Details" placement="top" offset={10} className="z-50">
-            <Button
-              isIconOnly
-              as={Link}
-              href={`/prompt/${prompt.id}`}
-              size="sm"
-              variant="light"
-              className="text-zinc-500 hover:text-white min-w-8 w-8 h-8"
-            >
-              <FaExpand size={14} />
-            </Button>
+            <Link href={`/prompt/${prompt.id}`} className="block">
+              <Button
+                isIconOnly
+                size="sm"
+                variant="light"
+                className="text-zinc-500 hover:text-white min-w-8 w-8 h-8"
+              >
+                <FaExpand size={14} />
+              </Button>
+            </Link>
           </Tooltip>
 
           {/* Source Link */}

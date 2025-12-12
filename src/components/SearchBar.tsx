@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
-import { Input } from "@heroui/react";
+import { Input } from "@heroui/input";
 import { FaSearch } from "react-icons/fa";
 import { useRouter, useSearchParams } from "next/navigation";
 import { useDebounce } from "@/hooks/useDebounce"; // We'll need to create this hook or implement debounce inline

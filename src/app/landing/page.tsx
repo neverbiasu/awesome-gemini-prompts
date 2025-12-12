@@ -1,7 +1,7 @@
 "use client";
 
 import Link from 'next/link';
-import { Button } from '@heroui/react';
+import { Button } from '@heroui/button';
 
 export default function LandingPage() {
   return (

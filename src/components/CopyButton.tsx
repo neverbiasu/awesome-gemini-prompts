@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import { Button, Tooltip } from "@heroui/react";
+import { Button } from "@heroui/button";
+import { Tooltip } from "@heroui/tooltip";
 import { FaCheck, FaCopy } from "react-icons/fa";
 
 interface CopyButtonProps {
