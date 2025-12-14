@@ -61,6 +61,9 @@ export interface GeminiPrompt {
     platform?: "Reddit" | "GitHub" | "Discord" | "UserSubmission" | "Google" | "Twitter";
   };
   originalSourceUrl?: string; // Link to original post
+  
+  // Modality Support (e.g., text, image, video, audio)
+  modality?: Array<"text" | "image" | "video" | "audio">;
 
   // Gemini Native API Structure
   // 1. System Instruction: Stored separately
@@ -122,6 +125,8 @@ export const GeminiPromptZodSchema = z.object({
   }).optional(),
   
   originalSourceUrl: z.string().url().optional(),
+  
+  modality: z.array(z.enum(["text", "image", "video", "audio"])).optional(),
 
   systemInstruction: z.object({
     parts: z.array(z.object({ text: z.string() }))

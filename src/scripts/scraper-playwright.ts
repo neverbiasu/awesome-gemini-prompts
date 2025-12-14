@@ -146,9 +146,25 @@ async function extractTweetsFromPage(page: any, username: string) {
     for (const tweetEl of tweetElements) {
         const text = await tweetEl.locator('[data-testid="tweetText"]').innerText().catch(() => '');
         
-        // In search mode, we trust the query, so we relax the extraction filter slightly
-        // But we still want to ensure it looks like a prompt
-        const promptText = extractPromptFromText(text) || text; // Fallback to full text if searching
+        // Detect Images
+        const photo = await tweetEl.locator('[data-testid="tweetPhoto"]').first();
+        const hasImage = await photo.count() > 0;
+        let imageUrl = '';
+        if (hasImage) {
+             imageUrl = await photo.locator('img').getAttribute('src').catch(() => '') || '';
+        }
+
+        // In search mode or for images, we relax the extraction filter
+        let promptText = extractPromptFromText(text);
+
+        // If it's an image post, the text itself IS often the prompt (or description of it)
+        // So if we have an image, and no "Prompt:" keyword, we assume the whole text is relevant
+        if (!promptText && hasImage && text.length > 10) {
+            promptText = text;
+        } else if (!promptText) {
+             // Fallback to full text if searching (legacy behavior)
+             promptText = text; 
+        }
 
         if (promptText && text.length > 20) { // Basic noise filter
              // Extract Likes
@@ -196,10 +212,15 @@ async function extractTweetsFromPage(page: any, username: string) {
                   originalSourceUrl: `https://twitter.com${link}`,
                   contents: [{
                       role: 'user',
-                      parts: [{ text: promptText }]
+                      parts: [
+                        { text: promptText },
+                        // Add image if present (as a text note for now, or structured if schema supports)
+                        ...(imageUrl ? [{ text: `[Image Attachment: ${imageUrl}]` }] : [])
+                      ]
                   }],
                   stats: { views: 0, likes: likes, copies: 0 },
-                  compatibleModels: ["gemini-2.5-flash"], // Default, will be refined by LLM
+                  compatibleModels: ["gemini-2.5-flash"],
+                  modality: hasImage ? ['image'] : ['text'],
                   createdAt: timestamp || new Date().toISOString(),
                   updatedAt: new Date().toISOString()
               });

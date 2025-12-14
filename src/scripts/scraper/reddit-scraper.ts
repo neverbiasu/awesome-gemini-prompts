@@ -1,132 +1,116 @@
-import Parser from 'rss-parser';
+const SUBREDDITS = [
+    'GoogleGeminiAI', 'GeminiAI', 'GoogleGemini', 'Bard', 'ChatGPT_Gemini', 'PromptEngineering', // Text
+    'GeminiNanoBanana2', 'StableDiffusion', 'GeminiNanoBanana', 'NanoBanana_AI', 'generativeAI', // Image
+];
 
-// Initialize RSS Parser
-const parser = new Parser({
-  timeout: 5000,
-  headers: {
-    'User-Agent': 'GeminiPromptScraper/1.0 (RSS)'
-  }
-});
-
-const SUBREDDITS = ['GoogleGeminiAI', 'GeminiAI', 'GoogleGemini', 'Bard', 'ChatGPT_Gemini', 'PromptEngineering', 'nanobanana', 'GeminiNanoBanana2'];
-const FLAIRS = ['Prompt', 'Share', 'Resource', 'Guide', 'Educational', 'Tip'];
-const KEYWORDS = ['prompt', 'system instruction', 'act as a', 'you are a'];
+// Keywords for "Text Search" within subreddits
+const KEYWORDS = ['prompt', 'system instruction', 'style', 'workflow', 'generation', 'nano banana'];
 
 export async function scrapeReddit(): Promise<any[]> {
-  console.log('🤖 Starting Reddit Scraper (Multi-Dimension Search Mode)...');
+  console.log('🤖 Starting Reddit Scraper (Direct JSON API Mode)...');
   
   const rawPosts: any[] = [];
   const seenUrls = new Set<string>();
 
-  // Helper to build RSS URLs
-  const buildUrl = (sub: string, query: string, sort: string, time: string = 'all') => {
-      const encodedQuery = encodeURIComponent(query);
-      return `https://www.reddit.com/r/${sub}/search.rss?q=${encodedQuery}&restrict_sr=1&sort=${sort}&t=${time}&limit=50`;
+  // Fetch helper
+  const fetchJson = async (url: string) => {
+      try {
+          // Add random delay to be respectful
+          await new Promise(r => setTimeout(r, 500 + Math.random() * 1000));
+          
+          const response = await fetch(url, {
+              headers: {
+                  'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
+              }
+          });
+          if (!response.ok) {
+              console.warn(`   ⚠️ Fetch failed ${response.status}: ${url}`);
+              return null;
+          }
+          return await response.json();
+      } catch (e) {
+          console.error(`   ❌ Network error: ${url}`);
+          return null;
+      }
   };
 
-  for (const subName of SUBREDDITS) {
-    console.log(`\n🔎 Scanning r/${subName}...`);
+  // Processing helper
+  const processPost = (post: any, subName: string, sourceLabel: string) => {
+      if (seenUrls.has(post.url)) return;
+      
+      // Extraction Check
+      const isImage = /\.(jpg|jpeg|png|webp|gif)$/i.test(post.url) || 
+                      post.domain.includes('i.redd.it') || 
+                      post.domain.includes('imgur.com');
+      
+      // Gallery Logic (Available in listing JSON!)
+      const imageUrls: string[] = [];
+      if (isImage) {
+           imageUrls.push(post.url);
+      }
+      if (post.media_metadata) {
+           const mediaIds = post.gallery_data?.items?.map((i: any) => i.media_id) || Object.keys(post.media_metadata);
+           for (const mid of mediaIds) {
+               const mediaItem = post.media_metadata[mid];
+               if (mediaItem?.s?.u) {
+                   const cleanUrl = mediaItem.s.u.replace(/&amp;/g, '&');
+                   if (!imageUrls.includes(cleanUrl)) imageUrls.push(cleanUrl);
+               }
+           }
+      }
 
-    // 1. Search by Flair (High Precision)
-    for (const flair of FLAIRS) {
-        const query = `flair:"${flair}"`;
-        
-        // Strategy: Top (All Time), Top (Year), New, Hot
-        const strategies = [
-            { sort: 'top', time: 'all', label: 'Top-All' },
-            { sort: 'top', time: 'year', label: 'Top-Year' },
-            { sort: 'new', time: 'all', label: 'New' },
-            { sort: 'hot', time: 'all', label: 'Hot' }
-        ];
+      const hasContent = post.selftext && post.selftext.length > 0;
+      const isGallery = imageUrls.length > 1;
 
-        for (const strat of strategies) {
-            try {
-                const feedUrl = buildUrl(subName, query, strat.sort, strat.time);
-                await processFeed(feedUrl, subName, `${flair} [${strat.label}]`);
-            } catch (e) { /* ignore */ }
-        }
-    }
+      // Filter: Must have body OR be an image/gallery
+      if (!hasContent && imageUrls.length === 0) return;
 
-    // 2. Search by Keyword (Broad Discovery)
-    for (const keyword of KEYWORDS) {
-        // Strategy: Top (All Time) only for keywords to avoid noise
-        try {
-            const feedUrl = buildUrl(subName, keyword, 'top', 'all');
-            await processFeed(feedUrl, subName, `Keyword: "${keyword}"`);
-        } catch (e) { /* ignore */ }
-    }
+      if (imageUrls.length > 0) {
+          console.log(`   📸 [${subName}] Found Image/Gallery (${imageUrls.length} imgs): ${post.title.substring(0, 40)}...`);
+      }
+
+      seenUrls.add(post.url);
+      rawPosts.push({
+          source: 'reddit',
+          subreddit: subName,
+          flair: post.link_flair_text || sourceLabel,
+          title: post.title,
+          content: post.selftext || post.title,
+          url: post.url,
+          imageUrls: imageUrls,
+          author: post.author,
+          date: new Date(post.created_utc * 1000).toISOString(),
+          stats: {
+              upvotes: post.ups,
+              comments: post.num_comments
+          },
+          modality: imageUrls.length > 0 ? ['image'] : ['text']
+      });
+  };
+
+  // Main Loop
+  for (const sub of SUBREDDITS) {
+      console.log(`\n🔎 Scanning r/${sub}...`);
+      
+      // 1. Hot (Default Listing)
+      const hotData = await fetchJson(`https://www.reddit.com/r/${sub}/hot.json?limit=25`);
+      if (hotData?.data?.children) {
+          hotData.data.children.forEach((child: any) => processPost(child.data, sub, 'Hot'));
+      }
+
+      // 2. Top Month (High Quality)
+      const topData = await fetchJson(`https://www.reddit.com/r/${sub}/top.json?t=month&limit=25`);
+      if (topData?.data?.children) {
+          topData.data.children.forEach((child: any) => processPost(child.data, sub, 'Top-Month'));
+      }
+
+      // 3. Search (Specific Keywords) - Optional, can be verbose
+      // const searchUrl = `https://www.reddit.com/r/${sub}/search.json?q=prompt&restrict_sr=1&sort=relevance&t=month&limit=10`;
+      // const searchData = await fetchJson(searchUrl);
+      // if (searchData?.data?.children) {
+      //     searchData.data.children.forEach((child: any) => processPost(child.data, sub, 'Search-Prompt'));
+      // }
   }
 
   return rawPosts;
-
-  async function processFeed(feedUrl: string, subName: string, sourceLabel: string) {
-    try {
-        console.log(`   Fetching RSS: r/${subName} - ${sourceLabel}`);
-        
-        const feed = await parser.parseURL(feedUrl);
-        if (feed.items.length > 0) {
-            console.log(`   Found ${feed.items.length} entries in r/${subName} [${sourceLabel}]`);
-        }
-
-        // Process items in batches to improve speed while respecting rate limits
-        const BATCH_SIZE = 5;
-        for (let i = 0; i < feed.items.length; i += BATCH_SIZE) {
-            const batch = feed.items.slice(i, i + BATCH_SIZE);
-            await Promise.all(batch.map(async (item) => {
-                if (!item.title || !item.link) return;
-                
-                // Dedup
-                if (seenUrls.has(item.link)) return;
-                seenUrls.add(item.link);
-
-                try {
-                    const jsonUrl = item.link.endsWith('/') ? `${item.link}.json` : `${item.link}/.json`;
-                    
-                    // Small random delay to avoid exact simultaneous hits
-                    await new Promise(resolve => setTimeout(resolve, Math.random() * 500));
-
-                    const response = await fetch(jsonUrl, {
-                        signal: AbortSignal.timeout(5000),
-                        headers: {
-                            'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
-                        }
-                    });
-
-                    if (!response.ok) return;
-
-                    const data = await response.json();
-                    const postData = data[0]?.data?.children?.[0]?.data;
-
-                    if (!postData) return;
-                    
-                    // Quality Check: Must have selftext (body)
-                    if (!postData.selftext) return;
-
-                    rawPosts.push({
-                        source: 'reddit',
-                        subreddit: subName,
-                        flair: sourceLabel,
-                        title: postData.title,
-                        content: postData.selftext, 
-                        url: postData.url || item.link,
-                        author: postData.author,
-                        date: new Date(postData.created_utc * 1000).toISOString(),
-                        stats: {
-                            upvotes: postData.ups,
-                            comments: postData.num_comments
-                        }
-                    });
-
-                } catch (err: any) {
-                    // Silent fail for individual items
-                }
-            }));
-            
-            // Small delay between batches
-            await new Promise(resolve => setTimeout(resolve, 500));
-        }
-    } catch (error: any) {
-        // Silent fail for feeds
-    }
-  }
 }
