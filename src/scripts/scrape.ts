@@ -15,8 +15,8 @@ async function main() {
   await fs.mkdir(DATA_DIR, { recursive: true });
 
   // 2. Run Scrapers
-  console.log('🕷️  Scraping Google AI Gallery...');
-  await scrapeGoogleGallery();
+  // console.log('🕷️  Scraping Google AI Gallery...');
+  // await scrapeGoogleGallery();
   // Note: google-gallery-scraper saves directly to data/google_gallery.json
 
   console.log('🕷️  Scraping GitHub...');

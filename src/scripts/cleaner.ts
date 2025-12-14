@@ -94,7 +94,7 @@ export async function cleanPromptsWithLLM(rawPrompts: any[]): Promise<GeminiProm
         batchIndex: p.batchIndex,
         source: p.source,
         title: p.title,
-        text: p.selftext || p.description || p.promptText || p.contents?.[0]?.parts?.[0]?.text || "",
+        text: p.content || p.selftext || p.description || p.promptText || p.contents?.[0]?.parts?.[0]?.text || p.title || "",
         url: p.url || p.originalSourceUrl
     }));
 
@@ -136,53 +136,50 @@ export async function cleanPromptsWithLLM(rawPrompts: any[]): Promise<GeminiProm
         cleanedBatch = result.object;
 
       } else if (useModelScope) {
-         // ModelScope (DeepSeek) via Raw Fetch
-         console.log("      🚀 Sending request to ModelScope...");
-         const response = await fetch("https://api-inference.modelscope.cn/v1/chat/completions", {
-            method: "POST",
-            headers: {
-               "Content-Type": "application/json",
-               "Authorization": `Bearer ${modelScopeApiKey}`
-            },
-            body: JSON.stringify({
-               model: "deepseek-ai/DeepSeek-V3.2",
-               messages: [
-                  { role: "system", content: "You are a data cleaning assistant. Respond with valid JSON only." },
-                  { role: "user", content: `
-                    Extract structured Gemini Prompts from the following raw data.
-                    
-                    OUTPUT SCHEMA (JSON):
-                    {
-                      "prompts": [
-                        {
-                          "batchIndex": number,
-                          "title": string,
-                          "description": string,
-                          "systemInstruction": string (optional),
-                          "userPrompt": string,
-                          "tags": string[],
-                          "compatibleModels": string[],
-                          "safetySettings": object[] (optional),
-                          "confidenceScore": number,
-                          "reasoning": string
-                        }
-                      ]
-                    }
+          // ModelScope (Qwen) via Raw Fetch
+          console.log("      🚀 Sending request to ModelScope (Qwen/Qwen2.5-72B-Instruct)...");
+          const response = await fetch("https://api-inference.modelscope.cn/v1/chat/completions", {
+             method: "POST",
+             headers: {
+                "Content-Type": "application/json",
+                "Authorization": `Bearer ${modelScopeApiKey}`
+             },
+             body: JSON.stringify({
+                model: "Qwen/Qwen2.5-72B-Instruct",
+                messages: [
+                   { role: "system", content: "You are a helpful assistant. Extract prompts from the data and output valid JSON." },
+                   { role: "user", content: `
+                     EXTRACT PROMPTS FROM THIS RAW LIST.
+                     
+                     For each item in 'RAW DATA':
+                     1. If it contains a usable AI Prompt (for image/text), extract it.
+                     2. If it's just a question or discussion, IGNORE it.
+                     3. Return the exact 'batchIndex'.
 
-                    RULES:
-                    1. Extract verbatim.
-                    2. Discard garbage.
-                    3. Tags: 3 lowercase tags.
-                    4. Infer compatible models.
-                    
-                    RAW DATA:
-                    ${JSON.stringify(minifiedBatch)}
-                  ` }
-               ],
-               temperature: 0.1,
-               response_format: { type: "json_object" }
-            })
-         });
+                     OUTPUT FORMAT (Must be valid JSON):
+                     {
+                       "prompts": [
+                         {
+                           "batchIndex": 0,
+                           "title": "Short title",
+                           "description": "Original text or summary",
+                           "userPrompt": "The exact prompt text",
+                           "tags": ["tag1", "tag2", "tag3"],
+                           "compatibleModels": ["gemini-2.5-flash"],
+                           "confidenceScore": 0.9,
+                           "reasoning": "Valid prompt found"
+                         }
+                       ]
+                     }
+
+                     RAW DATA:
+                     ${JSON.stringify(minifiedBatch)}
+                   ` }
+                ],
+                temperature: 0.1,
+                response_format: { type: "json_object" }
+             })
+          });
 
          console.log(`      📩 Received response: ${response.status} ${response.statusText}`);
 
@@ -195,10 +192,13 @@ export async function cleanPromptsWithLLM(rawPrompts: any[]): Promise<GeminiProm
          let rawContent = data.choices?.[0]?.message?.content || "";
          
          console.log(`      📝 Raw content length: ${rawContent.length}`);
-         if (rawContent.length < 100) console.log(`      Excerpt: ${rawContent}`);
-
-         // Remove markdown code blocks if present
-         rawContent = rawContent.replace(/```json\n?|\n?```/g, "").trim();
+         // Robust JSON Extraction: Find first '{' and last '}'
+         const firstOpen = rawContent.indexOf('{');
+         const lastClose = rawContent.lastIndexOf('}');
+         
+         if (firstOpen !== -1 && lastClose !== -1 && lastClose > firstOpen) {
+             rawContent = rawContent.substring(firstOpen, lastClose + 1);
+         }
 
          try {
             cleanedBatch = JSON.parse(rawContent);

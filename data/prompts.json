@@ -22409,5 +22409,5706 @@
     },
     "createdAt": "2025-04-10T08:00:06.000Z",
     "updatedAt": "2025-12-11T22:24:42.376Z"
+  },
+  {
+    "id": "26f63402-9b6b-4d17-a5c1-2353380e943c",
+    "title": "Story_Writing_with_Prompt_Chaining.ipynb",
+    "description": "Notebook example",
+    "tags": [
+      "code"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "See notebook"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "google-gemini",
+      "platform": "GitHub"
+    },
+    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/95f891fa96e88822e9e035926d3860208bdf46ae/examples/Story_Writing_with_Prompt_Chaining.ipynb",
+    "createdAt": "2025-12-14T17:49:17.274Z"
+  },
+  {
+    "id": "github-issue-11",
+    "title": "生成3D风格电影场面",
+    "description": "输入电影系列名称/演员名称 开始本流程",
+    "tags": [
+      "nano-banana",
+      "community-submission",
+      "image-generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Title\n\n生成3D风格电影场面"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/11",
+    "author": {
+      "name": "Aisukora",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/11",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-09T03:54:33Z",
+    "updatedAt": "2025-12-09T09:49:17Z"
+  },
+  {
+    "id": "github-issue-9",
+    "title": "test prompt title",
+    "description": "test desc",
+    "tags": [
+      "nano-banana",
+      "community-submission",
+      "image-generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Title\n\ntest prompt title"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://x.com/jaredliu_bravo/status/1991918514752667782",
+    "author": {
+      "name": "Jaredddd",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/9",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-07T05:11:22Z",
+    "updatedAt": "2025-12-07T05:11:51Z"
+  },
+  {
+    "id": "github-issue-8",
+    "title": "test title",
+    "description": "test description",
+    "tags": [
+      "nano-banana",
+      "community-submission",
+      "image-generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Title\n\ntest title"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/8",
+    "author": {
+      "name": "Jared Liu",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/8",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-07T04:55:13Z",
+    "updatedAt": "2025-12-07T04:55:36Z"
+  },
+  {
+    "id": "github-issue-7",
+    "title": "test",
+    "description": "test",
+    "tags": [
+      "nano-banana",
+      "community-submission",
+      "image-generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Title\n\ntest"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/7",
+    "author": {
+      "name": "Jared",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/7",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-07T04:25:22Z",
+    "updatedAt": "2025-12-07T04:30:02Z"
+  },
+  {
+    "id": "github-issue-6",
+    "title": "test",
+    "description": "testtttt",
+    "tags": [
+      "nano-banana",
+      "community-submission",
+      "image-generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Title\n\ntest"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/6",
+    "author": {
+      "name": "Jared",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/6",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-07T04:16:00Z",
+    "updatedAt": "2025-12-07T04:16:20Z"
+  },
+  {
+    "id": "github-issue-5",
+    "title": "Test Prompt",
+    "description": "test 4 test",
+    "tags": [
+      "nano-banana",
+      "community-submission",
+      "image-generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Title\n\nTest Prompt"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/5",
+    "author": {
+      "name": "me",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/5",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-07T04:07:20Z",
+    "updatedAt": "2025-12-07T04:07:33Z"
+  },
+  {
+    "id": "github-issue-4",
+    "title": "瓦楞纸艺术作品框格展示",
+    "description": "它用于让模型精准生成一张“全瓦楞纸材质、3×4 分格、每格展示不同纸艺工具”的结构化手工艺术照片。适用于纸艺展示或需要统一材质与严格构图的视觉创作场景。",
+    "tags": [
+      "nano-banana",
+      "community-submission",
+      "image-generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Title\n\n瓦楞纸艺术作品框格展示"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://x.com/NyCEiUpc7kj4SbO/status/1997296010297741458",
+    "author": {
+      "name": "鹜辰",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/4",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-06T15:25:58Z",
+    "updatedAt": "2025-12-07T05:49:15Z"
+  },
+  {
+    "id": "74f59b30-0ff6-44c0-9ffc-ffe60094ae06",
+    "title": "Nanobanana pro is dope 🔥🔥🔥",
+    "description": "A post featuring an image of the Nanobanana pro.",
+    "tags": [
+      "image",
+      "product",
+      "nanobanana"
+    ],
+    "compatibleModels": [
+      "imagen-4.0-generate-preview-06-06",
+      "imagen-4.0-ultra-generate-preview-06-06",
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create an image of the Nanobanana pro looking impressive and vibrant."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "weScaleLateGameGG",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/yld94olzai2g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 267
+    },
+    "createdAt": "2025-11-21T00:41:55.000Z",
+    "updatedAt": "2025-12-14T20:02:32.295Z"
+  },
+  {
+    "id": "97e88703-adac-4be0-b9d9-3a928f42d50a",
+    "title": "How to copy the viral Polaroid trend (you and your younger self)",
+    "description": "A guide on how to recreate the viral Polaroid trend featuring you and your younger self.",
+    "tags": [
+      "image",
+      "polaroid",
+      "trend"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a Polaroid-style image showing a person and their younger self side by side."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "OverFlow10",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1nuejlj",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 233
+    },
+    "createdAt": "2025-09-30T14:22:17.000Z",
+    "updatedAt": "2025-12-14T20:02:32.295Z"
+  },
+  {
+    "id": "6fccb232-c9ce-43ea-9198-17473d606426",
+    "title": "𝐠𝐞𝐦𝐢𝐧𝐢-𝟐.𝟓-𝐩𝐫𝐨-𝐩𝐫𝐞𝐯𝐢𝐞𝐰-𝟎𝟓-𝟎𝟔 blew my mind with how well it understands code architecture",
+    "description": "A post discussing the impressive understanding of code architecture by gemini-2.5-pro-preview-05-06.",
+    "tags": [
+      "text",
+      "code",
+      "architecture"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro",
+      "gemini-3-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Explain how gemini-2.5-pro-preview-05-06 understands code architecture."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "NoAd5720",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/q42nktp0dbze1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 167
+    },
+    "createdAt": "2025-05-07T07:41:21.000Z",
+    "updatedAt": "2025-12-14T20:02:32.295Z"
+  },
+  {
+    "id": "834f4786-d7ec-4dc9-bf62-696cd3889b84",
+    "title": "Nano Banana 3D Figurine Image Prompt that’s blowing up online right now (step-by-step)",
+    "description": "A step-by-step image prompt for creating a Nano Banana 3D figurine.",
+    "tags": [
+      "3d modeling",
+      "nano banana",
+      "figurine"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a 3D figurine of a nano banana using a step-by-step process."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "tipseason",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1ng6dwa/nano_banana_3d_figurine_image_prompt_thats/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 121
+    },
+    "createdAt": "2025-09-13T19:25:19.000Z",
+    "updatedAt": "2025-12-14T20:02:49.556Z"
+  },
+  {
+    "id": "506af093-6823-413f-b468-576a6a2f6ff2",
+    "title": "I started using John Oliver's comedy structure for Gemini prompts and now everything sounds brilliantly unhinged",
+    "description": "A user shares their experience of using John Oliver's comedy structure to create Gemini prompts, resulting in hilariously unhinged responses.",
+    "tags": [
+      "comedy",
+      "structure",
+      "unhinged"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Use John Oliver's comedy structure to generate a response that is brilliantly unhinged."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "EQ4C",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1p4tblg/i_started_using_john_olivers_comedy_structure_for/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 80
+    },
+    "createdAt": "2025-11-23T18:00:31.000Z",
+    "updatedAt": "2025-12-14T20:03:29.015Z"
+  },
+  {
+    "id": "a1597dd7-896e-4905-bb55-82ddb80fdd9a",
+    "title": "This prompt will make Gemini pull from your previous conversations like ChatGPT does",
+    "description": "A user shares a prompt that makes Gemini reference previous conversations similar to how ChatGPT operates.",
+    "tags": [
+      "previous conversations",
+      "contextual",
+      "chatgpt"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Make Gemini pull from your previous conversations like ChatGPT does."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Daedalus_32",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1kihs8j/this_prompt_will_make_gemini_pull_from_your/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 78
+    },
+    "createdAt": "2025-05-09T12:54:59.000Z",
+    "updatedAt": "2025-12-14T20:03:29.015Z"
+  },
+  {
+    "id": "748a2ff5-2d95-41f6-b251-056ca04464e2",
+    "title": "Gem to create Exceptional Prompts",
+    "description": "A post about using Gemini to create exceptional prompts.",
+    "tags": [
+      "prompt-creation",
+      "creativity",
+      "storytelling"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create an exceptional prompt for generating a detailed and creative story."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Dearmist",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1nvdc19/gem_to_create_exceptional_prompts/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 71
+    },
+    "createdAt": "2025-10-01T16:42:34.000Z",
+    "updatedAt": "2025-12-14T20:03:38.573Z"
+  },
+  {
+    "id": "ce05b837-bc57-4560-a45d-196a189ddd6d",
+    "title": "My 10 Go To Professional Photography & Portrait Enhancement Google Nano Banana Prompts",
+    "description": "A list of professional photography and portrait enhancement prompts for Google Nano Banana.",
+    "tags": [
+      "photography",
+      "portrait",
+      "enhancement"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "My 10 Go To Professional Photography & Portrait Enhancement Google Nano Banana Prompts"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "EQ4C",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1nhdn1a/my_10_go_to_professional_photography_portrait/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 63
+    },
+    "createdAt": "2025-09-15T05:40:36.000Z",
+    "updatedAt": "2025-12-14T20:03:57.316Z"
+  },
+  {
+    "id": "e919e8da-6372-4be7-ad8e-140d7bd8053c",
+    "title": "I asked AI to generate banana eating itself and it went wrong",
+    "description": "A user requested an AI to generate an image of a banana eating itself, but the result was not as expected.",
+    "tags": [
+      "image generation",
+      "ai art",
+      "banana"
+    ],
+    "compatibleModels": [
+      "imagen-4.0-generate-preview-06-06",
+      "imagen-4.0-ultra-generate-preview-06-06",
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Generate an image of a banana eating itself"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Forsaken_Biscotti609",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/jk4w8q6zdr3f1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 2654
+    },
+    "createdAt": "2025-05-29T17:49:20.000Z",
+    "updatedAt": "2025-12-14T20:04:32.956Z"
+  },
+  {
+    "id": "68347f2b-243f-4134-bb2c-0f8f44ffbca5",
+    "title": "Nano Banana gives me a 3d model made of my dog, so cool!",
+    "description": "A user shares a 3D model of their dog created using Nano Banana.",
+    "tags": [
+      "3d modeling",
+      "dog",
+      "nano banana"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a 3D model of my dog"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Patient_Prompt531",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1n3lj16",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 1016
+    },
+    "createdAt": "2025-08-29T22:41:51.000Z",
+    "updatedAt": "2025-12-14T20:04:55.831Z"
+  },
+  {
+    "id": "b62e9446-a505-4eac-b220-f801fcc8118b",
+    "title": "Gemini-generated versions of my sketches",
+    "description": "A user shares Gemini-generated versions of their sketches.",
+    "tags": [
+      "sketches",
+      "art"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Generate versions of my sketches"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GroundbreakingDay317",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1ncg2vd",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 641
+    },
+    "createdAt": "2025-09-09T11:16:50.000Z",
+    "updatedAt": "2025-12-14T20:04:55.831Z"
+  },
+  {
+    "id": "3bb062f0-fed6-4a81-b977-ec95246313c3",
+    "title": "Grab This nano banana prompt",
+    "description": "A prompt related to creating a nano banana image or concept.",
+    "tags": [
+      "nano",
+      "banana",
+      "image"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a nano banana"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "amanj203",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/fbchop3t2vuf1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 490
+    },
+    "createdAt": "2025-10-13T11:05:59.000Z",
+    "updatedAt": "2025-12-14T20:05:08.068Z"
+  },
+  {
+    "id": "fc98aba2-c683-4ed6-a368-2013448cf54d",
+    "title": "Example of nanobanana following instructions written directly on the image.",
+    "description": "An example where instructions are written directly on an image for a nanobanana.",
+    "tags": [
+      "image",
+      "nanobanana",
+      "instructions"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create an image of a nanobanana following instructions written directly on the image."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "EatmyleadMD",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1naslb7",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 269
+    },
+    "createdAt": "2025-09-07T13:00:54.000Z",
+    "updatedAt": "2025-12-14T20:05:36.445Z"
+  },
+  {
+    "id": "0515bd76-abe9-48de-9753-81cf7d605636",
+    "title": "I put my partner and me together with photos of when we were children",
+    "description": "A composite image of the user and their partner as children.",
+    "tags": [
+      "image",
+      "composite",
+      "childhood"
+    ],
+    "compatibleModels": [
+      "imagen-4.0-generate-preview-06-06",
+      "imagen-4.0-ultra-generate-preview-06-06",
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a composite image of me and my partner using our childhood photos."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "mikuujan",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/6bq6uehy7uof1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 248
+    },
+    "createdAt": "2025-09-13T01:47:37.000Z",
+    "updatedAt": "2025-12-14T20:05:36.445Z"
+  },
+  {
+    "id": "1409f8d4-aba7-4724-9f10-1525107d8dda",
+    "title": "Nanao Banana Pro is seriously next level",
+    "description": "An image showcasing the Nanao Banana Pro.",
+    "tags": [
+      "image",
+      "nanao banana pro",
+      "product"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create an image showcasing the Nanao Banana Pro."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Inevitable_Gur_461",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/os22n4q0er3g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 241
+    },
+    "createdAt": "2025-11-27T08:18:24.000Z",
+    "updatedAt": "2025-12-14T20:05:36.445Z"
+  },
+  {
+    "id": "17a81e2f-7a10-496b-96bd-5063e48714d2",
+    "title": "Generate 2000s vibe photos",
+    "description": "Original text or summary",
+    "tags": [
+      "2000s",
+      "vibe",
+      "photos"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Generate 2000s vibe photos"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "AndrewJumpen",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1n7g68q",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 222
+    },
+    "createdAt": "2025-09-03T14:22:27.000Z",
+    "updatedAt": "2025-12-14T20:05:45.013Z"
+  },
+  {
+    "id": "31670730-5e4c-4b82-8421-90dce866f9f7",
+    "title": "This prompt can teach you almost everything",
+    "description": "A prompt that claims to teach almost everything.",
+    "tags": [
+      "education",
+      "learning"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "This prompt can teach you almost everything"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "speak2klein",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/PromptEngineering/comments/1l3yutb/this_prompt_can_teach_you_almost_everything/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 206
+    },
+    "createdAt": "2025-06-05T13:12:49.000Z",
+    "updatedAt": "2025-12-14T20:08:46.468Z"
+  },
+  {
+    "id": "adb91eca-96c0-4ed9-8d9d-55a1de7de607",
+    "title": "The ONLY Editor Prompt You'll Ever Need: Transform Amateur Writing to Professional in Seconds",
+    "description": "A prompt that claims to transform amateur writing into professional quality in seconds.",
+    "tags": [
+      "writing",
+      "editing",
+      "professional"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Transform this amateur writing into professional quality: [Insert text here]"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Kai_ThoughtArchitect",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/PromptEngineering/comments/1jvsky4/the_only_editor_prompt_youll_ever_need_transform/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 155
+    },
+    "createdAt": "2025-04-10T08:00:06.000Z",
+    "updatedAt": "2025-12-14T20:09:05.035Z"
+  },
+  {
+    "id": "55a0f975-7191-4f7f-afa5-6bf856384029",
+    "title": "Here's a prompt to help solve your toughest problems and give you a strategic action plan that combines 4 thinking models - First-Principles, Second-Order Thinking, Root Cause Analysis, & the OODA Loop",
+    "description": "A prompt designed to help solve complex problems using a combination of four thinking models: First-Principles, Second-Order Thinking, Root Cause Analysis, and the OODA Loop.",
+    "tags": [
+      "problem-solving",
+      "strategic-thinking",
+      "prompt-engineering"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro",
+      "gemini-3-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Here's a prompt to help solve your toughest problems and give you a strategic action plan that combines 4 thinking models - First-Principles, Second-Order Thinking, Root Cause Analysis, & the OODA Loop"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Beginning-Willow-801",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/PromptEngineering/comments/1ma7f00/heres_a_prompt_to_help_solve_your_toughest/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 96
+    },
+    "createdAt": "2025-07-26T23:24:39.000Z",
+    "updatedAt": "2025-12-14T20:09:26.030Z"
+  },
+  {
+    "id": "b06f42d4-cd59-44a7-863c-e1447ee53e65",
+    "title": "God's Favorite (Prompt Included)",
+    "description": "A prompt for generating an image or text related to 'God's Favorite'.",
+    "tags": [
+      "religious",
+      "art"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "God's Favorite"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "purpleburple7",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1p7b2lr",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 583
+    },
+    "createdAt": "2025-11-26T15:46:23.000Z",
+    "updatedAt": "2025-12-14T20:10:04.939Z"
+  },
+  {
+    "id": "d61da20e-4a75-435f-b5b8-8da19540fc7c",
+    "title": "I got Nano Banana Pro to summarize 2024 in one illustration",
+    "description": "A prompt for generating an illustration summarizing the year 2024.",
+    "tags": [
+      "summary",
+      "illustration",
+      "2024"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Summarize 2024 in one illustration"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "saltshaker911",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/hpqou5hixn2g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 471
+    },
+    "createdAt": "2025-11-21T19:37:21.000Z",
+    "updatedAt": "2025-12-14T20:10:04.939Z"
+  },
+  {
+    "id": "b53317bd-20d3-4826-b847-84783b60706b",
+    "title": "How to Create 3-Frame Photos with Nano Banana?",
+    "description": "Prompts Below!",
+    "tags": [
+      "image",
+      "nano banana",
+      "3-frame"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create 3-frame photos using Nano Banana"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "HealthyAsparagus503",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/a6q8h8to1nyf1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 219
+    },
+    "createdAt": "2025-11-01T12:22:47.000Z",
+    "updatedAt": "2025-12-14T20:10:31.096Z"
+  },
+  {
+    "id": "0cd4a6d9-86e0-40d5-821f-c0352b2b17ed",
+    "title": "It's amazing how far you can go from a black and white picture with AI",
+    "description": "It's amazing how far you can go from a black and white picture with AI",
+    "tags": [
+      "colorization",
+      "image enhancement"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Transform a black and white picture into a colorful, detailed image using AI"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "MisterViral",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1nuaqp1",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 161
+    },
+    "createdAt": "2025-09-30T11:34:33.000Z",
+    "updatedAt": "2025-12-14T20:10:44.535Z"
+  },
+  {
+    "id": "d6714748-93b5-4861-94db-28a6d69c52ae",
+    "title": "From mirror pic ➡️ instant camera moment!! 🤍 this AI glow-up is actually insane 😭",
+    "description": "From mirror pic ➡️ instant camera moment!! 🤍 this AI glow-up is actually insane 😭",
+    "tags": [
+      "enhancement",
+      "glow-up"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Enhance a mirror picture to look like an instant camera moment with AI glow-up"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Few-Huckleberry9656",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1oqh77k",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 155
+    },
+    "createdAt": "2025-11-07T01:25:24.000Z",
+    "updatedAt": "2025-12-14T20:10:44.535Z"
+  },
+  {
+    "id": "3f6a17d5-ecc9-430c-a433-f66c16d235c7",
+    "title": "Perfect Prompt for Image generation",
+    "description": "A perfect prompt for generating images.",
+    "tags": [
+      "image-generation",
+      "prompt-sharing",
+      "ai-art"
+    ],
+    "compatibleModels": [
+      "imagen-4.0-generate-preview-06-06",
+      "imagen-4.0-ultra-generate-preview-06-06",
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Perfect Prompt for Image generation"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "SelfOver414",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/nanobanana/comments/1ow65zg/perfect_prompt_for_image_generation/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 148
+    },
+    "createdAt": "2025-11-13T16:50:10.000Z",
+    "updatedAt": "2025-12-14T20:10:57.270Z"
+  },
+  {
+    "id": "28ce8965-5a80-4f21-a689-3c41d5a8780b",
+    "title": "I really hate when people \"gatekeep\" or don't share prompts for their generations so here's a simple custom prompt you can use to get very accurate \"Output\" prompts using an image you're trying to replicate.",
+    "description": "A simple custom prompt for replicating images accurately.",
+    "tags": [
+      "image-replication",
+      "prompt-sharing",
+      "ai-art"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "A simple custom prompt you can use to get very accurate \"Output\" prompts using an image you're trying to replicate."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Dynamicman95",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/nanobanana/comments/1p6p7ip/i_really_hate_when_people_gatekeep_or_dont_share/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 144
+    },
+    "createdAt": "2025-11-25T21:33:04.000Z",
+    "updatedAt": "2025-12-14T20:10:57.270Z"
+  },
+  {
+    "id": "0caa7a99-a734-4ed8-a27e-e0c371ab7ce7",
+    "title": "Great prompt",
+    "description": "Original text or summary",
+    "tags": [
+      "image"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Great prompt"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "wzr_1337",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/ls2j20dva14g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 159
+    },
+    "createdAt": "2025-11-28T17:38:26.000Z",
+    "updatedAt": "2025-12-14T20:11:08.543Z"
+  },
+  {
+    "id": "bc9e8f29-b84f-44cb-83ec-616e75a543ab",
+    "title": "Personal Social Media Frame Portraits",
+    "description": "I found a way to a prompt for Personal Social Media Frame Portraits",
+    "tags": [
+      "image",
+      "social media",
+      "portrait"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I found a way to a prompt for Personal Social Media Frame Portraits"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1ns9k8i",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 133
+    },
+    "createdAt": "2025-09-27T23:31:27.000Z",
+    "updatedAt": "2025-12-14T20:11:08.543Z"
+  },
+  {
+    "id": "b29c4df9-7fe8-4a4f-ba47-bfb1c2adc6ec",
+    "title": "ChatGPT for Photos",
+    "description": "AI photo studio that generates professional images through simple chat 📸",
+    "tags": [
+      "image generation",
+      "chat interface"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Generate a professional image using a simple chat interface"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Few-Huckleberry9656",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1ozrmlt",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 93
+    },
+    "createdAt": "2025-11-17T20:38:13.000Z",
+    "updatedAt": "2025-12-14T20:11:39.087Z"
+  },
+  {
+    "id": "a109e034-8ee4-4726-8012-58e4790e4435",
+    "title": "Aira Shiratori in real life step-by-step generation + prompt",
+    "description": "Aira Shiratori in real life step-by-step generation + prompt",
+    "tags": [
+      "image generation",
+      "realistic rendering"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Generate a step-by-step process to create a realistic image of Aira Shiratori"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Comprehensive_Yam259",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://v.redd.it/98eah9ropk2g1",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 95
+    },
+    "createdAt": "2025-11-21T08:48:17.000Z",
+    "updatedAt": "2025-12-14T20:11:39.087Z"
+  },
+  {
+    "id": "f3c4f97b-5ac6-4c50-a5bb-d65a6c49ad5d",
+    "title": "High-Fashion",
+    "description": "High-Fashion (prompt included)",
+    "tags": [
+      "fashion",
+      "high-fashion",
+      "image-generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "High-Fashion"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Lina_x__",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/f4zotpdumc4g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 104
+    },
+    "createdAt": "2025-11-30T07:45:12.000Z",
+    "updatedAt": "2025-12-14T20:11:59.833Z"
+  },
+  {
+    "id": "99f375b9-0301-4e9d-ac18-d6278fc300d3",
+    "title": "Red Hair",
+    "description": "A simple prompt for generating an image of red hair.",
+    "tags": [
+      "image",
+      "red hair",
+      "visual"
+    ],
+    "compatibleModels": [
+      "imagen-4.0-generate-preview-06-06",
+      "imagen-4.0-ultra-generate-preview-06-06",
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Red Hair"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "purpleburple7",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/13vq12190m2g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 80
+    },
+    "createdAt": "2025-11-21T13:08:04.000Z",
+    "updatedAt": "2025-12-14T20:12:08.211Z"
+  },
+  {
+    "id": "3a6b243e-72ca-4038-9748-5e80cb438315",
+    "title": "Master Prompt Based Off Google's Prompting Guide",
+    "description": "A master prompt created based on Google's prompting guide.",
+    "tags": [
+      "prompting",
+      "master-prompt"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I created a master prompt based off Google's prompting guide"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Smooth-Trainer3940",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/nanobanana/comments/1neamo4/i_created_a_master_prompt_based_off_googles/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 70
+    },
+    "createdAt": "2025-09-11T14:40:39.000Z",
+    "updatedAt": "2025-12-14T20:12:33.318Z"
+  },
+  {
+    "id": "d6108ca6-0aa7-41c0-85d5-50a3dfd5caf1",
+    "title": "Nano Banana Prompt for Hug My Younger Self",
+    "description": "A Nano Banana prompt for hugging your younger self.",
+    "tags": [
+      "nano-banana",
+      "hug",
+      "younger-self"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Nano Banana Prompt for Hug My Younger Self"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "owys128",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/xpao43b3xvvf1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 70
+    },
+    "createdAt": "2025-10-18T14:59:40.000Z",
+    "updatedAt": "2025-12-14T20:12:33.319Z"
+  },
+  {
+    "id": "f9363036-97cc-4a74-b325-fdce5da0b1c2",
+    "title": "JSON Prompt for Upscaling and Restoration",
+    "description": "A JSON prompt for upscaling and restoration.",
+    "tags": [
+      "json",
+      "upscaling",
+      "restoration"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "JSON prompt for upscaling and restoration"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "RedFoxPro",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1nd8isa",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 62
+    },
+    "createdAt": "2025-09-10T08:22:43.000Z",
+    "updatedAt": "2025-12-14T20:12:33.319Z"
+  },
+  {
+    "id": "ef294f54-d595-469a-8150-9a8bd90b54d2",
+    "title": "Photoshoot in the style of Victoria’s Secret",
+    "description": "How to Create Photoshoot in the style of Victoria’s Secret with Nano Banana Pro? Prompt Included!",
+    "tags": [
+      "photoshoot",
+      "victoria’s secret",
+      "nano banana pro"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a photoshoot in the style of Victoria’s Secret using Nano Banana Pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ThisIsCodeXpert",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1p3q806",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 58
+    },
+    "createdAt": "2025-11-22T10:41:31.000Z",
+    "updatedAt": "2025-12-14T20:12:49.297Z"
+  },
+  {
+    "id": "72f5c86d-069a-4920-9ccf-091da7fee2e9",
+    "title": "Cool Image with NanoBanana",
+    "description": "The coolest image I ever made with NanoBanana",
+    "tags": [
+      "cool image",
+      "nanobanana"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create the coolest image using NanoBanana"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Spartan_Beast_99",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/nei6u6782myf1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 61
+    },
+    "createdAt": "2025-11-01T09:06:17.000Z",
+    "updatedAt": "2025-12-14T20:12:49.297Z"
+  },
+  {
+    "id": "215433fd-9a17-43e9-be66-d0b0b12e4bda",
+    "title": "Playa + Prompt",
+    "description": "Playa + Prompt",
+    "tags": [
+      "playa",
+      "image"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create an image of Playa using the given prompt"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "fsfeds",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/vragf8j5lw3g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 60
+    },
+    "createdAt": "2025-11-28T01:47:10.000Z",
+    "updatedAt": "2025-12-14T20:12:49.297Z"
+  },
+  {
+    "id": "b847845a-5e5e-40b2-878c-033fa24bb6bd",
+    "title": "Turning a game scene into a photorealistic image",
+    "description": "User is trying to turn a game scene into a photorealistic image using various prompts, temperature, and top p settings.",
+    "tags": [
+      "image generation",
+      "photorealism",
+      "game scene"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Turning a game scene into a photorealistic image"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Donjuante",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/i7bn8z1bwrxf1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 4
+    },
+    "createdAt": "2025-10-28T03:44:22.000Z",
+    "updatedAt": "2025-12-14T20:12:58.729Z"
+  },
+  {
+    "id": "b305f1d3-77fa-4490-8f25-043dfd7bdb23",
+    "title": "Seiko Ayase",
+    "description": "Image of Seiko Ayase",
+    "tags": [
+      "character",
+      "anime",
+      "art"
+    ],
+    "compatibleModels": [
+      "imagen-4.0-generate-preview-06-06",
+      "imagen-4.0-ultra-generate-preview-06-06",
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Generate an image of Seiko Ayase"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "New_Baseball2055",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/z76o4ytwpb4g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 219
+    },
+    "createdAt": "2025-11-30T04:44:37.000Z",
+    "updatedAt": "2025-12-14T20:13:11.165Z"
+  },
+  {
+    "id": "56a3feca-32f8-4c6c-bb9a-20096d60098a",
+    "title": "Transform Photos into Characters",
+    "description": "Transform photos into 25 different characters from Pixar Dad to F1 Driver, Gunslinger, Navy Seal, and GTA criminal",
+    "tags": [
+      "transformation",
+      "characters",
+      "art styles"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Transform my photo into 25 different characters: Pixar Dad, F1 Driver, Gunslinger, Navy Seal, and GTA criminal"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Beginning-Willow-801",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1p6wbwn",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 30
+    },
+    "createdAt": "2025-11-26T02:44:53.000Z",
+    "updatedAt": "2025-12-14T20:13:11.165Z"
+  },
+  {
+    "id": "4b1a7f1f-bb48-412c-95c1-f274798a5770",
+    "title": "Drop in a reference image and turn it into a Silicone sculpture.",
+    "description": "A prompt to transform a reference image into a silicone sculpture.",
+    "tags": [
+      "image transformation",
+      "sculpture",
+      "silicone"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Drop in a reference image and turn it into a Silicone sculpture."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "DeliciousFreedom9902",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/k0txs0ws054g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 62
+    },
+    "createdAt": "2025-11-29T06:22:58.000Z",
+    "updatedAt": "2025-12-14T20:13:30.367Z"
+  },
+  {
+    "id": "51b89648-c7ff-4147-877e-f59ad93305dc",
+    "title": "Insane Nano Banana Prompt for isometric 3D render of a miniature computer",
+    "description": "A prompt for creating an isometric 3D render of a miniature computer.",
+    "tags": [
+      "3d rendering",
+      "miniature",
+      "computer"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "isometric 3D render of a miniature computer"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "tipseason",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/nanobanana/comments/1o9ova9/insane_nano_banana_prompt_for_isometric_3d_render/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 44
+    },
+    "createdAt": "2025-10-18T06:51:28.000Z",
+    "updatedAt": "2025-12-14T20:13:54.733Z"
+  },
+  {
+    "id": "a2f9c4bd-f38b-4d87-ae73-e949f959b154",
+    "title": "Image prompt to Create Instagram live screen image",
+    "description": "A prompt to create an Instagram live screen image.",
+    "tags": [
+      "image",
+      "instagram",
+      "screen"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create an Instagram live screen image"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "naviera101",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/o8wwh79c3r2g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 33
+    },
+    "createdAt": "2025-11-22T06:14:20.000Z",
+    "updatedAt": "2025-12-14T20:14:03.296Z"
+  },
+  {
+    "id": "a4d63d4f-4a77-49f4-bf8f-0e230da11e99",
+    "title": "Rainy Mood Prompt",
+    "description": "A prompt for creating a rainy mood scene.",
+    "tags": [
+      "rainy",
+      "mood",
+      "scene"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a scene with a rainy mood"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Icecreamy0",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/di9vfleub62g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 17
+    },
+    "createdAt": "2025-11-19T08:26:27.000Z",
+    "updatedAt": "2025-12-14T20:14:19.982Z"
+  },
+  {
+    "id": "ec50a998-a9a3-40d7-baa0-eb4bd35c62da",
+    "title": "Ultimate Guide to AI Figure Prompts with Nano Banana AI",
+    "description": "Mastering Gemini 2.5 Flash Image for Stunning Creations",
+    "tags": [
+      "figure prompts",
+      "nano banana ai",
+      "gemini 2.5 flash"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "AI figure prompts with Nano Banana AI for stunning creations using Gemini 2.5 Flash"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "OkExamination9896",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/nanobanana/comments/1nbjl5h/ultimate_guide_to_ai_figure_prompts_with_nano/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 14
+    },
+    "createdAt": "2025-09-08T09:58:25.000Z",
+    "updatedAt": "2025-12-14T20:14:39.065Z"
+  },
+  {
+    "id": "8e248ecb-8a5b-4d6a-87fe-ca162e5fc554",
+    "title": "Choose Your Own Adventure Prompt (Gemini \"Gem\")",
+    "description": "A prompt for creating a choose-your-own-adventure style interaction with Gemini.",
+    "tags": [
+      "interactive",
+      "storytelling",
+      "adventure"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a choose-your-own-adventure story where the user can make decisions that lead to different outcomes. Each decision should branch into new scenarios."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Vast_Friendship512",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1h7la3r/choose_your_own_adventure_prompt_gemini_gem/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 10
+    },
+    "createdAt": "2024-12-05T22:06:46.000Z",
+    "updatedAt": "2025-12-14T20:15:35.181Z"
+  },
+  {
+    "id": "1078283a-1ff4-48c9-9d20-e0c21f4f6ff1",
+    "title": "The power of Nano Banana",
+    "description": "A post about the power of Nano Banana.",
+    "tags": [
+      "nano-banana",
+      "power",
+      "image-generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create an image or text that showcases the power of Nano Banana."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "WGLander",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1p9nly2",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 436
+    },
+    "createdAt": "2025-11-29T12:19:15.000Z",
+    "updatedAt": "2025-12-14T20:17:06.524Z"
+  },
+  {
+    "id": "aa11c9e2-a1a4-4f10-a8ad-1b6f33a21f5a",
+    "title": "I built an \"AI Time Machine\" that lets you see any place in the world in any year using NanoBanana",
+    "description": "A post about an AI Time Machine using NanoBanana.",
+    "tags": [
+      "ai-time-machine",
+      "nano-banana",
+      "time-travel"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create an image or text that demonstrates an AI Time Machine using NanoBanana to show any place in the world in any year."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ExpertPlay",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://v.redd.it/h83jzvmheg3g1",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 387
+    },
+    "createdAt": "2025-11-25T19:22:03.000Z",
+    "updatedAt": "2025-12-14T20:17:06.524Z"
+  },
+  {
+    "id": "8bfa1dcd-8aff-462e-9b64-8ab57c5b260a",
+    "title": "Interior Designers Might Be In Trouble… (Nano Banana Pro)",
+    "description": "A post suggesting that interior designers might be in trouble due to Nano Banana Pro.",
+    "tags": [
+      "interior-design",
+      "nano-banana-pro",
+      "disruption"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create an image or text that illustrates how Nano Banana Pro could disrupt the interior design industry."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Left_Inspection2069",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pdcxna",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 348
+    },
+    "createdAt": "2025-12-03T18:53:37.000Z",
+    "updatedAt": "2025-12-14T20:17:06.524Z"
+  },
+  {
+    "id": "03865f2e-18ec-4603-b3ec-48d5d0ce2020",
+    "title": "Richard Feynman inspired Gemini prompt framework",
+    "description": "This Richard Feynman inspired Gemini prompt framework helps me learn any topic iteratively",
+    "tags": [
+      "education",
+      "learning",
+      "prompt engineering"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "This Richard Feynman inspired Gemini prompt framework helps me learn any topic iteratively"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "EQ4C",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1pe1lxr/this_richard_feynman_inspired_gemini_prompt/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 173
+    },
+    "createdAt": "2025-12-04T14:37:25.000Z",
+    "updatedAt": "2025-12-14T20:17:37.990Z"
+  },
+  {
+    "id": "18bf013e-24ad-44aa-aef6-d48afacb4c90",
+    "title": "Unreleased Gemini 3.0 Flash Leak: Rendered SVG (important Xbox Controller Benchmark)",
+    "description": "A leak of an unreleased version of Gemini 3.0 showing a rendered SVG of an Xbox Controller benchmark.",
+    "tags": [
+      "svg",
+      "xbox controller",
+      "benchmark"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Render an SVG of an Xbox Controller benchmark for Gemini 3.0 Flash"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "BuildwithVignesh",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/2agmydifw47g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 47
+    },
+    "createdAt": "2025-12-14T08:57:02.000Z",
+    "updatedAt": "2025-12-14T20:18:09.136Z"
+  },
+  {
+    "id": "1553e529-2c00-44b0-a2dd-39f9c4c2ceb5",
+    "title": "Using Nano Banana Pro to come up with ideas for how to set up a garage gym.",
+    "description": "A user is using Nano Banana Pro to generate ideas for setting up a garage gym.",
+    "tags": [
+      "fitness",
+      "garage gym",
+      "idea generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Come up with ideas for how to set up a garage gym."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "markaments",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/j1i3pzyam17g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 76
+    },
+    "createdAt": "2025-12-13T21:56:01.000Z",
+    "updatedAt": "2025-12-14T20:18:46.749Z"
+  },
+  {
+    "id": "43df9e3a-a76a-4f25-9aa5-6edc09e0c01d",
+    "title": "Photo realism with nano banana pro.",
+    "description": "A photo-realistic image of a nano banana pro.",
+    "tags": [
+      "photo-realism",
+      "banana",
+      "product"
+    ],
+    "compatibleModels": [
+      "imagen-4.0-generate-preview-06-06",
+      "imagen-4.0-ultra-generate-preview-06-06",
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a photo-realistic image of a nano banana pro."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ayu_xi",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/uc1uudhokj4g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 2355
+    },
+    "createdAt": "2025-12-01T07:05:30.000Z",
+    "updatedAt": "2025-12-14T20:19:11.963Z"
+  },
+  {
+    "id": "566b9513-773b-47eb-a3c2-ee34e837f88a",
+    "title": "Picture of Jesus",
+    "description": "An image of Jesus.",
+    "tags": [
+      "religious",
+      "jesus",
+      "art"
+    ],
+    "compatibleModels": [
+      "imagen-4.0-generate-preview-06-06",
+      "imagen-4.0-ultra-generate-preview-06-06",
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create an image of Jesus."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "SoAnotherOneHuh",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/bh8wqz6cd24g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 2107
+    },
+    "createdAt": "2025-11-28T21:14:02.000Z",
+    "updatedAt": "2025-12-14T20:19:11.963Z"
+  },
+  {
+    "id": "c1b3f0eb-c130-4456-8dd4-4d8443e0ed93",
+    "title": "1 open Google Gemini 2upload image 3 pasta prompt 👇",
+    "description": "A prompt to upload an image and use a pasta-related prompt.",
+    "tags": [
+      "image",
+      "pasta",
+      "funny"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "1 open Google Gemini 2upload image 3 pasta prompt 👇"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ai_image",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/ga9hv8z7oz6g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-13T15:22:15.000Z",
+    "updatedAt": "2025-12-14T20:20:11.868Z"
+  },
+  {
+    "id": "330e3cbc-9f87-4f70-8af5-1e189a495dbb",
+    "title": "Create Your Own Funny Home Alone Scene - Prompt Available",
+    "description": "A prompt to create a funny Home Alone scene.",
+    "tags": [
+      "movie",
+      "funny",
+      "scene"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create Your Own Funny Home Alone Scene"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "oscarbpt",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/89g54ulnmz6g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-13T15:14:03.000Z",
+    "updatedAt": "2025-12-14T20:20:11.868Z"
+  },
+  {
+    "id": "8d442248-284f-4cbb-a0b0-0cc28ca262fb",
+    "title": "Short title",
+    "description": "1 open Google Gemini 2 upload image 3 pasta prompt 👇and follow",
+    "tags": [
+      "image",
+      "text",
+      "pasta"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "1 open Google Gemini 2 upload image 3 pasta prompt 👇and follow"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ai_image",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/qfwb99mhxp6g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 6
+    },
+    "createdAt": "2025-12-12T06:36:15.000Z",
+    "updatedAt": "2025-12-14T20:20:29.380Z"
+  },
+  {
+    "id": "2cb0b936-042c-4332-82bb-7984dd83de4c",
+    "title": "1 open Google Gemini 2 upload image 3 pasta prompt 👇",
+    "description": "A prompt for using Google Gemini 2 to upload an image and generate pasta-related content.",
+    "tags": [
+      "image-upload",
+      "pasta",
+      "content-generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "1 open Google Gemini 2 upload image 3 pasta prompt"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ai_image",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/yt9zhg0k9l6g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-11T14:54:58.000Z",
+    "updatedAt": "2025-12-14T20:20:45.743Z"
+  },
+  {
+    "id": "7f1bf4a3-b537-48e4-b651-2ae6bd10f1c1",
+    "title": "A vibe designing tool fully powered by google Gemini",
+    "description": "A prompt for using Google Gemini to design vibes or atmospheres.",
+    "tags": [
+      "vibe-design",
+      "atmosphere",
+      "content-generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "A vibe designing tool fully powered by google Gemini"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Smart-Appearance-250",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/GoogleGemini/comments/1pjqul2/a_vibe_designing_tool_fully_powered_by_google/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 2
+    },
+    "createdAt": "2025-12-11T06:43:41.000Z",
+    "updatedAt": "2025-12-14T20:20:45.743Z"
+  },
+  {
+    "id": "42ed83fc-52e3-4e48-8321-56191643ecf6",
+    "title": "1 open Google Gemini 2upload image 3 pasta prompt next page and follow",
+    "description": "A guide on how to use Google Gemini for uploading an image and following a pasta prompt.",
+    "tags": [
+      "image upload",
+      "pasta prompt",
+      "guidance"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "1 open Google Gemini 2upload image 3 pasta prompt next page and follow"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ai_image",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pjrzd3",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-11T07:55:56.000Z",
+    "updatedAt": "2025-12-14T20:21:07.062Z"
+  },
+  {
+    "id": "50911876-f9a2-4c85-8d30-f3bc1e67744a",
+    "title": "[AI] - Pokémon Caitlin and the hair-cutting phantom",
+    "description": "A creative prompt involving Pokémon Caitlin and a hair-cutting phantom.",
+    "tags": [
+      "pokémon",
+      "creative writing",
+      "fantasy"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "[AI] - Pokémon Caitlin and the hair-cutting phantom"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "VIRUS-AOTOXIN",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pjpyjq",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 1
+    },
+    "createdAt": "2025-12-11T05:51:16.000Z",
+    "updatedAt": "2025-12-14T20:21:07.062Z"
+  },
+  {
+    "id": "b252fe38-5c72-47db-aacf-fb6ac94c4883",
+    "title": "Open Google Gemini 2. Upload image 3. Prompt paste",
+    "description": "Open Google Gemini 2. Upload image 3. Prompt paste",
+    "tags": [
+      "image-upload",
+      "prompt-paste"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Open Google Gemini 2. Upload image 3. Prompt paste"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ai_image",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/xyy1h1khxl4g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 35
+    },
+    "createdAt": "2025-12-01T15:00:58.000Z",
+    "updatedAt": "2025-12-14T20:21:29.284Z"
+  },
+  {
+    "id": "580367b8-e32d-44c7-abb2-f09306efca33",
+    "title": "1.open google gemini 2. Upload your image 3. Pasta prompt 👇and follow",
+    "description": "1.open google gemini 2. Upload your image 3. Pasta prompt 👇and follow",
+    "tags": [
+      "image-upload",
+      "pasta-prompt"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "1.open google gemini 2. Upload your image 3. Pasta prompt 👇and follow"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ai_image",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/svw5v5epsr2g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 21
+    },
+    "createdAt": "2025-11-22T08:36:46.000Z",
+    "updatedAt": "2025-12-14T20:21:29.284Z"
+  },
+  {
+    "id": "6b9ed0ac-6d1c-470e-b205-35382d4c25f0",
+    "title": "Maintaining Character Consistency in Nano Banana Pro Using Reference Images",
+    "description": "A discussion about maintaining character consistency in Nano Banana Pro using reference images.",
+    "tags": [
+      "character design",
+      "reference images",
+      "consistency"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Maintain character consistency in Nano Banana Pro using reference images."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Slow-Total2609",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pb4nvc",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 2841
+    },
+    "createdAt": "2025-12-01T05:36:52.000Z",
+    "updatedAt": "2025-12-14T20:23:10.301Z"
+  },
+  {
+    "id": "d9d60b32-6c6b-4632-832f-050c4b660b42",
+    "title": "I finally cracked an img2img prompt that actually keeps your face intact (multi-style test)",
+    "description": "A user has discovered an img2img prompt that successfully maintains facial integrity during multi-style transformations.",
+    "tags": [
+      "img2img",
+      "face preservation",
+      "multi-style"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "img2img prompt that keeps your face intact during multi-style transformations"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Wonderful-Focus-77",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/u5fjn0zb7u6g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 199
+    },
+    "createdAt": "2025-12-12T20:58:34.000Z",
+    "updatedAt": "2025-12-14T20:24:27.266Z"
+  },
+  {
+    "id": "7e8d13ff-eb38-413a-ab19-e79e9890a686",
+    "title": "Aight fam, whipped up this WILD prompt for celeb bio posters – like if ur fave icon got a full-on 3D timeline glow-up. Who’s remixing for Taylor or Elon rn? 🔥",
+    "description": "A prompt for creating 3D timeline glow-up posters of celebrities.",
+    "tags": [
+      "celebrity",
+      "3d",
+      "timeline"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a 3D timeline glow-up poster for a celebrity, like Taylor Swift or Elon Musk."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Wonderful-Focus-77",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1phuf0h",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 42
+    },
+    "createdAt": "2025-12-09T01:19:27.000Z",
+    "updatedAt": "2025-12-14T20:24:37.852Z"
+  },
+  {
+    "id": "f7e00892-77bc-400a-9606-4fd63b432cdd",
+    "title": "Testing Your Prompts",
+    "description": "Added a New Chapter to my open Prompt Engineering Book : Testing Your Prompts",
+    "tags": [
+      "prompt-testing",
+      "engineering",
+      "book-chapter"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Test your prompts to ensure they are effective and free of hallucinations."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "rishiarora",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/PromptEngineering/comments/1pm6hra/added_a_new_chapter_to_my_open_prompt_engineering/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 6
+    },
+    "createdAt": "2025-12-14T05:41:00.000Z",
+    "updatedAt": "2025-12-14T20:25:56.458Z"
+  },
+  {
+    "id": "e26bcac4-c3d2-46d5-ac78-09c30a391ca2",
+    "title": "Prompts Templates Anti-alucinação",
+    "description": "Prompts Templates Anti-alucinação",
+    "tags": [
+      "anti-hallucination",
+      "templates",
+      "prompt-engineering"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create prompt templates that prevent hallucinations."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Defiant-Barnacle-723",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/PromptEngineering/comments/1pmhmhi/prompts_templates_antialucinação/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 1
+    },
+    "createdAt": "2025-12-14T16:07:12.000Z",
+    "updatedAt": "2025-12-14T20:25:56.458Z"
+  },
+  {
+    "id": "0b4758e4-38cb-4724-87e5-09cb34c55165",
+    "title": "The 'Jargon Filter' prompt",
+    "description": "Instantly removes ALL industry jargon from a document for clear communication.",
+    "tags": [
+      "jargon removal",
+      "clear communication",
+      "document editing"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Instantly remove all industry jargon from this document to ensure clear communication."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Fit-Number90",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/PromptEngineering/comments/1pmhdeo/the_jargon_filter_prompt_instantly_removes_all/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 1
+    },
+    "createdAt": "2025-12-14T15:56:53.000Z",
+    "updatedAt": "2025-12-14T20:26:05.434Z"
+  },
+  {
+    "id": "e44a29ae-1d02-4453-91c6-8f3e01dc160a",
+    "title": "🎓 7 Crazy ChatGPT Prompts To Teach You Any Skill (Copy + Paste)",
+    "description": "A list of 7 unique ChatGPT prompts designed to help you learn any skill effectively.",
+    "tags": [
+      "education",
+      "skill development",
+      "chatgpt"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "🎓 7 Crazy ChatGPT Prompts To Teach You Any Skill (Copy + Paste)"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "tipseason",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/PromptEngineering/comments/1oyekq6/7_crazy_chatgpt_prompts_to_teach_you_any_skill/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 154
+    },
+    "createdAt": "2025-11-16T06:31:08.000Z",
+    "updatedAt": "2025-12-14T20:27:16.842Z"
+  },
+  {
+    "id": "614301f6-799c-43c8-a65e-47d9cd489859",
+    "title": "I turned Ray Dalio's Principles into AI prompts and now I have a brutally honest decision-making partner",
+    "description": "Transforming Ray Dalio's principles into AI prompts to create a decision-making tool that provides honest feedback.",
+    "tags": [
+      "decision making",
+      "ray dalio",
+      "ai prompts"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I turned Ray Dalio's Principles into AI prompts and now I have a brutally honest decision-making partner"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "EQ4C",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/PromptEngineering/comments/1pfdb4m/i_turned_ray_dalios_principles_into_ai_prompts/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 143
+    },
+    "createdAt": "2025-12-06T01:57:02.000Z",
+    "updatedAt": "2025-12-14T20:27:16.842Z"
+  },
+  {
+    "id": "ffc70c86-8e5f-4167-9432-13b54a788f91",
+    "title": "I made a prompt to generate unique beautiful landing pages every time",
+    "description": "A user created a prompt to generate unique and beautiful landing pages.",
+    "tags": [
+      "web design",
+      "landing page",
+      "generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Generate a unique and beautiful landing page."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "JCodesMore",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/r/PromptEngineering/comments/1p5ztk4/i_made_a_prompt_to_generate_unique_beautiful/",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 81
+    },
+    "createdAt": "2025-11-25T01:44:25.000Z",
+    "updatedAt": "2025-12-14T20:27:39.372Z"
+  },
+  {
+    "id": "36d3e6b9-7591-45a0-8447-655a8ddebe9d",
+    "title": "How to Create Miniature Game Scenes with Nano Banana Pro?",
+    "description": "Prompt Below!",
+    "tags": [
+      "miniature",
+      "game scenes",
+      "nano banana pro"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create miniature game scenes using Nano Banana Pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/pyw3z983a67g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 10
+    },
+    "createdAt": "2025-12-14T13:37:05.000Z",
+    "updatedAt": "2025-12-14T20:28:03.435Z"
+  },
+  {
+    "id": "667ad7fb-14da-4d93-a11d-569c7519a7fc",
+    "title": "How to Create a Scale-Illusion Photo with Oversized Objects in Nano Banana Pro?",
+    "description": "Original text or summary",
+    "tags": [
+      "scale-illusion",
+      "oversized objects",
+      "nano banana pro"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a scale-illusion photo with oversized objects using Nano Banana Pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/yakfb5bjj67g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 9
+    },
+    "createdAt": "2025-12-14T14:30:10.000Z",
+    "updatedAt": "2025-12-14T20:28:15.520Z"
+  },
+  {
+    "id": "b2cad1ce-294d-41d6-96f2-eb1b507d3b9b",
+    "title": "How to Take a Celebrity Encounter Photo at Airport with Nano Banana Pro?",
+    "description": "Original text or summary",
+    "tags": [
+      "celebrity encounter",
+      "airport",
+      "nano banana pro"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Take a celebrity encounter photo at the airport using Nano Banana Pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/hr8y1dvhe67g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 7
+    },
+    "createdAt": "2025-12-14T14:01:44.000Z",
+    "updatedAt": "2025-12-14T20:28:15.520Z"
+  },
+  {
+    "id": "ef5d8a72-85aa-4423-86c2-1dffe768e480",
+    "title": "How to Make 3D Miniature City Display with Nano Banana Pro?",
+    "description": "Prompt Below!",
+    "tags": [
+      "3d",
+      "miniature",
+      "city"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "How to Make 3D Miniature City Display with Nano Banana Pro?"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ThisIsCodeXpert",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pmfjtd",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 6
+    },
+    "createdAt": "2025-12-14T14:37:54.000Z",
+    "updatedAt": "2025-12-14T20:28:24.227Z"
+  },
+  {
+    "id": "e218bc45-04f8-4287-b81f-97978aaa93dc",
+    "title": "How to Recreate a Gritty Late-Night 35mm Flash Mirror Photo in Nano Banana Pro?",
+    "description": "Prompt for recreating a gritty late-night 35mm flash mirror photo using Nano Banana Pro.",
+    "tags": [
+      "photography",
+      "gritty",
+      "35mm"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Recreate a gritty late-night 35mm flash mirror photo in Nano Banana Pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/zaokwaksp27g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 37
+    },
+    "createdAt": "2025-12-14T01:39:04.000Z",
+    "updatedAt": "2025-12-14T20:28:42.964Z"
+  },
+  {
+    "id": "5bf07bc0-bfa0-49b9-8e87-54388a6edf32",
+    "title": "How to Create a Before & After Makeup Portrait with Nano Banana Pro?",
+    "description": "Prompt for creating a before and after makeup portrait using Nano Banana Pro.",
+    "tags": [
+      "makeup",
+      "portrait",
+      "before and after"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a before and after makeup portrait with Nano Banana Pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/m6ke2nk8n17g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 53
+    },
+    "createdAt": "2025-12-13T22:03:09.000Z",
+    "updatedAt": "2025-12-14T20:28:42.964Z"
+  },
+  {
+    "id": "0bf9f543-cfa9-49fd-8c17-2968e176959d",
+    "title": "Genderbend this guy into a woman",
+    "description": "A prompt to genderbend a male character into a female character.",
+    "tags": [
+      "genderbend",
+      "character",
+      "transformation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Genderbend this guy into a woman"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "KiraLiebert",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pmcmjs",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 1
+    },
+    "createdAt": "2025-12-14T12:10:36.000Z",
+    "updatedAt": "2025-12-14T20:28:54.730Z"
+  },
+  {
+    "id": "e2b995b8-d9bf-46cb-ac11-d6fd01a10fc7",
+    "title": "Nano Banana Pro is good at Cinematic Scenarios.",
+    "description": "Nano Banana Pro is good at Cinematic Scenarios.",
+    "tags": [
+      "cinematic",
+      "scenario",
+      "nano banana pro"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a cinematic scenario using Nano Banana Pro."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Unable-City5143",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1plwht7",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 13
+    },
+    "createdAt": "2025-12-13T21:26:57.000Z",
+    "updatedAt": "2025-12-14T20:29:06.264Z"
+  },
+  {
+    "id": "150d97f0-6dfa-4614-b5ac-eb17304ab993",
+    "title": "I created Multivers dc-dbz comics..",
+    "description": "I created Multivers dc-dbz comics..",
+    "tags": [
+      "comics",
+      "dc",
+      "dbz"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a comic that combines DC and DBZ universes."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Some_Tutor9022",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pm0vbw",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 4
+    },
+    "createdAt": "2025-12-14T00:47:47.000Z",
+    "updatedAt": "2025-12-14T20:29:06.264Z"
+  },
+  {
+    "id": "8bc91f28-3a9f-4f4a-b788-4262ca1cff03",
+    "title": "How to Create a Cinematic 3D Action-Packed Advertisement with Nano Banana Pro?",
+    "description": "A post about creating a cinematic 3D action-packed advertisement using Nano Banana Pro.",
+    "tags": [
+      "cinematic",
+      "3d",
+      "advertisement"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a cinematic 3D action-packed advertisement with Nano Banana Pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1plwn13",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 5
+    },
+    "createdAt": "2025-12-13T21:33:14.000Z",
+    "updatedAt": "2025-12-14T20:29:19.726Z"
+  },
+  {
+    "id": "bba414ed-7152-45fd-a8f3-47df3ab7ffeb",
+    "title": "i need a prompt to recreate this image",
+    "description": "User is looking for a prompt to recreate an image.",
+    "tags": [
+      "image recreation",
+      "prompt request"
+    ],
+    "compatibleModels": [
+      "imagen-4.0-generate-preview-06-06",
+      "imagen-4.0-ultra-generate-preview-06-06",
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Recreate this image: https://i.redd.it/lvm3k2f72n6g1.jpeg"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Silver_Knee3678",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/lvm3k2f72n6g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 1134
+    },
+    "createdAt": "2025-12-11T20:57:38.000Z",
+    "updatedAt": "2025-12-14T20:29:28.729Z"
+  },
+  {
+    "id": "1733d08a-e22b-46e0-b839-0e28d73dc228",
+    "title": "Disposable-Camera Party Photos",
+    "description": "How to Create Disposable-Camera Party Photos with Nano Banana Pro?",
+    "tags": [
+      "party",
+      "disposable camera",
+      "nano banana pro"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create disposable-camera party photos using Nano Banana Pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/lphmohaqeh4g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 366
+    },
+    "createdAt": "2025-11-30T23:50:09.000Z",
+    "updatedAt": "2025-12-14T20:29:43.259Z"
+  },
+  {
+    "id": "5e2c498c-8f7b-485d-ba6b-3b4d2b4089de",
+    "title": "Gym Workout Collage",
+    "description": "How to Create a Gym Workout Collage with Nano Banana Pro?",
+    "tags": [
+      "gym",
+      "workout",
+      "collage"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a gym workout collage using Nano Banana Pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/lx5von903a6g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 302
+    },
+    "createdAt": "2025-12-10T01:22:00.000Z",
+    "updatedAt": "2025-12-14T20:29:43.259Z"
+  },
+  {
+    "id": "948003d4-9f31-4495-a6f2-830142cce409",
+    "title": "AI Selfie with Movie Character",
+    "description": "How to Take a Perfect AI Selfie With Any Movie Character?",
+    "tags": [
+      "ai selfie",
+      "movie character",
+      "nano banana pro"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Take a perfect AI selfie with any movie character"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pd7ah5",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 285
+    },
+    "createdAt": "2025-12-03T15:30:41.000Z",
+    "updatedAt": "2025-12-14T20:29:43.259Z"
+  },
+  {
+    "id": "b350ea3b-480a-4aa4-876d-fbf2e73720e5",
+    "title": "Cinematic 3×3 Contact Sheet From One Image",
+    "description": "How to Make a Cinematic 3×3 Contact Sheet From One Image with Nano Banana Pro?",
+    "tags": [
+      "cinematic",
+      "contact sheet",
+      "nano banana pro"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a cinematic 3×3 contact sheet from one image using Nano Banana Pro."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/q2knbj3k4o6g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 227
+    },
+    "createdAt": "2025-12-12T00:32:36.000Z",
+    "updatedAt": "2025-12-14T20:29:58.011Z"
+  },
+  {
+    "id": "3961e300-9f4f-4f53-949e-aa96b0250bea",
+    "title": "Y2K Flash Portraits",
+    "description": "How to Create Y2K Flash Portraits with Nano Banana Pro?",
+    "tags": [
+      "y2k",
+      "flash portraits",
+      "nano banana pro"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create Y2K flash portraits using Nano Banana Pro."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/0kflo2r06a4g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 224
+    },
+    "createdAt": "2025-11-29T23:31:09.000Z",
+    "updatedAt": "2025-12-14T20:29:58.011Z"
+  },
+  {
+    "id": "722509c4-1d5c-4f87-8106-4d37e82f9488",
+    "title": "3D City Weather",
+    "description": "How to Create 3D City Weather with Nano Banana Pro?",
+    "tags": [
+      "3d",
+      "city weather",
+      "nano banana pro"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create 3D city weather using Nano Banana Pro."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1p85uru",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 215
+    },
+    "createdAt": "2025-11-27T16:04:31.000Z",
+    "updatedAt": "2025-12-14T20:29:58.011Z"
+  },
+  {
+    "id": "402cf6d5-75d9-4bf0-97bb-d756317ad435",
+    "title": "4-Mood Portrait Collage",
+    "description": "How to Create a 4-Mood Portrait Collage with Nano Banana Pro? Prompt Below!",
+    "tags": [
+      "portrait",
+      "collage",
+      "mood"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a 4-mood portrait collage using Nano Banana Pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/cnqcgh61ys5g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 189
+    },
+    "createdAt": "2025-12-07T15:40:54.000Z",
+    "updatedAt": "2025-12-14T20:30:10.549Z"
+  },
+  {
+    "id": "53a6b377-1584-4fc4-8cb6-17cba90f1b5d",
+    "title": "Nostalgic 2000s Flash-Camera Portrait",
+    "description": "How to Create a Nostalgic 2000s Flash-Camera Portrait with Nano Banana Pro? Prompt Below!",
+    "tags": [
+      "nostalgia",
+      "2000s",
+      "flash-camera"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a nostalgic 2000s flash-camera portrait using Nano Banana Pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/yqsq0v10iu5g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 146
+    },
+    "createdAt": "2025-12-07T20:56:03.000Z",
+    "updatedAt": "2025-12-14T20:30:10.549Z"
+  },
+  {
+    "id": "5038256f-f439-497e-a50b-9059a4b8e5a4",
+    "title": "How to create close-up portrait (Wet Skin, Golden Hour) with Nano Banana Pro?",
+    "description": "A prompt for creating a close-up portrait with wet skin and golden hour lighting using Nano Banana Pro.",
+    "tags": [
+      "portrait",
+      "wet skin",
+      "golden hour"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a close-up portrait with wet skin and golden hour lighting using Nano Banana Pro."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/wt1ryritvm3g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 142
+    },
+    "createdAt": "2025-11-26T17:11:55.000Z",
+    "updatedAt": "2025-12-14T20:30:26.286Z"
+  },
+  {
+    "id": "705df6e6-a1b2-4c3f-a958-f950d97cf317",
+    "title": "How to create a fashion-style concept breakdown sheet with Nano Banana Pro?",
+    "description": "A prompt for creating a fashion-style concept breakdown sheet using Nano Banana Pro.",
+    "tags": [
+      "fashion",
+      "concept breakdown",
+      "nano banana pro"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a fashion-style concept breakdown sheet using Nano Banana Pro."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/d6gk3ep80i3g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 135
+    },
+    "createdAt": "2025-11-26T00:46:50.000Z",
+    "updatedAt": "2025-12-14T20:30:26.286Z"
+  },
+  {
+    "id": "1b4a78ba-7dfc-48e0-a90c-94afaadc09b7",
+    "title": "Turn yourself into 3D caricature with Nano Banana Pro. Prompt below!",
+    "description": "A prompt for turning oneself into a 3D caricature using Nano Banana Pro.",
+    "tags": [
+      "3d caricature",
+      "nano banana pro"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Turn yourself into a 3D caricature using Nano Banana Pro."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/lwiuolrccm3g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 138
+    },
+    "createdAt": "2025-11-26T15:21:01.000Z",
+    "updatedAt": "2025-12-14T20:30:26.286Z"
+  },
+  {
+    "id": "d9be752d-dcf8-49c0-9968-39a8727952c6",
+    "title": "With prompt...",
+    "description": "Original text or summary",
+    "tags": [
+      "image"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "With prompt..."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "digitalcurtis",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/0d1q420anv6g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 127
+    },
+    "createdAt": "2025-12-13T01:49:41.000Z",
+    "updatedAt": "2025-12-14T20:30:34.261Z"
+  },
+  {
+    "id": "41271e0b-0f01-4b54-a557-a7247c83d67e",
+    "title": "How to Make 3D Country Islands with Nano Banana Pro?",
+    "description": "Prompt Below!",
+    "tags": [
+      "3d",
+      "country islands",
+      "nano banana pro"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Make 3D Country Islands with Nano Banana Pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pkjdjo",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 117
+    },
+    "createdAt": "2025-12-12T04:59:37.000Z",
+    "updatedAt": "2025-12-14T20:30:46.048Z"
+  },
+  {
+    "id": "178c66af-12cf-434e-9c3f-77a1d297da60",
+    "title": "How to Create Realistic 8K Summer Street Portraits with Nano Banana Pro?",
+    "description": "A prompt for creating realistic 8K summer street portraits using Nano Banana Pro.",
+    "tags": [
+      "realistic",
+      "8k",
+      "summer"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create realistic 8K summer street portraits with Nano Banana Pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/17eiuo8zo34g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 114
+    },
+    "createdAt": "2025-11-29T01:45:16.000Z",
+    "updatedAt": "2025-12-14T20:30:58.328Z"
+  },
+  {
+    "id": "167eb5c7-ef8c-49ef-b7eb-68ed4026d594",
+    "title": "How to Create Realistic Lifestyle Cooking Photos with Your Exact Face in Nano Banana Pro?",
+    "description": "A prompt for creating realistic lifestyle cooking photos with your exact face using Nano Banana Pro.",
+    "tags": [
+      "realistic",
+      "lifestyle",
+      "cooking"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create realistic lifestyle cooking photos with your exact face in Nano Banana Pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/z0b5dzeqfa4g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 101
+    },
+    "createdAt": "2025-11-30T00:25:08.000Z",
+    "updatedAt": "2025-12-14T20:30:58.328Z"
+  },
+  {
+    "id": "d168141a-b27d-42c9-9817-7fc10ef8fb69",
+    "title": "4×4 Decades Portrait Grid",
+    "description": "How to Create a 4×4 Decades Portrait Grid with Nano Banana Pro (1880s → 2020s)",
+    "tags": [
+      "portrait",
+      "grid",
+      "decades"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a 4×4 decades portrait grid using Nano Banana Pro, starting from the 1880s to the 2020s."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/s17iknqhyz3g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 96
+    },
+    "createdAt": "2025-11-28T13:08:51.000Z",
+    "updatedAt": "2025-12-14T20:31:11.341Z"
+  },
+  {
+    "id": "5c5652b3-6055-497c-9e8f-a53e28a8de55",
+    "title": "Fun with Z-Image Turbo",
+    "description": "Lots of fun with Z-Image Turbo",
+    "tags": [
+      "creative",
+      "effects",
+      "z-image turbo"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Experiment with various creative effects using Z-Image Turbo."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Maximus989989",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pm7qqn",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 125
+    },
+    "createdAt": "2025-12-14T06:55:42.000Z",
+    "updatedAt": "2025-12-14T20:31:11.341Z"
+  },
+  {
+    "id": "5d310d14-dfd1-4e52-b8ad-8b4fc7e11252",
+    "title": "AWPortrait-Z Lora For Z-Image",
+    "description": "A post about a Lora model for Z-Image",
+    "tags": [
+      "image-generation",
+      "lora",
+      "z-image"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create an image using the AWPortrait-Z Lora model for Z-Image"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "fruesome",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pmebug",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 27
+    },
+    "createdAt": "2025-12-14T13:41:25.000Z",
+    "updatedAt": "2025-12-14T20:31:24.346Z"
+  },
+  {
+    "id": "05a3455f-2f5d-41f1-b960-4e985d01adc8",
+    "title": "Announcing The Release of Qwen 360 Diffusion, The World's Best 360° Text-to-Image Model",
+    "description": "Announcement of a new 360° text-to-image model",
+    "tags": [
+      "image-generation",
+      "360-degree",
+      "qwen"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Generate a 360° image using the Qwen 360 Diffusion model"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ProGamerGov",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pltzay",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 633
+    },
+    "createdAt": "2025-12-13T19:37:16.000Z",
+    "updatedAt": "2025-12-14T20:31:24.346Z"
+  },
+  {
+    "id": "9496b969-0826-4997-ac38-3afb3e565476",
+    "title": "REALISTIC - WHERE IS WALDO? USING FLUX (test)",
+    "description": "A test using Flux to create a realistic 'Where is Waldo?' image.",
+    "tags": [
+      "realistic",
+      "where is waldo",
+      "flux"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "REALISTIC - WHERE IS WALDO? USING FLUX"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Interesting_Room2820",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/qyztxlnqq47g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 39
+    },
+    "createdAt": "2025-12-14T08:26:22.000Z",
+    "updatedAt": "2025-12-14T20:31:33.524Z"
+  },
+  {
+    "id": "2856aec9-1b21-4e5a-b159-1f6d694031a4",
+    "title": "Z-IMG handling prompts and motion is kinda wild",
+    "description": "A post about Z-IMG handling prompts and motion, showcasing some wild effects.",
+    "tags": [
+      "image-generation",
+      "motion-effects",
+      "depth"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create an image with dynamic motion and depth using Z-IMG"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Ok-Page5607",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1ph55wh",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 678
+    },
+    "createdAt": "2025-12-08T06:14:58.000Z",
+    "updatedAt": "2025-12-14T20:33:34.095Z"
+  },
+  {
+    "id": "50189f62-4c55-4c9e-8c88-a215f0090681",
+    "title": "Z-Image styles: 70 examples of how much can be done with just prompting.",
+    "description": "A gallery of 70 examples demonstrating various styles achievable through prompting.",
+    "tags": [
+      "image-generation",
+      "style-transfer",
+      "prompting"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Generate an image in a specific style using Z-Image"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "DrStalker",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pdy78q",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 665
+    },
+    "createdAt": "2025-12-04T11:59:25.000Z",
+    "updatedAt": "2025-12-14T20:33:34.095Z"
+  },
+  {
+    "id": "87a9c212-e073-4ea3-8cd9-3baf54fca21a",
+    "title": "How to Make 3D Miniature Movie Display with Nano Banana Pro?",
+    "description": "Prompt Below!",
+    "tags": [
+      "3d",
+      "miniature",
+      "movie display"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "How to Make 3D Miniature Movie Display with Nano Banana Pro?"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ThisIsCodeXpert",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1plelah",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 9
+    },
+    "createdAt": "2025-12-13T06:23:04.000Z",
+    "updatedAt": "2025-12-14T20:33:51.384Z"
+  },
+  {
+    "id": "14347471-aa63-4a65-9ddf-31c1f5c7682c",
+    "title": "3 cosmic characters having dinner at a diner",
+    "description": "Original text or summary",
+    "tags": [
+      "cosmic",
+      "characters",
+      "diner"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "3 cosmic characters having dinner at a diner"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "cosmicdreams",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pl3doq",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 1
+    },
+    "createdAt": "2025-12-12T21:14:39.000Z",
+    "updatedAt": "2025-12-14T20:34:02.862Z"
+  },
+  {
+    "id": "5e49441d-6300-43dc-99f1-c2052ee15ff3",
+    "title": "The Amount Details on the Skin is Insane! Nano Banana Pro",
+    "description": "The Amount Details on the Skin is Insane! Nano Banana Pro | Prompt Below",
+    "tags": [
+      "skin details",
+      "nano banana pro",
+      "high detail"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "The Amount Details on the Skin is Insane! Nano Banana Pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ThisIsCodeXpert",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pjwhz1",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 51
+    },
+    "createdAt": "2025-12-11T12:38:51.000Z",
+    "updatedAt": "2025-12-14T20:34:17.900Z"
+  },
+  {
+    "id": "faf235ec-48d3-4300-8128-ecc2da35b367",
+    "title": "How to Restore Vintage Photos With Highly Realistic Skin?",
+    "description": "How to Restore Vintage Photos With Highly Realistic Skin? | Prompt Included",
+    "tags": [
+      "vintage photos",
+      "realistic skin",
+      "restoration"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "How to Restore Vintage Photos With Highly Realistic Skin?"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ThisIsCodeXpert",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pjufco",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 51
+    },
+    "createdAt": "2025-12-11T10:38:17.000Z",
+    "updatedAt": "2025-12-14T20:34:17.900Z"
+  },
+  {
+    "id": "87a4fa34-5bd9-4a59-b19f-935ab599f185",
+    "title": "The Amount Details on the Skin is Insane! Tutorial + Prompt Below",
+    "description": "The Amount Details on the Skin is Insane! Tutorial + Prompt Below",
+    "tags": [
+      "skin details",
+      "tutorial",
+      "high detail"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "The Amount Details on the Skin is Insane! Tutorial + Prompt Below"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ThisIsCodeXpert",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pjuupl",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 40
+    },
+    "createdAt": "2025-12-11T11:05:19.000Z",
+    "updatedAt": "2025-12-14T20:34:17.900Z"
+  },
+  {
+    "id": "c3bf7b57-117f-449c-808f-320c3d82074b",
+    "title": "How to Upscale an Image to 4K with Detailed Skin Texture Using Nano Banana Pro?",
+    "description": "Prompt for upscaling an image to 4K with detailed skin texture using Nano Banana Pro.",
+    "tags": [
+      "image upscaling",
+      "skin texture",
+      "nano banana pro"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Upscale this image to 4K with detailed skin texture using Nano Banana Pro."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ThisIsCodeXpert",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pjyagq",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 14
+    },
+    "createdAt": "2025-12-11T14:03:44.000Z",
+    "updatedAt": "2025-12-14T20:34:44.347Z"
+  },
+  {
+    "id": "d88bbd4a-d668-45dc-87fa-a4c8a1f4d7c4",
+    "title": "How to Unblur Photos With Highly Realistic Skin?",
+    "description": "Prompt for unblurring photos with highly realistic skin details.",
+    "tags": [
+      "image unblurring",
+      "realistic skin",
+      "photo enhancement"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Unblur this photo with highly realistic skin details."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ThisIsCodeXpert",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pjt8b0",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 22
+    },
+    "createdAt": "2025-12-11T09:19:58.000Z",
+    "updatedAt": "2025-12-14T20:34:44.347Z"
+  },
+  {
+    "id": "96acd5e4-c72d-437f-a6e9-683f432c958d",
+    "title": "Turn your profile pic into an epic party with Rock Legends using Gemini",
+    "description": "Prompt for transforming a profile picture into an epic party scene with Rock Legends.",
+    "tags": [
+      "image transformation",
+      "profile picture",
+      "rock legends"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Transform this profile picture into an epic party scene with Rock Legends."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Extension_Corner_159",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://v.redd.it/0ov9cc9kuh6g1",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 54
+    },
+    "createdAt": "2025-12-11T03:25:38.000Z",
+    "updatedAt": "2025-12-14T20:34:44.347Z"
+  },
+  {
+    "id": "d20aae26-49e8-4895-a85c-da712ffcab94",
+    "title": "Nano Banana Pro Image Generation",
+    "description": "In a couple of years I'm sure Nano Banana Pro will take over Stable Diffusion in terms of realism. I generated this image using Nano Banana Pro 3 in Gemini AI (prompt included)",
+    "tags": [
+      "image generation",
+      "ai art",
+      "nano banana pro"
+    ],
+    "compatibleModels": [
+      "imagen-4.0-generate-preview-06-06",
+      "imagen-4.0-ultra-generate-preview-06-06",
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Generate an image using Nano Banana Pro 3 in Gemini AI"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "AkringerZekrom656",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pjam03",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 21
+    },
+    "createdAt": "2025-12-10T18:37:44.000Z",
+    "updatedAt": "2025-12-14T20:34:58.467Z"
+  },
+  {
+    "id": "ae85f9d5-5c8a-4823-a102-1584bd8fa65f",
+    "title": "If you like cinematics or low-light photography then you should check this prompt.",
+    "description": "Original text or summary",
+    "tags": [
+      "cinematics",
+      "low-light photography"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "If you like cinematics or low-light photography then you should check this prompt."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "AkringerZekrom656",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pfyygj",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 101
+    },
+    "createdAt": "2025-12-06T20:20:19.000Z",
+    "updatedAt": "2025-12-14T20:35:09.915Z"
+  },
+  {
+    "id": "fe6d3347-6ffd-42d7-9c2a-16db49d556ab",
+    "title": "This is crazy!!!!! If you photography you need to check out this prompt",
+    "description": "Original text or summary",
+    "tags": [
+      "photography",
+      "crazy"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "This is crazy!!!!! If you photography you need to check out this prompt"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "AkringerZekrom656",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1peaqrs",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 72
+    },
+    "createdAt": "2025-12-04T20:23:56.000Z",
+    "updatedAt": "2025-12-14T20:35:09.915Z"
+  },
+  {
+    "id": "38b58206-7952-432b-9369-b26c72a7be38",
+    "title": "3D Celebrity Caricature Using Nano Banana pro",
+    "description": "3D Celebrity Caricature Using Nano Banana pro | Prompt Included",
+    "tags": [
+      "3d",
+      "caricature",
+      "nano banana pro"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "3D Celebrity Caricature Using Nano Banana pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ThisIsCodeXpert",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pb566b",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 49
+    },
+    "createdAt": "2025-12-01T06:05:09.000Z",
+    "updatedAt": "2025-12-14T20:35:29.296Z"
+  },
+  {
+    "id": "f1bd904e-fc0d-4ea1-b659-38e275263eef",
+    "title": "Turn yourself into 3D Character Collage Using Nano Banana Pro",
+    "description": "Turn yourself into 3D Character Collage Using Nano Banana Pro | Prompt Below",
+    "tags": [
+      "3d",
+      "character collage",
+      "nano banana pro"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Turn yourself into 3D Character Collage Using Nano Banana Pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "kk9393",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1p8pww9",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 48
+    },
+    "createdAt": "2025-11-28T08:38:27.000Z",
+    "updatedAt": "2025-12-14T20:35:29.296Z"
+  },
+  {
+    "id": "3861076d-29db-43e4-890c-538a6e1938eb",
+    "title": "How to Create Professional Headshot Using Nano Banana",
+    "description": "Original text or summary",
+    "tags": [
+      "professional headshot",
+      "nano banana",
+      "image generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a professional headshot using Nano Banana"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ThisIsCodeXpert",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1p738al",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 42
+    },
+    "createdAt": "2025-11-26T09:14:18.000Z",
+    "updatedAt": "2025-12-14T20:36:00.727Z"
+  },
+  {
+    "id": "7c6bdb1f-a950-4691-a27f-af1c4714721e",
+    "title": "How to Create Fashion Portrait Reflecting from Mirror Photos with Nano Banana Pro",
+    "description": "Original text or summary",
+    "tags": [
+      "fashion portrait",
+      "mirror reflection",
+      "nano banana pro"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a fashion portrait reflecting from a mirror using Nano Banana Pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "HealthyAsparagus503",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/cwxk7k6llm2g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 42
+    },
+    "createdAt": "2025-11-21T15:08:02.000Z",
+    "updatedAt": "2025-12-14T20:36:00.727Z"
+  },
+  {
+    "id": "81a401a2-1d7d-49d1-ac35-e806d867600a",
+    "title": "How to Create Realistic Dinner Photo With Celebrity",
+    "description": "Original text or summary",
+    "tags": [
+      "realistic dinner photo",
+      "celebrity",
+      "image generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a realistic dinner photo with a celebrity"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ThisIsCodeXpert",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pgf3ay",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 40
+    },
+    "createdAt": "2025-12-07T10:18:27.000Z",
+    "updatedAt": "2025-12-14T20:36:00.727Z"
+  },
+  {
+    "id": "65e03686-b7ea-4ddd-8ff1-da6cd1764dcc",
+    "title": "How to restore your old vintage photos with Nano Banana?",
+    "description": "A prompt for restoring old vintage photos using Nano Banana.",
+    "tags": [
+      "vintage",
+      "photo restoration",
+      "nano banana"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "How to restore your old vintage photos with Nano Banana?"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "kk9393",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1p3nzig",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 38
+    },
+    "createdAt": "2025-11-22T08:16:55.000Z",
+    "updatedAt": "2025-12-14T20:36:12.311Z"
+  },
+  {
+    "id": "6faf4525-13dd-41c8-ba96-ccce6e8d1d23",
+    "title": "Social Media Frame Portraits with Nano Banana Pro",
+    "description": "A prompt for creating social media frame portraits using Nano Banana Pro.",
+    "tags": [
+      "social media",
+      "frame portraits",
+      "nano banana pro"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I found a prompt for Social Media Frame Portraits with Nano Banana Pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ThisIsCodeXpert",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1p4irvs",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 33
+    },
+    "createdAt": "2025-11-23T09:44:10.000Z",
+    "updatedAt": "2025-12-14T20:36:12.311Z"
+  },
+  {
+    "id": "a204f5cf-b44a-4cbc-ac24-c1c37b4d362b",
+    "title": "Cool Nano Banana Pro Images",
+    "description": "A collection of cool images generated using Nano Banana Pro.",
+    "tags": [
+      "image-generation",
+      "nano-banana-pro",
+      "cool-images"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Generate cool Nano Banana Pro images"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "GearOkBjork",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1p2ijqj",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 31
+    },
+    "createdAt": "2025-11-20T23:20:50.000Z",
+    "updatedAt": "2025-12-14T20:36:38.821Z"
+  },
+  {
+    "id": "caace63b-0e8d-4a27-9607-1898792c1ce9",
+    "title": "Create 'I Meet Stranger Things Cast' TikTok Trend",
+    "description": "Instructions on how to create a TikTok trend using Nano Banana Pro.",
+    "tags": [
+      "video-editing",
+      "tiktok-trend",
+      "stranger-things"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a TikTok trend where I meet the Stranger Things cast using Nano Banana Pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ThisIsCodeXpert",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pi2ko3",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 27
+    },
+    "createdAt": "2025-12-09T08:48:24.000Z",
+    "updatedAt": "2025-12-14T20:36:38.821Z"
+  },
+  {
+    "id": "4980f55f-2c05-4640-90ad-bab229dd6106",
+    "title": "Create Golden Hour Portrait",
+    "description": "Instructions on how to create a golden hour portrait using Nano Banana Pro.",
+    "tags": [
+      "photography",
+      "golden-hour",
+      "portrait"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a golden hour portrait using Nano Banana Pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ThisIsCodeXpert",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1p9nm5o",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 26
+    },
+    "createdAt": "2025-11-29T12:19:33.000Z",
+    "updatedAt": "2025-12-14T20:36:38.821Z"
+  },
+  {
+    "id": "96d4bcc5-4f71-44c3-b9ea-a4af3b9b5329",
+    "title": "How to Take Perfect Glam Selfie With Celebrity Using Nano Banana Pro?",
+    "description": "Prompt included for taking a perfect glam selfie with a celebrity using Nano Banana Pro.",
+    "tags": [
+      "selfie",
+      "celebrity",
+      "glam"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Take a perfect glam selfie with a celebrity using Nano Banana Pro"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "ThisIsCodeXpert",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1pexj89",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 25
+    },
+    "createdAt": "2025-12-05T15:11:08.000Z",
+    "updatedAt": "2025-12-14T20:36:50.475Z"
+  },
+  {
+    "id": "40408393-8199-430f-b09c-6f509ebe2eef",
+    "title": "AI Snow Effects! How to Create AI Snow Effects Photos with Nano Banana?",
+    "description": "Prompt for creating AI snow effects photos using Nano Banana.",
+    "tags": [
+      "snow",
+      "effects"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create AI snow effects photos with Nano Banana"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "HealthyAsparagus503",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1p0kli0",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 24
+    },
+    "createdAt": "2025-11-18T18:59:59.000Z",
+    "updatedAt": "2025-12-14T20:36:50.475Z"
+  },
+  {
+    "id": "d9b00198-7884-4aba-a749-13b5ebb25141",
+    "title": "Chibi-style Plush Character Transformation",
+    "description": "Transform yourself into a chibi-style plush character",
+    "tags": [
+      "chibi",
+      "plush",
+      "character"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Transform yourself into a chibi-style plush character"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "OverFlow10",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://v.redd.it/ulvrbais89vf1",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 2
+    },
+    "createdAt": "2025-10-15T10:43:53.000Z",
+    "updatedAt": "2025-12-14T20:37:25.924Z"
+  },
+  {
+    "id": "fdc5832b-94ca-47e5-89a7-844d1bd5e4df",
+    "title": "Sketch Book Drawings",
+    "description": "Create sketch book drawings",
+    "tags": [
+      "sketch",
+      "book",
+      "drawings"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create sketch book drawings"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "OverFlow10",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://v.redd.it/84hinugvmouf1",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 17
+    },
+    "createdAt": "2025-10-12T13:28:19.000Z",
+    "updatedAt": "2025-12-14T20:37:25.924Z"
+  },
+  {
+    "id": "6036313b-11a7-4dd7-9b62-e04364cf8426",
+    "title": "Replicate Viral Polaroid Trend",
+    "description": "Replicate the viral Polaroid trend using Nano Banana",
+    "tags": [
+      "polaroid",
+      "trend",
+      "nano-banana"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Replicate the viral Polaroid trend using Nano Banana"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "OverFlow10",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1nxzz5n",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 9
+    },
+    "createdAt": "2025-10-04T17:26:48.000Z",
+    "updatedAt": "2025-12-14T20:37:25.924Z"
+  },
+  {
+    "id": "8fabdd9c-c3ae-4255-856d-90ed1638055e",
+    "title": "Beach vibes.",
+    "description": "A visual representation of beach vibes.",
+    "tags": [
+      "beach",
+      "vibes",
+      "relaxation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create an image that captures the essence of beach vibes."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Scat50th",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/vfb749fo917g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 43
+    },
+    "createdAt": "2025-12-13T20:44:08.000Z",
+    "updatedAt": "2025-12-14T20:37:55.802Z"
+  },
+  {
+    "id": "3adefbf7-b4b5-4f49-a18b-0b5a8b23209e",
+    "title": "Cocktails anyone?",
+    "description": "A visual of cocktails.",
+    "tags": [
+      "cocktails",
+      "drinks",
+      "visual"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create an image of various cocktails."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Scat50th",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/iw102hb6i07g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 21
+    },
+    "createdAt": "2025-12-13T18:09:59.000Z",
+    "updatedAt": "2025-12-14T20:38:06.364Z"
+  },
+  {
+    "id": "5c4ab8e1-5bd7-491a-b4e0-9b92d1cd9357",
+    "title": "Warrior vibe",
+    "description": "A visual with a warrior theme.",
+    "tags": [
+      "warrior",
+      "theme",
+      "visual"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create an image with a warrior vibe."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Tales_of_a_Goddess",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/twqcm4m7ku6g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 163
+    },
+    "createdAt": "2025-12-12T22:10:44.000Z",
+    "updatedAt": "2025-12-14T20:38:06.364Z"
+  },
+  {
+    "id": "162363c6-5abc-439e-817c-5df7be508a65",
+    "title": "That PFP is too real. I’d totally believe it!!",
+    "description": "A profile picture that looks very realistic.",
+    "tags": [
+      "realistic",
+      "profile picture",
+      "ai-generated"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Generate a highly realistic profile picture"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Sunny275",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/dvplo7i5n76g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 363
+    },
+    "createdAt": "2025-12-09T17:06:15.000Z",
+    "updatedAt": "2025-12-14T20:38:44.056Z"
+  },
+  {
+    "id": "273f74bd-5562-4878-9ad8-f855b35de866",
+    "title": "Nano Banana [Prompt]",
+    "description": "A prompt for generating a nano banana.",
+    "tags": [
+      "nano",
+      "banana",
+      "ai-generated"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Generate a nano banana"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "tsintsadze111",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/i6fhrfto1z5g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 111
+    },
+    "createdAt": "2025-12-08T12:12:43.000Z",
+    "updatedAt": "2025-12-14T20:38:44.056Z"
+  },
+  {
+    "id": "5c794248-0c54-4123-b2bd-0686e9d29b7e",
+    "title": "Love restoring old photos with AI",
+    "description": "A post about using AI to restore old photos.",
+    "tags": [
+      "photo restoration",
+      "digital enhancement"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Restore this old photo using AI techniques."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "TheManInBlack_",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1p6l73q",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 61
+    },
+    "createdAt": "2025-11-25T19:02:38.000Z",
+    "updatedAt": "2025-12-14T20:39:04.535Z"
+  },
+  {
+    "id": "c49c312c-c086-458d-b1ca-32da69531b36",
+    "title": "Mixed media (Digital art + AI)",
+    "description": "A post showcasing mixed media art combining digital art and AI.",
+    "tags": [
+      "digital art",
+      "mixed media"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a mixed media piece combining digital art and AI."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Bombalurina",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/c6f93io0k36g1.png",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 54
+    },
+    "createdAt": "2025-12-09T03:22:13.000Z",
+    "updatedAt": "2025-12-14T20:39:04.535Z"
+  },
+  {
+    "id": "80c8930b-1a20-4e57-a041-99f3664efa90",
+    "title": "Celebrity cosplay using Nano Banana pro on Higgsfield",
+    "description": "Celebrity cosplay using Nano Banana pro on Higgsfield",
+    "tags": [
+      "celebrity",
+      "cosplay",
+      "image generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Generate a celebrity cosplay image using Nano Banana pro on Higgsfield"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "memerwala_londa",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://www.reddit.com/gallery/1p8bakt",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 26
+    },
+    "createdAt": "2025-11-27T19:47:31.000Z",
+    "updatedAt": "2025-12-14T20:39:34.745Z"
+  },
+  {
+    "id": "b3dbfd12-2058-4dc1-a44b-2c6b912de1f4",
+    "title": "Nano Banana Pro 2 generates realistic images",
+    "description": "Nano Banana Pro 2 generates realistic images",
+    "tags": [
+      "realistic",
+      "image generation",
+      "nano banana pro 2"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "gemini-2.5-flash-image-preview",
+      "gemini-3-pro-image-preview",
+      "nano-banana-pro-preview"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Generate realistic images using Nano Banana Pro 2"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "Few-Huckleberry9656",
+      "platform": "Reddit"
+    },
+    "originalSourceUrl": "https://i.redd.it/uqeyem7zjs2g1.jpeg",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 24
+    },
+    "createdAt": "2025-11-22T11:10:53.000Z",
+    "updatedAt": "2025-12-14T20:39:34.745Z"
+  },
+  {
+    "id": "31b85ed3-97f4-4b86-9d3c-b81d804082b0",
+    "title": "Tweet by @googleaidevs",
+    "description": "Prompting techniques for Gemini thinking models",
+    "tags": [
+      "prompting",
+      "techniques"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Prompting techniques for Gemini thinking models"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": {
+        "name": "@googleaidevs",
+        "url": "https://twitter.com/googleaidevs",
+        "platform": "Twitter"
+      },
+      "platform": "UserSubmission"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-14T20:40:00.447Z",
+    "updatedAt": "2025-12-14T20:40:00.447Z"
+  },
+  {
+    "id": "35a57204-7c6a-4524-95ac-53f95e4491b0",
+    "title": "Tweet by @googleaidevs",
+    "description": "Some more isometric figures created with Gemini 2.5 Flash Image / Nano Banana ...",
+    "tags": [
+      "isometric",
+      "figures",
+      "gemini 2.5 flash"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create some more isometric figures using Gemini 2.5 Flash Image / Nano Banana"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": {
+        "name": "@googleaidevs",
+        "url": "https://twitter.com/googleaidevs",
+        "platform": "Twitter"
+      },
+      "platform": "UserSubmission"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-14T20:40:09.561Z",
+    "updatedAt": "2025-12-14T20:40:09.561Z"
+  },
+  {
+    "id": "26a777e5-c368-453a-b42f-0a3666a74fe5",
+    "title": "Tweet by @lexx_aura",
+    "description": "Gemini can make you meet with devil.",
+    "tags": [
+      "portrait",
+      "creative",
+      "demon"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash",
+      "gemini-2.0-flash",
+      "gemini-2.5-pro"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Gemini can make you meet with devil."
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": {
+        "name": "@lexx_aura",
+        "url": "https://twitter.com/lexx_aura",
+        "platform": "Twitter"
+      },
+      "platform": "UserSubmission"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-14T20:40:17.957Z",
+    "updatedAt": "2025-12-14T20:40:17.957Z"
   }
 ]

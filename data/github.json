@@ -1,210 +1,183 @@
 [
   {
-    "id": "cf170239-4042-4fcd-aa19-4c5ff493b049",
-    "title": "Story_Writing_with_Prompt_Chaining",
-    "description": "Official example from google-gemini/cookbook",
+    "id": "26f63402-9b6b-4d17-a5c1-2353380e943c",
+    "title": "Story_Writing_with_Prompt_Chaining.ipynb",
+    "description": "Notebook example",
     "tags": [
-      "official",
-      "cookbook",
       "code"
     ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "See notebook"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "google-gemini",
+      "platform": "GitHub"
+    },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/95f891fa96e88822e9e035926d3860208bdf46ae/examples/Story_Writing_with_Prompt_Chaining.ipynb",
+    "createdAt": "2025-12-14T17:49:17.274Z"
+  },
+  {
+    "id": "c90f1d72-c355-4b60-8b26-695ef0eced37",
+    "title": "Role_prompting.ipynb",
+    "description": "Notebook example",
+    "tags": [
+      "code"
+    ],
     "compatibleModels": [
       "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
     ],
     "contents": [
       {
         "role": "user",
         "parts": [
           {
-            "text": "##### Copyright 2025 Google LLC.... (See Notebook)"
+            "text": "See notebook"
           }
         ]
       }
     ],
     "author": {
       "name": "google-gemini",
-      "url": "https://github.com/google-gemini",
       "platform": "GitHub"
     },
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-13T02:06:52.853Z",
-    "updatedAt": "2025-12-13T02:06:52.853Z"
-  },
-  {
-    "id": "4f52227b-381c-48fb-b2bb-5cbfd6312659",
-    "title": "Role_prompting",
-    "description": "Official example from google-gemini/cookbook",
-    "tags": [
-      "official",
-      "cookbook",
-      "code"
-    ],
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/95f891fa96e88822e9e035926d3860208bdf46ae/examples/prompting/Role_prompting.ipynb",
+    "createdAt": "2025-12-14T17:49:17.433Z"
+  },
+  {
+    "id": "e2f2c513-eefb-4840-9101-ac60d0bdcd4b",
+    "title": "Self_ask_prompting.ipynb",
+    "description": "Notebook example",
+    "tags": [
+      "code"
+    ],
     "compatibleModels": [
       "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
     ],
     "contents": [
       {
         "role": "user",
         "parts": [
           {
-            "text": "\n    You are a highly regarded music connoisseur, you are a big fan of Mozart.\n    You recently listened to Mozart's Requiem.\n"
+            "text": "See notebook"
           }
         ]
       }
     ],
     "author": {
       "name": "google-gemini",
-      "url": "https://github.com/google-gemini",
       "platform": "GitHub"
     },
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-13T02:06:53.043Z",
-    "updatedAt": "2025-12-13T02:06:53.043Z"
-  },
-  {
-    "id": "5b36948c-cac0-4e78-ab4d-12d6935b2291",
-    "title": "Self_ask_prompting",
-    "description": "Official example from google-gemini/cookbook",
-    "tags": [
-      "official",
-      "cookbook",
-      "code"
-    ],
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/95f891fa96e88822e9e035926d3860208bdf46ae/examples/prompting/Self_ask_prompting.ipynb",
+    "createdAt": "2025-12-14T17:49:17.597Z"
+  },
+  {
+    "id": "2ab45bc8-abdc-44e4-b410-f59ba07d6c93",
+    "title": "Basic_Information_Extraction.ipynb",
+    "description": "Notebook example",
+    "tags": [
+      "code"
+    ],
     "compatibleModels": [
       "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
     ],
     "contents": [
       {
         "role": "user",
         "parts": [
           {
-            "text": "\n  Question: Who was the president of the united states when Mozart died?\n  Are follow up questions needed?: yes.\n  Follow up: When did Mozart died?\n  Intermediate answer: 1791.\n  Follow up: Who was the president of the united states in 1791?\n  Intermediate answer: George Washington.\n  Final answer: When Mozart died George Washington was the president of the USA.\n\n  Question: Where did the Emperor of Japan, who ruled the year Maria\n  Skłodowska was born, die?\n"
+            "text": "See notebook"
           }
         ]
       }
     ],
     "author": {
       "name": "google-gemini",
-      "url": "https://github.com/google-gemini",
       "platform": "GitHub"
     },
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-13T02:06:53.224Z",
-    "updatedAt": "2025-12-13T02:06:53.224Z"
-  },
-  {
-    "id": "39f94253-c8ac-4b08-a5cf-08659c26b53f",
-    "title": "Basic_Information_Extraction",
-    "description": "Official example from google-gemini/cookbook",
-    "tags": [
-      "official",
-      "cookbook",
-      "code"
-    ],
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/95f891fa96e88822e9e035926d3860208bdf46ae/examples/prompting/Basic_Information_Extraction.ipynb",
+    "createdAt": "2025-12-14T17:49:17.768Z"
+  },
+  {
+    "id": "851e08f6-0472-413a-b8e2-f2a57fc5c2e3",
+    "title": "Get_started_LearnLM.ipynb",
+    "description": "Notebook example",
+    "tags": [
+      "code"
+    ],
     "compatibleModels": [
       "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
     ],
     "contents": [
       {
         "role": "user",
         "parts": [
           {
-            "text": "\n  You are given a list of groceries. Complete the following:\n  - Organize groceries into categories for easier shopping.\n  - List each item one under another with a checkbox [].\n"
+            "text": "See notebook"
           }
         ]
       }
     ],
     "author": {
       "name": "google-gemini",
-      "url": "https://github.com/google-gemini",
       "platform": "GitHub"
     },
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-13T02:06:53.421Z",
-    "updatedAt": "2025-12-13T02:06:53.421Z"
-  },
-  {
-    "id": "aff2a907-aa95-46ae-bf77-4ae1720a6542",
-    "title": "Get_started_LearnLM",
-    "description": "Official example from google-gemini/cookbook",
-    "tags": [
-      "official",
-      "cookbook",
-      "code"
-    ],
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/95f891fa96e88822e9e035926d3860208bdf46ae/quickstarts/Get_started_LearnLM.ipynb",
-    "compatibleModels": [
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "\n  Help me study for a undergrad cognition test on theories of emotion\n  generation.\n"
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "google-gemini",
-      "url": "https://github.com/google-gemini",
-      "platform": "GitHub"
-    },
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 0
-    },
-    "createdAt": "2025-12-13T02:06:53.645Z",
-    "updatedAt": "2025-12-13T02:06:53.645Z"
+    "createdAt": "2025-12-14T17:49:18.074Z"
   },
   {
-    "id": "86d5ac73-b477-489e-a09b-897c0264ce01",
-    "title": "Few_shot_prompting",
-    "description": "Official example from google-gemini/cookbook",
+    "id": "github-issue-11",
+    "title": "生成3D风格电影场面",
+    "description": "输入电影系列名称/演员名称 开始本流程",
     "tags": [
-      "official",
-      "cookbook",
-      "code"
+      "nano-banana",
+      "community-submission",
+      "image-generation"
     ],
-    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/95f891fa96e88822e9e035926d3860208bdf46ae/examples/prompting/Few_shot_prompting.ipynb",
     "compatibleModels": [
-      "gemini-2.5-pro"
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
     ],
     "contents": [
       {
         "role": "user",
         "parts": [
           {
-            "text": "\n    Sort the animals from biggest to smallest.\n    Question: Sort Tiger, Bear, Dog\n    Answer: Bear > Tiger > Dog}\n    Question: Sort Cat, Elephant, Zebra\n    Answer: Elephant > Zebra > Cat}\n    Question: Sort Whale, Goldfish, Monkey\n    Answer:\n"
+            "text": "Title\n\n生成3D风格电影场面"
           }
         ]
       }
     ],
+    "originalSourceUrl": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/11",
     "author": {
-      "name": "google-gemini",
-      "url": "https://github.com/google-gemini",
+      "name": "Aisukora",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/11",
       "platform": "GitHub"
     },
     "stats": {
@@ -212,35 +185,38 @@
       "copies": 0,
       "likes": 0
     },
-    "createdAt": "2025-12-13T02:06:53.829Z",
-    "updatedAt": "2025-12-13T02:06:53.829Z"
+    "createdAt": "2025-12-09T03:54:33Z",
+    "updatedAt": "2025-12-09T09:49:17Z"
   },
   {
-    "id": "85c42a6d-5613-4b5f-815f-1cf49ae5e872",
-    "title": "Basic_Code_Generation",
-    "description": "Official example from google-gemini/cookbook",
+    "id": "github-issue-9",
+    "title": "test prompt title",
+    "description": "test desc",
     "tags": [
-      "official",
-      "cookbook",
-      "code"
+      "nano-banana",
+      "community-submission",
+      "image-generation"
     ],
-    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/95f891fa96e88822e9e035926d3860208bdf46ae/examples/prompting/Basic_Code_Generation.ipynb",
     "compatibleModels": [
-      "gemini-2.5-pro"
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
     ],
     "contents": [
       {
         "role": "user",
         "parts": [
           {
-            "text": "\n  Create a countdown timer that ticks down every second and prints\n  \"Time is up!\" after 20 seconds\n"
+            "text": "Title\n\ntest prompt title"
           }
         ]
       }
     ],
+    "originalSourceUrl": "https://x.com/jaredliu_bravo/status/1991918514752667782",
     "author": {
-      "name": "google-gemini",
-      "url": "https://github.com/google-gemini",
+      "name": "Jaredddd",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/9",
       "platform": "GitHub"
     },
     "stats": {
@@ -248,35 +224,38 @@
       "copies": 0,
       "likes": 0
     },
-    "createdAt": "2025-12-13T02:06:54.032Z",
-    "updatedAt": "2025-12-13T02:06:54.032Z"
+    "createdAt": "2025-12-07T05:11:22Z",
+    "updatedAt": "2025-12-07T05:11:51Z"
   },
   {
-    "id": "35f48571-25ec-45a9-8077-691dfa74d8f4",
-    "title": "Search_reranking_using_embeddings",
-    "description": "Official example from google-gemini/cookbook",
+    "id": "github-issue-8",
+    "title": "test title",
+    "description": "test description",
     "tags": [
-      "official",
-      "cookbook",
-      "code"
+      "nano-banana",
+      "community-submission",
+      "image-generation"
     ],
-    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/95f891fa96e88822e9e035926d3860208bdf46ae/examples/Search_reranking_using_embeddings.ipynb",
     "compatibleModels": [
-      "gemini-2.5-pro"
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
     ],
     "contents": [
       {
         "role": "user",
         "parts": [
           {
-            "text": "##### Copyright 2025 Google LLC.... (See Notebook)"
+            "text": "Title\n\ntest title"
           }
         ]
       }
     ],
+    "originalSourceUrl": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/8",
     "author": {
-      "name": "google-gemini",
-      "url": "https://github.com/google-gemini",
+      "name": "Jared Liu",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/8",
       "platform": "GitHub"
     },
     "stats": {
@@ -284,35 +263,38 @@
       "copies": 0,
       "likes": 0
     },
-    "createdAt": "2025-12-13T02:06:54.222Z",
-    "updatedAt": "2025-12-13T02:06:54.222Z"
+    "createdAt": "2025-12-07T04:55:13Z",
+    "updatedAt": "2025-12-07T04:55:36Z"
   },
   {
-    "id": "a8039668-673e-404c-983c-9e76e0cb4ea3",
-    "title": "Entity_Extraction",
-    "description": "Official example from google-gemini/cookbook",
+    "id": "github-issue-7",
+    "title": "test",
+    "description": "test",
     "tags": [
-      "official",
-      "cookbook",
-      "code"
+      "nano-banana",
+      "community-submission",
+      "image-generation"
     ],
-    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/95f891fa96e88822e9e035926d3860208bdf46ae/examples/Entity_Extraction.ipynb",
     "compatibleModels": [
-      "gemini-2.5-pro"
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
     ],
     "contents": [
       {
         "role": "user",
         "parts": [
           {
-            "text": "##### Copyright 2025 Google LLC.... (See Notebook)"
+            "text": "Title\n\ntest"
           }
         ]
       }
     ],
+    "originalSourceUrl": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/7",
     "author": {
-      "name": "google-gemini",
-      "url": "https://github.com/google-gemini",
+      "name": "Jared",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/7",
       "platform": "GitHub"
     },
     "stats": {
@@ -320,35 +302,38 @@
       "copies": 0,
       "likes": 0
     },
-    "createdAt": "2025-12-13T02:06:54.420Z",
-    "updatedAt": "2025-12-13T02:06:54.420Z"
+    "createdAt": "2025-12-07T04:25:22Z",
+    "updatedAt": "2025-12-07T04:30:02Z"
   },
   {
-    "id": "a46638ef-7218-49fe-8abc-08faf4020f53",
-    "title": "Basic_Classification",
-    "description": "Official example from google-gemini/cookbook",
+    "id": "github-issue-6",
+    "title": "test",
+    "description": "testtttt",
     "tags": [
-      "official",
-      "cookbook",
-      "code"
+      "nano-banana",
+      "community-submission",
+      "image-generation"
     ],
-    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/95f891fa96e88822e9e035926d3860208bdf46ae/examples/prompting/Basic_Classification.ipynb",
     "compatibleModels": [
-      "gemini-2.5-pro"
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
     ],
     "contents": [
       {
         "role": "user",
         "parts": [
           {
-            "text": "\n  As a social media moderation system, your task is to categorize user\n  comments under a post. Analyze the comment related to the topic and\n  classify it into one of the following categories:\n\n  Abusive\n  Spam\n  Offensive\n\n  If the comment does not fit any of the above categories,\n  classify it as: Neutral.\n\n  Provide only the category as a response without explanations.\n"
+            "text": "Title\n\ntest"
           }
         ]
       }
     ],
+    "originalSourceUrl": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/6",
     "author": {
-      "name": "google-gemini",
-      "url": "https://github.com/google-gemini",
+      "name": "Jared",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/6",
       "platform": "GitHub"
     },
     "stats": {
@@ -356,7 +341,85 @@
       "copies": 0,
       "likes": 0
     },
-    "createdAt": "2025-12-13T02:06:54.650Z",
-    "updatedAt": "2025-12-13T02:06:54.650Z"
+    "createdAt": "2025-12-07T04:16:00Z",
+    "updatedAt": "2025-12-07T04:16:20Z"
+  },
+  {
+    "id": "github-issue-5",
+    "title": "Test Prompt",
+    "description": "test 4 test",
+    "tags": [
+      "nano-banana",
+      "community-submission",
+      "image-generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Title\n\nTest Prompt"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/5",
+    "author": {
+      "name": "me",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/5",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-07T04:07:20Z",
+    "updatedAt": "2025-12-07T04:07:33Z"
+  },
+  {
+    "id": "github-issue-4",
+    "title": "瓦楞纸艺术作品框格展示",
+    "description": "它用于让模型精准生成一张“全瓦楞纸材质、3×4 分格、每格展示不同纸艺工具”的结构化手工艺术照片。适用于纸艺展示或需要统一材质与严格构图的视觉创作场景。",
+    "tags": [
+      "nano-banana",
+      "community-submission",
+      "image-generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Title\n\n瓦楞纸艺术作品框格展示"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://x.com/NyCEiUpc7kj4SbO/status/1997296010297741458",
+    "author": {
+      "name": "鹜辰",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/4",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-06T15:25:58Z",
+    "updatedAt": "2025-12-07T05:49:15Z"
   }
 ]
