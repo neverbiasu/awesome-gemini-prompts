@@ -64,6 +64,13 @@ export interface GeminiPrompt {
   
   // Modality Support (e.g., text, image, video, audio)
   modality?: Array<"text" | "image" | "video" | "audio">;
+  
+  // Scraped Images (Input/Output for display)
+  images?: Array<{
+    url: string;
+    label?: "input" | "output" | "gallery";
+    alt?: string;
+  }>;
 
   // Gemini Native API Structure
   // 1. System Instruction: Stored separately
@@ -127,6 +134,12 @@ export const GeminiPromptZodSchema = z.object({
   originalSourceUrl: z.string().url().optional(),
   
   modality: z.array(z.enum(["text", "image", "video", "audio"])).optional(),
+
+  images: z.array(z.object({
+    url: z.string().url(),
+    label: z.enum(["input", "output", "gallery"]).optional(),
+    alt: z.string().optional()
+  })).optional(),
 
   systemInstruction: z.object({
     parts: z.array(z.object({ text: z.string() }))

@@ -10,6 +10,16 @@ const nextConfig: NextConfig = {
   experimental: {
     optimizePackageImports: ['@heroui/react'],
   },
+  images: {
+    remotePatterns: [
+      { protocol: 'https', hostname: 'preview.redd.it' },
+      { protocol: 'https', hostname: 'i.redd.it' },
+      { protocol: 'https', hostname: 'pbs.twimg.com' },
+      { protocol: 'https', hostname: 'raw.githubusercontent.com' },
+      { protocol: 'https', hostname: 'user-images.githubusercontent.com' },
+      { protocol: 'https', hostname: 'lh3.googleusercontent.com' },
+    ],
+  },
 };
 
 export default nextConfig;

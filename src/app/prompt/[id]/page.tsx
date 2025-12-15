@@ -9,6 +9,7 @@ import { SiGoogle } from "react-icons/si";
 import Link from 'next/link';
 import PromptGrid from '@/components/PromptGrid';
 import CopyButton from '@/components/CopyButton';
+import { CompareSlider } from '@/components/CompareSlider';
 
 export const revalidate = 0;
 
@@ -116,6 +117,46 @@ export default async function PromptDetailPage(props: PageProps) {
             Open in {prompt.author?.platform || 'Source'}
           </Button>
         </div>
+
+        {/* Image Comparison / Gallery */}
+        {prompt.images && prompt.images.length >= 2 && (
+          <section className="mb-12">
+            <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
+              <span className="w-1 h-6 bg-pink-500 rounded-full"></span>
+              Visual Result
+            </h3>
+            <div className="border border-white/10 rounded-xl overflow-hidden bg-zinc-900/50">
+              <CompareSlider 
+                beforeImage={prompt.images[0].url}
+                afterImage={prompt.images[1].url}
+                beforeLabel={prompt.images[0].label || "Input / Reference"}
+                afterLabel={prompt.images[1].label || "Output / Result"}
+              />
+            </div>
+            {prompt.images.length > 2 && (
+               <p className="text-zinc-500 text-sm mt-2 text-center">
+                 + {prompt.images.length - 2} more images available in source
+               </p>
+            )}
+          </section>
+        )}
+        
+        {prompt.images && prompt.images.length === 1 && (
+           <section className="mb-12">
+             <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
+                <span className="w-1 h-6 bg-pink-500 rounded-full"></span>
+                Visual Result
+             </h3>
+             <div className="relative h-[400px] w-full rounded-xl overflow-hidden border border-white/10">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img 
+                  src={prompt.images[0].url} 
+                  alt={prompt.images[0].alt || "Prompt Result"} 
+                  className="w-full h-full object-cover"
+                />
+             </div>
+           </section>
+        )}
 
         {/* Content */}
         <div className="space-y-8">
