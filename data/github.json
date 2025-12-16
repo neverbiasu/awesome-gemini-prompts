@@ -1,6 +1,6 @@
 [
   {
-    "id": "c9445d8a-e804-4d34-8cb7-44c3b79860ed",
+    "id": "741ab20a-07e1-42ff-ae22-b73933f5f1fe",
     "title": "Story_Writing_with_Prompt_Chaining.ipynb",
     "description": "Notebook example",
     "tags": [
@@ -27,10 +27,10 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/95f891fa96e88822e9e035926d3860208bdf46ae/examples/Story_Writing_with_Prompt_Chaining.ipynb",
-    "createdAt": "2025-12-15T02:23:35.607Z"
+    "createdAt": "2025-12-16T02:20:32.405Z"
   },
   {
-    "id": "e3a1644e-c303-4807-b0de-92718a0c5c5c",
+    "id": "a985a3d6-c508-4b1b-b10b-2b908cce7d2f",
     "title": "Role_prompting.ipynb",
     "description": "Notebook example",
     "tags": [
@@ -57,10 +57,10 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/95f891fa96e88822e9e035926d3860208bdf46ae/examples/prompting/Role_prompting.ipynb",
-    "createdAt": "2025-12-15T02:23:35.717Z"
+    "createdAt": "2025-12-16T02:20:32.517Z"
   },
   {
-    "id": "7abaee15-bbc0-43de-a7db-7efc71ee2df7",
+    "id": "3e9b863f-0e47-4206-affc-7a24bf8bd014",
     "title": "Self_ask_prompting.ipynb",
     "description": "Notebook example",
     "tags": [
@@ -87,10 +87,10 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/95f891fa96e88822e9e035926d3860208bdf46ae/examples/prompting/Self_ask_prompting.ipynb",
-    "createdAt": "2025-12-15T02:23:35.822Z"
+    "createdAt": "2025-12-16T02:20:32.634Z"
   },
   {
-    "id": "4ae7a27c-5571-4c79-9d3f-a64163610dfe",
+    "id": "eb7c5d41-8b07-40df-be7d-080d8fa1b93d",
     "title": "Basic_Information_Extraction.ipynb",
     "description": "Notebook example",
     "tags": [
@@ -117,10 +117,10 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/95f891fa96e88822e9e035926d3860208bdf46ae/examples/prompting/Basic_Information_Extraction.ipynb",
-    "createdAt": "2025-12-15T02:23:35.948Z"
+    "createdAt": "2025-12-16T02:20:32.762Z"
   },
   {
-    "id": "03016f60-e0c6-434c-9ee9-aac3e97e41f0",
+    "id": "dea12eb0-c2a4-4718-bd9b-bd586687dac6",
     "title": "Get_started_LearnLM.ipynb",
     "description": "Notebook example",
     "tags": [
@@ -147,7 +147,7 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/95f891fa96e88822e9e035926d3860208bdf46ae/quickstarts/Get_started_LearnLM.ipynb",
-    "createdAt": "2025-12-15T02:23:36.073Z"
+    "createdAt": "2025-12-16T02:20:32.915Z"
   },
   {
     "id": "github-issue-11",
