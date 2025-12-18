@@ -1,6 +1,6 @@
 [
   {
-    "id": "8c376547-db1f-49fe-bdf4-d46d11a1b8eb",
+    "id": "658fb994-8f84-49c9-b9a1-2c392deed696",
     "title": "Story_Writing_with_Prompt_Chaining.ipynb",
     "description": "Notebook example",
     "tags": [
@@ -26,11 +26,11 @@
       "name": "google-gemini",
       "platform": "GitHub"
     },
-    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/dd3658ef4532192bf0bf203d6adfa7b2869c9a9b/examples/Story_Writing_with_Prompt_Chaining.ipynb",
-    "createdAt": "2025-12-17T02:09:34.236Z"
+    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/examples/Story_Writing_with_Prompt_Chaining.ipynb",
+    "createdAt": "2025-12-18T02:10:16.923Z"
   },
   {
-    "id": "ebb69349-1713-4d00-b92d-d64e2470c2ef",
+    "id": "c69d41c8-842b-4799-af42-bc36349b33a3",
     "title": "Role_prompting.ipynb",
     "description": "Notebook example",
     "tags": [
@@ -56,11 +56,11 @@
       "name": "google-gemini",
       "platform": "GitHub"
     },
-    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/dd3658ef4532192bf0bf203d6adfa7b2869c9a9b/examples/prompting/Role_prompting.ipynb",
-    "createdAt": "2025-12-17T02:09:34.355Z"
+    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/examples/prompting/Role_prompting.ipynb",
+    "createdAt": "2025-12-18T02:10:17.153Z"
   },
   {
-    "id": "e6dd8bfe-cf5c-4273-82e0-4e9bc54944df",
+    "id": "cad37ea7-eabe-4d6c-b970-6992fd493dd9",
     "title": "Self_ask_prompting.ipynb",
     "description": "Notebook example",
     "tags": [
@@ -86,11 +86,11 @@
       "name": "google-gemini",
       "platform": "GitHub"
     },
-    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/dd3658ef4532192bf0bf203d6adfa7b2869c9a9b/examples/prompting/Self_ask_prompting.ipynb",
-    "createdAt": "2025-12-17T02:09:34.492Z"
+    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/examples/prompting/Self_ask_prompting.ipynb",
+    "createdAt": "2025-12-18T02:10:17.374Z"
   },
   {
-    "id": "79616a9d-7777-443d-9ac7-1491ec71745c",
+    "id": "efe016e6-b573-45af-8cbf-19fd063c7d60",
     "title": "Basic_Information_Extraction.ipynb",
     "description": "Notebook example",
     "tags": [
@@ -116,11 +116,11 @@
       "name": "google-gemini",
       "platform": "GitHub"
     },
-    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/dd3658ef4532192bf0bf203d6adfa7b2869c9a9b/examples/prompting/Basic_Information_Extraction.ipynb",
-    "createdAt": "2025-12-17T02:09:34.614Z"
+    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/examples/prompting/Basic_Information_Extraction.ipynb",
+    "createdAt": "2025-12-18T02:10:17.559Z"
   },
   {
-    "id": "95eefbd0-47b0-4be0-a515-a70b31c171ce",
+    "id": "5023ce9e-e91b-4462-a117-b5c2611915d7",
     "title": "Get_started_LearnLM.ipynb",
     "description": "Notebook example",
     "tags": [
@@ -146,8 +146,8 @@
       "name": "google-gemini",
       "platform": "GitHub"
     },
-    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/dd3658ef4532192bf0bf203d6adfa7b2869c9a9b/quickstarts/Get_started_LearnLM.ipynb",
-    "createdAt": "2025-12-17T02:09:34.750Z"
+    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/quickstarts/Get_started_LearnLM.ipynb",
+    "createdAt": "2025-12-18T02:10:17.757Z"
   },
   {
     "id": "github-issue-11",
