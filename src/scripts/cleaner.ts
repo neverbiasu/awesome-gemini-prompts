@@ -3,8 +3,6 @@ import { google } from '@ai-sdk/google';
 import { createOpenAI } from '@ai-sdk/openai';
 import { z } from 'zod';
 import { GeminiPrompt, HarmCategory, HarmBlockThreshold } from '../schema/prompt';
-import ModelClient, { isUnexpected } from "@azure-rest/ai-inference";
-import { AzureKeyCredential } from "@azure/core-auth";
 
 import { promises as fs } from 'fs';
 import path from 'path';
@@ -53,11 +51,11 @@ export async function cleanPromptsWithLLM(rawPrompts: any[]): Promise<GeminiProm
   const useModelScope = process.env.USE_MODELSCOPE === 'true' || process.env.USE_MODELSCOPE === '1';
   
   let model: any;
-  let azureClient: any;
+  let githubModel: any;
 
   if (useModelScope && modelScopeApiKey) {
     console.log(`   Using ModelScope (DeepSeek-V3.2 via Raw Fetch) [Key Length: ${modelScopeApiKey.length}]`);
-    // We do not initialize 'model' or 'azureClient' here.
+    // We do not initialize 'model' or 'githubModel' here.
     // The loop will handle 'useModelScope' directly via raw fetch.
 
   } else if (apiKey && !useGithub) {
@@ -66,11 +64,12 @@ export async function cleanPromptsWithLLM(rawPrompts: any[]): Promise<GeminiProm
     model = google('gemini-2.5-flash-preview-09-2025');
 
   } else if (githubToken) {
-    console.log("   Using GPT-4o (via GitHub Models & Azure SDK)");
-    azureClient = ModelClient(
-      "https://models.github.ai/inference",
-      new AzureKeyCredential(githubToken)
-    );
+    console.log("   Using GPT-4o-mini (via GitHub Models & OpenAI SDK)");
+    const githubOpenAI = createOpenAI({
+      baseURL: "https://models.inference.ai.azure.com",
+      apiKey: githubToken,
+    });
+    githubModel = githubOpenAI('gpt-4o-mini');
   } else {
     console.warn("⚠️ No AI API Key found. Skipping LLM cleaning.");
     return [];
@@ -182,62 +181,29 @@ export async function cleanPromptsWithLLM(rawPrompts: any[]): Promise<GeminiProm
             throw e;
          }
 
-      } else if (azureClient) {
-        // Azure AI SDK (GitHub Models - Jamba/GPT-4o)
-        // We must manually instruct for JSON since we aren't using generateObject
-        const response = await azureClient.path("/chat/completions").post({
-          body: {
-            messages: [
-              { role: "system", content: "You are a data cleaning assistant. You MUST respond with valid JSON only." },
-              { role: "user", content: `
-                Extract structured Gemini Prompts from the following raw data.
-                
-                OUTPUT SCHEMA (JSON):
-                {
-                  "prompts": [
-                    {
-                      "batchIndex": number,
-                      "title": string,
-                      "description": string,
-                      "systemInstruction": string (optional),
-                      "userPrompt": string,
-                      "tags": string[],
-                      "compatibleModels": string[],
-                      "safetySettings": object[] (optional),
-                      "confidenceScore": number,
-                      "reasoning": string
-                    }
-                  ]
-                }
-
-                RULES:
-                1. Extract verbatim.
-                2. Discard garbage.
-                3. Tags: 3 lowercase tags.
-                4. Infer compatible models (e.g. gemini-2.5-flash for text, imagen-4.0 for images).
-                
-                RAW DATA:
-                ${JSON.stringify(minifiedBatch)}
-              ` }
-            ],
-            temperature: 0.0,
-            model: "gpt-4o", 
-            response_format: { type: "json_object" }
-          }
+      } else if (githubModel) {
+        // GitHub Models via OpenAI SDK
+        console.log("      🚀 Sending request to GitHub Models (GPT-4o-mini)...");
+        const result = await generateObject({
+          model: githubModel,
+          schema: CleanedPromptsResponseSchema,
+          prompt: `
+            Extract structured Gemini Prompts from the following raw data.
+            
+            RULES:
+            1. Extract verbatim.
+            2. Discard garbage.
+            3. Tags: 3 lowercase tags.
+            4. Infer compatible models (e.g. gemini-2.5-flash for text, imagen-4.0 for images).
+            
+            RAW DATA:
+            ${JSON.stringify(minifiedBatch)}
+          `,
+          temperature: 0.0,
         });
 
-        if (isUnexpected(response)) {
-          throw new Error("Azure SDK Error: " + JSON.stringify(response.body));
-        }
-
-        const rawContent = response.body.choices[0].message.content;
-        // Parse JSON manually
-        try {
-           cleanedBatch = JSON.parse(rawContent);
-        } catch (e) {
-           console.error("JSON Parse Error on Azure response:", rawContent);
-           throw e;
-        }
+        cleanedBatch = result.object;
+        console.log(`      ✅ Parsed ${cleanedBatch.prompts?.length || 0} prompts.`);
       } else {
         throw new Error("No model or client available.");
       }
