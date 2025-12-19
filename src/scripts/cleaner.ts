@@ -66,7 +66,7 @@ export async function cleanPromptsWithLLM(rawPrompts: any[]): Promise<GeminiProm
     model = google('gemini-2.5-flash-preview-09-2025');
 
   } else if (githubToken) {
-    console.log("   Using GPT-4o (via GitHub Models & Azure SDK)");
+    console.log("   Using AI21-Jamba-1.5-Large (via GitHub Models & Azure SDK)");
     azureClient = ModelClient(
       "https://models.github.ai/inference",
       new AzureKeyCredential(githubToken)
@@ -221,7 +221,7 @@ export async function cleanPromptsWithLLM(rawPrompts: any[]): Promise<GeminiProm
               ` }
             ],
             temperature: 0.0,
-            model: "gpt-4o", 
+            model: "ai21-labs/AI21-Jamba-1.5-Large", 
             response_format: { type: "json_object" }
           }
         });
