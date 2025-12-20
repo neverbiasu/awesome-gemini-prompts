@@ -261,8 +261,9 @@ async function main() {
   for (const username of TARGET_ACCOUNTS) {
       const page = await context.newPage();
       try {
-          // Strategy: Try Search first (more targeted), then fallback to Timeline if empty?
-          // Or just do both? Let's do Search as it matches the user's "recursive query" request better.
+          // Special Logic for News Accounts (High Noise)
+          // rowancheung is a news account, not a prompt library. We only want explicit prompts.
+          const isStrictAccount = ['rowancheung', 'AlexRiad84837'].includes(username);
           
           let prompts = await scrapeUserSearch(page, username);
           
@@ -270,6 +271,28 @@ async function main() {
               console.log(`   Search returned 0 results. Falling back to Timeline...`);
               prompts = await scrapeUserTimeline(page, username);
           }
+
+          if (isStrictAccount) {
+              // Strict Filter: Must have "Prompt:" or "System Instruction" explicit keyword
+              const originalCount = prompts.length;
+              prompts = prompts.filter(p => {
+                  const content = p.contents[0]?.parts[0]?.text?.toLowerCase() || "";
+                  return content.includes("prompt:") || content.includes("system instruction") || content.includes("try this:");
+              });
+              if (prompts.length < originalCount) {
+                  console.log(`   Strict Filter (@${username}): Dropped ${originalCount - prompts.length} news/noise items.`);
+              }
+          }
+          
+          // General Filter: Truncated Content
+          // If it ends with "..." and is short (<200 char), it's likely a scraped snippet, not a full prompt.
+          prompts = prompts.filter(p => {
+              const text = p.contents[0]?.parts[0]?.text || "";
+              if (text.trim().endsWith("...") && text.length < 200) {
+                   return false; // Drop truncated
+              }
+              return true;
+          });
 
           if (prompts.length > 0) {
               // Deduplicate locally before saving

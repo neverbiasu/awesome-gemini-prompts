@@ -11439,5 +11439,253 @@
     ],
     "createdAt": "2025-10-15T06:13:51.000Z",
     "updatedAt": "2025-12-14T01:05:22.925Z"
+  },
+  {
+    "id": "twitter-2001353413213458848",
+    "title": "Tweet by @GoogleDeepMind",
+    "description": "Watch how Gemini 3 Flash compares to 2.5 Pro when generating SVG code and simple web apps. ↓...",
+    "tags": [],
+    "author": {
+      "name": "@GoogleDeepMind",
+      "url": "https://twitter.com/GoogleDeepMind",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/GoogleDeepMind/status/2001353413213458848",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Watch how Gemini 3 Flash compares to 2.5 Pro when generating SVG code and simple web apps. ↓"
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 707,
+      "copies": 0
+    },
+    "compatibleModels": [
+      "gemini-2.5-flash"
+    ],
+    "modality": [
+      "image"
+    ],
+    "createdAt": "2025-12-17T18:06:51.000Z",
+    "updatedAt": "2025-12-19T23:51:03.955Z"
+  },
+  {
+    "id": "twitter-2001321759702663544",
+    "title": "Tweet by @GoogleDeepMind",
+    "description": "Gemini 3 Flash gives you frontier intelligence at a fraction of the cost. \n\nHere’s how it’s built fo...",
+    "tags": [],
+    "author": {
+      "name": "@GoogleDeepMind",
+      "url": "https://twitter.com/GoogleDeepMind",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/GoogleDeepMind/status/2001321759702663544",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Gemini 3 Flash gives you frontier intelligence at a fraction of the cost. \n\nHere’s how it’s built for speed and scale"
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 1936,
+      "copies": 0
+    },
+    "compatibleModels": [
+      "gemini-2.5-flash"
+    ],
+    "modality": [
+      "image"
+    ],
+    "createdAt": "2025-12-17T16:01:04.000Z",
+    "updatedAt": "2025-12-19T23:51:33.969Z"
+  },
+  {
+    "id": "twitter-2001321765503377546",
+    "title": "Tweet by @GoogleDeepMind",
+    "description": "For developers, it combines advanced coding skills with the low latency needed for building interact...",
+    "tags": [],
+    "author": {
+      "name": "@GoogleDeepMind",
+      "url": "https://twitter.com/GoogleDeepMind",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/GoogleDeepMind/status/2001321765503377546",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "For developers, it combines advanced coding skills with the low latency needed for building interactive apps.\n\nOn SWE-bench Verified – a benchmark for evaluating coding agents – it outperforms not only the 2.5 series, but also Gemini 3 Pro.\n\nWatch 3 Flash give near real-time AI"
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 250,
+      "copies": 0
+    },
+    "compatibleModels": [
+      "gemini-2.5-flash"
+    ],
+    "modality": [
+      "image"
+    ],
+    "createdAt": "2025-12-17T16:01:06.000Z",
+    "updatedAt": "2025-12-19T23:52:03.990Z"
+  },
+  {
+    "id": "twitter-2001321768082964864",
+    "title": "Tweet by @GoogleDeepMind",
+    "description": "Anyone can try Gemini 3 Flash in the \n@GeminiApp\n and AI Mode in \n@Google\n Search. Developers can al...",
+    "tags": [],
+    "author": {
+      "name": "@GoogleDeepMind",
+      "url": "https://twitter.com/GoogleDeepMind",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/GoogleDeepMind/status/2001321768082964864",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Anyone can try Gemini 3 Flash in the \n@GeminiApp\n and AI Mode in \n@Google\n Search. Developers can also start building via the Gemini API in \n@GoogleAIStudio\n and our new agentic platform, \n@Antigravity\n.\n\nFind out more ↓"
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 191,
+      "copies": 0
+    },
+    "compatibleModels": [
+      "gemini-2.5-flash"
+    ],
+    "modality": [
+      "text"
+    ],
+    "createdAt": "2025-12-17T16:01:06.000Z",
+    "updatedAt": "2025-12-19T23:52:04.003Z"
+  },
+  {
+    "id": "twitter-2000989303086649637",
+    "title": "Tweet by @GoogleDeepMind",
+    "description": "YouTube is launching a closed Beta test for Playables Builder, a prototype web app built using Gemin...",
+    "tags": [],
+    "author": {
+      "name": "@GoogleDeepMind",
+      "url": "https://twitter.com/GoogleDeepMind",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/YouTubeGaming/status/2000989303086649637",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "YouTube is launching a closed Beta test for Playables Builder, a prototype web app built using Gemini 3 where users create games with short text, video or image prompts. we’ve partnered with YouTube Creators like \n@sambucha\n, \n@AyChristene\n, \n@goharsguide\n and \n@Mogswamp\n to start making"
+          },
+          {
+            "text": "[Image Attachment: https://pbs.twimg.com/media/G8TWp7nWYAQ-RDl?format=jpg&name=small]"
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 660,
+      "copies": 0
+    },
+    "compatibleModels": [
+      "gemini-2.5-flash"
+    ],
+    "modality": [
+      "image"
+    ],
+    "createdAt": "2025-12-16T18:00:01.000Z",
+    "updatedAt": "2025-12-19T23:52:04.013Z"
+  },
+  {
+    "id": "twitter-2000985655715807599",
+    "title": "Tweet by @GoogleDeepMind",
+    "description": "We’re using AI to work on root node problems – fundamental scientific challenges that unlock societa...",
+    "tags": [],
+    "author": {
+      "name": "@GoogleDeepMind",
+      "url": "https://twitter.com/GoogleDeepMind",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/GoogleDeepMind/status/2000985655715807599",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "We’re using AI to work on root node problems – fundamental scientific challenges that unlock societal benefits. \n\nFrom fusion and superconductors to entirely new materials, our CEO \n@DemisHassabis\n discusses what comes next after #AlphaFold – all on our podcast with \n@fryrsquared\n."
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 1254,
+      "copies": 0
+    },
+    "compatibleModels": [
+      "gemini-2.5-flash"
+    ],
+    "modality": [
+      "image"
+    ],
+    "createdAt": "2025-12-16T17:45:31.000Z",
+    "updatedAt": "2025-12-19T23:52:34.030Z"
+  },
+  {
+    "id": "twitter-2000677645239930983",
+    "title": "Tweet by @GoogleDeepMind",
+    "description": "Our AI safety and security research partnership with the \n@AISecurityInst\n is expanding. \n\nTogether,...",
+    "tags": [],
+    "author": {
+      "name": "@GoogleDeepMind",
+      "url": "https://twitter.com/GoogleDeepMind",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/GoogleDeepMind/status/2000677645239930983",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Our AI safety and security research partnership with the \n@AISecurityInst\n is expanding. \n\nTogether, we’ll focus on critical areas – from monitoring how models “think” to understanding their social and economic impact – to help ensure AI benefits everyone. →"
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 320,
+      "copies": 0
+    },
+    "compatibleModels": [
+      "gemini-2.5-flash"
+    ],
+    "modality": [
+      "image"
+    ],
+    "createdAt": "2025-12-15T21:21:36.000Z",
+    "updatedAt": "2025-12-19T23:53:04.055Z"
   }
 ]

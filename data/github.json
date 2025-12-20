@@ -150,7 +150,6 @@
     "createdAt": "2025-12-20T02:06:21.031Z"
   },
   {
-    "id": "github-issue-11",
     "title": "生成3D风格电影场面",
     "description": "输入电影系列名称/演员名称 开始本流程",
     "tags": [
@@ -189,7 +188,6 @@
     "updatedAt": "2025-12-09T09:49:17Z"
   },
   {
-    "id": "github-issue-9",
     "title": "test prompt title",
     "description": "test desc",
     "tags": [
@@ -228,8 +226,6 @@
     "updatedAt": "2025-12-07T05:11:51Z"
   },
   {
-    "id": "github-issue-8",
-    "title": "test title",
     "description": "test description",
     "tags": [
       "nano-banana",
@@ -247,7 +243,6 @@
         "role": "user",
         "parts": [
           {
-            "text": "Title\n\ntest title"
           }
         ]
       }
@@ -267,7 +262,6 @@
     "updatedAt": "2025-12-07T04:55:36Z"
   },
   {
-    "id": "github-issue-7",
     "title": "test",
     "description": "test",
     "tags": [
@@ -306,7 +300,6 @@
     "updatedAt": "2025-12-07T04:30:02Z"
   },
   {
-    "id": "github-issue-6",
     "title": "test",
     "description": "testtttt",
     "tags": [
@@ -345,7 +338,6 @@
     "updatedAt": "2025-12-07T04:16:20Z"
   },
   {
-    "id": "github-issue-5",
     "title": "Test Prompt",
     "description": "test 4 test",
     "tags": [
@@ -384,7 +376,6 @@
     "updatedAt": "2025-12-07T04:07:33Z"
   },
   {
-    "id": "github-issue-4",
     "title": "瓦楞纸艺术作品框格展示",
     "description": "它用于让模型精准生成一张“全瓦楞纸材质、3×4 分格、每格展示不同纸艺工具”的结构化手工艺术照片。适用于纸艺展示或需要统一材质与严格构图的视觉创作场景。",
     "tags": [

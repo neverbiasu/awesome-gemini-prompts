@@ -8,10 +8,15 @@
     "start": "next start",
     "lint": "eslint",
     "scrape": "tsx src/scripts/scrape.ts",
-    "scrape:x": "tsx src/scripts/scraper-playwright.ts",
+    "scrape:x": "bun src/scripts/scraper-playwright.ts",
     "clean": "tsx src/scripts/clean.ts",
     "archive:ui": "tsx src/scripts/archive-ui.ts",
-    "pipeline": "npm run scrape && npm run clean"
+    "pipeline": "npm run scrape && npm run clean",
+    "clean:ingest": "bun src/scripts/clean.ts",
+    "clean:audit": "bun src/scripts/audit.ts",
+    "audit:apply": "bun src/scripts/audit-apply.ts",
+    "scrape:reddit": "bun src/scripts/scraper/reddit-scraper.ts",
+    "report": "bun src/scripts/report.ts"
   },
   "dependencies": {
     "@ai-sdk/google": "^2.0.43",
