@@ -1,5 +1,5 @@
 const SUBREDDITS = [
-    'GoogleGeminiAI', 'GeminiAI', 'GoogleGemini', 'Bard', 'ChatGPT_Gemini', 'PromptEngineering', // Text
+    'GoogleGeminiAI', 'GeminiAI', 'GoogleGemini', 'Bard', 'ChatGPT_Gemini', 'PromptEngineering', 'GeminiPrompts', // Text
     'GeminiNanoBanana2', 'StableDiffusion', 'GeminiNanoBanana', 'NanoBanana_AI', 'generativeAI', // Image
 ];
 
@@ -34,6 +34,30 @@ export async function scrapeReddit(): Promise<any[]> {
       }
   };
 
+// Helper: Check if post is junk (discussion, question, news)
+  const isJunkPost = (title: string, flair: string, content: string) => {
+      const lowerTitle = title.toLowerCase();
+      const lowerFlair = (flair || '').toLowerCase();
+      const lowerContent = content.toLowerCase();
+
+      // 1. Explicit Junk Flairs
+      if (['question', 'help', 'discussion', 'news', 'bug', 'issue', 'request'].some(f => lowerFlair.includes(f))) {
+          // Exception: If it explicitly says "Prompt" or "Workflow", might be a share
+          if (!lowerTitle.includes('prompt') && !lowerContent.includes('prompt') && !lowerContent.includes('workflow')) return true;
+      }
+
+      // 2. Question Titles (usually help requests)
+      if (title.trim().endsWith('?')) return true;
+      if (['how to', 'why does', 'anyone know', 'help me', 'is there'].some(q => lowerTitle.startsWith(q))) return true;
+
+      // 3. News/Opinion specific keywords (unless it's a prompt share)
+      if (['thoughts?', 'opinion?', 'vs', 'comparison', 'review', 'update:', 'release'].some(k => lowerTitle.includes(k))) {
+           if (!lowerTitle.includes('prompt')) return true;
+      }
+
+      return false;
+  };
+
   // Processing helper
   const processPost = (post: any, subName: string, sourceLabel: string) => {
       if (seenUrls.has(post.url)) return;
@@ -62,11 +86,21 @@ export async function scrapeReddit(): Promise<any[]> {
       const hasContent = post.selftext && post.selftext.length > 0;
       const isGallery = imageUrls.length > 1;
 
-      // Filter: Must have body OR be an image/gallery
+      // Filter 1: Must have body OR be an image/gallery
       if (!hasContent && imageUrls.length === 0) return;
+
+      // Filter 2: Strict Junk Check
+      if (isJunkPost(post.title, post.link_flair_text, post.selftext || '')) {
+          // Console log for debugging (optional, can be verbose)
+          // console.log(`   🗑️ Ignored Junk: ${post.title.substring(0, 40)}...`);
+          return;
+      }
 
       if (imageUrls.length > 0) {
           console.log(`   📸 [${subName}] Found Image/Gallery (${imageUrls.length} imgs): ${post.title.substring(0, 40)}...`);
+      } else {
+          // If text only, ensure it's not too short (unless it has "prompt" keyword)
+          if ((post.selftext || '').length < 50 && !post.title.toLowerCase().includes('prompt')) return;
       }
 
       seenUrls.add(post.url);
@@ -104,12 +138,17 @@ export async function scrapeReddit(): Promise<any[]> {
           topData.data.children.forEach((child: any) => processPost(child.data, sub, 'Top-Month'));
       }
 
-      // 3. Search (Specific Keywords) - Optional, can be verbose
-      // const searchUrl = `https://www.reddit.com/r/${sub}/search.json?q=prompt&restrict_sr=1&sort=relevance&t=month&limit=10`;
-      // const searchData = await fetchJson(searchUrl);
-      // if (searchData?.data?.children) {
-      //     searchData.data.children.forEach((child: any) => processPost(child.data, sub, 'Search-Prompt'));
-      // }
+      // 3. Search (Specific Keywords) - Targeted High Value
+      // We search for "System Instruction" specifically as it yields high quality structured prompts
+      const searchUrl = `https://www.reddit.com/r/${sub}/search.json?q="system instruction"&restrict_sr=1&sort=relevance&t=all&limit=10`;
+      try {
+          const searchData = await fetchJson(searchUrl);
+          if (searchData?.data?.children) {
+              searchData.data.children.forEach((child: any) => processPost(child.data, sub, 'Search-SystemInstruction'));
+          }
+      } catch (e) {
+          // Ignore search errors
+      }
   }
 
   return rawPosts;

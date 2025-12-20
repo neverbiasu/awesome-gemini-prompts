@@ -154,19 +154,40 @@ async function extractTweetsFromPage(page: any, username: string) {
              imageUrl = await photo.locator('img').getAttribute('src').catch(() => '') || '';
         }
 
-        // In search mode or for images, we relax the extraction filter
-        let promptText = extractPromptFromText(text);
+        // --- Stricter Filtering Logic ---
+        const lowerText = text.toLowerCase();
+        let promptText: string | null = null;
 
-        // If it's an image post, the text itself IS often the prompt (or description of it)
-        // So if we have an image, and no "Prompt:" keyword, we assume the whole text is relevant
-        if (!promptText && hasImage && text.length > 10) {
+        // 1. Negative Keywords (Skip news/comparisons/hate unless strictly a prompt)
+        const isNoise = ['news', 'update', 'vs', 'comparison', 'review', 'hate', 'sucks', 'opinion'].some(k => lowerText.includes(k));
+        const hasPromptKeyword = lowerText.includes('prompt:') || lowerText.includes('try this') || lowerText.includes('instructions:');
+        
+        if (isNoise && !hasPromptKeyword) continue;
+
+        // 2. Extraction Strategy
+        if (hasPromptKeyword || text.includes('```')) {
+            // High Confidence: Has "Prompt:" or Code Block
+            const promptMatch = text.match(/(?:Prompt|Try this|System Instruction):\s*([\s\S]*?)(?:\n\n|$)/i);
+            promptText = promptMatch ? promptMatch[1].trim() : text;
+        } else if (hasImage) {
+            // Medium Confidence: Has Image + decent amount of text (likely image generation prompt)
+            // Filter out short captions like "Cool pic"
+            if (text.length > 20) {
+                promptText = text;
+            }
+        } else if (lowerText.includes('gemini') && text.length > 100) {
+            // Low Confidence (Text Only): Must be long and mention Gemini (likely a complex prompt share)
+            // prevent short tweets like "Gemini is great"
             promptText = text;
-        } else if (!promptText) {
-             // Fallback to full text if searching (legacy behavior)
-             promptText = text; 
         }
 
-        if (promptText && text.length > 20) { // Basic noise filter
+        // Final Filter: if no promptText identified, skip
+        if (!promptText) continue;
+
+        // Clean up common "Show more" artifacts if scraped text includes it (rare with innerText but possible)
+        promptText = promptText.replace(/Show more$/, '').trim();
+
+        if (promptText.length > 10) { 
              // Extract Likes
              let likes = 0;
              try {
