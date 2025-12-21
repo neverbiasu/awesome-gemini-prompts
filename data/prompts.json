@@ -24727,5 +24727,678 @@
     },
     "createdAt": "2025-12-20T02:02:29.974Z",
     "updatedAt": "2025-12-20T02:02:29.974Z"
+  },
+  {
+    "id": "16cbbf88-938a-484a-b066-c331db83fbe4",
+    "title": "Story_Writing_with_Prompt_Chaining.ipynb",
+    "description": "Notebook example",
+    "tags": [
+      "code"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "See notebook"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "google-gemini",
+      "platform": "GitHub"
+    },
+    "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/examples/Story_Writing_with_Prompt_Chaining.ipynb",
+    "createdAt": "2025-12-21T02:26:13.651Z"
+  },
+  {
+    "id": "twitter-sim-search-1",
+    "title": "Tweet by @SimulatedUser1",
+    "description": "Found this amazing Gemini prompt for coding...",
+    "tags": [
+      "twitter",
+      "community",
+      "search-result"
+    ],
+    "author": {
+      "name": "@SimulatedUser1",
+      "url": "https://twitter.com/SimulatedUser1",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/SimulatedUser1/status/123456",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a senior python developer..."
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 1000,
+      "likes": 50,
+      "copies": 10
+    },
+    "createdAt": "2025-12-08T00:10:54.036Z",
+    "updatedAt": "2025-12-08T00:10:54.036Z"
+  },
+  {
+    "id": "twitter-1996604581313220931",
+    "title": "Tweet by @NanoBanana",
+    "description": "From a single input image, you can use Nano Banana Pro to work with different views of a scene. If y...",
+    "tags": [
+      "twitter",
+      "community",
+      "search-result"
+    ],
+    "author": {
+      "name": "@NanoBanana",
+      "url": "https://twitter.com/NanoBanana",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/NanoBanana/status/1996604581313220931",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "In a 3x3 grid, show me different angles of this scene https://t.co/hCr33JVQLA"
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 156270,
+      "likes": 1989,
+      "copies": 192
+    },
+    "createdAt": "2025-12-04T15:36:41.000Z",
+    "updatedAt": "2025-12-08T13:22:59.740Z"
+  },
+  {
+    "id": "twitter-1996658401233842624",
+    "title": "Tweet by @GoogleDeepMind",
+    "description": "We’re pushing the boundaries of intelligence even further with Gemini 3 Deep Think. \n\nThis mode mean...",
+    "tags": [
+      "twitter",
+      "community",
+      "playwright",
+      "search-result"
+    ],
+    "author": {
+      "name": "@GoogleDeepMind",
+      "url": "https://twitter.com/GoogleDeepMind",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/GoogleDeepMind/status/1996658401233842624",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "We’re pushing the boundaries of intelligence even further with Gemini 3 Deep Think. \n\nThis mode meaningfully improves reasoning capabilities by exploring many hypotheses simultaneously to solve problems.\n\nHere’s how it coded a simulated dominoes game from a single prompt "
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 0,
+      "copies": 0
+    },
+    "createdAt": "2025-12-04T19:10:33.000Z",
+    "updatedAt": "2025-12-08T15:58:31.194Z"
+  },
+  {
+    "id": "twitter-1998046842609717742",
+    "title": "Tweet by @GoogleDeepMind",
+    "description": "We built an app that turns your camera into a musical instrument. \n\nLyria Camera uses Gemini to desc...",
+    "tags": [
+      "twitter",
+      "community",
+      "playwright"
+    ],
+    "author": {
+      "name": "@GoogleDeepMind",
+      "url": "https://twitter.com/GoogleDeepMind",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/GoogleDeepMind/status/1998046842609717742",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "We built an app that turns your camera into a musical instrument. \n\nLyria Camera uses Gemini to describe your surroundings while our Lyria RealTime model turns those prompts into a continuously evolving stream of music."
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 0,
+      "copies": 0
+    },
+    "createdAt": "2025-12-08T15:07:43.000Z",
+    "updatedAt": "2025-12-08T15:49:27.596Z"
+  },
+  {
+    "id": "twitter-1996973083467333736",
+    "title": "Tweet by @GoogleDeepMind",
+    "description": "Gemini 3 Pro is the frontier of multimodal AI, delivering SOTA performance across document, screen, ...",
+    "tags": [
+      "twitter",
+      "community",
+      "playwright",
+      "search-result"
+    ],
+    "author": {
+      "name": "@GoogleDeepMind",
+      "url": "https://twitter.com/GoogleDeepMind",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/googleaidevs/status/1996973083467333736",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Gemini 3 Pro is the frontier of multimodal AI, delivering SOTA performance across document, screen, spatial, and video understanding.\n\nRead our deep dive on how we’ve pushed our core capabilities to power hero use cases across:\n\n+ Docs: \"derender\" complex docs into structured"
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 0,
+      "copies": 0
+    },
+    "createdAt": "2025-12-05T16:00:59.000Z",
+    "updatedAt": "2025-12-08T15:58:31.189Z"
+  },
+  {
+    "id": "twitter-1996658403167687126",
+    "title": "Tweet by @GoogleDeepMind",
+    "description": "The updated Deep Think mode outperforms Gemini 3 Pro on Humanity’s Last Exam and ARC-AGI-2 - raising...",
+    "tags": [
+      "twitter",
+      "community",
+      "playwright",
+      "search-result"
+    ],
+    "author": {
+      "name": "@GoogleDeepMind",
+      "url": "https://twitter.com/GoogleDeepMind",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/GoogleDeepMind/status/1996658403167687126",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "The updated Deep Think mode outperforms Gemini 3 Pro on Humanity’s Last Exam and ARC-AGI-2 - raising the bar for how it handles complex math, science, and novel challenges."
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 0,
+      "copies": 0
+    },
+    "createdAt": "2025-12-04T19:10:34.000Z",
+    "updatedAt": "2025-12-08T20:06:14.554Z"
+  },
+  {
+    "id": "twitter-1996658407634506098",
+    "title": "Tweet by @GoogleDeepMind",
+    "description": "Deep Think mode is rolling out now in the \n@GeminiApp\n for Google AI Ultra subscribers.\n\nFind out mo...",
+    "tags": [
+      "twitter",
+      "community",
+      "playwright",
+      "search-result"
+    ],
+    "author": {
+      "name": "@GoogleDeepMind",
+      "url": "https://twitter.com/GoogleDeepMind",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/GoogleDeepMind/status/1996658407634506098",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Deep Think mode is rolling out now in the \n@GeminiApp\n for Google AI Ultra subscribers.\n\nFind out more ↓"
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 0,
+      "copies": 0
+    },
+    "createdAt": "2025-12-04T19:10:35.000Z",
+    "updatedAt": "2025-12-08T20:06:14.563Z"
+  },
+  {
+    "id": "twitter-1996276060581732800",
+    "title": "Tweet by @GoogleDeepMind",
+    "description": "Hello from #NeurIPS2025  \n\nWe're hosting a range of sessions at the \n@Google\n booth, including a Q&A...",
+    "tags": [
+      "twitter",
+      "community",
+      "playwright",
+      "search-result"
+    ],
+    "author": {
+      "name": "@GoogleDeepMind",
+      "url": "https://twitter.com/GoogleDeepMind",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/GoogleDeepMind/status/1996276060581732800",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Hello from #NeurIPS2025  \n\nWe're hosting a range of sessions at the \n@Google\n booth, including a Q&A with \n@JeffDean\n and the Gemini team, plus demos like SIMA 2 – our AI agent for 3D virtual worlds.\n\nSee the full schedule → \nhttps://\nresearch.google/conferences-an\nd-events/google-at-neurips-2025/\n…"
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 0,
+      "copies": 0
+    },
+    "createdAt": "2025-12-03T17:51:16.000Z",
+    "updatedAt": "2025-12-08T20:06:14.645Z"
+  },
+  {
+    "id": "twitter-1995904142468853765",
+    "title": "Tweet by @GoogleDeepMind",
+    "description": "Excited to announce that our work on “Discovering state-of-the-art RL algorithms” is finally publish...",
+    "tags": [
+      "twitter",
+      "community",
+      "playwright",
+      "search-result"
+    ],
+    "author": {
+      "name": "@GoogleDeepMind",
+      "url": "https://twitter.com/GoogleDeepMind",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/junh_oh/status/1995904142468853765",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Excited to announce that our work on “Discovering state-of-the-art RL algorithms” is finally published in \n@Nature\n! In this work, we meta-learned RL algorithms at scale.\n\nPaper: \nhttps://\nnature.com/articles/s4158\n6-025-09761-x\n…\nBlog: \nhttps://\ngoogle-deepmind.github.io/disco_rl/\n\nSee thread "
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 0,
+      "copies": 0
+    },
+    "createdAt": "2025-12-02T17:13:24.000Z",
+    "updatedAt": "2025-12-08T20:06:14.648Z"
+  },
+  {
+    "id": "twitter-1994415148329521243",
+    "title": "Tweet by @GoogleDeepMind",
+    "description": "Our Distinguished Scientist John Jumper dropped out of his first PhD, but it led him to AI and biolo...",
+    "tags": [
+      "twitter",
+      "community",
+      "playwright",
+      "search-result"
+    ],
+    "author": {
+      "name": "@GoogleDeepMind",
+      "url": "https://twitter.com/GoogleDeepMind",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/GoogleDeepMind/status/1994415148329521243",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Our Distinguished Scientist John Jumper dropped out of his first PhD, but it led him to AI and biology – and a new doctorate along the way. \n\nHe shares his journey from helping develop #AlphaFold and being awarded the \n@NobelPrize\n to accelerating science with AI – all on our"
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 0,
+      "copies": 0
+    },
+    "createdAt": "2025-11-28T14:36:40.000Z",
+    "updatedAt": "2025-12-08T20:06:14.652Z"
+  },
+  {
+    "id": "twitter-1994415152666386453",
+    "title": "Tweet by @GoogleDeepMind",
+    "description": "Watch → \nhttps://\ngoo.gle/3XZrsRK\nSpotify → \nhttps://\ngoo.gle/48DhjjP\nApple Podcasts → \nhttps://\ngoo...",
+    "tags": [
+      "twitter",
+      "community",
+      "playwright",
+      "search-result"
+    ],
+    "author": {
+      "name": "@GoogleDeepMind",
+      "url": "https://twitter.com/GoogleDeepMind",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/GoogleDeepMind/status/1994415152666386453",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Watch → \nhttps://\ngoo.gle/3XZrsRK\nSpotify → \nhttps://\ngoo.gle/48DhjjP\nApple Podcasts → \nhttps://\ngoo.gle/3M6ji7B\n\nOr listen wherever you get your podcasts! "
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 0,
+      "copies": 0
+    },
+    "createdAt": "2025-11-28T14:36:41.000Z",
+    "updatedAt": "2025-12-08T20:06:14.656Z"
+  },
+  {
+    "id": "twitter-1993714943116386619",
+    "title": "Tweet by @GoogleDeepMind",
+    "description": "To celebrate five years of #AlphaFold, we’re making The Thinking Game available on YouTube. \n\nGet a ...",
+    "tags": [
+      "twitter",
+      "community",
+      "playwright",
+      "search-result"
+    ],
+    "author": {
+      "name": "@GoogleDeepMind",
+      "url": "https://twitter.com/GoogleDeepMind",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/GoogleDeepMind/status/1993714943116386619",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "To celebrate five years of #AlphaFold, we’re making The Thinking Game available on YouTube. \n\nGet a candid look at the triumphs, the challenges and the pivotal moments that led to a breakthrough on a 50-year-old grand challenge in biology.\n\nStream for free on \n@YouTube\n →"
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 0,
+      "copies": 0
+    },
+    "createdAt": "2025-11-26T16:14:18.000Z",
+    "updatedAt": "2025-12-08T20:06:14.658Z"
+  },
+  {
+    "id": "twitter-1993350293703016451",
+    "title": "Tweet by @GoogleDeepMind",
+    "description": "It’s been 5 years since #AlphaFold 2 started to change how we see the biological universe. \n\nWhat st...",
+    "tags": [
+      "twitter",
+      "community",
+      "playwright",
+      "search-result"
+    ],
+    "author": {
+      "name": "@GoogleDeepMind",
+      "url": "https://twitter.com/GoogleDeepMind",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/GoogleDeepMind/status/1993350293703016451",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "It’s been 5 years since #AlphaFold 2 started to change how we see the biological universe. \n\nWhat started as a solution to a 50-year-old scientific challenge has become a standard tool for discovery.\n\nHere’s how 3M+ researchers are using it in over 190 countries "
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 0,
+      "copies": 0
+    },
+    "createdAt": "2025-11-25T16:05:19.000Z",
+    "updatedAt": "2025-12-08T20:06:14.660Z"
+  },
+  {
+    "id": "twitter-1917249084580053058",
+    "title": "Tweet by @NotebookLM",
+    "description": "This just in... the \n@NotebookLM\n hosts have some rather exciting news they'd like to share with you...",
+    "tags": [
+      "twitter",
+      "community",
+      "playwright",
+      "search-result"
+    ],
+    "author": {
+      "name": "@NotebookLM",
+      "url": "https://twitter.com/NotebookLM",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/NotebookLM/status/1917249084580053058",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "This just in... the \n@NotebookLM\n hosts have some rather exciting news they'd like to share with you all:"
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 0,
+      "copies": 0
+    },
+    "createdAt": "2025-04-29T16:06:17.000Z",
+    "updatedAt": "2025-12-08T20:00:31.919Z"
+  },
+  {
+    "id": "twitter-1904973139987042350",
+    "title": "Tweet by @googleaidevs",
+    "description": "Check out these demos for Gemini 2.5 Pro Experimental in Google AI Studio ↓...",
+    "tags": [
+      "twitter",
+      "community",
+      "playwright",
+      "search-result"
+    ],
+    "author": {
+      "name": "@googleaidevs",
+      "url": "https://twitter.com/googleaidevs",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/googleaidevs/status/1904973139987042350",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Check out these demos for Gemini 2.5 Pro Experimental in Google AI Studio ↓"
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 0,
+      "copies": 0
+    },
+    "createdAt": "2025-03-26T19:06:03.000Z",
+    "updatedAt": "2025-12-08T20:07:37.516Z"
+  },
+  {
+    "id": "twitter-1936193938639012065",
+    "title": "Tweet by @googleaidevs",
+    "description": "Some fun vibe coded gemini projects\n(play with them yourself in the final post)...",
+    "tags": [
+      "twitter",
+      "community",
+      "playwright",
+      "search-result"
+    ],
+    "author": {
+      "name": "@googleaidevs",
+      "url": "https://twitter.com/googleaidevs",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/googleaidevs/status/1936193938639012065",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Some fun vibe coded gemini projects\n(play with them yourself in the final post)"
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 0,
+      "copies": 0
+    },
+    "createdAt": "2025-06-20T22:46:22.000Z",
+    "updatedAt": "2025-12-08T20:07:37.521Z"
+  },
+  {
+    "id": "twitter-1990858042263380427",
+    "title": "Tweet by @GoogleAIStudio",
+    "description": "What do you wanna see the team build live? Questions about Gemini 3 or AI Studio? Drop below for \n@O...",
+    "tags": [
+      "twitter",
+      "community",
+      "playwright",
+      "search-result"
+    ],
+    "author": {
+      "name": "@GoogleAIStudio",
+      "url": "https://twitter.com/GoogleAIStudio",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/GoogleAIStudio/status/1990858042263380427",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "What do you wanna see the team build live? Questions about Gemini 3 or AI Studio? Drop below for \n@OfficialLoganK\n \n@kat_kampf\n \n@ammaar\n \n@tulseedoshi\n and more!"
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 0,
+      "copies": 0
+    },
+    "createdAt": "2025-11-18T19:02:00.000Z",
+    "updatedAt": "2025-12-08T20:09:58.150Z"
+  },
+  {
+    "id": "twitter-1990841107438260342",
+    "title": "Tweet by @GoogleAIStudio",
+    "description": "Come build with us at 11am!...",
+    "tags": [
+      "twitter",
+      "community",
+      "playwright",
+      "search-result"
+    ],
+    "author": {
+      "name": "@GoogleAIStudio",
+      "url": "https://twitter.com/GoogleAIStudio",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/GoogleAIStudio/status/1990841107438260342",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Come build with us at 11am!"
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 0,
+      "copies": 0
+    },
+    "createdAt": "2025-11-18T17:54:42.000Z",
+    "updatedAt": "2025-12-08T20:09:58.156Z"
+  },
+  {
+    "id": "twitter-1990813281414455385",
+    "title": "Tweet by @GoogleAIStudio",
+    "description": "gemini 3 pro\n\n• our most intelligent model yet\n• SOTA reasoning \n• 1501 Elo on LMArena\n• next-level ...",
+    "tags": [
+      "twitter",
+      "community",
+      "playwright",
+      "search-result"
+    ],
+    "author": {
+      "name": "@GoogleAIStudio",
+      "url": "https://twitter.com/GoogleAIStudio",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://twitter.com/GoogleAIStudio/status/1990813281414455385",
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "gemini 3 pro\n\n• our most intelligent model yet\n• SOTA reasoning \n• 1501 Elo on LMArena\n• next-level vibe coding capabilities\n• complex multimodal understanding\n\navailable now in Google AI Studio and the Gemini API"
+          }
+        ]
+      }
+    ],
+    "stats": {
+      "views": 0,
+      "likes": 0,
+      "copies": 0
+    },
+    "createdAt": "2025-11-18T16:04:08.000Z",
+    "updatedAt": "2025-12-08T20:09:58.159Z"
   }
 ]

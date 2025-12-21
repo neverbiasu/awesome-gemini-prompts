@@ -1,6 +1,6 @@
 [
   {
-    "id": "c7c7070f-722c-4b47-b69e-d44a50117f38",
+    "id": "16cbbf88-938a-484a-b066-c331db83fbe4",
     "title": "Story_Writing_with_Prompt_Chaining.ipynb",
     "description": "Notebook example",
     "tags": [
@@ -27,10 +27,10 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/examples/Story_Writing_with_Prompt_Chaining.ipynb",
-    "createdAt": "2025-12-20T02:06:20.591Z"
+    "createdAt": "2025-12-21T02:26:13.651Z"
   },
   {
-    "id": "c7a3a3b0-9997-45ec-b29a-ea2d717e64d4",
+    "id": "10b83da8-3fda-406b-b803-b6f59013c95d",
     "title": "Role_prompting.ipynb",
     "description": "Notebook example",
     "tags": [
@@ -57,10 +57,10 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/examples/prompting/Role_prompting.ipynb",
-    "createdAt": "2025-12-20T02:06:20.710Z"
+    "createdAt": "2025-12-21T02:26:13.759Z"
   },
   {
-    "id": "1cccd9c5-cd15-4e27-ae93-ab00c7e84962",
+    "id": "2db8ddf1-75ab-457d-b1b7-bd0ffaca0ff0",
     "title": "Self_ask_prompting.ipynb",
     "description": "Notebook example",
     "tags": [
@@ -87,10 +87,10 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/examples/prompting/Self_ask_prompting.ipynb",
-    "createdAt": "2025-12-20T02:06:20.811Z"
+    "createdAt": "2025-12-21T02:26:13.864Z"
   },
   {
-    "id": "22aec002-7c44-4043-9844-1d764dffae4f",
+    "id": "86445027-907b-453f-b184-1cf92d0ad5d9",
     "title": "Basic_Information_Extraction.ipynb",
     "description": "Notebook example",
     "tags": [
@@ -117,10 +117,10 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/examples/prompting/Basic_Information_Extraction.ipynb",
-    "createdAt": "2025-12-20T02:06:20.932Z"
+    "createdAt": "2025-12-21T02:26:13.983Z"
   },
   {
-    "id": "3b2708c9-72d4-4a94-8516-f9f470026e45",
+    "id": "7151967e-0f84-486b-bc3d-c4746e8c53d1",
     "title": "Get_started_LearnLM.ipynb",
     "description": "Notebook example",
     "tags": [
@@ -147,9 +147,10 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/quickstarts/Get_started_LearnLM.ipynb",
-    "createdAt": "2025-12-20T02:06:21.031Z"
+    "createdAt": "2025-12-21T02:26:14.105Z"
   },
   {
+    "id": "github-issue-11",
     "title": "生成3D风格电影场面",
     "description": "输入电影系列名称/演员名称 开始本流程",
     "tags": [
@@ -188,6 +189,7 @@
     "updatedAt": "2025-12-09T09:49:17Z"
   },
   {
+    "id": "github-issue-9",
     "title": "test prompt title",
     "description": "test desc",
     "tags": [
@@ -226,6 +228,8 @@
     "updatedAt": "2025-12-07T05:11:51Z"
   },
   {
+    "id": "github-issue-8",
+    "title": "test title",
     "description": "test description",
     "tags": [
       "nano-banana",
@@ -243,6 +247,7 @@
         "role": "user",
         "parts": [
           {
+            "text": "Title\n\ntest title"
           }
         ]
       }
@@ -262,6 +267,7 @@
     "updatedAt": "2025-12-07T04:55:36Z"
   },
   {
+    "id": "github-issue-7",
     "title": "test",
     "description": "test",
     "tags": [
@@ -300,6 +306,7 @@
     "updatedAt": "2025-12-07T04:30:02Z"
   },
   {
+    "id": "github-issue-6",
     "title": "test",
     "description": "testtttt",
     "tags": [
@@ -338,6 +345,7 @@
     "updatedAt": "2025-12-07T04:16:20Z"
   },
   {
+    "id": "github-issue-5",
     "title": "Test Prompt",
     "description": "test 4 test",
     "tags": [
@@ -376,6 +384,7 @@
     "updatedAt": "2025-12-07T04:07:33Z"
   },
   {
+    "id": "github-issue-4",
     "title": "瓦楞纸艺术作品框格展示",
     "description": "它用于让模型精准生成一张“全瓦楞纸材质、3×4 分格、每格展示不同纸艺工具”的结构化手工艺术照片。适用于纸艺展示或需要统一材质与严格构图的视觉创作场景。",
     "tags": [
