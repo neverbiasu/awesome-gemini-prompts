@@ -63,10 +63,15 @@ async function main() {
                 ANALYZE THIS DATASET OF ${minifiedPrompts.length} PROMPTS.
                 
                 LOOK FOR:
-                1. **Semantic Duplicates**: Entries that talk about the exact same thing (e.g. "Feynman Technique", "John Oliver", "Prompt Engineer").
+                1. **Semantic Duplicates**: Entries that talk about the exact same thing (e.g. "Feynman Technique", "John Oliver").
                    - Even if titles differ slightly, if the core value is the same, flag them.
-                2. **News/Noise**: Entries that are just news headlines (e.g. "GPT-4 Launched", "Gemini Update") without actionable prompts.
+                2. **News/Noise**: Entries that are just news headlines (e.g. "GPT-4 Launched") without actionable prompts.
                 3. **Low Quality**: Entries like "test", "...", or "See notebook".
+
+                **PROTECTION RULES (DO NOT FLAGG THESE)**:
+                - Do NOT flag entries that are structured JSON prompts (e.g. NanoBanana style). These are high value.
+                - Do NOT flag "System Instructions" even if they look like code.
+                - Do NOT flag multi-turn conversation examples.
 
                 OUTPUT GUIDELINES:
                 - Group duplicates together in 'targetIds'.

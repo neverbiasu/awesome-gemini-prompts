@@ -25400,5 +25400,469 @@
     },
     "createdAt": "2025-11-18T16:04:08.000Z",
     "updatedAt": "2025-12-08T20:09:58.159Z"
+  },
+  {
+    "id": "twitter-1981653006362841407",
+    "title": "Tweet by @YaseenK7212",
+    "description": "Gemini Nano Banana Prompt:\nPROMPT:\n\nUsing the face of the uploaded image, create an ultra-realistic ...",
+    "tags": [
+      "twitter"
+    ],
+    "originalSourceUrl": "https://twitter.com/YaseenK7212/status/1981653006362841407",
+    "compatibleModels": [
+      "gemini-2.5-flash"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "PROMPT:"
+          },
+          {
+            "text": "[Image Attachment: https://pbs.twimg.com/media/G4A-5CwXcAAvcdS?format=jpg&name=small]"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "@YaseenK7212",
+      "url": "https://twitter.com/YaseenK7212",
+      "platform": "Twitter"
+    },
+    "stats": {
+      "views": 0,
+      "likes": 658,
+      "copies": 0
+    },
+    "createdAt": "2025-10-24T09:24:28.000Z",
+    "updatedAt": "2025-12-22T23:47:07.127Z"
+  },
+  {
+    "id": "twitter-1977356170479243498",
+    "title": "Tweet by @YaseenK7212",
+    "description": "Gemini Nano Banana Prompt:\n\nPrompt:\nWide-angle GoPro-style shot from a high, symmetrical bird's-eye ...",
+    "tags": [
+      "twitter",
+      "image-generation"
+    ],
+    "originalSourceUrl": "https://twitter.com/YaseenK7212/status/1977356170479243498",
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "imagen-4.0"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Prompt:\nWide-angle GoPro-style shot from a high, symmetrical bird's-eye perspective. [Reference man from the photo] stands in black sunglasses and a sleek black suit, Looking casually into the camera while holding his face with his index finger and"
+          },
+          {
+            "text": "[Image Attachment: https://pbs.twimg.com/media/G3D68tzWQAAxtFV?format=jpg&name=small]"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "@YaseenK7212",
+      "url": "https://twitter.com/YaseenK7212",
+      "platform": "Twitter"
+    },
+    "stats": {
+      "views": 0,
+      "likes": 582,
+      "copies": 0
+    },
+    "createdAt": "2025-10-12T12:50:23.000Z",
+    "updatedAt": "2025-12-22T23:47:07.129Z"
+  },
+  {
+    "id": "twitter-1988563276884754771",
+    "title": "Tweet by @NanoBanana_labs",
+    "description": "Create your Disney-Pixar avatar \n\nCopy the prompt below and create your own photo like this .\n\n1. Op...",
+    "tags": [
+      "twitter",
+      "image-generation"
+    ],
+    "originalSourceUrl": "https://twitter.com/NanoBanana_labs/status/1988563276884754771",
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "imagen-4.0"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create your Disney-Pixar avatar \n\nCopy the prompt below and create your own photo like this .\n\n1. Open Gemini app\n2. Click create image and upload your photo \n3. Paste the prompt below \n4. Generate.\n\nFollow \n@NanoBanana_labs\n for daily AI glow-ups & viral prompts   \n\nPrompt"
+          },
+          {
+            "text": "[Image Attachment: https://pbs.twimg.com/media/G5jLwUUbgAEyjbY?format=jpg&name=small]"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "@NanoBanana_labs",
+      "url": "https://twitter.com/NanoBanana_labs",
+      "platform": "Twitter"
+    },
+    "stats": {
+      "views": 0,
+      "likes": 251,
+      "copies": 0
+    },
+    "createdAt": "2025-11-12T11:03:25.000Z",
+    "updatedAt": "2025-12-22T23:47:07.129Z"
+  },
+  {
+    "id": "twitter-1988840767994126797",
+    "title": "Tweet by @NanoBanana_labs",
+    "description": "Watch \n@elonmusk\n, \n@realDonaldTrump\n, and \n@Cristiano\n on a wild safari.\n\nWild moments hit differen...",
+    "tags": [
+      "twitter",
+      "image-generation"
+    ],
+    "originalSourceUrl": "https://twitter.com/NanoBanana_labs/status/1988840767994126797",
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "imagen-4.0"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Watch \n@elonmusk\n, \n@realDonaldTrump\n, and \n@Cristiano\n on a wild safari.\n\nWild moments hit different when you’re in the frame too. Try this prompt with your own photo \n\nCopy the prompt below and create your own photo like this .\n\n1. Open Gemini app\n2. Click create image and"
+          },
+          {
+            "text": "[Image Attachment: https://pbs.twimg.com/media/G5nII1PacAIIhsP?format=jpg&name=360x360]"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "@NanoBanana_labs",
+      "url": "https://twitter.com/NanoBanana_labs",
+      "platform": "Twitter"
+    },
+    "stats": {
+      "views": 0,
+      "likes": 221,
+      "copies": 0
+    },
+    "createdAt": "2025-11-13T05:26:04.000Z",
+    "updatedAt": "2025-12-22T23:47:07.129Z"
+  },
+  {
+    "id": "twitter-1989802091682926775",
+    "title": "Tweet by @NanoBanana_labs",
+    "description": "Make YOUR dramatic silhouette pic just like this. \n\nCopy the prompt below and create your own photo ...",
+    "tags": [
+      "twitter",
+      "image-generation"
+    ],
+    "originalSourceUrl": "https://twitter.com/NanoBanana_labs/status/1989802091682926775",
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "imagen-4.0"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Make YOUR dramatic silhouette pic just like this. \n\nCopy the prompt below and create your own photo like this .\n\nFollow \n@NanoBanana_labs\n for more prompts and ideas\n\n1. Open Gemini app\n2. Click create image and upload your photo \n3. Paste the prompt below \n4. Generate."
+          },
+          {
+            "text": "[Image Attachment: https://pbs.twimg.com/media/G50ydNiXcAA6WXk?format=jpg&name=360x360]"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "@NanoBanana_labs",
+      "url": "https://twitter.com/NanoBanana_labs",
+      "platform": "Twitter"
+    },
+    "stats": {
+      "views": 0,
+      "likes": 354,
+      "copies": 0
+    },
+    "createdAt": "2025-11-15T21:06:02.000Z",
+    "updatedAt": "2025-12-22T23:47:07.129Z"
+  },
+  {
+    "id": "twitter-1982099448420340131",
+    "title": "Tweet by @NanoBanana_labs",
+    "description": "Want to see yourself climbing a skyscraper like Mission Impossible?  \nTry it with your photo.\njust c...",
+    "tags": [
+      "twitter",
+      "image-generation"
+    ],
+    "originalSourceUrl": "https://twitter.com/NanoBanana_labs/status/1982099448420340131",
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "imagen-4.0"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Want to see yourself climbing a skyscraper like Mission Impossible?  \nTry it with your photo.\njust copy the prompt below \n\n1. Open Gemini app\n2. Click create image and upload your photo \n3. Paste the prompt below \n4. Generate.\n\nFollow \n@NanoBanana_labs\n for more prompts and"
+          },
+          {
+            "text": "[Image Attachment: https://pbs.twimg.com/media/G4HU8VMW0AACDgU?format=jpg&name=360x360]"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "@NanoBanana_labs",
+      "url": "https://twitter.com/NanoBanana_labs",
+      "platform": "Twitter"
+    },
+    "stats": {
+      "views": 0,
+      "likes": 198,
+      "copies": 0
+    },
+    "createdAt": "2025-10-25T14:58:28.000Z",
+    "updatedAt": "2025-12-22T23:47:07.129Z"
+  },
+  {
+    "id": "twitter-1987862714153345059",
+    "title": "Tweet by @NanoBanana_labs",
+    "description": "“Throwback vibes meet modern style  Try this photo wall look with your own pic — it hits different!”...",
+    "tags": [
+      "twitter",
+      "image-generation"
+    ],
+    "originalSourceUrl": "https://twitter.com/NanoBanana_labs/status/1987862714153345059",
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "imagen-4.0"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "“Throwback vibes meet modern style  Try this photo wall look with your own pic — it hits different!”\n\nCopy the prompt below and create your own photo like this .\n\n1. Open Gemini app\n2. Click create image and upload your photo \n3. Paste the prompt below \n4. Generate.\n\nFollow"
+          },
+          {
+            "text": "[Image Attachment: https://pbs.twimg.com/media/G5ZOmm8aQAAZh15?format=jpg&name=360x360]"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "@NanoBanana_labs",
+      "url": "https://twitter.com/NanoBanana_labs",
+      "platform": "Twitter"
+    },
+    "stats": {
+      "views": 0,
+      "likes": 188,
+      "copies": 0
+    },
+    "createdAt": "2025-11-10T12:39:38.000Z",
+    "updatedAt": "2025-12-22T23:47:07.129Z"
+  },
+  {
+    "id": "twitter-1989744892357316623",
+    "title": "Tweet by @NanoBanana_labs",
+    "description": "#NBL_COUPLE_SERIES \n\nUpload your couple selfie and turn it into a cute, fun Pixar-style adventure li...",
+    "tags": [
+      "twitter",
+      "image-generation"
+    ],
+    "originalSourceUrl": "https://twitter.com/NanoBanana_labs/status/1989744892357316623",
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "imagen-4.0"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "#NBL_COUPLE_SERIES \n\nUpload your couple selfie and turn it into a cute, fun Pixar-style adventure like this. \n\nNote: Upload a selfie where both your faces are clear and close to the camera (faces fill about 80% of the photo).\n\nCopy the prompt below and create your own photo"
+          },
+          {
+            "text": "[Image Attachment: https://pbs.twimg.com/media/G5z-byqbkAIRbMA?format=jpg&name=360x360]"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "@NanoBanana_labs",
+      "url": "https://twitter.com/NanoBanana_labs",
+      "platform": "Twitter"
+    },
+    "stats": {
+      "views": 0,
+      "likes": 170,
+      "copies": 0
+    },
+    "createdAt": "2025-11-15T17:18:44.000Z",
+    "updatedAt": "2025-12-22T23:47:07.129Z"
+  },
+  {
+    "id": "twitter-1988441838404227457",
+    "title": "Tweet by @NanoBanana_labs",
+    "description": "“Standing on top of the world like it’s mine  Try this rooftop power shot — pure cinematic energy.”\n...",
+    "tags": [
+      "twitter",
+      "image-generation"
+    ],
+    "originalSourceUrl": "https://twitter.com/NanoBanana_labs/status/1988441838404227457",
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "imagen-4.0"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "“Standing on top of the world like it’s mine  Try this rooftop power shot — pure cinematic energy.”\n\nCopy the prompt below and create your own photo like this .\n\n1. Open Gemini app\n2. Click create image and upload your photo \n3. Paste the prompt below \n4. Generate.\n\nFollow"
+          },
+          {
+            "text": "[Image Attachment: https://pbs.twimg.com/media/G5hdT4Va4AAHaXr?format=jpg&name=small]"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "@NanoBanana_labs",
+      "url": "https://twitter.com/NanoBanana_labs",
+      "platform": "Twitter"
+    },
+    "stats": {
+      "views": 0,
+      "likes": 165,
+      "copies": 0
+    },
+    "createdAt": "2025-11-12T03:00:52.000Z",
+    "updatedAt": "2025-12-22T23:47:07.129Z"
+  },
+  {
+    "id": "twitter-1978126108252844429",
+    "title": "Tweet by @lexx_aura",
+    "description": "Gemini Nano Banana Prompt:\n\n{\n  \"prompt_description\": \"A cinematic hyper-realistic portrait of the u...",
+    "tags": [
+      "twitter",
+      "image-generation"
+    ],
+    "originalSourceUrl": "https://twitter.com/lexx_aura/status/1978126108252844429",
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "imagen-4.0"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"prompt_description\": \"A cinematic hyper-realistic portrait of the user sitting inside a vintage red car at night, exactly replicating the reference image.\",\n  \"face_reference\": {\n    \"instruction\": \"Use the exact facial features from the user's"
+          },
+          {
+            "text": "[Image Attachment: https://pbs.twimg.com/media/G3O3NkFW0AAiAaJ?format=jpg&name=small]"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "@lexx_aura",
+      "url": "https://twitter.com/lexx_aura",
+      "platform": "Twitter"
+    },
+    "stats": {
+      "views": 0,
+      "likes": 506,
+      "copies": 0
+    },
+    "createdAt": "2025-10-14T15:49:50.000Z",
+    "updatedAt": "2025-12-22T23:47:07.130Z"
+  },
+  {
+    "id": "twitter-1977318818843181202",
+    "title": "Tweet by @lexx_aura",
+    "description": "Prompt: \n\nUse 100% face from the uploaded photo.\n\nA moody and cinematic, photorealistic fashion edit...",
+    "tags": [
+      "twitter",
+      "image-generation"
+    ],
+    "originalSourceUrl": "https://twitter.com/lexx_aura/status/1977318818843181202",
+    "compatibleModels": [
+      "gemini-2.5-flash-image",
+      "imagen-4.0"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Use 100% face from the uploaded photo."
+          },
+          {
+            "text": "[Image Attachment: https://pbs.twimg.com/media/G3DY_CnWkAAnGKW?format=jpg&name=small]"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "@lexx_aura",
+      "url": "https://twitter.com/lexx_aura",
+      "platform": "Twitter"
+    },
+    "stats": {
+      "views": 0,
+      "likes": 414,
+      "copies": 0
+    },
+    "createdAt": "2025-10-12T10:21:57.000Z",
+    "updatedAt": "2025-12-22T23:47:07.130Z"
+  },
+  {
+    "id": "twitter-1978343544830959998",
+    "title": "Tweet by @lexx_aura",
+    "description": "Gemini can make you meet with devil. \n\nPrompt: \n\n{\n  \"prompt_details\": {\n    \"type\": \"portrait\",\n   ...",
+    "tags": [
+      "twitter"
+    ],
+    "originalSourceUrl": "https://twitter.com/lexx_aura/status/1978343544830959998",
+    "compatibleModels": [
+      "gemini-2.5-flash"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"prompt_details\": {\n    \"type\": \"portrait\",\n    \"style\": \"surreal_gothic_horror\",\n    \"description\": \"A hyper-realistic 8K editorial portrait that captures a surreal and cinematic horror scene.\",\n    \"keywords\": ["
+          },
+          {
+            "text": "[Image Attachment: https://pbs.twimg.com/media/G3R8-AbW0AA_nzi?format=jpg&name=small]"
+          }
+        ]
+      }
+    ],
+    "author": {
+      "name": "@lexx_aura",
+      "url": "https://twitter.com/lexx_aura",
+      "platform": "Twitter"
+    },
+    "stats": {
+      "views": 0,
+      "likes": 335,
+      "copies": 0
+    },
+    "createdAt": "2025-10-15T06:13:51.000Z",
+    "updatedAt": "2025-12-22T23:47:07.130Z"
   }
 ]
