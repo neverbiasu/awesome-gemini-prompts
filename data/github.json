@@ -1,6 +1,6 @@
 [
   {
-    "id": "79374829-9871-4eba-adf3-72ee6eeed686",
+    "id": "78ab0877-f391-4128-8a2d-e728cc6bfc65",
     "title": "Story_Writing_with_Prompt_Chaining.ipynb",
     "description": "Notebook example",
     "tags": [
@@ -27,10 +27,10 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/examples/Story_Writing_with_Prompt_Chaining.ipynb",
-    "createdAt": "2025-12-22T02:25:18.430Z"
+    "createdAt": "2025-12-23T02:20:32.244Z"
   },
   {
-    "id": "cc4bb735-757b-4cf2-bcac-77ebb1bc28ac",
+    "id": "9d9af4fe-c0c8-4b75-a8e8-efcff62dc05d",
     "title": "Role_prompting.ipynb",
     "description": "Notebook example",
     "tags": [
@@ -57,10 +57,10 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/examples/prompting/Role_prompting.ipynb",
-    "createdAt": "2025-12-22T02:25:18.620Z"
+    "createdAt": "2025-12-23T02:20:32.367Z"
   },
   {
-    "id": "eefddeec-32fb-4bdb-886a-749b855e5475",
+    "id": "671d358e-ab05-412b-b1b4-1c5cc026e508",
     "title": "Self_ask_prompting.ipynb",
     "description": "Notebook example",
     "tags": [
@@ -87,10 +87,10 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/examples/prompting/Self_ask_prompting.ipynb",
-    "createdAt": "2025-12-22T02:25:18.826Z"
+    "createdAt": "2025-12-23T02:20:32.500Z"
   },
   {
-    "id": "ccd1b4b3-856a-4513-8842-06832a207ae8",
+    "id": "b04488ef-4ee5-45f0-9b8e-2f13423fe33e",
     "title": "Basic_Information_Extraction.ipynb",
     "description": "Notebook example",
     "tags": [
@@ -117,10 +117,10 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/examples/prompting/Basic_Information_Extraction.ipynb",
-    "createdAt": "2025-12-22T02:25:19.062Z"
+    "createdAt": "2025-12-23T02:20:32.635Z"
   },
   {
-    "id": "42f861b9-b880-4315-815d-f638d3532a87",
+    "id": "80ae25c4-9f73-49fa-8565-b644be3e134a",
     "title": "Get_started_LearnLM.ipynb",
     "description": "Notebook example",
     "tags": [
@@ -147,7 +147,46 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/quickstarts/Get_started_LearnLM.ipynb",
-    "createdAt": "2025-12-22T02:25:19.322Z"
+    "createdAt": "2025-12-23T02:20:32.790Z"
+  },
+  {
+    "id": "github-issue-12",
+    "title": "Confident and Luxurious Power Portrait of Female in Black tailored Pantsuit",
+    "description": "This prompt generates a 4K, 4:5, photorealistic fashion-editorial style portrait of a specific female subject as per User input image, strictly matching her face, hair, body type, and skin tone to the reference image while changing only pose, outfit, and environment. It places her in a luxurious palace or heritage-hotel-like interior, seated on a carved wooden chair in a confident, slightly forward-leaning pose, wearing a tailored black pantsuit with glam evening makeup and high-heel shoes clearly visible on polished marble flooring. The image uses warm, soft indoor lighting, shallow-to-medium depth of field, and rich, royal-inspired decor elements (tapestry, marble pedestal with dark green vase) to create an elegant, powerful leader/entrepreneur aesthetic suitable for high-end editorial or social media use.",
+    "tags": [
+      "nano-banana",
+      "community-submission",
+      "image-generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Title\n\nConfident and Luxurious Power Portrait of Female in Black tailored Pantsuit"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/12",
+    "author": {
+      "name": "Mansi Sanghani",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/12",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-14T10:29:16Z",
+    "updatedAt": "2025-12-22T12:56:04Z"
   },
   {
     "id": "github-issue-11",
