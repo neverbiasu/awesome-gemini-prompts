@@ -251,56 +251,55 @@ async function extractTweetsFromPage(page: any, username: string) {
 }
 
 async function main() {
-  console.log('🚀 Starting Playwright Twitter Scraper (Guest Mode)...');
+  console.log(`\n🐦 Starting X (Twitter) Scraper for ${TARGET_ACCOUNTS.length} accounts...`);
   
   const browser = await chromium.launch({ headless: true });
   const context = await browser.newContext({
       userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
   });
 
+  // Define search terms to find prompts specifically
+  // We use OR logic to cover common prompt keywords
+  const SEARCH_TERMS = ['"prompt:"', '"system instruction"', '"try this"', '"prompt"', 'json'];
+
   for (const username of TARGET_ACCOUNTS) {
       const page = await context.newPage();
       try {
-          // Special Logic for News Accounts (High Noise)
-          // rowancheung is a news account, not a prompt library. We only want explicit prompts.
-          const isStrictAccount = ['rowancheung', 'AlexRiad84837'].includes(username);
-          
-          let prompts = await scrapeUserSearch(page, username);
-          
-          if (prompts.length === 0) {
-              console.log(`   Search returned 0 results. Falling back to Timeline...`);
-              prompts = await scrapeUserTimeline(page, username);
-          }
+          console.log(`\n🔍 Search-First Scraping: @${username}`);
+          let allPrompts = [];
 
-          if (isStrictAccount) {
-              // Strict Filter: Must have "Prompt:" or "System Instruction" explicit keyword
-              const originalCount = prompts.length;
-              prompts = prompts.filter(p => {
+          // Strategy: targeted search instead of timeline
+          // Query: (from:username) AND ("prompt:" OR "system instruction" OR ...)
+          // Note: Twitter search supports OR but too complex might fail without login.
+          // Let's try a combined query or iterate if needed.
+          
+          const query = `(from:${username}) ("prompt:" OR "system instruction" OR "try this" OR "json")`;
+          console.log(`   Query: ${query}`);
+          
+          const searchPrompts = await scrapeUserSearch(page, query);
+          
+          if (searchPrompts.length > 0) {
+              console.log(`   ✅ Found ${searchPrompts.length} targeted prompts via search.`);
+              allPrompts = searchPrompts;
+          } else {
+              console.log(`   ⚠️ Search returned 0. Falling back to Timeline (with strict filtering)...`);
+              // Fallback to timeline if search fails (e.g. login wall or no results)
+              const timelinePrompts = await scrapeUserTimeline(page, username);
+              
+              // Apply STRICT filter on timeline results to match our "Search" quality
+              allPrompts = timelinePrompts.filter(p => {
                   const content = p.contents[0]?.parts[0]?.text?.toLowerCase() || "";
-                  return content.includes("prompt:") || content.includes("system instruction") || content.includes("try this:");
+                  return content.includes("prompt") || content.includes("instruction") || content.includes("try this") || content.includes("{");
               });
-              if (prompts.length < originalCount) {
-                  console.log(`   Strict Filter (@${username}): Dropped ${originalCount - prompts.length} news/noise items.`);
-              }
+              console.log(`   Timeline yielded ${allPrompts.length} prompts after strict filtering.`);
           }
-          
-          // General Filter: Truncated Content
-          // If it ends with "..." and is short (<200 char), it's likely a scraped snippet, not a full prompt.
-          prompts = prompts.filter(p => {
-              const text = p.contents[0]?.parts[0]?.text || "";
-              if (text.trim().endsWith("...") && text.length < 200) {
-                   return false; // Drop truncated
-              }
-              return true;
-          });
 
-          if (prompts.length > 0) {
-              // Deduplicate locally before saving
-              const uniquePrompts = Array.from(new Map(prompts.map(p => [p.id, p])).values());
-              console.log(`   Found ${uniquePrompts.length} unique prompts.`);
+          if (allPrompts.length > 0) {
+              // Deduplicate locally
+              const uniquePrompts = Array.from(new Map(allPrompts.map(p => [p.id, p])).values());
               await savePromptsToXJson(uniquePrompts);
           } else {
-              console.log(`   No prompts found for @${username} (Search & Timeline).`);
+               console.log(`   ❌ No valid prompts found for @${username}.`);
           }
 
       } catch (error) {
