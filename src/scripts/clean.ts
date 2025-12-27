@@ -2,7 +2,7 @@ import 'dotenv/config';
 import { promises as fs } from 'fs';
 import path from 'path';
 import { GeminiPrompt } from '../schema/prompt';
-import { cleanPromptsWithLLM } from './cleaner';
+import { batchCleanPrompts } from './cleaner';
 
 // Define the path to the data files
 const DATA_DIR = path.join(process.cwd(), 'data');
@@ -147,7 +147,7 @@ async function main() {
 
   let cleanedPrompts: GeminiPrompt[] = [];
   if (unstructuredCandidates.length > 0) {
-      cleanedPrompts = await cleanPromptsWithLLM(unstructuredCandidates);
+      cleanedPrompts = await batchCleanPrompts(unstructuredCandidates);
   } else {
       console.log("✨ No unstructured candidates to clean.");
   }

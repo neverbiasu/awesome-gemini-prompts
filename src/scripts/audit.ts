@@ -53,7 +53,7 @@ async function main() {
     process.env.GOOGLE_GENERATIVE_AI_API_KEY = apiKey;
 
     try {
-        const model = google('gemini-2.5-flash-preview-09-2025'); 
+        const model = google('gemini-2.5-flash'); 
         
         const { object: auditResult } = await generateObject({
             model: model,

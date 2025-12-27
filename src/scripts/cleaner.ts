@@ -53,7 +53,7 @@ export async function batchCleanPrompts(rawPrompts: any[]) {
       return [];
   }
   
-  console.log(`   Using Google Gemini 1.5 Flash (via Google Generative AI SDK)`);
+  console.log(`   Using Google Gemini 2.5 Flash (via Google Generative AI SDK)`);
 
   const BATCH_SIZE = 5;
   const cleanedResults: GeminiPrompt[] = [];
@@ -86,7 +86,7 @@ export async function batchCleanPrompts(rawPrompts: any[]) {
       // STRATEGY: GOOGLE GEMINI API (Primary)
       // ---------------------------------------------------------
       const genAI = new GoogleGenerativeAI(apiKey);
-      const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" });
+      const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
       const generationConfig = {
           temperature: 0.1,
@@ -118,7 +118,7 @@ export async function batchCleanPrompts(rawPrompts: any[]) {
                 "description": "...",
                 "userPrompt": "...",
                 "tags": ["..."],
-                "compatibleModels": ["gemini-1.5-flash"],
+                "compatibleModels": ["gemini-2.5-flash"],
                 "confidenceScore": 0.95
               }
             ]
