@@ -1,5 +1,11 @@
 import { Octokit } from "@octokit/rest";
+import * as crypto from 'crypto';
 import { GeminiPrompt } from '../../schema/prompt';
+
+// Helper: Generate deterministic ID from URL
+const generateId = (source: string, url: string) => {
+    return `${source}-${crypto.createHash('md5').update(url).digest('hex').substring(0, 12)}`;
+};
 
 export async function scrapeGithub(): Promise<GeminiPrompt[]> {
   console.log('🐙 Starting GitHub Scraper (Target: google-gemini/cookbook)...');
@@ -120,7 +126,7 @@ export async function scrapeGithub(): Promise<GeminiPrompt[]> {
                              // Quick heuristic for now
                              if (nb.cells.length > 0) {
                                   prompts.push({
-                                      id: crypto.randomUUID(),
+                                      id: generateId('github', item.html_url),
                                       title: item.name,
                                       description: "Notebook example",
                                       tags: ["code"],

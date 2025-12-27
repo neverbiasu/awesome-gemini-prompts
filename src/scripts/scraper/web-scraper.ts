@@ -1,5 +1,11 @@
 import { chromium } from 'playwright';
+import * as crypto from 'crypto';
 import { GeminiPrompt } from '../../schema/prompt';
+
+// Helper: Generate deterministic ID from URL
+const generateId = (source: string, url: string) => {
+    return `${source}-${crypto.createHash('md5').update(url).digest('hex').substring(0, 12)}`;
+};
 
 export async function scrapeWeb(): Promise<GeminiPrompt[]> {
   console.log('🕷️ Starting Web Scraper (Target: Google AI Prompts Gallery)...');
@@ -58,7 +64,7 @@ export async function scrapeWeb(): Promise<GeminiPrompt[]> {
             });
 
             prompts.push({
-                id: crypto.randomUUID(),
+                id: generateId('web', card.url),
                 title: card.title,
                 description: card.description,
                 tags: ["official", "google"],
@@ -87,7 +93,7 @@ export async function scrapeWeb(): Promise<GeminiPrompt[]> {
             console.warn(`   ⚠️ Failed to scrape details for ${card.title}: ${err.message}`);
             // Fallback to basic info
             prompts.push({
-                id: crypto.randomUUID(),
+                id: generateId('web', card.url),
                 title: card.title,
                 description: card.description,
                 tags: ["official", "google"],

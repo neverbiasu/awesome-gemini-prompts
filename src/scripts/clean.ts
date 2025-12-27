@@ -160,7 +160,7 @@ async function main() {
       const placeholderExists = allPrompts.some(p => p.title === "Advanced Coding Assistant");
       if (!placeholderExists) {
           allPrompts.push({
-            id: crypto.randomUUID(),
+            id: 'placeholder-advanced-coding-assistant',
             title: "Advanced Coding Assistant",
             description: "Act as an expert software engineer...",
             tags: ["coding", "python"],
