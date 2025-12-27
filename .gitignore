@@ -47,3 +47,5 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
+data/audit_plan.json
+data/*.bak

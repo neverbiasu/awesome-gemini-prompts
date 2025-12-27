@@ -3678,7 +3678,7 @@
         "role": "user",
         "parts": [
           {
-            "text": "From photo to figurine style in just one prompt.\n\nPeople are having fun turning their photos into images of custom miniature figures, thanks to nano-banana in Gemini. Try a pic of yourself, a cool nature shot, a family photo, or a shot of your pup.\n\nHere’s how to make your own "
+            "text": "From photo to figurine style in just one prompt.\n\nPeople are having fun turning their photos into images of custom miniature figures, thanks to nano-banana in Gemini. Try a pic of yourself, a cool nature shot, a family photo, or a shot of your pup.\n\nHere’s how to make your own"
           },
           {
             "text": "[Image Attachment: https://pbs.twimg.com/media/Gzy4V72WwAA7PRR?format=jpg&name=360x360]"
@@ -3688,7 +3688,7 @@
     ],
     "stats": {
       "views": 0,
-      "likes": 6642,
+      "likes": 6635,
       "copies": 0
     },
     "compatibleModels": [
@@ -3698,7 +3698,7 @@
       "image"
     ],
     "createdAt": "2025-09-01T22:41:28.000Z",
-    "updatedAt": "2025-12-14T00:22:42.240Z"
+    "updatedAt": "2025-12-24T15:00:41.908Z"
   },
   {
     "id": "twitter-1985465713096794294",
@@ -3723,7 +3723,7 @@
     ],
     "stats": {
       "views": 0,
-      "likes": 6699,
+      "likes": 6643,
       "copies": 0
     },
     "compatibleModels": [
@@ -3733,7 +3733,7 @@
       "text"
     ],
     "createdAt": "2025-11-03T21:54:48.000Z",
-    "updatedAt": "2025-12-14T00:22:42.261Z"
+    "updatedAt": "2025-12-24T15:00:41.914Z"
   },
   {
     "id": "twitter-1960791170411323607",
@@ -3891,14 +3891,14 @@
         "role": "user",
         "parts": [
           {
-            "text": " NEW LABS EXPERIMENT \n\nIntroducing Opal, our new way to help you build and share AI mini-apps by linking together prompts, models, and tools— all while using simple, natural language (without a single line of code )\n\nNow available in US-only public beta! Learn more "
+            "text": "NEW LABS EXPERIMENT \n\nIntroducing Opal, our new way to help you build and share AI mini-apps by linking together prompts, models, and tools— all while using simple, natural language (without a single line of code )\n\nNow available in US-only public beta! Learn more"
           }
         ]
       }
     ],
     "stats": {
       "views": 0,
-      "likes": 2380,
+      "likes": 2384,
       "copies": 0
     },
     "compatibleModels": [
@@ -3908,7 +3908,7 @@
       "image"
     ],
     "createdAt": "2025-07-24T17:10:57.000Z",
-    "updatedAt": "2025-12-14T00:25:03.408Z"
+    "updatedAt": "2025-12-24T15:03:01.316Z"
   },
   {
     "id": "twitter-1900608100475797510",
@@ -3971,7 +3971,7 @@
     ],
     "stats": {
       "views": 0,
-      "likes": 2064,
+      "likes": 2066,
       "copies": 0
     },
     "compatibleModels": [
@@ -3981,7 +3981,7 @@
       "image"
     ],
     "createdAt": "2024-12-16T17:26:06.000Z",
-    "updatedAt": "2025-12-14T00:25:33.433Z"
+    "updatedAt": "2025-12-24T15:03:31.351Z"
   },
   {
     "id": "twitter-1986542481002143921",
@@ -4037,7 +4037,7 @@
         "role": "user",
         "parts": [
           {
-            "text": "Turn the static into the cinematic with Whisk Animate!\n\nCheck this thread to see some of our favorite examples of the magic in action \n\nFrom sprout to full bloom with just one prompt "
+            "text": "Turn the static into the cinematic with Whisk Animate!\n\nCheck this thread to see some of our favorite examples of the magic in action \n\nFrom sprout to full bloom with just one prompt"
           },
           {
             "text": "[Image Attachment: https://pbs.twimg.com/media/Gom4fD8W8AANkix?format=jpg&name=360x360]"
@@ -4047,7 +4047,7 @@
     ],
     "stats": {
       "views": 0,
-      "likes": 1966,
+      "likes": 1968,
       "copies": 0
     },
     "compatibleModels": [
@@ -4057,7 +4057,7 @@
       "image"
     ],
     "createdAt": "2025-04-15T21:55:51.000Z",
-    "updatedAt": "2025-12-14T00:25:33.449Z"
+    "updatedAt": "2025-12-24T15:03:31.364Z"
   },
   {
     "id": "twitter-1931156002919109074",
@@ -4291,7 +4291,7 @@
     ],
     "stats": {
       "views": 0,
-      "likes": 3385,
+      "likes": 3382,
       "copies": 0
     },
     "compatibleModels": [
@@ -4301,7 +4301,7 @@
       "image"
     ],
     "createdAt": "2025-11-13T16:20:13.000Z",
-    "updatedAt": "2025-12-14T00:28:22.890Z"
+    "updatedAt": "2025-12-24T15:06:20.887Z"
   },
   {
     "id": "twitter-1878885164459163792",
@@ -11606,7 +11606,7 @@
     ],
     "stats": {
       "views": 0,
-      "likes": 660,
+      "likes": 669,
       "copies": 0
     },
     "compatibleModels": [
@@ -11616,7 +11616,7 @@
       "image"
     ],
     "createdAt": "2025-12-16T18:00:01.000Z",
-    "updatedAt": "2025-12-19T23:52:04.013Z"
+    "updatedAt": "2025-12-23T00:31:39.879Z"
   },
   {
     "id": "twitter-2000985655715807599",
