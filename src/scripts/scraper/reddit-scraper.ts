@@ -113,7 +113,8 @@ export async function scrapeReddit(): Promise<any[]> {
           url: post.url,
           imageUrls: imageUrls,
           author: post.author,
-          date: new Date(post.created_utc * 1000).toISOString(),
+          created_utc: post.created_utc, // Preserve original Unix timestamp
+          date: new Date(post.created_utc * 1000).toISOString(), // Human-readable
           stats: {
               upvotes: post.ups,
               comments: post.num_comments

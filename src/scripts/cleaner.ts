@@ -236,8 +236,10 @@ export async function batchCleanPrompts(rawPrompts: any[]) {
             },
             originalSourceUrl: original?.url || original?.originUrl || original?.originalSourceUrl,
             stats: stats,
-            createdAt: original?.date || new Date().toISOString(),
-            updatedAt: new Date().toISOString(),
+            createdAt: original?.created_utc 
+              ? new Date(original.created_utc * 1000).toISOString() 
+              : original?.date || original?.createdAt || new Date().toISOString(),
+            updatedAt: new Date().toISOString(), // Processing timestamp for new entries
             images: (original?.imageUrls && Array.isArray(original.imageUrls) && original.imageUrls.length > 0) 
               ? original.imageUrls.map((url: string) => ({ url, label: "gallery" }))
               : undefined
