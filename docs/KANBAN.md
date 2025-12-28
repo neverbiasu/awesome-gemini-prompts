@@ -30,17 +30,22 @@
         - [x] **Media Support**: Extract images/videos from tweets.
         - [x] **Thread Support**: Automatically expand and scrape full threads for context.
         - [x] **Robustness**: Add retry mechanisms and smarter deduplication.
-    - [x] **Reddit Optimization**: Gallery support and multimodal extraction.
+    - [x] **Reddit Optimization**: Gallery support, multimodal extraction, User-Agent fix.
 - [ ] **Vertex AI Gallery Integration**:
     - [ ] Ingest official structured prompts (Extract, Code, Classify).
 - [x] **Data Quality Firewall**:
     - [x] **LLM Cleaner Upgrade**: Switched to Gemini 2.5 Flash API (removed unstable GitHub Models/ModelScope).
+    - [x] **Audit Script Refactor**: Rewrote `audit.ts` to use `@google/generative-ai` for SDK consistency.
     - [x] **Safety Checks**: Prevent data loss during cleaning.
     - [x] **Deduplication**: Logic to prevent re-importing existing prompts.
+    - [x] **Yield Rate Improvement**: Optimized to 52.4% yield rate.
     - [x] **Observability**: Daily scraping reports archived to `docs/reports/` and rejection logs to `docs/rejected/`.
     - [x] **ID Stability**: Fixed ID drift in all scrapers using deterministic MD5 hashing based on URLs.
     - [ ] **Strict Filtering**: Remove all ChatGPT/Claude related content.
     - [ ] **Tag Whitelist**: Establish Tag Taxonomy (<100 tags).
+- [x] **Development Process Standardization**:
+    - [x] Created feature development SOP workflow (`.agent/workflows/feature-development.md`).
+    - [x] Standardized Git commit process and file categorization.
 - [ ] **MVP Data Targets**:
     - [ ] Total > 1000 Prompts (Current: 634).
     - [x] Official Sources > 100 Prompts (Google Gallery + Official Twitter Accounts).

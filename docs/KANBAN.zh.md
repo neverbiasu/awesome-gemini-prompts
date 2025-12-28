@@ -28,10 +28,10 @@
     - [ ] **技术博客**: 抓取 Google/Medium 博客中的 "Hidden Gems" 与工程模式。
     - [x] **社交媒体**: 已实现 `scraper-playwright.ts` (Playwright Guest 模式，支持混合搜索与 Timeline 抓取)。
     - [x] **X (Twitter) 深度优化**:
-        - [x] **多媒体支持**: 提取推文中的图片/视频 (目前仅纯文本)。
-        - [x] **Thread 支持**: 自动展开并抓取完整的推文串 (Thread) 以获取完整上下文。
+        - [x] **多媒体支持**: 提取推文中的图片/视频。
+        - [x] **Thread 支持**: 自动展开并抓取完整的推文串 (Thread)。
         - [x] **健壮性**: 增加网络波动重试机制与更智能的去重策略。
-    - [x] **Reddit 优化**: 支持图文贴 (Gallery) 与多模态提取。
+    - [x] **Reddit 优化**: 支持图文贴 (Gallery) 与多模态提取，修复 User-Agent 问题。
 - [x] **竞品分析**: 
     - [ ] `promptlibrary.space` 分析 (优先级低 -> 暂缓)。
     - [x] Github 仓库 (`awesome-nano-banana-pro-prompts`) 数据结构分析与Issue爬取实现。
@@ -39,13 +39,17 @@
     - [ ] 录入官方结构化 Prompt (Extract, Code, Classify)。
 - [x] **数据质量防火墙**:
     - [x] **LLM 清洗升级**: 切换至 Gemini 2.5 Flash API (移除不稳定的 GitHub Models/ModelScope)。
+    - [x] **审计脚本重构**: 重写 `audit.ts` 使用 `@google/generative-ai`，统一 SDK。
     - [x] **安全检查**: 防止清洗过程数据丢失。
     - [x] **数据去重**: 防止重复导入现有 Prompt 的逻辑。
-    - [x] **产出率救援**: 优化 Batch Size 与 Context，将产出率从 37% 提升至 49%。
-    - [x] **可观测性**: 实现每日爬虫报告自动归档 (`docs/reports/`) 与 废弃日志 (`docs/rejected/`)。
+    - [x] **产出率提升**: 优化 Batch Size 与 Context，产出率达到 52.4%。
+    - [x] **可观测性**: 实现每日爬虫报告自动归档 (`docs/reports/`) 与废弃日志 (`docs/rejected/`)。
     - [x] **ID 稳定性**: 修复所有爬虫的 ID 漂移问题，使用基于 URL 的确定性 MD5 哈希。
     - [ ] **严厉过滤**: 剔除所有 ChatGPT/Claude 相关内容。
     - [ ] **标签白名单**: 建立 Tag Taxonomy (<100 tags)。
+- [x] **开发流程规范化**:
+    - [x] 创建功能开发 SOP 工作流 (`.agent/workflows/feature-development.md`)。
+    - [x] 规范 Git 提交流程与文件分类。
 - [ ] **MVP 数据目标**:
     - [ ] 总量 > 1000 条 (当前: 634)。
     - [x] 官方来源 > 100 条 (Google Gallery + 官方推特账号)。
