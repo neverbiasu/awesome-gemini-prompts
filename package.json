@@ -16,6 +16,7 @@
     "clean:audit": "bun src/scripts/audit.ts",
     "audit:apply": "bun src/scripts/audit-apply.ts",
     "scrape:reddit": "bun src/scripts/scraper/reddit-scraper.ts",
+    "scrape:x:fast": "bun src/scripts/scraper/x-fxtwitter-scraper.ts",
     "report": "bun src/scripts/report.ts"
   },
   "dependencies": {

@@ -1,0 +1,15 @@
+# X/Twitter Seed URLs for Prompt Scraping
+# Add tweet URLs here, one per line
+# Comments start with #
+
+# NanoBanana Official Prompts
+https://x.com/NanoBanana/status/1997971257044709417
+https://x.com/NanoBanana/status/1997460283669831973
+https://x.com/NanoBanana/status/1997390810543726903
+https://x.com/NanoBanana/status/1997085645538472118
+https://x.com/NanoBanana/status/1997009961654870363
+
+# Community Prompts (add more as you find them)
+# https://x.com/username/status/tweetid
+
+https://x.com/NanoBanana/status/1982073776985592166
