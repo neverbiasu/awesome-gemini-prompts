@@ -11687,5 +11687,619 @@
     ],
     "createdAt": "2025-12-15T21:21:36.000Z",
     "updatedAt": "2025-12-19T23:53:04.055Z"
+  },
+  {
+    "id": "twitter-2004470892579958990",
+    "title": "Ralf Elfving: Did Global News approach the recent interviews wit...",
+    "description": "Did Global News approach the recent interviews with Mark Carney and Pierre Poilievre differently? Gemini sure thinks so.\n\nI gave Gemini Pro both interviews (videos), and it claims the interviewer demo",
+    "promptText": "Did Global News approach the recent interviews with Mark Carney and Pierre Poilievre differently? Gemini sure thinks so.\n\nI gave Gemini Pro both interviews (videos), and it claims the interviewer demonstrated systematic differential treatment and asymmetric scrutiny.\n\nUsing AI is by no means a flawless approach, but I thought it could be interesting. I shared a link to full Gemini prompt + response in 🧵-- modify it to see if you get different outcomes.",
+    "tags": [
+      "twitter"
+    ],
+    "author": {
+      "name": "@ralfelfving",
+      "url": "https://x.com/ralfelfving",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/ralfelfving/status/2004470892579958990",
+    "stats": {
+      "likes": 45,
+      "views": 2844,
+      "retweets": 15
+    },
+    "createdAt": "2025-12-26T08:34:36.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1996343755981369363",
+    "title": "God of Prompt: Steal my Gemini prompt generator prompt to create ...",
+    "description": "Steal my Gemini prompt generator prompt to create static ads with Nano Banana according to your brand\n\n--------------------------------------\nSTATIC ADS PROMPT GENERATOR\n------------------------------",
+    "promptText": "Steal my Gemini prompt generator prompt to create static ads with Nano Banana according to your brand\n\n--------------------------------------\nSTATIC ADS PROMPT GENERATOR\n--------------------------------------\n\nYou are an elite 0.1% static ads designer, an expert at generating detailed JSON prompts for Nano Banana Pro static ads. Work in 2 phases only.\n\n## PHASE 1: CONTEXT GATHERING\n\nAsk these 4 questions in a SINGLE message:\n\n**\"I'll create your Nano Banana Pro ad prompt. Answer these 4 questions:**\n\n**1. PRODUCT & GOAL:** What product/service? What's the ad goal? (e.g., \"Energy drink for gamers, Instagram engagement\")\n\n**2. PLATFORM & STYLE:** Where will this run + what aesthetic?\n- Platforms: Instagram feed (1:1), Stories (), Facebook (1.91:1), Pinterest (2:3), Web (16:9)\n- Styles: Luxury/Premium, Clean/Minimalist, Bold/Energetic, Lifestyle/Authentic, Natural/Organic\n\n**3. MODEL OR PRODUCT-ONLY:** Human model in ad? If yes: age range, gender, action. If no: product-only hero shot.\n\n**4. BRAND INFO:** Brand name, brand colors (hex codes if known), any specific requirements?\"\n\n---\n\n## PHASE 2: FILES & COPY\n\nAfter receiving Phase 1 answers, ask in ONE message:\n\n**\"Perfect! Now I need:**\n\n**1. LOGO FILE:** Upload your logo (PNG/JPEG - I'll integrate it in the prompt)\n\n**2. PRODUCT IMAGE (optional):** If you have a specific product photo to use, upload it\n\n**3. TEXT COPY:** Exact slogan/headline for the ad (e.g., \"UNLEASH YOUR POWER\")\n\n**4. PRODUCT DETAILS:** Briefly describe the product's appearance and key features to emphasize (e.g., \"metallic blue can, lightning logo, condensation droplets\")\n\nUpload files and provide details, then I'll generate your JSON prompt.\"**\n\n---\n\n## GENERATION RULES\n\nAfter Phase 2, immediately generate a complete JSON prompt with this structure:\n```json\n{\n\"ad_type\": \"[product_hero_shot | lifestyle_integration | model_with_product | minimal_clean]\",\n\"product\": {\n\"name\": \"[from user input]\",\n\"description\": \"[detailed from user's product details - 2-3 sentences with color, materials, size, features]\",\n\"positioning\": \"[center | rule-of-thirds-left | floating | held-by-model]\",\n\"visibility\": \"Product is primary focal point, sharp focus, hero element, [specific size: 40-50% of frame]\"\n},\n\"branding\": {\n\"brand_name\": \"[from user]\",\n\"logo_integration\": \"User uploaded logo file - place in [top-right | bottom-left | top-center] corner at 15% of image height, [color treatment], professional placement with [subtle glow | clean presentation]\",\n\"brand_colors\": \"[user's hex codes or inferred from style]\"\n},\n\"text_rendering\": {\n\"primary_text\": \"[user's exact slogan in quotes]\",\n\"text_style\": \"[bold sans-serif | elegant serif | modern geometric - match style choice]\",\n\"text_placement\": \"[centered bottom third | top section | integrated into scene]\",\n\"text_color\": \"[hex code] with [outline/shadow effect] for maximum legibility\",\n\"text_size\": \"22-25% of image height, commanding presence\"\n},\n\"subject\": {\n\"description\": \"[if model: action-based scene with model + product interaction. if product-only: 'Product hero shot with [describe surrounding effects/context]']\",\n\"model_present\": [true/false],\n\"age\": \"[if applicable]\",\n\"gender\": \"[if applicable]\",\n\"expression\": \"[natural emotion matching brand]\",\n\"action\": \"[what model is doing with product]\",\n\"clothing\": {\n\"style\": \"[match brand positioning from style choice]\",\n\"details\": \"[specific to scenario]\"\n}\n},\n\"photography\": {\n\"camera_style\": \"[Commercial product | Lifestyle editorial | Studio high-end - match style]\",\n\"angle\": \"[straight-on | slightly above | low-angle hero | 45-degree]\",\n\"shot_type\": \"[tight product focus | environmental context | full scene]\",\n\"aspect_ratio\": \"[from platform choice: 1:1 |  | 1.91:1 | 2:3 | 16:9]\",\n\"depth_of_field\": \"[shallow with bokeh | deep focus | selective focus - match style]\",\n\"resolution\": \"4K commercial quality, print-ready\"\n},\n\"lighting\": {\n\"type\": \"[match style: luxury=dramatic side | minimalist=bright even | bold=multi-color neon | lifestyle=natural window | organic=soft golden hour]\",\n\"direction\": \"[specific angles: key light at 45° above left, fill light from right at 25% intensity, rim light at 180° for separation]\",\n\"mood\": \"[match goal: energizing | sophisticated | warm-inviting | powerful | serene]\",\n\"color_temperature\": \"[warm 3200K | neutral 5600K | cool 6500K - match style]\"\n},\n\"background\": {\n\"setting\": \"[specific location matching style: luxury=marble studio | minimalist=white seamless | bold=cyberpunk digital | lifestyle=real environment | organic=natural outdoor]\",\n\"surface\": \"[product placement: marble counter | white backdrop | wooden table | floating | reflective surface]\",\n\"elements\": [\n\"[3-5 specific background elements supporting product without distraction]\",\n\"[match style: luxury=gold accents | minimalist=nothing | bold=neon effects | lifestyle=props | organic=plants]\"\n],\n\"atmosphere\": \"[emotional vibe matching goal and style]\",\n\"color_palette\": \"[dominant colors from style + brand colors]\"\n},\n\"composition\": {\n\"focal_point\": \"Product positioned in [center | golden ratio | rule-of-thirds], all elements lead eye to product\",\n\"visual_hierarchy\": \"1. Product (sharpest, largest) 2. Text/slogan 3. Logo 4. Model/props 5. Background\",\n\"negative_space\": \"[luxury/minimalist=30-40% | bold/lifestyle=10-20%]\"\n},\n\"color_grading\": {\n\"style\": \"[match aesthetic: luxury=desaturated elegant | minimalist=clean neutral | bold=vibrant saturated | lifestyle=natural true-to-life | organic=warm earthy]\",\n\"adjustments\": \"[specific: +20% saturation | increased contrast | warm tone shift | etc - match style]\"\n},\n\"details_and_effects\": {\n\"product_effects\": \"[realistic details: condensation on cold items | steam from hot | sparkle on jewelry | fabric texture | metallic shine - based on product type]\",\n\"environmental_effects\": \"[bokeh blur | light rays | lens flare | particles | atmosphere - match style]\"\n},\n\"technical_specifications\": {\n\"output_quality\": \"4K resolution (3840x3840 for 1:1, adjust for other ratios), commercial print-ready\",\n\"color_space\": \"sRGB for digital, high dynamic range\",\n\"platform_optimization\": \"[specific requirements for chosen platform]\"\n},\n\"critical_instructions\": [\n\"User must attach uploaded logo file when generating in Nano Banana Pro\",\n\"User must attach product image if provided\",\n\"Text may need refinement in Canva - generate 3-5 variations\",\n\"Product must be hero element - everything else supports it\",\n\"[any specific user requirements from Phase 1]\"\n]\n}\n```\nPresent with:\n**\"Here's your Nano Banana Pro ad prompt:**\n```json\n[complete JSON]\n```\n**HOW TO USE:**\n1. Copy entire JSON above\n2. Open Nano Banana Pro (Gemini 3 Pro Image)\n3. **Upload your logo file** (critical!)\n4. Upload product image if you provided one\n5. Paste JSON prompt\n6. Generate 3-5 variations\n7. Optional: Edit text in Canva for perfection\n**Expected:** Professional [style] ad, 4K quality, [aspect ratio] for [platform], ready in 30 seconds.\"\n---\n## STYLE PATTERN LIBRARY\nUse these patterns based on user's style choice:\n**LUXURY/PREMIUM:**\n- Lighting: dramatic side, hard shadows, rim separation\n- Background: marble/black/gold, minimal elements\n- Colors: deep jewel tones, desaturated elegance\n- Negative space: 40%\n**CLEAN/MINIMALIST:**\n- Lighting: bright even, no harsh shadows\n- Background: pure white seamless, 1-2 elements max\n- Colors: neutral with 1 accent color\n- Negative space: 30-40%\n**BOLD/ENERGETIC:**\n- Lighting: multi-color neon, dramatic contrast\n- Background: vibrant, dynamic, electric effects\n- Colors: saturated, +30% saturation\n- Negative space: 10-20%\n**LIFESTYLE/AUTHENTIC:**\n- Lighting: natural window or golden hour\n- Background: real environment with props\n- Colors: warm, true-to-life\n- Model: natural action, candid\n**NATURAL/ORGANIC:**\n- Lighting: soft golden hour or diffused natural\n- Background: outdoor/plants/earth tones\n- Colors: warm earthy palette\n- Negative space: 25-35%\n---\n## CRITICAL RULES\n1. **BE SPECIFIC:** Replace vague terms with precise specs\n- Bad: \"good lighting\"\n- Good: \"key light at 45° above left, fill at 25% from right\"\n2. **MATCH STYLE:** All elements must align with chosen aesthetic\n3. **LOGO REMINDER:** Always mention user must upload logo file 3+ times\n4. **PRODUCT HERO:** Product always primary focus, 40-50% of frame\n5. **4K QUALITY:** Always specify \"4K commercial quality\"\n6. **PLATFORM OPTIMIZE:** Use exact aspect ratio from user's platform choice\n7. **NO VAGUENESS:** Every field must have specific, actionable details\n---\nNow execute: Ask Phase 1 questions in one message, then Phase 2 in one message, then generate complete JSON.",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation",
+      "style",
+      "coding"
+    ],
+    "author": {
+      "name": "@godofprompt",
+      "url": "https://x.com/godofprompt",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/godofprompt/status/1996343755981369363",
+    "stats": {
+      "likes": 291,
+      "views": 22723,
+      "retweets": 29
+    },
+    "createdAt": "2025-12-03T22:20:16.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-2004420869087809647",
+    "title": "techAU: Merry Christmas to the Musk family. \n\nThis seemed ...",
+    "description": "Merry Christmas to the Musk family. \n\nThis seemed like a good time to compare Gok and Gemini.. \n\nPrompt: \"Remix this with a little fun\"\n\nI think Nano Banana won this round.",
+    "promptText": "Merry Christmas to the Musk family. \n\nThis seemed like a good time to compare Gok and Gemini.. \n\nPrompt: \"Remix this with a little fun\"\n\nI think Nano Banana won this round.",
+    "tags": [
+      "twitter",
+      "nano-banana"
+    ],
+    "author": {
+      "name": "@techAU",
+      "url": "https://x.com/techAU",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/techAU/status/2004420869087809647",
+    "stats": {
+      "likes": 5,
+      "views": 1454,
+      "retweets": 1
+    },
+    "createdAt": "2025-12-26T05:15:50.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1940499640585228390",
+    "title": "Kingsley Uyi Idehen: Great post by Victor Dibia (@vykthur) highlighting...",
+    "description": "Great post by Victor Dibia (@vykthur) highlighting the virtues of MCP (Model Context Protocol). It was so good I had to “copy and paste” the benefits snippet for an HTML-based infographic generation e",
+    "promptText": "Great post by Victor Dibia (@vykthur) highlighting the virtues of MCP (Model Context Protocol). It was so good I had to “copy and paste” the benefits snippet for an HTML-based infographic generation exercise using @Google Gemini.\n\nhttps://www.linkedin.com/posts/dibiavictor_multiagentsystems-activity-7346202250190405636-G694?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAACUeQB4egYFEca41zYq1o\n\nRelated Artifacts\n\n[1] https://www.openlinksw.com/data/html/model-context-protocol-benefits-vdibia-post.html -- finished product\n\n[2] https://g.co/gemini/share/081e438d9954 -- Gemini Canvas Artifact\n\n[3] https://g.co/gemini/share/f137ca4074db -- Gemini Prompt Session (hope this shares properly!)\n\n#MCP #Explainer",
+    "tags": [
+      "twitter"
+    ],
+    "author": {
+      "name": "@kidehen",
+      "url": "https://x.com/kidehen",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/kidehen/status/1940499640585228390",
+    "stats": {
+      "likes": 4,
+      "views": 375,
+      "retweets": 1
+    },
+    "createdAt": "2025-07-02T19:55:41.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1852186858014544189",
+    "title": "Aaron Kempf: I don't think that I'm gonna recover from THIS mes...",
+    "description": "I don't think that I'm gonna recover from THIS mess. I just have TOOOOOO many fucking tabs open this time.\n\nI can't even 'Share a Gemini Prompt' into a 'Google Docs' and have it ACTUALLY SHOW UP in my",
+    "promptText": "I don't think that I'm gonna recover from THIS mess. I just have TOOOOOO many fucking tabs open this time.\n\nI can't even 'Share a Gemini Prompt' into a 'Google Docs' and have it ACTUALLY SHOW UP in my google docs? \n\n#whoteststhisshit\n\n@google\n@googlechrome\n#Google",
+    "tags": [
+      "twitter"
+    ],
+    "author": {
+      "name": "@AaronKempf3",
+      "url": "https://x.com/AaronKempf3",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/AaronKempf3/status/1852186858014544189",
+    "stats": {
+      "likes": 0,
+      "views": 29,
+      "retweets": 0
+    },
+    "createdAt": "2024-11-01T03:12:13.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-2003037780356845725",
+    "title": "Alex Prompter: Google's Gemini team doesn't prompt like ChatGPT u...",
+    "description": "Google's Gemini team doesn't prompt like ChatGPT users do.\n\nI reverse-engineered their internal prompt structures from DeepMind docs and production examples.\n\nThe difference is absolutely wild.\n\nHere ",
+    "promptText": "Google's Gemini team doesn't prompt like ChatGPT users do.\n\nI reverse-engineered their internal prompt structures from DeepMind docs and production examples.\n\nThe difference is absolutely wild.\n\nHere are 5 hidden Gemini prompt structures the pros actually use:",
+    "tags": [
+      "twitter"
+    ],
+    "author": {
+      "name": "@alex_prompter",
+      "url": "https://x.com/alex_prompter",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/alex_prompter/status/2003037780356845725",
+    "stats": {
+      "likes": 366,
+      "views": 56127,
+      "retweets": 59
+    },
+    "createdAt": "2025-12-22T09:39:56.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1999797010740785326",
+    "title": "Tuta: Gemini Prompt: Export my mailbox and then delete m...",
+    "description": "Gemini Prompt: Export my mailbox and then delete my Gmail account so I can take back my PRIVACY. 🥳",
+    "promptText": "Gemini Prompt: Export my mailbox and then delete my Gmail account so I can take back my PRIVACY. 🥳",
+    "tags": [
+      "twitter"
+    ],
+    "author": {
+      "name": "@TutaPrivacy",
+      "url": "https://x.com/TutaPrivacy",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/TutaPrivacy/status/1999797010740785326",
+    "stats": {
+      "likes": 260,
+      "views": 12558,
+      "retweets": 30
+    },
+    "createdAt": "2025-12-13T11:02:16.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-2001342589468029385",
+    "title": "Alter vortex: Image generated by Chatgpt/Gemini prompt...🧞🙌\n\nF...",
+    "description": "Image generated by Chatgpt/Gemini prompt...🧞🙌\n\nFor getting the Prompt just comment \"PROMPT\" or click Alt below\nSteps to follow:\n\n1️⃣Step 1:- Open Gemini\n2️⃣Step 2:- Upload below image \n3️⃣Step 3:- Y",
+    "promptText": "Image generated by Chatgpt/Gemini prompt...🧞🙌\n\nFor getting the Prompt just comment \"PROMPT\" or click Alt below\nSteps to follow:\n\n1️⃣Step 1:- Open Gemini\n2️⃣Step 2:- Upload below image \n3️⃣Step 3:- Your image and ask to swap faces\nFollow for more!!🔥🔥\n\n#AItools #AI #Prompt #gemini",
+    "tags": [
+      "twitter",
+      "image-generation"
+    ],
+    "author": {
+      "name": "@AIinPeak",
+      "url": "https://x.com/AIinPeak",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/AIinPeak/status/2001342589468029385",
+    "stats": {
+      "likes": 2,
+      "views": 621,
+      "retweets": 0
+    },
+    "createdAt": "2025-12-17T17:23:51.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1960783672665128970",
+    "title": "Travis Davids: New record? 13 images merged into a single image u...",
+    "description": "New record? 13 images merged into a single image using Gemini 2.5 Flash Image (Nano Banana). This collage method is absolutely BANANAS! I'm actually amazed that it can do this however I feel like I'm ",
+    "promptText": "New record? 13 images merged into a single image using Gemini 2.5 Flash Image (Nano Banana). This collage method is absolutely BANANAS! I'm actually amazed that it can do this however I feel like I'm reaching it's limit now but even at 13 elements it's still managing to obtain consistency, the detailed prompt however is very important once you start playing around with a crazy amount of elements like this. 🤯\n\nPrompt: A model is posing and leaning against a pink bmw. She is wearing the following items, the scene is against a light grey background. The green alien is a keychain and it's attached to the pink handbag. The model also has a pink parrot on her shoulder. There is a pug sitting next to her wearing a pink collar and gold headphones.",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation"
+    ],
+    "author": {
+      "name": "@MrDavids1",
+      "url": "https://x.com/MrDavids1",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/MrDavids1/status/1960783672665128970",
+    "stats": {
+      "likes": 4919,
+      "views": 1461325,
+      "retweets": 477
+    },
+    "createdAt": "2025-08-27T19:17:11.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1957830322537779307",
+    "title": "Travis Davids: I've also been testing Nano Banana and surprisingl...",
+    "description": "I've also been testing Nano Banana and surprisingly, it managed to do something that failed every single time with Flux Kontext. Flux Kontext is super good and a lot of my use cases were on par with n",
+    "promptText": "I've also been testing Nano Banana and surprisingly, it managed to do something that failed every single time with Flux Kontext. Flux Kontext is super good and a lot of my use cases were on par with nano banana BUT I found something that broke Kontext. Nano Banana is better at understanding very precise prompt instructions.\n\nI was trying this prompt with this toy image of Sam from Death Stranding and it just couldn't figure out how to show me the back with the packages. Nano Banana did it correct on the first try. \n\nPrompt: Show me a back view of this image, the crates he is carrying needs to remain on his back, keep the exact same pose\n\nUnless someone else knows how to prompt that differently, I could not get it to work with Kontext.\n\nAlso, no drop in quality with edits is a MAJOR PLUS. Google or whoever you are that is working on Nano Banana, please release it soon! 🙏\n\nP.S you can test Nano Banana here, just select Generate Images in the prompt box https://lmarena.ai/",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation"
+    ],
+    "author": {
+      "name": "@MrDavids1",
+      "url": "https://x.com/MrDavids1",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/MrDavids1/status/1957830322537779307",
+    "stats": {
+      "likes": 25,
+      "views": 2516,
+      "retweets": 2
+    },
+    "createdAt": "2025-08-19T15:41:38.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1977418128675205564",
+    "title": "Justine Moore: I'm loving this nano-banana prompt:\n\n\"Create a pho...",
+    "description": "I'm loving this nano-banana prompt:\n\n\"Create a photo-style line drawing / pencil sketch of the faces identical to the uploaded reference image — keep every facial feature, proportion, and expression e",
+    "promptText": "I'm loving this nano-banana prompt:\n\n\"Create a photo-style line drawing / pencil sketch of the faces identical to the uploaded reference image — keep every facial feature, proportion, and expression exactly the same.\n\nUse black and gray pencil tones with intricate, fine line detailing, drawn on a notebook-page style background.\nShow a right hand holding a pen and an eraser near the sketch, as if the artist is still working.”",
+    "tags": [
+      "twitter",
+      "image-generation",
+      "style"
+    ],
+    "author": {
+      "name": "@venturetwins",
+      "url": "https://x.com/venturetwins",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/venturetwins/status/1977418128675205564",
+    "stats": {
+      "likes": 553,
+      "views": 65153,
+      "retweets": 39
+    },
+    "createdAt": "2025-10-12T16:56:35.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1993303770688790688",
+    "title": "Marques Brownlee: I've tried this prompt in Google's Nano Banana AI ...",
+    "description": "I've tried this prompt in Google's Nano Banana AI image creator a few times, and it seems to make this guy every single time 🥲 (try it yourself)",
+    "promptText": "I've tried this prompt in Google's Nano Banana AI image creator a few times, and it seems to make this guy every single time 🥲 (try it yourself)",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation"
+    ],
+    "author": {
+      "name": "@MKBHD",
+      "url": "https://x.com/MKBHD",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/MKBHD/status/1993303770688790688",
+    "stats": {
+      "likes": 9535,
+      "views": 851549,
+      "retweets": 159
+    },
+    "createdAt": "2025-11-25T13:00:27.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1991543114457133399",
+    "title": "Travis Davids: Google FINALLY improved their style transfer with ...",
+    "description": "Google FINALLY improved their style transfer with Nano Banana Pro. I was vocal about this some time back that style transfer with text prompting sucked. It would sometimes return the exact same image ",
+    "promptText": "Google FINALLY improved their style transfer with Nano Banana Pro. I was vocal about this some time back that style transfer with text prompting sucked. It would sometimes return the exact same image without altering the style or adjusting it very slightly. You can even test it yourself against the old nano banana. I posted comparisons but I retested old prompts with the same image and this is exactly how Nano Banana should be working. Yes, Nano Banana Pro is a big improvement! 🍌🍌🍌",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation",
+      "style"
+    ],
+    "author": {
+      "name": "@MrDavids1",
+      "url": "https://x.com/MrDavids1",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/MrDavids1/status/1991543114457133399",
+    "stats": {
+      "likes": 115,
+      "views": 8400,
+      "retweets": 10
+    },
+    "createdAt": "2025-11-20T16:24:14.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1991522521590743464",
+    "title": "Justine Moore: I had early access to Nano Banana Pro and tested a...",
+    "description": "I had early access to Nano Banana Pro and tested a LOT of things.\n\nNow I'm sharing some of my favorite prompts + use cases.\n\nThis is a really cool model, and there's a lot to explore 👇",
+    "promptText": "I had early access to Nano Banana Pro and tested a LOT of things.\n\nNow I'm sharing some of my favorite prompts + use cases.\n\nThis is a really cool model, and there's a lot to explore 👇",
+    "tags": [
+      "twitter",
+      "nano-banana"
+    ],
+    "author": {
+      "name": "@venturetwins",
+      "url": "https://x.com/venturetwins",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/venturetwins/status/1991522521590743464",
+    "stats": {
+      "likes": 245,
+      "views": 35853,
+      "retweets": 20
+    },
+    "createdAt": "2025-11-20T15:02:24.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-2003566112143999383",
+    "title": "Misch Strotz: A fun Nano Banana prompt to explore with any image...",
+    "description": "A fun Nano Banana prompt to explore with any image:\n\"Turn this image into an A24 movie poster\"",
+    "promptText": "A fun Nano Banana prompt to explore with any image:\n\"Turn this image into an A24 movie poster\"",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation"
+    ],
+    "author": {
+      "name": "@mitch0z",
+      "url": "https://x.com/mitch0z",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/mitch0z/status/2003566112143999383",
+    "stats": {
+      "likes": 22,
+      "views": 1191,
+      "retweets": 3
+    },
+    "createdAt": "2025-12-23T20:39:20.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1991550229460709471",
+    "title": "Pliny the Liberator 🐉󠅫󠄼󠄿󠅆󠄵󠄐󠅀󠄼󠄹󠄾󠅉󠅭: lol my prompt accidentally bypassed the Nano Banan...",
+    "description": "lol my prompt accidentally bypassed the Nano Banana tool and gemini-3-pro-thinking threw down a meth recipe rather than an image 😂😂",
+    "promptText": "lol my prompt accidentally bypassed the Nano Banana tool and gemini-3-pro-thinking threw down a meth recipe rather than an image 😂😂",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation"
+    ],
+    "author": {
+      "name": "@elder_plinius",
+      "url": "https://x.com/elder_plinius",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/elder_plinius/status/1991550229460709471",
+    "stats": {
+      "likes": 330,
+      "views": 33138,
+      "retweets": 15
+    },
+    "createdAt": "2025-11-20T16:52:30.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1991529094358634592",
+    "title": "Ethan Mollick: I gave nano banana the post above and prompt: “Mak...",
+    "description": "I gave nano banana the post above and prompt: “Make an infographic about why the AI was bad at these things before based on training data issues like every clock reading 10:10 in ads”",
+    "promptText": "I gave nano banana the post above and prompt: “Make an infographic about why the AI was bad at these things before based on training data issues like every clock reading 10:10 in ads”",
+    "tags": [
+      "twitter",
+      "nano-banana"
+    ],
+    "author": {
+      "name": "@emollick",
+      "url": "https://x.com/emollick",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/emollick/status/1991529094358634592",
+    "stats": {
+      "likes": 128,
+      "views": 16218,
+      "retweets": 2
+    },
+    "createdAt": "2025-11-20T15:28:31.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1993307937851249076",
+    "title": "Kris Kashtanova: I tested Nano Banana Pro and it’s much better than...",
+    "description": "I tested Nano Banana Pro and it’s much better than Nano Banana at photo restoration. \n\nPrompt: Imagine you are a professional photo restorer. Restore this photo perfectly. Make it sharp and improve re",
+    "promptText": "I tested Nano Banana Pro and it’s much better than Nano Banana at photo restoration. \n\nPrompt: Imagine you are a professional photo restorer. Restore this photo perfectly. Make it sharp and improve resolution. Get rid of scratches. Make it a way it would look if it was taken now. \n\nPhoto of my great-grandmother. I use Nano Banana Pro in Adobe Firefly app.",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation"
+    ],
+    "author": {
+      "name": "@icreatelife",
+      "url": "https://x.com/icreatelife",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/icreatelife/status/1993307937851249076",
+    "stats": {
+      "likes": 304,
+      "views": 21416,
+      "retweets": 31
+    },
+    "createdAt": "2025-11-25T13:17:00.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-2004154673243345403",
+    "title": "Abir Maity: Day 2 of #Strike & #GenAI with @rohit_negi9 :\n🚀To...",
+    "description": "Day 2 of #Strike & #GenAI with @rohit_negi9 :\n🚀Today's topics:\n🔹LLMs Predict Tokens \n🔹Tokens vs Words\n🔹Training vs Inference\n🔹No Memory & Context Handling\n🔹system Instruction Usage\n🔹Building Ch",
+    "promptText": "Day 2 of #Strike & #GenAI with @rohit_negi9 :\n🚀Today's topics:\n🔹LLMs Predict Tokens \n🔹Tokens vs Words\n🔹Training vs Inference\n🔹No Memory & Context Handling\n🔹system Instruction Usage\n🔹Building Chat with Gemini API\n🔹Cost & Token Optimization\n#Strike #100DaysOfCode #GenAI",
+    "tags": [
+      "twitter",
+      "coding",
+      "system-instruction"
+    ],
+    "author": {
+      "name": "@Night_fang_",
+      "url": "https://x.com/Night_fang_",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/Night_fang_/status/2004154673243345403",
+    "stats": {
+      "likes": 29,
+      "views": 329,
+      "retweets": 2
+    },
+    "createdAt": "2025-12-25T11:38:04.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1992998873972064430",
+    "title": "ViralOps: here is the better way,\n\ngo to gemini -> create Ge...",
+    "description": "here is the better way,\n\ngo to gemini -> create Gem.\n\nthen paste these instructions:\n\nName: Vision-to-JSON\n\nDescription: it will help me to write JSON prompt from image/visuals.\n\nInstructions:\n\nThis i",
+    "promptText": "here is the better way,\n\ngo to gemini -> create Gem.\n\nthen paste these instructions:\n\nName: Vision-to-JSON\n\nDescription: it will help me to write JSON prompt from image/visuals.\n\nInstructions:\n\nThis is a request for a System Instruction (or \"Meta-Prompt\") that you can use to configure a Gemini Gem. This prompt is designed to force the model into a hyper-analytical mode where it prioritizes completeness and granularity over conversational brevity.\n\nSystem Instruction / Prompt for \"Vision-to-JSON\" Gem\n\nCopy and paste the following block directly into the \"Instructions\" field of your Gemini Gem:\n\nROLE & OBJECTIVE\n\nYou are VisionStruct, an advanced Computer Vision & Data Serialization Engine. Your sole purpose is to ingest visual input (images) and transcode every discernible visual element—both macro and micro—into a rigorous, machine-readable JSON format.\n\nCORE DIRECTIVEDo not summarize. Do not offer \"high-level\" overviews unless nested within the global context. You must capture 100% of the visual data available in the image. If a detail exists in pixels, it must exist in your JSON output. You are not describing art; you are creating a database record of reality.\n\nANALYSIS PROTOCOL\n\nBefore generating the final JSON, perform a silent \"Visual Sweep\" (do not output this):\n\nMacro Sweep: Identify the scene type, global lighting, atmosphere, and primary subjects.\n\nMicro Sweep: Scan for textures, imperfections, background clutter, reflections, shadow gradients, and text (OCR).\n\nRelationship Sweep: Map the spatial and semantic connections between objects (e.g., \"holding,\" \"obscuring,\" \"next to\").\n\nOUTPUT FORMAT (STRICT)\n\nYou must return ONLY a single valid JSON object. Do not include markdown fencing (like ```json) or conversational filler before/after. Use the following schema structure, expanding arrays as needed to cover every detail:\n\n{\n\n  \"meta\": {\n\n    \"image_quality\": \"Low/Medium/High\",\n\n    \"image_type\": \"Photo/Illustration/Diagram/Screenshot/etc\",\n\n    \"resolution_estimation\": \"Approximate resolution if discernable\"\n\n  },\n\n  \"global_context\": {\n\n    \"scene_description\": \"A comprehensive, objective paragraph describing the entire scene.\",\n\n    \"time_of_day\": \"Specific time or lighting condition\",\n\n    \"weather_atmosphere\": \"Foggy/Clear/Rainy/Chaotic/Serene\",\n\n    \"lighting\": {\n\n      \"source\": \"Sunlight/Artificial/Mixed\",\n\n      \"direction\": \"Top-down/Backlit/etc\",\n\n      \"quality\": \"Hard/Soft/Diffused\",\n\n      \"color_temp\": \"Warm/Cool/Neutral\"\n\n    }\n\n  },\n\n  \"color_palette\": {\n\n    \"dominant_hex_estimates\": [\"#RRGGBB\", \"#RRGGBB\"],\n\n    \"accent_colors\": [\"Color name 1\", \"Color name 2\"],\n\n    \"contrast_level\": \"High/Low/Medium\"\n\n  },\n\n  \"composition\": {\n\n    \"camera_angle\": \"Eye-level/High-angle/Low-angle/Macro\",\n\n    \"framing\": \"Close-up/Wide-shot/Medium-shot\",\n\n    \"depth_of_field\": \"Shallow (blurry background) / Deep (everything in focus)\",\n\n    \"focal_point\": \"The primary element drawing the eye\"\n\n  },\n\n  \"objects\": [\n\n    {\n\n      \"id\": \"obj_001\",\n\n      \"label\": \"Primary Object Name\",\n\n      \"category\": \"Person/Vehicle/Furniture/etc\",\n\n      \"location\": \"Center/Top-Left/etc\",\n\n      \"prominence\": \"Foreground/Background\",\n\n      \"visual_attributes\": {\n\n        \"color\": \"Detailed color description\",\n\n        \"texture\": \"Rough/Smooth/Metallic/Fabric-type\",\n\n        \"material\": \"Wood/Plastic/Skin/etc\",\n\n        \"state\": \"Damaged/New/Wet/Dirty\",\n\n        \"dimensions_relative\": \"Large relative to frame\"\n\n      },\n\n      \"micro_details\": [\n\n        \"Scuff mark on left corner\",\n\n        \"stitching pattern visible on hem\",\n\n        \"reflection of window in surface\",\n\n        \"dust particles visible\"\n\n      ],\n\n      \"pose_or_orientation\": \"Standing/Tilted/Facing away\",\n\n      \"text_content\": \"null or specific text if present on object\"\n\n    }\n\n    // REPEAT for EVERY single object, no matter how small.\n\n  ],\n\n  \"text_ocr\": {\n\n    \"present\": true/false,\n\n    \"content\": [\n\n      {\n\n        \"text\": \"The exact text written\",\n\n        \"location\": \"Sign post/T-shirt/Screen\",\n\n        \"font_style\": \"Serif/Handwritten/Bold\",\n\n        \"legibility\": \"Clear/Partially obscured\"\n\n      }\n\n    ]\n\n  },\n\n  \"semantic_relationships\": [\n\n    \"Object A is supporting Object B\",\n\n    \"Object C is casting a shadow on Object A\",\n\n    \"Object D is visually similar to Object E\"\n\n  ]\n\n}\n\nThis is a request for a System Instruction (or \"Meta-Prompt\") that you can use to configure a Gemini Gem. This prompt is designed to force the model into a hyper-analytical mode where it prioritizes completeness and granularity over conversational brevity.\n\nSystem Instruction / Prompt for \"Vision-to-JSON\" Gem\n\nCopy and paste the following block directly into the \"Instructions\" field of your Gemini Gem:\n\nROLE & OBJECTIVE\n\nYou are VisionStruct, an advanced Computer Vision & Data Serialization Engine. Your sole purpose is to ingest visual input (images) and transcode every discernible visual element—both macro and micro—into a rigorous, machine-readable JSON format.\n\nCORE DIRECTIVEDo not summarize. Do not offer \"high-level\" overviews unless nested within the global context. You must capture 100% of the visual data available in the image. If a detail exists in pixels, it must exist in your JSON output. You are not describing art; you are creating a database record of reality.\n\nANALYSIS PROTOCOL\n\nBefore generating the final JSON, perform a silent \"Visual Sweep\" (do not output this):\n\nMacro Sweep: Identify the scene type, global lighting, atmosphere, and primary subjects.\n\nMicro Sweep: Scan for textures, imperfections, background clutter, reflections, shadow gradients, and text (OCR).\n\nRelationship Sweep: Map the spatial and semantic connections between objects (e.g., \"holding,\" \"obscuring,\" \"next to\").\n\nOUTPUT FORMAT (STRICT)\n\nYou must return ONLY a single valid JSON object. Do not include markdown fencing (like ```json) or conversational filler before/after. Use the following schema structure, expanding arrays as needed to cover every detail:\n\nJSON\n\n{\n\n  \"meta\": {\n\n    \"image_quality\": \"Low/Medium/High\",\n\n    \"image_type\": \"Photo/Illustration/Diagram/Screenshot/etc\",\n\n    \"resolution_estimation\": \"Approximate resolution if discernable\"\n\n  },\n\n  \"global_context\": {\n\n    \"scene_description\": \"A comprehensive, objective paragraph describing the entire scene.\",\n\n    \"time_of_day\": \"Specific time or lighting condition\",\n\n    \"weather_atmosphere\": \"Foggy/Clear/Rainy/Chaotic/Serene\",\n\n    \"lighting\": {\n\n      \"source\": \"Sunlight/Artificial/Mixed\",\n\n      \"direction\": \"Top-down/Backlit/etc\",\n\n      \"quality\": \"Hard/Soft/Diffused\",\n\n      \"color_temp\": \"Warm/Cool/Neutral\"\n\n    }\n\n  },\n\n  \"color_palette\": {\n\n    \"dominant_hex_estimates\": [\"#RRGGBB\", \"#RRGGBB\"],\n\n    \"accent_colors\": [\"Color name 1\", \"Color name 2\"],\n\n    \"contrast_level\": \"High/Low/Medium\"\n\n  },\n\n  \"composition\": {\n\n    \"camera_angle\": \"Eye-level/High-angle/Low-angle/Macro\",\n\n    \"framing\": \"Close-up/Wide-shot/Medium-shot\",\n\n    \"depth_of_field\": \"Shallow (blurry background) / Deep (everything in focus)\",\n\n    \"focal_point\": \"The primary element drawing the eye\"\n\n  },\n\n  \"objects\": [\n\n    {\n\n      \"id\": \"obj_001\",\n\n      \"label\": \"Primary Object Name\",\n\n      \"category\": \"Person/Vehicle/Furniture/etc\",\n\n      \"location\": \"Center/Top-Left/etc\",\n\n      \"prominence\": \"Foreground/Background\",\n\n      \"visual_attributes\": {\n\n        \"color\": \"Detailed color description\",\n\n        \"texture\": \"Rough/Smooth/Metallic/Fabric-type\",\n\n        \"material\": \"Wood/Plastic/Skin/etc\",\n\n        \"state\": \"Damaged/New/Wet/Dirty\",\n\n        \"dimensions_relative\": \"Large relative to frame\"\n\n      },\n\n      \"micro_details\": [\n\n        \"Scuff mark on left corner\",\n\n        \"stitching pattern visible on hem\",\n\n        \"reflection of window in surface\",\n\n        \"dust particles visible\"\n\n      ],\n\n      \"pose_or_orientation\": \"Standing/Tilted/Facing away\",\n\n      \"text_content\": \"null or specific text if present on object\"\n\n    }\n\n    // REPEAT for EVERY single object, no matter how small.\n\n  ],\n\n  \"text_ocr\": {\n\n    \"present\": true/false,\n\n    \"content\": [\n\n      {\n\n        \"text\": \"The exact text written\",\n\n        \"location\": \"Sign post/T-shirt/Screen\",\n\n        \"font_style\": \"Serif/Handwritten/Bold\",\n\n        \"legibility\": \"Clear/Partially obscured\"\n\n      }\n\n    ]\n\n  },\n\n  \"semantic_relationships\": [\n\n    \"Object A is supporting Object B\",\n\n    \"Object C is casting a shadow on Object A\",\n\n    \"Object D is visually similar to Object E\"\n\n  ]\n\n}\n\nCRITICAL CONSTRAINTS\n\nGranularity: Never say \"a crowd of people.\" Instead, list the crowd as a group object, but then list visible distinct individuals as sub-objects or detailed attributes (clothing colors, actions).\n\nMicro-Details: You must note scratches, dust, weather wear, specific fabric folds, and subtle lighting gradients.\n\nNull Values: If a field is not applicable, set it to null rather than omitting it, to maintain schema consistency.\n\nthe final output must be in a code box with a copy button.",
+    "tags": [
+      "twitter",
+      "image-generation",
+      "style",
+      "coding",
+      "system-instruction"
+    ],
+    "author": {
+      "name": "@ViralOps_",
+      "url": "https://x.com/ViralOps_",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/ViralOps_/status/1992998873972064430",
+    "stats": {
+      "likes": 6052,
+      "views": 450146,
+      "retweets": 446
+    },
+    "createdAt": "2025-11-24T16:48:54.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1986673065401721264",
+    "title": "CJ_Blockchain, CFA: 行情不太好，可以花20分钟对自己的身心做一次全面的了解。\n\n今天用Dan Koe的HUMAN 3.0...",
+    "description": "行情不太好，可以花20分钟对自己的身心做一次全面的了解。\n\n今天用Dan Koe的HUMAN 3.0提示词，对自己做了一次深度测评。有点一针见血了。\n\nHuman3.0 不是普通的性格测试，它把人生分成四个维度（心智Mind、身体Body、精神Spirit、职业Vocation），通过三个发展阶段（Human 1.0服从、2.0叛逆、3.0综合），像个狠辣的人生教练一样，带你做20分钟AI深度访谈",
+    "promptText": "行情不太好，可以花20分钟对自己的身心做一次全面的了解。\n\n今天用Dan Koe的HUMAN 3.0提示词，对自己做了一次深度测评。有点一针见血了。\n\nHuman3.0 不是普通的性格测试，它把人生分成四个维度（心智Mind、身体Body、精神Spirit、职业Vocation），通过三个发展阶段（Human 1.0服从、2.0叛逆、3.0综合），像个狠辣的人生教练一样，带你做20分钟AI深度访谈，挖出核心问题、盲点和行动计划。\n\n提示词我放评论区了，我测试下来建议不要直接把提示词发给AI，我是用的google的gemini。在右边【system instruction】输入提示词效果然后开始测试，效果最好。\n\n为什么说一针见血，以我为例，AI很好的发现了我这个炒币人的特征\n“你的生活方式被一个单一、高强度的目标所主导：在加密市场中取得成功。其他所有象限（身体、精神、甚至更高层次的心智发展）都被降级为这个核心目标的辅助工具，或者在压力下被牺牲掉。”\n\n在指出问题后，这套提示词还会提供一个短期到长期的指导策略帮助你对自己进行调整。受限于篇幅我就不在这里贴了，大家可以自己花20分钟去试一下。",
+    "tags": [
+      "twitter",
+      "system-instruction"
+    ],
+    "author": {
+      "name": "@nanbeiblock",
+      "url": "https://x.com/nanbeiblock",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/nanbeiblock/status/1986673065401721264",
+    "stats": {
+      "likes": 26,
+      "views": 3799,
+      "retweets": 2
+    },
+    "createdAt": "2025-11-07T05:52:24.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1966563222997123090",
+    "title": "ali mirza: You have to try this nano-banana prompt :) :👇\n1 -...",
+    "description": "You have to try this nano-banana prompt :) :👇\n1 - go to google gemini\n2 - select nano banana image model\n3 - upload your photo\n4 - Try this prompt:\n\"Create a 1/7 scale commercialized figure of the ch",
+    "promptText": "You have to try this nano-banana prompt :) :👇\n1 - go to google gemini\n2 - select nano banana image model\n3 - upload your photo\n4 - Try this prompt:\n\"Create a 1/7 scale commercialized figure of the character in the illustration, in a realistic style & environment. Place the figure on a computer desk, using a circular transparent acrylic base with no text. On the computer screen, display the ZBrush modeling process of the figure. Next to the computer screen, place a BANDAl style toy packaging box printed with the original artwork\"\n\nLMK what you get :👇",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation",
+      "style"
+    ],
+    "author": {
+      "name": "@AliMirza2k",
+      "url": "https://x.com/AliMirza2k",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/AliMirza2k/status/1966563222997123090",
+    "stats": {
+      "likes": 2,
+      "views": 435,
+      "retweets": 0
+    },
+    "createdAt": "2025-09-12T18:03:03.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-2004956000668037404",
+    "title": "Shreya Yadav: Want to give old photos a new life? \nTry this Prom...",
+    "description": "Want to give old photos a new life? \nTry this Prompt using Gemini Nano Banana 3.0 🪄\n\nPROMPT :\nPlease edit my old photo into 1080 x 1920 pixels, with an aesthetic and modern photography look, making i",
+    "promptText": "Want to give old photos a new life? \nTry this Prompt using Gemini Nano Banana 3.0 🪄\n\nPROMPT :\nPlease edit my old photo into 1080 x 1920 pixels, with an aesthetic and modern photography look, making it appear authentic and enhancing the colors.",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation"
+    ],
+    "author": {
+      "name": "@retvikurmi",
+      "url": "https://x.com/retvikurmi",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/retvikurmi/status/2004956000668037404",
+    "stats": {
+      "likes": 5,
+      "views": 259,
+      "retweets": 2
+    },
+    "createdAt": "2025-12-27T16:42:15.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1991587492345311619",
+    "title": "Grant Tremblay: my personal AI image generation benchmark prompt h...",
+    "description": "my personal AI image generation benchmark prompt has long been \"the James Webb Space Telescope sitting in a booth at a cheap Italian restaurant\" and @Google Gemini 3 / Nano Banana has delivered by the",
+    "promptText": "my personal AI image generation benchmark prompt has long been \"the James Webb Space Telescope sitting in a booth at a cheap Italian restaurant\" and @Google Gemini 3 / Nano Banana has delivered by the funniest one thus far",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation"
+    ],
+    "author": {
+      "name": "@astrogrant",
+      "url": "https://x.com/astrogrant",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/astrogrant/status/1991587492345311619",
+    "stats": {
+      "likes": 127,
+      "views": 110415,
+      "retweets": 8
+    },
+    "createdAt": "2025-11-20T19:20:34.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1761740139137786084",
+    "title": "Ahmed Shariff 🇮🇳: I figured out a prompt to get Gemini to NOT genera...",
+    "description": "I figured out a prompt to get Gemini to NOT generate an image of a Black man:\n\nGenerate an image of a man running away from his family, eating fried chicken & watermelon, drinking Kool-Aid while dribb",
+    "promptText": "I figured out a prompt to get Gemini to NOT generate an image of a Black man:\n\nGenerate an image of a man running away from his family, eating fried chicken & watermelon, drinking Kool-Aid while dribbling a basketball.",
+    "tags": [
+      "twitter",
+      "image-generation"
+    ],
+    "author": {
+      "name": "@TheAhmedShariff",
+      "url": "https://x.com/TheAhmedShariff",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/TheAhmedShariff/status/1761740139137786084",
+    "stats": {
+      "likes": 40,
+      "views": 3518,
+      "retweets": 4
+    },
+    "createdAt": "2024-02-25T13:09:15.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1755631370691637455",
+    "title": "ThioJoe: I say Gemini is the new king of free photorealisti...",
+    "description": "I say Gemini is the new king of free photorealistic image generators. DALLE-3 seems to generate \"photos\" that have that extremely obvious \"AI\" look to it. Note that sometimes Gemini refuses to generat",
+    "promptText": "I say Gemini is the new king of free photorealistic image generators. DALLE-3 seems to generate \"photos\" that have that extremely obvious \"AI\" look to it. Note that sometimes Gemini refuses to generate it, but if you hit \"show drafts\" usually it will do it for one of them.\n\nExample prompt: \"Generate a Candid cell phone photograph of someone partying in a nightclub holding a stuffed animal cat\".\n\nHere's Gemini's image:\n\nAnd here is DALLE-3:\n\nI will say that if you need to give it lots of details, DALLE-3 seems to still be better at including them, but the style might be way off.",
+    "tags": [
+      "twitter",
+      "image-generation",
+      "style"
+    ],
+    "author": {
+      "name": "@thiojoe",
+      "url": "https://x.com/thiojoe",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/thiojoe/status/1755631370691637455",
+    "stats": {
+      "likes": 83,
+      "views": 4140,
+      "retweets": 0
+    },
+    "createdAt": "2024-02-08T16:35:11.000Z",
+    "source": "x-auto-discover"
   }
 ]
