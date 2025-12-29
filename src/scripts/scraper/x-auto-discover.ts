@@ -22,11 +22,40 @@ const SEED_FILE = path.join(DATA_DIR, 'x-seed-urls.txt');
 
 // Search queries to find Gemini prompts on Twitter
 const SEARCH_QUERIES = [
+    // Core Gemini queries
     'site:twitter.com OR site:x.com "gemini prompt"',
     'site:twitter.com OR site:x.com "nano banana" prompt',
     'site:twitter.com OR site:x.com "system instruction" gemini',
     'site:twitter.com OR site:x.com gemini "try this prompt"',
     'site:twitter.com OR site:x.com gemini image generation prompt',
+    
+    // Specific prompt formats
+    'site:twitter.com OR site:x.com "here\'s a prompt" gemini',
+    'site:twitter.com OR site:x.com "prompt:" nano banana',
+    'site:twitter.com OR site:x.com gemini "style transfer"',
+    'site:twitter.com OR site:x.com "imagen" prompt google',
+    
+    // Use cases
+    'site:twitter.com OR site:x.com gemini portrait prompt realistic',
+    'site:twitter.com OR site:x.com gemini coding assistant prompt',
+    
+    // Official Google accounts
+    'site:twitter.com from:GoogleAI prompt',
+    'site:twitter.com from:GeminiApp prompt',
+    'site:twitter.com from:GoogleDeepMind prompt',
+    'site:twitter.com from:NanoBanana prompt',
+    'site:twitter.com from:labsdotgoogle prompt',
+    'site:twitter.com from:GoogleAI imagen',
+    'site:twitter.com from:GeminiApp nano banana',
+    
+    // Known prompt sharers
+    'site:twitter.com from:justinemoore_ prompt',
+    'site:twitter.com from:MKBHD gemini',
+    'site:twitter.com from:emaborsa nano banana',
+    'site:twitter.com from:mattshumer_ prompt',
+    'site:twitter.com from:godofprompt gemini',
+    'site:twitter.com from:ThioJoe gemini',
+    'site:twitter.com from:travisdavids nano banana',
 ];
 
 interface GoogleSearchResult {
@@ -142,19 +171,39 @@ async function fetchTweet(tweetId: string): Promise<FxTweet | null> {
 function isPromptTweet(text: string): boolean {
     const lowerText = text.toLowerCase();
     
-    const hasPromptKeyword = [
+    // Strong indicators - definitely a prompt
+    const hasStrongPromptKeyword = [
         'prompt:', 'prompt -', 'here\'s a prompt', 'here is a prompt',
         'try this prompt', 'system instruction', 'gemini prompt',
-        'nano banana', '[reference image]', 'image{', '"scene":', '"subject":',
-        'generate an image', 'create an image',
+        '[reference image]', 'image{', '"scene":', '"subject":',
+        'my prompt:', 'the prompt:', 'prompt i used',
     ].some(kw => lowerText.includes(kw));
     
-    const isNews = [
-        'announcing', 'we\'re excited', 'introducing', 'now available',
-        'coming soon', 'update:', 'breaking:', 'just launched',
+    // Moderate indicators - likely a prompt
+    const hasModerateKeyword = [
+        'nano banana', 'generate an image', 'create an image',
+        'try this', 'give it a try', 'make your', 'turn your',
+        'upload your photo', 'upload a photo', 'with this',
+        'headshot', 'portrait', 'style transfer',
     ].some(kw => lowerText.includes(kw));
     
-    return hasPromptKeyword && !isNews && text.length > 50;
+    // Strong news indicators - definitely not a prompt
+    const isStrongNews = [
+        'announcing', 'we\'re excited to announce', 'introducing',
+        'just launched', 'breaking:', 'today we released',
+        'now rolling out', 'shipped this week',
+    ].some(kw => lowerText.includes(kw));
+    
+    // Weak news - might still be a prompt
+    const isWeakNews = [
+        'now available', 'coming soon', 'update:',
+    ].some(kw => lowerText.includes(kw));
+    
+    // Logic: Strong prompt keyword OR (moderate keyword and not strong news)
+    if (hasStrongPromptKeyword && !isStrongNews) return true;
+    if (hasModerateKeyword && !isStrongNews && !isWeakNews && text.length > 50) return true;
+    
+    return false;
 }
 
 // Extract tags

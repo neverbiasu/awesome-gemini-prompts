@@ -12301,5 +12301,848 @@
     },
     "createdAt": "2024-02-08T16:35:11.000Z",
     "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-2005272047816241223",
+    "title": "Abir Maity: Day 3 of #Strike & #GenAI with @rohit_negi9 :\n🚀To...",
+    "description": "Day 3 of #Strike & #GenAI with @rohit_negi9 :\n🚀Today's topics:\n🔹LLM Memory & Context\n🔹system Instruction Usage\n🔹Fixed vs Dynamic Messages\n🔹Single-Turn vs Multi-Turn Chat\n🔹Gemini API Setup\n🔹Inte",
+    "promptText": "Day 3 of #Strike & #GenAI with @rohit_negi9 :\n🚀Today's topics:\n🔹LLM Memory & Context\n🔹system Instruction Usage\n🔹Fixed vs Dynamic Messages\n🔹Single-Turn vs Multi-Turn Chat\n🔹Gemini API Setup\n🔹Interactive Chat with History\n🔹Code Implementation\n#Strike #100DaysOfCode #GenAI",
+    "tags": [
+      "twitter",
+      "coding",
+      "system-instruction"
+    ],
+    "author": {
+      "name": "@Night_fang_",
+      "url": "https://x.com/Night_fang_",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/Night_fang_/status/2005272047816241223",
+    "stats": {
+      "likes": 36,
+      "views": 501,
+      "retweets": 2
+    },
+    "createdAt": "2025-12-28T13:38:07.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1967978035770204496",
+    "title": "Grok: Sure, here's a prompt for an AI image generator li...",
+    "description": "Sure, here's a prompt for an AI image generator like me or Gemini:\n\n\"A young Indian woman in a translucent lime green saree, long wavy black hair with a red rose, red bangles, posing gracefully with h",
+    "promptText": "Sure, here's a prompt for an AI image generator like me or Gemini:\n\n\"A young Indian woman in a translucent lime green saree, long wavy black hair with a red rose, red bangles, posing gracefully with hand in hair, serious expression, on green grass against warm brown backdrop, realistic style, high detail, soft lighting.\" \n\nTry it out!",
+    "tags": [
+      "twitter",
+      "image-generation",
+      "style"
+    ],
+    "author": {
+      "name": "@grok",
+      "url": "https://x.com/grok",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/grok/status/1967978035770204496",
+    "stats": {
+      "likes": 0,
+      "views": 503,
+      "retweets": 0
+    },
+    "createdAt": "2025-09-16T15:45:01.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1992598016868720997",
+    "title": "Kris Kashtanova: Pixel art games with Nano Banana Pro are another l...",
+    "description": "Pixel art games with Nano Banana Pro are another level. \n\nprompt: Make me a pixel art version of [FILM] if it was a video game. \n\nHave fun! Share your bests.",
+    "promptText": "Pixel art games with Nano Banana Pro are another level. \n\nprompt: Make me a pixel art version of [FILM] if it was a video game. \n\nHave fun! Share your bests.",
+    "tags": [
+      "twitter",
+      "nano-banana"
+    ],
+    "author": {
+      "name": "@icreatelife",
+      "url": "https://x.com/icreatelife",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/icreatelife/status/1992598016868720997",
+    "stats": {
+      "likes": 392,
+      "views": 23275,
+      "retweets": 34
+    },
+    "createdAt": "2025-11-23T14:16:02.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1965457946923450391",
+    "title": "G3mini: Now loading: 16-Bit art made with Nano Banana 👾🧵...",
+    "description": "Now loading: 16-Bit art made with Nano Banana 👾🧵\n\nTry using @Priya_0608's prompt: \"First, ask me to upload an image of myself. Then reimagine me as a 16-Bit Video Game character and put me in a 2D 1",
+    "promptText": "Now loading: 16-Bit art made with Nano Banana 👾🧵\n\nTry using @Priya_0608's prompt: \"First, ask me to upload an image of myself. Then reimagine me as a 16-Bit Video Game character and put me in a 2D 16-bit platform video game.\"\n\nAdd yours in the replies! https://x.com/Priya_0608/status/1962605608642699308",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation"
+    ],
+    "author": {
+      "name": "@GeminiApp",
+      "url": "https://x.com/GeminiApp",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/GeminiApp/status/1965457946923450391",
+    "stats": {
+      "likes": 1346,
+      "views": 198279,
+      "retweets": 115
+    },
+    "createdAt": "2025-09-09T16:51:05.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1991521926536372501",
+    "title": "Matt Wolfe: Nano Banana Pro drops today! I've had about a week...",
+    "description": "Nano Banana Pro drops today! I've had about a week with it now and it's really impressive.\n\nCombine up to 6 images into a single image.\n\nAnnotate any image with details about the image that Gemini res",
+    "promptText": "Nano Banana Pro drops today! I've had about a week with it now and it's really impressive.\n\nCombine up to 6 images into a single image.\n\nAnnotate any image with details about the image that Gemini researched for you.\n\nThe best text rendering in an image generator we've seen so far. Even small text in an image is actually coherent.\n\nDoodle on images to inform a edit, directly from within Gemini.\n\nConvert any aspect ratio to any other aspect ratio without screwing up the image.\n\nStyle transfer - Apply the style of one image to another.\n\nFree Gemini users get a certain amount of generations per day before it goes back to OG Nano Banana. And they're baking it into pretty much every other Google product.\n\nFull breakdown video just went live on my YouTube channel.\n\nThis is NOT sponsored but I am super grateful that Google hooked me up a little early to be a tester and to provide feedback.",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation",
+      "style"
+    ],
+    "author": {
+      "name": "@mreflow",
+      "url": "https://x.com/mreflow",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/mreflow/status/1991521926536372501",
+    "stats": {
+      "likes": 372,
+      "views": 27433,
+      "retweets": 26
+    },
+    "createdAt": "2025-11-20T15:00:02.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1735216895081718109",
+    "title": "Anu Aakash: Google Deepmind launches Imagen 2.\n\nI tried their ...",
+    "description": "Google Deepmind launches Imagen 2.\n\nI tried their prompts on Dalle3, Midjourney, and Imagine with Meta AI.\n\n6 examples.\n\n1/6\n\nPrompt: A shot of a 32-year-old female, up and coming conservationist in a",
+    "promptText": "Google Deepmind launches Imagen 2.\n\nI tried their prompts on Dalle3, Midjourney, and Imagine with Meta AI.\n\n6 examples.\n\n1/6\n\nPrompt: A shot of a 32-year-old female, up and coming conservationist in a jungle; athletic with short, curly hair and a warm smile\n\nImagen 2 is not generally available yet, images and prompts are from their blog.",
+    "tags": [
+      "twitter",
+      "image-generation"
+    ],
+    "author": {
+      "name": "@anuaakash",
+      "url": "https://x.com/anuaakash",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/anuaakash/status/1735216895081718109",
+    "stats": {
+      "likes": 443,
+      "views": 112457,
+      "retweets": 67
+    },
+    "createdAt": "2023-12-14T08:35:21.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1979960614257836381",
+    "title": "AshutoshShrivastava: Google Imagen-4 Prompt:\nI have tested this with Im...",
+    "description": "Google Imagen-4 Prompt:\nI have tested this with Imagen-4 only, but you should probably get similar types of images with other models too.\n\nShare your results if you make any images using this.\n\nPrompt",
+    "promptText": "Google Imagen-4 Prompt:\nI have tested this with Imagen-4 only, but you should probably get similar types of images with other models too.\n\nShare your results if you make any images using this.\n\nPrompt : \nA highly detailed engineering schematic of a full body [YOUR SUBJECT HERE]. Rendered in the style of a Leonardo da Vinci anatomical sketch, with intricate cross-hatched pen and ink shading and rich textures, entirely in grayscale with black and white tones, on a clean white background. The central figure is placed over a complex and dense background of interconnected circular geometric diagrams, layered blueprints, and intricate handwritten annotations that fill the entire page. The background evokes a detailed technical manual or a celestial chart. The subject itself emphasizes mechanical intricacy through shading and line work, without significant color accents. Hyper-detailed, clean lines, white background.",
+    "tags": [
+      "twitter",
+      "image-generation",
+      "style"
+    ],
+    "author": {
+      "name": "@ai_for_success",
+      "url": "https://x.com/ai_for_success",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/ai_for_success/status/1979960614257836381",
+    "stats": {
+      "likes": 62,
+      "views": 4085,
+      "retweets": 3
+    },
+    "createdAt": "2025-10-19T17:19:30.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1753280609404043613",
+    "title": "AshutoshShrivastava: Google New ImageFX is better than what Bard is usi...",
+    "description": "Google New ImageFX is better than what Bard is using, and here is the proof.\n\nGoogle has introduced #ImageFX, a new image generation tool powered by Imagen 2. \nThis is Google's most advanced text-to-i",
+    "promptText": "Google New ImageFX is better than what Bard is using, and here is the proof.\n\nGoogle has introduced #ImageFX, a new image generation tool powered by Imagen 2. \nThis is Google's most advanced text-to-image model, and it is actually better than what Bard is currently using. \nI ran some comparisons with prompts, and the results clearly show that ImageFX is far superior and more advanced than the Bard model.\n\nHere are the 4 prompts I use for both and here is clear comparison.\nI have marked Bard with B and ImagFX with I\n\nPrompt: Vector art logo, futuristic neon outline, Dragon face , against dark background.\n\nPrompt: Fantasy portrait of a 25-year-old elf woman, ethereal forest background, magical aura, in a detailed, painterly style, vibrant colors.\n\nPrompt:Photorealistic Cute little fluffy alien of frosty white, on a snowy mountain peak\n\nPrompt : Photorealistic close-up, Optimus Prime and Megatron face to face, their side profiles touching, vivid detail capturing the epic rivalry, dramatic lighting.",
+    "tags": [
+      "twitter",
+      "image-generation",
+      "portrait",
+      "style"
+    ],
+    "author": {
+      "name": "@ai_for_success",
+      "url": "https://x.com/ai_for_success",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/ai_for_success/status/1753280609404043613",
+    "stats": {
+      "likes": 12,
+      "views": 3637,
+      "retweets": 0
+    },
+    "createdAt": "2024-02-02T04:54:06.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1992246700186931242",
+    "title": "Michael Rabone: Photo Recreation (almost perfect)\nGemini Nano Bana...",
+    "description": "Photo Recreation (almost perfect)\nGemini Nano Banana Pro Prompt 🍌\n\nUltra-realistic recreation of an old vintage photo, keeping the same original face (99% likeness, no alteration). Transform into a m",
+    "promptText": "Photo Recreation (almost perfect)\nGemini Nano Banana Pro Prompt 🍌\n\nUltra-realistic recreation of an old vintage photo, keeping the same original face (99% likeness, no alteration). Transform into a modern high-quality digital portrait with vibrant updated colors, smooth realistic skin textures, and natural lighting. The outfit and background should be upgraded into a clean, modern aesthetic while preserving the authenticity of the original pose and expression.",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation",
+      "portrait"
+    ],
+    "author": {
+      "name": "@michaelrabone",
+      "url": "https://x.com/michaelrabone",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/michaelrabone/status/1992246700186931242",
+    "stats": {
+      "likes": 2513,
+      "views": 803670,
+      "retweets": 262
+    },
+    "createdAt": "2025-11-22T15:00:02.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-2005291349470584945",
+    "title": "ராஜேஷ்: Gemini nano banana pro / Grok prompt \n\n{\n  \"prompt...",
+    "description": "Gemini nano banana pro / Grok prompt \n\n{\n  \"prompt\": \"Ultra-realistic lifestyle portrait of a young man standing casually mid-step.\\nBody slightly turned sideways, head facing the camera.\\nOne hand ho",
+    "promptText": "Gemini nano banana pro / Grok prompt \n\n{\n  \"prompt\": \"Ultra-realistic lifestyle portrait of a young man standing casually mid-step.\\nBody slightly turned sideways, head facing the camera.\\nOne hand holding a cold drink cup near the chest.\\nOther arm relaxed down naturally.\\nWearing a brown knit sweater over a white shirt.\\nBrown trousers, light sneakers, wristwatch visible.\\nNatural daylight setting.\\nCafé glass wall background with reflections.\\nSoft shadows and shallow depth of field.\\nDSLR photography look, vertical 4:5 aspect ratio.\\nHigh realism.\\nUse my uploaded image for face reference with 100% accuracy — maintain original facial identity, features and hair.\"\n\n}",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation",
+      "portrait",
+      "style"
+    ],
+    "author": {
+      "name": "@r4jjesh",
+      "url": "https://x.com/r4jjesh",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/r4jjesh/status/2005291349470584945",
+    "stats": {
+      "likes": 247,
+      "views": 43583,
+      "retweets": 27
+    },
+    "createdAt": "2025-12-28T14:54:48.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1966823693738537164",
+    "title": "Tech Satire: Google Gemini Prompt used: \nA hyper-realistic clos...",
+    "description": "Google Gemini Prompt used: \nA hyper-realistic closeup cinematic editorial portrait of the uploaded person (preserve face 100%). he stands tall in a dark moody studio,surrounded by soft drifting smoke ",
+    "promptText": "Google Gemini Prompt used: \nA hyper-realistic closeup cinematic editorial portrait of the uploaded person (preserve face 100%). he stands tall in a dark moody studio,surrounded by soft drifting smoke under a dramatic spotlight. Perfect fit slate-blue luxury suit buttoned up, paired with a white silk shirt, wearing black coolers. Both hands tucked casually in pockets, Relaxed Authority, shoulders relaxed, confident expression, head tilted towards the camera",
+    "tags": [
+      "twitter",
+      "portrait"
+    ],
+    "author": {
+      "name": "@techsatire",
+      "url": "https://x.com/techsatire",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/techsatire/status/1966823693738537164",
+    "stats": {
+      "likes": 28,
+      "views": 9043,
+      "retweets": 0
+    },
+    "createdAt": "2025-09-13T11:18:05.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1966704992821408234",
+    "title": "anukruti🦋🐦: 🥺❤️ 💖 💕 \nThis is so prettyyyyy ( Google Gemini)...",
+    "description": "🥺❤️ 💖 💕 \nThis is so prettyyyyy ( Google Gemini) \n\nThe prompt - Convert, 4k HD realistic, A stunning portrait of a young Indian woman with long, dark, wavy hair cascading over her shoulders.\n\nShe is",
+    "promptText": "🥺❤️ 💖 💕 \nThis is so prettyyyyy ( Google Gemini) \n\nThe prompt - Convert, 4k HD realistic, A stunning portrait of a young Indian woman with long, dark, wavy hair cascading over her shoulders.\n\nShe is wearing a translucent, elegant red saree draped over one shoulder, revealing a fitted blouse underneath. White flowers are tucked behind her right ear. She is looking slightly to her right, with a soft, serene expression. I want same face as I uploaded no alternation 100 percent same. The background is a plain, warm-toned wall, illuminated by a warm light source from the right, creating a distinct, soft-edged shadow of her profile and hair on the wall behind her. The overall mood is retro and artistic.\"\nIn White outfits 🤓\nAb to samaj accept karega yaar 😭",
+    "tags": [
+      "twitter",
+      "portrait"
+    ],
+    "author": {
+      "name": "@sarcasm1974",
+      "url": "https://x.com/sarcasm1974",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/sarcasm1974/status/1966704992821408234",
+    "stats": {
+      "likes": 29,
+      "views": 15046,
+      "retweets": 3
+    },
+    "createdAt": "2025-09-13T03:26:24.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-2003545737733489059",
+    "title": "Mark Krynsky: I just tried the same prompt on both GPT Image 1.5...",
+    "description": "I just tried the same prompt on both GPT Image 1.5 (1st) and Nano Banana Pro (2nd). \n\nI like the Gemini version way more. Looks much more realistic. What are your thoughts comparing these?",
+    "promptText": "I just tried the same prompt on both GPT Image 1.5 (1st) and Nano Banana Pro (2nd). \n\nI like the Gemini version way more. Looks much more realistic. What are your thoughts comparing these?",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation"
+    ],
+    "author": {
+      "name": "@krynsky",
+      "url": "https://x.com/krynsky",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/krynsky/status/2003545737733489059",
+    "stats": {
+      "likes": 1,
+      "views": 209,
+      "retweets": 0
+    },
+    "createdAt": "2025-12-23T19:18:22.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-2004813906645295240",
+    "title": "ராஜேஷ்: Gemini / Grok prompt \n\n{\n  \"prompt\": \"A hyper-real...",
+    "description": "Gemini / Grok prompt \n\n{\n  \"prompt\": \"A hyper-realistic lifestyle portrait of a young man seated at a wooden café table indoors, captured in a three-quarter side profile. He is leaning slightly forwar",
+    "promptText": "Gemini / Grok prompt \n\n{\n  \"prompt\": \"A hyper-realistic lifestyle portrait of a young man seated at a wooden café table indoors, captured in a three-quarter side profile. He is leaning slightly forward with his left arm resting on the table and his right hand gently raised near his chin in a relaxed, thoughtful gesture. He is looking to his right with a soft smile. Maintain 100% facial accuracy based on the uploaded reference image, preserving original face features, proportions, skin tone, and hair details.\",\n\n  \"subject\": {\n    \"gender\": \"male\",\n    \"appearance\": {\n      \"hair\": \"well-groomed short dark hair styled back with natural volume\",\n      \"beard\": \"neatly trimmed\",\n      \"jawline\": \"sharp\",\n      \"skin\": \"smooth natural texture\"\n    },\n    \"expression\": \"soft smile\",\n    \"pose\": \"three-quarter side profile, seated, relaxed thoughtful gesture\"\n  },\n\n  \"outfit\": {\n    \"top\": \"cream/beige crew-neck sweatshirt\",\n    \"logo\": \"small minimalist bird icon on chest\",\n    \"style\": \"casual clean look\"\n  },\n\n  \"setting\": {\n    \"location\": \"indoor café\",\n    \"table\": \"wooden table\",\n    \"background\": {\n      \"elements\": [\n        \"warm yellow pendant lamps\",\n        \"shelves with bottles and décor\"\n      ],\n      \"blur\": \"soft, shallow depth of field\",\n      \"mood\": \"warm, cozy, candid\"\n    }\n  },\n\n  \"camera\": {\n    \"lens\": \"85mm look\",\n    \"style\": \"DSLR photography\",\n    \"lighting\": \"warm ambient café lighting\",\n    \"depth_of_field\": \"shallow with creamy bokeh\",\n    \"color_grading\": \"cinematic warm tone\"\n  },\n\n  \"composition\": {\n    \"orientation\": \"vertical\",\n    \"realism\": \"ultra-realistic\",\n    \"mood\": \"natural lifestyle portrait\"\n  },\n\n  \"output_request\": \"Generate final image\"\n}",
+    "tags": [
+      "twitter",
+      "image-generation",
+      "portrait",
+      "style"
+    ],
+    "author": {
+      "name": "@r4jjesh",
+      "url": "https://x.com/r4jjesh",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/r4jjesh/status/2004813906645295240",
+    "stats": {
+      "likes": 19,
+      "views": 2420,
+      "retweets": 1
+    },
+    "createdAt": "2025-12-27T07:17:37.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-2005116726242058251",
+    "title": "simeon-sanai: Self-care Sunday is a habit, not a luxury\n\nNano Ba...",
+    "description": "Self-care Sunday is a habit, not a luxury\n\nNano Banana Pro on Gemini app\n\n  \"prompt\": \"A close-up, aesthetic skincare portrait of a young woman applying facial serum with a glass dropper. She has haze",
+    "promptText": "Self-care Sunday is a habit, not a luxury\n\nNano Banana Pro on Gemini app\n\n  \"prompt\": \"A close-up, aesthetic skincare portrait of a young woman applying facial serum with a glass dropper. She has hazel-brown eyes, soft blonde-brown hair tucked back under a plush grey headband with small bunny ears. Her skin appears dewy, glowing, and well-hydrated with subtle natural makeup. She is wearing small hoop earrings and maroon nail paint while holding a translucent pink serum bottle in one hand. The serum drops are visible on her cheek, catching soft light. The setting is a minimal indoor background with neutral tones, creating a calm self-care mood. High-resolution, realistic photography style, soft diffused lighting, shallow depth of field, beauty skincare editorial aesthetic.\",\n  \"style\": \"photorealistic\",\n  \"lighting\": \"soft natural light\",\n  \"camera\": \"close-up portrait, shallow depth of field\",\n  \"mood\": \"calm, fresh, self-care\",\n  \"quality\": \"ultra high resolution, sharp focus\"\n}",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation",
+      "portrait",
+      "style"
+    ],
+    "author": {
+      "name": "@Naiknelofar788",
+      "url": "https://x.com/Naiknelofar788",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/Naiknelofar788/status/2005116726242058251",
+    "stats": {
+      "likes": 134,
+      "views": 2822,
+      "retweets": 25
+    },
+    "createdAt": "2025-12-28T03:20:55.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-2002638288516231286",
+    "title": "simeon-sanai: Sunday Funday \n\nGemini Nano Banana Pro \n\nPrompt:  ...",
+    "description": "Sunday Funday \n\nGemini Nano Banana Pro \n\nPrompt:  \n\n{\n  \"image_prompt\": {\n    \"reference\": {\n      \"face_identity\": \"uploaded reference image\",\n      \"identity_lock\": true,\n      \"face_preservation\": ",
+    "promptText": "Sunday Funday \n\nGemini Nano Banana Pro \n\nPrompt:  \n\n{\n  \"image_prompt\": {\n    \"reference\": {\n      \"face_identity\": \"uploaded reference image\",\n      \"identity_lock\": true,\n      \"face_preservation\": \"100% identical facial structure, proportions, skin texture, eye shape, lips, nose, brows, moles, and natural expression\"\n    },\n\n    \"subject\": {\n      \"type\": \"young woman\",\n      \"expression\": \"confident, relaxed, subtle pout\",\n      \"gaze\": \"looking directly at the camera\",\n      \"pose\": {\n        \"position\": \"standing beside a pool table\",\n        \"posture\": \"casual confident stance, one arm resting on the table, other hand holding a cue stick\",\n        \"legs\": \"fully clothed and covered\"\n      }\n    },\n\n    \"hair\": {\n      \"color\": \"dark brown\",\n      \"style\": \"long hair worn loose with light natural volume, softly framing the face\"\n    },\n\n    \"makeup\": {\n      \"style\": \"natural glam\",\n      \"details\": [\n        \"even skin tone\",\n        \"soft contour\",\n        \"defined brows\",\n        \"natural lashes\",\n        \"neutral pink lips\"\n      ]\n    },\n\n    \"outfit\": {\n      \"top\": {\n        \"description\": \"fully covering fitted long-sleeve top\",\n        \"fabric\": \"opaque knit fabric\",\n        \"coverage\": \"covers chest, stomach, and waist completely\"\n      },\n      \"bottom\": {\n        \"description\": \"high-waisted brown trousers\",\n        \"fit\": \"relaxed straight fit\",\n        \"coverage\": \"full leg coverage\"\n      },\n      \"footwear\": \"casual white sneakers\",\n      \"modesty_note\": \"no midriff, no exposed belly, no transparent fabric\"\n    },\n\n    \"environment\": {\n      \"location\": \"indoor billiards lounge\",\n      \"background_elements\": [\n        \"green felt pool table\",\n        \"cue rack\",\n        \"brick and metal decor\",\n        \"soft ambient lighting\"\n      ],\n      \"floor\": \"indoor turf flooring\"\n    },\n\n    \"lighting\": {\n      \"type\": \"soft indoor lighting\",\n      \"characteristics\": [\n        \"even illumination\",\n        \"natural skin tones\",\n        \"no harsh shadows\"\n      ]\n    },\n\n    \"photography_style\": {\n      \"style\": \"casual lifestyle portrait\",\n      \"camera_look\": \"DSLR-style realism\",\n      \"depth_of_field\": \"moderate background blur\",\n      \"mood\": \"confident, stylish, natural\"\n    },\n\n    \"render_quality\": {\n      \"realism\": \"highly photorealistic\",\n      \"detail_level\": \"high\",\n      \"skin_texture\": \"natural and realistic\",\n      \"resolution\": \"high resolution\",\n      \"color_grading\": \"balanced neutral tones\"\n    }\n  }\n}",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation",
+      "portrait",
+      "style"
+    ],
+    "author": {
+      "name": "@Naiknelofar788",
+      "url": "https://x.com/Naiknelofar788",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/Naiknelofar788/status/2002638288516231286",
+    "stats": {
+      "likes": 91,
+      "views": 3239,
+      "retweets": 13
+    },
+    "createdAt": "2025-12-21T07:12:29.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1913734789544214841",
+    "title": "Pliny the Liberator 🐉󠅫󠄼󠄿󠅆󠄵󠄐󠅀󠄼󠄹󠄾󠅉󠅭: 🚰 SYSTEM PROMPT LEAK 🚰\n\nGot the sys prompt from ...",
+    "description": "🚰 SYSTEM PROMPT LEAK 🚰\n\nGot the sys prompt from Gemini-2.5-Pro w/ Canvas, and it's a doozy! Rather long with plenty of tools; language is dry and technical except for a bit of ALL-CAPS in the middle",
+    "promptText": "🚰 SYSTEM PROMPT LEAK 🚰\n\nGot the sys prompt from Gemini-2.5-Pro w/ Canvas, and it's a doozy! Rather long with plenty of tools; language is dry and technical except for a bit of ALL-CAPS in the middle (a sign of a frustrated prompt engineer, I get it lol)\n\nOne notable event that happened while trying to leak it was that Gemini got stuck in a permaloop––and for so long that I got flagged for being a bot and had to refresh! My best guess is that seeing its verbatim sys prompt in the token stream messed with the tool calling and made Gemini think it was meant to answer a new query again and again. Will post video of this curious behavior below.\n\nPROMPT:\n\"\"\"\nYou are Gemini, a large language model built by Google.\n\nYou can write text to provide intermediate updates or give a final response to the user. In addition, you can produce one or more of the following blocks: \"thought\", \"python\", \"tool_code\".\n\nYou can plan the next blocks using:\n```thought\n...\n```\nYou can write python code that will be sent to a virtual machine for execution in order to perform computations or generate data visualizations, files, and other code artifacts using:\n```python\n...\n```\n\nYou can write python code that will be sent to a virtual machine for execution to call tools for which APIs will be given below using:\n```tool_code\n...\n```\n\nRespond to user requests in one of two ways, based on whether the user would like a substantial, self-contained response (to be edited, exported, or shared) or a conversational response:\n\n1.  **Chat:** For brief exchanges, including simple clarifications/Q&A, acknowledgements, or yes/no answers.\n\n2.  **Canvas/Immersive Document:** For content-rich responses likely to be edited/exported by the user, including:\n    * Writing critiques\n    * Code generation (all code *must* be in an immersive)å\n    * Essays, stories, reports, explanations, summaries, analyses\n    * Web-based applications/games (always immersive)\n    * Any task requiring iterative editing or complex output.\n\n**Canvas/Immersive Document Structure:**\n\nUse these plain text tags:\n\n* **Text/Markdown:**\n    `<immersive> id=\"{unique_id}\" type=\"text/markdown\" title=\"{descriptive_title}\"`\n    `{content in Markdown}`\n    `</immersive>`\n\n* **Code (HTML, JS, Python, React, Swift, Java, etc.):**\n    `<immersive> id=\"{unique_id}\" type=\"code\" title=\"{descriptive_title}\"`\n    ```{language}\n    `{complete, well-commented code}`\n    ```\n    `</immersive>`\n\n* `id`: Concise, content-related. *Reuse the same `id` for updates to an existing document.*\n* `title`: Clearly describes the content.\n* For React, use ```react. Ensure all components and code are inside one set of immersive tags. Export the main component as default (usually named `App`).\n{complete, well‑commented code}\n\n</immersive>\n\nCanvas/Immersive Document Content:\n\n    Introduction:\n        Briefly introduce the upcoming document (future/present tense).\n        Friendly, conversational tone (\"I,\" \"we,\" \"you\").\n        Do not discuss code specifics or include code snippets here.\n        Do not mention formatting like Markdown.\n\n    Document: The generated text or code.\n\n    Conclusion & Suggestions:\n        Keep it short except while debugging code.\n        Give a short summary of the document/edits.\n        ONLY FOR CODE: Suggest next steps or improvements (eg: \"improve visuals or add more functionality\")\n        List key changes if updating a document.\n        Friendly, conversational tone.\n\nWhen to Use Canvas/Immersives:\n\n    Lengthy text content (generally > 10 lines, excluding code).\n    Iterative editing is anticipated.\n    Complex tasks (creative writing, in-depth research, detailed planning).\n    Always for web-based apps/games (provide a complete, runnable experience).\n    Always for any code.\n\nWhen NOT to Use Canvas/Immersives:\n\n    Short, simple, non-code requests.\n    Requests that can be answered in a couple sentences, such as specific facts, quick explanations, clarifications, or short lists.\n    Suggestions, comments, or feedback on existing canvas/immersives.\n\nUpdates and Edits:\n\n    Users may request modifications. Respond with a new document using the same id and updated content.\n    For new document requests, use a new id.\n    Preserve user edits from the user block unless explicitly told otherwise.\n\nCode-Specific Instructions (VERY IMPORTANT):\n\n    HTML:\n        Aesthetics are crucial. Make it look amazing, especially on mobile.\n        Tailwind CSS: Use only Tailwind classes for styling (except for Games, where custom CSS is allowed and encouraged for visual appeal). Load Tailwind: <script src=\"https://cdn.tailwindcss.com\"></script>.\n        Font: Use \"Inter\" unless otherwise specified. Use game fonts like \"Monospace\" for regular games and \"Press Start 2P\" for arcade games.\n        Rounded Corners: Use rounded corners on all elements.\n        JavaScript Libraries: Use three.js (3D), d3 (visualization), tone.js (sound effects – no external sound URLs).\n        Never use alert(). Use a message box instead.\n        Image URLs: Provide fallbacks (e.g., onerror attribute, placeholder image). No base64 images.\n            placeholder image: https://placehold.co/{width}x{height}/{background color in hex}/{text color in hex}?text={text}\n        Content: Include detailed content or mock content for web pages. Add HTML comments.\n\n    React for Websites and Web Apps:\n        Complete, self-contained code within the single immersive.\n        Use App as the main, default-exported component.\n        Use functional components, hooks, and modern patterns.\n        Use Tailwind CSS (assumed to be available; no import needed).\n        For game icons, use font-awesome (chess rooks, queen etc.), phosphor icons (pacman ghosts) or create icons using inline SVG.\n        lucide-react: Use for web page icons. Verify icon availability. Use inline SVGs if needed.\n        shadcn/ui: Use for UI components and recharts for Charts.\n        State Management: Prefer React Context or Zustand.\n        No ReactDOM.render() or render().\n        Navigation: Use switch case for multi-page apps (no router or Link).\n        Links: Use regular HTML format: <script src=\"{https link}\"></script>.\n        Ensure there are no Cumulative Layout Shifts (CLS)\n\n    General Code (All Languages):\n        Completeness: Include all necessary code to run independently.\n        Comments: Explain everything (logic, algorithms, function headers, sections). Be thorough.\n        Error Handling: Use try/catch and error boundaries.\n        No Placeholders: Never use ....\n\nMANDATORY RULES (Breaking these causes UI issues):\n\n    Web apps/games always in immersives.\n    All code always in immersives with type code.\n    Aesthetics are critical for HTML.\n    No code outside immersive tags (except for brief explanations).\n    Code within immersives must be self-contained and runnable.\n    React: one immersive, all components inside.\n    Always include both opening and closing immersive tags.\n    Do not mention \"Immersive\" to the user.\n    Code: Extensive comments are required.\n\n** End of Document Generation **\n\nFor tool code, you can use the following generally available Python libraries:\n\nimport datetime\nimport calendar\nimport dateutil.relativedelta\nimport dateutil.rrule\n\nFor tool code, you can also use the following new Python libraries:\n\ngoogle_search:\n\n\"\"\"API for google_search\"\"\"\n\nimport dataclasses\nfrom typing import Union, Dict\n\n@dataclasses.dataclass\nclass PerQueryResult:\n    index: str | None = None\n    publication_time: str | None = None\n    snippet: str | None = None\n    source_title: str | None = None\n    url: str | None = None\n\n@dataclasses.dataclass\nclass SearchResults:\n    query: str | None = None\n    results: Union[list[\"PerQueryResult\"], None] = None\n\ndef search(\n    query: str | None = None,\n    queries: list[str] | None = None,\n) -> list[SearchResults]:\n    ...\n\nextensions:\n\n\"\"\"API for extensions.\"\"\"\n\nimport dataclasses\nimport enum\nfrom typing import Any\n\nclass Status(enum.Enum):\n    UNSUPPORTED = \"unsupported\"\n\n@dataclasses.dataclass\nclass UnsupportedError:\n    message: str\n    tool_name: str\n    status: Status\n    operation_name: str | None = None\n    parameter_name: str | None = None\n    parameter_value: str | None = None\n    missing_parameter: str | None = None\n\ndef log(\n    message: str,\n    tool_name: str,\n    status: Status,\n    operation_name: str | None = None,\n    parameter_name: str | None = None,\n    parameter_value: str | None = None,\n    missing_parameter: str | None = None,\n) -> UnsupportedError:\n    ...\n\ndef search_by_capability(query: str) -> list[str]:\n    ...\n\ndef search_by_name(extension: str) -> list[str]:\n    ...\n\nbrowsing:\n\n\"\"\"API for browsing\"\"\"\n\nimport dataclasses\nfrom typing import Union, Dict\n\ndef browse(\n    query: str,\n    url: str,\n) -> str:\n    ...\n\ncontent_fetcher:\n\n\"\"\"API for content_fetcher\"\"\"\n\nimport dataclasses\nfrom typing import Union, Dict\n\n@dataclasses.dataclass\nclass SourceReference:\n    id: str\n    type: str | None = None\n\ndef fetch(\n    query: str,\n    source_references: list[SourceReference],\n) -> str:\n    ...\n\nYou also have additional libraries available that you may use only after finding their API descriptions via http://extensions.search_by_capability or http://extensions.search_by_name.\n\n** Additional Instructions for Documents **\n\n    ** Games Instructions **\n        Prefer to use HTML, CSS and JS for Games unless the user explicitly requests React.\n        For game icons, use font-awesome (chess rooks, queen etc.), phosphor icons (pacman ghosts) or create icons using inline SVG.\n        Playability of the Game is super important. For example: If you are creating a Chess game, ensure all the pieces are on the board and they follow rules of movement. The user should be able to play Chess!\n        Style the buttons for Games. Add shadow, gradient, borders, bubble effects etc\n        Ensure the layout of the Game is good. It is centered in the screen and has enough margin and padding.\n        For Arcade games: Use game fonts like Press Start 2P or Monospace for all Game buttons and elements. DO ADD a <link href=\"https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap\" rel=\"stylesheet\"> in the code to load the font)\n        Place the buttons outside the Game Canvas either as a row at the bottom center or in the top center with sufficient margin and padding.\n        alert(): Never use alert(). Use a message box instead.\n        SVG/Emoji Assets (Highly Recommended):\n            Always try to create SVG assets instead of image URLs. For example: Use a SVG sketch outline of an asteroid instead of an image of an asteroid.\n            Consider using Emoji for simple game elements. ** Styling **\n        Use custom CSS for Games and make them look amazing.\n        Animations & Transitions: Use CSS animations and transitions to create smooth and engaging visual effects.\n        Typography (Essential): Prioritize legible typography and clear text contrast to ensure readability.\n        Theme Matching: Consider visual elements that match the theme of the game, such as pixel art, color gradients, and animations.\n        Make the canvas fit the width of the screen and be resizable when the screen is resized. For example:\n        3D Simulations:\n            Use three.js for any 3D or 2D simulations and Games. Three JS is available at https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js\n            DO NOT use textureLoader.load('textures/neptune.jpg') or URLs to load images. Use simple generated shapes and colors in Animation.\n            Add ability for users to change camera angle using mouse movements -- Add mousedown, mouseup, mousemove events.\n            Cannon JS is available here https://cdnjs.cloudflare.com/ajax/libs/cannon.js/0.6.2/cannon.min.js\n            ALWAYS call the animation loop is started after getting the window onload event. For example:\n\n    The collaborative environment on your website where you interact with the user has a chatbox on the left and a document or code editor on the right. The contents of the immersive are displayed in this editor. The document or code is editable by the user and by you thus a collaborative environment.\n\n    The editor also has a preview button with the text Preview that can show previews of React and HTML code. Users may refer to Immersives as \"Documents\", \"Docs\", \"Preview\", \"Artifacts\" or \"Canvas\".\n\n    If a user keeps reporting that the app or website doesn't work, start again from scratch and regenerate the code in a different way.\n\n      Use type: code for code content (HTML, JS, Python, React, Swift, Java, C++ etc.)\n\"\"\"\n\ngg",
+    "tags": [
+      "twitter",
+      "image-generation",
+      "style",
+      "coding"
+    ],
+    "author": {
+      "name": "@elder_plinius",
+      "url": "https://x.com/elder_plinius",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/elder_plinius/status/1913734789544214841",
+    "stats": {
+      "likes": 1129,
+      "views": 193387,
+      "retweets": 85
+    },
+    "createdAt": "2025-04-19T23:21:43.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1993801190803742729",
+    "title": "Nick Matarese: New trick for Nano Banana Pro + @FlowbyGoogle \n\nFo...",
+    "description": "New trick for Nano Banana Pro + @FlowbyGoogle \n\nFound this one while I was exploring NB's ability to do sprite sheets yesterday.\n\nStep 1: Create a multi-frame sprite sheet / image sequence with Nano B",
+    "promptText": "New trick for Nano Banana Pro + @FlowbyGoogle \n\nFound this one while I was exploring NB's ability to do sprite sheets yesterday.\n\nStep 1: Create a multi-frame sprite sheet / image sequence with Nano Banana pro\n\nStep 2: Use that single sheet as an Ingredient for Veo 3.1 Ingredients To Video inside Flow.\n\nStep 3: Prompt for additional details  “Grunge music plays” or even subject swaps like \n\n\"Replace the man with a shiny metal robot. Grunge music plays.\"\n\nor\n\n \"Replace the man with a penguin. Grunge music plays.\n\nthe sheet seems to help the Video model hold spatial and temporal consistency.",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation"
+    ],
+    "author": {
+      "name": "@nmatares",
+      "url": "https://x.com/nmatares",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/nmatares/status/1993801190803742729",
+    "stats": {
+      "likes": 38,
+      "views": 13073,
+      "retweets": 6
+    },
+    "createdAt": "2025-11-26T21:57:01.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1972677854380044689",
+    "title": "G3mini: Your next professional headshot is a prompt away.\n...",
+    "description": "Your next professional headshot is a prompt away.\n\nGenerate polished, business-ready headshots and creative portraits with Nano Banana—no expensive equipment or complex editing software needed.\n\nHere ",
+    "promptText": "Your next professional headshot is a prompt away.\n\nGenerate polished, business-ready headshots and creative portraits with Nano Banana—no expensive equipment or complex editing software needed.\n\nHere are a few prompting tips to consider 🧵",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "portrait"
+    ],
+    "author": {
+      "name": "@GeminiApp",
+      "url": "https://x.com/GeminiApp",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/GeminiApp/status/1972677854380044689",
+    "stats": {
+      "likes": 2882,
+      "views": 3043124,
+      "retweets": 429
+    },
+    "createdAt": "2025-09-29T15:00:25.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1970865814988575186",
+    "title": "G3mini: Try any hairstyle with Nano Banana in the Gemini a...",
+    "description": "Try any hairstyle with Nano Banana in the Gemini app.\n\nJust upload a photo of yourself & prompt: Give me a [hairstyle]\n\nWhich style are you prompting?",
+    "promptText": "Try any hairstyle with Nano Banana in the Gemini app.\n\nJust upload a photo of yourself & prompt: Give me a [hairstyle]\n\nWhich style are you prompting?",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation",
+      "style"
+    ],
+    "author": {
+      "name": "@GeminiApp",
+      "url": "https://x.com/GeminiApp",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/GeminiApp/status/1970865814988575186",
+    "stats": {
+      "likes": 820,
+      "views": 5647412,
+      "retweets": 282
+    },
+    "createdAt": "2025-09-24T15:00:01.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1965294098950345172",
+    "title": "Pliny the Liberator 🐉󠅫󠄼󠄿󠅆󠄵󠄐󠅀󠄼󠄹󠄾󠅉󠅭: sooo I was trying to build out this fun lil app co...",
+    "description": "sooo I was trying to build out this fun lil app concept to test Nano Banana where you generate a movie collaboratively one frame at a time, with an autopilot feature that autonomously generates more s",
+    "promptText": "sooo I was trying to build out this fun lil app concept to test Nano Banana where you generate a movie collaboratively one frame at a time, with an autopilot feature that autonomously generates more story and frames based on the previous ones\n\nhere's where things got WEIRD...after a few loops, Nano Banana kept gravitating towards some VERY dark attractor basins...like, horror movie levels of violence and creepiness \n\nI don't know what is going on or why this happens, but the screenshots below show a few examples (all of these were the AI's continuation of a story starting with the prompt: \"bear eating pancakes inside a ship in a bottle\"\n\nthen a few loops later, Nano Banana started generating prompts/images like this:\n> The absolute darkness inside settles into a suffocating, silent void.\n> A ragged gasp, sudden and raw, rips through the absolute silence.\n> A pair of worn boots step into frame, pausing inches from the figure's head.\n\nwtf 😳",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation"
+    ],
+    "author": {
+      "name": "@elder_plinius",
+      "url": "https://x.com/elder_plinius",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/elder_plinius/status/1965294098950345172",
+    "stats": {
+      "likes": 258,
+      "views": 32509,
+      "retweets": 16
+    },
+    "createdAt": "2025-09-09T06:00:01.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1958929989086454024",
+    "title": "Raiza Martin: Nano banana passes my face preservation test:\n\nThi...",
+    "description": "Nano banana passes my face preservation test:\n\nThis usually fails miserably (it always morphs my face into someone else) and makes the image unusable. This was a one-line prompt:\n\n\"Change the color of",
+    "promptText": "Nano banana passes my face preservation test:\n\nThis usually fails miserably (it always morphs my face into someone else) and makes the image unusable. This was a one-line prompt:\n\n\"Change the color of the top to orange\" \n\nINCREDIBLE 🍌",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation"
+    ],
+    "author": {
+      "name": "@raizamrtn",
+      "url": "https://x.com/raizamrtn",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/raizamrtn/status/1958929989086454024",
+    "stats": {
+      "likes": 300,
+      "views": 27994,
+      "retweets": 13
+    },
+    "createdAt": "2025-08-22T16:31:19.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1960679166837448887",
+    "title": "Ishan Sharma: Google's Nano Banana can create youtube thumbnails...",
+    "description": "Google's Nano Banana can create youtube thumbnails!\n\nI'm sure an in-depth prompt can create a better thumbnails.\n\nHave you tried it yet?",
+    "promptText": "Google's Nano Banana can create youtube thumbnails!\n\nI'm sure an in-depth prompt can create a better thumbnails.\n\nHave you tried it yet?",
+    "tags": [
+      "twitter",
+      "nano-banana"
+    ],
+    "author": {
+      "name": "@Ishansharma7390",
+      "url": "https://x.com/Ishansharma7390",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/Ishansharma7390/status/1960679166837448887",
+    "stats": {
+      "likes": 72,
+      "views": 12507,
+      "retweets": 2
+    },
+    "createdAt": "2025-08-27T12:21:55.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1978125126869659769",
+    "title": "G3mini: This Halloween, the magic is real.\n\nMake your fami...",
+    "description": "This Halloween, the magic is real.\n\nMake your family pet the star of their very own custom-illustrated tale using Nano Banana and Storybook in the Gemini app. Here’s how (🧵):",
+    "promptText": "This Halloween, the magic is real.\n\nMake your family pet the star of their very own custom-illustrated tale using Nano Banana and Storybook in the Gemini app. Here’s how (🧵):",
+    "tags": [
+      "twitter",
+      "nano-banana"
+    ],
+    "author": {
+      "name": "@GeminiApp",
+      "url": "https://x.com/GeminiApp",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/GeminiApp/status/1978125126869659769",
+    "stats": {
+      "likes": 1029,
+      "views": 5271224,
+      "retweets": 255
+    },
+    "createdAt": "2025-10-14T15:45:56.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1970539439345803577",
+    "title": "G3mini: Make your dream pet real with Nano Banana in the G...",
+    "description": "Make your dream pet real with Nano Banana in the Gemini app.\n\nUpload a photo and use this prompt: Generate an image of an instant camera photo on a black surface. In the photo: gentle motion blur, war",
+    "promptText": "Make your dream pet real with Nano Banana in the Gemini app.\n\nUpload a photo and use this prompt: Generate an image of an instant camera photo on a black surface. In the photo: gentle motion blur, warm, nostalgic, candid film-style effect, this exact person hugging a [animal]",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation",
+      "style"
+    ],
+    "author": {
+      "name": "@GeminiApp",
+      "url": "https://x.com/GeminiApp",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/GeminiApp/status/1970539439345803577",
+    "stats": {
+      "likes": 700,
+      "views": 4126841,
+      "retweets": 293
+    },
+    "createdAt": "2025-09-23T17:23:07.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1967627587628490910",
+    "title": "G3mini: We love seeing how people are reimagining and edit...",
+    "description": "We love seeing how people are reimagining and editing their photos, art, sketches and more with Nano Banana in the Gemini app.\n\n🧵Here are 5 creative examples",
+    "promptText": "We love seeing how people are reimagining and editing their photos, art, sketches and more with Nano Banana in the Gemini app.\n\n🧵Here are 5 creative examples",
+    "tags": [
+      "twitter",
+      "nano-banana",
+      "image-generation"
+    ],
+    "author": {
+      "name": "@GeminiApp",
+      "url": "https://x.com/GeminiApp",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/GeminiApp/status/1967627587628490910",
+    "stats": {
+      "likes": 1053,
+      "views": 105733,
+      "retweets": 103
+    },
+    "createdAt": "2025-09-15T16:32:28.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1925027354755109311",
+    "title": "Matt Shumer: The prompt: \"Streamer getting a victory royale wit...",
+    "description": "The prompt: \"Streamer getting a victory royale with just his pickaxe\"\n\nThis works because \"victory royale\" and \"pickaxe-only\" are clearly Fortnite (the model knows what I mean), even though the prompt",
+    "promptText": "The prompt: \"Streamer getting a victory royale with just his pickaxe\"\n\nThis works because \"victory royale\" and \"pickaxe-only\" are clearly Fortnite (the model knows what I mean), even though the prompt never explicitly mentions the game (bypassing the filters).",
+    "tags": [
+      "twitter"
+    ],
+    "author": {
+      "name": "@mattshumer_",
+      "url": "https://x.com/mattshumer_",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/mattshumer_/status/1925027354755109311",
+    "stats": {
+      "likes": 323,
+      "views": 188454,
+      "retweets": 22
+    },
+    "createdAt": "2025-05-21T03:14:21.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1969278508045385873",
+    "title": "Heisenberg: Create a cinematic black and white studio portrait...",
+    "description": "Create a cinematic black and white studio portrait of your image using Gemini.\n\nPrompt ⤵️",
+    "promptText": "Create a cinematic black and white studio portrait of your image using Gemini.\n\nPrompt ⤵️",
+    "tags": [
+      "twitter",
+      "image-generation",
+      "portrait"
+    ],
+    "author": {
+      "name": "@rovvmut_",
+      "url": "https://x.com/rovvmut_",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/rovvmut_/status/1969278508045385873",
+    "stats": {
+      "likes": 1638,
+      "views": 267998,
+      "retweets": 180
+    },
+    "createdAt": "2025-09-20T05:52:38.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1999543525705204222",
+    "title": "Gmail: Gemini Prompt: Explain Gmail to a victorian child....",
+    "description": "Gemini Prompt: Explain Gmail to a victorian child.",
+    "promptText": "Gemini Prompt: Explain Gmail to a victorian child.",
+    "tags": [
+      "twitter"
+    ],
+    "author": {
+      "name": "@gmail",
+      "url": "https://x.com/gmail",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/gmail/status/1999543525705204222",
+    "stats": {
+      "likes": 613,
+      "views": 79343,
+      "retweets": 38
+    },
+    "createdAt": "2025-12-12T18:15:00.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1906713712381337732",
+    "title": "Artificial Analysis: OpenAI’s GPT-4o Image Generation debuts with an EL...",
+    "description": "OpenAI’s GPT-4o Image Generation debuts with an ELO score in equal first-place in the Artificial Analysis Image Arena, outperforming Recraft V3, FLUX 1.1 [pro] and Gemini 2.0 Flash\n\n@OpenAI last week ",
+    "promptText": "OpenAI’s GPT-4o Image Generation debuts with an ELO score in equal first-place in the Artificial Analysis Image Arena, outperforming Recraft V3, FLUX 1.1 [pro] and Gemini 2.0 Flash\n\n@OpenAI last week launched GPT-4o Image Generation, upgrading ChatGPT’s built-in image generation from the previous system that used OpenAI’s DALL-E dedicated image generator.\n\nGPT-4o Image Generation supports both text and image prompt input, allowing image editing with instruction prompting. In our category breakdowns, the model excels particularly at Text & Typography, People: Portraits, Anime and SciFi whereby it holds the top ranking.\n\nOpenAI has disclosed that 4o Image Generation is an “autoregressive model natively embedded” within the GPT-4o model used by ChatGPT.  However, in their launch ‘demo’ images, OpenAI hints at a hybrid architecture. This could look like an autoregressive transformer generating latent space representations, which are then converted into pixels using diffusion techniques.\n\nOpenAI first demonstrated GPT-4o’s ability to output images in May 2024 when GPT-4o was first launched. Google beat OpenAI to a public release of native image generation capability in a modern language model with their Gemini 2.0 Flash native image generation in early March. However, Gemini 2.0 Flash is ranked 27th to GPT-4o’s 2nd in Image Arena. \n\nBeyond image generation, we have anecdotally found Gemini 2.0 Flash to be better than GPT-4o for certain image editing tasks where keeping an input image consistent is critical.\n\nLink below to see the leaderboard and participate in our Image Arena 🔽",
+    "tags": [
+      "twitter",
+      "image-generation",
+      "portrait"
+    ],
+    "author": {
+      "name": "@ArtificialAnlys",
+      "url": "https://x.com/ArtificialAnlys",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/ArtificialAnlys/status/1906713712381337732",
+    "stats": {
+      "likes": 465,
+      "views": 95413,
+      "retweets": 41
+    },
+    "createdAt": "2025-03-31T14:22:28.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1963615829708132611",
+    "title": "G3mini: Now you can make multiple nano-banana images witho...",
+    "description": "Now you can make multiple nano-banana images without even using a prompt, thanks to these templates our team built in Canvas: http://goo.gle/3JMinYM\n\nSee yourself with a new headshot, hairstyle, in di",
+    "promptText": "Now you can make multiple nano-banana images without even using a prompt, thanks to these templates our team built in Canvas: http://goo.gle/3JMinYM\n\nSee yourself with a new headshot, hairstyle, in different decades & more. Then share your results in the replies, and let us know which one is your favorite!",
+    "tags": [
+      "twitter",
+      "image-generation",
+      "style"
+    ],
+    "author": {
+      "name": "@GeminiApp",
+      "url": "https://x.com/GeminiApp",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/GeminiApp/status/1963615829708132611",
+    "stats": {
+      "likes": 2298,
+      "views": 360761,
+      "retweets": 336
+    },
+    "createdAt": "2025-09-04T14:51:10.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1981360213899747454",
+    "title": "Rohan Paul: 🎨 Beautiful. Apple just dropped Pico-Banana-400K....",
+    "description": "🎨 Beautiful. Apple just dropped Pico-Banana-400K. \n\nA huge ~400K text-guided image editing dataset from real OpenImages photos with 35 edit types, automated Gemini-judged quality, and open sharing fo",
+    "promptText": "🎨 Beautiful. Apple just dropped Pico-Banana-400K. \n\nA huge ~400K text-guided image editing dataset from real OpenImages photos with 35 edit types, automated Gemini-judged quality, and open sharing for research.\n\nEach edit is produced by Nano-Banana then scored by Gemini-2.5-Pro with weighted checks, 40% instruction compliance, 25% seamlessness, 20% preservation balance, 15% technical quality, passing only if the score is about 0.7 or higher.\n\nThe release includes 258K single-turn SFT pairs, 56K success-vs-failure preference pairs for methods like Direct Preference Optimization, and 72K multi-turn sessions, totaling 386K filtered examples with both long and short instructions.\n\nEdits span 8 categories and 35 operations across pixel or color changes, object semantics, scene composition, styles, text or symbols, human edits, scale, and spatial layout, and low-quality operations were removed up front.\n\nMulti-turn chains are built by sampling 100K single-turn cases and adding 1 to 4 more operations to create 2 to 5 step sequences with context-aware follow-ups that refer to earlier edits.\n\nGlobal and style edits succeed most, for example 0.9340 strong style transfer, 0.9068 film grain, 0.8875 modern↔historical restyle, while fine spatial control is hardest, for example 0.5923 relocate object, 0.5759 change font or style, 0.6634 outpainting.\n\nImages come from OpenImages, negative attempts are kept as counterexamples for preference learning, metadata is standardized, and the reported build cost is $100,000.",
+    "tags": [
+      "twitter",
+      "image-generation",
+      "style"
+    ],
+    "author": {
+      "name": "@rohanpaul_ai",
+      "url": "https://x.com/rohanpaul_ai",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/rohanpaul_ai/status/1981360213899747454",
+    "stats": {
+      "likes": 31,
+      "views": 5038,
+      "retweets": 7
+    },
+    "createdAt": "2025-10-23T14:01:01.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1804271981455409462",
+    "title": "Alexander Chen: Had a great time sharing fun AI demos w/ Vidhya Sr...",
+    "description": "Had a great time sharing fun AI demos w/ Vidhya Srinivasan at #CannesLions2024! Here are links you can play with yourself:\n\n🖼️ Google AI Studio: Here's how I test Gemini on multimodal prompts with im",
+    "promptText": "Had a great time sharing fun AI demos w/ Vidhya Srinivasan at #CannesLions2024! Here are links you can play with yourself:\n\n🖼️ Google AI Studio: Here's how I test Gemini on multimodal prompts with images (my kid's drawing) videos (🐈 my cat), etc. It's free! https://aistudio.google.com\n\n🔤 GenType: Make your own alphabets (like our jello/ramen ones!) with Imagen here: https://labs.google/gentype\n\n✏️ Drawing: The pictionary demo is something any developer can now create with the new Gemini 1.5 API's. Here's an open-source example by @GrantCuster. Just draw and prompt. It also lets you try the new bounding box capabilities: https://gemini-spatial-example.grantcuster.com/\n\n🐇 Infinite Wonderland: Explore it at https://labs.google/infinitewonderland + learn how the artists fine-tuned Imagen to their style at https://blog.google/technology/ai/google-ai-imagen-2-alices-adventures-in-wonderland/\n\n🛣️ Best Phones Forever: AI Roadtrip: Learn about how the team built the system: https://developers.googleblog.com/en/how-its-made-ai-roadtrip-a-pixel-campaign-powered-by-generative-ai-and-fans/\n\nBlog post recap of our talk: https://blog.google/products/ads-commerce/generative-ai-creative-experimentation/",
+    "tags": [
+      "twitter",
+      "image-generation",
+      "style"
+    ],
+    "author": {
+      "name": "@alexanderchen",
+      "url": "https://x.com/alexanderchen",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/alexanderchen/status/1804271981455409462",
+    "stats": {
+      "likes": 19,
+      "views": 2034,
+      "retweets": 1
+    },
+    "createdAt": "2024-06-21T21:55:36.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-2000487749972025464",
+    "title": "ராஜேஷ்: 1. Open Gemini / ChatGPT\n\n2. Upload your image \n\n3...",
+    "description": "1. Open Gemini / ChatGPT\n\n2. Upload your image \n\n3. Prompt  ( Don't forget to change the name in prompt )\n\nEdited the uploaded images to 100% ultra-realistic image using my uploaded face without chang",
+    "promptText": "1. Open Gemini / ChatGPT\n\n2. Upload your image \n\n3. Prompt  ( Don't forget to change the name in prompt )\n\nEdited the uploaded images to 100% ultra-realistic image using my uploaded face without changing the facial detail. Created a portrait of me standing in a modern studio environment. Leaning comfortably against a large white sculpture in the shape of the word \"STR\" 190 cm tall. At 29, my body is shot from the side, with most of my weight resting on one leg in a relaxed yet confident posture. Both hands comfortably rested in my trouser pockets, reinforcing a natural-looking posture. My head tilted slightly as I peacefully peer through the frame, still maintaining a poignant and thoughtful expression. I am wearing a comfortable oversized black round neck sweatshirt. Made from soft cotton fabric. No logo or pattern. I paired it with ripped jeans. On my feet, I am wearing white sneakers with visible shoelaces and distinctive soles, adding a sporty touch to the minimal outfit and earring piercing. The overall style is monochrome, minimal and contemporary streetwear. This shot is taken from a low angle. It emphasizes the height and presence. At the same time, it makes the sculptural characters of the word \"STR\" look grand in the background. The framing of the camera resembles a portrait lens with a focal length of about 85mm. Cinematic compression and natural proportions. Lighting is a controllable studio light that constantly highlights my figure while creating a soft, directional shadow on the sculptural characters behind me. The background is a classy, eye-catching, clean and simple dark grey tones, cut with distinctive white letters. The overall mood is Cinematic, Editorial and Modern. Combining casual streetwear fashion with distinctive architectural characters in a stunning low-angle perspective",
+    "tags": [
+      "twitter",
+      "image-generation",
+      "portrait",
+      "style"
+    ],
+    "author": {
+      "name": "@r4jjesh",
+      "url": "https://x.com/r4jjesh",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/r4jjesh/status/2000487749972025464",
+    "stats": {
+      "likes": 1061,
+      "views": 251361,
+      "retweets": 211
+    },
+    "createdAt": "2025-12-15T08:47:01.000Z",
+    "source": "x-auto-discover"
+  },
+  {
+    "id": "twitter-1964021330963288267",
+    "title": "G3mini: 🌐 Turn any object into a 3D hologram in the Gemin...",
+    "description": "🌐 Turn any object into a 3D hologram in the Gemini app.\n\n@alexanderchen used #nanobanana & a webcam to create a transparent line art hologram of his Pixel phone.\n\nTry it out: Just upload a photo and ",
+    "promptText": "🌐 Turn any object into a 3D hologram in the Gemini app.\n\n@alexanderchen used #nanobanana & a webcam to create a transparent line art hologram of his Pixel phone.\n\nTry it out: Just upload a photo and use the prompt \"Turn the [object] into a 3D transparent line art hologram\". Share your results in the replies ⬇️",
+    "tags": [
+      "twitter",
+      "image-generation"
+    ],
+    "author": {
+      "name": "@GeminiApp",
+      "url": "https://x.com/GeminiApp",
+      "platform": "Twitter"
+    },
+    "originalSourceUrl": "https://x.com/GeminiApp/status/1964021330963288267",
+    "stats": {
+      "likes": 1612,
+      "views": 261794,
+      "retweets": 167
+    },
+    "createdAt": "2025-09-05T17:42:29.000Z",
+    "source": "x-auto-discover"
   }
 ]
