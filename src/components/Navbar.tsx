@@ -15,10 +15,10 @@ function NavbarContent() {
   const currentCategory = searchParams.get("category");
   
   const navItems = [
+    { name: "All", href: "/" },
     { name: "Text", href: "/hub?category=text" },
     { name: "Image", href: "/hub?category=image" },
-    { name: "Video", href: "/hub?category=video" },
-    { name: "Audio", href: "/hub?category=audio" },
+    { name: "Guide", href: "/about" },
   ];
 
   return (
@@ -93,9 +93,23 @@ function NavbarContent() {
             </Link>
           </div>
 
+
           <div className="h-4 w-px bg-white/10 hidden sm:block" />
 
-          <Link href="https://ai.google.dev" target="_blank" className="hidden sm:block">
+          <Link 
+            href="https://github.com/neverbiasu/awesome-gemini-prompts/issues/new?template=prompt_submission.yml" 
+            target="_blank" 
+            className="hidden sm:block"
+          >
+            <Button 
+              size="sm" 
+              className="bg-zinc-800 text-zinc-300 font-medium text-xs px-4 rounded-full hover:bg-zinc-700 hover:text-white border border-white/5"
+            >
+              Submit
+            </Button>
+          </Link>
+
+          <Link href="https://aistudio.google.com/api-keys" target="_blank" className="hidden sm:block">
             <Button 
               size="sm" 
               className="bg-white text-black font-semibold text-xs px-4 rounded-full hover:bg-zinc-200"

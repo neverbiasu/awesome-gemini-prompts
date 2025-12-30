@@ -5,11 +5,12 @@ import { Card, CardHeader, CardBody, CardFooter } from "@heroui/card";
 import { Button } from "@heroui/button";
 import { Tooltip } from "@heroui/tooltip";
 import { GeminiPrompt } from "../schema/prompt";
-import { FaGithub, FaReddit, FaDiscord, FaGlobe, FaCopy, FaCheck, FaExternalLinkAlt, FaPlay, FaTwitter, FaExpand } from "react-icons/fa";
+import { FaGithub, FaReddit, FaDiscord, FaGlobe, FaCopy, FaCheck, FaExternalLinkAlt, FaPlay, FaTwitter, FaExpand, FaImage, FaAlignLeft } from "react-icons/fa";
+
 import { SiGoogle } from "react-icons/si";
 import Link from "next/link";
 
-  const PLATFORM_CONFIG: Record<string, { color: string; label: string; icon: React.ElementType }> = {
+const PLATFORM_CONFIG: Record<string, { color: string; label: string; icon: React.ElementType }> = {
   GitHub: { color: "text-white bg-zinc-800", label: "GitHub", icon: FaGithub },
   Reddit: { color: "text-orange-400 bg-orange-400/10", label: "Reddit", icon: FaReddit },
   Google: { color: "text-blue-400 bg-blue-400/10", label: "Google", icon: SiGoogle },
@@ -65,6 +66,11 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
     window.open(`${baseUrl}?${params.toString()}`, '_blank');
   };
 
+  // Extract modality
+  const isImage = (prompt.modality || []).includes('image');
+  const ModalityIcon = isImage ? FaImage : FaAlignLeft;
+  const modalityLabel = isImage ? 'Image' : 'Text';
+
   return (
     <Card 
       isPressable={false}
@@ -75,9 +81,17 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
         className="flex flex-col items-start gap-4 p-6 pb-2 shrink-0 w-full"
       >
         <div className="flex w-full justify-between items-center">
-          <div className={`px-2.5 py-1 rounded-full text-[10px] uppercase font-bold tracking-wider ${platform.color} border border-white/5 shadow-sm flex items-center gap-1.5`}>
-            <PlatformIcon size={12} />
-            {platform.label}
+          <div className="flex items-center gap-2">
+            <div className={`px-2.5 py-1 rounded-full text-[10px] uppercase font-bold tracking-wider ${platform.color} border border-white/5 shadow-sm flex items-center gap-1.5`}>
+              <PlatformIcon size={12} />
+              {platform.label}
+            </div>
+            
+            {/* Modality Badge */}
+            <div className={`px-2.5 py-1 rounded-full text-[10px] uppercase font-bold tracking-wider ${isImage ? 'text-purple-400 bg-purple-400/10' : 'text-zinc-400 bg-zinc-400/10'} border border-white/5 shadow-sm flex items-center gap-1.5`}>
+              <ModalityIcon size={12} />
+              {modalityLabel}
+            </div>
           </div>
           
           {/* Metrics */}
