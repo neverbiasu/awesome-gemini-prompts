@@ -83,7 +83,7 @@ export async function batchCleanPrompts(rawPrompts: any[]) {
 
     try {
       // ---------------------------------------------------------
-      // STRATEGY: GOOGLE GEMINI API (Primary)
+      // STRATEGY: GOOGLE GEMINI API (Primary) with ModelScope Fallback
       // ---------------------------------------------------------
       const genAI = new GoogleGenerativeAI(apiKey);
       const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
@@ -129,6 +129,7 @@ export async function batchCleanPrompts(rawPrompts: any[]) {
       `;
 
       let cleanedBatch: z.infer<typeof CleanedPromptsResponseSchema>;
+      let usedFallback = false;
       
       try {
         const result = await model.generateContent({
@@ -138,8 +139,61 @@ export async function batchCleanPrompts(rawPrompts: any[]) {
         const responseText = result.response.text();
         cleanedBatch = JSON.parse(responseText);
       } catch (err: any) {
-        console.error("Gemini Generation Error:", err);
-        continue;
+        // Check if it's a quota exceeded error (429)
+        if (err?.status === 429 || err?.message?.includes('429') || err?.message?.includes('quota')) {
+          console.log("      ⚠️ Gemini quota exceeded, switching to ModelScope...");
+          
+          // Fallback to ModelScope
+          const modelScopeKey = process.env.MODELSCOPE_API_KEY;
+          if (!modelScopeKey) {
+            console.error("      ❌ No MODELSCOPE_API_KEY found, skipping batch.");
+            continue;
+          }
+          
+          try {
+            const msResponse = await fetch('https://api-inference.modelscope.cn/v1/chat/completions', {
+              method: 'POST',
+              headers: {
+                'Authorization': `Bearer ${modelScopeKey}`,
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({
+                model: 'Qwen/Qwen2.5-72B-Instruct',
+                messages: [
+                  { role: 'system', content: 'You are a helpful assistant that outputs valid JSON.' },
+                  { role: 'user', content: prompt }
+                ],
+                temperature: 0.1,
+                response_format: { type: 'json_object' }
+              })
+            });
+            
+            if (!msResponse.ok) {
+              console.error(`      ❌ ModelScope API error: ${msResponse.status}`);
+              continue;
+            }
+            
+            const msData = await msResponse.json();
+            let msText = msData.choices?.[0]?.message?.content || '{}';
+            // Clean markdown code blocks if present (handles ```json ... ``` format)
+            msText = msText.replace(/```json\s*/gi, '').replace(/```\s*/g, '').trim();
+            // Find the first { and last } to extract JSON
+            const jsonStart = msText.indexOf('{');
+            const jsonEnd = msText.lastIndexOf('}');
+            if (jsonStart !== -1 && jsonEnd !== -1) {
+              msText = msText.substring(jsonStart, jsonEnd + 1);
+            }
+            cleanedBatch = JSON.parse(msText);
+            usedFallback = true;
+            console.log("      ✅ ModelScope fallback successful");
+          } catch (msErr) {
+            console.error("      ❌ ModelScope fallback failed:", msErr);
+            continue;
+          }
+        } else {
+          console.error("Gemini Generation Error:", err);
+          continue;
+        }
       }
       
       // Tracking Rejections
@@ -204,9 +258,16 @@ export async function batchCleanPrompts(rawPrompts: any[]) {
               }
           }
 
+          // Determine modality based on compatible models
+          const modality: string[] = [];
+          if (isImageGen || isImageEdit) {
+            modality.push('image');
+          }
+          if (!isImageGen && !isImageEdit) {
+            modality.push('text');
+          }
+
           // Deterministic ID Generation
-          // Prevents ID drift on every run.
-          // Hash source URL if available, otherwise hash content.
           const idSource = original?.url || original?.originUrl || original?.originalSourceUrl || (cleaned.title + cleaned.userPrompt.substring(0, 50));
           const deterministicId = original?.source + '-' + crypto.createHash('md5').update(idSource).digest('hex').substring(0, 12);
 
@@ -219,6 +280,7 @@ export async function batchCleanPrompts(rawPrompts: any[]) {
                 .filter(t => !['google', 'gemini', 'prompt', 'official', 'ai'].includes(t))
                 .slice(0, 3),
             compatibleModels: compatibleModels as any, // Cast to any to bypass strict literal check (we know values are valid)
+            modality: modality as any,
             
             systemInstruction: cleaned.systemInstruction ? {
               parts: [{ text: cleaned.systemInstruction }]

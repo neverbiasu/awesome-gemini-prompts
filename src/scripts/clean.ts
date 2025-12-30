@@ -83,8 +83,10 @@ async function main() {
   };
 
   const getPromptKey = (p: any) => {
-    if (p.originalSourceUrl) {
-      return `url:${normalizeUrl(p.originalSourceUrl)}`;
+    // Check both field names: originalSourceUrl (cleaned data) and url (raw data)
+    const sourceUrl = p.originalSourceUrl || p.url;
+    if (sourceUrl) {
+      return `url:${normalizeUrl(sourceUrl)}`;
     }
     if (p.title) {
       return `title:${p.title.trim().toLowerCase()}`;

@@ -54,8 +54,8 @@ async function main() {
             maxOutputTokens: 8192,
         };
 
-        // Limit to 300 prompts to avoid output truncation
-        const limitedPrompts = minifiedPrompts.slice(0, 300);
+        // Limit to 100 prompts to avoid output truncation
+        const limitedPrompts = minifiedPrompts.slice(0, 100);
         console.log(`   Analyzing ${limitedPrompts.length} prompts (limited for stability)...`);
 
         const prompt = `
@@ -89,21 +89,69 @@ async function main() {
             ${JSON.stringify(limitedPrompts)}
         `;
 
-        const result = await model.generateContent({
-            contents: [{ role: "user", parts: [{ text: prompt }] }],
-            generationConfig
-        });
+        let responseText = '';
         
-        let responseText = result.response.text();
+        // Try ModelScope first (more reliable for audit)
+        const modelScopeKey = process.env.MODELSCOPE_API_KEY;
+        
+        if (modelScopeKey) {
+            console.log("   Using ModelScope (Qwen) for analysis...");
+            try {
+                const msResponse = await fetch('https://api-inference.modelscope.cn/v1/chat/completions', {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${modelScopeKey}`,
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({
+                        model: 'Qwen/Qwen2.5-72B-Instruct',
+                        messages: [
+                            { role: 'system', content: 'You are a helpful assistant. Output ONLY valid JSON, no markdown code blocks.' },
+                            { role: 'user', content: prompt }
+                        ],
+                        temperature: 0.1,
+                        max_tokens: 4096
+                    })
+                });
+                
+                if (msResponse.ok) {
+                    const msData = await msResponse.json();
+                    responseText = msData.choices?.[0]?.message?.content || '{}';
+                    console.log("   ✅ ModelScope response received");
+                }
+            } catch (msErr) {
+                console.log("   ⚠️ ModelScope failed, trying Gemini...");
+            }
+        }
+        
+        // Fallback to Gemini if ModelScope failed
+        if (!responseText) {
+            try {
+                const result = await model.generateContent({
+                    contents: [{ role: "user", parts: [{ text: prompt }] }],
+                    generationConfig
+                });
+                responseText = result.response.text();
+            } catch (err: any) {
+                console.error("   ❌ Both ModelScope and Gemini failed:", err?.message);
+                process.exit(1);
+            }
+        }
+        
+        // Clean markdown code blocks if present
+        responseText = responseText.replace(/```json\s*/gi, '').replace(/```\s*/g, '').trim();
+        const jsonStart = responseText.indexOf('{');
+        const jsonEnd = responseText.lastIndexOf('}');
+        if (jsonStart !== -1 && jsonEnd !== -1) {
+            responseText = responseText.substring(jsonStart, jsonEnd + 1);
+        }
         
         // Attempt to repair truncated JSON
         if (!responseText.endsWith('}')) {
             console.log("⚠️ Response may be truncated, attempting repair...");
-            // Find last complete issue and close the array/object
             const lastBrace = responseText.lastIndexOf('}');
             if (lastBrace > 0) {
                 responseText = responseText.substring(0, lastBrace + 1);
-                // Check if we need to close the issues array and main object
                 if (!responseText.includes('"summary"')) {
                     responseText = responseText.replace(/,?\s*$/, '') + '], "summary": "Partial analysis due to truncation"}';
                 }
