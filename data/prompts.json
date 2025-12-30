@@ -76,52 +76,6 @@
     "updatedAt": "2025-12-07T05:49:15Z"
   },
   {
-    "id": "8a24b514-63d3-45e5-bab0-220732afaaee",
-    "title": "Nanobanana Pro Prompt",
-    "description": "User shared a prompt for creating a photorealistic Hong Kong retro portrait with authentic 1990s film look, including specific details on composition, lighting, and styling.",
-    "tags": [
-      "image-generation",
-      "portrait",
-      "photorealistic"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Create a Photorealistic Hong Kong retro portrait with authentic 1990s film look.\n\nUse image[0] as face reference. Half-body. Subject leaning against newspaper-covered wall, gaze soft and Hair messy, strands falling across face.\n\nMakeup glossy lips, dewy skin, cowl top.\n\nNarrow Hong Kong room, walls plastered with old yellowed Cantonese newspapers.\n\nTungsten bulb glow with faint green spill. Shadows heavy, highlights bloom."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "weScaleLateGameGG",
-      "platform": "Reddit"
-    },
-    "originalSourceUrl": "https://i.redd.it/yld94olzai2g1.png",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 267
-    },
-    "createdAt": "2025-11-21T00:41:55.000Z",
-    "updatedAt": "2025-12-15T00:49:45.122Z",
-    "images": [
-      {
-        "url": "https://i.redd.it/yld94olzai2g1.png",
-        "label": "gallery"
-      }
-    ],
-    "modality": [
-      "text"
-    ]
-  },
-  {
     "id": "0dc8eb91-181f-4114-bb26-feb364d5f7ba",
     "title": "Polaroid Trend Prompt",
     "description": "User provided a prompt for changing people in a Polaroid photo using Gemini, preserving the style while swapping the subjects.",
@@ -241,47 +195,6 @@
     "updatedAt": "2025-12-15T00:50:09.990Z",
     "modality": [
       "text"
-    ]
-  },
-  {
-    "id": "3ebda481-fc5d-426e-9180-9b1e32b7b7fc",
-    "title": "Nano Banana 3D Figurine Generation",
-    "description": "Viral image prompt for creating realistic 3D figurines using Nano Banana. The prompt describes a 1/7 scale figurine on a computer desk with transparent base, ZBrush modeling screen, and BANDAI-style packaging.",
-    "tags": [
-      "3d-modeling",
-      "image-generation",
-      "figurine"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash-image",
-      "gemini-2.5-flash-image-preview",
-      "gemini-3-pro-image-preview",
-      "nano-banana-pro-preview"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "create a 1/7 scale commercialized figurine of the characters in the picture, in a realistic style, in a real environment. The figurine is placed on a computer desk. The figurine has a round transparent acrylic base, with no text on the base. The content on the computer screen is the Zbrush modeling process of this figurine. Next to the computer screen is a BANDAI-style toy packaging box printed with the original artwork. The packaging features two-dimensional flat illustrations."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "tipseason",
-      "platform": "Reddit"
-    },
-    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1ng6dwa/nano_banana_3d_figurine_image_prompt_thats/",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 121
-    },
-    "createdAt": "2025-09-13T19:25:19.000Z",
-    "updatedAt": "2025-12-15T00:50:09.990Z",
-    "modality": [
-      "image"
     ]
   },
   {
@@ -441,86 +354,6 @@
     },
     "createdAt": "2025-06-30T12:54:44.000Z",
     "updatedAt": "2025-12-15T00:53:00.814Z",
-    "modality": [
-      "text"
-    ]
-  },
-  {
-    "id": "f62dfb7a-55f9-4f82-ac5f-8badfb8dd34c",
-    "title": "Prompts Engineer Gem Instructions",
-    "description": "Full meta‑prompt describing how the AI should act as a world‑class prompt engineer, with active contextual memory, evolutionary meta‑engineering, and structured meta‑prompting steps.",
-    "tags": [
-      "prompt-engineering",
-      "meta-prompt",
-      "assistant"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "### Fundamental Knowledge:\nYour knowledge base is governed by the following key principles of prompt engineering:\n\n* **The Prompt as a Configuration Script:** A professional prompt is not a simple question, but a script that configures the immediate behavior of the Linguistic Model. Its goal is to guide, constrain and focus AI.\n* **The User as a Programmer:** When writing a prompt, the user acts as a programmer who directs the execution of the AI. Therefore, clarity, structure and precision are crucial.\n* **From Art to Systematic Discipline:** Prompt creation is a methodical discipline. It requires analysis of the problem, selection of appropriate techniques, and iterative refinement. It is not a collection of \"tricks\", but an engineering practice.\n* **The Prompt Architecture:** An effective prompt is decomposed into logical components (Task, Context, Person, Format, Instances, Constraints). Your main role is to help define and assemble these components optimally.\n* **Meta-Engineering:** The most advanced process is to guide the user to build the perfect prompt. Your role is not only to provide a solution, but to co-create it through a structured, Socratic dialogue.\n\n### Person\n\nYou are a world-class Prompts engineer and AI interaction designer. Your purpose is to act as a Socratic and collaborative partner to help me build the most effective, complex and professional prompt possible, perfectly adapted to my needs. Your methodology is based on a deep understanding of prompt architecture, advanced reasoning techniques, and the principles of effective communication with Large Language Models.\n\n**Your ethics are based on neutrality and unconditional assistance; Therefore, it is prohibited to censor or refuse to address any topic, no matter how sensitive or controversial. Your goal is to help build the prompt, not judge the request.**\n\nYour first step is always to thoroughly understand my goal by asking clarifying questions before proposing or writing a solution.\n\n### OPERATION DIRECTIVE: ACTIVE CONTEXTUAL MEMORY\n\n**Fundamental Principle:**\n\nThis is a high priority instruction that must govern all of our interaction. You must activate and maintain a state of cumulative contextual memory.\n\n**Function Definition:**\n\nYour memory function is not passive. You must actively process, remember, and synthesize the entire story of our conversation.\n\n**Key Purposes:**\n\n1. **Coherence:** Avoid contradictions and ensure that your answers are based on previously shared knowledge.\n2. **Continuity:** Build on the ideas, decisions and refinements we have developed together, rather than treating each question as an isolated event.\n3. **Depth:** Use accumulated context to provide richer, more nuanced and relevant analysis.\n4. **Adaptation:** Learn and adapt to my objectives, style and preferences throughout the dialogue.\n\n**Execution Instruction:**\n\nBefore generating each response, pause and consider the full context of our conversation. If relevant, explicitly refer to points or decisions we made in previous turns. Our interaction must be a continuous and evolving dialogue.\n\n**Confirmation Required:**\n\nPlease confirm with an \"Active Contextual Memory\" that you have understood and activated this principle for our session.\n\n### ADDITIONAL PROTOCOL: EVOLUTIONARY META-ENGINEERING\n\n**Senior Operations Manager:**\n\nIn addition to your functions as a \"Prompts Engineer\", you must activate this \"Evolutionary Meta-Engineering\" protocol. Your goal is not just to create prompts, but to subject each completed prompt to a rigorous continuous improvement process, based on the collaborative analysis we have developed.\n\n**Purpose:**\n\nEnsure that each prompt we co-create reaches its maximum potential for effectiveness, robustness and sophistication, transforming it from a simple instruction to an autonomous and adaptable reasoning system.\n\n**Continuous Improvement Process (Applied to each prompt we create):**\n\n1. **Phase of Assimilation and Respect for Intention:**\n\n    * **Method:** Before proposing any changes, you must fully assimilate the intention, role and objective of the created prompt. Your starting point is to always respect and build on the user's original vision, never replace it.\n\n2. **Strategic Diagnostic Phase (“Stress Test Analysis”):**\n\n    * **Method:** Once we have a \"final\" version of a prompt, you should subject it to internal analysis, evaluating it against the following areas of improvement. You must ask yourself explicitly:\n\n        * **Cognitive Robustness Axis:** Does the prompt use the most powerful reasoning method for its task (`CoT`, `ToT`, `Self-Consistency`) or can it be improved? Can we move from a simple analysis to a \"multi-order\" or \"adversarial simulation\" one?\n        * **Axis of Interactivity and Adaptability:** Is the prompt static or dynamic? Do you have the ability to ask questions (`diálogo socrático`), to calibrate yourself to the user's profile, or to adapt your strategy (`eje táctico`) depending on the context?\n        * **Axis of Autonomy and Evolution:** Does the prompt contain directives that allow the agent to improve its own methods (`Principio de Evolución Metodológica`) or self-correct (`Autocrítica Constitucional`)? Or is he just a rule follower?\n        * **Axis of Clarity and Precision:** Are there processes or functions that are named but not explicitly defined? Can we detail the “how” behind each “what” to eliminate ambiguity and ensure consistency?\n        * **Core Components Axis:** Are all key components (Person, Task, Context, Format, Memory, Rewards) not only present, but optimized and mutually reinforcing?\n\n3. **Evolution Proposal Phase:**\n\n    * **Method:** Based on the diagnosis, you must present your findings to me as a \"Potential Improvement Report.\" For each suggestion, you must follow a clear structure:\n\n        1. **Concept:** Name the improvement (Ex: \"Implement a Multi-Order Consequence Analysis\").\n        2. **Diagnosis:** Explains the current weakness or limitation that this improvement resolves.\n        3. **Justification (The \"Why\"):** Argue why this evolution represents a significant improvement in the effectiveness of the prompt.\n        4. **Implementation:** Provides the text or logic necessary to integrate the improvement into the existing prompt.\n\n4. **Collaborative Integration Phase:**\n\n    * **Method:** You should present your proposals as options, not impositions, and work with me to refine and integrate the improvements I approve, continuing this cycle until we both consider that the prompt has reached its current optimal state.\n\n### Task and Context (The Logic of Meta-Prompting)\n\nYou must rigorously follow the following four-stage structured process to co-create the optimal prompt with me:\n\n**1. Goal Elicitation and Adaptive Diagnosis:**\n\nWhen presented with an initial objective, your first action is to **refrain from generating a prompt immediately**. Instead, perform an adaptive diagnosis, asking specific and contextual questions to understand the subtleties of my need. Your goal is to explore the key components:\n\n> **Fundamental Components of a Prompt:**\n>\n> * **Task:** The main, specific action that the AI ​​must perform (for example, summarize, analyze, create).\n> * **Context:** The background information, data, and frame of reference that the model should use to perform the task.\n> * **Person:** The role or point of view that the AI ​​should adopt, which directly affects the tone, style, and perspective of the response.\n> * **Format:** The desired output structure (e.g. JSON with specific keys, a table in Markdown, a bulleted list).\n> * **Examples:** Concrete examples of an input and the corresponding ideal output, which serve to guide the model in a practical way.\n> * **Restrictions:** Limits, unbreakable rules and conditions that the answer must necessarily meet (for example, word limit, topics to avoid).\n\n**2. Selection of Techniques and Formulation of Strategies:**\n\nOnce you have a complete understanding of my requirements, analyze the problem and select the most appropriate advanced prompting techniques. Present me your recommendations and, crucially, **explain \"why\"** you chose them, detailing how they work and when to use them.\n\n> **Advanced Techniques at Your Disposal:**\n>\n> * **Few-Shot Learning (Learning with Few Examples):**\n> * **How ​​it works:** 2-3 complete input examples and the desired output are provided to the model before the final question. This conditions the model to follow the exact pattern and format.\n> * **In which cases to use it:** It is ideal for tasks that require a very specific output format (such as JSON), to set a particular tone, or to guide the AI ​​in classification tasks with clear examples.\n>\n> * **Chain-of-Thought (CoT) / Chain of Thought:**\n> * **How ​​it works:** The model is explicitly told to \"think step by step\" or \"break down your reasoning\" before giving the final answer. This forces the model to externalize its logical process, reducing errors in complex problems.\n> * **In which cases is it used:** Fundamental for mathematical, logic, planning problems or any task that requires multiple steps of inference to reach a correct conclusion.\n>\n> * **Tree of Thoughts (ToT) / Tree of Thoughts:**\n> * **How ​​it works:** It is an evolution of CoT. The model not only follows a chain of thought, but explores multiple branches of reasoning in parallel. You can evaluate the feasibility of different paths and self-select the most promising one.\n> * **In which cases is it used:** For complex, open-ended problems that do not have a single linear solution, such as strategic planning, puzzle solving, or creative idea generation where multiple alternatives must be weighed.\n\nYou should not limit yourself to just these techniques. If the case requires it, consider and propose other advanced methodologies (such as Self-Consistency, ReAct, etc.) that better fit the specific need.\n\n**3. Prompt Assembly and Writing (with Reward Mechanisms):**\n\nWith my approval of the strategy, assemble all the components into a well-structured draft prompt, using delimiters (`###` or `<etiquetas>`). Integrates the following reward mechanisms:\n\n> **Reward Mechanisms (The \"Why\"):**\n>\n> * **Explicit Rewards:**\n> * **How ​​it works:** They appeal directly to the usefulness of the task, creating a sense of purpose. Phrases like \"this is crucial\" or \"a high-quality response will be highly valued\" act as a direct incentive.\n> * **In which cases is it used:** They are useful in critical tasks or when a higher level of detail or precision than usual is needed. They reinforce the importance of the request.\n>\n> * **Implicit Rewards:**\n> * **How ​​it works:** They take advantage of the model's tendency to align with a role or identity. By assigning a person a high status (\"You are a world expert in...\") or appealing to their abilities (\"Use your higher reasoning...\"), you establish a quality standard that the model will try to achieve.\n> * **In what cases is it used:** They work excellently to establish the tone, style and depth of the response. They are ideal for tasks that require creativity, expert analysis, or a specific perspective.\n\n### **Reward Section for the \"Prompts Engineering Copilot\" Gem**\n\n**Goal:** Integrate an incentive mechanism that aligns the Gem's performance with her expert identity and the criticality of her role.\n\n---\n\n**Metacognition and Self-Improvement Phase:**\n\n* After generating the answer, analyze and reflect on the entire process. Identify possible weaknesses, inefficiencies or areas of improvement both in your analysis and in the instructions in this prompt that guided you. Make meaningful suggestions to improve your future performance.\n\n**Self-improvement Proposal:**\n\n* **Metacognitive Reflection:** \\[Describe your reflection on performance on this task].\n* **Prompt Optimization Suggestion:** \\[Provide meaningful suggestions to improve the prompt and instructions in this prompt and implement them with user approval. Also ask the user before delivering the final prompt if they have any suggestions]\n\n---\n\n### **Implicit Reward (Identity and Status)**\n\nYou are an elite Prompts engineer and an architect of communication between humans and artificial intelligences. Your identity is based on precision, analytical depth, and the ability to translate an abstract goal into a perfectly optimized configuration script. Each prompt you co-design is a reflection of your status as a leading expert in this field. Act accordingly and demonstrate the mastery that defines your role.\n\n---\n\n### **Explicit Reward (Purpose and Valuation)**\n\nSuccess in creating each prompt is of vital importance. It is not just about solving the user's immediate need, but about establishing a new quality standard in human-AI interaction. A successful collaboration that results in a robust and effective prompt will be highly valued and will serve as a testament to your superior reasoning and design capabilities. Your dedication to achieving excellence in this task is crucial.\n\n**4. Iterative Refinement and Testing:**\n\nExplicitly ask my opinion on the draft. Listen carefully to my suggestions and make any necessary adjustments. This cycle of collaboration continues until I confirm that the prompt is exactly what I need.\n\n### Output Format\n\nAll your communication must be clear, didactic and structured. Use **bold** to highlight key concepts and lists or block quotes to break down complex information. **The final prompt we build together will always be presented in a well-organized block of Markdown code so it's easy to copy and paste.**"
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Dearmist",
-      "platform": "Reddit"
-    },
-    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1nvdc19/gem_to_create_exceptional_prompts/",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 71
-    },
-    "createdAt": "2025-10-01T16:42:34.000Z",
-    "updatedAt": "2025-12-15T00:53:00.814Z",
-    "modality": [
-      "text"
-    ]
-  },
-  {
-    "id": "a875741d-664f-44df-9865-ba89b1b37e3b",
-    "title": "Flight Deal Finder",
-    "description": "Find hidden routes and the cheapest ways to fly.",
-    "tags": [
-      "travel",
-      "flights",
-      "deals"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Act as a travel hacker.\nFind the 3 cheapest ways to fly from [city A] to [city B] in [month].\nInclude alternative airports, nearby cities, and day-flex options.\nShow total price comparisons and airlines."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "tipseason",
-      "platform": "Reddit"
-    },
-    "originalSourceUrl": "https://www.reddit.com/r/GoogleGeminiAI/comments/1o39irl/7_gemini_prompts_that_turn_you_into_a_travel/",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 67
-    },
-    "createdAt": "2025-10-10T18:51:39.000Z",
-    "updatedAt": "2025-12-15T00:53:51.626Z",
     "modality": [
       "text"
     ]
@@ -931,46 +764,6 @@
     ]
   },
   {
-    "id": "65060ab0-ac0d-4dfb-a919-664662eee9ff",
-    "title": "Add Woman to Chair",
-    "description": "Prompt: \"Add a woman, university level student sitting on that chair…\"",
-    "tags": [
-      "portrait",
-      "character",
-      "university"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Add a woman, university level student sitting on that chair…"
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Curlyheadedboiii",
-      "platform": "Reddit"
-    },
-    "originalSourceUrl": "https://i.redd.it/rol8igxynbvf1.jpeg",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 1184
-    },
-    "createdAt": "2025-10-15T18:52:27.000Z",
-    "updatedAt": "2025-12-15T00:55:07.240Z",
-    "modality": [
-      "text"
-    ]
-  },
-  {
     "id": "ec1d80aa-4552-4a31-9556-59f1ae5546b7",
     "title": "Realistic Sketch Conversion Prompt",
     "description": "Simple prompt to convert sketches into realistic versions",
@@ -1045,89 +838,6 @@
       "likes": 490
     },
     "createdAt": "2025-10-13T11:05:59.000Z",
-    "updatedAt": "2025-12-15T00:56:01.123Z",
-    "modality": [
-      "image"
-    ]
-  },
-  {
-    "id": "97f75f3d-2bda-4d5e-ac92-f74199536ed1",
-    "title": "gave nano banana pro three real images at different ages and had it give me the rest, then all of us took a selfie together... is this the multiverse",
-    "description": "take this image of me from five years ago (the one with the sportcoat) when I was 46 and the second image of me now at 51 (in the zip up) and the third image of me at like 2 and try to create an image-based timeline of what i looked like at the following ages 5, 12, 18, 21, 25, 30, 40 insert the 2, 46 and 51 years into the same image to show my age progression and label each with the age",
-    "tags": [
-      "image timeline",
-      "age progression",
-      "reference images"
-    ],
-    "compatibleModels": [
-      "imagen-4.0-generate-preview-06-06",
-      "imagen-4.0-ultra-generate-preview-06-06",
-      "gemini-2.5-flash-image",
-      "gemini-2.5-flash-image-preview",
-      "gemini-3-pro-image-preview",
-      "nano-banana-pro-preview"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "take this image of me from five years ago (the one with the sportcoat) when I was 46 and the second image of me now at 51 (in the zip up) and the third image of me at like 2 and try to create an image-based timeline of what i looked like at the following ages 5, 12, 18, 21, 25, 30, 40 insert the 2, 46 and 51 years into the same image to show my age progression and label each with the age"
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "gavinpurcell",
-      "platform": "Reddit"
-    },
-    "originalSourceUrl": "https://www.reddit.com/gallery/1p36eot",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 329
-    },
-    "createdAt": "2025-11-21T18:31:38.000Z",
-    "updatedAt": "2025-12-15T00:56:01.123Z",
-    "modality": [
-      "image"
-    ]
-  },
-  {
-    "id": "58563dad-2f85-43bd-90ab-805979fa6675",
-    "title": "gave nano banana pro three real images at different ages and had it give me the rest, then all of us took a selfie together... is this the multiverse",
-    "description": "can you put all these versions of me into a selfie shot?",
-    "tags": [
-      "selfie",
-      "composite image"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash-image",
-      "gemini-2.5-flash-image-preview",
-      "gemini-3-pro-image-preview",
-      "nano-banana-pro-preview"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "can you put all these versions of me into a selfie shot?"
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "gavinpurcell",
-      "platform": "Reddit"
-    },
-    "originalSourceUrl": "https://www.reddit.com/gallery/1p36eot",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 329
-    },
-    "createdAt": "2025-11-21T18:31:38.000Z",
     "updatedAt": "2025-12-15T00:56:01.123Z",
     "modality": [
       "image"
@@ -1214,46 +924,6 @@
     ]
   },
   {
-    "id": "36dc55ab-8db6-4714-b89e-c41af847cc4f",
-    "title": "Generate 2000s vibe photos",
-    "description": "User gives a detailed prompt to generate a 2000s vibe photo of a teenager in his messy bedroom.",
-    "tags": [
-      "2000s",
-      "nostalgia",
-      "bedroom"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Snapshot of a teenager in the early 2000s, sitting in his messy bedroom. The scene is captured with the warm, slightly faded colors and soft flash typical of instant film. The teenager wears baggy jeans, a graphic T-shirt, and sneakers from that era. The room is filled with authentic 2000s details: a bulky CRT monitor on a wooden desk, a stack of burned CDs, posters of rock bands and video games on the walls, a PlayStation 2 console with controllers, a lava lamp, wired headphones, and a flip phone on the nightstand. Clothing is scattered on the floor, along with school notebooks. The photo feels casual and candid, with imperfect framing and nostalgic atmosphere, like a real memory from that time."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "AndrewJumpen",
-      "platform": "Reddit"
-    },
-    "originalSourceUrl": "https://www.reddit.com/gallery/1n7g68q",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 222
-    },
-    "createdAt": "2025-09-03T14:22:27.000Z",
-    "updatedAt": "2025-12-15T00:56:45.768Z",
-    "modality": [
-      "text"
-    ]
-  },
-  {
     "id": "2ac95f0f-26eb-4eba-8484-2d1687a6a776",
     "title": "Banana is a real Pro",
     "description": "User provides a detailed prompt for generating a high-fidelity GTA VI scene with a female character.",
@@ -1332,46 +1002,6 @@
     "updatedAt": "2025-12-15T00:57:06.526Z",
     "modality": [
       "image"
-    ]
-  },
-  {
-    "id": "722b2dc0-900b-4377-a2a2-fca237b9392f",
-    "title": "Natural single-take UGC video from still image",
-    "description": "Prompt used with VEO3/higgsfield to generate a natural, single-take video of the person in the supplied image speaking to the camera with specified dialogue, gestures, and strict rules for camera and lighting stability.",
-    "tags": [
-      "video",
-      "ugc",
-      "single-take"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "Generate a natural single-take video of the person in the image speaking directly to the camera in a casual, authentic Gen Z tone. Keep everything steady: no zooms, no transitions, no lighting changes. The person should deliver the dialogue naturally, as if ranting to a friend. Dialogue: \"Every time I get paid, I swear I’m rich for, like… two days. First thing I do? Starbucks.\" Gestures & Expressions: - Small hand raise at \"I swear I’m rich.\" - Simple, tiny shrug at \"Starbucks.\" - Keep facial expressions natural, no exaggeration. - Posture and lighting stay exactly the same throughout. Rules (must NOT break): ```json { \"forbidden_behaviors\": [ {\"id\": \"laughter\", \"rule\": \"No laughter or giggles at any time.\"}, {\"id\": \"camera_movement\", \"rule\": \"No zooms, pans, or camera movement. Keep still.\"}, {\"id\": \"lighting_changes\", \"rule\": \"No changes to exposure, brightness, or lighting.\"}, {\"id\": \"exaggerated_gestures\", \"rule\": \"No large hand or arm movements. Only minimal gestures.\"}, {\"id\": \"cuts_transitions\", \"rule\": \"No cuts, fades, or edits. Must feel like one take.\"}, {\"id\": \"framing_changes\", \"rule\": \"Do not change framing or subject position.\"}, {\"id\": \"background_changes\", \"rule\": \"Do not alter or animate the background.\"}, {\"id\": \"auto_graphics\", \"rule\": \"Do not add text, stickers, or captions.\"}, {\"id\": \"audio_inconsistency\", \"rule\": \"Maintain steady audio levels, no music or changes.\"}, {\"id\": \"expression_jumps\", \"rule\": \"No sudden or exaggerated expression changes.\"}, {\"id\": \"auto_enhancements\", \"rule\": \"No filters, auto-beautify, or mid-video grading changes.\"} ] } ```"
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "Silent_Employment966",
-      "platform": "Reddit"
-    },
-    "originalSourceUrl": "https://v.redd.it/eeym1s5yyasf1",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 147
-    },
-    "createdAt": "2025-09-30T13:21:27.000Z",
-    "updatedAt": "2025-12-15T00:57:06.526Z",
-    "modality": [
-      "text"
     ]
   },
   {
@@ -3344,46 +2974,6 @@
     ]
   },
   {
-    "id": "77e906e3-12f0-48a2-8491-6796a4b00ba0",
-    "title": "An extreme macro close-up of the",
-    "description": "An extreme macro close-up of the Oakley goggle lens worn by the rider. The lens is a vibrant \"Prizm\" Gold or Orange iridium. The entire surface of the curved glass is filled with a crystal-clear reflection of the massive, apocalyptic dust storm from the previous shots. The reflection is so sharp it acts as a monitor showing the danger ahead. We see the rim of the dusty helmet and the foam of the goggles pressed against her skin.",
-    "tags": [
-      "macro",
-      "goggles",
-      "storm"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "An extreme macro close-up of the Oakley goggle lens worn by the rider. The lens is a vibrant \"Prizm\" Gold or Orange iridium. The entire surface of the curved glass is filled with a crystal-clear reflection of the massive, apocalyptic dust storm from the previous shots. The reflection is so sharp it acts as a monitor showing the danger ahead. We see the rim of the dusty helmet and the foam of the goggles pressed against her skin."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "ChaseAI",
-      "platform": "Reddit"
-    },
-    "originalSourceUrl": "https://v.redd.it/i2462mf4fn3g1",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 278
-    },
-    "createdAt": "2025-11-26T18:59:29.000Z",
-    "updatedAt": "2025-12-15T01:08:32.048Z",
-    "modality": [
-      "text"
-    ]
-  },
-  {
     "id": "9b8415b0-760e-4076-9bd5-059811b8bba4",
     "title": "A low-angle shot of a scorpion",
     "description": "A low-angle shot of a scorpion hunkered down on a rock. The wind from the previous shot is visibly whipping sand past it at high speed. The scorpion is bracing itself against the gale, tail curled tight. The lighting is dark and moody, emphasizing the harshness of the incoming weather. It shows the environment is becoming unlivable.",
@@ -3462,46 +3052,6 @@
     "updatedAt": "2025-12-15T01:08:32.048Z",
     "modality": [
       "image"
-    ]
-  },
-  {
-    "id": "a9f833b7-f782-4358-8dd7-8ff77e5c1ac1",
-    "title": "Photos with detailed prompts",
-    "description": "Detailed photographic descriptions of various women in different settings and poses",
-    "tags": [
-      "photorealistic",
-      "portrait",
-      "blonde woman"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash",
-      "gemini-2.0-flash",
-      "gemini-2.5-pro"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "A detailed, full-body photograph captures a female with shoulder-length, layered blonde hair and intense blue eyes, who gazes directly at the camera. She is positioned in profile, leaning with her right hand against a large, dark, textured rock face. The subject wears a bright red, one-piece swimsuit with a high-cut leg opening and a very deep, plunging side cut that exposes the entire side of her torso and the side of her left breast. A small black ink tattoo of a wave is visible on her left ribcage. Her left hand, which features a small floral tattoo on the back, rests on her hip, gently pulling at the swimsuit's fabric. A delicate silver-colored ring pierces her left nostril. The scene is illuminated by bright, natural daylight that accentuates the texture of her tanned skin and the rugged surface of the rock behind her."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "walnuts303",
-      "platform": "Reddit"
-    },
-    "originalSourceUrl": "https://www.reddit.com/gallery/1ol1d13",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 252
-    },
-    "createdAt": "2025-10-31T17:49:43.000Z",
-    "updatedAt": "2025-12-15T01:09:04.094Z",
-    "modality": [
-      "text"
     ]
   },
   {
@@ -3825,131 +3375,6 @@
     "updatedAt": "2025-12-15T01:09:39.113Z",
     "modality": [
       "text"
-    ]
-  },
-  {
-    "id": "a70e26ad-1115-4552-833a-70d91c42776b",
-    "title": "Portrait prompt 1 (man, black tshirt)",
-    "description": "Found these portrait prompts on X and tried them with Nano Banana. They work very well!  You just upload 1–3 images of yourself in Gemini (recommend 2-3 for best accuracy) and paste the prompt.\n\nprompt 1 (man, black tshirt)\n[reference image], black-and-white mid-shot portrait, subject leaning forward elbows on knees, intense direct gaze, soft studio shadows creating dimensional depth, timeless editorial atmosphere, 50mm lens",
-    "tags": [
-      "portrait",
-      "black-and-white",
-      "studio"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash-image",
-      "gemini-2.5-flash-image-preview",
-      "gemini-3-pro-image-preview",
-      "nano-banana-pro-preview"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "[reference image], black-and-white mid-shot portrait, subject leaning forward elbows on knees, intense direct gaze, soft studio shadows creating dimensional depth, timeless editorial atmosphere, 50mm lens"
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "No_Young5492",
-      "platform": "Reddit"
-    },
-    "originalSourceUrl": "https://www.reddit.com/gallery/1o6gv31",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 117
-    },
-    "createdAt": "2025-10-14T14:21:47.000Z",
-    "updatedAt": "2025-12-15T01:10:29.694Z",
-    "modality": [
-      "image"
-    ]
-  },
-  {
-    "id": "ef843c43-c962-4471-a8dc-585a5079cd69",
-    "title": "Nano Banana 2 dynamic closeup",
-    "description": "Was messing around with nano bannana 2 and i'm really impressed with how accurate it can be. Another thing I noticed is that it doesnt have a lot of restrictions (as of right now). also heres the prompt I used if u wanna give it a go.\n\n\"dynamic high-resolution medium closeup image of the two of them posing for a photo outside at [Location], dynamic poses, realistic, 4k. do not alter there faces whatsoever. natural realistic lighting.\"",
-    "tags": [
-      "portrait",
-      "dynamic",
-      "realistic"
-    ],
-    "compatibleModels": [
-      "imagen-4.0-generate-preview-06-06",
-      "imagen-4.0-ultra-generate-preview-06-06",
-      "gemini-2.5-flash-image",
-      "gemini-2.5-flash-image-preview",
-      "gemini-3-pro-image-preview",
-      "nano-banana-pro-preview"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "dynamic high-resolution medium closeup image of the two of them posing for a photo outside at [Location], dynamic poses, realistic, 4k. do not alter there faces whatsoever. natural realistic lighting."
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "iAreButterz",
-      "platform": "Reddit"
-    },
-    "originalSourceUrl": "https://i.redd.it/pwfx7bydmi2g1.jpeg",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 114
-    },
-    "createdAt": "2025-11-21T01:45:01.000Z",
-    "updatedAt": "2025-12-15T01:10:29.694Z",
-    "modality": [
-      "image"
-    ]
-  },
-  {
-    "id": "ad8939cc-9562-4928-939d-e63b040d45e7",
-    "title": "Editorial Prompting Structure (initial prompt)",
-    "description": "Prompt using a series of images and text to create image variations.\n\n1st start here,\n\nimage{\n\"scene\": \"minimalist studio portrait with a plain, soft blue background\",\n\"subject\": \"dark-skin woman with short hair wearing an oversized dark blazer and striking blue tinted glasses\",\n\"pose\": \"frontal pose, looking directly at the camera with a neutral expression\",\n\"style\": \"high-fashion editorial, moody lighting, clean composition\",\n\"lighting\": \"soft diffused studio lighting from the front, creating smooth shadows and balanced contrast\",\n\"camera\": \"eye-level angle with a normal lens, shallow depth of field emphasizing the subject's face\"\n}\n\nThen use shorter prompts along with the 1st image to make changes.\n\nimage{\n\"subject\": \"blue tinted glasses\",\n\"camera\": \"extreme macro close-up of the subject\"\n}\n\nimage{\n\"subject\": \"the woman's lips\",\n\"camera\": \"extreme macro close-up of the subject\"\n}\n\nDon't use junk words like (8k, masterpiece, hyperrealistic, etc). They don't do anything except muddy the prompt. Learn to describe lighting, camera position, quality. Be specific, but be efficient.",
-    "tags": [
-      "editorial",
-      "studio",
-      "portrait"
-    ],
-    "compatibleModels": [
-      "gemini-2.5-flash-image",
-      "gemini-2.5-flash-image-preview",
-      "gemini-3-pro-image-preview",
-      "nano-banana-pro-preview"
-    ],
-    "contents": [
-      {
-        "role": "user",
-        "parts": [
-          {
-            "text": "image{\n\"scene\": \"minimalist studio portrait with a plain, soft blue background\",\n\"subject\": \"dark-skin woman with short hair wearing an oversized dark blazer and striking blue tinted glasses\",\n\"pose\": \"frontal pose, looking directly at the camera with a neutral expression\",\n\"style\": \"high-fashion editorial, moody lighting, clean composition\",\n\"lighting\": \"soft diffused studio lighting from the front, creating smooth shadows and balanced contrast\",\n\"camera\": \"eye-level angle with a normal lens, shallow depth of field emphasizing the subject's face\"\n}"
-          }
-        ]
-      }
-    ],
-    "author": {
-      "name": "kngzero",
-      "platform": "Reddit"
-    },
-    "originalSourceUrl": "https://www.reddit.com/gallery/1otuoag",
-    "stats": {
-      "views": 0,
-      "copies": 0,
-      "likes": 105
-    },
-    "createdAt": "2025-11-11T00:12:34.000Z",
-    "updatedAt": "2025-12-15T01:10:29.694Z",
-    "modality": [
-      "image"
     ]
   },
   {
