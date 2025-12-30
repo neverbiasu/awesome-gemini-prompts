@@ -27,7 +27,7 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/examples/Story_Writing_with_Prompt_Chaining.ipynb",
-    "createdAt": "2025-12-29T02:30:13.302Z"
+    "createdAt": "2025-12-30T02:21:23.501Z"
   },
   {
     "id": "github-9893b88e201a",
@@ -57,7 +57,7 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/examples/prompting/Role_prompting.ipynb",
-    "createdAt": "2025-12-29T02:30:13.404Z"
+    "createdAt": "2025-12-30T02:21:23.615Z"
   },
   {
     "id": "github-62ef3b508a3f",
@@ -87,7 +87,7 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/examples/prompting/Self_ask_prompting.ipynb",
-    "createdAt": "2025-12-29T02:30:13.514Z"
+    "createdAt": "2025-12-30T02:21:23.790Z"
   },
   {
     "id": "github-2b28d5f4ba91",
@@ -117,7 +117,7 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/examples/prompting/Basic_Information_Extraction.ipynb",
-    "createdAt": "2025-12-29T02:30:13.621Z"
+    "createdAt": "2025-12-30T02:21:23.920Z"
   },
   {
     "id": "github-1c84611f7a77",
@@ -147,7 +147,7 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/quickstarts/Get_started_LearnLM.ipynb",
-    "createdAt": "2025-12-29T02:30:13.751Z"
+    "createdAt": "2025-12-30T02:21:24.067Z"
   },
   {
     "id": "github-issue-12",
@@ -226,6 +226,201 @@
     },
     "createdAt": "2025-12-09T03:54:33Z",
     "updatedAt": "2025-12-09T09:49:17Z"
+  },
+  {
+    "id": "github-issue-9",
+    "title": "test prompt title",
+    "description": "test desc",
+    "tags": [
+      "nano-banana",
+      "community-submission",
+      "image-generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Title\n\ntest prompt title"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://x.com/jaredliu_bravo/status/1991918514752667782",
+    "author": {
+      "name": "Jaredddd",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/9",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-07T05:11:22Z",
+    "updatedAt": "2025-12-07T05:11:51Z"
+  },
+  {
+    "id": "github-issue-8",
+    "title": "test title",
+    "description": "test description",
+    "tags": [
+      "nano-banana",
+      "community-submission",
+      "image-generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Title\n\ntest title"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/8",
+    "author": {
+      "name": "Jared Liu",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/8",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-07T04:55:13Z",
+    "updatedAt": "2025-12-07T04:55:36Z"
+  },
+  {
+    "id": "github-issue-7",
+    "title": "test",
+    "description": "test",
+    "tags": [
+      "nano-banana",
+      "community-submission",
+      "image-generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Title\n\ntest"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/7",
+    "author": {
+      "name": "Jared",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/7",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-07T04:25:22Z",
+    "updatedAt": "2025-12-07T04:30:02Z"
+  },
+  {
+    "id": "github-issue-6",
+    "title": "test",
+    "description": "testtttt",
+    "tags": [
+      "nano-banana",
+      "community-submission",
+      "image-generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Title\n\ntest"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/6",
+    "author": {
+      "name": "Jared",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/6",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-07T04:16:00Z",
+    "updatedAt": "2025-12-07T04:16:20Z"
+  },
+  {
+    "id": "github-issue-5",
+    "title": "Test Prompt",
+    "description": "test 4 test",
+    "tags": [
+      "nano-banana",
+      "community-submission",
+      "image-generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Title\n\nTest Prompt"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/5",
+    "author": {
+      "name": "me",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/5",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-07T04:07:20Z",
+    "updatedAt": "2025-12-07T04:07:33Z"
   },
   {
     "id": "github-issue-4",
