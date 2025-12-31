@@ -1,14 +1,26 @@
 # 项目看板 (Project Kanban)
 
-> **当前版本**: v0.2.0 (MVP) | **最后更新**: 2025-12-30 | **数据量**: 1,144 prompts
+> **当前版本**: v0.2.0 (MVP) | **最后更新**: 2025-12-31 | **数据量**: 1,144 prompts
 
 ## 🚀 Product Hunt Launch 冲刺 (Pre-Launch)
 **目标**: 提升分享转化率和第一印象，为 PH 发布做准备。
 
-- [ ] **动态 OG Image**: 使用 `@vercel/og` 为每个 Prompt 页面生成精美预览图 (标题 + 来源 + 标签)。
-- [ ] **移动端适配**: 检查并优化手机端的 Navbar 折叠和卡片布局。
-- [ ] **README 美化**: 添加 Banner图、功能列表、Tech Stack 徽章，让 GitHub 仓库看起来专业。
-- [ ] **数据埋点**: 集成 Google Analytics (GA4) 或 PostHog，追踪 "Copy" 和 "Run" 的点击。
+- [x] **动态 OG Image**: 使用 `@vercel/og` 为每个 Prompt 页面生成精美预览图。
+- [x] **README 美化**: 添加 Banner图、功能列表、Tech Stack 徽章。
+- [x] **Landing Page**: 极简高级黑白风，含 Featured Prompts 演示。
+- [ ] **移动端适配**: 最终真机验收。
+- [ ] **数据埋点**: 集成 Google Analytics (GA4) 或 PostHog。
+
+## 🌍 Marketing & Launch (宣发准备)
+**目标**: 在 Product Hunt 拿到 Top 5，获取首批 1000 个 Star。
+
+- [ ] **域名购买**: 购买 `.io` 或 `.dev` 域名。
+- [ ] **Asset 制作**:
+    - [ ] App 交互录屏 (Demo Video)
+    - [ ] 5张高颜值截图 (Landing, Hub, Detail, Mobile)
+    - [ ] Maker's Comment
+- [ ] **Copywriting**: 为 Reddit (r/GoogleGemini) 和 HN 撰写文案。
+- [ ] **Social**: Twitter 预热。
 
 ## 🟢 第一阶段：基础建设 (已完成)
 - [x] **项目初始化**: Next.js 14, TailwindCSS, HeroUI 环境搭建
