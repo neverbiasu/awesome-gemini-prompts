@@ -27,7 +27,7 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/examples/Story_Writing_with_Prompt_Chaining.ipynb",
-    "createdAt": "2025-12-30T02:21:23.501Z"
+    "createdAt": "2025-12-31T02:21:26.098Z"
   },
   {
     "id": "github-9893b88e201a",
@@ -57,7 +57,7 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/examples/prompting/Role_prompting.ipynb",
-    "createdAt": "2025-12-30T02:21:23.615Z"
+    "createdAt": "2025-12-31T02:21:26.305Z"
   },
   {
     "id": "github-62ef3b508a3f",
@@ -87,7 +87,7 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/examples/prompting/Self_ask_prompting.ipynb",
-    "createdAt": "2025-12-30T02:21:23.790Z"
+    "createdAt": "2025-12-31T02:21:26.487Z"
   },
   {
     "id": "github-2b28d5f4ba91",
@@ -117,7 +117,7 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/examples/prompting/Basic_Information_Extraction.ipynb",
-    "createdAt": "2025-12-30T02:21:23.920Z"
+    "createdAt": "2025-12-31T02:21:26.642Z"
   },
   {
     "id": "github-1c84611f7a77",
@@ -147,7 +147,46 @@
       "platform": "GitHub"
     },
     "originalSourceUrl": "https://github.com/google-gemini/cookbook/blob/d4bf2113234550cfeeccc9f1f96180e234fd1782/quickstarts/Get_started_LearnLM.ipynb",
-    "createdAt": "2025-12-30T02:21:24.067Z"
+    "createdAt": "2025-12-31T02:21:26.809Z"
+  },
+  {
+    "id": "github-issue-20",
+    "title": "超逼真街拍生活照",
+    "description": "超逼真街拍生活照，高档生活",
+    "tags": [
+      "nano-banana",
+      "community-submission",
+      "image-generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Title\n\n超逼真街拍生活照"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://x.com/xIrissy/status/2004896478720868698",
+    "author": {
+      "name": "@xIrissy",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/20",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-28T10:47:08Z",
+    "updatedAt": "2025-12-30T02:33:42Z"
   },
   {
     "id": "github-issue-12",

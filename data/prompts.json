@@ -49747,5 +49747,44 @@
     "modality": [
       "image"
     ]
+  },
+  {
+    "id": "github-issue-20",
+    "title": "超逼真街拍生活照",
+    "description": "超逼真街拍生活照，高档生活",
+    "tags": [
+      "nano-banana",
+      "community-submission",
+      "image-generation"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-flash-image"
+    ],
+    "modality": [
+      "image"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Title\n\n超逼真街拍生活照"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://x.com/xIrissy/status/2004896478720868698",
+    "author": {
+      "name": "@xIrissy",
+      "url": "https://github.com/YouMind-OpenLab/awesome-nano-banana-pro-prompts/issues/20",
+      "platform": "GitHub"
+    },
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    },
+    "createdAt": "2025-12-28T10:47:08Z",
+    "updatedAt": "2025-12-30T02:33:42Z"
   }
 ]
