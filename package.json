@@ -30,6 +30,7 @@
     "@octokit/graphql": "^9.0.3",
     "@octokit/rest": "^22.0.1",
     "@the-convocation/twitter-scraper": "^0.21.0",
+    "@vercel/og": "^0.8.6",
     "ai": "^5.0.102",
     "clsx": "^2.1.1",
     "dotenv": "^17.2.3",
