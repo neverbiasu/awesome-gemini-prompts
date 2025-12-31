@@ -19357,7 +19357,8 @@
     "tags": [
       "gaming",
       "character",
-      "animation"
+      "animation",
+      "image"
     ],
     "compatibleModels": [
       "gemini-2.5-flash",
@@ -19387,7 +19388,7 @@
     "createdAt": "2025-11-22T21:39:59.000Z",
     "updatedAt": "2025-12-20T00:56:25.806Z",
     "modality": [
-      "text"
+      "image"
     ]
   },
   {
@@ -43454,7 +43455,8 @@
     "tags": [
       "twitter",
       "community",
-      "search-result"
+      "search-result",
+      "image"
     ],
     "author": {
       "name": "@NanoBanana",
@@ -43480,7 +43482,7 @@
     "createdAt": "2025-12-08T10:07:22.000Z",
     "updatedAt": "2025-12-08T13:22:59.739Z",
     "modality": [
-      "text"
+      "image"
     ]
   },
   {
@@ -43490,7 +43492,8 @@
     "tags": [
       "twitter",
       "community",
-      "search-result"
+      "search-result",
+      "image"
     ],
     "author": {
       "name": "@NanoBanana",
@@ -43516,7 +43519,7 @@
     "createdAt": "2025-12-07T00:16:57.000Z",
     "updatedAt": "2025-12-08T13:22:59.740Z",
     "modality": [
-      "text"
+      "image"
     ]
   },
   {
@@ -43526,7 +43529,8 @@
     "tags": [
       "twitter",
       "community",
-      "search-result"
+      "search-result",
+      "image"
     ],
     "author": {
       "name": "@NanoBanana",
@@ -43552,7 +43556,7 @@
     "createdAt": "2025-12-06T19:40:53.000Z",
     "updatedAt": "2025-12-08T13:22:59.740Z",
     "modality": [
-      "text"
+      "image"
     ]
   },
   {
@@ -43562,7 +43566,8 @@
     "tags": [
       "twitter",
       "community",
-      "search-result"
+      "search-result",
+      "image"
     ],
     "author": {
       "name": "@NanoBanana",
@@ -43588,7 +43593,7 @@
     "createdAt": "2025-12-05T23:28:16.000Z",
     "updatedAt": "2025-12-08T13:22:59.740Z",
     "modality": [
-      "text"
+      "image"
     ]
   },
   {
@@ -43598,7 +43603,8 @@
     "tags": [
       "twitter",
       "community",
-      "search-result"
+      "search-result",
+      "image"
     ],
     "author": {
       "name": "@NanoBanana",
@@ -43624,7 +43630,7 @@
     "createdAt": "2025-12-05T18:27:32.000Z",
     "updatedAt": "2025-12-08T13:22:59.740Z",
     "modality": [
-      "text"
+      "image"
     ]
   },
   {
@@ -43634,7 +43640,8 @@
     "tags": [
       "twitter",
       "community",
-      "search-result"
+      "search-result",
+      "image"
     ],
     "author": {
       "name": "@NanoBanana",
@@ -43660,7 +43667,7 @@
     "createdAt": "2025-12-04T15:36:41.000Z",
     "updatedAt": "2025-12-08T13:22:59.740Z",
     "modality": [
-      "text"
+      "image"
     ]
   },
   {
@@ -43744,7 +43751,8 @@
       "twitter",
       "community",
       "playwright",
-      "search-result"
+      "search-result",
+      "image"
     ],
     "author": {
       "name": "@GoogleDeepMind",
@@ -43770,7 +43778,7 @@
     "createdAt": "2025-12-05T16:00:59.000Z",
     "updatedAt": "2025-12-08T15:58:31.189Z",
     "modality": [
-      "text"
+      "image"
     ]
   },
   {
