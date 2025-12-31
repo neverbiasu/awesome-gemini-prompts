@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Awesome Gemini Prompts ✦
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+![Awesome Gemini Prompts Banner](https://placehold.co/1200x400/18181b/ffffff?text=Awesome+Gemini+Prompts&font=raleway)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**The largest open-source collection of high-quality, hand-picked, and LLM-cleaned prompts for Google Gemini.**
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fneverbiasu%2Fawesome-gemini-prompts)
+[![Prompts](https://img.shields.io/badge/Prompts-1%2C100%2B-blue)](https://awesome-gemini-prompts.vercel.app)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+[Explore Prompts](https://awesome-gemini-prompts.vercel.app) · [Submit Prompt](https://github.com/neverbiasu/awesome-gemini-prompts/issues) · [Report Bug](https://github.com/neverbiasu/awesome-gemini-prompts/issues)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+</div>
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## ✨ Features
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **📚 1,100+ Curated Prompts**: Sourced from Reddit, X (Twitter), GitHub, and Google Docs.
+- **🧹 AI-Powered Cleaning**: Every prompt is analyzed, deduplicated, and cleaned by **Gemini 2.5** & **ModelScope (Qwen)** to ensure quality.
+- **⚡️ One-Click Run**: Open any prompt directly in **Google AI Studio** with pre-filled parameters.
+- **🎨 Modality Aware**: Filters for **Text Generation**, **Image Creation** (Imagen 3/4), and Code.
+- **🔍 Smart Search**: Instant search and tag filtering to find exactly what you need.
+- **📱 Responsive Design**: Beautiful, dark-mode optimized UI built with Next.js & HeroUI.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🛠️ Data Pipeline
 
-## Deploy on Vercel
+We don't just copy-paste. We built a robust data engineering pipeline:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1.  **Ingestion**: Automated scrapers run daily on Reddit (r/GeminiAI, r/PromptEngineering) and X (Twitter Search).
+2.  **Cleaning**: Raw data is fed into our LLM Cleaner (`src/scripts/clean.ts`).
+    *   **Deduplication**: Semantic clustering removes duplicates.
+    *   **Classification**: Auto-tags modality (Image/Text) and compatible models.
+    *   **Filtering**: Rejects low-quality or "test" prompts.
+3.  **Audit**: A second LLM pass (`clean:audit`) performs quality assurance and merges variants.
+4.  **Deployment**: Validated JSON replaces the production database.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18+
+- Bun (recommended) or npm/yarn
+
+### Installation
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/neverbiasu/awesome-gemini-prompts.git
+    cd awesome-gemini-prompts
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    bun install
+    ```
+
+3.  **Run development server**
+    ```bash
+    bun dev
+    ```
+
+4.  Open [http://localhost:3000](http://localhost:3000) to view the app.
+
+## 🤝 Contributing
+
+We welcome contributions! Whether it's adding a new prompt or improving the code.
+
+### Adding a Prompt
+1.  Go to [Issues](https://github.com/neverbiasu/awesome-gemini-prompts/issues).
+2.  Create a "New Issue" using the **Prompt Submission** template.
+
+### Improving Code
+1.  Fork the repo.
+2.  Create a branch (`git checkout -b feature/amazing-feature`).
+3.  Commit your changes.
+4.  Open a Pull Request.
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+  Built with ❤️ by the open source community.
+</div>
