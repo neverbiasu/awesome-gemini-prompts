@@ -15,9 +15,8 @@ function NavbarContent() {
   const currentCategory = searchParams.get("category");
   
   const navItems = [
-    { name: "All", href: "/" },
-    { name: "Text", href: "/hub?category=text" },
-    { name: "Image", href: "/hub?category=image" },
+    { name: "Home", href: "/" },
+    { name: "Hub", href: "/hub" },
     { name: "Guide", href: "/about" },
   ];
 
@@ -53,7 +52,7 @@ function NavbarContent() {
         {/* Centered Navigation Links */}
         <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 hidden md:flex items-center gap-1 bg-white/5 rounded-full p-1 border border-white/5">
           {navItems.map((item) => {
-            const isActive = pathname === "/hub" && currentCategory === item.name.toLowerCase();
+            const isActive = pathname === item.href;
             return (
               <Link 
                 key={item.name}
