@@ -6,7 +6,7 @@
 
 **The largest open-source collection of high-quality, hand-picked, and LLM-cleaned prompts for Google Gemini.**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fneverbiasu%2Fawesome-gemini-prompts)
 [![Prompts](https://img.shields.io/badge/Prompts-1%2C100%2B-blue)](https://awesome-gemini-prompts.vercel.app)
@@ -81,7 +81,9 @@ We welcome contributions! Whether it's adding a new prompt or improving the code
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is licensed under the [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+You are free to **Share** and **Adapt** the material for **NonCommercial** purposes, as long as you give appropriate credit and distribute your contributions under the same license.
 
 ---
 

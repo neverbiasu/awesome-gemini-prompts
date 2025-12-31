@@ -182,7 +182,7 @@ export default function LandingPage() {
            </div>
            
            <div className="border-t border-white/5 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-[10px] text-zinc-600">
-              <p>© 2025 Awesome Gemini Prompts. Open Source MIT License.</p>
+              <p>© 2025 Awesome Gemini Prompts. Released under CC BY-NC-SA 4.0.</p>
               <div className="flex gap-4">
                  <span>Built using Next.js 14</span>
                  <span>Hosted on Vercel</span>
