@@ -20,8 +20,33 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Awesome Gemini Prompts | The Open Source Prompt IDE",
-  description: "Discover, test, and share high-quality Gemini prompts. The open-source prompt engineering IDE for the Gemini era.",
+  metadataBase: new URL('https://awesome-gemini-prompts.vercel.app'),
+  title: {
+    default: "Awesome Gemini Prompts | The Ultimate Collection",
+    template: "%s | Awesome Gemini Prompts"
+  },
+  description: "The largest open-source collection of LLM-verified prompts optimized for Gemini 2.5, Gemini 3, and Nano Banana.",
+  openGraph: {
+    type: 'website',
+    locale: 'en_US',
+    url: 'https://awesome-gemini-prompts.vercel.app',
+    siteName: 'Awesome Gemini Prompts',
+    images: [
+      {
+        url: '/api/og?title=Awesome Gemini Prompts&tags=Gemini,AI,Prompts',
+        width: 1200,
+        height: 630,
+        alt: 'Awesome Gemini Prompts',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Awesome Gemini Prompts',
+    description: 'The largest open-source collection of verified Gemini prompts.',
+    creator: '@neverbiasu',
+    images: ['/api/og?title=Awesome Gemini Prompts&tags=Gemini,AI,Prompts'],
+  },
 };
 
 // ...

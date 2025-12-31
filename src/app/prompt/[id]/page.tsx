@@ -27,6 +27,50 @@ interface PageProps {
   params: Promise<{ id: string }>;
 }
 
+import { Metadata } from 'next';
+
+export async function generateMetadata(props: PageProps): Promise<Metadata> {
+  const params = await props.params;
+  const prompts = await getPrompts();
+  const prompt = prompts.find(p => p.id === params.id);
+
+  if (!prompt) {
+    return {
+      title: 'Prompt Not Found',
+    };
+  }
+
+  const ogUrl = new URL('https://awesome-gemini-prompts.vercel.app/api/og');
+  ogUrl.searchParams.set('title', prompt.title);
+  ogUrl.searchParams.set('description', prompt.description);
+  if (prompt.tags) {
+    ogUrl.searchParams.set('tags', prompt.tags.slice(0, 3).join(','));
+  }
+
+  return {
+    title: prompt.title,
+    description: prompt.description,
+    openGraph: {
+      title: prompt.title,
+      description: prompt.description,
+      images: [
+        {
+          url: ogUrl.toString(),
+          width: 1200,
+          height: 630,
+          alt: prompt.title,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title: prompt.title,
+      description: prompt.description,
+      images: [ogUrl.toString()],
+    },
+  };
+}
+
 const PLATFORM_ICONS: Record<string, React.ElementType> = {
   GitHub: FaGithub,
   Reddit: FaReddit,
