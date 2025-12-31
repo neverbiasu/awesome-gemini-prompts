@@ -84,10 +84,10 @@ function NavbarContent() {
               <FaGithub size={20} />
             </Link>
             <Link 
-              href="https://www.reddit.com/r/GeminiAI/" 
+              href="https://www.reddit.com/r/awesomegeminiprompts/" 
               target="_blank"
               className="p-2 text-zinc-400 hover:text-[#FF4500] transition-colors hover:bg-white/5 rounded-full"
-              aria-label="Reddit"
+              aria-label="Reddit Community"
             >
               <FaReddit size={20} />
             </Link>

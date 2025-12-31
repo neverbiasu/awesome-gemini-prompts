@@ -169,6 +169,7 @@ export default function LandingPage() {
                     <li><Link href="https://ai.google.dev" className="hover:text-white transition-colors">Gemini API</Link></li>
                     <li><Link href="/about" className="hover:text-white transition-colors">Documentation</Link></li>
                     <li><Link href="https://github.com/neverbiasu/awesome-gemini-prompts" className="hover:text-white transition-colors">GitHub</Link></li>
+                    <li><Link href="https://www.reddit.com/r/awesomegeminiprompts/" className="hover:text-white transition-colors text-[#FF4500]">Reddit Community</Link></li>
                  </ul>
               </div>
 
