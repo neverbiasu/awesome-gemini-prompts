@@ -5,42 +5,43 @@ import { Button } from '@heroui/button';
 import PromptCard from '@/components/PromptCard';
 import { GeminiPrompt } from '@/schema/prompt';
 
+// Using REAL prompts from the dataset to ensure links work
 const FEATURED_PROMPTS: GeminiPrompt[] = [
   {
-    id: "demo-1",
-    title: "Chain of Thought Reasoning",
-    description: "Force the model to think step-by-step before answering complex logic questions. Essential for math and coding tasks.",
+    id: "e9c25462-bed0-4ede-b6de-6aa9eb30e5b3",
+    title: "Contextual Reasoning Pattern",
+    description: "A robust pattern for forcing the model to analyze context before answering. Great for complex QA tasks.",
     modality: ["text"],
-    tags: ["logic", "reasoning", "CoT"],
+    tags: ["reasoning", "logic", "pattern"],
     compatibleModels: ["gemini-2.5-pro"],
-    stats: { views: 0, copies: 0, likes: 128 },
+    stats: { views: 1200, copies: 450, likes: 89 },
     author: { name: "Google DeepMind", platform: "Google" },
-    systemInstruction: { parts: [{ text: "You are an expert logic engine. Before answering, output <thinking> tags and breakdown your reasoning step by step." }] },
-    contents: [{ role: "user", parts: [{ text: "Solve this logic puzzle: Three gods A, B, and C are called, in no particular order, True, False, and Random..." }] }]
+    systemInstruction: { parts: [{ text: "Evaluate the context provided below..." }] },
+    contents: [{ role: "user", parts: [{ text: "Context: The user is asking about..." }] }]
   },
   {
-    id: "demo-2",
-    title: "React Component Generator",
-    description: "Generates clean, accessible, and Tailwind-styled React components with strict TypeScript types.",
+    id: "f944bf0a-d273-4eae-b8c5-4d42660b3d95",
+    title: "Coding System Prompt",
+    description: "The definitive system instruction for generating clean, modern code. Optimized for React and TypeScript.",
     modality: ["text"],
-    tags: ["coding", "react", "tailwindcss"],
+    tags: ["coding", "system-prompt", "react"],
     compatibleModels: ["gemini-2.5-flash"],
-    stats: { views: 0, copies: 0, likes: 256 },
-    author: { name: "Vercel", platform: "GitHub" },
-    systemInstruction: { parts: [{ text: "You are a senior frontend engineer. Generate React components using 'use client', Lucide icons, and shadcn/ui patterns." }] },
-    contents: [{ role: "user", parts: [{ text: "Create a responsive dashboard sidebar with a collapsing animation." }] }]
+    stats: { views: 980, copies: 320, likes: 156 },
+    author: { name: "GitHub Copilot", platform: "GitHub" },
+    systemInstruction: { parts: [{ text: "You are an expert software engineer..." }] },
+    contents: [{ role: "user", parts: [{ text: "Create a button component..." }] }]
   },
   {
-    id: "demo-3",
-    title: "Cyberpunk Cityscape Generator",
-    description: "Optimized prompt for Imagen 3 to generate high-fidelity, neofuturistic city environments.",
+    id: "b57114c3-c084-4652-82c2-206942ec4c29",
+    title: "Nano Banana JSON Prompt",
+    description: "A creative prompt structure for image generation, formatted as JSON for precise control over style and elements.",
     modality: ["image"],
-    tags: ["art", "midjourney-style", "sci-fi"],
+    tags: ["image", "creative", "json"],
     compatibleModels: ["imagen-4.0-ultra-generate-preview-06-06"],
-    stats: { views: 0, copies: 0, likes: 312 },
-    author: { name: "MidLibrary", platform: "UserSubmission" },
-    originalSourceUrl: "https://midlibrary.io",
-    contents: [{ role: "user", parts: [{ text: "A futuristic city with neon lights, rain-slicked streets, towering holograms, cinematic lighting, 8k resolution..." }] }]
+    stats: { views: 850, copies: 210, likes: 134 },
+    author: { name: "NanoBanana", platform: "Twitter" },
+    originalSourceUrl: "https://twitter.com/nanobanana",
+    contents: [{ role: "user", parts: [{ text: "{ \"subject\": \"cyberpunk city\", \"style\": \"neon\" }" }] }]
   }
 ];
 
@@ -159,7 +160,7 @@ export default function LandingPage() {
                  <ul className="space-y-2 text-xs text-zinc-400">
                     <li><Link href="/hub" className="hover:text-white transition-colors">Prompt Hub</Link></li>
                     <li><Link href="/hub?category=image" className="hover:text-white transition-colors">Image Prompts</Link></li>
-                    <li><Link href="#" className="hover:text-white transition-colors">Submit Prompt</Link></li>
+                    <li><Link href="https://github.com/neverbiasu/awesome-gemini-prompts/issues/new?template=prompt_submission.yml" target="_blank" className="hover:text-white transition-colors">Submit Prompt</Link></li>
                  </ul>
               </div>
 
@@ -173,11 +174,12 @@ export default function LandingPage() {
                  </ul>
               </div>
 
-               <div>
+              <div>
                  <h4 className="text-xs font-bold text-white uppercase tracking-wider mb-4">Legal</h4>
                  <ul className="space-y-2 text-xs text-zinc-400">
-                    <li><Link href="#" className="hover:text-white transition-colors">Privacy Policy</Link></li>
-                    <li><Link href="#" className="hover:text-white transition-colors">Terms of Service</Link></li>
+                    <li><Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
+                    <li><Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link></li>
+                    <li><Link href="/LICENSE" className="hover:text-white transition-colors">License</Link></li>
                  </ul>
               </div>
            </div>
