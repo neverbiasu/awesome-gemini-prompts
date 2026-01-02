@@ -4,6 +4,8 @@ import { GeminiPrompt } from '@/schema/prompt';
 import PromptGrid from '@/components/PromptGrid';
 import Pagination from '@/components/Pagination';
 import Fuse from 'fuse.js';
+import HubClientLayout from '@/components/HubClientLayout';
+import FilterSidebar from '@/components/FilterSidebar';
 
 export const revalidate = 0;
 const ITEMS_PER_PAGE = 12;
@@ -19,43 +21,71 @@ async function getPrompts(): Promise<GeminiPrompt[]> {
   }
 }
 
-import HubClientLayout from '@/components/HubClientLayout';
-
-// ... (imports remain the same)
-
 interface HubPageProps {
-  searchParams: Promise<{ category?: string; q?: string; page?: string; sort?: string; platforms?: string; models?: string; tags?: string }>;
+  searchParams: Promise<{ 
+    q?: string; 
+    page?: string; 
+    sort?: string; 
+    models?: string; 
+    modality?: string;
+    tags?: string;
+  }>;
+}
+
+interface LegacyPrompt extends GeminiPrompt {
+  metaMetrics?: { stars?: number; upvotes?: number };
+  fetchedAt?: string | number;
+  sourcePlatform?: string;
 }
 
 export default async function HubPage(props: HubPageProps) {
   const searchParams = await props.searchParams;
-  const category = searchParams.category?.toLowerCase();
   const query = searchParams.q;
   const page = Number(searchParams.page) || 1;
   const sort = searchParams.sort || 'relevance';
   
-
+  // Parse Filters
+  const models = searchParams.models?.split(',').filter(Boolean);
+  const modality = searchParams.modality?.split(',').filter(Boolean);
+  const tags = searchParams.tags?.split(',').filter(Boolean);
 
   const allPrompts = await getPrompts();
   
-  // 1. Initial Filtering (Content & Category)
+  // 1. Initial Filtering (Content Check)
   let validPrompts = allPrompts.filter(p => 
     (p.contents && p.contents.length > 0 && p.contents[0].parts.some(part => part.text)) || 
     (p.promptText && p.promptText.trim().length > 0) ||
     (p.systemInstruction && p.systemInstruction.parts && p.systemInstruction.parts.some(part => part.text))
   );
 
-  if (category) {
+  // 2. Advanced Filtering
+  if (modality && modality.length > 0) {
     validPrompts = validPrompts.filter(p => {
-      const tags = p.tags?.map(t => t.toLowerCase()) || [];
-      if (category === 'text') {
-        return !tags.some(t => t.includes('image') || t.includes('video') || t.includes('audio') || t.includes('music') || t.includes('speech'));
-      }
-      return tags.some(t => t.includes(category));
+       const pModality = p.modality || [];
+       // If filter is "text", we want items that have "text". If "image", items with "image".
+       // Logic: OR condition (if selected 'text' and 'image', show items that match either? or strict?)
+       // Standard sidebar logic is usually OR within category.
+       return modality.some(m => pModality.includes(m as any));
     });
   }
 
-  // 2. Search Logic
+  if (models && models.length > 0) {
+    validPrompts = validPrompts.filter(p => {
+       const pModels = p.compatibleModels || [];
+       // Simple substring matching for models since they are nuanced (e.g. gemini-2.5-flash)
+       // If user selects 'nano', we want items compatible with nano.
+       return models.some(m => pModels.some(pm => pm.includes(m)));
+    });
+  }
+  
+  if (tags && tags.length > 0) {
+      validPrompts = validPrompts.filter(p => {
+          const pTags = p.tags || [];
+          return tags.some(t => pTags.includes(t));
+      });
+  }
+
+  // 3. Search Logic
   if (query) {
     const fuse = new Fuse(validPrompts, {
       keys: ['title', 'description', 'tags', 'contents.parts.text'],
@@ -65,13 +95,7 @@ export default async function HubPage(props: HubPageProps) {
     validPrompts = fuse.search(query).map(result => result.item);
   }
 
-interface LegacyPrompt extends GeminiPrompt {
-  metaMetrics?: { stars?: number; upvotes?: number };
-  fetchedAt?: string | number;
-  sourcePlatform?: string;
-}
-
-  // 3. Sorting Logic
+  // 4. Sorting Logic
   const sortedPrompts = validPrompts.sort((a, b) => {
     const getLikes = (p: GeminiPrompt) => {
       const legacy = p as LegacyPrompt;
@@ -103,11 +127,25 @@ interface LegacyPrompt extends GeminiPrompt {
     return getDate(b) - getDate(a);
   });
 
-  // 4. Pagination
+  // 5. Pagination
   const totalItems = sortedPrompts.length;
   const startIndex = (page - 1) * ITEMS_PER_PAGE;
   const endIndex = startIndex + ITEMS_PER_PAGE;
   const prompts = sortedPrompts.slice(startIndex, endIndex);
+
+  // 6. Aggregate Top Tags
+  const tagCounts: Record<string, number> = {};
+  allPrompts.forEach(p => {
+    p.tags?.forEach(t => {
+      const tag = t.toLowerCase();
+      tagCounts[tag] = (tagCounts[tag] || 0) + 1;
+    });
+  });
+  
+  const topTags = Object.entries(tagCounts)
+    .sort(([, a], [, b]) => b - a)
+    .slice(0, 20)
+    .map(([tag]) => tag);
 
   return (
     <main className="min-h-screen bg-black text-zinc-200 relative overflow-hidden">
@@ -119,7 +157,7 @@ interface LegacyPrompt extends GeminiPrompt {
         <header className="mb-8 flex flex-col items-center gap-6">
           <div className="text-center space-y-4 max-w-2xl">
             <h1 className="text-4xl md:text-5xl font-bold text-white tracking-tight bg-clip-text text-transparent bg-gradient-to-b from-white to-white/60">
-              {category ? `${category.charAt(0).toUpperCase() + category.slice(1)} Prompts` : 'Prompt Hub'}
+              Prompt Hub
             </h1>
             <p className="text-zinc-400 text-sm md:text-base">
               Explore {totalItems} curated prompts for Gemini. Optimized for 2.0 Flash, 2.5 Pro, and 3.0.
@@ -131,8 +169,16 @@ interface LegacyPrompt extends GeminiPrompt {
           totalItems={totalItems} 
           updatedDate={new Date().toLocaleDateString()}
         >
-          <PromptGrid prompts={prompts} />
-          <Pagination totalItems={totalItems} itemsPerPage={ITEMS_PER_PAGE} />
+          <div className="flex flex-col md:flex-row gap-8">
+             {/* Left: Filter Sidebar */}
+             <FilterSidebar topTags={topTags} />
+             
+             {/* Right: Grid & Pagination */}
+             <div className="flex-1 min-w-0">
+                <PromptGrid prompts={prompts} />
+                <Pagination totalItems={totalItems} itemsPerPage={ITEMS_PER_PAGE} />
+             </div>
+          </div>
         </HubClientLayout>
       </div>
     </main>
