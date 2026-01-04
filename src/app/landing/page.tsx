@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { Button } from '@heroui/button';
 import PromptCard from '@/components/PromptCard';
 import { GeminiPrompt } from '@/schema/prompt';
+import Logo from '@/components/Logo';
 
 // Using REAL prompts from the dataset to ensure links work
 const FEATURED_PROMPTS: GeminiPrompt[] = [
@@ -47,14 +48,14 @@ const FEATURED_PROMPTS: GeminiPrompt[] = [
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen bg-black text-white flex flex-col relative overflow-hidden selection:bg-blue-500/30">
+    <div className="bg-black text-white flex flex-col relative overflow-hidden selection:bg-blue-500/30">
       {/* Minimalist Background */}
       <div className="absolute inset-0 bg-black">
         {/* Subtle Grid - barely visible */}
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#ffffff05_1px,transparent_1px),linear-gradient(to_bottom,#ffffff05_1px,transparent_1px)] bg-[size:32px_32px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
       </div>
 
-      <div className="container mx-auto px-6 z-10 pt-24 pb-24 relative">
+      <div className="container mx-auto px-6 z-10 pt-24 pb-8 relative">
         
         {/* 1. Hero Content */}
         <div className="flex flex-col items-center text-center space-y-8 max-w-5xl mx-auto mb-20">
@@ -138,15 +139,7 @@ export default function LandingPage() {
               <div className="col-span-2 md:col-span-1">
                  <div className="flex items-center gap-2 mb-4">
                    <div className="w-8 h-8 relative">
-                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full drop-shadow-[0_0_10px_rgba(155,110,243,0.5)]">
-                      <path d="M12 2C12.5 7.5 16.5 11.5 22 12C16.5 12.5 12.5 16.5 12 22C11.5 16.5 7.5 12.5 2 12C7.5 11.5 11.5 7.5 12 2Z" fill="url(#gemini-gradient-footer)" />
-                      <defs>
-                        <linearGradient id="gemini-gradient-footer" x1="0%" y1="0%" x2="100%" y2="100%">
-                          <stop offset="0%" stopColor="#4E8CFF" />
-                          <stop offset="100%" stopColor="#FF9E64" />
-                        </linearGradient>
-                      </defs>
-                    </svg>
+                      <Logo className="w-full h-full" color="white" />
                    </div>
                    <span className="text-sm font-bold text-white tracking-tight">Awesome Gemini Prompts</span>
                  </div>

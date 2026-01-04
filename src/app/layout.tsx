@@ -44,8 +44,12 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Awesome Gemini Prompts',
     description: 'The largest open-source collection of verified Gemini prompts.',
-    creator: '@neverbiasu',
+    creator: '@localhost_8188',
     images: ['/api/og?title=Awesome Gemini Prompts&tags=Gemini,AI,Prompts'],
+  },
+  icons: {
+    icon: '/favicon.svg',
+    apple: '/favicon.svg',
   },
 };
 
