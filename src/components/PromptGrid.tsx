@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 
 interface PromptGridProps {
   prompts: GeminiPrompt[];
+  isCollapsed?: boolean;
 }
 
 const container = {
@@ -23,7 +24,7 @@ const item = {
   show: { opacity: 1, y: 0 }
 };
 
-export default function PromptGrid({ prompts }: PromptGridProps) {
+export default function PromptGrid({ prompts, isCollapsed = false }: PromptGridProps) {
   if (prompts.length === 0) {
     return (
       <div className="flex flex-col items-center justify-center py-20 text-center space-y-4">
@@ -45,7 +46,7 @@ export default function PromptGrid({ prompts }: PromptGridProps) {
       variants={container}
       initial="hidden"
       animate="show"
-      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 gap-6"
+      className={`grid grid-cols-1 sm:grid-cols-2 gap-6 transition-all duration-300 ${isCollapsed ? 'lg:grid-cols-4' : 'lg:grid-cols-3'}`}
     >
       {prompts.map((prompt) => (
         <motion.div key={prompt.id || prompt.originalSourceUrl} variants={item}>

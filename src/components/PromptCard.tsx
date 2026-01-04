@@ -38,7 +38,7 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
 
   // Helper to format model list
   const models = prompt.compatibleModels || ["gemini-2.5-pro"];
-  const displayModel = models[0].replace('gemini-', '');
+  const displayModel = models[0] === 'nano-banana-pro-preview' ? 'Nano Banana' : models[0].replace('gemini-', '');
   const extraModelsCount = models.length - 1;
 
   // Extract text content
@@ -74,38 +74,34 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
   return (
     <Card 
       isPressable={false}
-      className="group w-full h-[400px] border border-white/5 bg-zinc-900/40 hover:bg-zinc-900/60 hover:border-white/10 transition-all duration-500 rounded-2xl backdrop-blur-md flex flex-col text-left shadow-2xl shadow-black/20"
+      className="group w-full h-[480px] border border-white/5 bg-zinc-900/40 hover:bg-zinc-900/60 hover:border-white/10 transition-all duration-500 rounded-2xl backdrop-blur-md flex flex-col text-left shadow-2xl shadow-black/20"
     >
-      {/* Header: Title & Meta */}
-      <CardHeader 
-        className="flex flex-col items-start gap-4 p-6 pb-2 shrink-0 w-full"
-      >
+      {/* Header: Platform & Stats Row */}
+      <CardHeader className="p-5 pb-0 shrink-0 w-full flex flex-col gap-3">
         <div className="flex w-full justify-between items-center">
-          <div className="flex items-center gap-2">
-            <div className={`px-2.5 py-1 rounded-full text-[10px] uppercase font-bold tracking-wider ${platform.color} border border-white/5 shadow-sm flex items-center gap-1.5`}>
-              <PlatformIcon size={12} />
-              {platform.label}
-            </div>
-            
-            {/* Modality Badge */}
-            <div className={`px-2.5 py-1 rounded-full text-[10px] uppercase font-bold tracking-wider ${isImage ? 'text-purple-400 bg-purple-400/10' : 'text-zinc-400 bg-zinc-400/10'} border border-white/5 shadow-sm flex items-center gap-1.5`}>
-              <ModalityIcon size={12} />
-              {modalityLabel}
-            </div>
+          <div className={`px-2 py-0.5 rounded-full text-[10px] uppercase font-bold tracking-wider ${platform.color} border border-white/5 shadow-sm flex items-center gap-1.5`}>
+            <PlatformIcon size={12} />
+            {platform.label}
           </div>
           
-          {/* Metrics */}
-          {likes > 0 && (
-            <div className="flex items-center gap-3 text-xs text-zinc-500 font-mono bg-white/5 px-2 py-1 rounded-full">
-              <div className="flex items-center gap-1" title="Upvotes/Likes">
-                <svg className="w-3.5 h-3.5 text-rose-500/80" fill="currentColor" viewBox="0 0 24 24">
+          <div className="flex items-center gap-3">
+            {/* Modality Badge */}
+            <div className={`px-2 py-0.5 rounded-full text-[10px] uppercase font-bold tracking-wider ${isImage ? 'text-purple-400 bg-purple-400/10' : 'text-zinc-400 bg-zinc-400/10'} border border-white/5 shadow-sm flex items-center gap-1.5`}>
+              <ModalityIcon size={10} />
+              {modalityLabel}
+            </div>
+            
+            {likes > 0 && (
+              <div className="flex items-center gap-1.5 text-[10px] text-zinc-500 font-mono bg-white/5 px-2 py-0.5 rounded-full border border-white/5">
+                <svg className="w-3 h-3 text-rose-500/80" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/>
                 </svg>
                 <span>{likes}</span>
               </div>
-            </div>
-          )}
+            )}
+          </div>
         </div>
+
         <Tooltip 
           content={prompt.title} 
           delay={500} 
@@ -114,7 +110,7 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
           className="max-w-[300px] z-[9999] pointer-events-none text-center bg-zinc-950 border border-white/10 shadow-2xl"
         >
           <Link href={`/prompt/${prompt.id}`} className="w-full block">
-            <h3 className="text-xl font-bold text-zinc-100 leading-tight group-hover:text-blue-400 transition-colors line-clamp-1 w-full tracking-tight">
+            <h3 className="text-lg font-bold text-zinc-100 leading-tight group-hover:text-blue-400 transition-colors line-clamp-2 w-full tracking-tight">
               {prompt.title}
             </h3>
           </Link>
@@ -123,36 +119,30 @@ export default function PromptCard({ prompt }: { prompt: GeminiPrompt }) {
       
       {/* Body: Content & Specs */}
       <CardBody 
-        className="p-6 pt-2 flex flex-col gap-4 overflow-hidden w-full h-full"
+        className="px-5 py-4 flex flex-col gap-4 overflow-hidden w-full h-full"
       >
         {/* System Prompt */}
         {systemText && (
-          <div className={`
-            relative flex flex-col min-h-0
-            ${userText ? 'h-1/2' : 'flex-1'}
-          `}>
+          <div className={`relative flex flex-col min-h-0 ${userText ? 'h-[100px]' : 'flex-1'}`}>
             <div className="flex items-center gap-2 mb-1.5">
-               <span className="uppercase text-[9px] font-bold text-blue-400 tracking-widest">System Prompt</span>
+               <span className="uppercase text-[8px] font-bold text-blue-400/80 tracking-widest">System Prompt</span>
             </div>
-            <div className="relative rounded-xl border border-white/5 bg-black/20 p-3 flex-1 overflow-hidden group/code">
-                 <CopyButton text={systemText} tooltip="Copy System Prompt" className="absolute top-2 right-2 opacity-0 group-hover/code:opacity-100 transition-opacity" />
-                 <p className="whitespace-pre-wrap leading-relaxed opacity-80 text-xs font-mono text-zinc-400 line-clamp-3">{systemText}</p>
+            <div className="relative rounded-lg border border-white/5 bg-black/30 p-2.5 flex-1 overflow-hidden group/code">
+                 <CopyButton text={systemText ?? ""} tooltip="Copy System Prompt" className="absolute top-1.5 right-1.5 opacity-0 group-hover/code:opacity-100 transition-opacity" />
+                 <p className="whitespace-pre-wrap leading-relaxed opacity-70 text-[11px] font-mono text-zinc-400 line-clamp-3">{systemText}</p>
             </div>
           </div>
         )}
 
         {/* User Prompt */}
         {userText && (
-          <div className={`
-            relative flex flex-col min-h-0
-            ${systemText ? 'h-1/2' : 'flex-1'}
-          `}>
+          <div className={`relative flex flex-col min-h-0 ${systemText ? 'flex-1' : 'flex-1'}`}>
             <div className="flex items-center gap-2 mb-1.5">
-               <span className="uppercase text-[9px] font-bold text-zinc-500 tracking-widest">User Prompt</span>
+               <span className="uppercase text-[8px] font-bold text-zinc-500/80 tracking-widest">User Prompt</span>
             </div>
-            <div className="relative rounded-xl border border-white/5 bg-white/5 p-3 flex-1 overflow-hidden group/code">
-              <CopyButton text={userText} tooltip="Copy User Prompt" className="absolute top-2 right-2 opacity-0 group-hover/code:opacity-100 transition-opacity" />
-              <p className="text-sm text-zinc-300 whitespace-pre-wrap font-mono leading-relaxed line-clamp-6">
+            <div className="relative rounded-lg border border-white/5 bg-white/5 p-2.5 flex-1 overflow-hidden group/code">
+              <CopyButton text={userText ?? ""} tooltip="Copy User Prompt" className="absolute top-1.5 right-1.5 opacity-0 group-hover/code:opacity-100 transition-opacity" />
+              <p className="text-xs text-zinc-300 whitespace-pre-wrap font-mono leading-relaxed line-clamp-[8]">
                 {userText}
               </p>
             </div>

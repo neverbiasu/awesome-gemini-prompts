@@ -1,11 +1,9 @@
 import { promises as fs } from 'fs';
 import path from 'path';
 import { GeminiPrompt } from '@/schema/prompt';
-import PromptGrid from '@/components/PromptGrid';
-import Pagination from '@/components/Pagination';
 import Fuse from 'fuse.js';
 import HubClientLayout from '@/components/HubClientLayout';
-import FilterSidebar from '@/components/FilterSidebar';
+import HubGridContainer from '@/components/HubGridContainer';
 
 export const revalidate = 0;
 const ITEMS_PER_PAGE = 12;
@@ -62,9 +60,6 @@ export default async function HubPage(props: HubPageProps) {
   if (modality && modality.length > 0) {
     validPrompts = validPrompts.filter(p => {
        const pModality = p.modality || [];
-       // If filter is "text", we want items that have "text". If "image", items with "image".
-       // Logic: OR condition (if selected 'text' and 'image', show items that match either? or strict?)
-       // Standard sidebar logic is usually OR within category.
        return modality.some(m => pModality.includes(m as any));
     });
   }
@@ -72,8 +67,6 @@ export default async function HubPage(props: HubPageProps) {
   if (models && models.length > 0) {
     validPrompts = validPrompts.filter(p => {
        const pModels = p.compatibleModels || [];
-       // Simple substring matching for models since they are nuanced (e.g. gemini-2.5-flash)
-       // If user selects 'nano', we want items compatible with nano.
        return models.some(m => pModels.some(pm => pm.includes(m)));
     });
   }
@@ -169,16 +162,12 @@ export default async function HubPage(props: HubPageProps) {
           totalItems={totalItems} 
           updatedDate={new Date().toLocaleDateString()}
         >
-          <div className="flex flex-col md:flex-row gap-8">
-             {/* Left: Filter Sidebar */}
-             <FilterSidebar topTags={topTags} />
-             
-             {/* Right: Grid & Pagination */}
-             <div className="flex-1 min-w-0">
-                <PromptGrid prompts={prompts} />
-                <Pagination totalItems={totalItems} itemsPerPage={ITEMS_PER_PAGE} />
-             </div>
-          </div>
+          <HubGridContainer 
+            prompts={prompts}
+            topTags={topTags}
+            totalItems={totalItems}
+            itemsPerPage={ITEMS_PER_PAGE}
+          />
         </HubClientLayout>
       </div>
     </main>
