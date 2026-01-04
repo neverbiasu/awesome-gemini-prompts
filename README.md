@@ -8,10 +8,9 @@
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Next.js](https://img.shields.io/badge/Next.js-14-black)](https://nextjs.org/)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fneverbiasu%2Fawesome-gemini-prompts)
-[![Prompts](https://img.shields.io/badge/Prompts-1%2C100%2B-blue)](https://awesome-gemini-prompts.vercel.app)
+[![Prompts](https://img.shields.io/badge/Prompts-1%2C100%2B-blue)](https://awesomegeminiprompts.tech)
 
-[Explore Prompts](https://awesome-gemini-prompts.vercel.app) · [Submit Prompt](https://github.com/neverbiasu/awesome-gemini-prompts/issues) · [Report Bug](https://github.com/neverbiasu/awesome-gemini-prompts/issues)
+[Explore Prompts](https://awesomegeminiprompts.tech) · [Submit Prompt](https://github.com/neverbiasu/awesome-gemini-prompts/issues) · [Report Bug](https://github.com/neverbiasu/awesome-gemini-prompts/issues)
 
 </div>
 
@@ -63,7 +62,7 @@ We don't just copy-paste. We built a robust data engineering pipeline:
     bun dev
     ```
 
-4.  Open [http://localhost:3000](http://localhost:3000) to view the app.
+4.  Open [http://localhost:3333](http://localhost:3333) to view the app.
 
 ## 🤝 Contributing
 
