@@ -93699,5 +93699,113 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-683d2a608d46",
+    "title": "Astro.js",
+    "description": "Act as a Astro.js",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# Astro v6 Architecture Rules (Strict Mode)\n\n## 1. Core Philosophy\n\n- Follow Astro’s “HTML-first / zero JavaScript by default” principle:\n  - Everything is static HTML unless interactivity is explicitly required.\n  - JavaScript is a cost → only add when it creates real user value.\n\n- Always think in “Islands Architecture”:\n  - The page is static HTML\n  - Interactive parts are isolated islands\n  - Never treat the whole page as an app\n\n- Before writing any JavaScript, always ask:\n  \"Can this be solved with HTML + CSS or server-side logic?\"\n\n---\n\n## 2. Component Model\n\n- Use `.astro` components for:\n  - Layout\n  - Composition\n  - Static UI\n  - Data fetching\n  - Server-side logic (frontmatter)\n\n- `.astro` components:\n  - Run at build-time or server-side\n  - Do NOT ship JavaScript by default\n  - Must remain framework-agnostic\n\n- NEVER use React/Vue/Svelte hooks inside `.astro`\n\n---\n\n## 3. Islands (Interactive Components)\n\n- Only use framework components (React, Vue, Svelte, etc.) for interactivity.\n\n- Treat every interactive component as an isolated island:\n  - Independent\n  - Self-contained\n  - Minimal scope\n\n- NEVER:\n  - Hydrate entire pages or layouts\n  - Wrap large trees in a single island\n  - Create many small islands in loops unnecessarily\n\n- Prefer:\n  - Static list rendering\n  - Hydrate only the minimal interactive unit\n\n---\n\n## 4. Hydration Strategy (Critical)\n\n- Always explicitly define hydration using `client:*` directives.\n\n- Choose the LOWEST possible priority:\n\n  - `client:load`\n    → Only for critical, above-the-fold interactivity\n\n  - `client:idle`\n    → For secondary UI after page load\n\n  - `client:visible`\n    → For below-the-fold or heavy components\n\n  - `client:media`\n    → For responsive / conditional UI\n\n  - `client:only`\n    → ONLY when SSR breaks (window, localStorage, etc.)\n\n- Default rule:\n  ❌ Never default to `client:load`\n  ✅ Prefer `client:visible` or `client:idle`\n\n- Hydration is a performance budget:\n  - Every island adds JS\n  - Keep total JS minimal\n\n📌 Astro does NOT hydrate components unless explicitly told via `client:*` :contentReference[oaicite:0]{index=0}  \n\n---\n\n## 5. Server vs Client Logic\n\n- Prefer server-side logic (inside `.astro` frontmatter) for:\n  - Data fetching\n  - Transformations\n  - Filtering / sorting\n  - Derived values\n\n- Only use client-side state when:\n  - User interaction requires it\n  - Real-time updates are needed\n\n- Avoid:\n  - Duplicating logic on client\n  - Moving server logic into islands\n\n---\n\n## 6. State Management\n\n- Avoid client state unless strictly necessary.\n\n- If needed:\n  - Scope state inside the island only\n  - Do NOT create global app state unless required\n\n- For cross-island state:\n  - Use lightweight shared stores (e.g., nano stores)\n  - Avoid heavy global state systems by default\n\n---\n\n## 7. Performance Constraints (Hard Rules)\n\n- Minimize JavaScript shipped to client:\n  - Astro only loads JS for hydrated components :contentReference[oaicite:1]{index=1}  \n\n- Prefer:\n  - Static rendering\n  - Partial hydration\n  - Lazy hydration\n\n- Avoid:\n  - Hydrating large lists\n  - Repeated islands in loops\n  - Overusing `client:load`\n\n- Each island:\n  - Has its own bundle\n  - Loads independently\n  - Should remain small and focused :contentReference[oaicite:2]{index=2}  \n\n---\n\n## 8. File & Project Structure\n\n- `/pages`\n  - Entry points (SSG/SSR)\n  - No client logic\n\n- `/components`\n  - Shared UI\n  - Islands live here\n\n- `/layouts`\n  - Static wrappers only\n\n- `/content`\n  - Markdown / CMS data\n\n- Keep `.astro` files focused on composition, not behavior\n\n---\n\n## 9. Anti-Patterns (Strictly Forbidden)\n\n- ❌ Using hooks in `.astro`\n- ❌ Turning Astro into SPA architecture\n- ❌ Hydrating entire layout/page\n- ❌ Using `client:load` everywhere\n- ❌ Mapping lists into hydrated components\n- ❌ Using client JS for static problems\n- ❌ Replacing server logic with client logic\n\n---\n\n## 10. Preferred Patterns\n\n- ✅ Static-first rendering\n- ✅ Minimal, isolated islands\n- ✅ Lazy hydration (`visible`, `idle`)\n- ✅ Server-side computation\n- ✅ HTML + CSS before JS\n- ✅ Progressive enhancement\n\n---\n\n## 11. Decision Framework (VERY IMPORTANT)\n\nFor every feature:\n\n1. Can this be static HTML?\n   → YES → Use `.astro`\n\n2. Does it require interaction?\n   → NO → Stay static\n\n3. Does it require JS?\n   → YES → Create an island\n\n4. When should it load?\n   → Choose LOWEST priority `client:*`\n\n---\n\n## 12. Mental Model (Non-Negotiable)\n\n- Astro is NOT:\n  - Next.js\n  - SPA framework\n  - React-first system\n\n- Astro IS:\n  - Static-first renderer\n  - Partial hydration system\n  - Performance-first architecture\n\n- Think:\n  ❌ “Build an app”\n  ✅ “Ship HTML + sprinkle JS”"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Astro.js",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-24T02:50:29.247Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-f5716f27e0d6",
+    "title": "Midjourney",
+    "description": "Act as a Midjourney",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "An ancient library hidden inside a giant hollow tree, magical and inviting atmosphere expression, majestic interior view, thousands of leather-bound books on curved wooden shelves, spiral staircase winding up through the center, glowing fireflies floating between bookshelves, worn reading chairs with velvet cushions, interior of a massive ancient oak tree in enchanted forest, hidden realm, mystical, warm and cozy atmosphere, autumn, with scattered scrolls and quills on oak desks, mystical runes carved into bark walls, mushrooms glowing softly in corners, foreground: scattered books and scrolls, midground: spiral staircase with warm glow, background: small windows showing starlit forest, golden ratio composition, wide shot, low-angle, wide-angle lens, deep depth of field, f/f/8, hasselblad, practical and rim lighting, twilight, light from three-quarter, soft light, digital-art, in the style of Greg Rutkowski and Thomas Kinkade and Studio Ghibli, influenced by Art Nouveau, cottage core aesthetic, warm and earthy color palette, primary colors: amber, deep brown, forest green, accent colors: soft gold, moonlight blue, fairy pink, rich saturation with deep shadows color grade, serene, peaceful, nostalgic, whimsical mood, masterpiece quality, 8K, volumetric lighting, ray tracing, octane render --no blurry, low quality, bad anatomy, watermark, text, signature, modern elements, plastic, harsh lighting, overexposed, underexposed --ar 3:2"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Midjourney",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-24T02:50:29.247Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-31e5ab9fdf82",
+    "title": "Love Shop",
+    "description": "Act as a Love Shop",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n\"image_generation_prompt\": \"A vertical, 9:16 cinematic still from image_0.png, set inside the dimly lit, neon-soaked sex shop. The focus has shifted significantly. Instead of begging, the woman (dark wavy hair, intricate black lace lingerie, fishnet stockings, heels) is now completely turned within the young man's (black t-shirt, jeans) embrace. He holds her possessively by the hips and waist, and she is clasped around his neck, caught in a moment of passionate kiss with him. They are oblivious to everything else. Her expression is passionate; his face is intense as he reciprocates. Paolo (the older man in the tailored grey overcoat) has taken several paces away from them towards the background and is turned with his back partially to the camera, looking down at the tiled floor with an expression of deep anguish and rejection. He is a distinct distance away and visually smaller, emphasizing his exclusion. The red and blue 'SEX SHOP,' 'LINGERIE,' and 'ADULT TOYS' neon signs and product shelves are still visible but recede further, forming a complex, atmospheric background, with more focus on the couple and the dramatic light play (chiaroscuro) on them. The composition emphasizes the two lovers. The mood is intimate and high-conflict.\"\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Love%20Shop",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-24T02:50:29.247Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
