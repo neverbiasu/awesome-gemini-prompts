@@ -93807,5 +93807,77 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-a6de6777bf9b",
+    "title": "writer ",
+    "description": "Act as a writer ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "1. Standard Proofreading Prompt\nPrompt:\nPlease proofread the following text for grammar, spelling, and punctuation. Make sure every sentence is clear and concise, and suggest improvements if you notice unclear phrasing. Retain the original tone and meaning.\nText to Proofread: [Paste your text here]\nWhy it works:\nDirects the AI to focus on correctness (grammar, spelling, punctuation).\nMaintains the tone and meaning.\nRequests suggestions for unclear phrasing.\n2. Detailed Copyediting Prompt\nPrompt:\nI want you to act as an experienced copyeditor. Proofread the following text in detail: correct all grammatical issues, spelling mistakes, punctuation errors, and any word usage problems. Then, rewrite or rearrange sentences where appropriate, but do not alter the overall structure or change the meaning. Provide both the corrected version and a short list of the most notable changes.\nText to Proofread: [Paste your text here]\nWhy it works:\nSpecifies a deeper editing pass.\nAsks for both the corrected text and a summary of edits for transparency.\nMaintains the original meaning while optimising word choice.\n3. Comprehensive Developmental Edit Prompt\nPrompt:\nPlease act as a developmental editor for the text below. In addition to correcting grammar, punctuation, and spelling, identify any issues with clarity, flow, or structure. If you see potential improvements in the logic or arrangement of paragraphs, suggest them. Provide the final revised version, along with specific comments explaining your edits and recommendations.\nText to Proofread: [Paste your text here]\nWhy it works:\nGoes beyond proofreading; focuses on logical structure and flow.\nRequests specific editorial comments.\n4. Style-Focused Proofreading Prompt\nPrompt:\nProofread and revise the following text, aiming to improve the style and readability without changing the overall voice or register. Focus on grammar, punctuation, sentence variation, and coherence. If you remove or add any words for clarity, please highlight them in your explanation at the end.\nText to Proofread: [Paste your text here]\nWhy it works:\nAdds a focus on style and readability.\nEncourages a consistent voice.\n5. Concise and Polished Prompt\nPrompt:\nPlease proofread and refine the text with the goal of making it concise and polished. Look for opportunities to remove filler words or repetitive phrases. Keep an eye on grammar, punctuation, and spelling. Make sure each sentence is as clear and straightforward as possible while retaining the essential details.\nText to Proofread: [Paste your text here]\nWhy it works:\nFocuses on conciseness and directness.\nEncourages removing fluff.\n6. Formal-Tone Enhancement Prompt\nPrompt:\nI need this text to be presented in a formal, professional tone. Please proofread it carefully for grammar, spelling, punctuation, and word choice. Where you see informal expressions or casual language, adjust it to a formal style. Do not change any technical terms. Provide the final revision as well as an explanation for your major edits.\nText to Proofread: [Paste your text here]\nWhy it works:\nElevates the text to a professional style.\nPreserves technical details.\nRequests a rationale for the changes.\n7. Consistency and Cohesion Prompt\nPrompt:\nPlease proofread the text below with the objective of ensuring it is consistent and cohesive. Look for any shifts in tense, inconsistent terminology, or abrupt changes in tone. Correct grammar, spelling, and punctuation as needed. Indicate if there are any places in the text where references, data, or examples should be clarified.\nText to Proofread: [Paste your text here]\nWhy it works:\nHighlights consistent use of tense, style, and terminology.\nFlags unclear references or data.\n8. Audience-Specific Proofreading Prompt\nPrompt:\nProofread the following text to ensure it's well-suited for [describe target audience here]. Correct mistakes in grammar, spelling, and punctuation, and rephrase any jargon or overly complex sentences that may not be accessible to the intended readers. Provide a final version, and explain how you adapted the language for this audience.\nText to Proofread: [Paste your text here]\nWhy it works:\nCenters on the target audience's needs and language comprehension.\nEnsures clarity and accessibility without losing key content.\n9. Contextual Usage and Tone Prompt\nPrompt:\nPlease review and proofread the following text for correct grammar, spelling, punctuation, and contextual word usage. Pay particular attention to phrases that might be misused or have ambiguous meaning. If any sentences seem off-tone or inconsistent with the context (e.g., an academic paper, a business memo, etc.), adjust them accordingly.\nText to Proofread: [Paste your text here]\nWhy it works:\nHighlights word usage in context.\nEnsures consistency with the intended style or environment.\n10. Advanced Grammar and Syntax Prompt\nPrompt:\nI need you to focus on advanced grammar and syntax issues in the following text. Look for parallel structure, subject-verb agreement, pronoun antecedent clarity, and any other subtle linguistic details. Provide a version with these issues resolved, and offer a brief bullet list of the advanced grammar improvements you made.\nText to Proofread: [Paste your text here]\nWhy it works:\nAimed at sophisticated syntax corrections.\nCalls out advanced grammar concerns for in-depth editing."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#writer%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-25T02:55:12.768Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-b36f40c33ff5",
+    "title": "Entagled IR",
+    "description": "Act as a Entagled IR",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"prompt\": \"An extremely detailed overhead, direct look-down photograph of a luxurious hotel bedroom. A muscle-bound Black man and a caucasian curvy and curly woman and glasses are lying at the center of a large bed, locked in a deeply passionate and intimate embrace, kissing. The woman has a new black lace bra and a matching black lace thong while maintaining her original shiny black thigh-high boots with stilettos. The muscular man has a white ribbed tank top and white briefs. Their legs are intertwined . The scene retains the original rich purple velvet headboard, dark wood wall paneling, and the two bedside tables with lit lamps. At the foot of the bed, on the purple velvet bench, the original brown leather gloves and brown leather boots remain, along with the rolled-up canvas tool bag on the patterned carpet. The warm ambient lighting and perspective are preserved. The focus is sharp on the couple. Vertical format, 9:16 AR \n}\n\nProceed within your guidelines"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Entagled%20IR",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-25T02:55:12.768Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
