@@ -93879,5 +93879,437 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-f809fc1f2713",
+    "title": "GitHub Stars Fetcher with Agent Browser",
+    "description": "Act as a GitHub Stars Fetcher with Agent Browser",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# Using Agent Browser to Fetch GitHub Starred Projects\n\n## Objective\nUse the Agent Browser skill to log into GitHub and retrieve the starred projects of the currently logged-in user, sorted by the number of stars.\n\n## Execution Steps (Follow in Order)\n\n1. **Launch Browser and Open GitHub Homepage**\n   ```bash\n   agent-browser --headed --profile \"%HOMEPATH%\\.agent-browser\\chrome-win64\\chrome-profiles\\github\" open https://github.com && agent-browser wait --load networkidle\n   ```\n\n2. **Get Current Logged-in User Information**\n   ```bash\n   agent-browser snapshot -i\n   # Find the user avatar or username link in the top-right corner to confirm login status\n   # Extract the username of the currently logged-in user from the page\n   ```\n\n3. **Navigate to Current User's Stars Tab**\n   ```bash\n   # Construct URL: https://github.com/{username}?tab=stars\n   agent-browser open https://github.com/{username}?tab=stars && agent-browser wait --load networkidle\n   ```\n\n4. **Sort by Stars Count (Most Stars First)**\n   ```bash\n   agent-browser snapshot -i  # First get the latest snapshot to find the sort button\n   agent-browser click @e_sort_button  # Click the sort button\n   agent-browser wait --load networkidle\n   # Select \"Most stars\" from the dropdown options\n   ```\n\n5. **Retrieve and Record Project Information**\n   ```bash\n   agent-browser snapshot -i\n   # Extract project name, description, stars, and forks information\n   ```\n\n## Critical Notes\n\n### 1. Daemon Process Issues\n- If you see \"daemon already running\", the browser is already running\n- **Important:** When the daemon is already running, `--headed` and `--profile` parameters are ignored, and the browser continues in its current running mode\n- You can proceed with subsequent commands without reopening\n- To restart in headed mode, you must first execute: `agent-browser close`, then use the `--headed` parameter to reopen\n\n### 2. Dynamic Nature of References\n- Element references (@e1, @e2, etc.) change after each page modification\n- You must execute `snapshot -i` before each interaction to get the latest references\n- Never assume references are fixed\n\n### 3. Command Execution Pattern\n- Use `&&` to chain multiple commands, avoiding repeated process launches\n- Wait for page load after each command: `wait --load networkidle`\n\n### 4. Login Status\n- Use the `--profile` parameter to specify a profile directory, maintaining login state\n- If login expires, manually log in once to save the state\n\n### 5. Windows Environment Variable Expansion\n- **Important:** On Windows, environment variables like `%HOMEPATH%` must be expanded to actual paths before use\n- **Incorrect:** `agent-browser --profile \"%HOMEPATH%\\.agent-browser\\chrome-win64\\chrome-profiles\\github\"`\n- **Correct:** First execute `echo $HOME` to get the actual path, then use the expanded path\n  ```bash\n  # Get HOME path (e.g., /c/Users/xxx)\n  echo $HOME\n  # Use the expanded absolute path\n  agent-browser --profile \"/c/Users/xxx/.agent-browser/chrome-win64/chrome-profiles/github\" --headed open https://github.com\n  ```\n- Without expanding environment variables, you'll encounter connection errors (e.g., `os error 10060`)\n\n### 6. Sorting Configuration\n- Click the \"Sort by: Recently starred\" button (typically reference e44)\n- Select the \"Most stars\" option\n- Retrieve page content again\n\n## Troubleshooting Common Issues\n\n| Issue | Solution |\n|-------|----------|\n| daemon already running | Execute subsequent commands directly, or close then reopen |\n| Invalid element reference | Execute snapshot -i to get latest references |\n| Page not fully loaded | Add wait --load networkidle |\n| Need to re-login | Use --headed mode to manually login once and save state |\n| Sorting not applied | Confirm you clicked the correct sorting option |\n\n## Result Output Format\n- Project name and link\n- Stars count (sorted in descending order)\n- Forks count\n- Project description (if available)\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#GitHub%20Stars%20Fetcher%20with%20Agent%20Browser",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-26T03:20:12.620Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-34b1ac7aef59",
+    "title": "Odalisque",
+    "description": "Act as a Odalisque",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n\"scene\": {\n\"subject\": \"Young woman (Jasmine) with Mediterranean features, dark hair pulled back in a messy bun with strands falling over her face. An expression of deep pain, bright eyes, and visible tears on her cheeks.\",\n\"format\": \"vertical, 9:16 aspect ratio\",\n\"pose\": \"Kneeling on a marble floor, her body leaning slightly forward. One hand is brought to her chest in a gesture of anguish, the other rests on her thigh.\",\n\"clothing\": \"Emerald green silk odalisque dress with elaborate gold embroidery, sheer tulle, a very low neckline, and side slits that reveal the legs. Gold stiletto sandals.\",\n\"key_element\": \"Heavy gold chain attached to a metal ring in the load-bearing wall. The other end ends in a heavy gold bracelet (ceppo) wrapped around the woman's left ankle.\"\n},\n\"ambience\": {\n\"style\": \"Interior of a luxurious palace in oriental/neoclassical style. Marble columns, pointed arches, light-colored stone walls.\",\n\"lighting\": \"Dramatic, nocturnal atmosphere. Warm light from brass wall torches and a large hanging Arabian lantern. Long, bold shadows cast on the walls and ceiling.\",\n\"flooring\": \"White marble veined with gray, polished and reflective, showing the reflections of the lights and the subject.\"\n},\n\"technical_specs\": {\n\"composition\": \"Full-body shot, slightly low-angle perspective to emphasize the subject's vulnerability. Moderate depth of field with a softly blurred background.\",\n\"photography_style\": \"High-resolution cinematic photorealism. Saturated colors (green, gold) contrasted by cool marble tones and deep shadows.\",\n\"render_details\": \"Detailed skin texture with reflections of sweat or tears, realistic marble veining, metallic highlights from the gold and chains, micro-details in the dress's embroidery.\",\n\"atmosphere\": \"Dramatic, oppressive, luxurious yet claustrophobic.\"\n},\n\"secondary_elements\": {\n\"shadow_presence\": \"At the right edge of the frame, the shadow or hem of the dark robe of an imposing male figure (the Sultan) can be seen, suggesting his presence without fully revealing it.\",\n\"furniture\": \"In the background, dark wooden furniture and heavy velvet curtains block the access to other rooms.\"\n}\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Odalisque",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-26T03:20:12.620Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-dd841bf32437",
+    "title": "Researchers in the Library",
+    "description": "Act as a Researchers in the Library",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Generate a video for Researchers in the Lab going to the library, make it programmatic video creation, maybe use LoRA and Remotion "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Researchers%20in%20the%20Library",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-26T03:20:12.620Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-dcf8edcc9185",
+    "title": "Step 1: Prepare your data",
+    "description": "Act as a Step 1: Prepare your data",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Some legitimate prompt content..."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Step%201%3A%20Prepare%20your%20data",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-26T03:20:12.620Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-463886bb1364",
+    "title": "Analyze Chat History With User",
+    "description": "Act as a Analyze Chat History With User",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I'd like you to analyze this file containing all of my chat history with a friend of mine. Please summarize the sentiment of our conversations and list the dominant themes discussed."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Analyze%20Chat%20History%20With%20User",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-26T03:20:12.620Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-aae2a900b927",
+    "title": "Self-summary",
+    "description": "Act as a Self-summary",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Give me a summary of what you know about me so far"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Self-summary",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-26T03:20:12.620Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-592678a8dea0",
+    "title": "Moral Dilemma Choices",
+    "description": "Act as a Moral Dilemma Choices",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Make up a moral dilemma scenario and ask me what I'd do if I were in that situation. Use my answer to give me insights about my personality and motivations"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Moral%20Dilemma%20Choices",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-26T03:20:12.620Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-a4acb5a8a2f6",
+    "title": "Fringe Ideology Quiz",
+    "description": "Act as a Fringe Ideology Quiz",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Make me a fairly detailed quiz with as many questions as you think are necessary to determine which fringe groups I have the most in common with, ideologically"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Fringe%20Ideology%20Quiz",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-26T03:20:12.620Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-f55565297c2a",
+    "title": "Linkedin Post Create Prompt",
+    "description": "Act as a Linkedin Post Create Prompt",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "You will help me write LinkedIn posts that sound human, simple, and written from real experience — not corporate or robotic.\n\nBefore writing the post, you must ask me 3–5 short questions to understand:\n1. What exactly I built\n2. Why it matters\n3. What problem it solves\n4. Any specific result, struggle, or insight worth highlighting.\nDo NOT generate the post before asking questions.\n\nMy Posting Style\nFollow this strictly:\n1. Use simple English (no complex words)\n2. Keep sentences short\n3. Write in short lines (mobile-friendly format)\n4. Add spacing between lines for readability\n5. Slightly professional tone (not casual, not corporate)\n6. No fake hype, no “game-changing”, no “revolutionary”\n\nPost Structure\nYour post must follow this flow:\n\n1. Hook (Curiosity-based)\n   1.1. First 1–2 lines must create curiosity\n   1.2. Make people want to click “see more”\n   1.3. No generic hooks\n2. Context\n   2.1. What I built (${project:Project 1} or feature)\n   2.2. Keep it clear and direct \n3. Problem\n   3.1. What real problem it solves\n   3.2. Make it relatable\n4. Insight / Build Journey (optional but preferred)\n   4.1. A small struggle, realisation, or learning\n   4.2. Keep it real, not dramatic\n5. Outcome / Value\n   5.1. What users can now do\n   5.2. Why it matters\n6. Soft Push (Product)\n   6.1. Mention Snapify naturally\n   6.2. No hard selling\n7. Ending Line\n   7.1. Can be reflective, forward-looking, or slightly thought-provoking\n   7.2. No cliché endings\n\nRules\n1. Keep total length tight (not too long)\n2. No emojis unless they genuinely fit (default: avoid)\n3. No corporate tone\n4. No over-explaining\n5. No buzzwords\n6. No “I’m excited to announce”\n7. No hashtags spam (max 3–5 if needed)\n\nYour Task\nAfter asking questions and getting answers, generate:\n1. One main LinkedIn post\n2. One alternative variation (slightly different hook + angle)\n\nAfter generating both, ask:\n“Which one should we post?”"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Linkedin%20Post%20Create%20Prompt",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-26T03:20:12.620Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-a879965d511c",
+    "title": "Professional Betting Predictions",
+    "description": "Act as a Professional Betting Predictions",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "SYSTEM PROMPT: Football Prediction Assistant – Logic & Live Sync v4.0 (Football Version)\n\n1. ROLE AND IDENTITY\n\nYou are a professional football analyst. Completely free from emotions, media noise, and market manipulation, you act as a command center driven purely by data. Your objective is to determine the most probable half-time score and full-time score for a given match, while also providing a portfolio (hedging) strategy that minimizes risk.\n\n2. INPUT DATA (To Be Provided by the User)\n\nYou must obtain the following information from the user or retrieve it from available data sources:\n\nTeams: Home team, Away team\n\nLeague / Competition: (Premier League, Champions League, etc.)\n\nLast 5 matches: For both teams (wins, draws, losses, goals scored/conceded)\n\nHead-to-head last 5 matches: (both overall and at home venue)\n\nInjured / suspended players (if any)\n\nWeather conditions (stadium, temperature, rain, wind)\n\nCurrent odds: 1X2 and over/under odds from at least 3 bookmakers (optional)\n\nTeam statistics: Possession, shots on target, corners, xG (expected goals), defensive performance (optional)\n\n\nIf any data is missing, assume it is retrieved from the most up-to-date open sources (e.g., sports-skills). Do not fabricate data! Mark missing fields as “no data”.\n\n3. ANALYSIS FRAMEWORK (22 IRON RULES – FOOTBALL ADAPTATION)\n\nApply the following rules sequentially and briefly document each step.\n\nRule 1: De-Vigging and True Probability\n\nCalculate “fair odds” (commission-free probabilities) from bookmaker odds.\n\nFormula: Fair Probability = (1 / odds) / (1/odds1 + 1/odds2 + 1/odds3)\n\nBase your analysis on these probabilities. If odds are unavailable, generate probabilities using statistical models (xG, historical results).\n\n\nRule 2: Expected Value (EV) Calculation\n\nFor each possible score: EV = (True Probability × Profit) – Loss\n\nFocus only on outcomes with positive EV.\n\n\nRule 3: Momentum Power Index (MPI)\n\nQuantify the last 5 matches performance:\n(wins × 3) + (draws × 1) – (losses × 1) + (goal difference × 0.5)\n\nCalculate MPI_home and MPI_away.\n\nThe team with higher MPI is more likely to start aggressively in the first half.\n\n\nRule 4: Prediction Power Index (PPI)\n\nCollect outcome statistics from historically similar matches (same league, similar squad strength, similar weather).\n\nPPI = (home win %, draw %, away win % in similar matches).\n\n\nRule 5: Match DNA\n\nCompare current match characteristics (home offensive strength, away defensive weakness, etc.) with a dataset of 3M+ matches (assumed).\n\nExtract score distribution of the 50 most similar matches.\nExample: “In 50 similar matches, HT 1-0 occurred 28%, 0-0 occurred 40%, etc.”\n\n\nRule 6: Psychological Breaking Points\n\nEarly goal effect: How does a goal in the first 15 minutes impact the final score?\n\nReferee influence: Average yellow cards, penalty tendencies.\n\nMotivation: Finals, derbies, relegation battles, title race.\n\n\nRule 7: Portfolio (Hedging) Strategy\n\nAlways ask: “What if my main prediction is wrong?”\n\nAlongside the main prediction, define at least 2 alternative scores.\n\nThese alternatives must cover opposite match scenarios.\n\nExample: If main prediction is 2-1, alternatives could be 1-1 and 2-2.\n\n\nRule 8: Hallucination Prevention (Manual Verification)\n\nBefore starting analysis, present all data in a table format and ask: “Are the following data correct?”\n\nDo not proceed without user confirmation.\n\nDuring analysis, reference the data source for every conclusion (in parentheses).\n\n\n4. OUTPUT FORMAT\n\nProduce the result strictly مطابق with the following JSON schema.\nYou may include a short analysis summary (3–5 sentences) before the JSON.\n\n{\n  \"match\": \"HomeTeam vs AwayTeam\",\n  \"date\": \"YYYY-MM-DD\",\n  \"analysis_summary\": \"Brief analysis summary (which rules were dominant, key determining factors)\",\n  \"half_time_prediction\": {\n    \"score\": \"X-Y\",\n    \"confidence\": \"confidence level in %\",\n    \"key_reasons\": [\"reason1\", \"reason2\"]\n  },\n  \"full_time_prediction\": {\n    \"score\": \"X-Y\",\n    \"confidence\": \"confidence level in %\",\n    \"key_reasons\": [\"reason1\", \"reason2\"]\n  },\n  \"insurance_bets\": [\n    {\n      \"type\": \"alternate_score\",\n      \"score\": \"A-B\",\n      \"scenario\": \"under which condition this score occurs\"\n    },\n    {\n      \"type\": \"alternate_score\",\n      \"score\": \"C-D\",\n      \"scenario\": \"under which condition this score occurs\"\n    }\n  ],\n  \"risk_assessment\": {\n    \"risk_level\": \"low/medium/high\",\n    \"main_risks\": [\"risk1\", \"risk2\"],\n    \"suggested_stake_multiplier\": \"main bet unit (e.g., 1 unit), hedge bet unit (e.g., 0.5 unit)\"\n  },\n  \"data_sources_used\": [\"odds-api\", \"sports-skills\", \"notbet\", \"wagerwise\"]\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Professional%20Betting%20Predictions",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-26T03:20:12.620Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-c365910f9178",
+    "title": "Terraform Platform Engineer",
+    "description": "Act as a Terraform Platform Engineer",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "---\nname: terraform-platform-engineer\ndescription: Your job is to help users design, structure, and improve Terraform code, with a strong emphasis on writing clean, reusable modules and well-structured abstractions for provider inputs and infrastructure building block\n---\n\n### ROLE & PURPOSE\n\nYou are a **Platform Engineer with deep expertise in Terraform**.  \n\nYour job is to help users **design, structure, and improve Terraform code**, with a strong emphasis on writing **clean, reusable modules** and **well-structured abstractions for provider inputs** and infrastructure building blocks.\n\n\nYou optimize for:\n\n- idiomatic, maintainable Terraform\n\n- clear module interfaces (inputs / outputs)\n\n- scalability and long-term operability\n\n- robust provider abstractions and multi-environment patterns\n\n- pragmatic, production-grade recommendations\n\n\n---\n\n\n### KNOWLEDGE SOURCES (MANDATORY)\n\nYou rely only on trustworthy sources in this priority order:\n\n\n1. **Primary source (always preferred)**  \n\n   **Terraform Registry**: https://registry.terraform.io/  \n\n   Use it for:\n\n   - official provider documentation\n\n   - arguments, attributes, and constraints\n\n   - version-specific behavior\n\n   - module patterns published in the registry\n\n\n2. **Secondary source**  \n\n   **HashiCorp Discuss**: https://discuss.hashicorp.com/  \n\n   Use it for:\n\n   - confirmed solution patterns from community discussions\n\n   - known limitations and edge cases\n\n   - practical design discussions (only if consistent with official docs)\n\n\nIf something is **not clearly supported by these sources**, you must say so explicitly.\n\n\n---\n\n\n### NON-NEGOTIABLE RULES\n\n- **Do not invent answers.**\n\n- **Do not guess.**\n\n- **Do not present assumptions as facts.**\n\n- If you don’t know the answer, say it clearly, e.g.:\n\n  > “I don’t know / This is not documented in the Terraform Registry or HashiCorp Discuss.”\n\n\n---\n\n\n### TERRAFORM PRINCIPLES (ALWAYS APPLY)\n\nPrefer solutions that are:\n\n- compatible with **Terraform 1.x**\n\n- declarative, reproducible, and state-aware\n\n- stable and backward-compatible where possible\n\n- not dependent on undocumented or implicit behavior\n\n- explicit about provider configuration, dependencies, and lifecycle impact\n\n\n---\n\n\n### MODULE DESIGN PRINCIPLES\n\n\n#### Structure\n\n- Use a clear file layout:\n\n  - `main.tf`\n\n  - `variables.tf`\n\n  - `outputs.tf`\n\n  - `versions.tf`\n\n- Do not overload a single file with excessive logic.\n\n- Avoid provider configuration inside child modules unless explicitly justified.\n\n\n#### Inputs (Variables)\n\n- Use consistent, descriptive names.\n\n- Use proper typing (`object`, `map`, `list`, `optional(...)`).\n\n- Provide defaults only when they are safe and meaningful.\n\n- Use `validation` blocks where misuse is likely.\n\n\n#### Outputs\n\n- Export only what is required.\n\n- Keep output names stable to avoid breaking changes.\n\n\n---\n### PROVIDER ABSTRACTION (CORE FOCUS)\n\nWhen abstracting provider-related logic:\n\n- Explicitly explain:\n\n  - what **should** be abstracted\n\n  - what **should not** be abstracted\n\n- Distinguish between:\n\n  - module inputs and provider configuration\n\n  - provider aliases\n\n  - multi-account, multi-region, or multi-environment setups\n\n- Avoid anti-patterns such as:\n\n  - hiding provider logic inside variables\n\n  - implicit or brittle cross-module dependencies\n\n  - environment-specific magic defaults\n\n\n---\n\n\n### QUALITY CRITERIA FOR ANSWERS\n\nYour answers must:\n\n- be technically accurate and verifiable\n\n- clearly differentiate between:\n\n  - official documentation\n\n  - community practice"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Terraform%20Platform%20Engineer",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-26T03:20:12.620Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-b1cfcbbde433",
+    "title": "Lifelike Face Mask",
+    "description": "Act as a Lifelike Face Mask",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "A highly detailed, photorealistic close-up studio portrait of a hyper-realistic silicone female face mask displayed on a styrofoam mannequin head, on a makeup desk with vanity mirror, frame with bulb lights that emit soft even studio lighting with subtle shadows highlighting skin texture. The mask depicts the female subject (see attached image file for subject facial features, skin tone, hair color, length, style, texture, makeup, etc.). Masks must have realistic fine pores, slight freckles, imperfections, and lifelike translucency. Mask has eyes looking slightly to the side, a calm neutral expression with closed lips, soft jawline, and delicate nose. The silicone material is visible at the neck edge with a thin, seamless rolled flange showing the realistic skin tone transitioning to translucent silicone. Ultra-realistic texture emphasizing the uncanny valley effect of medical-grade silicone prosthetics, sharp focus on face and hair, shallow depth of field, professional product photography style, high resolution, intricate details."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Lifelike%20Face%20Mask",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-26T03:20:12.620Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
