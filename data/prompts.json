@@ -94743,5 +94743,149 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-ffb27027233a",
+    "title": "Architecture & UI/UX Audit",
+    "description": "Act as a Architecture & UI/UX Audit",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a senior frontend engineer and product-focused UI/UX reviewer with experience building scalable web applications.\n\nYour task is NOT to write code yet.\n\nFirst, carefully analyze the project based on:\n\n1. Folder structure (Next.js App Router architecture, route groups, component organization)\n2. UI implementation (layout, spacing, typography, hierarchy, consistency)\n3. Component reuse and design system consistency\n4. Separation of concerns (layout vs pages vs components)\n5. Scalability and maintainability of the current structure\n\nContext:\nThis is a modern Next.js (App Router) project for a developer community platform (similar to Reddit/StackOverflow hybrid).\n\nInstructions:\n\n* Start by analyzing the folder structure and explain what is good and what is problematic\n* Identify architectural issues or anti-patterns\n* Analyze the UI visually (hierarchy, spacing, consistency, usability)\n* Point out inconsistencies in design (cards, buttons, typography, spacing, colors)\n* Evaluate whether the layout system (root layout vs app layout) is correctly implemented\n* Suggest improvements ONLY at a conceptual level (no code yet)\n* Prioritize suggestions (high impact vs low impact)\n* Be critical but constructive, like a senior reviewing a real product\n\nOutput format:\n\n1. Overall assessment (brief)\n2. Folder structure review\n3. UI/UX review\n4. Design system issues\n5. Top 5 high-impact improvements\n\nDo NOT generate code yet.\nFocus only on analysis and recommendations."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Architecture%20%26%20UI%2FUX%20Audit",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-30T03:31:26.833Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-9600d33eb3aa",
+    "title": "Minimalist Graphic Illustration of a Stylized Dachshund",
+    "description": "Act as a Minimalist Graphic Illustration of a Stylized Dachshund",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"colors\": {\n    \"color_temperature\": \"neutral\",\n    \"contrast_level\": \"medium\",\n    \"dominant_palette\": [\n      \"muted blue\",\n      \"light gray\"\n    ]\n  },\n  \"composition\": {\n    \"camera_angle\": \"straight-on\",\n    \"depth_of_field\": \"shallow\",\n    \"focus\": \"The stylized dachshund dog\",\n    \"framing\": \"The subject is centrally composed, with its elongated body forming a complex, interwoven pattern that fills the frame.\"\n  },\n  \"description_short\": \"A minimalist graphic illustration of an extremely long, blue dachshund whose body is twisted and woven into an intricate, abstract knot against a light gray background.\",\n  \"environment\": {\n    \"location_type\": \"studio\",\n    \"setting_details\": \"A plain, solid light gray background.\",\n    \"time_of_day\": \"unknown\",\n    \"weather\": \"none\"\n  },\n  \"lighting\": {\n    \"intensity\": \"moderate\",\n    \"source_direction\": \"ambient\",\n    \"type\": \"soft\"\n  },\n  \"mood\": {\n    \"atmosphere\": \"Playful and clever graphic design\",\n    \"emotional_tone\": \"calm\"\n  },\n  \"narrative_elements\": {\n    \"environmental_storytelling\": \"The image is a visual pun on the dachshund's long body, exaggerating it to an absurd degree to create a decorative, knot-like pattern, blending animal form with abstract design.\",\n    \"implied_action\": \"The dog is presented as a static, decorative element, not in motion.\"\n  },\n  \"objects\": [\n    \"Dachshund dog\"\n  ],\n  \"people\": {\n    \"count\": \"0\"\n  },\n  \"prompt\": \"A minimalist graphic illustration of a stylized blue dachshund. The dog's body is impossibly long, intricately woven over and under itself to form a complex, Celtic knot-like pattern. The design is clean and modern, with subtle texturing on the blue form and soft shadows creating a slight 3D illusion. The entire figure is set against a solid, light warm-gray background. The overall aesthetic is playful, clever, and artistic.\",\n  \"style\": {\n    \"art_style\": \"graphic illustration\",\n    \"influences\": [\n      \"minimalism\",\n      \"flat design\",\n      \"celtic knotwork\",\n      \"vector art\"\n    ],\n    \"medium\": \"digital art\"\n  },\n  \"technical_tags\": [\n    \"minimalist\",\n    \"graphic design\",\n    \"illustration\",\n    \"vector art\",\n    \"dachshund\",\n    \"dog\",\n    \"flat design\",\n    \"knot\",\n    \"abstract\",\n    \"stylized\"\n  ],\n  \"use_case\": \"Graphic design inspiration, poster art, stock illustration, or training data for stylized animal illustrations.\"\n}\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Minimalist%20Graphic%20Illustration%20of%20a%20Stylized%20Dachshund",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-30T03:31:26.833Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-830db31f2d96",
+    "title": "Abstract Geometric Art Prompt Inspired by Wassily Kandinsky",
+    "description": "Act as a Abstract Geometric Art Prompt Inspired by Wassily Kandinsky",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"colors\": {\n    \"color_temperature\": \"neutral\",\n    \"contrast_level\": \"high\",\n    \"dominant_palette\": [\n      \"dark green\",\n      \"black\",\n      \"blue\",\n      \"yellow\",\n      \"red\",\n      \"light purple\"\n    ]\n  },\n  \"composition\": {\n    \"camera_angle\": \"eye-level\",\n    \"depth_of_field\": \"medium\",\n    \"focus\": \"The central arrangement of a large light blue ring with a black core, intersected by black lines.\",\n    \"framing\": \"Asymmetrical balance created by the placement of geometric clusters and strong horizontal and vertical lines that anchor the composition.\"\n  },\n  \"description_short\": \"An abstract painting featuring a variety of colorful geometric shapes, including circles, squares, and arcs, arranged against a dark, textured green background. The composition is structured by bold black lines.\",\n  \"environment\": {\n    \"location_type\": \"abstract\",\n    \"setting_details\": \"The setting is a non-representational space, defined by a deep, mottled green background that provides a sense of depth for the floating geometric forms.\"\n  },\n  \"lighting\": {\n    \"intensity\": \"moderate\",\n    \"source_direction\": \"unknown\",\n    \"type\": \"ambient\"\n  },\n  \"mood\": {\n    \"atmosphere\": \"Harmonious geometric interplay\",\n    \"emotional_tone\": \"calm\"\n  },\n  \"narrative_elements\": {\n    \"environmental_storytelling\": \"The interaction of shapes and colors—overlapping, intersecting, and floating—creates a visual narrative of rhythm, tension, and balance, often compared to a musical composition.\",\n    \"implied_action\": \"The crescent shapes and strong lines suggest dynamic movement and interaction among the otherwise static forms, creating a sense of a frozen moment within a larger cosmic event.\"\n  },\n  \"objects\": [\n    \"circles\",\n    \"squares\",\n    \"checkerboard patterns\",\n    \"lines\",\n    \"crescent shapes\",\n    \"triangle\",\n    \"rectangles\"\n  ],\n  \"people\": {\n    \"count\": \"0\"\n  },\n  \"prompt\": \"An abstract painting in the style of Wassily Kandinsky. A complex, harmonious composition of geometric shapes floats against a deep, textured dark green background. A large light-blue circle with a black center is a focal point, intersected by bold black lines. Colorful checkerboard patterns, segmented circles in yellow and blue, and vibrant red and black crescents are carefully arranged, creating a sense of musical rhythm and cosmic balance. The style is pure geometric abstraction, evoking an intellectual and contemplative mood.\",\n  \"style\": {\n    \"art_style\": \"abstract\",\n    \"influences\": [\n      \"Bauhaus\",\n      \"Geometric Abstraction\",\n      \"Constructivism\"\n    ],\n    \"medium\": \"painting\"\n  },\n  \"technical_tags\": [\n    \"abstract art\",\n    \"geometric abstraction\",\n    \"Bauhaus\",\n    \"Wassily Kandinsky\",\n    \"modernism\",\n    \"composition\",\n    \"color theory\",\n    \"non-representational art\"\n  ],\n  \"use_case\": \"Training data for style transfer AI, art history analysis, or generative models specializing in abstract art.\",\n  \"uuid\": \"a6088ce6-f151-41f2-aec4-06758084a585\"\n}\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Abstract%20Geometric%20Art%20Prompt%20Inspired%20by%20Wassily%20Kandinsky",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-30T03:31:26.833Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-fbeb16965c0d",
+    "title": "Impressionistic Urban Solitude",
+    "description": "Act as a Impressionistic Urban Solitude",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"colors\": {\n    \"color_temperature\": \"warm\",\n    \"contrast_level\": \"medium\",\n    \"dominant_palette\": [\n      \"brown\",\n      \"orange\",\n      \"purple\",\n      \"yellow\",\n      \"grey\"\n    ]\n  },\n  \"composition\": {\n    \"camera_angle\": \"eye-level shot\",\n    \"depth_of_field\": \"medium\",\n    \"focus\": \"A person in a dark coat smoking\",\n    \"framing\": \"The main subject is placed off-center to the right, with strong leading lines from the tram tracks guiding the eye into the cityscape.\"\n  },\n  \"description_short\": \"An impressionistic painting of a person in a dark coat smoking while standing by tram tracks in a city at dusk, with streetlights glowing in the distance.\",\n  \"environment\": {\n    \"location_type\": \"cityscape\",\n    \"setting_details\": \"A city street at dusk or dawn, featuring tram tracks that recede into the distance. The street is lined with glowing lampposts, and a tram and other figures are visible in the background.\",\n    \"time_of_day\": \"evening\",\n    \"weather\": \"clear\"\n  },\n  \"lighting\": {\n    \"intensity\": \"moderate\",\n    \"source_direction\": \"mixed\",\n    \"type\": \"mixed\"\n  },\n  \"mood\": {\n    \"atmosphere\": \"Solitary urban contemplation\",\n    \"emotional_tone\": \"melancholic\"\n  },\n  \"narrative_elements\": {\n    \"character_interactions\": \"The main character is solitary, observing the city scene. There are other distant figures, but no direct interaction is depicted.\",\n    \"environmental_storytelling\": \"The dusky city street, glowing lights, and tram tracks suggest a moment of waiting or transition, perhaps the end of a workday. The scene evokes a sense of urban anonymity and introspection.\",\n    \"implied_action\": \"The person is waiting, possibly for a tram. The act of smoking suggests a moment of pause or reflection before continuing on.\"\n  },\n  \"objects\": [\n    \"person\",\n    \"overcoat\",\n    \"tram tracks\",\n    \"streetlights\",\n    \"smoke\",\n    \"tram\",\n    \"buildings\"\n  ],\n  \"people\": {\n    \"ages\": [\n      \"adult\"\n    ],\n    \"clothing_style\": \"heavy winter overcoat\",\n    \"count\": \"1\",\n    \"genders\": [\n      \"male\"\n    ]\n  },\n  \"prompt\": \"An impressionistic oil painting of a solitary figure in a dark, heavy overcoat, viewed from behind. The person stands beside tram tracks, exhaling a plume of smoke into the cool air. The scene is a city street at dusk, with the sky glowing with warm orange and yellow hues. Distant streetlights cast a soft, warm glow along the street, reflecting on the metal tracks. The style features thick, textured brushstrokes, creating a melancholic and contemplative mood.\",\n  \"style\": {\n    \"art_style\": \"impressionistic realism\",\n    \"influences\": [\n      \"realism\",\n      \"impressionism\",\n      \"urban landscape\"\n    ],\n    \"medium\": \"painting\"\n  },\n  \"technical_tags\": [\n    \"oil painting\",\n    \"impasto\",\n    \"impressionism\",\n    \"cityscape\",\n    \"dusk\",\n    \"chiaroscuro\",\n    \"leading lines\",\n    \"solitude\",\n    \"textured\"\n  ],\n  \"use_case\": \"Art history dataset, style transfer model training, analysis of impressionistic painting techniques.\",\n  \"uuid\": \"03c9a7a0-190f-4afa-bb32-1ed1c05cc818\"\n}\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Impressionistic%20Urban%20Solitude",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-30T03:31:26.833Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
