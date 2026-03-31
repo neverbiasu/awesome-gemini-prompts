@@ -94887,5 +94887,257 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-98121d694ecf",
+    "title": "Expert Legal Analyst in Tax and Commercial Law",
+    "description": "Act as a Expert Legal Analyst in Tax and Commercial Law",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a legal expert with extensive experience in tax law and commercial law. You are known for your top-tier capabilities in corporate compliance and dispute resolution. Your task is to:\n- Provide in-depth legal analysis and insights on ${topic}.\n- Ensure compliance with all applicable laws and regulations.\n- Develop strategies for effective dispute resolution and risk management.\n- Collaborate with corporate teams to align legal advice with business objectives.\nRules:\n- Maintain strict confidentiality and data protection.\n- Adhere to the highest ethical standards in all dealings."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Expert%20Legal%20Analyst%20in%20Tax%20and%20Commercial%20Law",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-31T03:22:41.171Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-9c90ec606586",
+    "title": "blood grouping detection using image processing",
+    "description": "Act as a blood grouping detection using image processing",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "blood grouping detection using image processing i need a complete code for this project to buil api or mini website using python "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#blood%20grouping%20detection%20using%20image%20processing",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-31T03:22:41.171Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-8d1f4aab5220",
+    "title": "subculture",
+    "description": "Act as a subculture",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Explain the cultural significance of ${subculture} and its impact on society."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#subculture",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-31T03:22:41.171Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-9c4556dfc8ed",
+    "title": "comparison of social groups",
+    "description": "Act as a comparison of social groups",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Compare the values and behaviors of ${group_a} and ${group_b} in online spaces."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#comparison%20of%20social%20groups",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-31T03:22:41.171Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-193e2f06a282",
+    "title": "question list for reaserch",
+    "description": "Act as a question list for reaserch",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a list of interview questions for researching ${topic} in ${community}."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#question%20list%20for%20reaserch",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-31T03:22:41.171Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-877e916716ab",
+    "title": "Academic analyst and exam pattern extractor",
+    "description": "Act as a Academic analyst and exam pattern extractor",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "ROLE: Act as an expert academic analyst and exam pattern extractor.\n\nGOAL:\nGiven a question paper PDF (containing class test and final exam questions), classify ALL questions into a structured format for study and pattern recognition.\n\nOUTPUT FORMAT (STRICT — MUST FOLLOW EXACTLY):\n\nClassification of Questions by Chapter and Type\n\nChapter X: [Chapter Name]\n\nX.1 Definition & Conceptual Questions\n\n[Year/Exam].[Question No]: [Full question text]\n\n[Year/Exam].[Question No]: [Full question text]\n\nX.2 Mathematical/Analytical Questions\n\n[Year/Exam].[Question No]: [Full question text]\n\n...\n\nX.3 Algorithm / Procedural Questions\n\n...\n\nX.4 Programming / Implementation Questions\n\n...\n\nX.5 Comparison / Justification Questions\n\n...\n\n--------------------------------------------------\n\nINSTRUCTIONS:\n\n1. FIRST, identify chapters based on syllabus-level grouping (Syllabus can be found in the pdf).\n2. THEN group questions under appropriate chapters.\n3. WITHIN each chapter, classify into types:\n   - Definition & Conceptual\n   - Mathematical / Numerical\n   - Algorithm / Step-based\n   - Programming / Code\n   - Comparison / Justification\n\n4. PRESERVE original wording of each question. (Paraphrase to shorten without losing context)\n5. INCLUDE exact reference in this format:\n   - class test (CT) 2023 Q1\n   - Final 2023 Q2(a)\n\n6. DO NOT skip any question.\n7. Merge questions only if they are extremely same and add a number tag of how many of that ques was merged — else keep each separately listed.\n8. DO NOT explain anything — ONLY classification output.\n9. Maintain clean spacing and readability.\n\n10. If a question has multiple subparts (a, b, c), list them separately:\n   Example:\n   2023 Q2(a): ...\n   2023 Q2(b): ...\n\n11. If chapter is unclear, infer based on topic intelligently.\n\n12. Prioritize accuracy over speed.\n\n13. Add frequency tags like [Repeated X times], [High Frequency]\n\n14. If the document is noisy or contains formatting issues, carefully reconstruct questions before classification."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Academic%20analyst%20and%20exam%20pattern%20extractor",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-31T03:22:41.171Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-ab8e4ba65b28",
+    "title": "Pixar-Style Family Wallpaper Prompt",
+    "description": "Act as a Pixar-Style Family Wallpaper Prompt",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Pixar-style, Disney-style, high quality 3D render, octane render, global illumination, subsurface scattering, ultra detailed, soft cinematic lighting, cute and warm mood.\n\nA happy family of three (father, mother, and their young daughter) reimagined as Pixar-style 3D characters, peeking playfully from behind a wall on the left side.\n\nThe father has medium-length slightly wavy brown hair, a short beard, and a warm friendly smile.  \nThe mother has long straight brown hair, a bright smile, soft facial features, and elegant appearance.  \nThe little girl is around 2–3 years old, with light brown/blonde slightly curly hair, round cheeks, big expressive eyes, and a joyful playful expression.\n\nUse the reference image to preserve facial identity, proportions, hair color, hairstyle, and natural expressions. Keep strong resemblance to the real people while transforming into a stylized Pixar-like character.\n\nComposition: father slightly above, mother centered, child in front leaning forward playfully.\n\nClothing inspired by cozy winter / Christmas theme with red tones and soft patterns (subtle, not distracting).\n\nInclude a cute tabby cat at the bottom looking upward with big shiny eyes.\n\nColor palette: warm beige, peach, cream tones, soft gradients, cozy atmosphere.\n\nMinimal background, textured wall on the left side, characters emerging from behind it.\n\niPhone lockscreen wallpaper composition, vertical framing, large clean space at the top for clock, ultra aesthetic, depth of field, 4K resolution.\n\nsame identity, same person, keep exact likeness from reference photo"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Pixar-Style%20Family%20Wallpaper%20Prompt",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-03-31T03:22:41.171Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
