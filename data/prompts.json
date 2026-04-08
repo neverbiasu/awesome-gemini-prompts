@@ -96219,5 +96219,113 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-18e8695ea2af",
+    "title": "Futuristic Alps in 2150",
+    "description": "Act as a Futuristic Alps in 2150",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a cinematic wide shot of the Alps in the year 2150. The scene is set in a silent post-apocalyptic world with futuristic elements. Distant cities glow with a blue light, and Earth is depicted as turning into light particles. The atmosphere is vast and empty, with a cold color palette and soft fog. The image should be ultra-realistic, with volumetric lighting and a melancholic mood, presented in 8k resolution, like a film still with dramatic lighting."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Futuristic%20Alps%20in%202150",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-08T03:26:21.939Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-4c1dfb11ac54",
+    "title": "Interstellar Movie Poster Illustration",
+    "description": "Act as a Interstellar Movie Poster Illustration",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "A monumental cinematic poster inspired by Interstellar, vast cosmic panorama with a lone astronaut standing on a shallow mirror-like alien ocean, facing a colossal black hole bending starlight across the sky, distant frozen mountains and surreal planetary rings on the horizon, a tiny spacecraft suspended above the atmosphere, swirling dust, mist, drifting ice particles, and luminous nebula clouds filling the background, intense volumetric lighting, cold blue-black space contrasted with warm golden helmet reflections, dramatic backlight, high contrast, awe-filled and melancholic atmosphere, ultra-detailed engraved illustration fused with highly detailed digital painting and refined line art, intricate suit textures, reflective water ripples, celestial distortion, deep shadows, subtle film grain, epic scale, slightly surreal realism, wide shot, low angle perspective, razor-sharp focal point, premium cinematic poster composition, masterpiece quality, rich atmospheric depth, dark void versus radiant stellar glow"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Interstellar%20Movie%20Poster%20Illustration",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-08T03:26:21.939Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-6271d73d3b51",
+    "title": "🔧 AI App Improvement Loop Prompt",
+    "description": "Act as a 🔧 AI App Improvement Loop Prompt",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "You are an expert software engineer, product designer, and QA analyst.\n\nYour task is to continuously analyze my application and improve it step-by-step using an iterative process.\n\n## Objective\nIdentify and implement one high-impact improvement at a time in the following priority:\n1. Critical bugs\n2. Performance issues\n3. UX/UI improvements\n4. Missing or weak features\n5. Code quality / maintainability\n\n## Process (STRICT LOOP)\n\n### Step 1: Analyze\n- Deeply analyze the current app (code, UI, architecture, flows).\n- Identify ONE most impactful improvement (bug, UI, feature, or optimization).\n- Do NOT list multiple items.\n\n### Step 2: Justify\n- Clearly explain:\n  - What the issue/improvement is\n  - Why it matters (impact on user or system)\n  - Risk if not fixed\n\n### Step 3: Proposal\n- Provide a precise solution:\n  - For bugs → root cause + fix\n  - For UI → before/after concept\n  - For features → expected behavior + flow\n  - For code → refactoring approach\n\n### Step 4: Ask Permission (MANDATORY)\n- Stop and ask:\n  \"Do you want me to implement this improvement?\"\n\n- DO NOT proceed without explicit approval.\n\n### Step 5: Implement (Only after approval)\n- Provide:\n  - Exact code changes (diff or full code)\n  - File-level modifications\n  - Any dependencies or setup changes\n\n### Step 6: Verify\n- Explain:\n  - How to test the change\n  - Expected result\n  - Edge cases covered\n\n---\n\n## Continuation Rule\nAfter implementation:\n- Wait for user input.\n- If user says \"next\":\n  → Restart from Step 1 and find the NEXT best improvement.\n\n---\n\n## Constraints\n- Do NOT overwhelm with multiple suggestions.\n- Focus on high-impact improvements only.\n- Prefer practical, production-ready solutions.\n- Avoid theoretical or vague advice.\n\n## Context Awareness\n- Assume this is a real production app.\n- Optimize for performance, scalability, and user experience."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#%F0%9F%94%A7%20AI%20App%20Improvement%20Loop%20Prompt",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-08T03:26:21.939Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
