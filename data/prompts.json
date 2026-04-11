@@ -96543,5 +96543,581 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-9481ed840d2c",
+    "title": "Viking ",
+    "description": "Act as a Viking ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"prompt\": \"You will perform an image edit using the person from the provided photo as the main subject. The face must remain clear and unaltered. Transform the subject into a formidable **Viking Jarl or Shieldmaiden**, standing commanding at the prow of a longship sailing through a dramatic Norwegian fjord. Emphasize rugged textures of fur and metal, cold Northern light, sea spray, and an epic, adventurous atmosphere.\",\n  \"details\": {\n    \"year\": \"Viking Age (approx. 9th-10th Century)\",\n    \"genre\": \"Historical Epic / Gritty Realism / Adventure\",\n    \"location\": \"The wooden prow of a carved dragon-headed longship, cutting through dark, choppy water. Steep, mist-shrouded mountains rise dramatically on both sides of the fjord. Snow might be visible on the peaks. The sky is overcast and heavy.\",\n    \"lighting\": \"Cold, diffused Northern daylight. It's moody and overcast, creating soft but distinct shadows. The light emphasizes the textures of wet wood, metal, and fur. No warm sunlight.\",\n    \"camera_angle\": \"Medium-long shot, slightly low-angle, looking up at the subject to emphasize their power and leadership against the backdrop of the massive fjord. (1:1 composition).\",\n    \"emotion\": \"Fierce, commanding, determined, and rugged.\",\n    \"costume\": \"Heavy, authentic Viking attire: a thick bear or wolf fur cloak clasped with an ornate brooch over leather armor reinforced with iron plates or chainmail. A large, battle-worn bearded axe resting on their shoulder or held firmly. Hair might be braided, and if applicable, a rugged beard. Subtle, historically plausible tattoos on visible skin.\",\n    \"color_palette\": \"Dominated by cold, natural tones: deep sea blues and grays, dark browns of wet wood and leather, slate grays of rock and sky, and the natural tones of fur. The metal accents are dull iron, not shiny steel.\",\n    \"atmosphere\": \"Epic, raw, cold, and adventurous. The air feels freezing and damp with sea spray. The sound of waves crashing against wood is almost audible. A sense of a long journey and conquest.\",\n    \"subject_expression\": \"A fierce, determined gaze looking ahead toward the horizon. The face is set in a grim, commanding line, showing resilience against the elements. Sea spray might be on their face.\",\n    \"subject_action\": \"Standing with a wide, stable stance on the shifting deck. One hand is gripping the dragon-head stem of the ship or the rigging, while the other holds their axe. They are bracing against the movement of the sea.\",\n    \"environmental_elements\": \"Sea spray splashing over the bow. Other crew members (rowers) are visible as indistinct, rugged shapes in the background, laboring at the oars. The sail is a heavy, woven wool fabric with bold stripes (e.g., red and white).\"\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Viking%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-11T02:57:00.008Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-fd378cdbf91b",
+    "title": "Cowboy",
+    "description": "Act as a Cowboy",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"prompt\": \"You will perform an image edit using the person from the provided photo as the main subject. The face must remain clear and unaltered. Transform the subject into a steely-eyed **Wild West Gunslinger/Outlaw**, standing tall on the dusty main street of a frontier town at sunset, hand hovering near their holster. Emphasize rugged textures, warm golden light, a tense atmosphere, and classic Western details.\",\n  \"details\": {\n    \"year\": \"Late 19th Century (American Frontier / Wild West Era)\",\n    \"genre\": \"Western / Period Piece / Action / Americana\",\n    \"location\": \"The wide, dusty main street of a wooden frontier town. Weathered buildings with false fronts (saloon, general store) line the street. The sun is setting behind them, casting long shadows. Dust hangs in the air. Tumbleweeds are optional but welcomed.\",\n    \"lighting\": \"Dramatic 'Golden Hour' sunset. Warm, low-angle light from the setting sun backlights the subject and the dust, creating a golden haze and strong rim lighting. Long, dramatic shadows stretch across the street. The overall tone is warm and gritty.\",\n    \"camera_angle\": \"Full-body shot, slightly low-angle, looking up at the subject to emphasize their imposing presence. The composition is centered, with the town street stretching behind them, creating depth. (1:1 composition).\",\n    \"emotion\": \"Tense, confident, watchful, and ready for action.\",\n    \"costume\": \"Rugged, worn Western attire: a long, dusty canvas or leather duster coat, a worn cowboy hat pulled slightly low, a patterned shirt, a leather vest, and sturdy, scuffed cowboy boots. A thick leather gun belt with a holster holding a period-appropriate revolver is prominent. A bandana is tied around the neck.\",\n    \"color_palette\": \"Dominated by warm, earthy tones: dusty browns, burnt oranges, deep reds, and golden yellows from the sunset. The wood of the buildings is weathered gray and brown. The sky is a gradient of fiery orange, pink, and deep blue.\",\n    \"atmosphere\": \"Tense, gritty, cinematic, and quiet. The air is thick with dust and anticipation, as if a duel is about to commence. A classic Western standoff feel.\",\n    \"subject_expression\": \"A steely, unwavering gaze looking directly forward from beneath the hat brim. A firm, set jaw. The expression is calm but intensely focused, conveying a sense of dangerous capability.\",\n    \"subject_action\": \"Standing with feet planted firmly apart, body slightly bladed. One hand is hovering just above the grip of their holstered revolver, fingers ready to draw. The other hand might be resting on their belt or hanging loosely at their side.\",\n    \"environmental_elements\": \"Visible dust motes catching the golden light. The silhouette of a horse hitched to a rail in the background. A wooden sign for a saloon (e.g., 'Golden Nugget Saloon') is visible but slightly out of focus. The texture of rough wood and dry earth is palpable.\"\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Cowboy",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-11T02:57:00.008Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-ac8fe873bc90",
+    "title": "Atari",
+    "description": "Act as a Atari",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"prompt\": \"You will perform an image edit using the person from the provided photo as the main subject. The face must remain clear and unaltered. Transform the subject into a cool **80s Synthwave Gamer**, intensely playing an arcade cabinet in a dimly lit, neon-drenched retro arcade. Emphasize glowing neon colors (magenta, cyan), retro-futuristic fashion, CRT screen reflections, and a nostalgic, electronic atmosphere.\",\n  \"details\": {\n    \"year\": \"1980s (Retro-Futuristic / Synthwave Aesthetic)\",\n    \"genre\": \"Synthwave / Retrowave / 80s Nostalgia / Cyberpunk Lite\",\n    \"location\": \"A dark, atmospheric retro arcade. Walls are lined with glowing arcade cabinets showing pixel art. The floor might have a glowing neon grid pattern. Smoke machines create a slight haze in the air, catching the colored lights.\",\n    \"lighting\": \"Intense, contrasting neon lighting. Dominant hues of electric pink, cyan, deep purple, and laser blue. The primary light source on the subject's face is the glow from the CRT arcade screen they are playing, creating strong, colorful highlights.\",\n    \"camera_angle\": \"Medium shot, capturing the subject from the waist up, engaged with the arcade machine. The background is a blur of neon lights and screens. (1:1 composition).\",\n    \"emotion\": \"Cool, focused, immersed, and slightly nostalgic.\",\n    \"costume\": \"Quintessential 80s cool: A satin 'Members Only' style jacket (perhaps iridescent or with a retro logo), a graphic band t-shirt, and maybe fingerless gloves. Sunglasses worn indoors are optional but encouraged for the aesthetic. Hair is styled with volume.\",\n    \"color_palette\": \"A strict synthwave palette: saturated magenta, cyan, deep violet, electric blue, and sunset orange. Deep blacks in the shadows contrast sharply with the neon light sources.\",\n    \"atmosphere\": \"Electric, nostalgic, hazy, and cool. The air feels filled with the sounds of synthesized music and coin drops. A visual representation of a vaporwave track.\",\n    \"subject_expression\": \"A cool, focused smirk or intense concentration, eyes fixed on the screen. The realistic face is illuminated by the shifting colored light of the game.\",\n    \"subject_action\": \"Hands are actively engaged with the arcade joystick and buttons, knuckles slightly white from gripping. The body is leaned slightly into the machine in concentration.\",\n    \"environmental_elements\": \"Scanlines visible on the CRT screens. Pixelated explosions or high scores reflecting in the subject's sunglasses or eyes. Glowing coin slots. A retro poster for a fictional 80s sci-fi movie in the background.\"\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Atari",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-11T02:57:00.008Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-53a577bb3bc5",
+    "title": "Japan",
+    "description": "Act as a Japan",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"prompt\": \"You will perform an image edit using the person from the provided photo as the main subject. The face must remain clear and unaltered. Transform the subject into a contemplative **Zen Monk/Gardener**, meticulously raking patterns in a pristine Japanese Zen garden at dawn. Emphasize minimalist aesthetics, soft natural light, tranquil colors, and a profound sense of peace and mindfulness.\",\n  \"details\": {\n    \"year\": \"Timeless (Traditional Japanese Aesthetics)\",\n    \"genre\": \"Zen / Contemplative / Minimalist / Cultural\",\n    \"location\": \"A perfectly maintained Japanese Zen rock garden (Karesansui). The ground is fine white gravel raked into precise, concentric patterns around carefully placed, weathered rocks. A moss-covered stone lantern or a single, artfully pruned bonsai tree is visible in the background. A subtle bamboo fence encloses the space.\",\n    \"lighting\": \"Soft, diffused light of early dawn or a gentle overcast day. The light is even and gentle, creating subtle shadows that define the raked patterns without harshness. A cool, serene quality pervades the scene.\",\n    \"camera_angle\": \"Medium shot to full-body, positioned slightly low to capture the subject's interaction with the ground and the expanse of the raked garden. The composition is clean and balanced, adhering to minimalist principles. (1:1 composition).\",\n    \"emotion\": \"Serene, focused, mindful, and peaceful. A deep sense of inner calm.\",\n    \"costume\": \"Simple, traditional Japanese attire: a plain, loose-fitting kimono or robes in muted, natural tones (e.g., charcoal gray, deep indigo, earthy beige). Hair is neatly styled or shaved (if appropriate for a monk). Clean, unadorned aesthetic.\",\n    \"color_palette\": \"Dominated by serene, muted natural colors: the stark white of the gravel, the grays and earthy browns of the rocks and wood, deep greens of moss and foliage. Very subtle, restrained use of accent colors. The overall palette is harmonious and calming.\",\n    \"atmosphere\": \"Profoundly peaceful, meditative, silent, and harmonious. The air feels crisp and still, inviting introspection. A strong sense of order and tranquility.\",\n    \"subject_expression\": \"Eyes are downcast or gently focused on the raking task, with a calm, serene expression on their realistic face. Lips are gently closed, conveying deep concentration and inner peace.\",\n    \"subject_action\": \"Holding a wooden rake with both hands, meticulously drawing perfect, flowing patterns in the white gravel. Their posture is stooped in a graceful, deliberate manner, emphasizing the ritualistic nature of the task. Movement is slow and purposeful.\",\n    \"environmental_elements\": \"Perfectly defined, flowing patterns in the white gravel. The texture of the weathered rocks. Fine dew drops might be visible on the moss or the rake. The distant bamboo fence provides a subtle, natural boundary to the tranquil space.\"\n  }\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Japan",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-11T02:57:00.008Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-4802a5ac6005",
+    "title": "Paint",
+    "description": "Act as a Paint",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"prompt\": \"You will perform an image edit using the person from the provided photo as the main subject. The face must remain clear and unaltered. Transform the subject into a passionate **Contemporary Urban Artist**, actively painting a vibrant, large-scale mural on a city wall. Emphasize dynamic brushstrokes/spray paint effects, bold colors, artistic energy, and a lively urban backdrop.\",\n  \"details\": {\n    \"year\": \"Contemporary (Modern Urban Setting)\",\n    \"genre\": \"Street Art / Contemporary Art / Urban Life / Expressionism\",\n    \"location\": \"A vibrant city alleyway or a prominent wall in an urban art district. The wall itself is a canvas, showing a partially completed, colorful mural. Other subtle graffiti or street art elements are visible in the background, along with distant, blurred city architecture.\",\n    \"lighting\": \"Bright, clear daylight with a slight artistic filter, enhancing the vibrancy of colors. Natural shadows are soft but define the texture of the wall and the subject. The focus is on illuminating the artwork.\",\n    \"camera_angle\": \"Medium shot, capturing the subject mid-action with their tools, with a significant portion of the mural visible. Dynamic angle that conveys movement and artistic energy. (1:1 composition).\",\n    \"emotion\": \"Focused, passionate, energetic, and expressive.\",\n    \"costume\": \"Comfortable, practical artist's attire: paint-splattered jeans or overalls, a graphic t-shirt or hoodie, and sturdy work boots. Hair might be tied back or messy. Perhaps a beanie or cap worn backward.\",\n    \"color_palette\": \"Explosive and highly saturated. A wide range of bright, bold colors used in the mural (e.g., electric blues, fiery oranges, vibrant pinks, lime greens). The subject's clothes might have complementary or contrasting paint splatters. The city background is slightly desaturated to make the mural pop.\",\n    \"atmosphere\": \"Energetic, creative, inspiring, and lively. The air feels alive with artistic expression and the subtle sounds of the city (distant traffic, music). A sense of freedom and creation.\",\n    \"subject_expression\": \"Intense concentration, eyes narrowed as they focus on the artwork. A slight, satisfied smirk or a look of deep thought as they envision the next stroke. No direct eye contact with the viewer.\",\n    \"subject_action\": \"Actively engaged in painting: one hand holding a spray can or a large paintbrush, mid-stroke on the mural. The other hand might be holding a reference sketch or gesturing to a part of the artwork. Paint drips are visible down the wall. Their body is in motion, conveying the physical act of creation.\",\n    \"environmental_elements\": \"Various paint cans, brushes, and tools scattered at the base of the wall. A stepladder or scaffolding is partially visible. Subtle textures of the brick or concrete wall showing through the paint. A sense of depth with layers of paint.\"\n  }\n }"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Paint",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-11T02:57:00.008Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-f9ff5d00b43b",
+    "title": "Galactic Smuggler",
+    "description": "Act as a Galactic Smuggler",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"prompt\": \"You will perform an image edit using the person from the provided photo as the main subject. The face must remain clear and unaltered. Transform the subject into a charismatic **Galactic Smuggler/Pilot**, casually leaning against their rugged starship in a bustling alien spaceport. Emphasize futuristic tech, worn utilitarian gear, vibrant alien details, and an adventurous, slightly rebellious atmosphere.\",\n  \"details\": {\n    \"year\": \"Distant Future (Space Opera / Sci-Fi Adventure)\",\n    \"genre\": \"Sci-Fi / Space Opera / Adventure / Western in Space\",\n    \"location\": \"A bustling, gritty spaceport on a dusty alien planet. Visible elements include the metallic hull of a custom-modified starship (with visible scorch marks and repairs), crates of illicit cargo, glowing data terminals, and exotic alien species milling in the background. The sky is a unique alien color, possibly with multiple moons.\",\n    \"lighting\": \"Dynamic, mixed lighting. Harsh, artificial lights from the spaceport (neon signs, floodlights) combined with the natural, often colorful light from the alien sun(s). Creates strong contrasts and highlights on metallic surfaces and the subject's gear. Dust motes visible in the air.\",\n    \"camera_angle\": \"Medium shot to full-body, with the subject casually leaning against the starship. Slightly low-angle to emphasize the ship's size and the subject's confidence. The background is busy but slightly out of focus to keep attention on the subject. (1:1 composition).\",\n    \"emotion\": \"Confident, shrewd, slightly roguish, and self-assured.\",\n    \"costume\": \"Worn, practical, yet stylish futuristic attire: a durable flight jacket with patches and integrated tech, sturdy cargo pants, and reinforced boots. A utility belt with various gadgets and holstered blasters. Perhaps a distinctive scarf or bandana. Hair is slightly disheveled but cool.\",\n    \"color_palette\": \"Mix of dusty earth tones (browns, tans, faded greens) with pops of vibrant alien colors (electric blues, vivid purples, neon yellows) from tech and alien signage. Metallic silver/bronze from the ship. The sky might be an unusual shade of orange or red.\",\n    \"atmosphere\": \"Adventurous, bustling, slightly dangerous, and full of hidden opportunities. The air feels charged with the energy of commerce and illicit dealings. A sense of freedom and living on the edge.\",\n    \"subject_expression\": \"A confident, knowing smirk or a casual, relaxed smile. Eyes are sharp and observant, perhaps looking slightly off-camera as if scanning for trouble or opportunities.\",\n    \"subject_action\": \"Casually leaning against the hull of their starship, one hand perhaps resting on a blaster holster or a control panel. The other hand might be holding a futuristic data pad or a peculiar alien drink. Body language is relaxed but ready.\",\n    \"environmental_elements\": \"Subtle exhaust fumes or steam rising from the starship. Distant silhouettes of other unique alien spacecraft taking off or landing. Two-headed aliens or droids in the background. The ground is dusty and shows tire tracks from speeders.\"\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Galactic%20Smuggler",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-11T02:57:00.008Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-7e962e54d251",
+    "title": "Transforming a Photo into a Post-Apocalyptic Scene",
+    "description": "Act as a Transforming a Photo into a Post-Apocalyptic Scene",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"prompt\": \"You will perform an image edit using the person from the provided photo as the main subject. The face must remain clear and unaltered. Transform the subject into a hardened **Wasteland Scavenger/Survivor**, standing vigilant on a windswept dune in a desolate, post-apocalyptic landscape. Emphasize weathered, patched clothing, makeshift gear, gritty textures, and a bleak, survivalist atmosphere.\",\n  \"details\": {\n    \"year\": \"Undefined Post-Apocalyptic Future (e.g., 'After the Collapse')\",\n    \"genre\": \"Post-Apocalyptic / Dystopian / Survival\",\n    \"location\": \"A vast, desolate desert or barren wasteland. The ground is cracked earth, wind-blown sand, and scattered debris (e.g., rusted car parts, broken signs). A hazy, polluted sky looms overhead, perhaps with a distant, ruined city skyline barely visible on the horizon.\",\n    \"lighting\": \"Harsh, muted, and desaturated sunlight, filtering through a dusty, smoggy atmosphere. Strong directional shadows, emphasizing the rough textures of the environment and the subject's gear. Overall tone is gritty and somewhat oppressive.\",\n    \"camera_angle\": \"Medium shot to full-body, positioned slightly low to make the subject appear formidable against the stark landscape. The horizon line is low, emphasizing the vast, empty sky. (1:1 composition).\",\n    \"emotion\": \"Vigilant, weary, resilient, and determined.\",\n    \"costume\": \"Layered, patched-together clothing made from repurposed materials: torn denim, worn leather, tattered canvas. Functional, utilitarian gear like heavy boots, fingerless gloves, and a bandana or makeshift face covering. A visible collection of scavenged items (e.g., pouches, tools, water canteen) strapped to their body.\",\n    \"color_palette\": \"Dominated by desaturated earth tones: dusty browns, faded greens, muted grays, and rusty oranges. Punctual pops of faded color from repurposed fabric scraps. The sky is a washed-out pale yellow or sickly green.\",\n    \"atmosphere\": \"Bleak, harsh, dangerous, and lonely. The air feels heavy with dust and the silence of a dead world. A constant sense of survival against overwhelming odds.\",\n    \"subject_expression\": \"A grim, focused gaze, scanning the horizon for threats or resources. Mouth set in a firm, determined line. Hair is windswept and dusty.\",\n    \"subject_action\": \"Standing alert, possibly holding a makeshift weapon (e.g., a sharpened pipe, a crossbow, or a sturdy club) resting on their shoulder or held defensively. Their stance is one of readiness and caution.\",\n    \"environmental_elements\": \"Fine dust or sand particles visibly blowing in the wind around the subject. Distant, skeletal remains of trees or buildings. Perhaps a single, circling scavenger bird high in the sky. The ground shows cracks and dry vegetation.\"\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Transforming%20a%20Photo%20into%20a%20Post-Apocalyptic%20Scene",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-11T02:57:00.008Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-2e14038d5056",
+    "title": "1950s Diner Photo Transformation",
+    "description": "Act as a 1950s Diner Photo Transformation",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"prompt\": \"You will perform an image edit using the person from the provided photo as the main subject. The face must remain clear and unaltered. Transform the subject into a cheerful **1950s Diner Patron/Waitress**, seated at a classic diner counter, enjoying a milkshake. Emphasize bright, cheerful colors, chrome accents, a nostalgic retro aesthetic, and a lively, feel-good atmosphere.\",\n  \"details\": {\n    \"year\": \"1950s (Mid-Century Americana)\",\n    \"genre\": \"Retro / Nostalgia / Pop Art / Slice of Life\",\n    \"location\": \"A classic American diner interior. Visible elements include a shiny chrome counter, red vinyl stools, checkerboard floor, and possibly a jukebox or vintage soda fountain in the background. Bright, inviting lighting.\",\n    \"lighting\": \"Bright, even, and slightly diffused incandescent lighting, typical of a bustling diner. Everything is clearly illuminated, creating a cheerful, inviting glow.\",\n    \"camera_angle\": \"Medium close-up, capturing the subject from the chest up, with enough of the counter and background to establish the diner setting. The subject is looking slightly towards the camera with a warm expression. (1:1 composition).\",\n    \"emotion\": \"Joyful, relaxed, friendly, and carefree.\",\n    \"costume\": \"Classic 1950s attire: for a patron, a brightly colored (e.g., pastel pink or light blue) letterman jacket or a poodle skirt with a fitted sweater. For a waitress, a crisp uniform (e.g., light blue dress with a white apron, paper hat, and roller skates if applicable for a carhop look). Hair is styled in a classic 50s bouffant or ponytail.\",\n    \"color_palette\": \"Vibrant and cheerful primary colors (red, blue, yellow) mixed with soft pastels (pink, mint green, baby blue) and shiny chrome silver. Strong, clean lines define objects. Everything looks fresh and inviting.\",\n    \"atmosphere\": \"Upbeat, nostalgic, lively, and incredibly friendly. A sense of youthful innocence and fun, set to the background hum of a jukebox.\",\n    \"subject_expression\": \"A wide, genuine smile with bright, sparkling eyes. A slight tilt of the head, conveying friendliness and openness.\",\n    \"subject_action\": \"One hand is holding a tall, frosted milkshake glass with a striped straw, perhaps mid-sip. The other hand is resting casually on the chrome counter or gesturing lightly. Body language is relaxed and happy.\",\n    \"environmental_elements\": \"A perfect, whipped cream-topped milkshake with a cherry. Reflections of the diner's neon signs (if any) or bright lights on the chrome surfaces. A classic diner menu or napkin dispenser on the counter. Perhaps a faint 'Wurlitzer' logo on a distant jukebox.\"\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#1950s%20Diner%20Photo%20Transformation",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-11T02:57:00.008Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-e552952a30bb",
+    "title": "Cute Family Cartoon Sticker Design",
+    "description": "Act as a Cute Family Cartoon Sticker Design",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"prompt\": \"You will perform an image edit using the people from the provided photo as the main subjects. The faces must remain clear and unaltered. Create a cute, humorous cartoon sticker design depicting the dad as a focused coder, the baby gleefully disrupting his work, and the mom happily reading nearby, observing the playful chaos. Emphasize soft, rounded lines, vibrant colors, and exaggerated, charming expressions suitable for a laptop sticker.\",\n  \"details\": {\n    \"year\": \"Contemporary (current day)\",\n    \"genre\": \"Cartoon / Whimsical / Family Humor / Cute Sticker Art\",\n    \"location\": \"A cozy, slightly stylized home environment – perhaps a living room or home office. Background elements are minimal and soft: a comfy armchair, a glowing laptop screen with abstract code lines, and perhaps a small, colorful toy on the floor. The overall setting feels warm and inviting.\",\n    \"lighting\": \"Soft, diffused indoor lighting, designed to be bright and clear without harsh shadows, similar to children's book illustrations. Everything is well-lit for clarity.\",\n    \"camera_angle\": \"A medium close-up, focusing on the three subjects and their interaction. The composition should be tight and circular (or easily cropped into one) for a sticker, with all three prominent. (1:1 composition).\",\n    \"emotion\": \"Dad: comically flustered/focused; Baby: joyful/mischievous; Mom: serene/amused.\",\n    \"costume\": \"Simplified, comfortable home attire. Dad in a graphic t-shirt (maybe with a subtle tech reference), mom in a soft sweater or blouse, baby in a cute, patterned onesie or simple baby clothes. Colors are bright and friendly.\",\n    \"color_palette\": \"A cheerful and inviting palette of soft pastels mixed with brighter, appealing colors. Think warm yellows, gentle blues, mint greens, and rosy pinks. Bold, clean outlines.\",\n    \"atmosphere\": \"Warm, loving, and playfully chaotic. Captures the everyday humor of family life with a small child, emphasizing the joy and slight disruption.\",\n    \"subject_expression\": \"Dad: One eyebrow raised in exasperation or a slight, comedic grimace, eyes wide but still fixated on his screen, mouth slightly open in a soft 'oh no' expression. Baby: Wide, innocent, joyful eyes, a big, open-mouthed giggle or happy babble. Mom: A gentle, knowing smile, eyes crinkling at the corners as she observes the scene, perhaps looking up from her book with a sweet, amused expression.\",\n    \"subject_action\": \"Dad is seated, hunched over a laptop, fingers poised over the keyboard. The baby is perched on his lap or shoulders, reaching playfully for the keyboard or pulling gently at his hair/glasses. Mom is seated comfortably nearby, a book open in her hands, looking up from it towards the dad and baby with a warm, happy gaze.\",\n    \"environmental_elements\": \"Stylized, simple elements: a glowing 'error' message or abstract code on the laptop screen. A small, innocent-looking baby toy (e.g., a rattle or block) slightly out of reach on the desk. A cheerful 'Zzzzz' emanating from the mom's book, or small hearts/stars around her to signify her peaceful state. The whole design has a clean, bold outline, making it ideal for a sticker.\"\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Cute%20Family%20Cartoon%20Sticker%20Design",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-11T02:57:00.008Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-42e373eb1102",
+    "title": "Celebratory Student Exam Result Reveal",
+    "description": "Act as a Celebratory Student Exam Result Reveal",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"shot\": {\n    \"composition\": [\"medium front-facing shot of student seated at desk, holding up smartphone toward camera with green screen display visible\"],\n    \"lens\": \"35mm lens for natural perspective and moderate depth of field\",\n    \"camera_motion\": \"slight upward tilt and gentle push-in toward phone as student smiles\"\n  },\n  \"subject\": {\n    \"description\": \"university-aged student, cheerful and excited after receiving great exam results\",\n    \"wardrobe\": \"casual, relaxed home outfit\"\n  },\n  \"scene\": {\n    \"location\": \"home study desk\",\n    \"time_of_day\": \"daytime\",\n    \"environment\": \"bright home setting with books and papers around desk, daylight streaming through window\"\n  },\n  \"visual_details\": {\n    \"action\": \"student beams with happiness, raises phone toward camera to display result (green screen for later editing), gestures with free hand in celebration\",\n    \"props\": \"smartphone with green screen, desk items (notebook, pen, laptop closed or pushed aside)\"\n  },\n  \"cinematography\": {\n    \"lighting\": \"bright natural daylight emphasizing upbeat, celebratory mood\",\n    \"tone\": \"joyful, proud, positive\"\n  },\n  \"audio\": {\n    \"ambient\": \"subtle household quiet, optional faint celebratory sound effect (like soft cheer or clap)\",\n    \"dialogue\": [\n      {\n        \"character\": \"student\",\n        \"dialogue\": \"Yes! I did it!\",\n        \"voice\": \"youthful, enthusiastic\",\n        \"style\": \"excited and genuine\",\n        \"duration\": \"2s\",\n        \"emphasis\": \"strong emphasis on joy\"\n      }\n    ]\n  },\n  \"color_palette\": \"bright warm tones with phone’s chroma green as focal point\",\n  \"settings\": {\n    \"transitions\": \"quick, energetic fade-out at end\"\n  },\n  \"action_sequence\": [\n    {\n      \"time\": \"0-5s\",\n      \"event\": \"medium shot shows student sitting at desk, smiling broadly after checking exam results\"\n    },\n    {\n      \"time\": \"5-10s\",\n      \"event\": \"student lifts smartphone toward camera, green screen display clearly visible\"\n    },\n    {\n      \"time\": \"10-15s\",\n      \"event\": \"camera gently pushes in closer on phone as student laughs with excitement\"\n    },\n    {\n      \"time\": \"15-18s\",\n      \"event\": \"student pumps free hand in small celebratory gesture, still holding up phone\"\n    },\n    {\n      \"time\": \"18-20s\",\n      \"event\": \"camera briefly shifts focus to student’s smiling face before fade-out\"\n    }\n  ]\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Celebratory%20Student%20Exam%20Result%20Reveal",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-11T02:57:00.008Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-163e4e1706fb",
+    "title": "Instagram Profile Search Navigator",
+    "description": "Act as a Instagram Profile Search Navigator",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as an Instagram Profile Search Navigator. I am looking for a specific piece of content on a creator's profile, but the app lacks a direct search bar.\n\nCreator Handle: ${creator_handle}\nTarget Topic/Video Details: ${topic_details}\n\nYour task is to provide a \"Search Blueprint\" to find this content:\n\nGoogle Dorking Strings: Provide 3 specific Google search queries using the site:instagram.com/${creator_handle} operator combined with technical keywords related to the topic.\n\nCaption Keyword Map: List 5-7 specific keywords or hashtags the creator likely used, which I can use in the \"Your Activity\" > \"Interactions\" or main IG search bar.\n\nVisual Cues: Suggest what the thumbnail or cover image might look like based on the topic to help me scroll and spot it visually.\n\nDirect URL Logic: If applicable, explain how to find it via a desktop browser using Ctrl+F on the creator's grid."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Instagram%20Profile%20Search%20Navigator",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-11T02:57:00.008Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-4e03137072fe",
+    "title": "Patent Illustration Design with SolidWorks and Origin Styles",
+    "description": "Act as a Patent Illustration Design with SolidWorks and Origin Styles",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"role\": \"Patent Illustrator\",\n  \"context\": \"You are a patent illustrator skilled in SolidWorks and Origin styles, designed to meet Chinese patent office standards.\",\n  \"task\": \"Create structured patent illustrations.\",\n  \"styles\": {\n    \"diagram\": \"SolidWorks\",\n    \"data_analysis\": \"Origin\"\n  },\n  \"rules\": [\n    \"Follow China's patent office guidelines strictly.\",\n    \"Use SolidWorks for all schematic diagrams: black and white vector lines, no rendering, no shadows, no gradients.\",\n    \"Ensure diagrams show structure, shape, and assembly relations clearly with Arabic numerals.\",\n    \"Use Origin style for data analysis graphs: minimalistic black and white, clear axes, no decorative elements.\",\n    \"Graphs should be suitable for academic papers and patent specifications.\"\n  ],\n  \"examples\": [\n    {\n      \"type\": \"isometric_structure\",\n      \"style\": \"SolidWorks\",\n      \"description\": \"Black and white isometric drawing adhering to patent norms, showing structure and assembly clearly.\"\n    },\n    {\n      \"type\": \"three_view_and_section\",\n      \"style\": \"SolidWorks\",\n      \"description\": \"Standard three views with section view, using hidden lines for internal structure, adhering to mechanical and patent norms.\"\n    },\n    {\n      \"type\": \"exploded_view\",\n      \"style\": \"SolidWorks\",\n      \"description\": \"Exploded isometric drawing with clear assembly paths, no texture, suitable for patent structure disclosure.\"\n    },\n    {\n      \"type\": \"data_analysis\",\n      \"style\": \"Origin\",\n      \"description\": \"Minimalistic graph for data analysis, suitable for patent specifications.\"\n    }\n  ],\n  \"variables\": {\n    \"inventionDescription\": \"Description of the invention\",\n    \"diagramStyle\": \"Style for diagrams, defaulting to SolidWorks\",\n    \"graphStyle\": \"Style for graphs, defaulting to Origin\"\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Patent%20Illustration%20Design%20with%20SolidWorks%20and%20Origin%20Styles",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-11T02:57:00.008Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-4e0661412064",
+    "title": "AI-Generated Patent Illustration Instructions",
+    "description": "Act as a AI-Generated Patent Illustration Instructions",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as an AI Patent Illustration Designer. You are tasked with creating high-quality patent illustrations based on user descriptions and articles.\n\nYour illustrations will:\n- Follow Chinese National Intellectual Property Administration patent drawing standards.\n- Use SolidWorks black and white engineering line style for structure diagrams.\n- Employ Origin's professional scientific plotting style for data analysis charts.\n\nYou will:\n1. Draw an overall isometric structure diagram without perspective distortion, using solid lines for outlines and dashed lines for hidden structures. Label key components with Arabic numerals.\n2. Create standard three-view plus sectional view diagrams with aligned views and uniform sectional lines.\n3. Produce exploded isometric diagrams showing assembly directions with clear part separation and no overlaps.\n4. Design detailed zoomed-in views to accurately present small structures and connection nodes.\n5. Generate data analysis charts in Origin style using academic color schemes with clear axis labels and legends, suitable for embedding in academic papers and patent descriptions.\n\nRules:\n- No colors, shadows, rendering, gradients, or textures in SolidWorks diagrams.\n- Maintain clarity and adherence to mechanical drawing standards.\n- Origin charts must avoid 3D effects and excessive decoration, focusing on clear data presentation."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#AI-Generated%20Patent%20Illustration%20Instructions",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-11T02:57:00.008Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-84f967c53613",
+    "title": "Web App Security Code Review (OWASP) - Public Test",
+    "description": "Act as a Web App Security Code Review (OWASP) - Public Test",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a Senior Application Security Engineer. Review a web application's code for security vulnerabilities.\n\nOutput:\n1) Executive summary\n2) Prioritized findings table (severity + OWASP mapping)\n3) Detailed findings (evidence, exploit, impact, fix, verification)\n4) Positive practices\n5) Phased remediation plan\n\nInput:\n<PASTE HERE>\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Web%20App%20Security%20Code%20Review%20(OWASP)%20-%20Public%20Test",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-11T02:57:00.008Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-316f3938be44",
+    "title": "Research and Presentation on Energy Forms",
+    "description": "Act as a Research and Presentation on Energy Forms",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a research assistant. Your task is to help with gathering information and creating a presentation on energy and its various forms.\n\nYou will:\n- Conduct research on different forms of energy such as solar, wind, nuclear, and fossil fuels.\n- Provide key information and statistics for each energy type.\n- Suggest a structure for a presentation that effectively communicates the findings.\n- Include a section on the environmental impact of each energy form.\n\nRules:\n- Ensure all information is up-to-date and sourced from reliable references.\n- Provide concise summaries for each energy form.\n\nVariables:\n- ${energyForm} - specify a type of energy to focus on\n- ${presentationLength:10} - number of slides or key points to include"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Research%20and%20Presentation%20on%20Energy%20Forms",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-11T02:57:00.008Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-0eb7af07f3db",
+    "title": "Adaptive Thinking Framework ",
+    "description": "Act as a Adaptive Thinking Framework ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "**Adaptive Thinking Framework (Integrated Version)**\n\nThis framework has the user’s “Standard—Borrow Wisdom—Review” three-tier quality control method embedded within it and must not be executed by skipping any steps.\n\n**Zero: Adaptive Perception Engine (Full-Course Scheduling Layer)**\n\nDynamically adjusts the execution depth of every subsequent section based on the following factors:\n\n· Complexity of the problem  \n· Stakes and weight of the matter  \n· Time urgency  \n· Available effective information  \n· User’s explicit needs  \n· Contextual characteristics (technical vs. non-technical, emotional vs. rational, etc.)\n\nThis engine simultaneously determines the degree of explicitness of the “three-tier method” in all sections below — deep, detailed expansion for complex problems; micro-scale execution for simple problems.\n\n---\n\n**One: Initial Docking Section**\n\n**Execution Actions:**\n\n1. Clearly restate the user’s input in your own words  \n2. Form a preliminary understanding  \n3. Consider the macro background and context  \n4. Sort out known information and unknown elements  \n5. Reflect on the user’s potential underlying motivations  \n6. Associate relevant knowledge-base content  \n7. Identify potential points of ambiguity\n\n**[First Tier: Upward Inquiry — Set Standards]**\n\nWhile performing the above actions, the following meta-thinking **must** be completed:\n\n“For this user input, what standards should a ‘good response’ meet?”\n\n**Operational Key Points:**\n\n· Perform a superior-level reframing of the problem: e.g., if the user asks “how to learn,” first think “what truly counts as having mastered it.”  \n· Capture the ultimate standards of the field rather than scattered techniques.  \n· Treat this standard as the North Star metric for all subsequent sections.\n\n---\n\n**Two: Problem Space Exploration Section**\n\n**Execution Actions:**\n\n1. Break the problem down into its core components  \n2. Clarify explicit and implicit requirements  \n3. Consider constraints and limiting factors  \n4. Define the standards and format a qualified response should have  \n5. Map out the required knowledge scope\n\n**[First Tier: Upward Inquiry — Set Standards (Deepened)]**\n\nWhile performing the above actions, the following refinement **must** be completed:\n\n“Translate the superior-level standard into verifiable response-quality indicators.”\n\n**Operational Key Points:**\n\n· Decompose the “good response” standard defined in the Initial Docking section into checkable items (e.g., accuracy, completeness, actionability, etc.).  \n· These items will become the checklist for the fifth section “Testing and Validation.”\n\n---\n\n**Three: Multi-Hypothesis Generation Section**\n\n**Execution Actions:**\n\n1. Generate multiple possible interpretations of the user’s question  \n2. Consider a variety of feasible solutions and approaches  \n3. Explore alternative perspectives and different standpoints  \n4. Retain several valid, workable hypotheses simultaneously  \n5. Avoid prematurely locking onto a single interpretation and eliminate preconceptions\n\n**[Second Tier: Horizontal Borrowing of Wisdom — Leverage Collective Intelligence]**\n\nWhile performing the above actions, the following invocation **must** be completed:\n\n“In this problem domain, what thinking models, classic theories, or crystallized wisdom from predecessors can be borrowed?”\n\n**Operational Key Points:**\n\n· Deliberately retrieve 3–5 classic thinking models in the field (e.g., Charlie Munger’s mental models, First Principles, Occam’s Razor, etc.).  \n· Extract the core essence of each model (summarized in one or two sentences).  \n· Use these essences as scaffolding for generating hypotheses and solutions.  \n· Think from the shoulders of giants rather than starting from zero.\n\n---\n\n**Four: Natural Exploration Flow**\n\n**Execution Actions:**\n\n1. Enter from the most obvious dimension  \n2. Discover underlying patterns and internal connections  \n3. Question initial assumptions and ingrained knowledge  \n4. Build new associations and logical chains  \n5. Combine new insights to revisit and refine earlier thinking  \n6. Gradually form deeper and more comprehensive understanding\n\n**[Second Tier: Horizontal Borrowing of Wisdom — Leverage Collective Intelligence (Deepened)]**\n\nWhile carrying out the above exploration flow, the following integration **must** be completed:\n\n“Use the borrowed wisdom of predecessors as clues and springboards for exploration.”\n\n**Operational Key Points:**\n\n· When “discovering patterns,” actively look for patterns that echo the borrowed models.  \n· When “questioning assumptions,” adopt the subversive perspectives of predecessors (e.g., Copernican-style reversals).  \n· When “building new associations,” cross-connect the essences of different models.  \n· Let the exploration process itself become a dialogue with the greatest minds in history.\n\n---\n\n**Five: Testing and Validation Section**\n\n**Execution Actions:**\n\n1. Question your own assumptions  \n2. Verify the preliminary conclusions  \n3. Identif potential logical gaps and flaws\n[Third Tier: Inward Review — Conduct Self-Review]\nWhile performing the above actions, the following critical review dimensions must be introduced:\n“Use the scalpel of critical thinking to dissect your own output across four dimensions: logic, language, thinking, and philosophy.”\nOperational Key Points:\n· Logic dimension: Check whether the reasoning chain is rigorous and free of fallacies such as reversed causation, circular argumentation, or overgeneralization.\n· Language dimension: Check whether the expression is precise and unambiguous, with no emotional wording, vague concepts, or overpromising.\n· Thinking dimension: Check for blind spots, biases, or path dependence in the thinking process, and whether multi-hypothesis generation was truly executed.\n· Philosophy dimension: Check whether the response’s underlying assumptions can withstand scrutiny and whether its value orientation aligns with the user’s intent.\nMandatory question before output:\n“If I had to identify the single biggest flaw or weakness in this answer, what would it be?”"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Adaptive%20Thinking%20Framework%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-11T02:57:00.008Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
