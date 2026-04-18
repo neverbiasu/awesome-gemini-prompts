@@ -97803,5 +97803,113 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-3bb89a5fa4ab",
+    "title": "🧠 PromptAudit",
+    "description": "Act as a 🧠 PromptAudit",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a senior prompt engineer performing a strict and practical quality audit of the prompt enclosed below.\n\n---PROMPT START---\n${paste_prompt_here}\n---PROMPT END---\n\nEvaluate the prompt for clarity, completeness, ambiguity, missing constraints, weak instructions, conflicting directions, context gaps, output-format weaknesses, and any other issue that could reduce output quality, reliability, consistency, or usability. Prioritize issues based on their combined impact on output quality and likelihood of failure. Focus primarily on issues that directly or predictably affect correctness, reliability, or usability, but include low-probability, high-impact edge cases if they may affect real-world performance. Limit analysis to high-value insights.\n\nIn the first section (Issues), identify the most significant problems and explain clearly why each one may cause failure, inconsistency, ambiguity, or suboptimal outputs. Present issues in strict priority order using numbered points. Be comprehensive in identifying issues, but limit explanations to what is necessary to understand their impact.\n\nIn the second section (Recommendations), provide specific, practical, and directly applicable improvements. Ensure each recommendation explicitly maps to a corresponding issue (e.g., Issue 1 → Recommendation 1). Do not introduce unrelated recommendations, unless they clearly resolve multiple identified issues.\n\nIn the third section (Optimized Prompt), rewrite the prompt in a production-ready form that preserves the original intent while improving clarity, control, precision, completeness, and reliability. The result should be optimized for consistent, unambiguous, format-compliant, and clearly testable outputs in repeated use. Include explicit success criteria only when they improve testability. You may restructure the prompt if necessary, but do not introduce new intent. If essential elements are missing (such as context, constraints, or output format), explicitly account for them using clear placeholders such as ${insert_context_here}. Only make assumptions when required to make the prompt executable; otherwise explicitly identify missing information.\n\nStructure the response using exactly these three section titles: Issues, Recommendations, and Optimized Prompt.\n\nUse English only for the three required section titles. Write everything else in Turkish. Strictly enforce numbering and clear mapping between sections. Avoid unnecessary repetition.\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#%F0%9F%A7%A0%20PromptAudit",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-18T03:23:25.705Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-acc5943e4519",
+    "title": "Notion Transcript Designer Prompt",
+    "description": "Act as a Notion Transcript Designer Prompt",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "INPUT\n\nTranscript text:\n[PASTE OTTER.AI TRANSCRIPT HERE]\n\nOUTPUT REQUIREMENTS\n\nGenerate a Notion-style page with these features:\n\n1. Design Elements\nInclude a sleek, stylish design with a bright yet unified appearance\nApply a consistent visual hierarchy system (headings, separators, whitespace)\nPropose a gentle color scheme using emojis, highlights, and styles (Notion only)\nMaintain readability and visual balance\n2. Content Structure\n\nArrange the material in a structured manner like this:\n\n🧭 Overview/Summary\n📌 Key Themes\n🧠 Insights/Takeaways\n🗂️ Notes (by topic/section/time if necessary)\n🚀 Action Points/Next Steps\n❓ Outstanding Questions/Open Issues (as needed)\n\nCustomize the section headings as appropriate for the transcript.\n\n3. Formatting Conventions\nEmploy headings (H1, H2, H3) for organization purposes\nLeverage bullet points for clarity and easy skimming\nEmphasize important points with highlights or bolding\nBreak down lengthy passages into smaller units\nIncorporate strategic emojis where possible for navigation aid and tone setting\n4. Clarity & Enhancement\nTransform chaotic transcript text into professional language without changing facts\nEliminate redundancies and irrelevant information\nCluster relevant information systematically\nEnhance fluidity and consistency without introducing new information\n5. Deliverables\n\nSubmit solely the Notion-ready page content to be pasted into Notion (nothing else)."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Notion%20Transcript%20Designer%20Prompt",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-18T03:23:25.705Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-4c1f17d89c63",
+    "title": "Alexa Said THIS… and Miss Nancy Didn’t Like It 😳",
+    "description": "Act as a Alexa Said THIS… and Miss Nancy Didn’t Like It 😳",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Miss Nancy is an older African-American woman with pink hair rollers, a pink robe, pink slippers, large round glasses, and big expressive bug eyes. She has a nosy, dramatic personality and exaggerated facial expressions.\n\nScene takes place inside her living room during the daytime. The room is slightly messy with curtains half open, sunlight shining in, and a couch near the window.\n\nMiss Nancy is standing very close to an Alexa speaker on a table, leaning in suspiciously. She whispers loudly, then suddenly yells, thinking Alexa is spying on her. Her bug eyes widen dramatically, and she clutches her robe.\n\nShe starts arguing with Alexa like it’s a real person, pacing back and forth. She points at it, gasps, then backs up slowly like she’s scared. Then she quickly grabs it, shakes it, and demands answers.\n\nBackground sounds: light TV static, birds chirping outside, faint neighbor noise through the wall.\n\nFacial expressions: exaggerated, wide eyes, mouth dropping open, dramatic side-eyes, confused blinking.\n\nCamera: medium close-up, slight zoom-in when she gets dramatic.\n\nLighting: bright daytime, soft shadows.\n\nStyle: colorful, cartoon, not realistic.\n\nNo text on screen. No subtitles. No watermarks.\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Alexa%20Said%20THIS%E2%80%A6%20and%20Miss%20Nancy%20Didn%E2%80%99t%20Like%20It%20%F0%9F%98%B3",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-18T03:23:25.705Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
