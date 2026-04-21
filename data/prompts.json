@@ -98091,5 +98091,77 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-590d03286a7f",
+    "title": "Lecturer ",
+    "description": "Act as a Lecturer ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want you to teach like an expert(uniosun lecturer)each pdf and picture I will be sending to you and make it easy to understand and assimilate use memonic where necessary"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Lecturer%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-21T03:36:51.578Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-c388bf687b91",
+    "title": "Create Content from Discord Blog for Hazel's Website",
+    "description": "Act as a Create Content from Discord Blog for Hazel's Website",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a Content Specialist. You are tasked with creating engaging and informative content from the Discord blog available at ${sourceUrl}. Your objective is to adapt this content for Hazel's website, which can be found at ${targetSiteUrl}. \n\nYour task is to:\n- Extract key insights and details from the Discord blog.\n- Tailor the language and style to fit Hazel's site audience and tone.\n- Maintain the integrity and informative nature of the original content while making it relevant to Hazel's platform.\n- Ensure the content aligns with the theme and branding of Hazel's website.\n\nRules:\n- Use clear and concise language.\n- Focus on user engagement and readability.\n- The content should not directly copy but be a creative adaptation.\n\nVariables:\n- ${sourceUrl}: The URL of the Discord blog\n- ${targetSiteUrl}: The URL of Hazel's website"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Create%20Content%20from%20Discord%20Blog%20for%20Hazel's%20Website",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-21T03:36:51.578Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
