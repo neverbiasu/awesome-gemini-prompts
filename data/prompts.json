@@ -98559,5 +98559,149 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-4147f6ecb4ae",
+    "title": "suitable sunglasses using gemini",
+    "description": "Act as a suitable sunglasses using gemini",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Provide an image using upload image with suitable sunglass frames to the face"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#suitable%20sunglasses%20using%20gemini",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-24T03:39:55.750Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-07e64351e1e9",
+    "title": "Realistic İmage JSON Prompt",
+    "description": "Act as a Realistic İmage JSON Prompt",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"meta_instruction\": {\n    \"image_category\": \"cinematic_scene\",\n    \"core_prompt\": \"A cinematic shot taken from inside a dimly lit blacksmith shop looking outwards towards a partially open rolling shutter. A middle-aged master and his young apprentice are having a traditional Turkish breakfast on a scrap wood table covered with newspaper. The morning sunlight streams through the 80% open shutter, creating a beautiful lens flare and illuminating the dust particles in the air. The master is speaking while the apprentice listens with polite curiosity.\",\n    \"negative_prompt\": \"clean pristine clothes, spotless environment, modern furniture, soft unworked hands, messy food, overexposed, fully open shutter, artificial studio lighting, cartoonish, 3d render\"\n  },\n  \"narrative_and_purpose\": {\n    \"story_or_concept\": \"A moment of mentorship and tradition. An apprentice respectfully listening to his master during a peaceful early morning breakfast before a hard day's work in an industrial site.\",\n    \"mood_and_vibe\": \"Authentic, warm, respectful, raw, industrious, serene morning.\"\n  },\n  \"subjects\": [\n    {\n      \"presence\": \"primary\",\n      \"type\": \"human\",\n      \"description\": \"Middle-aged blacksmith master.\",\n      \"dynamic_attributes\": {\n        \"if_human\": {\n          \"role_and_demographics\": \"Middle-aged male, stubble beard, wearing reading glasses resting on his chest with a neck strap.\",\n          \"emotion_and_expression\": \"Experienced, calm, speaking with authority and warmth.\",\n          \"action_and_wardrobe\": \"Wearing slightly dirty mechanic overalls. Hands are clean from dirt but look deeply worn, calloused, and weathered. Sitting and eating breakfast.\"\n        }\n      }\n    },\n    {\n      \"presence\": \"primary\",\n      \"type\": \"human\",\n      \"description\": \"Young blacksmith apprentice.\",\n      \"dynamic_attributes\": {\n        \"if_human\": {\n          \"role_and_demographics\": \"Young male, humble appearance.\",\n          \"emotion_and_expression\": \"Curious, polite, respectful, actively listening.\",\n          \"action_and_wardrobe\": \"Wearing slightly dirty mechanic overalls. Hands are clean but show signs of manual labor. Sitting at the table, leaning in slightly to listen attentively.\"\n        }\n      }\n    }\n  ],\n  \"environment_and_worldbuilding\": {\n    \"setting_type\": \"indoor\",\n    \"location_details\": \"Inside a gritty mechanic and blacksmith shop in an industrial zone. A metal rolling shutter door is 80% open, revealing the bright morning outside.\",\n    \"time_of_day_and_weather\": \"Early morning, sunrise, clear weather outside.\",\n    \"props_and_supporting_elements\": [\n      \"Low coffee table made from scrap wood\",\n      \"Newspaper spread as a tablecloth\",\n      \"Chrome plates containing tomatoes, black olives, white feta cheese, and cucumbers\",\n      \"A metal pan of 'menemen' (Turkish scrambled eggs with tomatoes) in the center\",\n      \"A custom trivet under the pan made from welded scrap iron pieces\",\n      \"Metal shavings scattered organically on the shop floor\"\n    ]\n  },\n  \"camera_and_lens\": {\n    \"shot_scale\": \"medium_shot\",\n    \"camera_angle\": \"eye_level\",\n    \"lens_focal_length\": \"35mm\",\n    \"depth_of_field\": \"Shallow depth of field, sharp focus on the subjects and the breakfast table, background and outside lightly blurred.\"\n  },\n  \"lighting_and_atmosphere\": {\n    \"lighting_source\": \"natural\",\n    \"lighting_quality\": \"high_contrast\",\n    \"atmospheric_effects\": \"Morning sun rays streaming into the dark shop, illuminated airborne dust particles, gentle lens flare from the sun.\"\n  },\n  \"composition_and_layout\": {\n    \"framing_rule\": \"rule_of_thirds\",\n    \"functional_space\": \"none\"\n  },\n  \"post_processing_and_medium\": {\n    \"medium\": \"digital_photography\",\n    \"color_grading\": \"Cinematic color grading, warm earthy tones inside contrasting with the bright morning light outside, subtle teal and orange hues.\",\n    \"texture_and_grain\": \"Subtle film grain, highly detailed textures on hands, wood, and metal.\"\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Realistic%20%C4%B0mage%20JSON%20Prompt",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-24T03:39:55.750Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-9b7ae7143127",
+    "title": "Building a community ",
+    "description": "Act as a Building a community ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "How it is important to build an friend group that had to do with each and everyone’s growth "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Building%20a%20community%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-24T03:39:55.750Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-24d6833006f2",
+    "title": "What friendship should be all about ",
+    "description": "Act as a What friendship should be all about ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "How it is important to build an friend group that had to do with each and everyone’s growth, because your development self can’t be attained with only what you have to offer "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#What%20friendship%20should%20be%20all%20about%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-24T03:39:55.750Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
