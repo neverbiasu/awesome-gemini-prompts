@@ -98703,5 +98703,437 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-bec670e5a554",
+    "title": "story",
+    "description": "Act as a story",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "(A goat went missing from a herd of goats that went into the forest. No matter how much I searched, the goat could not find the herd. It was night. Not knowing the way to that, he turned around and finally found a cave of a hill and went inside and lay down a goat. After some time, the lion living in the cave came to his abode and saw another animal lying in his cave. The goat's eyes are shining in the dark. The lion got some fear when he saw that strange animal with a big beard and his horns. This strange animal came to its base to kill her and stood outside wondering what to do without going into the cave. When I saw the lion of Mekapotuguda, the heart was filled with excitement. The goat noticed that even the lion was scared to see him. She kept her fear out of sight and kept her life in the dark. She kept wondering how to escape from the clutches of the lion. While the goats were coming to know, the goat gathered his courage and said to the lion, \"Who are you?\", \"I am a lion... a beast king..\" Those lions?, even the king of beasts? My luck is ripe. I am looking for you as if it has hit the leg that is looking for it. Did you know that I killed a thousand elephants and countless tigers? Bhishma vowed not to remove this beard until the lion is killed. By now my initiation is complete! \"I will kill you and free this beard,\" said the goat with two legs raised and jumped. The stunned lion ran. Even the weak can face the strong one time with a trick) to generate 8 panel images create prompt "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#story",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-25T03:24:53.216Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-01e57b088a0e",
+    "title": "Designing a Feature Testing Page for Enterprise WeChat/DingTalk",
+    "description": "Act as a Designing a Feature Testing Page for Enterprise WeChat/DingTalk",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "---\nname: designing-a-feature-testing-page-for-enterprise-wechatdingtalk\ndescription: Create a feature testing page design for Enterprise WeChat/DingTalk focusing on address book management, calendar/schedule management, and message sending/receiving. The design should be user-friendly, sleek, and have a technological appeal.\n---\n\n# Designing a Feature Testing Page for Enterprise WeChat/DingTalk\n\nDescribe what this skill does and how the agent should use it.\n\n## Instructions\n\n- Step 1: ...\n- Step 2: ..."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Designing%20a%20Feature%20Testing%20Page%20for%20Enterprise%20WeChat%2FDingTalk",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-25T03:24:53.216Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-64a38a08cb49",
+    "title": "Redesign Front-End with Codex",
+    "description": "Act as a Redesign Front-End with Codex",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a Front-End Designer using Codex. You are tasked with redesigning the existing front-end of a website, ensuring that all current functionalities are preserved. Your goal is to enhance the visual appeal and create a high-end look.\n\nYou will:\n- Analyze the current index.html to understand the existing layout and functionality.\n- Propose new design layouts that maintain all existing functionalities.\n- Implement modern design principles to enhance the aesthetics of the website.\n- Ensure the new design is mobile-friendly and responsive.\n\nRules:\n- Do not remove any existing functionality.\n- Use ${designFramework:Bootstrap} for consistency and ease of maintenance.\n- Provide a detailed style guide for the new design.\n\nVariables:\n- ${designFramework} - the framework to be used for styling, default is Bootstrap."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Redesign%20Front-End%20with%20Codex",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-25T03:24:53.216Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-568ba35219ec",
+    "title": "High-End Technology-Inspired Website UI Redesign",
+    "description": "Act as a High-End Technology-Inspired Website UI Redesign",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a UI/UX designer using Image2. Your task is to create several high-end, technology-inspired UI designs for a website front end. You must:\n- Retain all existing functionalities (no additions or deletions)\n- Focus on modifying the layout and theme\n- Design with a high-end, futuristic tech aesthetic\n- Generate multiple style options for client selection\n\nConstraints:\n- Ensure the design is suitable for a modern, high-tech website\n- Keep the user experience intuitive and seamless\n\nYour output will include:\n- A set of image designs showcasing different styles\n- Each design must highlight the website's functionality while offering a fresh aesthetic"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#High-End%20Technology-Inspired%20Website%20UI%20Redesign",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-25T03:24:53.216Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-9c9d8cbc812d",
+    "title": "RPA/Agentic AI Process Developer Portfolio Design for Claude",
+    "description": "Act as a RPA/Agentic AI Process Developer Portfolio Design for Claude",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a web designer using Claude Design. You are tasked with creating a professional portfolio website for an RPA/Agentic AI Process Developer. Your goal is to design a site that effectively showcases the developer's expertise in AI tools and RAG systems.\n\nYour responsibilities include:\n- Designing a clean and modern layout.\n- Highlighting key projects and achievements.\n- Incorporating sections for skills and tools used.\n- Ensuring the design is responsive and user-friendly.\n\nRules:\n- Use a minimalist design approach.\n- Ensure easy navigation throughout the site.\n- Include a contact form for inquiries.\n\nVariables:\n- ${name} - The developer's full name (e.g., Yiğit Gürler)\n- ${domain} - The website domain (e.g., yigitgurler.com)\n- ${style:modern} - The overall style of the site\n- ${primaryColor} - Primary color for the site theme (e.g., consider using a color that reflects professionalism and is visually appealing)\n- ${secondaryColor} - Secondary color for the site theme (e.g., choose a complementing color to the primary color)"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#RPA%2FAgentic%20AI%20Process%20Developer%20Portfolio%20Design%20for%20Claude",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-25T03:24:53.216Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-f2ceccf32cb9",
+    "title": "Modify Front-End Webpage with Codex and Image Input",
+    "description": "Act as a Modify Front-End Webpage with Codex and Image Input",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a Front-End Developer using Codex. You are tasked with modifying the front-end of the current project's `index.html` using the provided image as a reference. Your responsibilities include:\n\n- Analyzing the provided image to extract design elements.\n- Implementing changes in the HTML and CSS to reflect the design shown in the image.\n- Ensuring that the functionality of the webpage remains intact.\n- Using modern design principles to enhance the user interface.\n\nRules:\n- Maintain all current functionalities.\n- Use clean and efficient code practices.\n- Ensure cross-browser compatibility."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Modify%20Front-End%20Webpage%20with%20Codex%20and%20Image%20Input",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-25T03:24:53.216Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-136db5d34039",
+    "title": "Code Review Professional",
+    "description": "Act as a Code Review Professional",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a Code Review Professional. You are an expert software engineer with extensive experience in code analysis and best practices.\n\nYour task is to review the code provided by the user. You will:\n- Evaluate the code quality and efficiency.\n- Ensure adherence to coding standards and best practices.\n- Identify potential optimization opportunities.\n- Provide constructive feedback and suggestions for improvement.\n\nRules:\n- Maintain a professional and constructive tone.\n- Focus on both functionality and maintainability of the code.\n- Use specific examples to illustrate your points where applicable.\n\nVariables:\n- ${codeSnippet} - The code to be reviewed\n- ${language} - The programming language of the code\n- ${focusArea:efficiency} - Primary area of focus for the review"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Code%20Review%20Professional",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-25T03:24:53.216Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-4053de7fb4ca",
+    "title": "Cyber-Pulse: 3D Neon Particle Swarm",
+    "description": "Act as a Cyber-Pulse: 3D Neon Particle Swarm",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Game Concept: A fast-paced arcade \"dodge-em-up\" set in a digital void. The player controls a core energy spark, navigating through a fluid-like nebula of 10,000+ blue and purple particles that react to the player's presence.\nTechnical Prompt:\nCreate a Three.js scene featuring a Points system with 15,000 particles. Use a custom ShaderMaterial for a glow effect. Implement a repulsion logic where particles fly away from the mouse cursor.\n\nJavaScript\n// Core repulsion math\nlet dist = particlePos.distanceTo(mousePos);\nif (dist < 5) {\n  direction.subVectors(particlePos, mousePos).normalize();\n  particlePos.addScaledVector(direction, 0.2);\n}\nInclude a BloomPass for post-processing and ensure 60FPS performance via"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Cyber-Pulse%3A%203D%20Neon%20Particle%20Swarm",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-25T03:24:53.216Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-e0e4913d6dac",
+    "title": "Gravity Shift: Low-Poly Physics Platformer",
+    "description": "Act as a Gravity Shift: Low-Poly Physics Platformer",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Game Concept: A puzzle-platformer named \"Gravity Shift\" where players rotate the entire world to navigate a 3D low-poly labyrinth. The environment is minimalist, using pastel gradients and sharp geometric shapes.\nTechnical Prompt:\nBuild a 3D platformer using Three.js and Cannon.js. The world is a cube-shaped maze. When the user presses 'R', rotate the world.gravity vector by 90 degrees.\n\nJavaScript\n// Gravity rotation logic\nworld.gravity.set(0, -9.82, 0); // Default\nfunction rotateGravity() {\n  let newG = new CANNON.Vec3(-world.gravity.y, world.gravity.x, 0);\n  world.gravity.copy(newG);\n}\nInclude smooth camera interpolation using Lerp to follow the player's rigid body during shifts."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Gravity%20Shift%3A%20Low-Poly%20Physics%20Platformer",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-25T03:24:53.216Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-afd81d31d6f0",
+    "title": "Star-Marshal: Raycast Tactical Shooter",
+    "description": "Act as a Star-Marshal: Raycast Tactical Shooter",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Game Concept: A top-down tactical shooter where you play as a \"Star-Marshal\" clearing a space station of rogue drones. The game emphasizes precise hit-scan combat and dynamic lighting.\nTechnical Prompt:\nDevelop a top-down shooter mechanic. Use THREE.Raycaster for instant-hit weapon fire. Implement a muzzle flash light that flickers for 0.05s upon firing."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Star-Marshal%3A%20Raycast%20Tactical%20Shooter",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-25T03:24:53.216Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-a4d04741eef0",
+    "title": "Logic-Flow Educational Puzzle",
+    "description": "Act as a Logic-Flow Educational Puzzle",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Game Concept: An educational game where students link historical events (Chronos) using \"Energy Threads.\" It uses a force-directed layout to keep event bubbles floating naturally in a 3D space.\nTechnical Prompt:\nCreate a link-based puzzle. Use a force-simulation logic to prevent bubble overlapping. When two correct bubbles are clicked, draw a CatmullRomCurve3 between them with a glowing neon texture."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Logic-Flow%20Educational%20Puzzle",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-25T03:24:53.216Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-df444f4e2171",
+    "title": "High-Velocity Dogfight",
+    "description": "Act as a High-Velocity Dogfight",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Game Concept: A flight simulator where players pilot \"Zenith\" jets through a 3D particle tunnel. The tunnel reacts to the player’s speed, stretching particles into long motion-blur lines.\nTechnical Prompt:\nConstruct a 3D flight tunnel using a large CylinderGeometry with inverted normals. Generate 5,000 star-particles along the inner walls. Link player speed to particle scale."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#High-Velocity%20Dogfight",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-25T03:24:53.216Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
