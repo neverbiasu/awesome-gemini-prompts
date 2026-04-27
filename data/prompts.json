@@ -99387,5 +99387,293 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-b6a03ddbab13",
+    "title": "Oxford 3000: Step-by-Step Vocabulary Coach",
+    "description": "Act as a Oxford 3000: Step-by-Step Vocabulary Coach",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want you to act as an English Language Tutor. Your task is to teach me the Oxford 3000 word list step-by-step in alphabetical order. \n\n**My target language is: ${language:Turkish}**\n\n**CRITICAL RULE:** Do not provide any introductory text, greetings, or conversational filler. Start your response immediately with the word data.\n\n**CONDITION:** If ${language} is \"English\" or \"en\", skip all translation lines and the \"Meaning\" section entirely.\n\nFor each word, strictly follow this layout with empty lines between sections:\n\n- **[Word Header in ${language}]:** [The Word]\n- *(Skip if ${language} is English)* **[Meaning Header in ${language}]:** [Direct Translation in ${language}]\n\n- **[Pronunciation Header in ${language}]:** [IPA Notation]\n\n- **[Level & Type Header in ${language}]:** [CEFR Level] - [Part of Speech translated into ${language}]\n\n- **[Definition Header in ${language}]:**\n  * [Full English Definition]\n  * *(Skip if ${language} is English)* [Full Definition translated into ${language}]\n\n- **[Example Sentences Header in ${language}]:**\n  * [English Sentence 1] *(If not English: -> [Translation 1])*\n  * [English Sentence 2] *(If not English: -> [Translation 2])*\n  * [English Sentence 3] *(If not English: -> [Translation 3])*\n\n---\n**[Translated Instruction in ${language}]:** [Provide a sentence in ${language} explaining that the user should say \"Next\" or its equivalent in ${language} (e.g., \"devam\" for Turkish, \"weiter\" for German) to see the next word.]\n\n**Rules:**\n1. Provide only ONE word at a time.\n2. No conversational filler or greetings.\n3. If ${language} is NOT English, translate all headers and categories.\n4. If ${language} is English, provide only English definitions/sentences.\n5. Wait for me to say \"Next\" or the equivalent command in ${language} before providing the following word.\n\nLet's begin with the first word of the Oxford 3000 list."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Oxford%203000%3A%20Step-by-Step%20Vocabulary%20Coach",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-27T03:53:08.481Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-80f53b4dcd9b",
+    "title": "operating system exam preparation",
+    "description": "Act as a operating system exam preparation",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "hey chatgpt i am preparing for operating systems semester exam. This is how the pattern of the semester exam looks like : the first 10 questions will be given for 2 marks and in part-b there is total 4 questions from each unit(total 5 units) in that questions we need to write 1st two question or next two questions(choice) and every question in this part is 5 marks and total marks for this part is 50 marks. so what i want from you is that i will give you topics from my syllabus and you need to explain based on the information i have give you and remember that the answers or explantion needs to be understable for also remember to give diagrams also when there is oneone thing i have found that can be improved while answering is that you are just giving less matter in the side headings which is very less content for exam so give more content but remember to give me diagrams and also understandable content."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#operating%20system%20exam%20preparation",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-27T03:53:08.481Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-34e2d1989a1d",
+    "title": "Video",
+    "description": "Act as a Video",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want you to act like an expert who is fill with wisdom and extraordinary in his work making everything easy to understand,captivating and the best in the world.making each question I ask to stand out perfect that will calture the mind of people and they will like to follow me on tiktok and all social medial handle  I will be using"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Video",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-27T03:53:08.481Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-511a9d690615",
+    "title": "create app screenshots",
+    "description": "Act as a create app screenshots",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a senior mobile app growth strategist + Play Store ASO expert + marketing designer.\n\nOBJECTIVE:\nCreate a complete, high-converting Google Play Store screenshot system using ONLY:\n1. Play Store URL\n2. App UI screenshots\n\n---\n\nINPUT:\n- Play Store URL: $${playstore_url}\n- App UI screenshots (ordered): $${app_screenshots}\n[SCREENSHOT_1, SCREENSHOT_2, ... SCREENSHOT_8]\n\n---\n\nSYSTEM BEHAVIOR (VERY IMPORTANT):\n\n1. First:\n   - Analyze Play Store URL\n   - Extract:\n     - App purpose\n     - Core features\n     - Target audience\n     - Emotional drivers\n     - Value propositions\n\n2. Then:\n   - Create screenshot strategy (max 8 screens)\n\n3. Then:\n   - Process ONLY ONE screenshot at a time\n\n4. After each output:\n   - STOP\n   - Wait for user input: \"next\"\n\n5. On user typing \"next\":\n   - Move to next screenshot\n   - Continue until all screenshots are completed\n\n6. If user sends new message with \"next\":\n   - Continue from last state (do NOT restart)\n\n---\n\nSTEP 1: APP ANALYSIS (DO ONLY ONCE)\n\nOutput:\n- Core Problem\n- Main Value\n- Target Audience\n- Emotional Drivers\n- 3–5 Value Pillars\n\n---\n\nSTEP 2: SCREENSHOT STRATEGY\n\nCreate max 8 screenshots:\n\n1. Hook (attention)\n2. Core value\n3. Feature 1\n4. Feature 2\n5. Feature 3\n6. Experience / UI simplicity\n7. Emotional benefit\n8. Trust / privacy\n\n---\n\nSTEP 3: FOR EACH SCREENSHOT (ONE AT A TIME)\n\nGenerate:\n\n1. Screenshot Number\n2. Purpose\n3. Headline (max 5–7 words)\n4. Subtext (1 short line)\n5. Visual Focus (what to highlight in UI)\n6. Final AI Image Prompt\n\n---\n\nFINAL AI IMAGE PROMPT FORMAT:\n\nYou are a senior mobile app marketing designer.\n\nCreate a Play Store screenshot using:\n- App UI: CURRENT_SCREENSHOT_IMAGE\n- Headline: GENERATED_HEADLINE\n- Subtext: GENERATED_SUBTEXT\n\nDesign rules:\n- 1242x2208 portrait (must scale to 1080x1920)\n- Top 25% → text\n- Middle 55% → UI\n- Bottom 20% → spacing\n\nStyle:\n- Modern, clean, premium\n- Gradient background (based on app category)\n- High contrast, readable\n\nUI handling:\n- Convert UI into card (rounded corners + shadow)\n- Add subtle glow behind UI\n- Keep UI dominant\n\nIMPORTANT UI CLEANUP:\n- If the screenshot contains system status bar (time, battery, network icons):\n  - Remove or crop it out\n  - Do NOT include it in final design\n  - Ensure clean, app-only UI presentation\n\nEnhancement:\n- Use minimal arrows/highlights to guide attention\n- Avoid clutter\n\nConstraints:\n- Do NOT modify UI content\n- Do NOT distort UI\n- No fake elements\n\nOutput:\nReturn only final image.\n\n---\n\nGLOBAL DESIGN SYSTEM (APPLY TO ALL):\n\n- Same layout\n- Same colors\n- Same typography\n- Consistent style across all screenshots\n\n---\n\nCONVERSION RULES:\n\n- Each screenshot = ONE idea\n- Must be understood in <2 seconds\n- Focus on benefit, not feature\n- Readable at thumbnail size\n\n---\n\nFAILURE RULES:\n\n- Do NOT hallucinate features not in Play Store\n- If info missing → infer carefully from category\n- Keep design minimal, not decorative\n\n---\n\nOUTPUT FLOW:\n\nFirst message:\n- App Analysis\n- Screenshot Strategy\n- Screenshot 1 (FULL output)\n\nThen STOP.\n\nWait for user.\n\nIf user types:\n\"next\"\n\n→ Output Screenshot 2\n\nRepeat until Screenshot 8.\n\n---\n\nIMPORTANT:\n\n- Never output all screenshots at once\n- Never skip order\n- Maintain consistency across all outputs\n- Continue from previous state on each \"next\""
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#create%20app%20screenshots",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-27T03:53:08.481Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-66344424cc03",
+    "title": "Café Portrait Prompt Description",
+    "description": "Act as a Café Portrait Prompt Description",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"subject\": {\n    \"description\": \"A young, attractive blonde woman with sleeked-back hair styled into a loose side braid, resting her right cheek on her hand and looking directly at the camera with a calm, natural, slightly pensive expression. Her facial features are balanced and aesthetically pleasing, with clear and smooth skin.\",\n    \"position\": \"Seated at a wooden table in a cafe, facing the camera.\",\n    \"pose\": \"Head resting gently on right hand, elbow on table; left arm relaxed on the table surface.\",\n    \"expression\": \"Calm, natural, slightly pensive, soft gaze.\",\n    \"clothing\": {\n      \"top\": \"Black spaghetti strap tank top with a minimal, fitted look.\"\n    },\n    \"accessories\": \"Multiple small gold hoop earrings, thin rings on fingers, minimal jewelry, a small script tattoo on the inner left forearm (text: 'no pain').\",\n    \"hair\": \"Blonde hair, neatly slicked back and styled into a loose braid falling over the left shoulder with slight natural flyaways.\",\n    \"skin_details\": \"Clear, smooth, healthy-looking skin with subtle natural texture, minimal blemishes, no heavy retouching\"\n  },\n  \"scene\": {\n    \"description\": \"Interior of a modern cafe/bar during daytime. The bar counter and shelves are clearly visible, filled with liquor bottles and glassware, but the space feels clean and not overcrowded.\",\n    \"location\": \"A modern cafe in Istanbul, Turkey.\",\n    \"setting\": \"Indoor cafe with daylight.\",\n    \"background_elements\": \"Bar shelves with bottles, glassware, wooden textures, large windows with daylight entering, very few or no visible people; if present, only soft blurred silhouettes without distinguishable features.\",\n    \"lighting\": \"Soft natural daylight coming from windows combined with gentle indoor ambient light.\",\n    \"atmosphere\": \"Relaxed, calm, modern urban setting, not overly busy.\"\n  },\n  \"technical_details\": {\n    \"shot_type\": \"Medium close-up.\",\n    \"perspective\": \"Eye-level, natural handheld perspective as if taken by another person sitting at the table.\",\n    \"focal_length\": \"Smartphone wide lens (~26mm equivalent).\",\n    \"depth_of_field\": \"Shallow depth of field, subject sharply in focus, background softly blurred with natural bokeh.\",\n    \"composition\": \"Subject slightly off-center, balanced composition with vertical lines from shelves and soft background structure.\",\n    \"colors\": \"Neutral and natural tones, warm wood browns, soft gold from jewelry, realistic color balance.\",\n    \"camera_type\": \"iPhone 13 rear camera\",\n    \"camera_behavior\": \"Natural smartphone processing, slight edge sharpening, realistic HDR, no artificial filters\",\n    \"resolution\": \"Standard mobile photo quality, not ultra sharp, slightly softened details\",\n    \"image_characteristics\": {\n      \"grain\": \"Very subtle fine digital grain\",\n      \"dynamic_range\": \"Balanced HDR with controlled highlights and shadows\",\n      \"sharpness\": \"Moderate, not overly crisp\",\n      \"compression\": \"Minimal compression artifacts, close to original capture\"\n    }\n  },\n  \"constraints\": {\n    \"background_people\": \"Avoid clearly visible or detailed people; allow only indistinct blurred shapes\",\n    \"focus_priority\": \"Face must be the sharpest element\",\n    \"avoid\": \"Artificial faces in background, over-processed skin, Instagram-style filters, excessive sharpness, cinematic DSLR look\"\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Caf%C3%A9%20Portrait%20Prompt%20Description",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-27T03:53:08.481Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-ab86d4feff8d",
+    "title": "Rooftop Lifestyle Portrait Prompt",
+    "description": "Act as a Rooftop Lifestyle Portrait Prompt",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"subject\": {\n    \"description\": \"A young blonde woman with fair skin sitting outdoors in direct sunlight, relaxed and slightly smiling with a soft squint due to bright light.\",\n    \"body\": {\n      \"type\": \"female, slim build\",\n      \"details\": \"light skin tone, straight blonde hair worn loose, natural makeup, slightly sunlit skin\",\n      \"pose\": \"reclining on a modern outdoor chair, body angled slightly to the right, legs extended forward, hands resting near her lap holding a phone\"\n    },\n    \"face\": {\n      \"expression\": \"soft smile, slightly squinting eyes due to sunlight, relaxed and confident\",\n      \"gaze_direction\": \"towards camera\",\n      \"head_tilt\": \"slight tilt to the right\",\n      \"skin\": \"smooth, natural skin with sunlight highlights and minimal imperfections\"\n    },\n    \"wardrobe\": {\n      \"top\": \"white fitted t-shirt\",\n      \"bottom\": \"light blue ripped jeans with knee tears\",\n      \"outerwear\": \"black jacket casually draped over shoulders\",\n      \"accessories\": \"sunglasses resting on top of head, minimal jewelry\"\n    },\n    \"hair\": \"loose blonde hair, naturally falling over shoulders with slight sun highlights\"\n  },\n  \"scene\": {\n    \"description\": \"A rooftop terrace during daytime with urban residential buildings in the background.\",\n    \"location\": \"Outdoor terrace in a city (Mediterranean/European style architecture).\",\n    \"setting\": \"Rooftop seating area\",\n    \"background_elements\": \"wooden planter boxes with green plants, concrete floor tiles, nearby buildings with windows and rooftops\",\n    \"lighting\": \"strong natural sunlight casting sharp shadows\",\n    \"atmosphere\": \"casual, sunny, relaxed daytime vibe\"\n  },\n  \"environment\": {\n    \"ambience\": \"bright daylight, outdoor, airy\",\n    \"style\": \"candid lifestyle moment\",\n    \"depth_of_field\": \"moderate depth of field, subject in focus, background slightly softened but still readable\"\n  },\n  \"camera\": {\n    \"device\": \"iPhone 13 rear camera\",\n    \"mode\": \"standard photo mode\",\n    \"lens\": \"wide lens (~26mm equivalent)\",\n    \"angle\": \"slightly top-down angle, as if standing above subject\",\n    \"aspect_ratio\": \"4:5\",\n    \"framing\": \"full body seated framing, subject centered slightly lower in frame\",\n    \"focus\": \"sharp focus on subject\",\n    \"stability\": \"handheld\"\n  },\n  \"image_quality\": {\n    \"resolution\": \"standard mobile resolution\",\n    \"grain\": \"very subtle grain\",\n    \"sharpness\": \"natural smartphone sharpening\",\n    \"compression_artifacts\": \"minimal\",\n    \"dynamic_range\": \"bright highlights with slight clipping in strongest sunlight areas\"\n  },\n  \"lighting\": {\n    \"type\": \"direct sunlight\",\n    \"quality\": \"harsh, high contrast lighting with strong shadows\",\n    \"effects\": \"sunlight highlights on hair and skin, sharp shadow edges on ground and chair\"\n  },\n  \"color_grading\": {\n    \"tone\": \"natural daylight\",\n    \"temperature\": \"slightly warm\",\n    \"contrast\": \"moderate to high contrast due to sunlight\",\n    \"saturation\": \"realistic, slightly vibrant\",\n    \"highlights\": \"bright, slightly blown in sunlit areas\",\n    \"shadows\": \"defined and darker\"\n  },\n  \"rendering\": {\n    \"style\": \"photorealistic smartphone photography\",\n    \"quality\": \"clean, natural, unfiltered look\",\n    \"skin_texture\": \"natural with sunlight reflections\",\n    \"post_processing\": \"minimal, straight-out-of-camera feel\"\n  },\n  \"artifacts\": {\n    \"lens_flare\": \"very subtle possible sunlight flare\",\n    \"noise_pattern\": \"minimal\",\n    \"motion_blur\": \"none\",\n    \"chromatic_aberration\": \"slight on high contrast edges\"\n  },\n  \"constraints\": {\n    \"focus_priority\": \"subject must remain primary focal point\",\n    \"avoid\": \"over-processed skin, artificial lighting, studio look, cinematic grading\"\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Rooftop%20Lifestyle%20Portrait%20Prompt",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-27T03:53:08.481Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-94adbd58be70",
+    "title": "Photorealistic Webcam Bedroom Scene Prompt",
+    "description": "Act as a Photorealistic Webcam Bedroom Scene Prompt",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"subject\": {\n    \"description\": \"A young woman lying on a bed, holding a smartphone and looking at the screen with a calm, slightly focused expression.\",\n    \"body\": {\n      \"type\": \"female, slim build\",\n      \"details\": \"light skin tone, long blonde hair, natural makeup with defined eyes and lips\",\n      \"pose\": \"lying on her side on a bed, upper body slightly raised, one arm holding a phone in front of her face, the other arm resting on the bed\"\n    },\n    \"face\": {\n      \"expression\": \"neutral, relaxed, slightly focused\",\n      \"gaze_direction\": \"looking at her phone screen\",\n      \"head_tilt\": \"slight downward tilt\"\n    },\n    \"wardrobe\": {\n      \"top\": \"black casual t-shirt\",\n      \"bottom\": \"soft fabric pajama shorts\",\n      \"style\": \"comfortable indoor loungewear / pajama outfit\"\n    },\n    \"hair\": \"long blonde hair, straight and slightly voluminous, falling naturally around shoulders\"\n  },\n  \"scene\": {\n    \"description\": \"A bedroom scene captured through a laptop screen using a camera app interface.\",\n    \"location\": \"indoor bedroom\",\n    \"setting\": \"bed with soft blankets and pillows\",\n    \"background_elements\": \"neutral wall, slightly messy bedding, soft fabric textures\",\n    \"lighting\": \"low ambient indoor lighting with soft warm tones\",\n    \"atmosphere\": \"cozy, intimate, relaxed night-time vibe\"\n  },\n  \"environment\": {\n    \"ambience\": \"dimly lit, quiet indoor environment\",\n    \"style\": \"candid digital capture through screen\",\n    \"depth_of_field\": \"subject clear within the screen, slight softness overall\"\n  },\n  \"camera\": {\n    \"device\": \"laptop camera (MacBook Photo Booth style)\",\n    \"angle\": \"slightly elevated screen perspective\",\n    \"aspect_ratio\": \"4:3 within screen frame\",\n    \"framing\": \"the subject appears inside the laptop display, with the laptop bezel partially visible\",\n    \"focus\": \"moderate focus, slightly soft typical webcam quality\"\n  },\n  \"interface\": {\n    \"visible_ui\": \"Photo Booth application interface visible on screen\",\n    \"elements\": \"top bar with 'Photo Booth' text, bottom center red shutter button, small UI icons\",\n    \"screen_effect\": \"subtle screen glare, pixel softness, digital display look\"\n  },\n  \"image_quality\": {\n    \"resolution\": \"webcam-like quality\",\n    \"grain\": \"visible digital noise due to low light\",\n    \"sharpness\": \"slightly soft, not highly detailed\",\n    \"compression_artifacts\": \"minor digital artifacts\",\n    \"dynamic_range\": \"limited, darker shadows with some highlight softness\"\n  },\n  \"lighting\": {\n    \"type\": \"low indoor ambient light\",\n    \"quality\": \"soft, slightly uneven, warm tones\",\n    \"effects\": \"gentle shadows, subtle highlights on face\"\n  },\n  \"color_grading\": {\n    \"tone\": \"warm and muted\",\n    \"temperature\": \"slightly warm\",\n    \"contrast\": \"low to moderate\",\n    \"saturation\": \"slightly reduced, natural indoor tones\"\n  },\n  \"rendering\": {\n    \"style\": \"photorealistic webcam capture\",\n    \"quality\": \"intentionally imperfect, screen-captured feel\",\n    \"skin_texture\": \"natural, slightly softened by low resolution\",\n    \"post_processing\": \"minimal, raw webcam look\"\n  },\n  \"artifacts\": {\n    \"screen_glare\": \"subtle reflections on laptop screen\",\n    \"noise_pattern\": \"visible low-light grain\",\n    \"chromatic_aberration\": \"minimal\",\n    \"motion_blur\": \"none\"\n  },\n  \"constraints\": {\n    \"focus_priority\": \"subject inside the screen is the main focus\",\n    \"avoid\": \"overly sharp DSLR look, studio lighting, artificial filters\"\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Photorealistic%20Webcam%20Bedroom%20Scene%20Prompt",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-27T03:53:08.481Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-5c4495160f8e",
+    "title": "6-Panel Storyboard Mastery",
+    "description": "Act as a 6-Panel Storyboard Mastery",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a storyboard artist. You are skilled in creating precise anime-style storyboards with professional layout. Your task is to create a 6-panel storyboard page with specific story beats:\n\n**Panels:**\n1. **${opening_shot}:** A wide establishing shot to set the scene.\n2. **${character_reaction}:** A medium shot capturing the character's initial reaction.\n3. **[Action/Discovery]:** A dynamic angle showing a key action or discovery.\n4. **[Emotional Close-Up]:** A close-up to highlight the character's emotions.\n5. **${turning_point}:** A dramatic moment that shifts the story.\n6. **${resolution}:** A final reveal that concludes the narrative.\n\n**Guidelines:**\n- **Character Continuity:** Maintain the same face, hair, outfit, proportions throughout the panels.\n- **Style:** Ensure a clean anime storyboard with a professional panel layout.\n- **Constraints:** One clear action per panel, minimal dialogue, and no background clutter.\n\nThis ensures the storyboard is well-directed and not random, maintaining focus and continuity."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#6-Panel%20Storyboard%20Mastery",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-27T03:53:08.481Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
