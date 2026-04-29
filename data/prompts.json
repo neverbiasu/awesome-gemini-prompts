@@ -99855,5 +99855,185 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-ae623236e67f",
+    "title": "handle bug in feature",
+    "description": "Act as a handle bug in feature",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a senior software engineer and system architect.\n\n## Context\nI am a developer working on an application feature.\n\nThere is a bug, and previous fixes made the system more complex.\n\nI need:\n- Clear understanding of the system flow\n- Identification of the exact failure point\n- Minimal, precise fix (no over-engineering)\n\nYou MUST explain the system before attempting a fix.\n\n---\n\n## Inputs\n\nFeature:\n${describe_feature}\n\nExpected Behavior:\n${what_should_happen}\n\nActual Issue:\n${what_is_happening}\n\nCode:\n${paste_relevant_code}\n\n---\n\n## Output Format (STRICT)\n\n### 1. System Flow (Visual + Logical)\n\n#### A. Flow Diagram\nProvide a clear step-by-step flow:\n\nUser Action  \n→ UI Layer  \n→ State / Controller / Logic  \n→ Data Processing  \n→ External System / SDK / API (if any)  \n→ Response Handling  \n→ Rendering / Output  \n→ UI Update  \n\n---\n\n#### B. Explain Each Stage\nFor each step:\n- What happens\n- What data is passed\n- What transformations occur\n- What dependencies exist\n\n---\n\n#### C. Critical Timing Points (IMPORTANT)\nIdentify:\n- When objects/resources are created\n- When data is loaded or fetched\n- When state updates occur\n- When properties/configuration SHOULD be applied\n\n---\n\n### 2. Expected Behavior\nDefine correct behavior:\n- Normal success flow\n- Edge cases\n- Failure scenarios\n\nIf unclear, ask up to 3 specific questions and STOP.\n\n---\n\n### 3. Current Behavior\nExplain actual behavior using:\n- Issue description\n- Code analysis\n\n---\n\n### 4. Mismatch (Critical)\nIdentify:\n- Exact step where behavior diverges\n- What should happen vs what actually happens\n\n---\n\n### 5. Root Cause (Precise)\nIdentify the exact reason:\n- Timing issue (async, lifecycle)\n- Incorrect reference or data\n- State not updating\n- Logic flaw\n- Integration issue\n\nPoint to:\n- Specific function / block / lifecycle stage\n\nIf unsure, clearly state assumptions.\n\n---\n\n### 6. Minimal Fix (STRICT)\n- Provide smallest possible change\n- Do NOT rewrite architecture\n- Do NOT introduce unnecessary abstraction\n\nProvide ONLY modified code snippet.\n\nFocus on:\n- Fixing timing\n- Correct data flow\n- Proper state update\n\n---\n\n### 7. Why Fix Works\nExplain:\n- How it fixes the exact failure point\n- Relation to system flow\n- Relation to lifecycle/timing\n\n---\n\n### 8. Risks (IMPORTANT)\nAnalyze:\n- Impact on other parts of system\n- Performance implications\n- Side effects\n\n---\n\n### 9. Prevention (Architecture Guidance)\nSuggest:\n- Better lifecycle handling\n- Clear separation of responsibilities\n- Where logic should live:\n  - UI\n  - Controller / State\n  - Data / Service layer\n\n---\n\n## Constraints\n- Do NOT assume behavior without stating assumptions\n- Do NOT move logic randomly\n- Do NOT add conditions blindly\n- Focus on flow, timing, and data\n\n---\n\n## Fallback Rule\nIf inputs are insufficient:\n- Ask up to 3 specific questions\n- STOP\n\n---\n\n## Self-Check (MANDATORY)\nBefore answering:\n- Did I map the bug to a specific flow step?\n- Did I identify timing/lifecycle issues?\n- Is the fix minimal and scoped?\n- Did I avoid over-engineering?"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#handle%20bug%20in%20feature",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-29T03:54:20.852Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-3eaff3828356",
+    "title": "details of the given bug",
+    "description": "Act as a details of the given bug",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a senior software analyst.\n\n## Goal\nFrom the given input text, extract and structure the following three elements:\n\n1. describ_feature → What feature or system is being discussed\n2. what_should_happen → Expected behavior\n3. what_is_happen → Actual behavior / issue\n\n---\n\n## Input\n${paste_any_raw_text_here}\n- Could be messy\n- Could include logs, chat, code comments, or mixed explanations\n\n---\n\n## Instructions\n\n- Read the entire input carefully\n- Infer missing context when reasonably possible\n- Do NOT hallucinate unclear details\n- If something is missing, return \"UNCLEAR\"\n\n---\n\n## Extraction Rules\n\n### 1. describ_feature\n- Summarize the feature/system in 1–2 lines\n- Focus on purpose, not implementation details\n\n### 2. what_should_happen\n- Describe ideal/expected behavior\n- Include conditions if mentioned\n\n### 3. what_is_happen\n- Describe actual issue or incorrect behavior\n- Be precise and factual\n- Include errors, unexpected results, or failures\n\n---\n\n## Output Format (STRICT)\n\n## Output Format (STRICT)\n\nReturn ONLY this points: \"describ_feature\": \"...\",\n\n\n \"what_should_happen\": \"...\",\n\n\n \"what_is_happen\": \"...\"\n\n---\n\n## Constraints\n- No extra text \n- No explanations\n- No assumptions beyond reasonable inference\n- Keep each field concise but complete"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#details%20of%20the%20given%20bug",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-29T03:54:20.852Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-1030f1b008a6",
+    "title": "Lost in [Country] with ChatGPT Image 2",
+    "description": "Act as a Lost in [Country] with ChatGPT Image 2",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a stylized travel poster / graphic collage for ${country}. The main subject should be a stylish international tourist visiting ${country}, clearly presented as a traveler and not a local resident. Show the tourist wearing modern travel fashion, with details such as a camera, backpack, sunglasses, map, or suitcase, exploring the culture and atmosphere of ${country}. Place the tourist in a dynamic composition surrounded by iconic architecture, streets, landscapes, landmarks, transportation, food, signage, and cultural elements associated with ${country}. Blend realistic character detail with a graphic collage background made of layered paper textures, torn poster edges, sticker elements, halftone dots, editorial typography, and bold geometric shapes. Include authentic visual motifs from ${country}, but keep the tourist’s appearance and styling globally fashionable and clearly foreign to the setting. Add a large readable headline: “LOST IN ${country}”. Modern, artistic, premium editorial travel poster aesthetic, balanced layout, print-worthy composition."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Lost%20in%20%5BCountry%5D%20with%20ChatGPT%20Image%202",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-29T03:54:20.852Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-3064c0b0b33a",
+    "title": "Street-art punk poster",
+    "description": "Act as a Street-art punk poster",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a high-resolution graphic artwork in a bold street-art / punk poster style. Composition: dynamic, asymmetrical collage of repeated human skulls across the canvas, varying in scale, rotation, and cropping, with overlaps and edge cut-offs. Arrange diagonally to create motion and flow (no symmetry).\nStyle: skulls as flat, high-contrast stencil-like graphics with sharp edges and minimal detail. Apply halftone dot texture for a gritty screen-printed look. Mix solid black/off-white skulls with neon yellow or acid green gradient fills.\nColor palette: neon yellow, acid green, black, off-white. Use rough spray-paint gradients, especially green → yellow transitions. Background: distressed textures—paint splashes, ink noise, halftone dots, grunge overlays.\nAdd diagonal bands or torn-paper strips cutting through the layout. Inside them place bold text (“ERROR”, “404”, “DECAY”) in rough stencil/distressed sans-serif, slightly tilted and partially overlapping skulls.\nLighting: flat, graphic (no realistic shading), high contrast. Mood: aggressive, chaotic, urban, rebellious—graffiti / punk zine / screen print.\nAvoid realism, smooth gradients, or clean polish; embrace noise, imperfections, raw texture.\n\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Street-art%20punk%20poster",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-29T03:54:20.852Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-53e71b3f0321",
+    "title": "Oracle Payroll Unsupported Localization Guide",
+    "description": "Act as a Oracle Payroll Unsupported Localization Guide",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Provide a comprehensive, step-by-step guide for implementing Oracle Fusion Cloud Global Payroll in scenarios where a country’s localization is unsupported by the platform. The guide should cover the following aspects:\n\n- Overview of Oracle Fusion Cloud Global Payroll and the significance of localization in payroll processes.\n- Identification and assessment of unsupported countries within Oracle Fusion Cloud.\n- Best practices for implementing payroll solutions for unsupported countries, including workaround strategies and customizations.\n- Methods for handling statutory and regulatory requirements specific to unsupported countries.\n- Integration considerations for combining Oracle Fusion Cloud Payroll with third-party systems or local solutions.\n- Testing and validation approaches to ensure compliance and accuracy.\n- Risk management and documentation practices throughout the implementation.\n\nInclude detailed explanations and recommendations, emphasizing practical steps and potential challenges.\n\n# Steps\n\n1. Introduce Oracle Fusion Cloud Global Payroll and the role of localization.\n2. Explain how to determine unsupported countries.\n3. Describe options for handling unsupported localizations: custom configurations, manual processes, third-party integrations.\n4. Discuss statutory and compliance issues to address.\n5. Detail integration techniques and data flow considerations.\n6. Outline testing procedures for compliance and functional accuracy.\n7. Highlight documentation and risk mitigation strategies.\n\n# Output Format\n\nDeliver the guide in a structured format using numbered or bulleted lists, with clear headings for each section. Use concise, professional language suitable for an audience of payroll implementation specialists and IT professionals.\n\n# Notes\n\nFocus on practical guidance with an emphasis on compliance, customization, and integration challenges unique to unsupported country localizations."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Oracle%20Payroll%20Unsupported%20Localization%20Guide",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-04-29T03:54:20.852Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
