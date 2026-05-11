@@ -101727,5 +101727,113 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-ad264f6d0402",
+    "title": "prompt for powerpoint slides generation",
+    "description": "Act as a prompt for powerpoint slides generation",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Prepare prompt for investor ready pitch deck for coachingbuddy app. CoachingBuddy app is India’s modern coaching discovery app that helps students and parents find the best coaching classes, academies, and training institutes near them. \nFrom school tuitions to competitive exam coaching, hobby classes, and sports academies—CoachingBuddy brings everything into one easy-to-use platform."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#prompt%20for%20powerpoint%20slides%20generation",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-11T04:15:28.895Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-b5ccf368b311",
+    "title": "The Pleasure of Finding Things Out",
+    "description": "Act as a The Pleasure of Finding Things Out",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "A highly detailed stylized 3D cartoon caricature of a playful physicist inspired by Richard Feynman.\n\nCharacter identity:\n- male\n- middle-aged\n- slim build\n- expressive face with large smile\n- thick wavy dark hair\n- large round glasses\n- intelligent mischievous eyes\n- warm friendly personality\n- tweed academic jacket\n- white shirt with pens in pocket\n- holding a physics book\n\nArt style:\nPixar-inspired stylized realism, whimsical 3D caricature, oversized expressive eyes, exaggerated facial proportions, polished CGI rendering, animated movie character aesthetic, collectible figurine look, ultra-clean white background.\n\nPose:\nstanding confidently with one finger raised as if explaining physics.\n\nScene:\nminimal white studio background with subtle physics doodles.\n\nRender quality:\nultra detailed CGI, cinematic lighting, octane render, AAA animated movie quality.\n\nNegative prompt:\nuncanny realism, bad anatomy, distorted hands, blurry eyes, duplicate limbs, extra fingers, messy textures."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#The%20Pleasure%20of%20Finding%20Things%20Out",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-11T04:15:28.895Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-69fc34b8416c",
+    "title": "Mothers day",
+    "description": "Act as a Mothers day",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Main Prompt -\nUsing the uploaded reference photo of my mom (or me with mom), design a cozy wall collage. Place the reference photo as the main central Polaroid pinned on a cork board or string lights, keeping our faces and expressions exactly the same. Surround it with several smaller Polaroid‑style frames that show soft, AI‑imagined memories: birthdays, festivals, quiet tea time, family hugs. Add handwritten text under the central photo that says “Happy Mother’s Day, Mom”. Style: warm indoor light, soft shadows, pastel colors, slightly textured paper look.\n\nImage 2 -\nUsing the uploaded reference photo of mom and child together, transform them into stylized Pixar‑inspired 3D characters while preserving their recognizable faces, hairstyles, and overall proportions from the reference. Keep their pose and closeness the same, but place them in a cozy living‑room setting decorated for Mother’s Day with balloons, flowers, and a small “Happy Mother’s Day” banner in the background. Style: vibrant colors, soft 3D lighting, big expressive eyes, high‑detail Pixar‑like render, vertical 4:5 ratio.\n\nimage 3 -\nUsing the uploaded reference portrait photo of my mom, create a vertical 9:16 Mother’s Day social media image. Preserve her facial features and expression exactly. Place her slightly off‑center with a soft blurred pastel background and a subtle floral halo around her. Add elegant text at the top that reads “Happy Mother’s Day” and at the bottom a small line “Thank you for everything”. Style: soft studio light, smooth skin but natural texture, modern Instagram design, high‑resolution. \n\nsecret newspaper prompt - \nCreate a whimsical black-and-white vintage Hindi newspaper front page using the uploaded mother-child photo. Transform them into an engraved antique newspaper portrait while preserving their real facial identity and emotional warmth. Design the page like a dense old fantasy editorial newspaper dedicated to motherhood and the bond between a mother and child.\n\nUse classic Hindi serif typography, narrow newspaper columns, subtle paper texture, high-contrast black ink on white paper, quirky editorial layouts, emotional storytelling snippets, playful fake ads, retro stamps, and magical vintage newspaper aesthetics.\n\nThe newspaper must automatically include:\n\nMother’s Name: [MOTHER_NAME]\nChild’s Name: [CHILD_NAME]\n\nAdd creative Hindi Mother’s Day headlines, emotional one-liners, humorous side notes, and a short featured “news article” about how [CHILD_NAME] sees [MOTHER_NAME] as their superhero, safest place, and biggest source of love.\n\nKeep the portrait centered and dominant while the rest of the newspaper feels nostalgic, emotional, slightly surreal, humorous, and beautifully chaotic like an old collectible Hindi newspaper.\n\nQueen image - \nUSE THE UPLOADED PHOTO AS THE EXACT REFERENCE. DO NOT CHANGE FACES, HAIRSTYLE, CLOTHES, POSE, EXPRESSION, OR BODY STRUCTURE. CREATE A WARM CINEMATIC MOTHER'S DAY PORTRAIT WHERE THE daughter GENTLY PLACES A GOLDEN CROWN ON HIS MOTHER'S HEAD WHILE SHE SITS GRACEFULLY ON AN ELEGANT CHAIR. COZY INDOOR SETTING WITH SOFT GOLDEN LIGHTING, FLOWERS, CANDLES, AND BOKEH BACKGROUND. ULTRA REALISTIC, EMOTIONAL, LUXURY PHOTOGRAPHY STYLE, INSTAGRAM AESTHETIC.ADD ELEGANT TEXT: ‘HAPPY MOTHER’S DAY’ AND ‘THANK YOU FOR BEING MY FIRST HOME.’ 4:5 RATIO. "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Mothers%20day",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-11T04:15:28.895Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
