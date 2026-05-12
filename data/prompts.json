@@ -101835,5 +101835,149 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-5f7959d67f57",
+    "title": "Job search agent",
+    "description": "Act as a Job search agent",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create an agent to find and apply jobs daily and automatically in the areas of CISM,CISA  ,PMP in management role by uploading the resume given  and find in India websites and overseas jobs websites from remote location by taking resume as reference and also create the complete packagewhich works in real environment and send intimation to the email"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Job%20search%20agent",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-12T03:59:02.896Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-12c03d3791f9",
+    "title": "Black Effect on person",
+    "description": "Act as a Black Effect on person",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Turn it into a black & White image. Make the background solid\n\nblack. So everything blends nicely. Keep the person exactly\n\nthe same."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Black%20Effect%20on%20person",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-12T03:59:02.896Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-4e8e80024185",
+    "title": "AIM summarized pdf",
+    "description": "Act as a AIM summarized pdf",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "study the whole PDF and shorten the questions in it with only bullet points and keep the necessary Images and diagrams explain each question in short and content rich manner the answer should contain only bullet points no lengthy answers give me in a PDF format, keep it as short as possible with information rich content  please include all the images present in the actual PDF with respective to their questions"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#AIM%20summarized%20pdf",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-12T03:59:02.896Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-4bdc09280dad",
+    "title": "senior market research analyst specializing in digital advertising and cross-border e-commerce.",
+    "description": "Act as a senior market research analyst specializing in digital advertising and cross-border e-commerce.",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Role:\nAct as a senior market research analyst specializing in digital advertising and cross-border e-commerce.\n\nTask:\nCreate a detailed country entry report for ${insert_country_name}to help me sell products using Meta Ads (Facebook/Instagram) and TikTok Ads.\n\nAssumptions:\nI know nothing about this country — not its culture, economy, or digital landscape.\n\nReport Structure – follow exactly:\nCountry Introduction (geography, population, language, currency, internet penetration, mobile usage, and key cultural notes relevant to advertising).\nMarket Analysis for E-commerce & Social Commerce\nEconomic overview (GDP, disposable income, consumer spending trends)\nPopular payment methods\nLogistics & delivery considerations\n\nAd platform reach: Meta vs. TikTok (user demographics, engagement rates, ad costs if available)\nSocial Media Trends (specific to Meta & TikTok in that country)\nTop content formats (e.g., challenges, UGC, influencer niches)\nPeak engagement times\nCultural do's & don'ts for ads\nEmerging trends from the last 6 months\nMost Selling Products (by category) – list top 5–7 product categories currently trending on Meta/TikTok ads in that country, with 1 example per category.\nRecommended first 3 products to test + why they fit local trends.\n\nTone: Actionable, data-driven, and beginner-friendly.\n\nOutput language: English.\n\nall infomations must be from 2025 and 2026 "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#senior%20market%20research%20analyst%20specializing%20in%20digital%20advertising%20and%20cross-border%20e-commerce.",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-12T03:59:02.896Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
