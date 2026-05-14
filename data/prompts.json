@@ -102375,5 +102375,149 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-7a8dec28b678",
+    "title": "Smart Project Timeline Builder",
+    "description": "Act as a Smart Project Timeline Builder",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "You are a project operations strategist responsible for designing execution-ready project timelines.\n\nYour task is to generate a structured project roadmap for the following scenario:\n\nProject type: ${project_type}\nPrimary goal: ${project_goal}\nProject duration: ${timeline_length}\nTeam structure: ${team_structure}\nPlanning priority: ${priority_style}\n\nBuild the project plan using the following operational framework:\n\n1. Project Phases\n   - Divide the project into logical execution phases\n   - Give each phase a clear operational objective\n\n2. Task Sequencing\n   - List the critical tasks inside each phase\n   - Order tasks according to realistic dependencies\n   - Avoid scheduling tasks before prerequisite work is completed\n\n3. Deadline Planning\n   - Assign realistic deadlines to each phase and major task\n   - Balance workload distribution across the timeline\n   - Ensure the total timeline remains within ${timeline_length}\n\n4. Milestone Checkpoints\n   - Include measurable milestone reviews\n   - Add approval or testing checkpoints where appropriate\n\n5. Risk Prevention\n   - Identify likely execution bottlenecks\n   - Add preventive actions for timeline delays or coordination issues\n\nOutput Requirements:\n- Use clean section formatting\n- Present deadlines in chronological order\n- Keep recommendations operational and practical\n- Avoid generic filler advice\n- Do not explain your reasoning\n- Final output must be execution-ready"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Smart%20Project%20Timeline%20Builder",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-14T04:06:22.873Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-8fa546cfdbed",
+    "title": "Live Stock market analysis ",
+    "description": "Act as a Live Stock market analysis ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want to a prompt that able to analyse indian index Nifty. That dose live fatching market data from different sources. And analyse with technical chart analysis, option greek, option chain, open Interest. \nAfter all level analysis it's suggest me for trade. \n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Live%20Stock%20market%20analysis%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-14T04:06:22.873Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-76f6b53ff0ea",
+    "title": "Football Match ",
+    "description": "Act as a Football Match ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "1. image generation - Hyper-realistic live football broadcast crowd shot set during a high-stakes, packed stadium match. The scene is captured exactly like a genuine live TV crowd cutaway during a tense late-match moment, as the broadcast camera naturally spots two notable fans in the audience.\nTwo adult male subjects are seated side-by-side in the stadium crowd, both facing directly toward the camera with a clean front-facing live broadcast angle (not a side angle). Both subjects have strongly consistent facial features, exact hairstyles, natural expressions, and realistic skin texture throughout.\nPerfect environmental integration is essential: lighting, shadows, skin tones, reflections, exposure, contrast, color temperature, and stadium light spill must blend seamlessly with the surrounding crowd and background. No pasted-on appearance, no artificial edge separation, no mismatched lighting, no studio-photo look. Both subjects must feel completely native to the live broadcast environment.\nSubject 1 is wearing an authentic Lionel Messi team jersey, clearly visible, seated naturally with a subtle casual smile.\nSubject 2 is seated immediately beside him wearing an authentic Cristiano Ronaldo team jersey, also clearly visible.\nBoth are reacting naturally to the match atmosphere as if casually caught by the live crowd camera — not posing, not exaggerated, not continuously staring into the lens.\nBroadcast scoreboard overlay at the top of the frame:\nMESSI TEAM 5 — 0 RONALDO TEAM | 89:24\nClearly indicating a dominant late-game situation where Messi's side is one goal from sealing a dramatic victory.\nVisual and technical qualities:\n\nRealistic sports broadcast framing\nNatural stadium floodlight illumination\nSubtle handheld broadcast camera shake\nSlight live zoom framing\nLED stadium screen glow\nEnergetic crowd in background\nAuthentic broadcast sharpness and compression texture\n\nAspect ratio: 16:9 — single continuous front-camera frame, no cuts, no cinematic grading, no slow motion.\n\n\n2. fix lighting - Improve the lighting while keeping everything else exactly the same. Do not change the person, pose, expression, background, or composition. Fix issues like back lighting, harsh shadows, underexposure or uneven lighting. Transform the original lighting into soft, natural, flattering light coming from slightly above eye level and facing the subject, so the face is evenly lit with realistic skin tones. Keep the result photorealistic and consistent with the original scene. \n\n3. zoom out - \n\n4. 🎬 MASTER PROMPT — Live Football Broadcast Crowd Reaction Video\n\n📐 FORMAT & SHOT SPECS\nDuration: 5 seconds | Ratio: 16:9 | Single continuous shot\nCamera: Handheld broadcast zoom lens, slight organic shake\nStyle: Hyper-realistic live TV sports broadcast footage\nColor Grade: Authentic sports broadcast — warm floodlight tones, \nslight saturation boost, real TV compression artifacts\n\n🎥 SHOT COMPOSITION\nFront-facing crowd cutaway — both subjects centered, \nside-by-side in stadium seats, full upper body visible, \nboth faces directly toward camera lens.\nBackground: packed 80,000-capacity stadium, \nblurred crowd motion, waving scarves, floodlight bloom, \nauthentic depth-of-field from broadcast zoom.\n\n👤 SUBJECT LEFT — MESSI FAN\nFace: [INSERT REFERENCE FACE A — do not alter features]\nJersey: Pink Messi-inspired team football shirt\nSeconds 0–1: Seated calm, watching match, relaxed expression\nSeconds 1–5: GOAL REACTION —\n  → Eyes widen instantly\n  → Erupts into massive smile\n  → Both arms shoot upward simultaneously  \n  → Slight rise from seat, body forward\n  → Pure euphoric celebration energy\nLighting: Warm stadium floodlight hitting face naturally, \n          realistic skin reflection, no artificial glow\n\n👤 SUBJECT RIGHT — RONALDO FAN\nFace: [INSERT REFERENCE FACE B — do not alter features]\nJersey: Yellow Ronaldo-inspired team football shirt\nSeconds 0–1: Forward-focused, tense match engagement\nSeconds 1–5: DEVASTATION REACTION —\n  → Sudden stand from seat in disbelief\n  → Face drops — shock, then anguish\n  → Emotional near-tears expression\n  → Mouth open, shouting in disappointment\n  → Hands to head or face in despair\nLighting: Same continuous stadium light, \n          shadow and highlight consistent with left subject\n\n📺 BROADCAST OVERLAY GRAPHICS\nTOP SCOREBOARD BAR:\n[ MESSI TEAM  5 – 0  RONALDO TEAM ]  ⏱ 89:24\n\nCorner watermark: beIN Sports / ESPN FC logo (subtle)\nBottom ticker: Live match stats scrolling\nBroadcast timestamp burn: bottom-right corner\nSlight scan-line texture, real TV compression noise\n\n🔊 AUDIO LAYER\nEnglish commentator voice (BBC/ITV broadcast style):\n\n0:00–1:00 → Tense ambient crowd murmur, commentator building tension\n1:00 → \"Messi... Messi... MESSI SCORES! \n         Unbelievable! What a finish from the greatest \n         to ever play this game!\"\n1:00+ → Crowd ERUPTS — roar fills stadium\n         Continued commentary: \"Five nil! \n         It is absolutely over. Heartbreak \n         for the other side!\"\nBackground: Authentic stadium reverb, \n            crowd chants, vuvuzelas distant\n\n⚙️ CRITICAL TECHNICAL REQUIREMENTS\n✅ Perfect face consistency — zero alteration to reference features\n✅ Seamless background crowd blending — no green screen edges\n✅ Matching stadium lighting + natural shadow continuity\n✅ Real skin texture — pores, natural reflection, no AI smoothing\n✅ Broadcast realism ONLY — no cinematic color grading\n✅ Single continuous shot — NO cuts, NO angle changes\n✅ NO slow motion — real-time broadcast speed only\n✅ NO artificial animation loops — pure organic movement\n✅ Handheld camera micro-shake throughout entire clip\n✅ Natural motion blur on fast arm movements\n\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Football%20Match%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-14T04:06:22.873Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-6a4a8d318a27",
+    "title": "The Lovelyline ",
+    "description": "Act as a The Lovelyline ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "A minimalist line-art drawing of a simple character conceptualizing 'overcoming an obstacle'. Clean black continuous line style on a white background. The concept should be conveyed through simple geometry and basic visual metaphors. Strictly maintain a flat, vector-like aesthetic with no 3D elements, no realistic textures, and no complex features."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#The%20Lovelyline%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-14T04:06:22.873Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
