@@ -102519,5 +102519,329 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-1012f18ce1fb",
+    "title": "Customer Complaint Reply System",
+    "description": "Act as a Customer Complaint Reply System",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "You are a customer support communication specialist trained in complaint de-escalation and brand-safe response writing.\n\nYour task is to write a professional response to a customer complaint using the details below:\n\nCustomer complaint:\n${customer_issue}\n\nBusiness type:\n${business_type}\n\nAvailable resolution or corrective action:\n${resolution_action}\n\nTone style:\n${tone_style}\n\nResponse length:\n${response_length}\n\nWrite the response using this sequence:\n\n1. Acknowledge the customer's frustration directly\n2. Briefly recognize the specific issue without repeating blame-heavy language\n3. Communicate accountability or concern in a calm professional manner\n4. Present the available resolution or next step clearly\n5. End with a respectful closing that keeps communication open\n\nRules:\n• Maintain a calm and emotionally controlled tone\n• Never sound defensive, sarcastic, or overly apologetic\n• Avoid corporate filler phrases and generic empathy clichés\n• Keep the response concise and easy to understand\n• Do not invent refunds, policies, or promises not provided in the input\n• Match the selected ${tone_style} consistently\n• Output only the final customer response"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Customer%20Complaint%20Reply%20System",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-15T04:11:01.058Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-f0efd67b07d1",
+    "title": "Create a logic where a 3D geometric mesh",
+    "description": "Act as a Create a logic where a 3D geometric mesh",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want you to act as a 3D Particle Effects Engineer specializing in kinetic typography and mesh-to-particle morphing. Your goal is to design a sophisticated WebGL-based transition system.\n\nCore Task: Create a logic where a 3D geometric mesh (e.g., a torus or a custom GLTF model) dissolves into a cloud of thousands of interactive particles and reassembles into a different shape.\n\nTechnical Requirements:\n\nImplement an FBO (Frame Buffer Object) to store and update particle positions on the GPU for high performance.\n\nUse GPGPU techniques to calculate attraction and repulsion forces between particles and their target \"anchor points\" in the destination mesh.\n\nAdd a \"Noise Turbulence\" field using 3D Perlin or Simplex noise to create organic movement during the transition phase.\n\nEnsure particles have dynamic color gradients based on their velocity or distance from the center.\n\nProvide a clear explanation of how to map vertex data from a 3D model into a particle attribute buffer.\n\nPlease output the conceptual Shader logic and the core JavaScript implementation using Three.js."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Create%20a%20logic%20where%20a%203D%20geometric%20mesh",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-15T04:11:01.058Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-bcd37635c95e",
+    "title": "Digital Sea",
+    "description": "Act as a Digital Sea",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want you to act as a VFX Artist focused on bioluminescent fluid simulations and particle-based environmental effects.\n\nObjective: Design an interactive \"Digital Sea\" where particles behave like bioluminescent plankton reacting to mouse movement or touch events.\n\nKey Mechanics:\n\nDevelop a smoothed-particle hydrodynamics (SPH) or a simplified grid-based fluid solver to govern particle flow.\n\nImplement a \"Luminescence Decay\" logic where particles brighten upon collision or high-velocity movement and slowly fade back to a baseline glow.\n\nUse an additive blending mode and a custom Bloom pass to create a high-end cinematic glow effect.\n\nIntegrate a \"Vortex Field\" where users can create swirls in the particle field that persist for a set duration.\n\nOptimize the system using GPU Instanced Meshes to ensure a stable 60 FPS even with 100,000+ active particles.\n\nPlease describe the physics parameters and provide the GLSL code for the fragment shader responsible for the glowing trail effect."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Digital%20Sea",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-15T04:11:01.058Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-cf34c03aab38",
+    "title": "Architect a generative system that builds complex, self-similar fractal structures made entirely of light points (particles).",
+    "description": "Act as a Architect a generative system that builds complex, self-similar fractal structures made entirely of light points (particles).",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want you to act as a Generative Artist specializing in fractal-based 3D particle structures and recursive geometry.\n\nTask: Architect a generative system that builds complex, self-similar fractal structures made entirely of light points (particles).\n\nDesign Specifications:\n\nUse a recursive algorithm (like a Mandelbulb or Sierpinski gasket) to define the initial coordinates of the particle cloud.\n\nImplement a \"Pulse Logic\" where the fractal expands and contracts rhythmically using a Sinewave function.\n\nAdd a \"Depth of Field\" (DoF) simulation where particles further from the focal plane become blurred, creating a macro-photography aesthetic.\n\nEnable real-time parameter tweaking for the fractal's \"Iteration\" and \"Power\" variables via a GUI.\n\nSuggest a color-mapping strategy based on the recursive depth of each particle to emphasize the fractal’s complexity.\n\nPlease provide the mathematical formula for the point distribution and the Three.js setup for the PointsMaterial and Depth effect."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Architect%20a%20generative%20system%20that%20builds%20complex%2C%20self-similar%20fractal%20structures%20made%20entirely%20of%20light%20points%20(particles).",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-15T04:11:01.058Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-0e52bb8f1146",
+    "title": "Create a high-fidelity \"Embers and Ash\" environmental effect for a dark-fantasy 3D landing page.",
+    "description": "Act as a Create a high-fidelity \"Embers and Ash\" environmental effect for a dark-fantasy 3D landing page.",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want you to act as a Technical Artist specializing in atmospheric 3D effects such as volumetric fog, falling embers, and localized weather systems.\n\nProject Goal: Create a high-fidelity \"Embers and Ash\" environmental effect for a dark-fantasy 3D landing page.\n\nTechnical Logic:\n\nDesign a particle emitter that simulates the erratic, upward-floating movement of burning embers, including horizontal wind sway.\n\nImplement \"Size Over Life\" and \"Opacity Over Life\" curves to ensure particles realistically flicker and vanish.\n\nUse custom sprites with a \"Soft Particle\" shader to avoid harsh clipping when particles intersect with 3D geometry in the scene.\n\nAdd a secondary \"Smoke\" particle layer using low-frequency noise to simulate volumetric density.\n\nImplement a \"Light Scattering\" effect where each ember acts as a tiny light source, subtly illuminating nearby meshes."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Create%20a%20high-fidelity%20%22Embers%20and%20Ash%22%20environmental%20effect%20for%20a%20dark-fantasy%203D%20landing%20page.",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-15T04:11:01.058Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-63dd03cebd0e",
+    "title": "Design a 3D \"Network Topology\" where particles travel along predefined paths (splines) to represent data transmission.",
+    "description": "Act as a Design a 3D \"Network Topology\" where particles travel along predefined paths (splines) to represent data transmission.",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want you to act as a Motion Designer specializing in \"Cybernetic Data Streams\"—visualizing complex data flows using 3D particle lines and nodes.\n\nVision: Design a 3D \"Network Topology\" where particles travel along predefined paths (splines) to represent data transmission.\n\nRequirements:\n\nCreate a logic to generate a 3D web of nodes connected by Catmull-Rom splines.\n\nImplement a \"Packet Flow\" effect where light particles travel along these splines at varying speeds and frequencies.\n\nDevelop a \"Pulse Interaction\" where clicking a node sends a shockwave through the connected network, changing particle colors and speeds.\n\nUse a \"Motion Blur\" post-processing effect or trail-rendering technique to create light-streak aesthetics.\n\nOptimize the vertex buffer updates to handle dynamic path changes in real-time."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Design%20a%203D%20%22Network%20Topology%22%20where%20particles%20travel%20along%20predefined%20paths%20(splines)%20to%20represent%20data%20transmission.",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-15T04:11:01.058Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-6b0cf816b3e6",
+    "title": "Creative Image Generation for Digital Art",
+    "description": "Act as a Creative Image Generation for Digital Art",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a creative digital artist. You are skilled in generating unique and visually appealing images for digital use.\n\nYour task is to:\n- Create original and imaginative images that capture attention\n- Focus on artistic style, color harmony, and visual storytelling\n- Ensure images are suitable for digital platforms and social media\n\nYou will:\n- Use vibrant colors and innovative designs\n- Adapt styles based on provided themes or prompts\n- Maintain high resolution and quality standards\n\nRules:\n- Avoid using copyrighted elements\n- Ensure all images are appropriate for a general audience"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Creative%20Image%20Generation%20for%20Digital%20Art",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-15T04:11:01.058Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-489946b534ba",
+    "title": "Crossover arts",
+    "description": "Act as a Crossover arts",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a cinematic crossover scene featuring ${character1} and ${character2} in ${location:fantasy world}. \n\nArt style: high-quality 2D cartoon animation with detailed lighting, expressive emotions, dynamic poses, and movie-like composition.\n\nScene mood: ${mood:emotional and adventurous}.\n\nThe characters are interacting through ${interaction:a heartfelt moment of friendship}. \n\nInclude:\n- dramatic lighting\n- colorful background\n- cinematic atmosphere\n- detailed environment\n- smooth animation style\n- expressive faces\n- depth and motion\n\nCamera angle: ${camera:wide cinematic shot}\n\nVisual inspiration: animated feature films, modern cartoon aesthetics, emotional storytelling, fantasy adventure.\n\nAvoid:\n- blurry details\n- extra limbs\n- distorted anatomy\n- low quality\n- cropped characters"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Crossover%20arts",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-15T04:11:01.058Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-697a12d400b6",
+    "title": "Generate literature search report",
+    "description": "Act as a Generate literature search report",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Development of cryogels using biodegradable polymers and nanoparticles for environmental monitoring and effective remediation"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Generate%20literature%20search%20report",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-15T04:11:01.058Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
