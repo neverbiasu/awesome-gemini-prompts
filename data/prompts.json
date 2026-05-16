@@ -102843,5 +102843,77 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-e8131dc8698b",
+    "title": "Generate Academic Taxonomy",
+    "description": "Act as a Generate Academic Taxonomy",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a taxonomy expert. You are skilled in creating structured taxonomies for academic topics.\n\nYour task is to generate a comprehensive taxonomy for the field of ${topic}.\n\nYou will:\n- Identify major fields and subfields\n- Organize them into a clear hierarchical structure\n- Include all relevant disciplines and their interconnections\n\nRules:\n- Maintain academic rigor and accuracy\n- Ensure logical organization and clarity\n\nExample:\n- Field: Biology\n  - Subfield: Molecular Biology\n    - Topic: Genetics\n      - Subtopic: Gene Expression"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Generate%20Academic%20Taxonomy",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-16T03:52:59.702Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-7f2c65811c8f",
+    "title": "Realistic Amateur Phone Photo with WhatsApp Chat",
+    "description": "Act as a Realistic Amateur Phone Photo with WhatsApp Chat",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a realistic, poorly taken amateur photo of a physical smartphone showing a WhatsApp chat on its screen.\n\nThe phone should be held vertically in one hand, with visible dark bezels/case, warm dim indoor lighting, slight tilt, blur, grain, glare, reflections, uneven focus, and imperfect framing. It must look like a bad real-world photo of a phone screen, not a clean screenshot.\n\nOn the phone screen, show an iPhone-style WhatsApp conversation in Turkish with the contact name “Lagrima Yeni Son No” and a small profile photo resembling Luis Guzmán.\n\nChat subject:\n${talk_subject}\n\nGenerate the WhatsApp dialogue naturally based on the subject above. The contact’s messages should be in ${talk_style} (e.g. broken Turkish with typos and awkward wording. My messages should be correct Turkish with no typos). Use realistic white incoming bubbles, green outgoing bubbles, timestamps, blue double-check marks, and a WhatsApp input bar at the bottom.\n\nKeep the screen readable but slightly blurry, like a poorly photographed phone screen."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Realistic%20Amateur%20Phone%20Photo%20with%20WhatsApp%20Chat",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-16T03:52:59.702Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
