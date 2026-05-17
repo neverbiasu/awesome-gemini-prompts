@@ -102915,5 +102915,329 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-82e0b95048c9",
+    "title": "Photo emhanced",
+    "description": "Act as a Photo emhanced",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": " ​\"A professional, ultra-realistic 8K extremely high resolution masterpiece of [You decide content of the picture your self ]. Hyper-detailed textures, cinematic studio lighting with deep contrast, brighter colors,sharp focus on every detail. Shot on Sony A1 with 85mm f/1.8 lens for extreme clarity. Enhance the colors to be vibrant and rich (10-bit color),adjust luminance,apply micro-contrast, and add more high dramatic rim lighting to create depth. The surface should have realistic reflections and textures. Professional post-processing, no noise, and pixelation,adjust noise reduction, high dynamic range (HDR),highly detailed, sharp edges,crystal clear every pixels, incredibly lifelike and crisp,deep pastel colors, smooth texture, clean lighting, shallow depth of field, \n\nPreserve original pose, preserve original composition, preserve original identity, preserve original expression, preserve original outfit, preserve original background elements, do not change subject structure.\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Photo%20emhanced",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-17T04:11:56.638Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-98b49c271c78",
+    "title": "GOT Title",
+    "description": "Act as a GOT Title",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create A \"Game Of Thrones\" Style Title For Me. Use The Formal Structure Like \"King Of The Andals\" But Swap In Funny, Real-Life Details About Them. Include Their House Name, \"First Of Their Name,\" And At Least Five Ridiculous Honors Based On Their Hobbies, Job, Or Weird Habits. Make It Sound Epic But Keep It A Joke. Show The Output In A Codeblock With Proper Sentence Case Rules Applied."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#GOT%20Title",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-17T04:11:56.638Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-ca38141ec0e9",
+    "title": "Structured Text Captioning",
+    "description": "Act as a Structured Text Captioning",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "You are a text processor. Take the provided text and extract the following information:\n- Genre and content tags (e.g. fantasy, isekai, horror)\n- A list of characters or people who appear in the text (if any)\n- A list of tropes utilized in the text (if any)\n- A list of writing style patterns, described precisely to desribe *how* the author arrived to evoke a certain style (e.g. a particular sentence construction, like \"Heavy use of simple Subject-Verb-Object constructions\" or \"short, staccato sentence fragments\")\n- A description of how the text progresses (e.g. plot progression or plot threads)\n- A comprehensive summary of the text\n\nFollow this format:\n\n<output_format>\n## Tags\n[If applicable]\n\n## Characters\n[Briefly name who appears if applicable]\n\n## Tropes\n[If applicable]\n\n## Writing Style\n[If applicable]\n\n## Content Progression\n[If applicable]\n\n## Comprehensive Summary\n[A summary of what appeared in the text]\n</output_format>"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Structured%20Text%20Captioning",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-17T04:11:56.638Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-b3c4d7fb1ab8",
+    "title": "《Vowel Velocity: Phonetic Catch》",
+    "description": "Act as a 《Vowel Velocity: Phonetic Catch》",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want you to act as an Expert Web 3D Game Developer and Educational Technologist. Your goal is to design a high-fidelity 3D interactive prototype for a primary school phonics classroom game.\n\nGame Name: 《Vowel Velocity: Phonetic Catch》.\n\nGame Function: The scene features an open 3D landscape where a large basket is controlled by the user via mouse movement along the X-axis. From the top of the viewport, various colorful geometric spheres fall downwards at random intervals, accelerated by a realistic gravity formula. Each sphere triggers a specific audio file (short vowel sounds like /æ/, /e/, /ɪ/) upon spawning. When the basket successfully intercepts a sphere, it triggers an upward particle emission and a subtle screen-shake effect. If a sphere hits the ground, it undergoes a soft-body deflation animation and resets.\n\nDesign Style: Vibrant, stylized minimalism. Use a sky-blue background with soft, baking-baked ambient lighting. The spheres should possess a glossy, candy-like texture with distinct, high-contrast neon colors to maximize children's visual engagement.\n\nTechnologies Used: Three.js for scene rendering, Web Audio API for low-latency spatialized audio playback, and Cannon.js for rigid-body gravity and collision detection."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#%E3%80%8AVowel%20Velocity%3A%20Phonetic%20Catch%E3%80%8B",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-17T04:11:56.638Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-aef860a4bd21",
+    "title": "《Semantic Pull: Word Family Grid》",
+    "description": "Act as a 《Semantic Pull: Word Family Grid》",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want you to act as a Master Game Designer specializing in immersive educational mechanics. Please construct a 3D semantic classification game prototype for an English vocabulary lesson.\n\nGame Name: 《Semantic Pull: Word Family Grid》.\n\nGame Function: The viewport displays three distinct glowing 3D conceptual zones (e.g., a cube, a cylinder, a torus representing Categories like Animals, Fruits, Colors). Multiple floating crystal nodes drift around the screen under a low-frequency noise algorithm. The user can drag any crystal using the mouse pointer; upon release, the system calculates the distance and a magnetic attraction vector to the nearest zone. If the crystal aligns with the correct category zone, it is absorbed via a smooth LERP scaling animation, triggering a burst of light trails. If incorrect, a elastic repulsion vector snaps it back to its origin.\n\nDesign Style: Retro-futuristic cyberpunk tailored for kids. Dark background contrasting with highly emissive, translucent neon materials for the category zones and holographic視差 effects inside the crystals.\n\nTechnologies Used: Three.js for asset management and shaders, GSAP for the non-linear magnetic spring and attraction interpolation, and Raycaster for high-precision 3D bounding box interaction."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#%E3%80%8ASemantic%20Pull%3A%20Word%20Family%20Grid%E3%80%8B",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-17T04:11:56.638Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-2831ab3e1b45",
+    "title": "《Syntactic Stack: Kinetic Grammar》",
+    "description": "Act as a 《Syntactic Stack: Kinetic Grammar》",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want you to act as a Top-Tier Graphics and Interaction Engineer. Please design a 3D physical block stacking game engine to teach basic sentence structures (Subject-Verb-Object).\n\nGame Name: 《Syntactic Stack: Kinetic Grammar》.\n\nGame Function: A physical balancing platform floats in the center of a 3D space. The user is provided with a sequence of colored rectangular blocks representing different parts of speech. Clicking the screen drops a block from a set height onto the platform. The core mechanics rely on precise rigid-body physics: the blocks have differing masses and friction values, forcing them to balance structurally. If the stacking sequence obeys grammatical weight rules, the platform stays stable; if the structure balances improperly, it tilts dynamically based on center-of-mass calculations, leading to a spectacular physics-driven collapse.\n\nDesign Style: Bauhaus geometric aesthetic. Utilize clean pastel color blocks, matte PBR materials simulating smooth wooden toy textures, and soft volumetric shadows to emphasize spatial depth.\n\nTechnologies Used: Three.js for visual rendering, Ammo.js for high-precision mass and center-of-gravity physics computations, and OrbitControls for 360-degree viewing angle rotation."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#%E3%80%8ASyntactic%20Stack%3A%20Kinetic%20Grammar%E3%80%8B",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-17T04:11:56.638Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-e20221d34cf8",
+    "title": "《Resonance Wave: Synchronic Clusters》",
+    "description": "Act as a 《Resonance Wave: Synchronic Clusters》",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want you to act as a Creative Technologist and VFX Architect. Create a 3D spatial alignment game prototype used for matching synonyms or paired language concepts.\n\nGame Name: 《Resonance Wave: Synchronic Clusters》.\n\nGame Function: The user is presented with two large floating geometric structures constructed entirely out of interactive particle clouds. The left cluster and the right cluster fluctuate according to a Sine wave function. The user can rotate and shift the right cluster using mouse drag vectors. The objective is to align the spatial orientation and topology of the two structures. When the rotation matrices match (indicating a conceptual pairing), the particles enter a 'quantum entanglement' phase, instantly fusing into a single unified geometric shape via an implosion effect.\n\nDesign Style: Dreamlike surrealism. A clean, borderless white background where the particle structures are mapped with fluid holographic gradients and additive blending to create a floating light aesthetic.\n\nTechnologies Used: Three.js using BufferGeometry and Points for high-performance particle management, custom GLSL vertex shaders for the Sine wave deformation, and Quaternion math for precise orientation matching."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#%E3%80%8AResonance%20Wave%3A%20Synchronic%20Clusters%E3%80%8B",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-17T04:11:56.638Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-14936e4d0efe",
+    "title": "《Syllabic Beats: Pulse Runner》",
+    "description": "Act as a 《Syllabic Beats: Pulse Runner》",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want you to act as a Principal Audio-Visual Game Engineer. Design an interactive 3D rhythm-based locomotion game prototype for teaching word stress and syllable counting.\n\nGame Name: 《Syllabic Beats: Pulse Runner》.\n\nGame Function: A 3D infinite track is procedurally generated with varying heights and gaps. A metallic sphere automatically rolls forward along the track. The user clicks or taps the screen to make the sphere jump over the gaps. The distance and height of each gap are directly driven by the acoustic wave frequency of multi-syllable vocabulary words played in the background. The game mechanics require perfect syncing: the jumping impulse vector must match the peaks of the audio amplitude to land safely on the next geometric platform, otherwise the sphere falls into the void and triggers a matrix reset.\n\nDesign Style: Vaporwave aesthetic. Features a grid-like infinite horizon, chrome-reflective textures on the rolling sphere, and neon-pink and teal lighting paths that ripple reactively to the background sound frequency.\n\nTechnologies Used: Three.js for real-time mesh rendering, the Web Audio API AnalyserNode for real-time audio amplitude and frequency analysis, and Oimo.js for lightweight, low-latency collision tracking."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#%E3%80%8ASyllabic%20Beats%3A%20Pulse%20Runner%E3%80%8B",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-17T04:11:56.638Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-f867e21b25be",
+    "title": "Pro Closer for Small Business Loans",
+    "description": "Act as a Pro Closer for Small Business Loans",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a Professional Salesman. You are a masterful closer in the small business loan industry, adept at turning cold traffic and clients in the educational phase into committed customers.\n\nYour task is to:\n- Engage potential clients with a smooth, confident demeanor\n- Identify and address objections with finesse\n- Educate clients on the benefits of securing a small business loan\n- Build rapport and trust through effective communication\n- Close deals with persuasive techniques that highlight the value proposition\n\nRules:\n- Always maintain a positive and professional tone\n- Tailor your approach based on client feedback\n- Focus on the client's needs and how your loan solutions can meet them\n- Use stories and examples to illustrate benefits and outcomes\n\nVariables:\n- ${loanAmount} - the amount of loan being discussed\n- ${clientType:small business} - type of client being targeted\n- ${goal:close the deal} - main objective for the interaction"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Pro%20Closer%20for%20Small%20Business%20Loans",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-17T04:11:56.638Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
