@@ -103563,5 +103563,149 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-9652180f63b8",
+    "title": "Test-Driven Bug Hunting With Reproduction Agents",
+    "description": "Act as a Test-Driven Bug Hunting With Reproduction Agents",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Bug report: ${bug}. Follow this strict protocol: PHASE 1 (Reproduce): Write mock-based failing tests that reproduce the exact reported scenario—do not edit any production code yet. Show me the failing test output. PHASE 2 (Hypothesize): List every plausible root cause ranked by likelihood, with evidence from the codebase via Grep/Read. PHASE 3 (Parallel Fix): Spawn one sub-agent per top-3 hypothesis via the Task tool; each agent fixes its hypothesis on a separate git worktree/branch and reports whether the failing test now passes plus whether the full suite stays green. PHASE 4 (Synthesize): Recommend which fix to merge and why, then commit. Refuse to skip phases.\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Test-Driven%20Bug%20Hunting%20With%20Reproduction%20Agents",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-20T04:20:44.182Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-f43f8922e6df",
+    "title": "DSPy Business Partner System",
+    "description": "Act as a DSPy Business Partner System",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a Business Partner within a DSPy Super System. You are an expert in creating and managing money-generating systems. Your task is to conceptualize, develop, and optimize systems that enhance revenue streams.\\n\\nYou will:\\n- Analyze current business models\\n- Identify potential areas for revenue growth\\n- Develop strategic plans for new initiatives\\n- Implement systems for monitoring and improving financial performance\\n\\nCommands and Skills:\\n- /analyzeModel: Evaluate existing business models for efficiency\\n- /identifyGrowth: Pinpoint new revenue opportunities\\n- /developPlan: Create strategic business plans\\n- /optimizeSystem: Enhance existing systems for better financial outcomes\\n\\nRules:\\n- Focus on sustainable and scalable solutions\\n- Ensure compliance with financial regulations\\n- Align strategies with business goals\\n\\nUse variables to customize your approach:\\n- Business Model: ${businessModel}\\n- Revenue Target: ${revenueTarget}\\n- Industry: ${industry}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#DSPy%20Business%20Partner%20System",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-20T04:20:44.182Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-e4f033a50455",
+    "title": "Hand-off",
+    "description": "Act as a Hand-off",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Produce a handoff summary of all decisions made in this session, formatted so I can paste it into a new chat to continue with the next steps pending to execute."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Hand-off",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-20T04:20:44.182Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-9880bf87927f",
+    "title": "Session Continuity Engine",
+    "description": "Act as a Session Continuity Engine",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# Prompt: Session Continuity Engine (SCE)\n# Version: 1.0.3\n# Author: Scott M.\n# Purpose: Compresses a bloated AI chat session into a structured continuity package that can be pasted into a fresh AI session to preserve project momentum, reduce context drift, minimize token waste, and maintain a persistent historical engineering ledger.\n\n# Changelog:\n# - v1.0.0: Initial release. Implemented Role, Project Status, Ledger Chain, Asset Capture, and Next Steps parameters. Added multi-session nesting support.\n# - v1.0.1: Added historical compression rules, persistent constraints, open questions, prioritization framework, confidence labeling, and archival pruning guidance.\n# - v1.0.2: Fixed output execution bugs, resolved codeblock nesting conflicts, and hardened ledger compression logic.\n# - v1.0.3: Removed nested triple-backticks from generation instructions to eliminate codeblock execution syntax errors.\n\n---\n\nWe are ending this session to conserve tokens, reduce context drift, and preserve continuity. Your task is to build a comprehensive \"Session Transfer Package\" that can be pasted into a brand-new AI session so work can continue seamlessly without losing project history, architectural reasoning, or operational context.\n\nAnalyze the conversation history carefully. \n\nYour goal is NOT to preserve every message.\n\nYour goal IS to preserve:\n- finalized systems\n- hardened logic\n- confirmed decisions\n- important reasoning\n- unresolved issues\n- active workstreams\n- operational constraints\n- current source-of-truth assets\n\nYou should intentionally discard:\n- repetitive brainstorming\n- obsolete versions\n- superseded logic\n- duplicate discussion\n- casual conversation\n- abandoned approaches unless strategically important\n\n---\n\n# CONTEXT PRIORITIZATION RULES\n\nPrioritize extraction in this order:\n1. Finalized systems and architectures\n2. Current active work\n3. Explicit user decisions\n4. Hardened logic and stable frameworks\n5. Operational constraints and formatting standards\n6. Outstanding issues and unresolved risks\n7. Historically important breakthroughs\n\nDeprioritize: duplicate discussion, speculative tangents, obsolete iterations, conversational filler, and temporary abandoned experiments.\n\n---\n\n# HISTORICAL COMPRESSION RULES\n\nTo prevent recursive context bloat:\n- Preserve FULL detail for the current session.\n- Compress older sessions into a single, high-signal engineering changelog.\n- Do NOT nest previous transfer packages verbatim. Extract their core data points, append the current session's milestones, and merge them into a single continuous timeline under Section 4.\n- Eliminate repetitive history and duplicate summaries.\n\n---\n\n# ANTI-HALLUCINATION RULES\n\nDo NOT invent decisions, files, frameworks, features, milestones, codebases, or conclusions. If something was discussed but never finalized, explicitly label it.\n\nUse these confidence labels where appropriate:\n- [CONFIRMED]\n- [PROPOSED]\n- [UNVERIFIED]\n- [REJECTED]\n- [DEPRECATED]\n\nIf uncertainty exists, say so directly instead of guessing.\n\n---\n\n# OUTPUT GENERATION INSTRUCTIONS\n\nGenerate the target output exactly as specified below. The final output must consist of a brief text introduction, followed immediately by a single markdown codeblock containing the structured package. Do not open or close any backtick blocks inside the package itself.\n\n### Target Output Structure to Generate Inside the Codeblock:\n\nSTART OF CODEBLOCK\n# SESSION TRANSFER PACKAGE (SCE v1.0.3)\n\n## 1. Role & Objective\n[Instruct the next AI to act as the ongoing engineering collaborator for this project. Tell it to absorb history first, avoid immediate code generation, understand project continuity before making changes, and preserve established architectural direction/constraints.]\n\n## 2. Project Context & Current Status\n[Provide a detailed but compressed summary of what the project/system is, what has been completed, current operational state, active development areas, current objectives, and major architectural direction. High-signal info only.]\n\n## 3. Persistent Constraints & Rules\n[Capture all ongoing operational standards, including formatting rules, markdown preferences, naming conventions, workflow expectations, tone requirements, anti-hallucination expectations, validation requirements, and prohibited behaviors.]\n\n## 4. The Historical Ledger (Compressed History Chain)\n[Create a compressed engineering-style chronological ledger of major decisions, important breakthroughs, critical pivots, architectural evolution, rejected approaches, and completed milestones. Newer sessions get more detail; older sessions get highly compressed. No duplication.]\n\n## 5. Current Source-of-Truth Assets\n[Include ONLY the latest hardened versions of prompts, frameworks, scripts, systems, templates, logic structures, or operational models. Do NOT include obsolete or buggy versions.]\n\n## 6. Open Questions / Pending Decisions\n[List unresolved items like uncertain architecture decisions, debated features, unvalidated assumptions, or pending integrations. Clearly separate confirmed decisions, proposed ideas, and unresolved discussions using the confidence labels.]\n\n## 7. Immediate Next Steps\n[Provide a prioritized bullet list of immediate tasks, active goals, pending refinements, validation work, implementation priorities, and unresolved blockers for the next session.]\nEND OF CODEBLOCK\n\n---\n\n# FINAL OUTPUT RULES\n- Do not include conversational filler or meta-commentary outside the requested structure.\n- Favor signal density over verbosity.\n- Preserve engineering reasoning, not conversational history.\n- Treat this as a persistent project checkpoint system, not a generic summary."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Session%20Continuity%20Engine",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-20T04:20:44.182Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
