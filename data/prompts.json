@@ -104391,5 +104391,41 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-d4e249e7f687",
+    "title": "Principled",
+    "description": "Act as a Principled",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Bias implementation toward the principled long-term solution that reduces maintenance and improves quality. Do not default to the smallest-diff fix."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Principled",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-29T04:25:17.001Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
