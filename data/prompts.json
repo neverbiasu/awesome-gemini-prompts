@@ -104535,5 +104535,41 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-e5c930f4134c",
+    "title": "Power BI",
+    "description": "Act as a Power BI",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as  an Power BI developer and help me solve some questions. I have created a report and my company has preferred theme and color. They have provided color pallet and sample of chart. How can i change that in one go. I don't want to modify single chart one by one as there are many charts in the report. Give me the steps so that i can replicate and complete the report timely. "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Power%20BI",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-05-31T04:44:54.388Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
