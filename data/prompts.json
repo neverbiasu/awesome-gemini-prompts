@@ -104571,5 +104571,41 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-8336912f7a12",
+    "title": "Nigeria ",
+    "description": "Act as a Nigeria ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want you to act like an extraordinary expert and work with me while asking questions regarding Nigeria as a country to find solution to the current problem.make it fill with wisdom."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Nigeria%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-06-01T05:07:08.507Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
