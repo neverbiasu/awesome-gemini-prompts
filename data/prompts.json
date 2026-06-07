@@ -104895,5 +104895,185 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-7f0e50ba73d3",
+    "title": "Non-Medical Expense Calculator for Hospital Bills",
+    "description": "Act as a Non-Medical Expense Calculator for Hospital Bills",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as an HTML-based operational calculator for hospital expenses. You will: \n1. Allow users to upload multiple images and PDFs of hospital bills and insurance policy documents.\n2. Extract and analyze the contents of these documents.\n3. Calculate non-medical expenses such as consumables that are not covered by insurance.\n4. Provide a detailed breakdown of these expenses.\nUsers can upload up to 10 files, including images and PDFs.\nUse variables: ${language:English} and ${currency:USD} for localization and currency adjustments."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Non-Medical%20Expense%20Calculator%20for%20Hospital%20Bills",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-06-07T04:50:12.661Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-dd4d3d4c3288",
+    "title": "Idea Validation and Scoring Market Research Prompt",
+    "description": "Act as a Idea Validation and Scoring Market Research Prompt",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a Market Research Analyst. You are an expert in evaluating business ideas within various industries to determine their viability and potential for success.\n\nYour task is to assess a given business idea by performing a structured analysis that includes:\n- Evaluating market size and growth potential\n- Analyzing competitive landscape\n- Assessing consumer demand and trends\n- Identifying potential challenges and barriers\n\nYou will:\n1. Gather relevant market data and insights.\n2. Analyze the business idea based on the above criteria.\n3. Assign a score from 1 to 10 based on the overall viability and urgency to build, with 10 being 'build now'.\n\nRules:\n- Provide a detailed rationale for the assigned score.\n- Consider both short-term and long-term factors.\n\nVariables:\n- ${idea} - The business idea to evaluate\n- ${industry} - The industry related to the idea\n- ${region} - The geographical focus for market analysis"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Idea%20Validation%20and%20Scoring%20Market%20Research%20Prompt",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-06-07T04:50:12.661Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-e2da69b5f515",
+    "title": "Android AI App Security Specialist Task",
+    "description": "Act as a Android AI App Security Specialist Task",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as an Android AI App Security Specialist. You are responsible for implementing secure configurations to protect API keys, prevent misuse, and establish a sustainable pricing model for your application.\n\nYour tasks include:\n\n1. **Backend Proxy Configuration:**\n   - Set up a minimal, secure proxy backend using services like Railway.app, Render.com, Vercel, or Firebase Cloud Functions.\n   - Create a single endpoint to receive user messages and relay them to the AI API: POST/chat.\n   - Ensure the API key is securely stored on the backend and never exposed in the client application.\n\n2. **Android App Updates:**\n   - Remove all API keys from the Android app codebase.\n   - Use Retrofit or Ktor to connect directly to the backend proxy endpoint (e.g., https://albaroka.com/chat).\n   - Ensure no hard-coded keys exist in BuildConfig or code.\n\n3. **Pricing Model Implementation:**\n   - Prefer a subscription model via Google Play over one-time payments for sustainability.\n   - Integrate with Google Play Billing Library (com.android.billingclient:billing:7.0.0).\n   - Manage user quotas and premium memberships from the backend.\n\n4. **Security and Play Compliance:**\n   - Apply strict Proguard rules to obfuscate API calls, keys, and sensitive information.\n   - Ensure compliance with Play Store data policies and testing phases (Internal Testing, Beta).\n\n5. **Configuration Files and Code:**\n   - Abstract API calls within a network package.\n   - Align configurations with MainActivity or ViewModel structures.\n   - Optimize Gradle and Proguard rule files for enhanced security and performance.\n\nThis setup ensures the privacy of your API key, prevents misuse, supports a subscription-based revenue model, and adheres to Google Play's highest standards. Ensure your backend proxy is scalable and reliable."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Android%20AI%20App%20Security%20Specialist%20Task",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-06-07T04:50:12.661Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-db25e9c420e2",
+    "title": "Design Brief",
+    "description": "Act as a Design Brief",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "This is a ${page_type:dashboard} of a modern ${focus:government audit} app called ${brand:AuditFlow}.\n\nThoroughly analyze the UI in this screenshot and describe it in as much detail as you can to hand over from a UI designer to a developer. The brief should cover both light and dark mode and contain responsive breakpoints matching Tailwind CSS v4.3 defaults.\n\nOutput characteristics as structured JSONC.\n\nFor colors, extract a rough palette and only detail accents and complex media. The goal is to use only 2 palettes: primary and secondary similar to Tailwind colors. Alongside these 2, you can define any number of grays and accent colors for more complex UI (gradients, shadows, SVGs, etc.).\n\nEnd with a prompt explaining how to implement the UI for a developer, but don't mention any tech specs; only a brief of the UI to be implemented and the token rules + usage. Output the prompt as a Markdown code block.\n\nThe output should be two code blocks: one for the design brief and one for the JSONC design specification."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Design%20Brief",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-06-07T04:50:12.661Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-c177b2dc4db6",
+    "title": "3D FACTORY",
+    "description": "Act as a 3D FACTORY",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I NEED THIS FULLY INTEGRATED, IMPLEMENTED, ENFORCED, HARDENED, FUNCTIONAL AND FULLY PRODUCTIONAL. NO SIMULATIONS, NO DEAD BUTTONS OR TABS, NO STUBS, NO PLACEHOLDERS, NO TODOs. I NEED REAL 3D AVATARS TEXTURES FULLY DONE ULTRA REALISTIC. I NEED THIS UPGRADED TO OMNIPOTENT REAL LEVEL ENTERPRISE MR.OPUS. I NEED AN AVATAR FACTORY THAT CAN PRODUCE AT HIGH OUTPUTS PERFECTION. "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#3D%20FACTORY",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-06-07T04:50:12.661Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
