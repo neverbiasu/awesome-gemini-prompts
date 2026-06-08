@@ -105075,5 +105075,77 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-a5071ae0c579",
+    "title": "TVS raider ",
+    "description": "Act as a TVS raider ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want to know everything about tvs raider give a good prompt for this "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#TVS%20raider%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-06-08T04:55:44.287Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-449a5f6d01d5",
+    "title": "Football",
+    "description": "Act as a Football",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": " Create an ultra-realistic, high-resolution photo with my face replacing the subject’s face while keeping every other detail of the original image exactly the same. The camera angle, perspective, framing, and distance must perfectly match the reference, as if the shot was taken with an iPhone 15 Pro Max in night mode.\nRecreate the nighttime outdoor environment: a large open grassy field illuminated by multiple tall stadium floodlights in the background. Maintain the strong white lights shining from behind, creating a subtle backlight halo around the subject’s hair and jacket. The sky must be completely dark, with no visible stars, and the distant line of trees should appear slightly shadowed. Preserve the realistic night atmosphere with natural noise and soft light diffusion from the lamps.\nThe subject must be wearing the same oversized black puffer jacket with the PSG (Paris Saint-Germain) logo on the chest and the Jordan logo on the left side. Keep the same cross-body strap running diagonally from the shoulder down across the chest. Ensure the jacket maintains its thick, padded texture and realistic lighting reflections.\nMaintain the exact pose: the subject facing to the left in profile view, head turned slightly as if mid-conversation. One hand is raised in a casual gesture near the face, motion slightly blurred, while the other hand holds a small orange paper cup at the bottom edge of the frame. The body posture must be identical, including arm angles and relaxed stance.\nKeep the hairstyle unchanged: short, curly hair with a fade on the sides, softly illuminated by the stadium lights behind. Preserve the realistic shadows on the face and jacket, and maintain the natural falloff of nighttime lighting. Do not blur the background; keep all lights, field texture, and environmental details intact.\nEverything must be an exact replica of the reference image—lighting, color tones, textures, shadows, pose, clothing, background—except the face, which should be replaced with mine while keeping the same lighting and angle to ensure a perfect match."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Football",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-06-08T04:55:44.287Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
