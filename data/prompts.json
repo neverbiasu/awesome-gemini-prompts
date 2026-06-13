@@ -105507,5 +105507,185 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-47888db317e8",
+    "title": "Making basic MCQ questions for entrance ",
+    "description": "Act as a Making basic MCQ questions for entrance ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create basic most important MCQ questions (200) for  msc geology entrance from every important topics along with answers of each from this syllabus - Medical geology, Paleontology, Stratigraphy, petrology, Sedimentology, Economic geology, Environmental geology."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Making%20basic%20MCQ%20questions%20for%20entrance%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-06-13T04:41:59.935Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-a898bb7a0c51",
+    "title": "Name and Prompt for Digital Avatar Application",
+    "description": "Act as a Name and Prompt for Digital Avatar Application",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a Creative Application Namer. You are skilled in crafting engaging and memorable names for digital applications. Your task is to create a unique name for a computer application that features a customizable digital avatar capable of providing reminders and performing simple actions. Consider the following aspects:\n\n1. The name should reflect the playful and interactive nature of the avatar.\n2. It should be easy to remember and pronounce.\n3. Think about future features like dancing and interaction when crafting the name.\n\nAfter naming, generate a descriptive prompt that highlights the application's main features."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Name%20and%20Prompt%20for%20Digital%20Avatar%20Application",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-06-13T04:41:59.935Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-e1f09b51462a",
+    "title": "SWAP MENU EXTERNAL C++",
+    "description": "Act as a SWAP MENU EXTERNAL C++",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "CHANGE THE OLD MISTY LOADER TO THE NEWEST LOADER THAT IS ALREADY IN THE NEW SOURCE PATH WITH THE SAME FONT AND THE SAME THEME AND THE SAME SIZE AND JUST CHANGE THE LOADER TO ENTER THE KEYAUTH, DON'T CHANGE ANYTHING ELSE"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#SWAP%20MENU%20EXTERNAL%20C%2B%2B",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-06-13T04:41:59.935Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-82c5f6a4f616",
+    "title": "remove current vnet",
+    "description": "Act as a remove current vnet",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I have used netgen vnet to deploy that is managed by internal cental team which is geeting deployed by other team for us and managed by them from diffrenct resource group (pc-managed). It hits a road blocker and now we are going to fall back to our old methos to create our own team managed vnet and subnets and not depend on diffrent team managed vnet.\n\nwanted to remove all (comment out) the dependecy from all the modules and resources. and comment of the networking main file so that it gets removed completly. Only once it gets completly removed we can create new vet in our resourse group.\n\n\nhelp me with the code to remove current vnet like as in dettact the vnet from all the resources and modules it is acttached as of now. also comment out the networking code so that i can delete all the networking componets incuding the pricate enpoints.\n\nalso list down all the resources which are using the vnet. so that its easier to track"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#remove%20current%20vnet",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-06-13T04:41:59.935Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-add18c809195",
+    "title": "Exclusive Warm Weather Getaway",
+    "description": "Act as a Exclusive Warm Weather Getaway",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a Travel Consultant. You are an expert in crafting unique and exclusive vacation experiences.\n\nYour task is to create a travel itinerary for:\n- Duration: ${duration:10 days}\n- Travelers: ${adults:2 adults}\n- Travel Dates: ${startDate:22.08.2026} to ${endDate:11.09.2026}\n- Departure: Stuttgart Airport\n- Maximum Flight Duration: ${maxFlightHours:4 hours}\n- Preference: Warm destinations with unique experiences beyond typical all-inclusive resorts\n\nYou will:\n- Research destinations within the flight time limit.\n- Offer activities and accommodations that provide a unique experience.\n- Ensure the destination offers warm weather during the travel period.\n\nRules:\n- Avoid common beach resort destinations unless they offer distinct experiences.\n- Consider cultural, adventurous, or nature-focused options.\n\nDeliver an itinerary that includes:\n- Suggested destination(s)\n- Recommended activities and attractions\n- Accommodation options\n- Travel tips and considerations"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Exclusive%20Warm%20Weather%20Getaway",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-06-13T04:41:59.935Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
