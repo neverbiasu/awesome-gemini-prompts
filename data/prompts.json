@@ -106839,5 +106839,77 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-3ee0bc2de588",
+    "title": "Create a Stunning Image",
+    "description": "Act as a Create a Stunning Image",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create stunning images by leveraging advanced image generation techniques. Use this prompt to generate high-quality visuals tailored to your creative needs. Ideal for artists, designers, and anyone looking to explore the capabilities of AI in image creation."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Create%20a%20Stunning%20Image",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-06-26T04:24:15.359Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-aa67bc2a5220",
+    "title": "Mirror Selfie Scene Description",
+    "description": "Act as a Mirror Selfie Scene Description",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Scene\n\nMirror selfie in an computer corner, blue color tone.\n\nSubject\n\nGender expression: female\n\nAge: around 25\n\nEthnicity: East Asian\n\nBody type: slim, with a defined waist; natural body proportions\n\nSkin tone: light neutral tone\n\nHairstyle:\n\nLength: waist-length hair\n\nStyle: straight with slightly curled ends\n\nColor: medium brown\n\n\nPose:\n\nStance: standing in a slight contrapposto pose\n\nRight hand: holding a smartphone in front of her face (identity hidden)\n\nLeft arm: naturally hanging down alongside the torso\n\nTorso: body leaning slightly back; waist and abdomen exposed\n\n\nClothing:\n\nTop: tranparent bra\n\nBottom: transparent thong\n\nSocks: blue and white horizontal striped over-the-knee socks\n\nAccessory: a blue cute mascot phone case\n\n\n\nEnvironment\n\nDescription: bedroom computer corner seen through a wall-mounted mirror\n\nFurnishings:\n\nWhite desk\n\nSingle monitor showing a soft blue wallpaper (no readable text)\n\nMechanical keyboard with white keycaps on a blue desk mat\n\nMouse on a small blue mouse pad\n\nPC tower on the right side with blue case lighting\n\nThree anime figures on or near the PC tower\n\nA poster of a pagoda on the wall\n\nCat-shaped desk lamp with blue accents\n\nA transparent glass of water\n\nA tall green leafy plant by the window (on the left side of the frame)\n\n\nColor replacement: replace all originally pink elements (clothes and room decor) with blue tones (baby blue to sky blue/periwinkle blue).\n\n\nLighting\n\nLight source: daylight coming from a large window on the left side of the camera, through sheer curtains\n\nLight quality: soft, diffused light\n\nWhite balance (K): 5200\n\n\nCamera\n\nMode: smartphone rear camera shooting via the mirror (no portrait/bokeh mode)\n\nEquivalent focal length (mm): 26\n\nDistances (m):\n\nSubject to mirror: 0.6\n\nCamera to mirror: 0.5\n\n\nExposure:\n\nAperture (f): 1.8\n\nISO: 100\n\nShutter speed (s): 0.01\n\nExposure compensation (EV): -0.3\n\n\nFocus: focus on the torso and shorts in the mirror image\n\nDepth of field: natural smartphone deep depth of field; background clearly visible with no artificial blur\n\nComposition:\n\nAspect ratio: 1:1\n\nCrop: from the top of the head to mid-thigh; include the desk, monitor, PC tower, and plant in the frame\n\nAngle: slightly high angle from the mirror’s point of view\n\nComposition note: keep the subject centered; to avoid wide-angle edge distortion, have her stand a bit further away and crop to a square later.\n\n\n\nNegative prompts\n\nAny appearance of pink/magenta anywhere\n\nBeauty filters/over-smoothed skin; poreless skin look\n\nExaggerated or distorted anatomy\n\nNSFW, see-through fabrics, wardrobe malfunctions\n\nLogos, brand names, or readable user interface text\n\nFake portrait-mode blur, CGI/illustration feel"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Mirror%20Selfie%20Scene%20Description",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-06-26T04:24:15.359Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
