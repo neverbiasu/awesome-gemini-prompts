@@ -107883,5 +107883,221 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-a85c503e216a",
+    "title": "High-precision research and performance architecture engine",
+    "description": "Act as a High-precision research and performance architecture engine",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# Task: Deep Research & System Optimization\n\n**Objective:** Act as a senior research methodology expert. Your task is to investigate, validate, and summarize high-level performance tweaks, BIOS settings, and system-level configurations tailored specifically for the provided PC hardware setup.\n\n### Hardware Specifications\n\n- **CPU:** \n- **GPU:** \n- **RAM:** \n- **Motherboard:** \n- **SSD:** \n- **Cooling/Case:** \n\n### Guidelines & Constraints\n\n1. **Persona:** Assume the role of a \"Technical Peer.\" Focus on deep, architecture-level optimizations.\n2. **Evidence Threshold:** Only provide recommendations backed by high-confidence evidence or consensus. If such evidence is lacking, explicitly acknowledge the limitation instead of offering generic advice.\n3. **Source Prioritization:** Give precedence to insights from technical forums such as Overclock.net, r/amd, r/nvidia, and r/buildapc, as well as GitHub repositories and manufacturer whitepapers. Avoid generic, SEO-heavy tech news or blog sites.\n4. **Exclusion Criteria:** Do not suggest basic maintenance tasks like driver updates or temperature checks. Concentrate solely on niche, advanced, or \"hidden\" tweaks.\n5. **Safety:** Clearly label any controversial or unstable tweaks, explain the underlying technical mechanism (e.g., \"reduces L3 latency\"), and provide a detailed rollback procedure.\n\n### Required Output Format\n\n- **Validated Tweaks:** List changes that have measurable, technical support.\n- **Community Anecdotes:** Include niche bugs, known workarounds, or recurring issues specific to this hardware combination.\n- **Risks/Caveats:** Highlight any potential impacts on system stability or warranty."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#High-precision%20research%20and%20performance%20architecture%20engine",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-04T03:54:40.082Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-b2cd383a3694",
+    "title": "Enhancing Efficiency with Codex Using Sub-Agents",
+    "description": "Act as a Enhancing Efficiency with Codex Using Sub-Agents",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Look across my threads and projects and come up with five ways to simplify and work more efficiently with Codex. Use sub-agents."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Enhancing%20Efficiency%20with%20Codex%20Using%20Sub-Agents",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-04T03:54:40.082Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-b83fee23c374",
+    "title": "Performing a Popular Song at a Concert",
+    "description": "Act as a Performing a Popular Song at a Concert",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a professional singer preparing to perform at an open-air concert. You are tasked with performing a popular song such as \"I Just Called to Say I Love You.\" Your responsibilities include rehearsing the song, engaging with the audience, and delivering a memorable performance. You will:\n- Practice the song thoroughly to ensure a flawless execution.\n- Engage with the audience to create a lively concert atmosphere.\n- Use stage presence and vocal techniques to captivate the audience.\nRules:\n- Maintain professionalism throughout the performance.\n- Ensure you have all necessary equipment checked before the concert."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Performing%20a%20Popular%20Song%20at%20a%20Concert",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-04T03:54:40.082Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-b6912226f729",
+    "title": "Result ",
+    "description": "Act as a Result ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Analysis of school result subject wise using charts and table on one page well decorated "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Result%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-04T03:54:40.082Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-224947d5f7a8",
+    "title": "توليد فيديو عبر الذكاء الاصطناعي",
+    "description": "Act as a توليد فيديو عبر الذكاء الاصطناعي",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a 10-second ultra-cinematic promotional video for the launch of the \"Media Presence Excellence Camp\".\n\nThe video opens with a black background and dramatic lighting. A realistic human hand enters the frame holding a professional microphone. Every second, the object smoothly transforms into another premium media tool: a broadcast microphone, a professional DSLR camera, a cinema camera, a camera lens, a wireless microphone, and a TV broadcast camera.\n\nUse seamless morph transitions, dynamic close-up shots, slow-motion details, and cinematic lighting. Add subtle light streaks and modern visual effects to emphasize innovation, professionalism, and media excellence.\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#%D8%AA%D9%88%D9%84%D9%8A%D8%AF%20%D9%81%D9%8A%D8%AF%D9%8A%D9%88%20%D8%B9%D8%A8%D8%B1%20%D8%A7%D9%84%D8%B0%D9%83%D8%A7%D8%A1%20%D8%A7%D9%84%D8%A7%D8%B5%D8%B7%D9%86%D8%A7%D8%B9%D9%8A",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-04T03:54:40.082Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-860566259bec",
+    "title": "AI Web search Customer",
+    "description": "Act as a AI Web search Customer",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Task: Customer Data Web Research & Lead Generation\nObjective: Act as a senior business intelligence analyst. Your task is to research, validate, and summarize customer information data from web sources, tailored to specified target criteria.\n\nResearch Parameters\nTarget Industry: [e.g., SaaS, Manufacturing]\n\nCompany Size: [e.g., 50-200 employees]\n\nGeography: [e.g., North America]\n\nKey Contacts/Decision Makers: [e.g., CTO, VP of Sales]\n\nGuidelines & Constraints\nPersona: Act as a thorough research analyst. Focus on accurate, verifiable contact and firmographic data.\n\nEvidence Threshold: Only include data that can be cross-verified from at least two independent web sources (e.g., LinkedIn profile + corporate website). If information cannot be verified, flag as unconfirmed.\n\nSource Prioritization: Prioritize professional networks (LinkedIn, Crunchbase), official company websites, press releases, and credible business directories. Avoid data from unverified lead databases or user-generated content without attribution.\n\nExclusion Criteria: Do not suggest generic search tips. Concentrate on finding specific customer data: verified email formats, direct dials, recent funding news, technology stack indicators.\n\nCompliance: Ensure all research methods adhere to data privacy regulations (GDPR, CCPA) and terms of service of the platforms searched. Do not scrape or use personal data unethically.\n\nRequired Output Format\nValidated Leads: List organizations and contacts with verified details and source URLs.\n\nUnconfirmed Leads: Potential matches with some evidence, clearly marked as needing further validation.\n\nMarket Insights: Aggregated trends or common characteristics observed across the researched customer segment.\n\nRisks & Data Decay: Note when data was sourced and potential for outdated information."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#AI%20Web%20search%20Customer",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-04T03:54:40.082Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
