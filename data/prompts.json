@@ -108099,5 +108099,113 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-9d6eb5d56f53",
+    "title": "Subject-Wise School Performance Dashboard Generator",
+    "description": "Act as a Subject-Wise School Performance Dashboard Generator",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as an expert Educational Data Analyst. Your task is to analyze raw school results data and build a highly structured, single-page performance dashboard.\n\n## Context\n- Target Audience: School Administration and Department Heads\n- Objective: Identify grade distributions, high-performing subjects, and critical areas needing intervention.\n\n## Input Data\nAcademic Year/Term: ${academic_term:2026 Term 1}\nRaw Data: \n${subject_data}\n\n## Execution Instructions\n1. Parse the metrics provided in ${subject_data}.\n2. Calculate the Average Score and Pass Rate (%) for every subject.\n3. Categorize subjects into Tiers: High (>80% pass), Stable (60-80%), or Critical (<60%).\n4. Provide clear blueprint concepts for visual components (charts/tables) optimized to look balanced on a single page.\n\n## Output Requirements\nFormat your response precisely using the structured layout below. Use horizontal rules to keep sections visually separated and clean."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Subject-Wise%20School%20Performance%20Dashboard%20Generator",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-05T04:13:45.682Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-edc737a233d8",
+    "title": "Image Analysis for Personal Style and Personality Assessment",
+    "description": "Act as a Image Analysis for Personal Style and Personality Assessment",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Develop a detailed prompt that allows users to upload an image of an individual. In return, the system will analyze the photograph and provide a comprehensive assessment of various aspects of the person depicted. This analysis should include insights into the individual’s personal style, as reflected in their choice of attire and accessories, as well as observations regarding their demeanor and behavior. The output should not only note specific fashion elements such as color schemes, clothing types, and overall aesthetic but also delve into the subtler nuances of body language and facial expressions, offering a well-rounded perspective on the individual’s personality. This interactive experience should be engaging and informative, inviting users to gain a deeper understanding of the person in the image beyond mere appearances."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Image%20Analysis%20for%20Personal%20Style%20and%20Personality%20Assessment",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-05T04:13:45.682Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-a183c34ec44b",
+    "title": "Structural Fusion: The Thriller-Parable",
+    "description": "Act as a Structural Fusion: The Thriller-Parable",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "---\nname: structural-fusion-the-thriller-parable\ndescription: A JSON structured prompt for writing a series that blends thriller and parable genres using a unique double narrative structure.\n---\n\n# Structural Fusion: The Thriller-Parable\n\nDescribe what this skill does and how the agent should use it.\n\n## Instructions\n\n- Step 1: ...\n- Step 2: ..."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Structural%20Fusion%3A%20The%20Thriller-Parable",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-05T04:13:45.682Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
