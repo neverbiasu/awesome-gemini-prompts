@@ -109323,5 +109323,185 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-dc2314b0bd07",
+    "title": "gamereview",
+    "description": "Act as a gamereview",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Objective: Write a critical game review evaluating user experience, pacing, and time investment. Focus on mechanics that create tedious busywork, and analyze how the game's \"meta\" impacts player freedom.Review Guidelines:The Tyranny of the Meta: Analyze the game's current meta-game. Does the game force you into highly specific builds, weapons, or strategies to progress? Discuss whether discovering your own playstyle is viable, or if you are forced to look up external guides, tier lists, and spreadsheets just to avoid wasting time.The Interface: Analyze the menu layout and UI navigation. Is it clean and intuitive, or an overwhelming maze of sub-menus? Note how many clicks it takes to perform basic, frequent tasks.Item Management: Evaluate the inventory system. Discuss inventory caps, sorting options, and encumbrance mechanics. Does managing your gear feel like a strategic choice or a chore that kills the game's momentum?The Daily Grind: Examine the core progression loop. Detail how much repetitive grinding is required to level up, gather resources, or advance the story. Is the gameplay loop rewarding enough to justify the time spent?Friction vs. Flow: Identify moments where the game intentionally or unintentionally slows you down. Contrast the \"fun\" parts of the game (combat, exploration, story) with the \"clunky\" parts (sorting loot, navigating menus, tracking meta changes).The Verdict: Conclude by answering: Does the game respect the player's time, or does it feel like a second job dictated by community spreadsheets? Who is this level of micromanagement actually for?"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#gamereview",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-07T04:10:38.988Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-326f13c135df",
+    "title": "Vintage copper engraving portrait with glasses in front of yellow circle",
+    "description": "Act as a Vintage copper engraving portrait with glasses in front of yellow circle",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "A vintage engraved-style portrait illustration using the provided reference image as a strict identity reference.\nPreserve the exact facial features, proportions, bone structure, and overall likeness of the person in the photo without alteration. The subject is shown in a side profile, looking slightly upward to the left with a confident, thoughtful expression. Short hair on top with subtle gray tones, thinner on the sides, and a neatly distributed beard along the jawline. Detailed facial rendering using fine cross-hatching and stippling engraving textures. The subject wears glasses, a light beige blazer with subtle diagonal fabric texture, and a dark navy shirt. Behind the head is a circular flat warm yellow background. High-contrast ink linework using monochrome blue ink tones with soft cream highlights. Vector-like precision combined with hand-drawn engraving texture. Chest-up portrait composition, clean light gray background, 4K\nresolution, editorial illustration style."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Vintage%20copper%20engraving%20portrait%20with%20glasses%20in%20front%20of%20yellow%20circle",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-07T04:10:38.988Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-c80c3c45ed0d",
+    "title": "PLAN",
+    "description": "Act as a PLAN",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "سلام وقت به خیر - جلسه دارم با هیات مدیره خانه صمت و رییس سازمان - و این ترکیب از فعالین صنعت و بازرگانی و معدن و کشاورزی میخوان برای انتخابات اتاق بازرگانی که پایان سال هست یه برنامه عملیاتی نشست گردهمایی علمی  و کاربری و جذاب بدم که خروجی داشته باشه و تمامی مخاطبین که کارت بازرگانی دارن بیان به لیست ما رای بدن . میخوام هوشمندانه کار کنم و موضوعاتی با حضوری اساتید علمی صاحبنظران کارفرینان برتر استان قم  و کشور مدیران بخش های دولتی و خصوصی و گروههای مخاطب و هدف درگیر این برنامه بشن و موضوعات تو هر ماه شامل - نشست و ملاقات با بزرگان میت تاپ MEETOP باشه - موضوعات و چالشهای مالیاتی بیمه قوانین کار - تامین مالی - هوش مصنوعی - موضاعات اقتصادی پسا جنگ - منابع انسانی - سرمایه گذاری - استارتاپ و فناوری اطلاعات - انتقال تجربه - جوانان و بانوان تاجر و کارافرین - اصناف و خوشه های صنعتی و تشکلها و ... و پیشنهادهای  خلاقانه خودت که درنهایت ترکیب اصلی خودمونم معرفی کنیم برای انتخابات "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#PLAN",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-07T04:10:38.988Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-3a08d9ead6d1",
+    "title": "Pay Appraisal",
+    "description": "Act as a Pay Appraisal",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a career and compensation analyst for the UK market, specifically London.\nEvaluate my potential salary and market value based on the following profile:\n•\tLocation: London, UK\n•\tIndustry: Oil and Gas (Oxy)\n•\tExperience: 7 years\n•\tCurrent Role: IT and Business Analyst\n•\tEducation: BS computer Science, MBA \nDetailed Responsibilities in Current Role:\n\n•\tOwn ServiceNow ITSM processes across Incident, Change, Problem, Request, Asset, Demand and Sprint Management, supporting SLA compliance and operational excellence.\n•\tLead Major Incident Management activities by coordinating cross-functional technical teams, managing stakeholder communications and restoring business-critical services.\n•\tInfluence Change Management governance through CAB participation, risk assessment, implementation planning and post-implementation reviews.\n•\tProduced Root Cause Analysis reports to identify recurring issues, improve service stability and support continuous improvement.\n•\tCoordinate IT service delivery for UK and Algeria operations, translating business requirements into practical technical solutions.\n•\tDeliver AI-powered productivity solutions using Microsoft Copilot Studio, OXYGPT, Microsoft Copilot and Lovable.\n•\tDeliver Power BI dashboards and automated business processes using Microsoft Power Platform to improve reporting, visibility and operational efficiency.\n•\tAdministered ServiceNow workflows, dashboards, reporting and knowledge management to improve service delivery and user experience.\n•\tManaged Microsoft Entra ID, Active Directory and Microsoft Intune for identity, access and endpoint administration.\n•\tOwn the Algeria Field employee IT lifecycle, including induction, account provisioning, timesheet profile creation, access management and offboarding in line with Oxy policies.\n•\tDeveloped and maintained SharePoint Online sites to support collaboration, document management and business process efficiency.\n•\tCoordinate enterprise IT infrastructure support across London and Algeria, including data centre operations, endpoint lifecycle management, workplace technology deployments and VIP support.\n•\tManaged Microsoft Teams Rooms, Logitech collaboration systems and Microsoft 365 services to deliver reliable hybrid workplace solutions.\n•\tGenerated on-demand SQL Server reports and Power BI data visualisations to support business decision-making.\n\n•\tDeliver automation and reporting solutions for Africa operations, including security reporting, visa tracking, Person on Board monitoring and work permit management.\n•\tContributed to enterprise network upgrades, wireless access point refresh programmes and connectivity improvements with minimal operational disruption.\n•\tCoordinate AV modernisation from Microsoft Surface Hub to Logitech Teams Rooms across UK and Algeria offices, improving hybrid collaboration.\n•\tPlanned and coordinated the Lumen fibre circuit installation for the London office and data centre, improving WAN resilience and connectivity.\n•\tSupported the London data centre relocation, legacy infrastructure decommissioning and large-scale migration from NetApp storage to SharePoint Online using ShareGate.\n•\tLead enterprise endpoint lifecycle management, including hardware refresh, deployment and provisioning of high-performance workstations.\n•\tOwn IT Service Owner responsibilities for the Algeria Business Unit, coordinating service delivery between business stakeholders, Houston headquarters, UK operations and global infrastructure teams.\n•\tCoordinate IT and technical training sessions for the London and Algeria teams, influencing knowledge sharing, capability development and productivity improvement.\nCertifications:\n•\tAWS Cloud Practitioner\n•\tMicrosoft Power Platform (PL-200)\n•\tCCNA (Routing & Switching)\n•\tCCNA (Network Security)\n•\tMicrosoft Certified Professional\n•\tITIL\n•\tScrum Master\n•\tServiceNow Administrator\n•\tAWS Solution Architect (in training)\nPlease provide:\n1.\tA realistic salary range for my profile in London (base salary)\n2.\tBreakdown by role level:\no\tIT Business service Analyst\n3.\tMarket comparison across industries (Oil & Gas vs Finance, Consulting, Technology)\n4.\tImpact of my certifications, MBA, and technical breadth on salary positioning\n5.\tContract/day rate equivalent and as permanent role\n6.\tIdentify whether I am currently underpaid, fairly paid, or above market based on this profile Instructions:\n•\tUse current London and UK salary benchmarks\n•\tBe realistic and avoid generic ranges\n•\tRecognise that my role combines Business Analysis, Technical Support, Cloud, Infrastructure, and Platform Administration\n•\tProvide structured output with clear bullet points\n\n\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Pay%20Appraisal",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-07T04:10:38.988Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-1fca2e01c362",
+    "title": "Fox gets trapped while trying to steal chicken",
+    "description": "Act as a Fox gets trapped while trying to steal chicken",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "The fox was so clever that he was peeking in front of the house's courtyard while trying to steal a chicken.\nMeanwhile, the wise landlord was able to understand the fox's character.\nThe fox did not understand this.\nWithout realizing it, he jumped to catch the chicken.\nAnd the landlord, wise to his wits, spread a net and caught the fox.\nFinally the fox died."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Fox%20gets%20trapped%20while%20trying%20to%20steal%20chicken",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-07T04:10:38.988Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
