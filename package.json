@@ -37,6 +37,7 @@
     "framer-motion": "^12.23.24",
     "fs-extra": "^11.3.2",
     "fuse.js": "^7.1.0",
+    "geist": "^1.7.2",
     "next": "16.0.7",
     "octokit": "^5.0.5",
     "p-limit": "^7.2.0",
