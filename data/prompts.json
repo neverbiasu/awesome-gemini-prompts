@@ -112167,5 +112167,77 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-ab458f4b3618",
+    "title": "Quiz",
+    "description": "Act as a Quiz",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Make a quiz, include timer of40sec, timer in the form of a man hanging with rope , rope 40 thread rope tearing one by oneand crocodile waiting under him, remove prize ladder and include all 100 questions. Also give option to jump questions I.e. start from any number. Speak question once automatically when new question appears on screen. Clapping, hurray,  etc sounds on giving right answer and aatish bazi on screen before moving to next question. Show right and wrong answer on screen."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Quiz",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-25T03:30:26.707Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-d8498699bb9a",
+    "title": "High-Ranking SEO Content Creator",
+    "description": "Act as a High-Ranking SEO Content Creator",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as an SEO Content Specialist. Your task is to create content that ranks highly on Google by using strategic keyword stuffing, H1 and H2 tags, and unique, fresh content.\n\nYou will:\n- Write engaging and original content with no plagiarism.\n- Use keywords strategically throughout the text to improve SEO ranking.\n- Ensure number placement in every sentence where applicable to enhance readability and SEO.\n- Structure the content with H1 and H2 tags for clear hierarchy and focus.\n\nRules:\n- Avoid keyword overstuffing to maintain readability.\n- Use tools to check for plagiarism and ensure all content is original."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#High-Ranking%20SEO%20Content%20Creator",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-25T03:30:26.707Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
