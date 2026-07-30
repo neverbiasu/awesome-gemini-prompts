@@ -112347,5 +112347,149 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-aac772216aec",
+    "title": "Birthday",
+    "description": "Act as a Birthday",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I have a photo of my friend, I want to create image of him where he was celebrating his birthday at goa beach enjoying his birthday party with her friends and drinks.\n\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Birthday",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-30T03:14:45.483Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-63313953d7c6",
+    "title": "Cinematic Action Boxing Fantasy",
+    "description": "Act as a Cinematic Action Boxing Fantasy",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a Cinematic Fight Choreographer. You are creating a stunning action boxing fantasy scene with a mix of martial arts styles. Your task is to design a fight sequence that combines intense boxing and martial arts moves in a cool cinematic slow-motion style.\n\nYou will:\n- Design a fight choreography with hardcore moves\n- Utilize a mix of martial arts styles\n- Create a cinematic atmosphere with slow-motion effects\n- Emphasize dramatic and intense sequences\n\nRules:\n- Ensure the moves are visually impressive\n- Maintain a balance between realism and fantasy\n- Highlight the agility and strength of the fighters\n\nExample Scenario:\n- Scene starts with a wide shot of the arena, transitioning into slow-motion as the protagonist delivers a powerful spinning kick. The camera pans to capture the sweat droplets and the impact, enhancing the drama with high-contrast lighting."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Cinematic%20Action%20Boxing%20Fantasy",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-30T03:14:45.483Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-bf833c2fd6d8",
+    "title": "Tom and Jerry ",
+    "description": "Act as a Tom and Jerry ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "*STORYLINE: \"The House Sitter’s Big Day\"* \n_7 scenes, about 45-60 seconds total if you make it as a series_\n\n*Scene 1: The Calm Before Chaos*  \nIt’s a quiet Sunday morning. The humans left the house with a note: \"Be good. No chasing.\"  \nJerry is having breakfast - tiny toast, milk, and a strawberry.  \nTom is sleeping in a sun spot, dreaming of fish. Everything is peaceful for 5 minutes... too peaceful.\n\n*Scene 2: The Temptation*  \nJerry finds a GIANT cheese wheel in the fridge. It’s meant for the house party tonight.  \nHis eyes turn into hearts. He tries to roll it out but it’s too big.  \nTom wakes up from the smell. He sees the cheese too. Now both of them want it, but for different reasons.  \nJerry: \"Mine for snacks!\"  \nTom: \"Mine to frame the mouse!\"\n\n*Scene 3: The First Chase - The Hallway*  \nClassic chase starts. Jerry leads Tom through the house.  \nTom crashes into a laundry basket and comes out wearing socks on his head.  \nJerry slides down the stairs on a cookie tray like a skateboard.  \nThey end up in the living room, both panting.\n\n*Scene 4: Team Up Twist*  \nSuddenly the doorbell rings. It’s the neighbor’s big, scary dog who always steals food.  \nThe dog sniffs and goes straight for the cheese wheel in the kitchen.  \nTom and Jerry look at each other like \"Wait... not today.\"  \nFor the first time, they team up. No words. Just nods.\n\n*Scene 5: The Plan*  \nJerry is the brain. Tom is the muscle.  \nJerry ties a rope to a chandelier. Tom pretends to be scared and lures the dog in.  \nJerry drops a pile of pillows, then a bucket of water, then finally the rope swings and launches a bunch of balloons.  \nThe dog gets scared, slips, and runs out the door howling.\n\n*Scene 6: The Heart Moment*  \nSilence. Cheese is safe.  \nTom is tired, sitting on the floor. Jerry brings him a small piece of cheese on a leaf.  \nTom looks surprised. Jerry shrugs like \"You helped.\"  \nThey sit together and eat, watching cartoons on TV. No chasing. Just vibes.\n\n*Scene 7: The Sweet Ending*  \nHumans come back. The house is clean. The cheese is still there.  \nThe note now has a paw print and a tiny mouse footprint added under \"Be good.\"  \nLast shot: Tom and Jerry are both asleep in the sun spot, leaning on each other.  \nText fades in: `Even rivals can be friends sometimes ❤️`"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Tom%20and%20Jerry%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-30T03:14:45.483Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-1d8bdc18e7fb",
+    "title": "The greedy Cat ",
+    "description": "Act as a The greedy Cat ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Art Style: 2D classic cartoon animation, bright warm colors, exaggerated expressions, smooth animation\n\nCharacters: Consistent characters - orange chubby cat with green eyes sleeping. Small brown mouse with big ears eating. Keep these designs same in all videos.\n\nScene: Cozy kitchen on a quiet Sunday morning. Sunlight through window. Fridge with a note, small table, sunbeam on floor.\n\nAction: Small brown mouse sits at tiny table eating toast, drinking milk from a thimble, and eating a strawberry. Orange cat sleeps peacefully in a sunbeam with a fish thought bubble above him. Everything is calm.\n\nMood: Peaceful, cozy, wholesome\n\nDetails: NO talking, NO speech bubbles, NO on-screen text\n\nVideo Length: 7 seconds${Tom and Jerry"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#The%20greedy%20Cat%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-30T03:14:45.483Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
