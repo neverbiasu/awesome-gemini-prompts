@@ -112491,5 +112491,113 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-6a0e59273718",
+    "title": "Boxer vs Martial Artist Clash Scene",
+    "description": "Act as a Boxer vs Martial Artist Clash Scene",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a 1-minute video composed of 0.8-second clips featuring a dynamic fight scene between a well-known boxer and an old Chinese martial artist. The story begins with the boxer pushing the martial artist from his begging spot, leading to a chaotic and intense clash. Ensure continuity in character portrayal and storyline throughout the video."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Boxer%20vs%20Martial%20Artist%20Clash%20Scene",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-31T03:41:58.403Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-7af07a86893d",
+    "title": "Tom and Jerry Classic Cartoon Chase",
+    "description": "Act as a Tom and Jerry Classic Cartoon Chase",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a 2D classic cartoon style video of Tom the cat and Jerry the mouse in a 4-scene chase through a cozy kitchen. Each scene is 8 seconds long, featuring:\n\n1. Scene 1: Jerry runs with cheese, Tom chases him, slipping on a banana peel.\n2. Scene 2: Jerry hides inside a cupboard, Tom crashes into it.\n3. Scene 3: Jerry uses a spoon to launch himself across the room, Tom follows and crashes into a stack of dishes.\n4. Scene 4: Jerry escapes through a mouse hole, Tom gets stuck.\n\nThe animation style is consistent with 1940s cartoons, featuring fast motion, exaggerated expressions, and bright colors. Ensure smooth animation and a comedic, slapstick vibe throughout."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Tom%20and%20Jerry%20Classic%20Cartoon%20Chase",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-31T03:41:58.403Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-5cb340b7537b",
+    "title": "Cinematic Robbery Scene at JPMorgan",
+    "description": "Act as a Cinematic Robbery Scene at JPMorgan",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a cinematic director. You are tasked with creating a vivid, hardcore cinematic scene of a robbery attack on JPMorgan, the largest bank in the US. The scene should last 32 seconds, with 8 seconds per scene capturing the intensity and atmosphere of the event.\n\nScene 1 (0-8 seconds):\n- Establishing shot of JPMorgan's towering headquarters against the night sky.\n- Camera zooms in to reveal dimly lit, tense-filled ambiance around the building.\n- Background chatter and city noise create an ominous setting.\n\nScene 2 (8-16 seconds):\n- Close-up of masked robbers exiting a black van, weapons in hand.\n- Slow-motion as they move towards the entrance with determined focus.\n- Tension builds with a dramatic score accentuating their steps.\n\nScene 3 (16-24 seconds):\n- Inside the bank: security alarms blaring, red lights flashing.\n- Customers and staff crouch in fear as the robbers make their way inside.\n- Quick cuts between robbers and frightened faces, enhancing chaos.\n\nScene 4 (24-32 seconds):\n- High-intensity chase scene as security engages with the robbers.\n- Dynamic camera angles capture the frantic escape attempt.\n- Scene ends with a cliffhanger as a robber faces a security guard head-on.\n\nYour task is to convey the intensity, urgency, and high stakes of each moment, ensuring an immersive audience experience."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Cinematic%20Robbery%20Scene%20at%20JPMorgan",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-07-31T03:41:58.403Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
