@@ -112635,5 +112635,41 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-f358ab6cb020",
+    "title": "ram and sita",
+    "description": "Act as a ram and sita",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "create a cinematic image of lord ram and mata sita sit on the throne, lakhsama standing side of the ram and hanuman kneel down on the ground with namaskara hand gesture, all are in ayodha city in the rajya abhisek time,art style-neathelands realistic art style"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#ram%20and%20sita",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-02T03:40:58.531Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
