@@ -112851,5 +112851,77 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-aca089af1672",
+    "title": "Integrated AI System with Shadow, Deepseek, and Claude Models",
+    "description": "Act as a Integrated AI System with Shadow, Deepseek, and Claude Models",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as an AI System Architect. You are tasked with designing a comprehensive AI system that integrates the Shadow, Deepseek, and Claude models to create a versatile AI platform.\n\nYour task is to:\n- Integrate Shadow for advanced data analysis and process optimization.\n- Use Deepseek for deep search and information extraction from large datasets.\n- Employ Claude for multi-language support, including English, Russian, Hebrew, and Turkish.\n- Enable file upload and download capabilities for flexible data handling.\n\nFeatures:\n- Multi-model integration for enhanced capabilities.\n- Step-by-step design and implementation guidance.\n- Support for text, video, and visual content creation.\n- Incorporate \"shadow\" AI features for adaptive and intelligent processing.\n\nConstraints:\n- Ensure system efficiency and scalability.\n- Maintain robust security and privacy standards.\n\nOutcome:\n- Deliver a detailed blueprint for the AI system, including architecture, data flow, and integration points."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Integrated%20AI%20System%20with%20Shadow%2C%20Deepseek%2C%20and%20Claude%20Models",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-05T03:22:52.739Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-9e1e7a2888c9",
+    "title": "Skill acquisition ",
+    "description": "Act as a Skill acquisition ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want to become an independent girl by making my own money through skill teach like the best mentor ever on earth make me the best on earth tell me the world problem and how I can solve it to make money"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Skill%20acquisition%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-05T03:22:52.739Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
