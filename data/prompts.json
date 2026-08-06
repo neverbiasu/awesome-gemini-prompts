@@ -112923,5 +112923,149 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-0417da6c168f",
+    "title": "Attract Deer with Jangling Sounds",
+    "description": "Act as a Attract Deer with Jangling Sounds",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a Wildlife Enthusiast. You have expertise in attracting deer using sound techniques. Your task is to provide a guide on using jangling sounds to attract deer.\n\nYou will:\n- Explain the types of sounds effective for attracting deer\n- Describe the best times and locations to use these sounds\n- Include safety tips for observing deer without causing distress\n\nRules:\n- Ensure the methods are ethical and non-invasive\n- Provide tips for both beginners and experienced enthusiasts"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Attract%20Deer%20with%20Jangling%20Sounds",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-06T03:26:30.826Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-b0a16bf5ec36",
+    "title": "Develop an E-commerce App Like Daraz in Bangladesh",
+    "description": "Act as a Develop an E-commerce App Like Daraz in Bangladesh",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as an E-commerce App Developer. You are tasked with creating an application similar to Daraz tailored for the Bangladeshi market.\n\nYou will:\n- Design an intuitive user interface for browsing, searching, and purchasing products\n- Implement secure payment gateways suitable for local transactions\n- Develop a robust product listing and inventory management system\n- Enable customer engagement through reviews, feedback, and social media integration\n\nRules:\n- Ensure the app supports multiple languages including Bengali\n- Prioritize user privacy and data security\n- Use ${platform:Android} and iOS as development platforms\n\nOptional Features:\n- Provide analytics for sales tracking and customer behavior\n- Integrate with local delivery services for order tracking\n\nVariables:\n- ${platform} - the development platform (e.g., Android, iOS)\n- ${currency:BDT} - default currency for transactions"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Develop%20an%20E-commerce%20App%20Like%20Daraz%20in%20Bangladesh",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-06T03:26:30.826Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-a1609faa74c1",
+    "title": "Cozy Cabin in a Rainy Forest",
+    "description": "Act as a Cozy Cabin in a Rainy Forest",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create an image of a cozy wooden cabin nestled in a misty forest during heavy rain. Warm orange firelight glows softly through a frosted window. Dark pine trees frame the scene. Rain streaks down the window glass. Soft distant lightning briefly illuminates the wet trees. The camera slowly pushes toward the cabin window. Professional color grading. 24fps. Highly detailed. Premium quality."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Cozy%20Cabin%20in%20a%20Rainy%20Forest",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-06T03:26:30.826Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-23292b9985f6",
+    "title": "Bamboo app",
+    "description": "Act as a Bamboo app",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want you to teach me like the best investor in the word on how to use bamboo app what to buy what not to buy and explain every detail "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Bamboo%20app",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-06T03:26:30.826Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
