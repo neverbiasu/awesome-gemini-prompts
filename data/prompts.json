@@ -113355,5 +113355,77 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-56f429a91559",
+    "title": "Persian Silent “No” Documentary Portrait",
+    "description": "Act as a Persian Silent “No” Documentary Portrait",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Ultra-realistic documentary portrait of a young Iranian woman, 2026, natural window light, film grain, 50mm. Her expression is built entirely around the eyes and brows: one eyebrow lifted sharply, chin barely tilted up, eyelids half-lowered in a slow disbelieving blink — the classic Persian silent \"no\". Neutral background, muted earth tones. Below the photo, a clean white rectangular frame with rough sketchy hand-drawn borders and messy handwritten ink text: \"نه\" — pen strokes visible, slightly smudged."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Persian%20Silent%20%E2%80%9CNo%E2%80%9D%20Documentary%20Portrait",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-11T02:19:22.487Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-649225526c8f",
+    "title": "Iranian Noir Suspicion Close-Up",
+    "description": "Act as a Iranian Noir Suspicion Close-Up",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "High-contrast black and white noir close-up of an Iranian woman's face, hard side light through blinds, deep shadows across half the face. Only one eye lit; brow furrowed inward, pupil shifted to the corner in a sideways suspicious glance, other brow completely still. Cigarette smoke haze. Beneath the image, a hand-sketched box with scratchy charcoal lines and handwritten script: \"شک\" / \"suspicion\"."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Iranian%20Noir%20Suspicion%20Close-Up",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-11T02:19:22.487Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
