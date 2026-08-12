@@ -113427,5 +113427,257 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-1e90ec50fa0a",
+    "title": "Cyberpunk Portrait of an Iranian Woman with “همین؟” Glitch Frame",
+    "description": "Act as a Cyberpunk Portrait of an Iranian Woman with “همین؟” Glitch Frame",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Cyberpunk portrait, Iranian woman 2026, neon magenta and cyan rim light, wet reflective skin, subtle holographic eyeliner. Expression lives in the eyes only: one brow flattened, the other slightly cocked, eyes narrowed with a cold amused squint — mockery without a smile. Below, a clean glitchy sketch-frame box with hurried handwritten marker text: \"همین؟\"."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Cyberpunk%20Portrait%20of%20an%20Iranian%20Woman%20with%20%E2%80%9C%D9%87%D9%85%DB%8C%D9%86%D8%9F%E2%80%9D%20Glitch%20Frame",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-12T02:34:04.426Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-eac5e24d4f32",
+    "title": "Impasto Oil Portrait of an Iranian Woman with “خفه شدم از سکوت”",
+    "description": "Act as a Impasto Oil Portrait of an Iranian Woman with “خفه شدم از سکوت”",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Thick impasto oil-painting portrait of an Iranian woman, aggressive brushstrokes, crimson and ochre. Face nearly still, but the brows are pressed low and locked together, the eyes burning wide and unblinking, lower lid tensed — rage held under the skin. Beneath the canvas, a raw sketchy hand-drawn rectangle with shaky handwritten script: \"خفه شدم از سکوت\".  "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Impasto%20Oil%20Portrait%20of%20an%20Iranian%20Woman%20with%20%E2%80%9C%D8%AE%D9%81%D9%87%20%D8%B4%D8%AF%D9%85%20%D8%A7%D8%B2%20%D8%B3%DA%A9%D9%88%D8%AA%E2%80%9D",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-12T02:34:04.426Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-c3c59b904341",
+    "title": "Surreal Portrait — دو دلم",
+    "description": "Act as a Surreal Portrait — دو دلم",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Surreal dreamlike portrait of an Iranian woman, face split by two different light sources (cold blue / warm amber), floating dust particles. Her brows work in opposite directions — one raised, one lowered — eyes not aligned in focus, embodying pure indecision. Below the image, a sketchy hand-inked box with wobbly handwritten text: \"دو دلم\".  "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Surreal%20Portrait%20%E2%80%94%20%D8%AF%D9%88%20%D8%AF%D9%84%D9%85",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-12T02:34:04.426Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-f2215676721b",
+    "title": "Vintage Analog Portrait — ناز",
+    "description": "Act as a Vintage Analog Portrait — ناز",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Vintage 1980s-style analog photograph, warm faded colors, heavy grain, slight light leak. Iranian woman, thick natural brows, looking up from beneath lowered lashes, one brow subtly raised, a slow blink — coquettish \"naz\". Old family-album texture. Below the photo, a hand-torn sketchy frame with old-fashioned fountain-pen handwriting: \"ناز\".  "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Vintage%20Analog%20Portrait%20%E2%80%94%20%D9%86%D8%A7%D8%B2",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-12T02:34:04.426Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-0218b3ef7f93",
+    "title": "Charcoal Portrait — الهی بمیرم",
+    "description": "Act as a Charcoal Portrait — الهی بمیرم",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Charcoal and graphite drawing on textured paper, Iranian woman in her early thirties, heavy shading, visible smudges. The whole emotion is in the brows: inner ends pulled up and together, eyes soft, wet, slightly narrowed with tenderness — the maternal \"elahi bemiram\" look. Below the drawing, a rough hand-sketched border box with smudged handwritten pencil script: \"الهی بمیرم\".  "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Charcoal%20Portrait%20%E2%80%94%20%D8%A7%D9%84%D9%87%DB%8C%20%D8%A8%D9%85%DB%8C%D8%B1%D9%85",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-12T02:34:04.426Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-760e6aa80598",
+    "title": "Candid Tehran Street Photo — بریم؟",
+    "description": "Act as a Candid Tehran Street Photo — بریم؟",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Candid street photo in Tehran, 2026, golden hour, shallow depth of field, crowd blurred behind. Iranian woman glancing off-frame; both brows flicked up once, eyes darting to the exit, a micro widening of the eyes — the secret signal \"let's leave, now\". Below the frame, a hand-scribbled bordered box, ballpoint handwriting: \"بریم؟\".  "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Candid%20Tehran%20Street%20Photo%20%E2%80%94%20%D8%A8%D8%B1%DB%8C%D9%85%D8%9F",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-12T02:34:04.426Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-ee9d4b5ff171",
+    "title": "Minimal Studio Portrait — باشه، هرچی تو بگی",
+    "description": "Act as a Minimal Studio Portrait — باشه، هرچی تو بگی",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "High-key minimal studio portrait, pure white seamless background, soft beauty light, Iranian woman, no makeup. Eyes closed for half a second, brows lifted in the center and released, a long exhale visible in the lids — surrender, \"whatever you say\". Clean negative space. Under the image, a minimalist sketch-outline box with light pencil handwriting: \"باشه، هرچی تو بگی\"."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Minimal%20Studio%20Portrait%20%E2%80%94%20%D8%A8%D8%A7%D8%B4%D9%87%D8%8C%20%D9%87%D8%B1%DA%86%DB%8C%20%D8%AA%D9%88%20%D8%A8%DA%AF%DB%8C",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-12T02:34:04.427Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
