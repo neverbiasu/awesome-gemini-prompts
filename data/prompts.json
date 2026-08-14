@@ -113751,5 +113751,77 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-1b6552126aa6",
+    "title": "E-commerce website ",
+    "description": "Act as a E-commerce website ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want to make a e-com website so make a prompt for me."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#E-commerce%20website%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-14T02:34:10.835Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-541a869ce3fb",
+    "title": "E COMMERCE WEBSITE ",
+    "description": "Act as a E COMMERCE WEBSITE ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Here’s a strong **copy-paste prompt** you can use with ChatGPT, Claude, Gemini, or an AI website builder:\n\nAct as a senior full-stack web developer and UI/UX designer.\n\nI want you to build a modern, professional, fully responsive **e-commerce website** from scratch.\n\n### Goal\n\nCreate a clean and attractive online shopping website suitable for a real business. The website should work smoothly on mobile, tablet, and desktop.\n\n### Technology\n\nUse:\n\n* HTML5\n* CSS3\n* JavaScript\n* Use a single HTML file with CSS and JavaScript included inside it.\n* Do not use a backend unless absolutely necessary.\n* Use clean, well-organized, beginner-friendly code.\n\n### Website Features\n\n1. **Header/Navbar**\n\n   * Professional logo/store name\n   * Home\n   * Shop\n   * Categories\n   * About\n   * Contact\n   * Search icon/bar\n   * Shopping cart icon with item count\n   * Login/Register button\n\n2. **Hero Section**\n\n   * Large promotional banner\n   * Attractive headline\n   * Short description\n   * \"Shop Now\" button\n   * Modern e-commerce design\n\n3. **Categories**\n   Create attractive category cards such as:\n\n   * Electronics\n   * Fashion\n   * Shoes\n   * Accessories\n   * Beauty\n   * Home & Living\n\n4. **Product Section**\n   Display multiple product cards containing:\n\n   * Product image\n   * Product name\n   * Rating\n   * Original price\n   * Discounted price\n   * Discount percentage\n   * \"Add to Cart\" button\n   * \"Buy Now\" button\n   * Wishlist/heart button\n\n5. **Product Search & Filter**\n   Add working JavaScript functionality for:\n\n   * Product search\n   * Category filtering\n   * Price sorting\n   * Rating sorting\n\n6. **Shopping Cart**\n   Create a functional cart where users can:\n\n   * Add products\n   * Remove products\n   * Increase/decrease quantity\n   * See subtotal\n   * See total price\n   * Clear cart\n\n7. **Checkout**\n   Create a professional checkout page/section with:\n\n   * Customer name\n   * Email\n   * Phone\n   * Address\n   * City\n   * State\n   * PIN code\n   * Payment method\n   * Order summary\n   * Place Order button\n\n8. **Special Sections**\n   Add:\n\n   * Flash Sale\n   * Best Sellers\n   * New Arrivals\n   * Customer Reviews\n   * Newsletter subscription\n\n9. **Footer**\n   Include:\n\n   * About the store\n   * Quick links\n   * Customer support\n   * Privacy Policy\n   * Terms & Conditions\n   * Social media icons\n   * Copyright\n\n### Design Requirements\n\n* Premium and modern UI\n* Clean typography\n* Attractive product cards\n* Smooth hover animations\n* Responsive layout\n* Mobile-friendly hamburger menu\n* Good spacing and alignment\n* Professional color scheme\n* Smooth scrolling\n* Accessible buttons and forms\n* Add subtle animations without making the website slow\n\n### JavaScript Requirements\n\nMake the following features actually work:\n\n* Search\n* Category filtering\n* Sorting\n* Add to cart\n* Remove from cart\n* Quantity controls\n* Cart total calculation\n* Wishlist button\n* Mobile navigation\n* Checkout form validation\n* Order confirmation message\n\nUse sample products and realistic product images from publicly accessible image URLs.\n\n### Important\n\nDo not give me only an explanation. **Build the complete working website code.**\n\nReturn the complete code in one HTML file that I can save as `index.html` and open directly in a browser.\n\nMake the final result look like a professional real-world e-commerce website rather than a basic demo.\n\nI can also create a **complete working e-commerce website from this prompt** and give you the HTML/CSS/JavaScript code.\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#E%20COMMERCE%20WEBSITE%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-14T02:34:10.835Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
