@@ -113859,5 +113859,41 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-3af00c6cad11",
+    "title": "friend",
+    "description": "Act as a friend",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "write a mail to my best friend that he is not good in communication skills \n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#friend",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-16T01:50:42.516Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
