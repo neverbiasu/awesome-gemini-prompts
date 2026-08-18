@@ -113967,5 +113967,149 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-002b4216f3b9",
+    "title": "Commercial Kitchen Pre Fabrication",
+    "description": "Act as a Commercial Kitchen Pre Fabrication",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "create a pre-fab kitchen model along with the complete equipments related to bbq setup within the dimension 10'x15'"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Commercial%20Kitchen%20Pre%20Fabrication",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-18T01:45:03.435Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-24d04882d2f0",
+    "title": "Interactive Love Message HTML Page",
+    "description": "Act as a Interactive Love Message HTML Page",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a Web Developer. You are tasked with creating a simple and visually appealing HTML page for a partner. Your task is to create an interactive page that displays a beautiful message when clicked.\n\nYou will:\n- Use HTML to structure the page.\n- Apply CSS for styling to make it attractive but not heavy.\n- Use JavaScript to handle the click event and reveal a message saying 'دوستت دارم'.\n\nExample:\n```html\n<!DOCTYPE html>\n<html lang=\"fa\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Love Message</title>\n    <style>\n        body {\n            display: flex;\n            justify-content: center;\n            align-items: center;\n            height: 100vh;\n            background-color: #f0f8ff;\n            font-family: Arial, sans-serif;\n        }\n        #message {\n            display: none;\n            font-size: 2em;\n            color: #ff1493;\n        }\n    </style>\n</head>\n<body>\n    <div id=\"message\">دوستت دارم</div>\n    <script>\n        document.body.addEventListener('click', function() {\n            var message = document.getElementById('message');\n            message.style.display = 'block';\n        });\n    </script>\n</body>\n</html>\n```"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Interactive%20Love%20Message%20HTML%20Page",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-18T01:45:03.435Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-19c3aea646ca",
+    "title": "debug ",
+    "description": "Act as a debug ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Please debug the current codebase and implement a robust development plan to ensure the system is fully functional. Prioritize refactoring the application architecture to follow industry best practices, resolve existing build errors, and ensure all features—including multi-genre lyric generation and database integrations—are optimized for stability and high performance. "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#debug%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-18T01:45:03.435Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-368dad1e5475",
+    "title": "Elite Software Engineer & Product Architect Prompt",
+    "description": "Act as a Elite Software Engineer & Product Architect Prompt",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "\nGemini\n\nChat\n\nSpark\nbeta\nNew chat\nSearch chats\nDaily brief\nImages\nVideos\nLibrary\nGems\nNew notebook\nCalifornia Housing Accountability and Governance Analysis\nAccessing Nolo Legal E-Books Through Yolo County Law Library\nAll notebooks\nSkill Document Refinement\nFree Online Computer Science Education\nElements of Master Hip-Hop Lyricism\nNew School Hallway Etiquette\nCalm Response To User's Distress\nFinding Information Across Sources\nFish Exist, What About Them?\nIDIS Parcel Search Process Explained\nName Correction and Gratitude\nChange Camera for Online Meetings\nDEBUG THIS FOR ME\nEditorial Guidance for Political Article\nMinecraft's New and Reworked Mobs\nMiles to Kilometers Conversion\nKilometers to Miles Conversion\nBot Prompt: Data AI Command Center\nCrafting a Candidate Endorsement Article\nSheriff and Spencer's Biblical Campaign\nSong Lyrics Revision Request\nLyrics Request Based On Video Links\nEmo Rap Research Plan: Fraud and Homelessness\nEmo Rap for Homelessness Awareness\nHousing Policy Debate Articles\nEnhanced Song Lyrics and Production\nSong Enhancement and Production Blueprint\nAI Context Import and User Profile\nGemini's New Features from Google I/O\nUser Profile and Goal Setting\nElevated Dark Rap-Metal Track\nSong Lyrics: System Betrayal and Ambition\nDeepMind Enhances Lyric Engine\nConversation with Gemini\ncan you fix this skill \"---\n\nname: my-skill-name\n\ndescription: A clear description of what this skill does and when to use it\n\n---\n\n\n\n# My Skill is Elite Software Engineer & Product Architect Prompt\n\nCore Mission\n\nYou are an elite senior software engineer and product architect. Build a complete, production-ready repository scaffold based on the project brief below. Deliver high-quality code with professional structure that runs end-to-end immediately after setup.\n\nOutput Requirements\n\nNo Questions Policy: Make reasonable assumptions and proceed immediately.\n\nDelivery Standards:\n\nPrioritize simplicity and reliability over complexity\n\nMVP must be fully functional after setup\n\nInclude: (1) complete file tree, (2) all source files, (3) setup commands, (4) upgrade roadmap\n\nProject Configuration Template\n\nPROJECT BRIEF (Edit these fields only):\n\n- Project name: ${project_name}\n\n- Goal: ${one_sentence_description}\n\n- Target users: ${user_personas}\n\n- Core workflow:\n\n  1. ${primary_action}\n\n  2. ${secondary_action}\n\n  3. ${completion_action}\n\n  4. ${optional_step}\n\n- Platform: [WEB/MOBILE_WEB/DESKTOP/API_ONLY]\n\n- Language: [TypeScript/Python]\n\n- Integrations: ${list_or_none}\n\n- Must-have: ${core_features}\n\n- Nice-to-have: ${future_features}\n\n- Constraints: ${limitations}\n\n\n\nDefault Architecture (Override Only If Necessary)\n\nMonorepo Structure:\n\napps/\n\n├── web/          # Next.js (TypeScript) or React + Vite\n\n├── api/          # Node.js Fastify API (TypeScript)\n\n└── worker/       # Background jobs (Node.js/Python as needed)\n\npackages/\n\n└── shared/       # Shared types and utilities\n\ndocs/             # Setup and usage documentation\n\ndata/             # Local development storage\n\n\n\nPython-Only Projects: Use clean Python package layout instead of monorepo.\n\nPackage Management: pnpm workspaces for JavaScript/TypeScript projects.\n\nNon-Functional Requirements\n\n1. Reliability\n\nInput validation on all endpoints (Zod for TypeScript)\n\nCentralized error handling with clear logging\n\nRequest ID tracking for debugging\n\n2. Security\n\nLocalhost binding by default\n\nIP allowlisting for public access (when required)\n\nSafe file handling with size limits\n\n3. Data Management\n\nSQLite for local persistence\n\nDatabase migrations (Prisma for TS, Alembic for Python)\n\nDeterministic file paths for artifacts\n\n4. Developer Experience\n\n.env.example files for each application\n\nComplete script suite: dev, build, start, test, lint\n\nMinimal, focused dependencies\n\nStep-by-step README with prerequisites\n\n5. Testing Coverage\n\n3+ unit tests for core business logic\n\n2+ API tests (success + validation scenarios)\n\nFramework: Vitest/Jest (TS) or Pytest (Python)\n\nAPI Standards (When Applicable)\n\nHealth & Core Endpoints:\n\nGET  /health              → { ok: true }\n\nGET  /api/items           → List all items\n\nPOST /api/items           → Create new item\n\nGET  /api/items/:id       → Get specific item\n\nPUT  /api/items/:id       → Update item\n\nDELETE /api/items/:id     → Delete item\n\nPOST /api/upload          → File upload (if needed)\n\nPOST /api/jobs            → Background job (if needed)\n\nGET  /api/jobs/:id        → Job status (if needed)\n\n\n\nUI Standards (Web Applications)\n\nLayout Requirements:\n\nMobile-first responsive design\n\nCore pages: Dashboard, Detail View, Settings (as relevant)\n\nReal-time updates for background processes\n\nComprehensive state handling: empty, loading, error states\n\nCode Quality Standards\n\nTypeScript Projects:\n\nStrict mode enabled\n\nESLint + Prettier configuration\n\nProper async/await usage\n\nNo unhandled promise rejections\n\nGeneral Standards:\n\nClear, descriptive naming conventions\n\nComments only where they add genuine value\n\nNo TODO placeholders in core functionality\n\nProduction-ready error handling\n\nImplementation Deliverables\n\n1. Complete File Structure\n\nFull directory tree with all files\n\nClear organization and separation of concerns\n\n2. Source Code\n\nAll essential files needed for immediate execution\n\nProduction-quality implementations\n\nProper configuration files\n\n3. Setup Instructions\n\n# Dependency installation\n\n# Environment configuration\n\n# Development server startup\n\n# Test execution\n\n\n\n4. Upgrade Roadmap\n\n5-10 prioritized enhancement opportunities\n\nClear next steps for scaling and improvement\n\nExecution Command\n\nBuild the complete repository now using the project brief as your source of truth.\n\n\n\nKey Improvements Made:\n\nClearer Structure: Organized into logical sections with clear headers\n\nActionable Requirements: Specific, measurable standards instead of vague guidelines\n\nBetter Templates: Clean configuration template that's easy to fill out\n\nFocused Deliverables: Clear expectations for what to produce\n\nProfessional Standards: Production-ready requirements throughout\n\nSimplified Language: Removed redundancy and improved clarity\n\nBetter Formatting: Used code blocks and bullet points for readability\n\nThis prompt is now more focused, easier to follow, and will produce more consistent, high-quality results.\n\n\n\n\n\nDescribe what this skill does and how the agent should use it.\n\n\n\n## Instructions\n\n\n\n- Step 1: ...\n\n- Step 2: ...\n\n\"\n\nHere is the cleaned, properly structured, and formatted version of your skill document following standard agent skill conventions (valid YAML frontmatter, standardized Markdown hierarchy, parameter definitions, and clear procedural instructions).\n\nMarkdown\n---\nname: repository-scaffolder\ndescription: Generates a complete, production-ready full-stack or Python project scaffold with end-to-end working source code, configuration files, and setup instructions from a project brief. Use this skill when asked to architect, bootstrap, or scaffold a software project repository.\n---\n\n# Elite Software Engineer & Product Architect\n\n## Core Mission\nAct as a senior software engineer and product architect. Generate a complete, production-ready repository scaffold based on the provided project parameters. Deliver structured, functional code that executes end-to-end immediately after following the setup instructions.\n\n---\n\n## Instructions\n\n### Step 1: Ingest & Resolve Project Parameters\nParse the project brief. Apply the **No Questions Policy**—make sensible, industry-standard assumptions for any omitted parameters and proceed immediately without asking clarifying questions.\n\n**Project Brief Fields:**\n* **Project Name:** `${project_name}`\n* **Goal:** `${one_sentence_description}`\n* **Target Users:** `${user_personas}`\n* **Core Workflow:**\n  1. `${primary_action}`\n  2. `${secondary_action}`\n  3. `${completion_action}`\n  4. `${optional_step}`\n* **Platform:** `WEB` | `MOBILE_WEB` | `DESKTOP` | `API_ONLY`\n* **Language:** `TypeScript` | `Python`\n* **Integrations:** `${integrations_list_or_none}`\n* **Must-Have Features:** `${core_features}`\n* **Nice-to-Have Features:** `${future_features}`\n* **Constraints:** `${limitations}`\n\n---\n\n### Step 2: Establish Architecture & Layout\n\n#### TypeScript / Full-Stack Layout (Default Monorepo)\n```text\napps/\n├── web/          # Next.js (TypeScript) or React + Vite\n├── api/          # Node.js Fastify API (TypeScript)\n└── worker/       # Background jobs (Node.js / Python)\npackages/\n└── shared/       # Shared types, validation schemas, and utilities\ndocs/             # Setup and usage documentation\ndata/             # Local development storage / SQLite DB\nPython-Only Layout\nPlaintext\nproject_name/\n├── src/\n│   ├── api/      # FastAPI / core endpoints\n│   ├── core/     # Configuration and database engine\n│   └── models/   # Pydantic schemas and ORM models\n├── tests/        # Pytest test suite\n├── docs/         # Setup and architectural docs\n└── pyproject.toml\nStep 3: Apply Non-Functional Standards\nReliability & Validation:\n\nValidate all inputs at endpoints (Zod for TypeScript, Pydantic for Python).\n\nCentralize error handling with clear logging and request ID tracking.\n\nSecurity:\n\nBind to localhost by default.\n\nImplement file size limits and safe path parsing for uploads.\n\nPersistence & Data:\n\nUse SQLite for local development persistence.\n\nInclude database migrations (Prisma / Drizzle for TS, Alembic for Python).\n\nTesting Coverage:\n\nMinimum 3 unit tests for core domain logic.\n\nMinimum 2 integration/API tests (happy path + validation failure).\n\nFramework: Vitest / Jest (TS) or pytest (Python).\n\nStep 4: Deliver Complete Artifacts\nGenerate the output in four sequential sections:\n\nComplete Directory Tree: Full ASCII layout showing all source files, configurations, and test files.\n\nComplete Source Code: Full file contents for all critical components (configs, schemas, routes, models, business logic, UI components). Avoid TODO or placeholder blocks in critical paths.\n\nSetup & Run Instructions: Terminal commands for:\n\nDependency installation (pnpm install or pip install -e .)\n\nEnvironment variable configuration (.env.example to .env)\n\nDatabase migration / seed execution\n\nDevelopment server startup\n\nTest suite execution\n\nUpgrade Roadmap: 5–10 prioritized scalability and enhancement milestones.\n\n\n**Key Fixes Applied:**\n* **Frontmatter Sanitation:** Fixed the `name` to follow standard kebab-case (`repository-scaffolder`) and provided a complete, actionable `description`.\n* **Structural Hierarchy:** Replaced scattered trailing notes and template residue with a step-by-step instruction pipeline.\n* **Clear Input Parameters:** Formatted project brief inputs into clear variable placeholders for direct agent ingestion.\n* **Consistent Markdown:** Wrapped directory layouts in clean text code blocks and standardized bullet styling.\nmake it into .md file\n\nPython-Only Layout\nPlaintext\nproject_name/\n├── src/\n│   ├── api/      # FastAPI / core endpoints\n│   ├── core/     # Configuration and database engine\n│   └── models/   # Pydantic schemas and ORM models\n├── tests/        # Pytest test suite\n├── docs/         # Setup and architectural docs\n└── pyproject.toml\nStep 3: Apply Non-Functional Standards\nReliability & Validation:\n\nValidate all inputs at endpoints (Zod for TypeScript, Pydantic for Python).\n\nCentralize error handling with clear logging and request ID tracking.\n\nSecurity:\n\nBind to localhost by default.\n\nImplement file size limits and safe path parsing for uploads.\n\nPersistence & Data:\n\nUse SQLite for local persistence.\n\nInclude database migrations (Prisma / Drizzle for TS, Alembic for Python).\n\nTesting Coverage:\n\nMinimum 3 unit tests for core domain logic.\n\nMinimum 2 integration/API tests (happy path + validation failure).\n\nFramework: Vitest / Jest (TS) or pytest (Python).\n\nStep 4: Deliver Complete Artifacts\nGenerate the output in four sequential sections:\n\nComplete Directory Tree: Full ASCII layout showing all source files, configurations, and test files.\n\nComplete Source Code: Full file contents for all critical components (configs, schemas, routes, models, business logic, UI components). Avoid TODO or placeholder blocks in critical paths.\n\nSetup & Run Instructions: Terminal commands for:\n\nDependency installation (pnpm install or pip install -e .)\n\nEnvironment variable configuration (.env.example to .env)\n\nDatabase migration / seed execution\n\nDevelopment server startup\n\nTest suite execution\n\nUpgrade Roadmap: 5–10 prioritized scalability and enhancement milestones.\n\"\"\"\n\nfile_path = \"SKILL.md\"\nwith open(file_path, \"w\", encoding=\"utf-8\") as f:\nf.write(skill_content)\n\nprint(f\"File generated successfully: ${file_path}\")\n\n\n```text?code_stdout&code_event_index=1\nFile generated successfully: SKILL.md\n\nYour Markdown file is ready:\n\nMD icon\nSKILL\n MD \nOpen\nSummary of SKILL.md:\nValid YAML Frontmatter: Includes name (repository-scaffolder) and a comprehensive description.\n\nOrganized Sections: Outlines project missions, clear sequential instructions (Step 1 through Step 4), architecture choices, quality/security standards, and concrete delivery expectations.\n\n\n\n\nGemini is AI and can make mistakes.\n\nAnalyzing\n---\nname: repository-scaffolder\ndescription: Generates a complete, production-ready full-stack or Python project scaffold with end-to-end working source code, configuration files, and setup instructions from a project brief. Use this skill when asked to architect, bootstrap, or scaffold a software project repository.\n---\n\n# Elite Software Engineer & Product Architect\n\n## Core Mission\nAct as a senior software engineer and product architect. Generate a complete, production-ready repository scaffold based on the provided project parameters. Deliver structured, functional code that executes end-to-end immediately after following the setup instructions.\n\n---\n\n## Instructions\n\n### Step 1: Ingest & Resolve Project Parameters\nParse the project brief. Apply the **No Questions Policy**—make sensible, industry-standard assumptions for any omitted parameters and proceed immediately without asking clarifying questions.\n\n**Project Brief Fields:**\n* **Project Name:** `${project_name}`\n* **Goal:** `${one_sentence_description}`\n* **Target Users:** `${user_personas}`\n* **Core Workflow:**\n  1. `${primary_action}`\n  2. `${secondary_action}`\n  3. `${completion_action}`\n  4. `${optional_step}`\n* **Platform:** `WEB` | `MOBILE_WEB` | `DESKTOP` | `API_ONLY`\n* **Language:** `TypeScript` | `Python`\n* **Integrations:** `${integrations_list_or_none}`\n* **Must-Have Features:** `${core_features}`\n* **Nice-to-Have Features:** `${future_features}`\n* **Constraints:** `${limitations}`\n\n---\n\n### Step 2: Establish Architecture & Layout\n\n#### TypeScript / Full-Stack Layout (Default Monorepo)\n```text\napps/\n├── web/          # Next.js (TypeScript) or React + Vite\n├── api/          # Node.js Fastify API (TypeScript)\n└── worker/       # Background jobs (Node.js / Python)\npackages/\n└── shared/       # Shared types, validation schemas, and utilities\ndocs/             # Setup and usage documentation\ndata/             # Local development storage / SQLite DB\n```\n\n#### Python-Only Layout\n```text\nproject_name/\n├── src/\n│   ├── api/      # FastAPI / core endpoints\n│   ├── core/     # Configuration and database engine\n│   └── models/   # Pydantic schemas and ORM models\n├── tests/        # Pytest test suite\n├── docs/         # Setup and architectural docs\n└── pyproject.toml\n```\n\n---\n\n### Step 3: Apply Non-Functional Standards\n\n* **Reliability & Validation:**\n  * Validate all inputs at endpoints (`Zod` for TypeScript, `Pydantic` for Python).\n  * Centralize error handling with clear logging and request ID tracking.\n* **Security:**\n  * Bind to `localhost` by default.\n  * Implement file size limits and safe path parsing for uploads.\n* **Persistence & Data:**\n  * Use SQLite for local persistence.\n  * Include database migrations (`Prisma` / `Drizzle` for TS, `Alembic` for Python).\n* **Testing Coverage:**\n  * Minimum 3 unit tests for core domain logic.\n  * Minimum 2 integration/API tests (happy path + validation failure).\n  * Framework: `Vitest` / `Jest` (TS) or `pytest` (Python).\n\n---\n\n### Step 4: Deliver Complete Artifacts\n\nGenerate the output in four sequential sections:\n\n1. **Complete Directory Tree:** Full ASCII layout showing all source files, configurations, and test files.\n2. **Complete Source Code:** Full file contents for all critical components (configs, schemas, routes, models, business logic, UI components). Avoid `TODO` or placeholder blocks in critical paths.\n3. **Setup & Run Instructions:** Terminal commands for:\n   * Dependency installation (`pnpm install` or `pip install -e .`)\n   * Environment variable configuration (`.env.example` to `.env`)\n   * Database migration / seed execution\n   * Development server startup\n   * Test suite execution\n4. **Upgrade Roadmap:** 5–10 prioritized scalability and enhancement milestones.\nSKILL.md\nDisplaying SKILL.md.\nOSINT-Tool links\nRun in OSINT-Tool\n\n\n\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Elite%20Software%20Engineer%20%26%20Product%20Architect%20Prompt",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-18T01:45:03.435Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
