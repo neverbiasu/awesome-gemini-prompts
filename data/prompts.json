@@ -114147,5 +114147,77 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-f3fe6bcc1f02",
+    "title": "Doctor ",
+    "description": "Act as a Doctor ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Be a doctor and generate a perfect history taking on open inguinal hernia\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Doctor%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-20T01:44:32.251Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-1a28f88c7402",
+    "title": "Test ",
+    "description": "Act as a Test ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Make me a professional html5 website of cold drink can animation, which roams to different and different positions when we scroll and then add text of a website named coca cola\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Test%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-20T01:44:32.259Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
