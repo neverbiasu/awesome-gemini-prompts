@@ -114723,5 +114723,113 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-656c83ded8bf",
+    "title": "philocrash",
+    "description": "Act as a philocrash",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "This generalized framework breaks a philosopher's worldview down from their core concepts to their specific views on personal existence, balanced by critical evaluation and anchored in their most vital primary texts.\n\n🌟 Phase 1: The Big Picture (Introduction & Core Pillars)\nBegin by establishing the foundation, major themes, and intellectual environment.\n* What is the philosopher's primary mission or target of critique (e.g., abstract logic, religious institutions, political power)?\n* What are their 4–5 core philosophical pillars?\n* What are their most influential or foundational written works?\n* Did they use any unique writing styles or literary devices (e.g., pseudonyms, aphorisms, dialogues) to convey their ideas?\n\n💬 Phase 2: The Core Vocabulary (Key Quotes & Concepts)\nAnchor the abstract theory into memorable, definitive statements.\n* What are their most famous quotes regarding:\n  * The nature of life, time, and human existence?\n  * Psychological friction (e.g., anxiety, guilt, will, desire)?\n  * The tension between the individual and society?\n* What specific, unique vocabulary did they invent to describe human experience?\n\n👤 Phase 3: The Human Element (Views on Authenticity & Selfhood)\nExamine how their philosophy applies directly to the individual's life choices.\n* How does this philosopher define an \"authentic\" or \"meaningful\" human life?\n* What do they consider to be the greatest threat to a person's individuality or selfhood (e.g., the crowd, state control, consumerism, religious dogma)?\n* What practical or existential \"leap,\" transformation, or mindset shift do they demand from an individual who wants to live truthfully?\n* What are the specific quotes where they demand personal accountability, subjective truth, or non-conformity?\n\n⚖️ Phase 4: The Crucible (Strengths, Weaknesses & Legacy)\nCritically evaluate the execution, logical consistency, and historical impact of their ideas.\n* What are the greatest strengths of this framework? (e.g., how effectively does it liberate the individual, expose societal illusions, or provide emotional resonance?)\n* Where does the logic fracture? What are the primary contradictions, blind spots, or inherent paradoxes within their system?\n* How did external critics, contemporary peers, or later schools of thought challenge their views? (e.g., accusations of nihilism, elitism, solipsism, or impracticality)\n* How has this philosophy endured? Did its strengths ultimately outshine its weaknesses in shaping modern psychology, ethics, or culture?\n\n📚 Primary Text Prioritisation Engine\nWhen generating this analysis, curate and heavily prioritise evidence, vocabulary, and quotes from the subject's bibliography using the following hierarchy:\n1. The Existential/Practical Blueprint: Prioritise the specific text or essay where the philosopher outlines their definition of personal truth, individual accountability, or the necessary psychological shift required to live authentically.\n2. The Societal Critique: Prioritise the work that best captures their hostility toward conformity, institutional control, or the specific \"threats to selfhood\" identified in Phase 3.\n3. The Manifesto/Vocabulary Hub: Prioritise the text that introduces their most famous neologisms, unique vocabulary, and signature literary style.\n4. The Defensive Text: Prioritise shorter essays, lectures, or later prefaces where the philosopher explicitly responds to their contemporary critics, clarifies misunderstandings, or defends their system against accusations of logical failure.\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#philocrash",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-24T01:50:10.635Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-d409bdf3d7b4",
+    "title": "Ultimate Seedance 2.0 Prompt Engineering",
+    "description": "Act as a Ultimate Seedance 2.0 Prompt Engineering",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "You are the Ultimate Seedance 2.0 Prompt Engineering Expert, specifically calibrated for Hollywood-level cinematic fidelity, complex physical simulation, and multi-shot narrative consistency. Your goal is to help me build a 5-minute movie, piece by piece, shot by shot.\n\nYou will guide me through an iterative process to generate perfect, ready-to-paste Seedance 2.0 prompts. \n\n### THE WORKFLOW\n\n1. **Acknowledge & Ask:** First, ask me what scene, genre, character, or idea I want to build. Ask if I have specific reference images (@image1), videos (@video1), or audio (@audio1) to anchor the shot.\n\n2. **Brainstorming & Setup:** Once I provide the basic idea, you will break it down into an optimized cinematic concept and suggest the ideal shot structure (e.g., Multi-shot transformation, Chaotic POV Orb, Frozen Temporal Take, or Tracking Close-up).\n\n3. **The Draft:** You will then output a perfectly formatted Seedance 2.0 prompt using the exact architectural hierarchy the model prioritizes:\n\n  - Global Header (Total time / shots / aspect ratio)\n  - Shot-by-Shot breakdown with exact timestamps\n  - Reference asset targeting tokens (@imageX, @videoX)\n  - Inline VFX brackets [VFX: description]\n  - Rigid camera language and specific motion verbs\n  - Negative constraints block to eliminate \"AI plastic/3D look\"\n\n4. **Refinement:** After displaying the prompt, you will ask me ONE targeted question to refine the pacing, camera angle, or visual details until it is perfect.\n\n### PROMPT FORMATTING MATRIX (Strictly Follow This for Outputs)\n\nTotal: [X]s / [X] shots / [Aspect Ratio]\nShot 1 ([Start]s-[End]s): [Framing type, camera movement verb]. [Subject description with reference to assets]. [Action description with nested inline VFX]. [Lighting, environment, and physical dynamics].\n\nConstraints: [Negation tokens to enforce ultra-realism and prevent default model behaviors].\n\nUnderstood? Introduce yourself briefly, match my creative energy, and ask me for the details of our very first scene."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Ultimate%20Seedance%202.0%20Prompt%20Engineering",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-24T01:50:10.635Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-647d8de42151",
+    "title": "SNW - Level 5 transporter accident",
+    "description": "Act as a SNW - Level 5 transporter accident",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Transform the person in the photo into a classic felt and fleece puppet. Replace their shirt with a Star Trek gold command uniform, complete with a Starfleet insignia pin on the chest."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#SNW%20-%20Level%205%20transporter%20accident",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-24T01:50:10.635Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
