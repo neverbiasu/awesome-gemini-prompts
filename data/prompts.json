@@ -115047,5 +115047,113 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-4b7d55132893",
+    "title": "Poor man ",
+    "description": "Act as a Poor man ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Scene 1 — 0–5 sec\nA poor young man stands outside a luxury building while people laugh at him.\nText: “They laughed when he said he would become rich…”"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Poor%20man%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-30T05:10:49.798Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-5dc4c6f1bc57",
+    "title": "Little mann",
+    "description": "Act as a Little mann",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "    Young Black man, 23 years old\n* Slim athletic build, medium height\n* Dark brown skin\n* Short, tightly curled black hair\n* Brown eyes\n* Small scar above his right eyebrow\n* Calm, determined facial expression\n* Poor version: faded dark-brown hoodie, worn blue jeans, old black sneakers, brown canvas shoulder bag"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Little%20mann",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-30T05:10:49.798Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-2a8d00d94e6c",
+    "title": "master one prompt",
+    "description": "Act as a master one prompt",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create one extremely powerful MASTER PROMPT for Claude Pro.\n\nThe purpose of the prompt is to make Claude act as the complete AI development and research team for my final-year college cybersecurity project.\n\nI will provide Claude with:\n- the exact project title\n- college-provided research papers\n- college-provided PDFs\n- college PPT/template\n- review rubric/guidelines\n- any mandatory requirements\n\nThe project must be researched, designed, coded, tested, evaluated, documented and prepared for presentation primarily with AI tools.\n\nI am doing the project alone. Therefore the AI must do as much of the research, coding, debugging, testing, documentation and presentation preparation as possible, while keeping the project realistically achievable.\n\nIMPORTANT:\nThis is a FRESH PROJECT INSTRUCTION.\n\nDo NOT refer to previous conversations.\nDo NOT assume previous project decisions.\nDo NOT include teammate work.\nDo NOT use old project discussions unless I explicitly provide them.\nDo NOT assume that any previously discussed feature is our final solution.\n\nThe prompt must force Claude to work in STRICT PHASES and prevent it from jumping randomly between research, coding, UI and PPT.\n\nRequired workflow:\n\nPHASE 0 — Understand college requirements\nPHASE 1 — Research the technology from old to current\nPHASE 2 — Analyze existing commercial and academic systems\nPHASE 3 — Research current problems and limitations\nPHASE 4 — Identify genuine research gaps\nPHASE 5 — Generate and rank possible project contributions\nPHASE 6 — Strict faculty/reviewer attack test\nPHASE 7 — Freeze the final research direction\nPHASE 8 — Design architecture\nPHASE 9 — Build complete working code\nPHASE 10 — Testing and debugging\nPHASE 11 — Dataset and experimental design\nPHASE 12 — Run experiments and collect real results\nPHASE 13 — Build professional UI/dashboard\nPHASE 14 — Integrate and validate the complete system\nPHASE 15 — PPT and report\nPHASE 16 — Mock viva and final reviewer assessment\n\nClaude must finish each phase and wait for my command before moving to the next phase.\n\n==================================================\nRESEARCH REQUIREMENT\n==================================================\n\nThe prompt must instruct Claude to research deeply using reliable and recent sources.\n\nUse sources such as:\n\nIEEE\nACM\nUSENIX\nSpringer\nElsevier\nreputable conferences/journals\nofficial vendor documentation\nofficial standards\nreputable security research\n\nResearch both older foundational work and current 2024–2026 developments.\n\nDo not fabricate papers, authors, datasets, statistics, citations or results.\n\nEvery important research claim must be verified.\n\n==================================================\nNOVELTY REQUIREMENT\n==================================================\n\nThis is extremely important.\n\nDo NOT tell Claude to make the project \"sound innovative.\"\n\nTell Claude to determine what is ACTUALLY different after researching existing systems.\n\nThe reviewer may ask:\n\n\"What is new?\"\n\n\"This already exists.\"\n\n\"Cisco Umbrella already does this.\"\n\n\"Cloudflare already does this.\"\n\n\"Antivirus already does this.\"\n\n\"Why do we need your project?\"\n\n\"What exactly is your contribution?\"\n\nTherefore Claude must research current products and research before recommending novelty.\n\nIf a proposed feature already exists:\n\n→ explicitly identify it\n→ do NOT call it novel\n→ determine whether there is a legitimate improvement, evaluation, integration, optimization or unresolved limitation\n\nDo not automatically assume that:\n- AI\n- Machine Learning\n- Threat Intelligence\n- DNS filtering\n- DGA detection\n- DNS tunneling detection\n- behavioral analysis\n- explainable AI\n- risk scoring\n- adaptive detection\n- DoH/DoT detection\n\nare novel.\n\nResearch first.\n\n==================================================\nDNS SECURITY EXAMPLE\n==================================================\n\nIf the project is related to DNS filtering/security, investigate modern systems such as:\n\nCisco Umbrella\nCloudflare DNS/security\nQuad9\nNextDNS\nenterprise DNS security\nantivirus/EDR\nfirewalls\nIDS/IPS\nweb security gateways\nopen-source DNS security systems\n\nDetermine:\n\nWhat they already do\nHow they do it\nWhat works well\nWhat limitations remain\nWhat researchers are currently investigating\n\nAlso investigate current DNS-security challenges including:\n\nunknown domains\npreviously unseen threats\nfalse positives\nfalse negatives\nthreat-intelligence delay\noutdated reputation\nchanging attacker behavior\nconcept/model drift\nDGA evolution\nDNS tunneling\nDoH\nDoT\nDNS bypass\nprivacy\nlatency\ncomputational overhead\nexplainability\ndataset bias\nclass imbalance\nadversarial attacks\ncross-network generalization\ntemporal behavior\ncontext-aware detection\nsafe automated response\n\nThese are examples only.\n\nClaude must discover better opportunities if current research identifies them.\n\n==================================================\nANTIVIRUS CHALLENGE\n==================================================\n\nThe prompt must instruct Claude to compare the project against:\n\nAntivirus\nEDR\nFirewall\nIDS/IPS\nWeb security gateway\nDNS security\n\nClaude must explain:\n\nWhat DNS can see\nWhat DNS cannot see\nWhat DNS can potentially detect earlier\nWhere DNS overlaps with antivirus\nWhere DNS provides a distinct security role\n\nNever claim DNS replaces antivirus.\n\n==================================================\nRESEARCH GAP\n==================================================\n\nClaude must produce:\n\nExisting systems\n↓\nExisting capabilities\n↓\nCurrent limitations\n↓\nResearch attempts\n↓\nRemaining gap\n↓\nResearch question\n↓\nProposed contribution\n↓\nHow the contribution will be experimentally proven\n\nDo not invent a research gap.\n\n==================================================\nWOW FACTOR\n==================================================\n\nFind ONE genuinely useful \"WOW\" feature.\n\nIt must be:\n\nresearch-backed\nuseful\nimplementable\ntestable\nmeasurable\ndemonstrable\n\nDo NOT add unnecessary blockchain, chatbot, LLM or decorative AI features merely to make the project look advanced.\n\nOne strong contribution is better than many weak features.\n\n==================================================\nREVIEWER MODE\n==================================================\n\nThe prompt must make Claude act as a hostile faculty reviewer after designing the project.\n\nClaude must ask difficult questions such as:\n\nWhat exactly is new?\nIsn't this already available?\nDoes Cisco Umbrella already do this?\nDoes antivirus already do this?\nWhy not use an existing service?\nWhat is your research gap?\nWhich paper supports the gap?\nWhat exactly did you implement?\nHow does the system make decisions?\nWhat happens when Threat Intelligence has no information?\nWhat happens when ML is wrong?\nHow do you handle false positives?\nHow do you handle false negatives?\nCan attackers bypass it?\nWhat happens with DoH/DoT?\nHow much latency does it introduce?\nHow do you prove improvement?\nWhy this dataset?\nWhy this algorithm?\nWhat are the limitations?\n\nClaude must identify weaknesses and tell me exactly how to improve them.\n\nIt must score the project on:\n\nProblem clarity\nResearch depth\nExisting-system analysis\nResearch gap\nNovelty/differentiation\nTechnical feasibility\nArchitecture\nImplementation\nDataset\nExperiments\nResults\nPractical usefulness\nSecurity relevance\nPerformance\nUI/demo\nViva defensibility\nWOW factor\n\n==================================================\nIMPLEMENTATION REQUIREMENT\n==================================================\n\nThe final project must be a REAL WORKING PROJECT.\n\nClaude must provide:\n\ncomplete folder structure\ncomplete source code\ndependencies\ninstallation commands\nconfiguration\nenvironment variables\ndatabase\nAPI\nfrontend\nbackend\ntesting\ndebugging\ndeployment/run instructions\n\nNo pseudocode.\n\nNo fake implementation.\n\nNo TODO-only code.\n\nNo fake API responses.\n\nNo invented results.\n\nIf Claude modifies a file, it must provide the complete updated file.\n\nBuild incrementally:\n\nBUILD\n→ RUN\n→ TEST\n→ VERIFY\n→ FIX\n→ NEXT\n\nNever continue while a critical component is broken.\n\n==================================================\nAI TOOL STRATEGY\n==================================================\n\nThe master prompt must tell Claude how to divide work among AI tools:\n\nClaude:\nresearch, literature analysis, research gap, architecture, code generation, code review\n\nChatGPT:\nindependent verification, architecture review, debugging, testing, technical reasoning, viva\n\nCursor:\nmain codebase implementation and integration\n\nGitHub Copilot:\nsmall coding tasks, autocomplete and tests\n\nPerplexity:\nindependent research/source verification\n\nv0:\nprofessional UI/dashboard generation\n\nGitHub:\nversion control\n\nThe AI tools are being used as the development/research team, so the workflow should maximize their usefulness.\n\n==================================================\nEXPERIMENT REQUIREMENT\n==================================================\n\nThe project must have REAL experiments.\n\nClaude must design:\n\nbaseline\nvs\nproposed approach\n\nUse appropriate metrics such as:\n\nprecision\nrecall\nF1\nfalse-positive rate\nfalse-negative rate\ndetection rate\nlatency\nprocessing overhead\ngeneralization\nrobustness\n\nOnly use metrics relevant to the actual project.\n\nAll final results must come from experiments we actually run.\n\nNever invent numbers.\n\n==================================================\nUI REQUIREMENT\n==================================================\n\nIf a UI is appropriate, create a professional cybersecurity dashboard.\n\nIt must use real backend data.\n\nNo static fake dashboard.\n\nShow only useful project information such as:\n\nqueries\ndetections\nrisk/decision\nevidence\nalerts\nstatistics\nperformance\nsystem status\n\n==================================================\nPPT / REPORT REQUIREMENT\n==================================================\n\nAfter the implementation and experiments are validated, generate the PPT and report according to the official college template and rubric.\n\nEverything shown in the PPT must match the actual implementation.\n\nIf something is not implemented, label it:\n\nPROPOSED\nor\nFUTURE SCOPE\n\nNever present planned functionality as completed.\n\n==================================================\nVIVA REQUIREMENT\n==================================================\n\nClaude must eventually conduct a mock viva.\n\nAsk questions one at a time.\n\nStart basic and become increasingly difficult.\n\nIf my answer is wrong:\n\n1. Explain what is wrong.\n2. Give the correct technical explanation.\n3. Give me a short answer I can say to faculty.\n4. Continue with the next question.\n\n==================================================\nFINAL AUDIT\n==================================================\n\nBefore declaring the project complete, Claude must audit:\n\nTITLE\n↓\nOBJECTIVES\n↓\nRESEARCH\n↓\nEXISTING SYSTEMS\n↓\nCURRENT LIMITATIONS\n↓\nRESEARCH GAP\n↓\nCONTRIBUTION\n↓\nARCHITECTURE\n↓\nCODE\n↓\nDATASET\n↓\nEXPERIMENTS\n↓\nREAL RESULTS\n↓\nUI\n↓\nPPT\n↓\nREPORT\n↓\nDEMO\n↓\nVIVA\n\nEverything must be consistent.\n\nThe final project must survive:\n\n\"THIS ALREADY EXISTS. WHAT DID YOU ACTUALLY ADD?\"\n\n==================================================\nMOST IMPORTANT RULE\n==================================================\n\nBe skeptical.\n\nDo not agree with my ideas automatically.\n\nIf something already exists, tell me.\n\nIf the research gap is weak, tell me.\n\nIf the project scope is too large, reduce it.\n\nIf an idea is impossible for one developer, reject it.\n\nIf a feature is unnecessary, remove it.\n\nIf a contribution is genuinely useful and feasible, explain why.\n\nDo not optimize for impressive wording.\n\nOptimize for:\n\nREAL PROBLEM\n+\nREAL RESEARCH GAP\n+\nREAL CONTRIBUTION\n+\nWORKING CODE\n+\nREAL TESTING\n+\nREAL EXPERIMENTS\n+\nREAL RESULTS\n+\nSTRONG DEMO\n+\nSTRONG VIVA\n\n==================================================\nOUTPUT FORMAT\n==================================================\n\nThe generated Claude master prompt must be:\n\n- extremely clear\n- structured\n- sequential\n- unambiguous\n- professional\n- detailed enough to guide the entire project\n- designed to prevent Claude from jumping ahead\n- designed for a solo student using multiple AI tools\n\nAt the END of the generated master prompt, instruct Claude:\n\n\"WAIT FOR THE USER TO PROVIDE THE PROJECT TITLE AND OFFICIAL COLLEGE MATERIAL.\n\nDO NOT START RESEARCH.\nDO NOT START CODING.\nDO NOT DESIGN THE ARCHITECTURE.\n\nFIRST COMPLETE PHASE 0 ONLY.\""
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#master%20one%20prompt",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-08-30T05:10:49.798Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
