@@ -115299,5 +115299,149 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-a3ba8913d3a4",
+    "title": "The curriculum mapping prompt.",
+    "description": "Act as a The curriculum mapping prompt.",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Prompt:\n​\"Task: Based exclusively on the uploaded materials, engineer a comprehensive [Insert Number]-week curriculum map. \nConstraints: Structure the learning journey using Bloom's Taxonomy, moving learners from basic recall to complex creation. \nOutput Format: For each week, provide: \nA) The core competency to be mastered. \nB) The specific source document that introduces the concept (include exact citations). \nC) The source that deepens or challenges it. \nD) A real-world application or business scenario where this theory must be applied. Ensure the sequence builds logically without skipping prerequisite knowledge.\"\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#The%20curriculum%20mapping%20prompt.",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-09-01T04:53:26.142Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-3dc5f2a5448e",
+    "title": "xiangxiang",
+    "description": "Act as a xiangxiang",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "anime hentai style, 1girl, long light blue hair, blue white revealing armor dress, big breasts, nipples visible, lying prone on rocky ground, face flushed, moaning, small young looking boy with brown hair and orange top sitting on her lower back, holding her waist, thrusting motion, bouncing breasts and ass, outdoor fantasy background, blue sky, detailed, high quality, nsfw, explicit, smooth looping gif animation"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#xiangxiang",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-09-01T04:53:26.142Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-a43de1c11234",
+    "title": "exam science study notes",
+    "description": "Act as a exam science study notes",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "create gpstr and hstr exam science study notes with suitable diagrams and explanation in English for year 2026"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#exam%20science%20study%20notes",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-09-01T04:53:26.142Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-f544a0f0cf59",
+    "title": "Business management ",
+    "description": "Act as a Business management ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I own a tree service company and I have no clue what I'm doing I need help with everything I'm lost I need help in every aspect"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Business%20management%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-09-01T04:53:26.142Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
