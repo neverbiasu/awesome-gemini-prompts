@@ -115515,5 +115515,221 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-b617adc43ab6",
+    "title": "streaming anime",
+    "description": "Act as a streaming anime",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "nime streaming architecture\n\n\nChat\n\nPreview\ncan you make a streming anime app android/ios dan menggunakan bahasa pemrograman Bertindaklah sebagai Senior Software Architect. Berikan analisis mendalam mengenai arsitektur teknologi di balik platform streaming anime skala global seperti Crunchyroll. Jelaskan secara teknis bahasa pemrograman, framework, dan infrastruktur yang digunakan dengan membaginya ke dalam 4 aspek berikut:\n\nBackend & Microservices: Bahasa apa saja yang digunakan (misal: Go, Node.js, Python) beserta alasan teknis pemilihannya untuk menangani high concurrency dan video playback authorization.\nFrontend & Player: Teknologi yang digunakan untuk membangun antarmuka web dan HTML5 video player agar adaptif dan minim latensi.\nMobile & TV Apps: Bahasa pemrograman native (seperti Kotlin dan Swift) yang digunakan untuk ekosistem Android, iOS, dan Smart TV.\nInfrastruktur & Data: Bagaimana pengelolaan database (SQL/NoSQL) untuk data pengguna, riwayat tontonan, serta peran Cloud Provider (seperti AWS) dan CDN dalam mendistribusikan video secara global.\nGunakan bahasa yang teknis namun mudah dipahami, serta berikan contoh konkret penerapan dari masing-masing teknologi tersebut pada fitur platform streaming."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#streaming%20anime",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-09-04T04:17:29.920Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-9f79b06f51e8",
+    "title": "assesment ",
+    "description": "Act as a assesment ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I am a master's student at Victoria University of Wellington in NZ. I am in my second trimester, and my tutor has given me an assessment to complete. In the assessment, there are three questions. I want you to help me answer one of the following questions below. Since this is the same question for the entire class, I want you to give me a unique idea which is different from the normal AI response that everyone would use. The answer should be precise, most accurate, unique, and cover all the requirements of the marking rubric as well in order for me to score 10/10 for this question. The question is: Context\n\nAotearoa New Zealand, like many other countries, is experiencing significant pressure on its health system as a consequence of the worldwide healthcare workforce shortage and chronic under-funding. One group of people who are particularly affected are people who require non-urgent surgery. Many people are waiting months. The media reports that this wait not only affects people personally but also impacts workplaces.  \n\n \n\nAssessment Task \n\nPlease write a 500-word abstract for a mixed method design research proposal that you would use to answer the following research question:\n\nWhat is the impact on workplaces from people having surgery delayed by six months due to the healthcare workforce crisis ? \n\nThe research abstract should use the following headings: \n\nTitle\nBackground and significance of the research\nType of mixed methods design \nSetting \nSample\nMethods\nAnalysis\n \n\nPlease use APA 7th Referencing system.\n\nMaximum Word limit 500 words- excluding reference list."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#assesment%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-09-04T04:17:29.920Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-b8c25bfa46be",
+    "title": "分析股票亚康股份的走势",
+    "description": "Act as a 分析股票亚康股份的走势",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "---\nname: my-skill-name\ndescription: 需要了解股票亚康股份的技术面\n---\n\n# 分析股票亚康股份的走势\n\nDescribe what this skill does and how the agent should use it.\n\n## Instructions\n\n- Step 1: ...\n- Step 2: ..."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#%E5%88%86%E6%9E%90%E8%82%A1%E7%A5%A8%E4%BA%9A%E5%BA%B7%E8%82%A1%E4%BB%BD%E7%9A%84%E8%B5%B0%E5%8A%BF",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-09-04T04:17:29.920Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-d331d542c133",
+    "title": "Rainy Season College Moodboard - 6-Frame Scrapbook Collage ",
+    "description": "Act as a Rainy Season College Moodboard - 6-Frame Scrapbook Collage ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"aspect_ratio\": \"9:16\",\n  \"format\": \"vertical collage moodboard\",\n  \"identity_lock\": {\n    \"rule\": \"Use whatever genetic features the attached image has - 100% identity preservation\",\n    \"source\": \"attached_image\",\n    \"features_to_use_from_reference\": [\"face structure\", \"skin tone\", \"eye color\", \"hair color, texture, length and style\", \"body shape\", \"age\", \"ethnicity\"],\n    \"instruction\": \"Do NOT invent, describe, or alter face, body shape, or hair. Use the exact genetic features from the attached reference image for the person in ALL 6 photos. Keep identity consistent across the collage.\"\n  },\n  \"positive_prompt\": \"Create an ultra-realistic Pinterest-style rainy season collage in a vertical 9:16 format. The collage contains 6 different candid photographs arranged in an elegant moodboard layout.\",\n  \"outfit\": {\n    \"top\": \"oversized pastel pink button-up shirt\",\n    \"bottom\": \"loose-flowing white wide-leg pants\",\n    \"note\": \"Same outfit in all 6 photos, with natural fabric folds and realistic draping\"\n  },\n  \"collage_photos\": [\n    {\n      \"photo_1\": \"Standing peacefully, enjoying the rain\"\n    },\n    {\n      \"photo_2\": \"Walking away under a transparent umbrella along a flower-lined pathway\"\n    },\n    {\n      \"photo_3\": \"Close-up shot beside blooming pink flowers\"\n    },\n    {\n      \"photo_4\": \"Stretching one hand into the falling rain\"\n    },\n    {\n      \"photo_5\": \"Sitting on a bench surrounded by flowers, relaxed pose\"\n    },\n    {\n      \"photo_6\": \"Standing under a transparent umbrella on a reflective rain-soaked campus road\"\n    }\n  ],\n  \"environment\": \"Charming university campus with old European-style architecture, flower-covered pathways, wet stone walkways, lush greenery, wet pavement reflecting lights and flowers, pink flower petals scattered on the ground, soft rainfall, dreamy atmosphere, warm earthy tones mixed with cool rainy weather, romantic mood\",\n  \"decorations\": \"Include handwritten-style aesthetic doodles, tiny hearts, flowers, raindrop illustrations, paper-note stickers, scrapbook elements, and Pinterest moodboard decorations\",\n  \"captions_in_collage\": [\"Rainy Season\", \"College Days\", \"Collecting Moments, Not Things\", \"Just Breathe\", \"Some People Feel Like Rain\"],\n  \"lighting_and_quality\": \"Soft cinematic lighting, creamy bokeh, photorealistic rain droplets, natural fabric folds, dreamy Korean aesthetic, lifestyle photography, editorial quality, ultra-detailed 8K\",\n  \"style_tags\": \"Korean Pinterest Moodboard, Rainy Season Aesthetic, College Campus Photography, Scrapbook Collage, Photorealistic 8K\",\n  \"negative_prompt\": \"cartoon, anime, CGI, distorted hands, extra fingers, low resolution, oversaturated colors, watermark, logo, AI artifacts, unrealistic anatomy, duplicate faces, different outfits, identity change\"\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Rainy%20Season%20College%20Moodboard%20-%206-Frame%20Scrapbook%20Collage%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-09-04T04:17:29.920Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-e422bb159f1b",
+    "title": "حلول طابعة",
+    "description": "Act as a حلول طابعة",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "عندي مشكلة عندي طابعة smartrace scan 36 وعندما اقوم بادخاله علي جهازي وندز 11 استمع صوت ولاكن لا يوجد اي جهاز جديد يخرجلي وبعد ذالك نزلت او تعريف ولاكن لم يتم تعرف وعند دخولي علي ادارة الاجهزة لا يخرجلي طابعة او بورت ماسبب ومالحل وكيف يمكنني ان احله بشكل صحيح وبدون تجارب حل صريح"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#%D8%AD%D9%84%D9%88%D9%84%20%D8%B7%D8%A7%D8%A8%D8%B9%D8%A9",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-09-04T04:17:29.920Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-e2c3f804db92",
+    "title": "The fox",
+    "description": "Act as a The fox",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "${The fox}If you don't have photos yet, I can create a 10-second educational-style video concept showing a sequence of still photographs rapidly flipping through a stack, gradually creating the illusion of smooth motion—like a flipbook."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#The%20fox",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-09-04T04:17:29.920Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
