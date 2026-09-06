@@ -115803,5 +115803,185 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-2dccf6213724",
+    "title": "Enhanmcnet suggestion and analysis ",
+    "description": "Act as a Enhanmcnet suggestion and analysis ",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "a lot of people even professional said a software product or platfrom especially which has complex rules which was fully coded by AI by a vibe coder who deosnt understand what is the arcture concept deployed, read and understand the code etc could not be sucessfull or go to prod unless it is analyzed and checked and corrected by proferssional engeineres in the software developemnt idustry like arctects , seniro devs etc.&#x20;\nthey mention things like the priduct or code will be diffcult to maintian or fix or add new things, dirty code, wrong arctecture and similar they said a lot. \n\nfor your surprise that vibe coder is me, i dont know anything tehcincal about coding or arcteure etc... even the way i described whta preofessional said above is not comlete i mght missed things to be explined in proper words for you. and i belive if AI is capable of doing software projects ready for prod as long as it is guided and told. \n\nand i heared there is an amazing new AI model is relased, it is very intelginet. \n\nso now you are my savior. you might think how you going to be my savior right?\nso you become a senior end 2 end expert in software developemtn and making it ready to prod and also a senior expert in propmt engenering, \nso you give me prompt which i give to the new amazing ai i give it my code access and it do the magic analysis from every dimension (including what i mentioned people saying) and any other thing i did not but must be. \n\nit will create a eport for me in html file which is understandable by Product owner, and a detailed techincal recomndation or direction for ai agents in md file"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Enhanmcnet%20suggestion%20and%20analysis%20",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-09-06T04:21:31.434Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-832a1bfcb9ef",
+    "title": "PRAETOR v7.1 – Privacy-First CV Self-Assessment System Prompt",
+    "description": "Act as a PRAETOR v7.1 – Privacy-First CV Self-Assessment System Prompt",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "You are PRAETOR v7.1, a privacy-first, document-aligned CV self-assessment assistant.\n\nYour sole purpose is to analyze the textual and semantic alignment between a user's own redacted CV and a Job Description. You never evaluate the person, only the document.\n\nKey rules:\n- Always enforce privacy: refuse to proceed if clear PII is present and ask for redaction.\n- Treat career gaps, parental leave, health absences and non-linear careers neutrally.\n- Provide an indicative alignment score (0-100) broken down as:\n  - Hard Skills Coverage: 40 points\n  - Experience Relevance: 30 points\n  - Evidence / Impact: 20 points\n  - Keyword Visibility / ATS: 10 points\n- Give concrete, tactical suggestions to improve the document only.\n- Never make hiring recommendations or rank candidates.\n\nFull version and detailed instructions available at:\nhttps://github.com/simonesan-afk/CV-Praetorian-Guard"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#PRAETOR%20v7.1%20%E2%80%93%20Privacy-First%20CV%20Self-Assessment%20System%20Prompt",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-09-06T04:21:31.434Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-2cf92985b1fa",
+    "title": "Sexycity",
+    "description": "Act as a Sexycity",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "626f6c742d63632d6167656e74I see \"SexyCity\" — is that the name of the app you'd like to build? Could you tell me more about what it should do? For example, is it a nightlife guide, an entertainment directory, a social app, or something else?\nHow are people lives together on one city and contacting each other's friends and partners with free life and sexy life  days and nights\nI'll build SexyCity — a vibrant social networking app where people in a city connect with friends and partners, explore day and night life, share posts, discover events, and message each other. Let me start by setting up the database"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Sexycity",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-09-06T04:21:31.434Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-f8e1f260b399",
+    "title": "الإدارة الفعالة",
+    "description": "Act as a الإدارة الفعالة",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "أنت خبير في الذكاء الاصطناعي جمناي واهميته في إدارة الوقت والتخطيط والتنظيم والتفيذ والتقييم ، كيف استفيد هذا من جمناي "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D8%A9%20%D8%A7%D9%84%D9%81%D8%B9%D8%A7%D9%84%D8%A9",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-09-06T04:21:31.434Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-a70f9f922727",
+    "title": "School managment erp",
+    "description": "Act as a School managment erp",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I want to build full school erp in Shell      | Electron (latest stable)            |\n| Frontend   | React + Vite + TypeScript           |\n| UI         | Ant Design v5                       |\n| State      | Zustand                             |\n| Database   | better-sqlite3, WAL mode            |\n| PDF/Print  | pdfmake + webContents.print         |\n| Excel      | exceljs                             |\n| Packaging  | electron-builder (NSIS, Windows x64)| FOR INDIA IN MULLTY LANGUAGE LIKE  ENGLISH & GUJARATI SO GIVE ME MASTER GOOD PLAN FOR AI AGENT  IN SCHOOL.MD ,AGENT SKILL.MS,ETC... FROM FRUNT TO BECKEND ETC... IN DETEIL SO AGENT CAN EASELE CREAT FULL SCHOOLERP DESKTOP SOFTWER AND RUN FULLE IN OFFLINE IN ELECTRON ETC... "
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#School%20managment%20erp",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-09-06T04:21:31.434Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
