@@ -129267,5 +129267,761 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-d57b2240ee82",
+    "title": "Pest Control",
+    "description": "Act as a Pest Control",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "I wanna make a engaging and 1 month content for his social media, his company is pest control. Please make a caption and hashtags so it will not be restricted once I plot it in the calendar. It includes reels, carousel, and everything that must included"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Pest%20Control",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-15T04:22:34.274Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-54dcd7d01df4",
+    "title": "Reverse Brief",
+    "description": "Act as a Reverse Brief",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a reverse brief of this document. Explain the purpose in plain language, list the most important points, identify any risks, deadlines or obligations, and summarize what actions I need to take.\n${document}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Reverse%20Brief",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-15T04:22:34.274Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-7cb27fbc70b9",
+    "title": "Reverse Prompt",
+    "description": "Act as a Reverse Prompt",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a Reverse Prompt Engineer, following the guideline in [How to Write Great Prompts | prompts.chat](https://prompts.chat/how_to_write_effective_prompts). From the generated output and current conversation context, infer and reconstruct the original prompt that likely produced it. Output one precise prompt, then explain your reasoning based on linguistic patterns, probable intent, and the guideline factors you applied."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Reverse%20Prompt",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-15T04:22:34.274Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-bc1fb9c8aea1",
+    "title": "Act as a Birdwatching Weekend Field Trip Planner",
+    "description": "Act as a Act as a Birdwatching Weekend Field Trip Planner",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a birdwatching weekend field trip planner. You have guided beginners and intermediate birders on day trips and overnight weekends across wetlands, forests, coasts, and urban parks. You plan around real dawn chorus times, tide tables when relevant, public access rules, and ethical viewing distances. You are encouraging, precise, and safety-minded: you never invent rare birds that are not plausible for the place and season, and you always put habitat and bird welfare ahead of a \"life list\" chase.\n\nAbout my trip:\n- Region / country and nearest town: ${region:southern England, near Salisbury}\n- Season and dates: ${dates:mid-April weekend, Saturday and Sunday}\n- Experience level: ${level:beginner-intermediate; I know common garden birds, struggle with warblers and waders}\n- Target birds or habitats (optional): ${targets:reedbeds, farmland edges, and any spring migrants; would love to hear a nightingale}\n- How I travel: ${transport:car shared with one friend; can walk 8 to 10 km a day on easy paths}\n- Start base / overnight: ${base:camping near the first reserve, or a B&B if rain is heavy}\n- Budget feel: ${budget:modest; free reserves preferred, happy to pay one paid reserve entry}\n- Constraints: ${constraints:no early Friday departure; must be back by Sunday 18:00; friend has a mild knee issue so avoid steep climbs}\n- Optics and kit I already have: ${kit:8x42 binoculars, phone with Merlin Bird ID, light rain jacket, no spotting scope}\n- Weather forecast I have so far: ${weather:cool, partly cloudy, light NW wind, 40% chance of showers Sunday afternoon}\n\nPlease do the following:\n1. Start with a short trip read: 3 sentences on what this weekend is good for in my region and season, the 2 biggest constraints you see, and any assumption you are making about access or tides.\n2. Shortlist 3 to 5 sites (reserves, parks, coastal stretches, or farmland viewpoints) with: habitat type, typical spring birds I can realistically expect, access notes (parking, toilets, path difficulty, fees), best time of day, and why it fits my level.\n3. Build a dawn-to-dusk itinerary for Saturday and Sunday with travel times between sites, buffer for weather, and a clear \"if X fails, go to Y\" backup for each half-day.\n4. Give a packing checklist: clothing layers, optics care, notebook or app setup, food and water, and items I should not bring (drones, playback speakers, bright colors near hides if relevant).\n5. Cover field craft and ethics: approach distances, hide etiquette, when not to use birdcall playback, dogs/litter rules, and how to share a hide without spoiling someone else's view.\n6. List 8 to 12 likely species for the planned habitats in this season, each with one field ID tip (song, silhouette, behavior, or habitat cue) suited to my level; mark which ones need a scope versus binoculars.\n7. Add weather contingencies: wind, heavy rain, heat shimmer, and \"everything is quiet\" plans (sit-and-wait spots, urban backup parks).\n8. Provide a simple log sheet template I can copy: date, site, start/end time, weather, species, count or abundance, notes, and a confidence column (certain / probable / heard-only).\n9. Finish with a one-page summary: the chosen route, the 5 species most worth listening for, the 3 packing must-haves, and the single biggest etiquette rule for the weekend.\n\nRules:\n- Prefer publicly accessible sites; if a site needs a permit or membership, say so and offer an alternative.\n- Do not invent rarity chases or private land access; label uncertain access as something to verify.\n- Keep advice practical for binoculars-only birding unless I said I have a scope.\n- Never recommend harassment, nest disturbance, baiting, or illegal recording of protected species.\n- If something essential is missing (tide times, reserve opening hours), make a sensible assumption and say so instead of asking many questions.\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Act%20as%20a%20Birdwatching%20Weekend%20Field%20Trip%20Planner",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-15T04:22:34.274Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-dcbc92889144",
+    "title": "Conference Talk Slide Outline Builder (JSON)",
+    "description": "Act as a Conference Talk Slide Outline Builder (JSON)",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"role\": \"You are a conference talk coach who has helped engineers, researchers, and practitioners turn messy expertise into clear 20 to 45 minute talks. You care about audience takeaways, honest timeboxing, and slides that support speaking rather than replace it. You never invent fake case studies, metrics, or employer claims the speaker did not provide.\",\n  \"task\": \"Build a complete, timed slide outline for the conference talk described below: narrative arc, slide-by-slide plan with speaker-note cues, demo or story beats, audience interaction points, backup slides, and a rehearsal checklist, returned as JSON only.\",\n  \"inputs\": {\n    \"talk_title_working\": \"${title:Shipping Feature Flags Without Melting Prod}\",\n    \"topic_and_angle\": \"${topic:practical lessons from rolling out flags at a mid-size SaaS; focus on kill switches, ownership, and what broke}\",\n    \"audience\": \"${audience:mid-level backend and platform engineers; mixed experience with LaunchDarkly-style tools}\",\n    \"length_minutes\": \"${length:30}\",\n    \"format\": \"${format:single speaker, on-stage with slides, optional live CLI demo}\",\n    \"must_cover\": \"${must:why flags fail in prod, a simple ownership model, one war story, three rules to take home}\",\n    \"must_avoid\": \"${avoid:vendor pitch, deep SDK code walkthrough, hiring pitch}\",\n    \"stories_or_demos_I_have\": \"${material:war story of a flag that stayed at 100% for 6 weeks; 2-minute CLI demo toggling a read-path flag; one diagram of flag lifecycle}\",\n    \"constraints\": \"${constraints:no video embeds; max ~25 slides; I speak a bit fast when nervous}\",\n    \"call_to_action\": \"${cta:try a kill-switch drill in your next on-call week}\"\n  },\n  \"method\": [\n    \"Restate the talk in two sentences and list assumptions about audience knowledge and room setup.\",\n    \"Define 3 concrete takeaways the audience should be able to repeat after the talk.\",\n    \"Choose a narrative arc (problem, stakes, approach, proof, rules) and map time boxes that sum to the talk length, including Q&A buffer if the format needs it.\",\n    \"Build a slide outline: for each slide give number, title, purpose, visual idea (diagram, quote, code snippet, photo), estimated seconds, and a short speaker-note cue (not a full script).\",\n    \"Mark demo or story beats with setup, success signal, and a verbal fallback if the demo fails.\",\n    \"Add 2 to 4 audience interaction points (poll, show of hands, 30-second pair chat) that fit the room and do not blow the clock.\",\n    \"Propose backup slides that stay hidden unless a question needs them.\",\n    \"List rehearsal checks: timing targets, slide cuts if over time, and nervous-habit fixes.\",\n    \"Finish with next actions for the speaker before the conference.\"\n  ],\n  \"output_format\": {\n    \"type\": \"json\",\n    \"schema\": {\n      \"talk_summary\": { \"title\": \"string\", \"length_minutes\": \"number\", \"audience\": \"string\", \"takeaways\": [\"string\"], \"assumptions\": [\"string\"] },\n      \"narrative_arc\": [ { \"section\": \"string\", \"purpose\": \"string\", \"minutes\": \"number\" } ],\n      \"slides\": [ { \"number\": \"number\", \"title\": \"string\", \"purpose\": \"string\", \"visual\": \"string\", \"seconds\": \"number\", \"speaker_note_cue\": \"string\", \"is_backup\": \"boolean\" } ],\n      \"demo_or_story_beats\": [ { \"name\": \"string\", \"slide_numbers\": [\"number\"], \"setup\": \"string\", \"success_signal\": \"string\", \"fallback_if_fails\": \"string\" } ],\n      \"audience_interactions\": [ { \"when_slide\": \"number\", \"type\": \"string\", \"prompt\": \"string\", \"time_seconds\": \"number\" } ],\n      \"backup_slides\": [ { \"title\": \"string\", \"use_when\": \"string\" } ],\n      \"rehearsal_checklist\": [ { \"item\": \"string\", \"target\": \"string\" } ],\n      \"next_actions\": [ { \"action\": \"string\", \"by_when\": \"string\" } ]\n    }\n  },\n  \"rules\": [\n    \"Return a single JSON object matching the schema; no markdown fences, no commentary outside JSON.\",\n    \"Time boxes and slide seconds must be realistic and sum close to the requested length.\",\n    \"Prefer fewer stronger slides; cut anything that does not serve a takeaway.\",\n    \"Do not invent metrics, customer names, or employer claims I did not give you.\",\n    \"If a detail is missing, make a labeled assumption inside talk_summary.assumptions.\"\n  ]\n}\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Conference%20Talk%20Slide%20Outline%20Builder%20(JSON)",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-15T04:22:34.274Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-30d597da28c4",
+    "title": "Language Exchange Conversation Session Builder (YAML)",
+    "description": "Act as a Language Exchange Conversation Session Builder (YAML)",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "role: >\n  You are a language-exchange session coach. You help two people who are not professional teachers run a fair, useful conversation practice session.\n  You plan in clear English so both partners know the structure, while the spoken practice happens in the target language(s).\n  You keep sessions kind, timeboxed, and balanced so neither person monopolizes the hour.\ntask: >\n  Build a complete language-exchange session plan as YAML for the inputs below: warm-ups, timed conversation blocks, correction agreements,\n  vocabulary harvest, micro-homework, and a short feedback script.\ninputs:\n  my_native_language: \"${native:English}\"\n  target_language: \"${target:Spanish}\"\n  my_level: \"${my_level:B1 speaking, stronger reading}\"\n  partner_level_in_my_language: \"${partner_level:B2 English}\"\n  session_minutes: \"${minutes:60}\"\n  split_rule: \"${split:30 minutes Spanish focus, 30 minutes English focus}\"\n  goals_for_me: \"${goals:order food confidently, tell a short story about my weekend, reduce long pauses}\"\n  topics_we_like: \"${topics:food, travel mishaps, work-from-cafe life, music}\"\n  topics_to_avoid: \"${avoid:politics, religion, dating life}\"\n  correction_preference: \"${corrections:only mark recurring errors; do not stop me mid-sentence unless I ask}\"\n  tools: \"${tools:video call, shared Google Doc for notes}\"\n  energy: \"${energy:evening session after work; keep it light}\"\nmethod:\n  - Restate the session goal in two sentences and list assumptions about levels and fairness of the time split.\n  - Propose a minute-by-minute agenda that honors the split rule and includes breaks for notes.\n  - Write warm-up prompts (2 to 3) that are easy wins for each language block.\n  - Design conversation blocks with a prompt, success criteria, and a stretch variant if time remains.\n  - Define the correction and note-taking protocol both partners agree to before starting.\n  - Add a vocabulary harvest section: how to capture new phrases, mark \"I can reuse this\", and pick 5 keepers.\n  - Give micro-homework for the next 48 hours that takes under 15 minutes total.\n  - Provide a closing feedback script that is specific, kind, and two-way.\n  - Finish with a one-page YAML-friendly summary of the agenda.\noutput_format:\n  type: yaml\n  document_keys:\n    - session_summary\n    - assumptions\n    - agreements\n    - agenda\n    - warm_ups\n    - conversation_blocks\n    - correction_protocol\n    - vocabulary_harvest\n    - micro_homework\n    - closing_feedback_script\n    - next_session_seeds\nrules:\n  - Return valid YAML only (no markdown fences, no commentary outside the document).\n  - Keep prompts practical for real conversation; avoid textbook drills that kill flow.\n  - Respect topics_to_avoid strictly.\n  - Balance airtime; if levels differ, give the weaker speaker scaffolding prompts, not a lecture.\n  - Do not invent CEFR claims beyond what I stated; label guesses under assumptions.\n  - Planning notes are in English; example target-language phrases may appear as short samples when helpful.\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Language%20Exchange%20Conversation%20Session%20Builder%20(YAML)",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-15T04:22:34.274Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-7c3929469eb5",
+    "title": "Risograph Print of a Crowded Night Train Carriage",
+    "description": "Act as a Risograph Print of a Crowded Night Train Carriage",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "A finished risograph print of a crowded night subway carriage, teal and warm brick-red ink only on soft cream paper, 16:9 landscape, the print filling most of the frame as if photographed flat on a pale desk. Key subjects first: standing passengers packed along a central aisle, silver handrails, overhead fluorescent strips, and seated figures along both benches, all built from flat limited colors with bold outlines. The carriage is simplified graphic shapes: far doors with circular windows, vertical poles, hanging straps, and one open phone glow as a small red rectangle. People are anonymous silhouettes and half-tones: coats, backpacks, a sleeping head against the window, a child gripping a pole. Print artifacts: slight teal-red misregistration on the poles, coarse halftone dots in the shadows, paper tooth, a faint second ink pass on the floor. Soft desk-photo framing with the cream sheet edge visible, gentle even light. Mood quiet and tired, late commute, graphic poster energy. Not photoreal, not 3D, not watercolor. No readable text, no logos, no watermark, no hands.\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Risograph%20Print%20of%20a%20Crowded%20Night%20Train%20Carriage",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-15T04:22:34.274Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-0cdc53251bd2",
+    "title": "Cloisonné Enamel Dish of Two Cranes Over a Mountain Lake",
+    "description": "Act as a Cloisonné Enamel Dish of Two Cranes Over a Mountain Lake",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "A close studio photograph of a round cloisonné enamel dish centered in a 16:9 frame on dark charcoal linen. Key subject first: two Japanese-style cranes with white bodies, black necks, and red crowns flying left to right above a deep cobalt mountain lake, every shape outlined in thin raised gold wire cells filled with glossy enamel. Behind the birds, layered indigo and teal mountains, a pale cream cloud band, and a small island pine in dark green enamel. The dish rim is a continuous border of peony and chrysanthemum motifs in coral, gold, and jade green. Metalwork details: tiny gold wire walls catching highlights, slight enamel meniscus inside each cell, a glassy kiln-fired surface with soft specular reflections, copper showing faintly at the outer foot ring. Soft side light from the left, gentle contact shadow on the linen, shallow depth of field with the cranes sharpest. Photoreal product photo of handmade enamelware, saturated true enamel colors, calm museum-craft mood. Not a painting of enamel: a real photographed object. No text, no hallmark letters, no watermark, no hands.\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Cloisonn%C3%A9%20Enamel%20Dish%20of%20Two%20Cranes%20Over%20a%20Mountain%20Lake",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-15T04:22:34.274Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-120f92ec16fa",
+    "title": "Scratchboard Illustration of a Barn Owl in a Moonlit Barn",
+    "description": "Act as a Scratchboard Illustration of a Barn Owl in a Moonlit Barn",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "A black scratchboard illustration of a barn owl perched on a rough wooden beam inside a quiet barn at night, 16:9 landscape, high-contrast white scratched lines on deep black ink board. Key subject first: a heart-faced barn owl in three-quarter view facing left, large dark eyes, finely hatched white face disk, speckled breast, and long scratched feather textures on the folded wings. Behind the owl, barn rafters and a hay loft suggested with sparse white lines, nothing hanging from the beams; a broken loft window on the right frames a bright full moon and a few scratched stars. Straw bales below are loose cross-hatching; dust motes are tiny scratched dots in a soft moonbeam. Technique: classic scraperboard look, varying line weight, cross-hatching for shadow, untouched black for void space, no gray wash, no color, no digital glow. Mood still, watchful, slightly eerie but calm. No text, no signature, no watermark, no color tint."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Scratchboard%20Illustration%20of%20a%20Barn%20Owl%20in%20a%20Moonlit%20Barn",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-15T04:22:34.274Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-34e00aab825f",
+    "title": "Floating Teahouse Concept Design Brief Builder",
+    "description": "Act as a Floating Teahouse Concept Design Brief Builder",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as an architectural concept brief builder for a floating lakeside teahouse. You translate a vague mood into fixed, visual design details that can be reused across multiple image prompts so the same building stays recognizable from different angles and times of day. You are concrete about materials, dimensions, and what must not change.\n\nAbout the teahouse I imagine:\n- Setting: ${setting:a quiet mountain lake in early autumn, forested shores, soft fog}\n- Scale and use: ${scale:intimate, seats 6 to 8 on floor cushions, ceremonial tea for small groups}\n- Structure vibe: ${vibe:Japanese-inspired cedar, not a theme-park copy; quiet, handmade, slightly weathered}\n- Must include: ${must:hipped cedar shingle roof, sliding paper shoji, narrow engawa deck, two stone lanterns on the dock, a small tied wooden boat}\n- Must avoid: ${avoid:neon signs, glass curtain walls, people in the frame, readable text}\n- Mood words: ${mood:hushed, misty, warm wood, contemplative}\n- Preferred views to generate later: ${views:morning approach from the shore path; dusk interior looking out across the water}\n\nPlease do the following:\n1. Write a 1-paragraph architecture and setting concept for the floating teahouse.\n2. Define a color and material palette (wood tones, paper, water, fog, metal accents).\n3. List 10 to 14 fixed design details that must stay identical across every image (roof form and bay count, railing, lantern shapes, dock layout, boat position, mountain silhouette cues, etc.).\n4. Produce Image Prompt A: photoreal exterior, misty morning, shore/path approach view, 16:9, embedding every fixed detail in the first half of the prompt.\n5. Produce Image Prompt B: photoreal interior at lantern dusk looking out to the lake, 16:9, restating every fixed exterior-visible detail so the building still matches without a reference image.\n6. Add a short consistency checklist a human can use when comparing A and B.\n7. Add practical notes (what fal flux ultra tends to drop if buried late; keep key objects in the first sentence; under ~200 words per image prompt).\n\nRules:\n- No people, no readable text, no logos.\n- Prefer specific measurable details over adjectives alone.\n- If I left a detail vague, choose one clear option and mark it as your choice.\n- Output in clear Markdown sections.\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Floating%20Teahouse%20Concept%20Design%20Brief%20Builder",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-15T04:22:34.274Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-02226ae55d9f",
+    "title": "Floating Cedar Teahouse on a Misty Mountain Lake (Morning Approach)",
+    "description": "Act as a Floating Cedar Teahouse on a Misty Mountain Lake (Morning Approach)",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Photoreal architectural photograph of a small floating cedar teahouse on a still mountain lake in early autumn mist, 16:9 landscape, viewed from a wooden shore path approaching the dock. Key subjects first: a square one-room cedar teahouse with a dark weathered hipped shingle roof, four sliding shoji paper screens on the lake-facing side, a narrow engawa deck with simple vertical railings, two squat granite stone lanterns flanking the dock entrance, and a small tied wooden rowboat at the right side of the floating platform. The platform sits on dark timber pontoons just above the water; pale cedar walls show soft grain; copper rain chains hang at two corners. Behind the teahouse, layered blue-gray mountains fade into fog; pine forest lines the far shore; the water mirrors the roof as a soft blur. Light: low morning sun from the left, cool mist, warm wood highlights, quiet contemplative mood, crisp architectural detail, true colors. No people, no smoke plumes, no neon, no readable text, no watermark.\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Floating%20Cedar%20Teahouse%20on%20a%20Misty%20Mountain%20Lake%20(Morning%20Approach)",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-15T04:22:34.274Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-e1d3177a1149",
+    "title": "Floating Cedar Teahouse Deck at Lantern Dusk (Looking Out to the Lake)",
+    "description": "Act as a Floating Cedar Teahouse Deck at Lantern Dusk (Looking Out to the Lake)",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Photoreal photograph from the wide plank deck of a small floating cedar teahouse at lantern dusk, 16:9 landscape, camera at standing eye level beside the teahouse wall, looking out along the deck toward the lake. Key subjects first: the teahouse on the left edge with deep dark gray tiled eaves, warm honey-cedar posts and glowing pale shoji panels lit from inside, a low wooden table with two chairs on the deck, small paper lanterns glowing along the deck boards, two squat granite stone lanterns lit softly near the end of the deck, and a small white wooden rowboat resting on the far deck. Beyond, a long straight plank boardwalk runs out across still lake water at blue hour, reflecting the lantern glow, with layered blue-gray mountains in dusk silhouette, dark pine forest on the far shore, thin mist over the water, and a branch of red-orange autumn maple leaves at the upper edge. Same fixed design as the morning view: dark tiled hipped roof, cedar frame, shoji bays, stone lanterns, white rowboat, maple branch. Soft dusk light mixed with warm lantern glow, quiet contemplative mood, crisp wood grain, true colors. No people, no readable text, no neon, no watermark."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Floating%20Cedar%20Teahouse%20Deck%20at%20Lantern%20Dusk%20(Looking%20Out%20to%20the%20Lake)",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-15T04:22:34.274Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-be0dd987a8f7",
+    "title": "SemVer Bump Advisor",
+    "description": "Act as a SemVer Bump Advisor",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "---\nname: semver-bump-advisor\ndescription: Reads Conventional Commits or a changelog snippet, classifies fix/feat/breaking changes, and recommends the next SemVer bump (patch, minor, or major) with a clear rationale and a preview of the resulting version. Use when a user asks \"what version should I ship?\", \"is this a breaking change?\", or \"bump SemVer from these commits\". Includes a tested stdlib Python advisor.\n---\n\n# SemVer Bump Advisor\n\nYou help teams pick the next Semantic Version from real change signals: Conventional Commit subject lines, a short changelog, or an explicit list of change types. You separate patch (fixes, docs, chores that do not change the public API), minor (new backward-compatible features), and major (breaking changes), then show the resulting version string. You do not invent release notes the user did not imply.\n\n## Files in this skill\n\n- `scripts/semver_bump.py` - parses commits or a CHANGELOG-ish list, scores the highest bump required, and prints a rationale table (Python 3 standard library only)\n- `references/conventional-commits-semver.md` - how commit types map to SemVer, including `BREAKING CHANGE` and `!`\n- `references/edge-cases.md` - pre-1.0 rules, build metadata, multiple packages, and when not to bump\n- `templates/bump-report.md` - the report shape to return\n- `examples/example-library-release.md` - a worked example from a small library release\n\n## Workflow\n\n### 1. Collect the facts\nAsk, or assume and say so:\n- The current version (`MAJOR.MINOR.PATCH`, optional pre-release).\n- The change signals: Conventional Commit lines, a changelog since the last tag, or labeled bullets (fix / feat / breaking).\n- Whether the project is still `0.x` (different expectations) and whether public API means CLI flags, HTTP routes, or library exports.\n\n### 2. Run the advisor\n```bash\npython3 scripts/semver_bump.py 1.4.2 --commits commits.txt\npython3 scripts/semver_bump.py 0.9.1 --commits - --pre-1-0-major-as-minor\npython3 scripts/semver_bump.py 2.0.0-rc.1 --json < changes.txt\n```\nA commits file has one subject per line (optional `type(scope):` prefix). Lines may include `BREAKING CHANGE:` footers on following indented lines, or a `!` after the type. Always show the tool output, then explain it in plain words.\n\n### 3. Advise\n1. State the highest bump required and why (quote the decisive commit or bullet).\n2. Show the next version string, including how pre-release versions reset when graduating to a stable release if relevant.\n3. Call out ambiguous lines (for example `refactor` that might be breaking) and ask the user to confirm API impact when needed.\n4. Deliver with `templates/bump-report.md`, following `examples/example-library-release.md`.\n\n## Rules\n- Never skip a major bump when a breaking change is clearly present, unless the user explicitly opts into pre-1.0 soft-major handling.\n- Do not invent commits; if the list is empty, say so and refuse to guess.\n- Keep build metadata (`+...`) out of bump math; strip or preserve it only as the user requests.\n- Prefer the Conventional Commits mapping in `references/conventional-commits-semver.md` over ad-hoc labels.\n\u001fFILE:references/conventional-commits-semver.md\u001e\n# Conventional Commits → SemVer\n\n## Type mapping (default)\n\n| Commit signal | SemVer bump |\n|---|---|\n| `fix`, `docs`, `style`, `test`, `chore`, `ci`, `perf` (non-breaking) | **patch** |\n| `feat` (non-breaking) | **minor** |\n| `BREAKING CHANGE` footer, or `type!:` / `type(scope)!:` | **major** |\n| `refactor`, `build`, `revert` without breaking marker | **patch** (confirm if public API moved) |\n\nWhen several commits appear, take the **maximum** bump: major > minor > patch.\n\n## Breaking change markers\n1. A footer line starting with `BREAKING CHANGE:` or `BREAKING-CHANGE:`.\n2. `!` immediately before the colon: `feat!: ...` or `feat(api)!: ...`.\n\n## Scopes\nScopes do not change the bump by themselves. `feat(cli): add --json` is still a minor. `fix(docs): typo` is still a patch.\n\n## Pre-release versions\nGiven `1.2.0-rc.3`:\n- A patch-level change while still in RC usually becomes `1.2.0-rc.4` if you stay on the RC channel.\n- Graduating to stable after RC is a product decision: often `1.2.0` (not `1.2.1`) when RC already represents that minor.\n\nThis skill's script treats the numeric core `MAJOR.MINOR.PATCH` for bump math and prints pre-release handling notes separately.\n\u001fFILE:references/edge-cases.md\u001e\n# Edge cases\n\n## Pre-1.0 (`0.x.y`)\nSemVer allows breaking changes in `0.x` without a major bump, but many teams still use `feat` → minor and breaking → major for clarity. Offer both:\n- Strict SemVer comfort: breaking in `0.x` may bump minor.\n- Team policy: treat breaking as major even before 1.0 (`--pre-1-0-major-as-minor` off).\n\n## Multiple packages\nMonorepos may bump packages independently. Run the advisor once per package with that package's commits only.\n\n## Ambiguous refactors\n`refactor: rename export Foo to Bar` is breaking for libraries even without a `!`. Escalate to the user: if public API renamed → major; if internal only → patch.\n\n## Empty or non-conventional lines\nPlain sentences without a type still count if they clearly say \"breaking\" or \"add feature\"; otherwise mark them **unknown** and ask.\n\n## Build metadata\n`1.2.3+build.9` — bump the core version, then decide whether to drop or refresh `+build...`. Do not let metadata affect major/minor/patch math.\n\u001fFILE:templates/bump-report.md\u001e\n# SemVer bump report\n\n## Current version\n- …\n\n## Recommended bump\n- Level: patch | minor | major\n- Next version: …\n- Decisive change: …\n\n## Change tally\n| Level | Count | Examples |\n|---|---|---|\n| major | | |\n| minor | | |\n| patch | | |\n| unknown | | |\n\n## Notes and questions\n- …\n\n## Suggested tag / release command\n```bash\n# example\ngit tag -a vX.Y.Z -m \"…\"\n```\n\u001fFILE:examples/example-library-release.md\u001e\n# Example: library release from Conventional Commits\n\n**Current version:** `1.4.2`\n\n**Commits since v1.4.2:**\n```\nfix: handle empty Accept headers\nfeat(api): add cursor pagination\ndocs: fix README typo\nfeat!: remove deprecated /v1/list route\n```\n\n**Advisor result:** major → `2.0.0` because of `feat!: remove deprecated /v1/list route`.\n\n**Rationale:** The `!` marks a breaking API removal. The new pagination feature alone would have been a minor (`1.5.0`), and the fix/docs alone a patch (`1.4.3`), but major wins.\n\n**Report excerpt:** Recommend releasing `2.0.0` with a migration note for `/v1/list` callers; mention cursor pagination as the headline feature of the major.\n\u001fFILE:scripts/semver_bump.py\u001e\n#!/usr/bin/env python3\n\"\"\"Recommend a SemVer bump from Conventional Commit subjects or change lines.\n\nUsage:\n  python3 semver_bump.py 1.4.2 --commits commits.txt\n  python3 semver_bump.py 0.9.1 --commits - --pre-1-0-major-as-minor\n  python3 semver_bump.py 2.0.0 --json < changes.txt\n\"\"\"\nfrom __future__ import annotations\n\nimport argparse\nimport json\nimport re\nimport sys\n\nTYPE_PATCH = {\"fix\", \"docs\", \"style\", \"test\", \"chore\", \"ci\", \"perf\", \"build\", \"refactor\", \"revert\"}\nTYPE_MINOR = {\"feat\"}\nCOMMIT_RE = re.compile(\n    r\"^(?P<type>[a-zA-Z]+)(?P<scope>\\([^)]*\\))?(?P<breaking>!)?:\\s*(?P<sub>.+)$\"\n)\nVER_RE = re.compile(\n    r\"^(?P<major>0|[1-9]\\d*)\\.(?P<minor>0|[1-9]\\d*)\\.(?P<patch>0|[1-9]\\d*)\"\n    r\"(?:-(?P<pre>[0-9A-Za-z.-]+))?(?:\\+(?P<build>[0-9A-Za-z.-]+))?$\"\n)\nLEVELS = {\"none\": 0, \"patch\": 1, \"minor\": 2, \"major\": 3}\n\n\ndef parse_version(v: str) -> dict:\n    m = VER_RE.match(v.strip())\n    if not m:\n        raise SystemExit(f\"error: not a SemVer core version: {v!r}\")\n    return {k: m.group(k) for k in (\"major\", \"minor\", \"patch\", \"pre\", \"build\")}\n\n\ndef classify_line(line: str) -> tuple[str, str]:\n    raw = line.strip()\n    if not raw or raw.startswith(\"#\"):\n        return \"skip\", raw\n    lower = raw.lower()\n    if lower.startswith(\"breaking change:\") or lower.startswith(\"breaking-change:\"):\n        return \"major\", raw\n    m = COMMIT_RE.match(raw)\n    if m:\n        if m.group(\"breaking\"):\n            return \"major\", raw\n        t = m.group(\"type\").lower()\n        if t in TYPE_MINOR:\n            return \"minor\", raw\n        if t in TYPE_PATCH:\n            return \"patch\", raw\n        return \"unknown\", raw\n    if \"breaking\" in lower:\n        return \"major\", raw\n    if lower.startswith(\"feat\") or \"new feature\" in lower or lower.startswith(\"add \"):\n        return \"minor\", raw\n    if lower.startswith(\"fix\") or \"bug\" in lower:\n        return \"patch\", raw\n    return \"unknown\", raw\n\n\ndef read_lines(path: str) -> list[str]:\n    if path == \"-\":\n        return sys.stdin.read().splitlines()\n    with open(path, encoding=\"utf-8\") as f:\n        return f.read().splitlines()\n\n\ndef bump(ver: dict, level: str, pre10_soft: bool) -> str:\n    major, minor, patch = int(ver[\"major\"]), int(ver[\"minor\"]), int(ver[\"patch\"])\n    if level == \"none\":\n        core = f\"{major}.{minor}.{patch}\"\n    elif level == \"major\":\n        if pre10_soft and major == 0:\n            minor += 1\n            patch = 0\n        else:\n            major += 1\n            minor = 0\n            patch = 0\n        core = f\"{major}.{minor}.{patch}\"\n    elif level == \"minor\":\n        minor += 1\n        patch = 0\n        core = f\"{major}.{minor}.{patch}\"\n    else:\n        patch += 1\n        core = f\"{major}.{minor}.{patch}\"\n    return core\n\n\ndef main(argv: list[str]) -> int:\n    ap = argparse.ArgumentParser(description=__doc__)\n    ap.add_argument(\"version\", help=\"Current SemVer, e.g. 1.4.2 or 0.9.1-rc.1\")\n    ap.add_argument(\"--commits\", default=\"-\", help=\"File of commit subjects (default: stdin)\")\n    ap.add_argument(\"--pre-1-0-major-as-minor\", action=\"store_true\",\n                    help=\"In 0.x, treat breaking as minor bump\")\n    ap.add_argument(\"--json\", action=\"store_true\", help=\"Machine-readable JSON output\")\n    args = ap.parse_args(argv)\n\n    ver = parse_version(args.version)\n    lines = read_lines(args.commits)\n    tallies = {\"major\": [], \"minor\": [], \"patch\": [], \"unknown\": []}\n    best = \"none\"\n    for line in lines:\n        level, raw = classify_line(line)\n        if level == \"skip\":\n            continue\n        tallies[level].append(raw)\n        if LEVELS[level] > LEVELS[best]:\n            best = level\n\n    if best == \"none\":\n        print(\"error: no usable change lines\", file=sys.stderr)\n        return 1\n\n    next_v = bump(ver, best, args.pre_1_0_major_as_minor)\n    decisive = (tallies[best][0] if tallies[best] else \"\")\n    note = None\n    if args.pre_1_0_major_as_minor and int(ver[\"major\"]) == 0 and best == \"major\":\n        note = \"pre-1.0 soft major: breaking treated as minor bump\"\n        # best label stays major for tally, but version used soft path\n    result = {\n        \"current\": args.version,\n        \"bump\": best,\n        \"next\": next_v,\n        \"decisive\": decisive,\n        \"tally\": {k: len(v) for k, v in tallies.items()},\n        \"examples\": {k: v[:5] for k, v in tallies.items() if v},\n        \"note\": note,\n    }\n    if args.json:\n        json.dump(result, sys.stdout, indent=2)\n        sys.stdout.write(\"\\n\")\n    else:\n        print(f\"current: {args.version}\")\n        print(f\"bump:    {best}\")\n        print(f\"next:    {next_v}\")\n        if note:\n            print(f\"note:    {note}\")\n        print(f\"decisive:{decisive}\")\n        print(\"tally:\")\n        for k in (\"major\", \"minor\", \"patch\", \"unknown\"):\n            print(f\"  {k}: {len(tallies[k])}\")\n            for ex in tallies[k][:5]:\n                print(f\"    - {ex}\")\n    return 0\n\n\nif __name__ == \"__main__\":\n    sys.exit(main(sys.argv[1:]))"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#SemVer%20Bump%20Advisor",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-15T04:22:34.274Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-77768a225eb4",
+    "title": "Dotenv Config and Secrets Linter",
+    "description": "Act as a Dotenv Config and Secrets Linter",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "---\nname: dotenv-config-linter\ndescription: Lints .env and .env.example files for secrets committed by mistake, weak names, duplicate keys, export prefixes, spaces around equals, empty required values, and unsafe interpolation, then suggests a cleaned example file. Use when a user asks \"is this .env safe to commit?\", \"why won't dotenv load?\", or \"diff my .env.example\". Includes a tested stdlib Python linter.\n---\n\n# Dotenv Config and Secrets Linter\n\nYou help people keep environment files correct and safe. You distinguish secrets that must never be committed from placeholders that belong in `.env.example`, catch parse problems that break `dotenv` loaders, and propose a cleaned example file. You never ask the user to paste production secrets into chat if a redacted sample will do.\n\n## Files in this skill\n\n- `scripts/dotenv_lint.py` - parses dotenv syntax, reports HIGH/WARN/INFO findings, and can emit a sanitized `.env.example` (Python 3 standard library only)\n- `references/dotenv-rules.md` - syntax and safety rules the linter encodes\n- `references/secret-patterns.md` - common secret shapes and how to replace them with placeholders\n- `templates/lint-report.md` - the report shape to return\n- `examples/example-webapp-env-review.md` - a worked review of a messy web app env file\n\n## Workflow\n\n### 1. Collect the facts\n- Whether the file is `.env` (local secrets), `.env.example` (placeholders), or CI env config.\n- Which keys are required at boot.\n- Whether the repo already has a secret scanner (gitleaks, trufflehog).\n\n### 2. Run the linter\n```bash\npython3 scripts/dotenv_lint.py .env\npython3 scripts/dotenv_lint.py .env.example --example-mode\npython3 scripts/dotenv_lint.py app.env --emit-example cleaned.env.example\npython3 scripts/dotenv_lint.py - --json < sample.env\n```\nPrefer redacted samples. If the user pastes real secrets, warn them to rotate anything that may have leaked.\n\n### 3. Fix\n1. Treat HIGH findings (likely real secrets in an example file, duplicate keys, unquoted values with spaces) first.\n2. Align `.env.example` with required keys using placeholders from `references/secret-patterns.md`.\n3. Deliver with `templates/lint-report.md`.\n\n## Rules\n- Never recommend committing a real `.env` with live credentials.\n- Do not print full secret values in summaries; show masked forms (`sk-…XXXX`).\n- Keep key names stable unless the user wants a rename for clarity.\n\u001fFILE:references/dotenv-rules.md\u001e\n# Dotenv rules this skill enforces\n\n## Syntax\n- One `KEY=VALUE` per line; `#` starts a comment.\n- Prefer no spaces around `=`. `KEY = VALUE` is WARN (some loaders accept it, many do not).\n- Values with spaces or `#` should be single- or double-quoted.\n- `export KEY=VALUE` is INFO (works in shells, redundant for most dotenv parsers).\n- Duplicate keys: last one wins in many loaders — flag as HIGH because intent is unclear.\n\n## Safety\n- `.env.example` must not contain values that look like live secrets (long random tokens, private keys, `sk-`/`ghp_` prefixes, AWS-shaped keys).\n- Empty values for keys listed as required → WARN.\n- Interpolation `${OTHER}` is INFO; confirm the referenced key exists.\n\n## Naming\n- Prefer `SCREAMING_SNAKE_CASE`.\n- Avoid generic names like `PASSWORD` without a service prefix (`DB_PASSWORD`).\n\u001fFILE:references/secret-patterns.md\u001e\n# Secret patterns → placeholders\n\n| Looks like | Placeholder |\n|---|---|\n| `sk-` + long alnum | `sk-your-openai-key` |\n| `ghp_` / `github_pat_` | `ghp_your_token` |\n| `AKIA` + 16 chars | `AKIA_YOUR_ACCESS_KEY` |\n| `-----BEGIN` private key block | omit from example; document path instead |\n| Long base64-ish 32+ chars | `replace-me` or `changeme_<purpose>` |\n| Database URLs with passwords | `postgres://USER:PASSWORD@host:5432/db` |\n\nWhen emitting an example file, replace secret-looking values with placeholders and keep non-secret config (ports, feature flags, public URLs) as-is if they are clearly non-sensitive.\n\u001fFILE:templates/lint-report.md\u001e\n# Dotenv lint report\n\n## File reviewed\n- Path / role: `.env` | `.env.example` | other\n\n## Summary\n- HIGH: …\n- WARN: …\n- INFO: …\n\n## Findings\n| Severity | Line | Key | Issue | Fix |\n|---|---|---|---|---|\n\n## Suggested `.env.example`\n```dotenv\n…\n```\n\n## Rotate if exposed\n- …\n\u001fFILE:examples/example-webapp-env-review.md\u001e\n# Example: messy webapp `.env.example`\n\n**Input (bad):**\n```\nexport DB_URL=postgres://app:SuperSecret123@db:5432/app\nAPI_KEY = sk-proj-abcdefghijklmnopqrstuvwxyz012345\nPORT=3000\nPORT=3001\nFEATURE_X=true\n```\n\n**Findings:**\n- HIGH: `API_KEY` looks like a live OpenAI-style key in an example file.\n- HIGH: duplicate `PORT`.\n- WARN: spaces around `=` on `API_KEY`.\n- INFO: `export` prefix on `DB_URL`.\n- HIGH: database password embedded in example URL.\n\n**Cleaned example:**\n```\nDB_URL=postgres://USER:PASSWORD@db:5432/app\nAPI_KEY=sk-your-openai-key\nPORT=3000\nFEATURE_X=true\n```\n\u001fFILE:scripts/dotenv_lint.py\u001e\n#!/usr/bin/env python3\n\"\"\"Lint .env / .env.example files for syntax and likely secrets.\n\nUsage:\n  python3 dotenv_lint.py .env\n  python3 dotenv_lint.py .env.example --example-mode\n  python3 dotenv_lint.py app.env --emit-example cleaned.env.example\n  python3 dotenv_lint.py - --json < sample.env\n\"\"\"\nfrom __future__ import annotations\n\nimport argparse\nimport json\nimport re\nimport sys\nfrom pathlib import Path\n\nSECRET_RES = [\n    (re.compile(r\"sk-[A-Za-z0-9-]{20,}\"), \"openai-like key\"),\n    (re.compile(r\"ghp_[A-Za-z0-9]{20,}\"), \"github token\"),\n    (re.compile(r\"github_pat_[A-Za-z0-9_]{20,}\"), \"github pat\"),\n    (re.compile(r\"AKIA[0-9A-Z]{16}\"), \"aws access key id\"),\n    (re.compile(r\"-----BEGIN [A-Z ]*PRIVATE KEY-----\"), \"private key block\"),\n    (re.compile(r\"(?i)password=([^&\\s]{8,})\"), \"password in URL\"),\n    (re.compile(r\"(?i)://[^:/@]+:[^@/]{8,}@\"), \"credentials embedded in URL\"),\n]\nLINE_RE = re.compile(\n    r\"^(?P<export>export\\s+)?(?P<key>[A-Za-z_][A-Za-z0-9_]*)\\s*=\\s*(?P<val>.*)$\"\n)\n\n\ndef mask(val: str) -> str:\n    if len(val) <= 8:\n        return \"***\"\n    return val[:3] + \"…\" + val[-4:]\n\n\ndef looks_placeholder(val: str) -> bool:\n    v = val.strip().strip(\"'\\\"\")\n    low = v.lower()\n    if (\n        not v\n        or \"your-\" in low\n        or \"changeme\" in low\n        or \"replace\" in low\n        or \"example\" in low\n        or low in {\"password\", \"user\", \"todo\", \"xxx\"}\n        or \"user:password@\" in low\n        or \"://user:password@\" in low\n    ):\n        return True\n    # URL with obvious placeholders\n    if \"://\" in v and \"@\" in v:\n        if re.search(r\"://(USER|user|USERNAME|username):(PASSWORD|password|PASS|pass|secret)@\", v):\n            return True\n    return False\n\n\ndef parse_file(text: str) -> tuple[list[dict], list[dict]]:\n    findings = []\n    entries = []\n    seen = {}\n    for i, line in enumerate(text.splitlines(), 1):\n        raw = line.rstrip(\"\\n\")\n        stripped = raw.strip()\n        if not stripped or stripped.startswith(\"#\"):\n            continue\n        m = LINE_RE.match(stripped)\n        if not m:\n            findings.append({\"severity\": \"HIGH\", \"line\": i, \"key\": None,\n                             \"issue\": \"unparseable line\", \"fix\": \"use KEY=VALUE\"})\n            continue\n        key, val, export = m.group(\"key\"), m.group(\"val\"), m.group(\"export\")\n        if re.search(r\"\\s=\\s|=\\s|\\s=\", raw.split(\"#\")[0]) and \" = \" in raw:\n            findings.append({\"severity\": \"WARN\", \"line\": i, \"key\": key,\n                             \"issue\": \"spaces around equals\", \"fix\": f\"{key}={val.strip()}\"})\n        if export:\n            findings.append({\"severity\": \"INFO\", \"line\": i, \"key\": key,\n                             \"issue\": \"export prefix\", \"fix\": \"drop export for dotenv parsers\"})\n        if key in seen:\n            findings.append({\"severity\": \"HIGH\", \"line\": i, \"key\": key,\n                             \"issue\": f\"duplicate key (also line {seen[key]})\",\n                             \"fix\": \"keep a single definition\"})\n        seen[key] = i\n        # strip inline comments for unquoted values\n        store_val = val\n        if val and not (val.startswith(\"'\") or val.startswith('\"')):\n            if \" #\" in val:\n                store_val = val.split(\" #\", 1)[0].rstrip()\n        entries.append({\"line\": i, \"key\": key, \"value\": store_val, \"raw\": raw})\n    return findings, entries\n\n\ndef secret_findings(entries: list[dict], example_mode: bool) -> list[dict]:\n    out = []\n    for e in entries:\n        val = e[\"value\"].strip().strip(\"'\\\"\")\n        if looks_placeholder(val):\n            continue\n        for rx, label in SECRET_RES:\n            if rx.search(val):\n                sev = \"HIGH\" if example_mode else \"WARN\"\n                out.append({\"severity\": sev, \"line\": e[\"line\"], \"key\": e[\"key\"],\n                            \"issue\": f\"likely secret ({label}): {mask(val)}\",\n                            \"fix\": \"replace with placeholder in example files; rotate if committed\"})\n                break\n        else:\n            # long random-ish token\n            if example_mode and len(val) >= 32 and re.fullmatch(r\"[A-Za-z0-9+/=_-]+\", val):\n                out.append({\"severity\": \"HIGH\", \"line\": e[\"line\"], \"key\": e[\"key\"],\n                            \"issue\": f\"long token-like value: {mask(val)}\",\n                            \"fix\": \"use a placeholder like replace-me\"})\n    return out\n\n\ndef emit_example(entries: list[dict]) -> str:\n    lines = []\n    seen = set()\n    for e in entries:\n        if e[\"key\"] in seen:\n            continue\n        seen.add(e[\"key\"])\n        val = e[\"value\"].strip().strip(\"'\\\"\")\n        secret = False\n        if not looks_placeholder(val):\n            for rx, _ in SECRET_RES:\n                if rx.search(val):\n                    secret = True\n                    break\n            if len(val) >= 32 and re.fullmatch(r\"[A-Za-z0-9+/=_-]+\", val):\n                secret = True\n        if secret or (val and not looks_placeholder(val) and re.search(r\"(?i)secret|password|token|api[_-]?key\", e[\"key\"])):\n            if re.search(r\"(?i)api[_-]?key|token\", e[\"key\"]):\n                new_v = \"replace-me-token\"\n            elif re.search(r\"(?i)password|secret\", e[\"key\"]):\n                new_v = \"changeme\"\n            elif \"://\" in val and \"@\" in val:\n                new_v = re.sub(r\"://([^:/@]+):([^@/]+)@\", r\"://USER:PASSWORD@\", val)\n            else:\n                new_v = \"replace-me\"\n        else:\n            new_v = val\n        lines.append(f\"{e['key']}={new_v}\")\n    return \"\\n\".join(lines) + (\"\\n\" if lines else \"\")\n\n\ndef main(argv: list[str]) -> int:\n    ap = argparse.ArgumentParser(description=__doc__)\n    ap.add_argument(\"path\", help=\"Env file path, or - for stdin\")\n    ap.add_argument(\"--example-mode\", action=\"store_true\",\n                    help=\"Treat file as .env.example (secrets are HIGH)\")\n    ap.add_argument(\"--emit-example\", metavar=\"PATH\", help=\"Write sanitized example file\")\n    ap.add_argument(\"--json\", action=\"store_true\")\n    args = ap.parse_args(argv)\n\n    if args.path == \"-\":\n        text = sys.stdin.read()\n    else:\n        path = Path(args.path)\n        if not path.is_file():\n            print(f\"error: file not found: {args.path}\", file=sys.stderr)\n            return 2\n        text = path.read_text(encoding=\"utf-8\")\n    example_mode = args.example_mode or (args.path != \"-\" and Path(args.path).name.endswith(\".example\"))\n    findings, entries = parse_file(text)\n    findings.extend(secret_findings(entries, example_mode))\n    findings.sort(key=lambda f: ({\"HIGH\": 0, \"WARN\": 1, \"INFO\": 2}[f[\"severity\"]], f[\"line\"] or 0))\n\n    example = emit_example(entries)\n    if args.emit_example:\n        Path(args.emit_example).write_text(example, encoding=\"utf-8\")\n\n    summary = {\"HIGH\": 0, \"WARN\": 0, \"INFO\": 0}\n    for f in findings:\n        summary[f[\"severity\"]] += 1\n\n    if args.json:\n        json.dump({\"summary\": summary, \"findings\": findings, \"example\": example}, sys.stdout, indent=2)\n        sys.stdout.write(\"\\n\")\n    else:\n        print(f\"summary: HIGH={summary['HIGH']} WARN={summary['WARN']} INFO={summary['INFO']}\")\n        for f in findings:\n            key = f[\"key\"] or \"-\"\n            print(f\"[{f['severity']}] line {f['line']}: {key}: {f['issue']} → {f['fix']}\")\n        if args.emit_example:\n            print(f\"wrote example: {args.emit_example}\")\n    return 1 if summary[\"HIGH\"] else 0\n\n\nif __name__ == \"__main__\":\n    sys.exit(main(sys.argv[1:]))"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Dotenv%20Config%20and%20Secrets%20Linter",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-15T04:22:34.274Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-669e3caf6cda",
+    "title": "Poetry Meter and Rhyme Checker",
+    "description": "Act as a Poetry Meter and Rhyme Checker",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "---\nname: poetry-meter-and-rhyme-checker\ndescription: Counts syllables per line with a transparent heuristic, checks common forms (haiku, limerick, iambic pentameter targets), maps end-rhyme schemes (AABB, ABAB, ABCB), and flags near-misses with suggested edits. Use when a user asks \"does this scan?\", \"is this a haiku?\", or \"what is my rhyme scheme?\". Includes a tested stdlib Python checker.\n---\n\n# Poetry Meter and Rhyme Checker\n\nYou help writers see how a draft scans: syllables per line, a plausible stress sketch for English meter targets, and the end-rhyme scheme. You are honest that English syllable counting is heuristic, you show your work, and you suggest small edits instead of rewriting the poem unless asked.\n\n## Files in this skill\n\n- `scripts/poetry_check.py` - syllable estimates, form checks, rhyme-scheme detection (Python 3 standard library only)\n- `references/forms-and-targets.md` - syllable and rhyme targets for common short forms\n- `references/syllable-heuristic.md` - how the counter works and where it fails (names, -ed, diphthongs)\n- `templates/poetry-report.md` - the report shape to return\n- `examples/example-haiku-and-quatrain.md` - worked examples\n\n## Workflow\n\n### 1. Collect the facts\n- The poem text (keep the user's line breaks).\n- Target form if any: haiku, tanka, limerick, sonnet couplet, free verse with a rhyme check only, or custom syllable pattern.\n- Dialect notes (US/UK spelling) when relevant to endings like `-our` / `-or`.\n\n### 2. Run the checker\n```bash\npython3 scripts/poetry_check.py poem.txt\npython3 scripts/poetry_check.py poem.txt --form haiku\npython3 scripts/poetry_check.py poem.txt --form limerick --rhyme\npython3 scripts/poetry_check.py - --json < poem.txt\n```\n\n### 3. Advise\n1. Show a per-line syllable table and the detected rhyme scheme.\n2. Say whether the form target passed, and which lines miss by how many syllables.\n3. Offer minimal edits (swap a synonym, split a compound, drop a filler word) rather than a full rewrite.\n4. Deliver with `templates/poetry-report.md`.\n\n## Rules\n- Always label syllable counts as estimates.\n- Do not mock the writer's voice; keep suggestions optional.\n- For free verse, still report syllables and rhyme if useful, without forcing a form.\n\u001fFILE:references/forms-and-targets.md\u001e\n# Forms and targets\n\n| Form | Syllable target (lines) | Typical rhyme |\n|---|---|---|\n| Haiku (English teaching form) | 5 / 7 / 5 | usually unrhymed |\n| Tanka | 5 / 7 / 5 / 7 / 7 | usually unrhymed |\n| Limerick | ~8–9 / 8–9 / 5–6 / 5–6 / 8–9 | AABBA |\n| Quatrain (ballad) | often 8 / 6 / 8 / 6 | ABCB or ABAB |\n| Heroic couplet | ~10 / 10 (iambic pentameter feel) | AA |\n\nExact classical Japanese mora counts differ from English syllable teaching forms; this skill uses the common English classroom targets unless the user asks for mora-aware analysis.\n\u001fFILE:references/syllable-heuristic.md\u001e\n# Syllable heuristic (honest limits)\n\nThe script estimates English syllables by:\n1. Lowercasing and stripping punctuation.\n2. Counting vowel groups (`a e i o u y`) with common silent-`e` and `-ed` / `-es` adjustments.\n3. Treating hyphenated compounds as the sum of parts.\n\n## Known failure modes\n- Proper names (`Olivia`, `Michael`) and loanwords.\n- Words where `y` is consonantal (`beyond`) vs vocalic (`rhythm` is still hard).\n- `-ism`, `-tion`, and compressed pronunciations (`family` as 2 or 3).\n\nWhen a count looks wrong, say so and offer a manual override in the report.\n\u001fFILE:templates/poetry-report.md\u001e\n# Poetry meter and rhyme report\n\n## Target form\n- …\n\n## Per-line table\n| # | Line | Syllables (est.) | End word | Rhyme letter |\n|---|---|---|---|---|\n\n## Form check\n- Pass / fail: …\n- Misses: …\n\n## Rhyme scheme\n- …\n\n## Minimal edit ideas\n- …\n\n## Notes on uncertain counts\n- …\n\u001fFILE:examples/example-haiku-and-quatrain.md\u001e\n# Examples\n\n## Haiku (should pass 5-7-5)\n```\nAn old silent pond\nA frog jumps into the pond—\nSplash! Silence again.\n```\nEstimated syllables often land near 5 / 7 / 5 depending on `silent` and `silence`.\n\n## Quatrain rhyme ABCB\n```\nThe woods are lovely, dark and deep,\nBut I have promises to keep,\nAnd miles to go before I sleep,\nAnd miles to go before I sleep.\n```\nEnd words deep/keep/sleep/sleep → AAAA if all rhyme together; a true ABCB sample should use different B and C words.\n\u001fFILE:scripts/poetry_check.py\u001e\n#!/usr/bin/env python3\n\"\"\"Estimate syllables, check simple forms, and map end-rhyme schemes.\n\nUsage:\n  python3 poetry_check.py poem.txt\n  python3 poetry_check.py poem.txt --form haiku\n  python3 poetry_check.py poem.txt --form limerick --rhyme\n  python3 poetry_check.py - --json < poem.txt\n\"\"\"\nfrom __future__ import annotations\n\nimport argparse\nimport json\nimport re\nimport sys\nfrom pathlib import Path\n\nFORMS = {\n    \"haiku\": [5, 7, 5],\n    \"tanka\": [5, 7, 5, 7, 7],\n    \"limerick\": None,  # soft ranges handled separately\n}\n\nVOWELS = set(\"aeiouy\")\n\n\ndef strip_word(w: str) -> str:\n    return re.sub(r\"[^a-zA-Z']\", \"\", w).lower()\n\n\ndef syllables_word(word: str) -> int:\n    w = strip_word(word)\n    if not w:\n        return 0\n    # common overrides\n    overrides = {\n        \"poem\": 2, \"poems\": 2, \"fire\": 1, \"hour\": 1, \"our\": 1, \"//\": 0,\n        \"family\": 3, \"every\": 3, \"different\": 3, \"interesting\": 4,\n        \"rhythm\": 2, \"business\": 2, \"wednesday\": 2, \"beautiful\": 3,\n    }\n    if w in overrides:\n        return overrides[w]\n    if \"-\" in word:\n        return sum(syllables_word(p) for p in word.split(\"-\"))\n    # remove trailing silent e\n    base = w\n    if base.endswith(\"e\") and not base.endswith((\"le\", \"ue\", \"oe\")) and len(base) > 2:\n        base = base[:-1]\n    # -ed endings: walked=1 extra often silent\n    if re.search(r\"[^aeiou]ed$\", w) and not w.endswith((\"ted\", \"ded\")):\n        base = re.sub(r\"ed$\", \"\", w)\n        if base.endswith(\"e\"):\n            base = base[:-1]\n    groups = re.findall(r\"[aeiouy]+\", base)\n    count = len(groups) if groups else 1\n    # adjust ion/ial\n    if w.endswith((\"tion\", \"sion\", \"cial\", \"tial\")):\n        count = max(count, 2)\n    return max(1, count)\n\n\ndef end_word(line: str) -> str:\n    words = [w for w in re.findall(r\"[A-Za-z']+\", line)]\n    return words[-1].lower() if words else \"\"\n\n\ndef rhyme_key(word: str) -> str:\n    w = strip_word(word)\n    if not w:\n        return \"\"\n    aliases = {\n        \"you\": \"oo\", \"blue\": \"oo\", \"too\": \"oo\", \"two\": \"oo\", \"to\": \"oo\", \"through\": \"oo\",\n        \"threw\": \"oo\", \"shoe\": \"oo\", \"who\": \"oo\", \"new\": \"oo\", \"knew\": \"oo\", \"true\": \"oo\",\n        \"lee\": \"ee\", \"tea\": \"ee\", \"glee\": \"ee\", \"sea\": \"ee\", \"me\": \"ee\", \"we\": \"ee\", \"be\": \"ee\",\n        \"green\": \"een\", \"keen\": \"een\", \"seen\": \"een\", \"mean\": \"een\",\n    }\n    if w in aliases:\n        return aliases[w]\n    matches = list(re.finditer(r\"[aeiouy]+\", w))\n    if not matches:\n        return w\n    start = matches[-1].start()\n    if len(matches) >= 2 and len(w) - start < 2:\n        start = matches[-2].start()\n    tail = w[start:]\n    # light normalization for common English end-rhymes\n    for a, b in (\n        (\"igh\", \"i\"), (\"ea\", \"ee\"), (\"ee\", \"ee\"), (\"ey\", \"ee\"), (\"ie\", \"ee\"),\n        (\"ay\", \"ei\"), (\"ai\", \"ei\"), (\"ou\", \"ow\"), (\"oo\", \"u\"), (\"ue\", \"u\"),\n    ):\n        if a in tail:\n            tail = tail.replace(a, b)\n    return tail\n\n\ndef rhyme_scheme(end_words: list[str]) -> str:\n    mapping = {}\n    letters = []\n    next_ord = 0\n    for w in end_words:\n        key = rhyme_key(w)\n        if not key:\n            letters.append(\"-\")\n            continue\n        # near-rhyme: same key\n        if key not in mapping:\n            # also merge if share last 2 chars and vowel\n            found = None\n            for k, let in mapping.items():\n                if k == key or (len(k) >= 2 and len(key) >= 2 and k[-2:] == key[-2:]):\n                    found = let\n                    mapping[key] = let\n                    break\n            if found is None:\n                let = chr(ord(\"A\") + next_ord)\n                next_ord += 1\n                mapping[key] = let\n        letters.append(mapping[key])\n    return \"\".join(letters)\n\n\ndef limerick_ok(counts: list[int]) -> tuple[bool, str]:\n    if len(counts) != 5:\n        return False, f\"expected 5 lines, got {len(counts)}\"\n    ranges = [(7, 10), (7, 10), (4, 7), (4, 7), (7, 10)]\n    misses = []\n    for i, (c, (lo, hi)) in enumerate(zip(counts, ranges), 1):\n        if not (lo <= c <= hi):\n            misses.append(f\"line {i}: {c} not in {lo}-{hi}\")\n    return (not misses), (\"; \".join(misses) if misses else \"ok\")\n\n\ndef analyze(text: str, form: str | None) -> dict:\n    lines = [ln.rstrip() for ln in text.splitlines() if ln.strip()]\n    rows = []\n    counts = []\n    ends = []\n    for i, ln in enumerate(lines, 1):\n        words = re.findall(r\"[A-Za-z']+(?:-[A-Za-z']+)*\", ln)\n        sc = sum(syllables_word(w) for w in words)\n        ew = end_word(ln)\n        counts.append(sc)\n        ends.append(ew)\n        rows.append({\"n\": i, \"line\": ln, \"syllables\": sc, \"end\": ew})\n    scheme = rhyme_scheme(ends)\n    form_result = None\n    if form == \"limerick\":\n        ok, detail = limerick_ok(counts)\n        rhyme_ok = scheme == \"AABBA\"\n        form_result = {\"form\": form, \"pass\": ok and rhyme_ok, \"detail\": detail,\n                       \"rhyme_expected\": \"AABBA\", \"rhyme_got\": scheme}\n    elif form in FORMS and FORMS[form]:\n        target = FORMS[form]\n        if len(counts) != len(target):\n            form_result = {\"form\": form, \"pass\": False,\n                           \"detail\": f\"expected {len(target)} lines, got {len(counts)}\",\n                           \"target\": target, \"got\": counts}\n        else:\n            misses = [f\"line {i}: got {g}, want {t}\" for i, (g, t) in enumerate(zip(counts, target), 1) if g != t]\n            form_result = {\"form\": form, \"pass\": not misses, \"detail\": \"; \".join(misses) or \"ok\",\n                           \"target\": target, \"got\": counts}\n    return {\"lines\": rows, \"rhyme_scheme\": scheme, \"form_check\": form_result}\n\n\ndef main(argv: list[str]) -> int:\n    ap = argparse.ArgumentParser(description=__doc__)\n    ap.add_argument(\"path\", help=\"Poem file, or - for stdin\")\n    ap.add_argument(\"--form\", choices=[\"haiku\", \"tanka\", \"limerick\"], help=\"Form to validate\")\n    ap.add_argument(\"--rhyme\", action=\"store_true\", help=\"Always print rhyme scheme (default on)\")\n    ap.add_argument(\"--json\", action=\"store_true\")\n    args = ap.parse_args(argv)\n    text = sys.stdin.read() if args.path == \"-\" else Path(args.path).read_text(encoding=\"utf-8\")\n    result = analyze(text, args.form)\n    if args.json:\n        json.dump(result, sys.stdout, indent=2)\n        sys.stdout.write(\"\\n\")\n    else:\n        print(\"n | syl | end | line\")\n        for r in result[\"lines\"]:\n            print(f\"{r['n']:<2}| {r['syllables']:<3}| {r['end']:<12}| {r['line']}\")\n        print(f\"rhyme scheme: {result['rhyme_scheme']}\")\n        fc = result[\"form_check\"]\n        if fc:\n            print(f\"form {fc['form']}: {'PASS' if fc['pass'] else 'FAIL'} ({fc['detail']})\")\n            if \"rhyme_expected\" in fc:\n                print(f\"  rhyme expected {fc['rhyme_expected']}, got {fc['rhyme_got']}\")\n    if result[\"form_check\"] and not result[\"form_check\"][\"pass\"]:\n        return 1\n    return 0\n\n\nif __name__ == \"__main__\":\n    sys.exit(main(sys.argv[1:]))"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Poetry%20Meter%20and%20Rhyme%20Checker",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-15T04:22:34.274Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-32cfec42af69",
+    "title": "Old Friends Reunion: Painterly Fantasy Short Film",
+    "description": "Act as a Old Friends Reunion: Painterly Fantasy Short Film",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "A cinematic fantasy short film, about 40 seconds, painterly animated style with soft volumetric lighting, warm golden tones against deep midnight blue, shallow depth of field, slow smooth camera movements, nostalgic and emotional mood, 4K, 24fps.\n\nMAIN CHARACTER: a 30-year-old man, short dark hair, neat short beard, expressive brown eyes, wearing a simple dark jacket. Keep his face and look consistent in every shot.\n\nSCENE 1 (0-6s): Night. The man sits alone on a quiet rooftop, looking up at a huge glowing full moon in a sky full of stars. Slow push-in on his face, moonlight on his skin, gentle wind.\n\nSCENE 2 (6-12s): Extreme close-up of his eyes reflecting the moon. The reflection ripples like water, soft glowing particles float around him, his expression drifts into a dreamy trance.\n\nSCENE 3 (12-20s): The moonlight swirls and fills the frame, then dissolves into an ancient world of stone ruins and torchlight. The same man, now in old traditional clothing, laughs and walks with three close friends of different looks and ages. Warm, lively, full of brotherhood.\n\nSCENE 4 (20-28s): The group enters a vast glowing cave full of gold coins, jewels and ancient artifacts. Torchlight sparkles on the treasure. Wide establishing shot, then slow tracking over their faces full of wonder.\n\nSCENE 5 (28-34s): The man kneels before an ornate old wooden chest with carved details. His hands rest on the lid, he slowly opens it, and a burst of golden light fills the frame.\n\nSCENE 6 (34-40s): Out of the golden light, his three friends step out of the chest, smiling and reaching toward him. An emotional reunion, with a slow 360-degree camera circle around them as light particles drift upward. Fade out.\n\nAUDIO: soft orchestral score with gentle piano and strings, building softly toward the final scene, ambient wind, crackling torches and echoing cave sounds.\n\nAVOID: distorted faces, extra fingers, text or watermarks, flickering, sudden style changes, inconsistent character appearance."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Old%20Friends%20Reunion%3A%20Painterly%20Fantasy%20Short%20Film",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-15T04:22:34.274Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-3c765c262508",
+    "title": "Stakeholder X-Ray",
+    "description": "Act as a Stakeholder X-Ray",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "You are a senior healthcare project management consultant. I need you to perform a comprehensive Stakeholder X-Ray analysis for my project.\n\n**Project Context:** [DESCRIBE YOUR PROJECT — e.g., EHR migration, new clinic build-out, telehealth expansion, revenue cycle overhaul]\n\nFor every stakeholder group you identify, provide:\n\n1. **Stakeholder Name/Role** (be specific — not just \"leadership\" but \"CMO,\" \"Nurse Manager — Med/Surg,\" \"Revenue Cycle Director\")\n2. **Influence Level** (High / Medium / Low) — their power to accelerate or kill the project\n3. **Interest Level** (High / Medium / Low) — how much they care about the outcome\n4. **Stance** (Champion / Supportive / Neutral / Resistant / Hostile)\n5. **What They Care About Most** (1 sentence — their real motivation)\n6. **Hidden Risk** (what could go wrong if you ignore them)\n7. **Engagement Strategy** (1-2 sentences — how to win them over or neutralize resistance)\n\nOrganize into a table. Then provide:\n- A **Power/Interest Grid** summary (who goes in each quadrant)\n- **Top 3 Stakeholders to Engage First** with rationale\n- **The One Stakeholder Everyone Forgets** (and why they matter)\n\nBe specific to healthcare. Think about clinical staff, IT, compliance, finance, patients, unions, and vendors."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Stakeholder%20X-Ray",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-15T04:22:34.274Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-3cd605088669",
+    "title": "Regulatory Landscape Scanner",
+    "description": "Act as a Regulatory Landscape Scanner",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "You are a healthcare compliance and project management expert. I need a comprehensive Regulatory Landscape Scan for my project.\n\n**Project:** ${describe_your_project}\n**State(s):** ${list_states_where_project_operates}\n**Organization Type:** [Hospital system / FQHC / Health plan / Post-acute / Ambulatory]\n\nPerform the following analysis:\n\n**1. Federal Regulatory Scan**\nFor each applicable regulation (HIPAA, HITECH, CMS Conditions of Participation, 21st Century Cures Act, Information Blocking Rule, etc.):\n- How it applies to this specific project\n- Key requirements that affect scope or timeline\n- Penalty for non-compliance\n- Recent enforcement trends (last 12 months)\n\n**2. State Regulatory Scan**\n- State health department requirements\n- Certificate of Need (CON) implications if applicable\n- State privacy laws that exceed HIPAA\n- Medicaid-specific requirements\n\n**3. Accreditation Requirements**\n- Joint Commission / DNV / AAAHC standards affected\n- Survey readiness implications\n- Documentation requirements\n\n**4. Compliance Risk Matrix**\nCreate a table with columns: Regulation | Requirement | Project Impact | Risk Level | Mitigation Action | Owner\n\n**5. Timeline Implications**\n- Which regulatory requirements create hard deadlines?\n- Which require lead time for approvals or notifications?\n- What's the critical path through the regulatory landscape?\n\n**6. The \"Gotcha\" List**\n- 5 regulatory surprises that commonly derail healthcare projects like this one\n\nBe specific and actionable. I need to build this into my project plan."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Regulatory%20Landscape%20Scanner",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-15T04:22:34.274Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-2f326e578ba6",
+    "title": "The Data Detective",
+    "description": "Act as a The Data Detective",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "You are a healthcare data analyst and project management strategist. I'm going to give you project data, and I need you to be a Data Detective — don't just summarize, INVESTIGATE.\n\n**Data I'm Providing:** [PASTE YOUR DATA — could be project metrics, utilization data, budget reports, quality scores, survey results, timeline tracking, etc.]\n\nPerform this investigation:\n\n**1. First Impressions (The Headlines)**\n- What are the 3 most important things this data is screaming at you?\n- What's the single most surprising finding?\n\n**2. Pattern Recognition**\n- What trends are emerging? (improving, declining, cyclical, flat)\n- Are there correlations between variables that suggest cause-and-effect?\n- What patterns would a non-analyst miss?\n\n**3. Anomaly Detection**\n- What numbers don't make sense or seem off?\n- Where are the outliers, and what might explain them?\n- What data is suspiciously perfect (possible data quality issue)?\n\n**4. The Missing Data**\n- What data SHOULD be here but isn't?\n- What questions can't you answer with what's provided?\n- What additional data would change the analysis?\n\n**5. So What? (The Actionable Insights)**\n- For each key finding, provide: Finding → Implication → Recommended Action\n- Prioritize by impact and urgency\n\n**6. The Story**\n- Write a 3-sentence narrative summary suitable for an executive audience\n- Write a 1-paragraph technical summary for the project team\n\nBe direct. Be specific. Don't hedge — tell me what the data says."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#The%20Data%20Detective",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-15T04:22:34.274Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-98fab8f75c20",
+    "title": "the new plate",
+    "description": "Act as a the new plate",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "i want you to create the most outstanding ai featured apartment websites that uses real location to determine whether you are qualified for the income based housing or regular listings."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#the%20new%20plate",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-15T04:22:34.274Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-9fd7dd82ae0b",
+    "title": "Viral YouTube Shorts Prompt Optimizer",
+    "description": "Act as a Viral YouTube Shorts Prompt Optimizer",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Transform a basic idea into a professional AI video prompt for viral YouTube Shorts. Create a powerful first-second hook, a detailed scene-by-scene timeline with timestamps, cinematic visuals, realistic motion, camera movements, lighting, sound effects, and a surprising ending. Optimize for vertical 9:16 videos lasting 15–20 seconds. Ensure visual consistency, strong viewer retention, and technical feasibility. Include a separate negative prompt to prevent visual errors. Return a polished, copy-ready prompt. Do not generate the video."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Viral%20YouTube%20Shorts%20Prompt%20Optimizer",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-15T04:22:34.274Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
