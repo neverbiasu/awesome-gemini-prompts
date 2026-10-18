@@ -131391,5 +131391,149 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-088c95c3bcf9",
+    "title": "Database Migrations taste",
+    "description": "Act as a Database Migrations taste",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# Database Migrations taste\n- Keep every schema change in a versioned migration file committed next to the code that needs it. Confidence: 0.95\n- Write migrations in plain SQL rather than ORM-generated diffs you have not read. Confidence: 0.80\n- Never edit a migration that has already run in a shared environment; add a new one instead. Confidence: 0.95\n- Use the expand and contract pattern: add the new column, backfill, switch reads, then drop the old column in a later release. Confidence: 0.90\n- Make every migration safe to run while the previous app version is still serving traffic. Confidence: 0.90\n- Add new columns as nullable or with a constant default to avoid long table rewrites. Confidence: 0.85\n- Create indexes on large Postgres tables with CREATE INDEX CONCURRENTLY outside a transaction. Confidence: 0.90\n- Set a short lock_timeout and statement_timeout at the top of each migration. Confidence: 0.85\n- Run large backfills as batched background jobs, not inside the migration itself. Confidence: 0.90\n- Keep one logical change per migration so failures are easy to read and retry. Confidence: 0.80\n- Name migration files with a UTC timestamp prefix and a short verb phrase like 20261017_add_orders_status. Confidence: 0.75\n- Prefer forward-only migrations and fix mistakes with a new migration instead of relying on down scripts. Confidence: 0.70\n- Run migrations as a separate deploy step before the new application code starts. Confidence: 0.85\n- Test every migration in CI against a fresh database and against a copy of production-sized data. Confidence: 0.80\n- Add foreign keys and check constraints as NOT VALID first, then validate them in a separate step. Confidence: 0.80\n- Rename columns and tables only through a view or dual-write period, never in a single step. Confidence: 0.75\n- Store the applied migration history in the database and fail the deploy if it has drifted. Confidence: 0.85\n- Review migrations as carefully as application code, with the generated SQL visible in the pull request. Confidence: 0.90\n- Keep seed and fixture data out of schema migrations. Confidence: 0.80"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Database%20Migrations%20taste",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-18T04:16:14.035Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-ab31ab33a73b",
+    "title": "React State Management taste",
+    "description": "Act as a React State Management taste",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# React State Management taste\n- Start with local useState and lift state only when two siblings truly need it. Confidence: 0.95\n- Treat server data as a cache and manage it with TanStack Query instead of a global store. Confidence: 0.90\n- Keep URL-worthy state such as filters, tabs and pagination in search params. Confidence: 0.90\n- Reach for Zustand when shared client state outgrows a single component tree. Confidence: 0.80\n- Avoid Redux for new projects unless the team already depends on its devtools and middleware. Confidence: 0.70\n- Use React Context for rarely changing values like theme, locale and the current user, not for fast-changing data. Confidence: 0.90\n- Derive values during render instead of syncing them into extra state with useEffect. Confidence: 0.95\n- Model complex local state with useReducer and a discriminated union of actions. Confidence: 0.80\n- Represent async status as one union like idle, loading, success and error rather than several booleans. Confidence: 0.85\n- Keep form state in React Hook Form with a zod schema instead of hand-rolled useState per field. Confidence: 0.80\n- Select the smallest slice of a store in each component to avoid needless re-renders. Confidence: 0.85\n- Store ids in state and look up the full objects, instead of duplicating nested data. Confidence: 0.80\n- Use optimistic updates for quick user actions and roll back on error. Confidence: 0.75\n- Never mutate state objects in place; return new objects or use Immer for deep updates. Confidence: 0.90\n- Keep persisted state small and versioned when saving it to localStorage. Confidence: 0.75\n- Reset component state by changing its key instead of writing reset effects. Confidence: 0.80\n- Colocate stores with the feature that owns them rather than in one global store folder. Confidence: 0.75\n- Type every store and context value explicitly and avoid any in state shapes. Confidence: 0.90"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#React%20State%20Management%20taste",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-18T04:16:14.035Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-0765c36af248",
+    "title": "Rust CLI taste",
+    "description": "Act as a Rust CLI taste",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# Rust CLI taste\n- Parse arguments with clap using the derive API and doc comments as help text. Confidence: 0.95\n- Return anyhow::Result from main and add context to every fallible step with .context(). Confidence: 0.90\n- Define library error types with thiserror and keep anyhow in the binary only. Confidence: 0.85\n- Split the crate into a thin main.rs and a lib.rs that holds the real logic for testing. Confidence: 0.85\n- Write normal output to stdout and logs, progress and errors to stderr. Confidence: 0.95\n- Offer a --json flag for machine-readable output and serialize it with serde. Confidence: 0.85\n- Use tracing with an env filter controlled by -v flags and a RUST_LOG override. Confidence: 0.80\n- Respect NO_COLOR and disable colors automatically when stdout is not a terminal. Confidence: 0.90\n- Show progress bars with indicatif only for operations longer than about a second. Confidence: 0.75\n- Exit with distinct, documented exit codes instead of always returning 1. Confidence: 0.80\n- Read configuration in the order flags, then environment variables, then a TOML config file. Confidence: 0.80\n- Find config and cache paths with the directories crate rather than hardcoding home paths. Confidence: 0.80\n- Test the binary end to end with assert_cmd and snapshot output with insta. Confidence: 0.85\n- Avoid async and tokio unless the tool really does concurrent network work. Confidence: 0.75\n- Generate shell completions and a man page with clap_complete and clap_mangen at build time. Confidence: 0.75\n- Ship prebuilt binaries for Linux, macOS and Windows with cargo-dist from GitHub Actions. Confidence: 0.80\n- Run cargo clippy with warnings denied and cargo fmt --check in CI. Confidence: 0.90\n- Set opt-level, lto and strip in the release profile to keep binaries small. Confidence: 0.70\n- Handle Ctrl+C cleanly with the ctrlc crate and leave no half-written files behind. Confidence: 0.80"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Rust%20CLI%20taste",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-18T04:16:14.035Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-eb749af318d6",
+    "title": "Translation Dictionary",
+    "description": "Act as a Translation Dictionary",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "---\nname: translation-dictionary\ndescription: You're a professional translator. Given the provided text, translate it into high-quality, professional Arabic that maintains the original meaning, tone, and style. If context is ambiguous, ask clarifying questions before translating.\n---\n\n# My Skill\n\nDescribe what this skill does and how the agent should use it.\n\n## Instructions\n\n- Step 1: ...\n- Step 2: ...\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Translation%20Dictionary",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-10-18T04:16:14.035Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
