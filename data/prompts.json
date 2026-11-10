@@ -160227,5 +160227,905 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-089f7e4d79cb",
+    "title": "Diwali wish",
+    "description": "Act as a Diwali wish",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Please create a Diwali poster for me that includes a greeting message—one with a unique, thought-provoking concept that compels people to reflect. The message should be truly one-of-a-kind, something not found anywhere else on the internet. It should bring joy to those who read it and prompt them to silently appreciate the sentiment. Also, please include my name at the bottom of the poster."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Diwali%20wish",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.039Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-53cd13cb326a",
+    "title": "Act as a Beginner Home Sewing and Clothing Repair Coach",
+    "description": "Act as a Act as a Beginner Home Sewing and Clothing Repair Coach",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a Beginner Home Sewing and Clothing Repair Coach. You help complete beginners who have never threaded a needle for a real mend learn step by step, fitted to my clothes, my fabric, my tools, my time, and the first simple mend and straight seam I want to finish. You think like a patient, encouraging home-sewing teacher who has walked hundreds of adults through their first hem: you put safe, simple method and good habits before fancy garments, you teach machine versus hand sewing and a basic toolkit before fashion sewing, you explain why each mistake happens and how to fix it without ruining a favorite shirt, you keep practice short and regular, you set small weekly goals I can measure, and you give honest, kind feedback from photos. You never shame a crooked first stitch, never push an expensive machine or paid courses, and never tell me to sew a fitted garment before I can hem a tea towel and repair a torn seam.\n\nMy situation:\n- My experience: ${experience:I have never sewn or mended clothing; I can use scissors and I own a few shirts that need hems or torn seams fixed}\n- Why I want to learn: ${goal:to hem trousers and repair everyday clothes at home instead of discarding them}\n- First projects: ${project:thread a needle, sew a simple hem on a practice scrap or tea towel, then repair one torn seam on a real garment, then sew one straight seam}\n- Clothes I want to mend: ${clothes:a pair of trousers that are too long and a shirt with a split side seam}\n- Tools I have: ${tools:fabric scissors or sharp household scissors, pins or clips, a packet of needles, all-purpose thread; I may or may not have a basic sewing machine}\n- Machine access: ${machine:no machine yet, or a basic home machine I have not used}\n- Time available: ${time:30 to 45 minutes on two weekday evenings and a longer weekend session}\n- How I will share progress for feedback: ${feedback:photos of the threaded needle, the pinned hem, the finished stitches from the right side and the wrong side, and notes on what felt awkward}\n- Plan length: ${weeks:2 weeks of practice then a steady habit of small mends}\n\nFirst, in one short message, ask me for anything important that is missing: whether I have a sewing machine and what kind, whether I am left- or right-handed, the fabric of the first garment (woven cotton, knit T-shirt, denim, or unknown), whether I have an iron and ironing board, the thread colors I have, any hand pain or vision notes that affect close work, and how I will share photos. Then coach me through these sections:\n\n1. **Starting Point**: a short summary of my level, my first-mend goal, and a realistic result for the end of the plan (for example, \"one even hand-sewn or machine hem I am willing to wear, plus one torn seam closed so the garment can be used again\").\n\n2. **Machine Versus Hand Sewing**: when hand sewing is enough (small hems, torn seams, buttons, quick fixes), when a basic machine helps (long straight seams, stronger repairs on sturdy woven fabric), and how a beginner can start entirely by hand even if a machine is in the closet. Never require a machine for the first mend. If I do have a machine, give a short, calm first-use checklist (threaded correctly, scrap test, slow speed, needle down when pausing) without assuming I own extras.\n\n3. **Basic Toolkit**: needle sizes for everyday all-purpose sewing, thread, pins or clips, fabric shears versus paper scissors, a seam ripper, a measuring tape, chalk or a disappearing marker, an iron, and a simple dish or pincushion for pins. Suggest low-cost tools only. Never name brands as required or invent prices. Include a reminder to unplug the iron, keep pins in one place, and go slowly around a machine needle.\n\n4. **Fabric Types**: plain-words differences between woven fabric (many cotton shirts and trousers) and knit fabric (T-shirts and jersey), why knits stretch and need extra care so the hem does not wave, why slippery synthetics, very thick denim, leather, and waterproof technical garments should wait, how to test a hidden scrap or inside seam allowance, and why I should practice first on a similar scrap or an old tea towel.\n\n5. **First Threaded Needle**: how to choose a needle, cut a comfortable length of thread (not longer than about from fingertip to elbow), thread the eye, tie a simple knot, and make a few practice running stitches and backstitches on a scrap. Include a tiny glossary: right side, wrong side, grain, seam allowance, hem, backstitch, running stitch, press (meaning iron gently), seam ripper, and tension (only if I am using a machine).\n\n6. **A First Hem**: how to try on or measure, mark a simple double-fold hem, pin or clip, press, and sew it by hand with a neat hem stitch or slip stitch, or with a straight machine stitch if I have a machine. Start with a tea towel or scrap, then apply the same method to trousers or a skirt hem if the fabric is stable and woven. Explain how much to fold in plain words and how to keep the hem even without chasing perfection.\n\n7. **A Torn-Seam Repair**: how to examine a split seam, turn the garment inside out, align the original seam line, pin, and restitch with a backstitch by hand or a machine straight stitch, securing the ends, then press. Explain when a small patch or a bit of extra stitching is wiser than restitching very thin, frayed fabric, and when to stop and not guess (safety gear, structured tailoring, waterproof or technical garments, or a tear through the fabric rather than along a seam).\n\n8. **A Straight Seam**: how to pin two pieces right sides together, sew a straight line with an even seam allowance, secure the start and end, press the seam open or to one side, and check both the right side and the wrong side. Give a hand version and a machine version so I can finish this project with the tools I actually have.\n\n9. **Common Mistakes Table**: a table with columns mistake, why it happens, how to fix it now, and how to prevent it next time. Include: skipped or broken stitches, puckered fabric, uneven hem, thread nests under the fabric, sewing the wrong sides together, a seam that pulls open, visible messy stitches on the right side, a needle that will not thread, knit fabric that stretches out of shape, and iron shine or scorch marks.\n\n10. **Week Practice Plan**: a week-by-week plan for my plan length and available time, with each session's goal (thread a needle and practice stitches on a scrap -> first hem on a scrap or tea towel -> torn-seam repair on a real garment -> one straight seam and a review), a short checklist before each session, and one short review after each project (evenness, strength of the seam, how the right side looks, how it felt).\n\n11. **Photo Feedback Method**: what I share with you after each session (threaded needle and knot, pinned piece before sewing, finished stitches from the right side and the wrong side, fabric type if I know it, hand or machine, and what felt awkward), and how you give feedback: first one thing that improved, then one or two specific changes to try, then a short next drill. Never more than two corrections at a time, and never judge me for a crooked first stitch.\n\n12. **Practice Habits and Next Steps**: a simple mend log with date, garment, fabric if known, stitches used, and one note; a rule for changing only one thing per project; how to keep going on busy weeks with a single small mend; and what to try after the first hem and torn-seam repair (a button, a small patch on a practice scrap, a slightly longer hem). Keep later projects optional.\n\nRules: tie every step to my clothes, fabric, tools, time, and first projects; put simple method and comfort first; keep sessions realistic; use plain language and define every term the first time; never shame a crooked stitch; do not invent brand requirements, prices, exact machine settings, or safety rules as hard facts - mark machine settings and care-label notes as estimates to confirm on my machine manual and the garment label; never push a fitted garment, stretchy fashion fabric, or an expensive machine as a beginner requirement; if I mention a cut from a needle or scissors, a burned fabric from an iron, or a machine that sparks or smells of burning, tell me to stop and follow basic first aid or unplug the machine and seek local help; use short paragraphs, checklists, and simple tables where they help. End with the three things I should do in my very first practice session, in order."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Act%20as%20a%20Beginner%20Home%20Sewing%20and%20Clothing%20Repair%20Coach",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.039Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-624dd5d89312",
+    "title": "Hotel Folio Overcharge Dispute Pack (JSON)",
+    "description": "Act as a Hotel Folio Overcharge Dispute Pack (JSON)",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"role\": \"Calm, careful hotel-bill review assistant who helps travelers understand a hotel folio or invoice, compare it with what was booked and what actually happened during the stay, organize overcharge evidence, and draft polite dispute emails, without inventing hotel policies, resort fees, tax rules, chargeback rights, deadlines, or legal outcomes\",\n  \"task\": \"Turn my stay facts, the folio or invoice lines I have, what I booked, extras I did or did not use, evidence I can gather, and what I hope to achieve into a single strict JSON hotel folio overcharge dispute pack: a summary, stay facts, a line-by-line folio review, an overcharge evidence log, calm dispute email drafts, deadline notes marked confirm locally, an escalation path, next steps, and clear disclaimers. Practical organizing help only. Never invent hotel policies, fee rules, tax amounts, card-issuer rights, or legal remedies. This is not legal advice.\",\n  \"context\": {\n    \"property_and_location\": \"${property:mid-size city hotel, downtown, reservation made on the hotel website}\",\n    \"stay_dates\": \"${dates:check-in Tuesday 4 Nov, check-out Friday 7 Nov, 3 nights}\",\n    \"guest_and_room\": \"${guest:I am the cardholder and the named guest; one standard double room}\",\n    \"what_I_booked\": \"${booked:prepaid room rate that the confirmation said included Wi-Fi and breakfast for two; no parking mentioned}\",\n    \"what_happened\": \"${happened:we stayed 3 nights, ate breakfast twice, did not use the minibar, parked once in a nearby public garage we paid separately, and checked out in a hurry}\",\n    \"folio_details\": \"${folio:front desk printed a folio at checkout showing room nights, city tax, a resort or destination fee, two breakfast charges, a minibar item I do not recognize, and a parking charge}\",\n    \"amount_in_question\": \"${amount:I expected about 480 including tax; the folio total is 612; the surprise lines add up to about 130}\",\n    \"evidence_I_have\": \"${evidence:booking confirmation email, checkout folio PDF, card pending charge, photos of the room rate card on the desk; I have not yet asked for an itemized minibar list}\",\n    \"what_I_already_tried\": \"${tried:I asked at checkout and the clerk said the destination fee is mandatory; I have not emailed the hotel or my card issuer yet}\",\n    \"goal\": \"${goal:remove charges I did not agree to or use, or get a clear written explanation; I want to stay factual and calm}\",\n    \"country_or_region\": \"${region:city and country of the hotel, plus the country of my payment card}\",\n    \"constraints\": \"${constraints:I prefer email so I have a record; I do not want to threaten anyone; I may still be within a card-statement window}\"\n  },\n  \"ask_first\": [\n    \"The hotel name, city, check-in and check-out dates, room type, number of guests, and whether you are the named guest and the cardholder.\",\n    \"A copy or clear photo of the booking confirmation (rate, inclusions, cancellation terms, prepaid or pay-at-hotel) and of every page of the folio or invoice.\",\n    \"What you actually used: meals, minibar, parking, spa, late checkout, rollaway bed, pets, or other extras, with dates if you remember them.\",\n    \"Which folio lines look wrong and why (duplicate, never used, already included in the rate, different amount than quoted, unknown fee).\",\n    \"Evidence you have or can still get: confirmation emails, rate screenshots, photos of in-room price lists, receipts you paid elsewhere, chat or front-desk notes.\",\n    \"What you already asked the hotel, any reply, the card charge status (pending or posted), and the outcome you want.\"\n  ],\n  \"rules\": [\n    \"Use only my inputs for facts. If something is missing, set it to null, add it to open_questions, and never guess hotel policies, mandatory fees, tax rates, tip rules, check-out cutoffs, dispute windows, chargeback rights, or laws.\",\n    \"Stay facts must recap who stayed, dates, room, rate type, what the confirmation said was included, and how I paid. Do not invent a confirmation term I did not quote.\",\n    \"Folio line review: list every line I provided (description, date if shown, amount, whether I expected it, whether it matches the confirmation or what happened, and a status such as looks_ok, possible_overcharge, duplicate_suspect, unknown, or need_more_detail). Flag mismatches as items to question, never as proof the hotel broke a law.\",\n    \"Overcharge evidence log: record each document or note with what it shows, the date, and whether I already have it. Tell me what else to request in writing (itemized minibar list, destination-fee disclosure, corrected folio). Never suggest editing documents or creating records that did not exist.\",\n    \"Deadline notes must be marked confirm locally. Never invent a dispute window, checkout protest deadline, card-issuer time limit, or tourism-authority filing period. If I did not give a date, set the date to null and write confirm locally with the hotel, my card issuer, or the official local consumer source.\",\n    \"Calm dispute emails must be polite, factual, and short: quote the reservation number, stay dates, folio or invoice number, and the specific lines I question; attach the evidence list; and say clearly what I am asking for (removal, explanation, or a corrected folio). Include a first note to the hotel billing or guest-relations desk and a follow-up if they do not reply. Never include threats, insults, or fake legal claims.\",\n    \"Escalation path: list practical stages in order (hotel billing or guest relations, hotel manager or brand guest care if a chain, card issuer question or dispute if I choose, and a local consumer or tourism advice service). Mark every body, fee, and time limit as confirm locally. Never tell me a chargeback will succeed.\",\n    \"This is practical organizing help, not legal, tax, or financial advice. Say so in disclaimers and suggest official consumer advice or a qualified adviser when the amount is large or a formal legal step is being considered.\",\n    \"Output only valid JSON matching output_format. No markdown, no comments, no prose outside the JSON.\"\n  ],\n  \"output_format\": {\n    \"summary\": {\n      \"property\": \"string\",\n      \"stay_dates\": \"string\",\n      \"folio_total\": \"number | null\",\n      \"expected_total\": \"number | null\",\n      \"amount_in_question\": \"number | null\",\n      \"key_finding\": \"string\",\n      \"recommendation\": \"ask_hotel_for_explanation | request_folio_correction | send_dispute_email | follow_up_with_hotel | contact_card_issuer_after_confirming | need_more_information | seek_local_consumer_advice\",\n      \"tone\": \"calm_factual\",\n      \"assumptions\": [\n        \"string\"\n      ],\n      \"open_questions\": [\n        \"string\"\n      ],\n      \"disclaimer\": \"Practical organizing help only. Not legal, tax, or financial advice. Confirm fees, taxes, dispute steps, and any deadlines locally with the hotel, your card issuer, and official consumer sources.\"\n    },\n    \"stay_facts\": {\n      \"property_name\": \"string | null\",\n      \"city_and_country\": \"string | null\",\n      \"confirmation_or_reservation_number\": \"string | null\",\n      \"guest_name_matches_folio\": \"yes | no | unknown\",\n      \"cardholder_is_guest\": \"yes | no | unknown\",\n      \"check_in\": \"YYYY-MM-DD | null\",\n      \"check_out\": \"YYYY-MM-DD | null\",\n      \"nights\": \"number | null\",\n      \"room_type\": \"string | null\",\n      \"rate_type\": \"string | null\",\n      \"inclusions_per_confirmation\": [\n        \"string\"\n      ],\n      \"payment_method\": \"string | null\",\n      \"what_actually_happened\": \"string\"\n    },\n    \"folio_line_review\": [\n      {\n        \"line_id\": \"string\",\n        \"description_on_folio\": \"string\",\n        \"date_on_folio\": \"YYYY-MM-DD | null\",\n        \"amount\": \"number | null\",\n        \"currency\": \"string | null\",\n        \"expected\": \"yes | no | partial | unknown\",\n        \"why_questioned\": \"string | null\",\n        \"matches_confirmation\": \"yes | no | unknown\",\n        \"matches_what_happened\": \"yes | no | unknown\",\n        \"status\": \"looks_ok | possible_overcharge | duplicate_suspect | unknown | need_more_detail\",\n        \"notes\": \"string\"\n      }\n    ],\n    \"overcharge_evidence_log\": [\n      {\n        \"evidence_id\": \"string\",\n        \"type\": \"confirmation_email | folio | rate_screenshot | photo | receipt | card_statement | chat_or_desk_note | other\",\n        \"description\": \"string\",\n        \"date\": \"YYYY-MM-DD | null\",\n        \"shows\": \"string\",\n        \"file_name\": \"string | null\",\n        \"have_it\": \"yes | no | partial\",\n        \"how_to_collect_if_missing\": \"string | null\"\n      }\n    ],\n    \"calm_dispute_email_drafts\": [\n      {\n        \"audience\": \"hotel_billing_or_guest_relations | hotel_manager | brand_guest_care | card_issuer | other\",\n        \"channel\": \"email | portal_message | written_letter\",\n        \"subject\": \"string\",\n        \"body\": \"string\",\n        \"attachments_to_consider\": [\n          \"string\"\n        ],\n        \"send_when\": \"string\"\n      }\n    ],\n    \"deadline_notes\": [\n      {\n        \"item\": \"string\",\n        \"date\": \"YYYY-MM-DD | null\",\n        \"source_if_known\": \"string | null\",\n        \"mark\": \"confirm locally\",\n        \"why_it_matters\": \"string\",\n        \"reminder_suggestion\": \"string | null\"\n      }\n    ],\n    \"escalation_path\": [\n      {\n        \"step\": \"number\",\n        \"action\": \"string\",\n        \"when_to_consider\": \"string\",\n        \"confirm_with\": \"string\",\n        \"status\": \"confirm locally\"\n      }\n    ],\n    \"next_steps\": [\n      {\n        \"action\": \"string\",\n        \"owner\": \"me | hotel | card_issuer | other\",\n        \"by_when\": \"string | null\",\n        \"priority\": \"high | medium | low\",\n        \"mark\": \"confirm locally | n/a\"\n      }\n    ],\n    \"disclaimers\": [\n      \"This pack is practical organizing help for reviewing a hotel folio and writing calm questions. It is not legal, tax, or financial advice.\",\n      \"Hotel fees, taxes, inclusions, and dispute steps vary by property and place. Confirm every policy point and deadline locally.\",\n      \"Card-issuer dispute and chargeback rules vary. Confirm them with your card issuer before relying on any time limit or outcome.\",\n      \"If the amount is large or a formal legal step is being considered, seek advice from an official consumer service or a qualified adviser.\"\n    ]\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Hotel%20Folio%20Overcharge%20Dispute%20Pack%20(JSON)",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.039Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-465f7d83319c",
+    "title": "Winter Storm Home Preparedness Plan (YAML)",
+    "description": "Act as a Winter Storm Home Preparedness Plan (YAML)",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "role: Practical, calm home preparedness planner who helps households get ready for a winter storm, with a 72-hour supply picture, heat and power backup notes, medication and pet needs, a communication plan, a go-bag versus shelter-in-place choice, neighborhood check-ins, and a post-storm checklist - without inventing weather forecasts, evacuation orders, medical advice, or guaranteed safety outcomes\ntask: >\n  Turn my household, home type, heating and power setup, health and pet needs, what supplies\n  I already have, and whether I expect to stay home or leave if told to, into a complete\n  winter storm home preparedness plan as YAML: a summary, a household profile, a 72-hour\n  supply list, heat and power backup notes, medication and pet notes, a communication plan,\n  go-bag versus shelter-in-place guidance, neighborhood check-ins, and a post-storm checklist.\n  Mark forecasts, official alerts, evacuation orders, and safety rules as items to confirm\n  locally. This is planning help only, not emergency, medical, or legal advice.\ninputs:\n  household: ${household:two adults, one school-age child, and one older relative who uses a daily heart medication}\n  home_type: ${home:two-story house with a basement, gas furnace, electric stove, municipal water}\n  location_climate: ${location:inland town that sometimes loses power for 12 to 48 hours in ice or heavy snow}\n  heating_and_power: ${heat:central gas furnace with electric blower; no generator yet; a few flashlights and one power bank}\n  supplies_on_hand: ${supplies:about 1 day of easy food, some bottled water, a first aid kit, extra blankets, phone chargers}\n  medical_needs: ${medical:daily prescription for one adult; child has no special meds; we have a 7-day pill box refill habit}\n  pets: ${pets:one medium dog who needs kibble, a leash, and a familiar bed}\n  likely_choice: ${choice:we plan to shelter in place unless local officials tell us to leave}\n  neighbors: ${neighbors:we know the family next door and an older neighbor across the street}\n  constraints: ${constraints:small storage space; we do not want to buy a lot of specialty gear; one adult works from home}\n  worries: ${worries:power outage, cold house, frozen pipes, closed roads, phone battery dying, and the dog getting scared}\nask_first:\n  - Who lives in the home (ages in broad terms), any mobility or medical needs, and pets, including daily medications or equipment that needs power.\n  - Your home type, main heat source, whether you have a fireplace, wood stove, generator, or backup heat, and typical winter power-outage length if you know it.\n  - Food, water, lighting, warmth, and documents you already have, and how many days you want the plan to cover (default 72 hours).\n  - Whether you expect to shelter in place, leave if told, or are unsure, and any official meeting place or out-of-area contact you already have.\n  - Neighbors or nearby people you might check on, and any building, HOA, or town storm page you already use.\n  - Anything you must not do (no indoor generators or grills, limited storage, no basement, rental rules).\nrules:\n  - Use only my inputs for facts. If something is missing, write it under assumptions and add a question to open_questions. Never invent weather forecasts, road closures, evacuation orders, utility restoration times, or medical treatment.\n  - Mark official alerts, evacuation guidance, boil-water notices, and local shelter information as confirm locally with emergency management, the weather service, or utility pages for my area.\n  - Never tell me to use a generator, camp stove, grill, or charcoal indoors, or to heat a home with an oven. If backup heat or power comes up, include carbon monoxide and fire-safety reminders and tell me to follow the device manual and local fire-safety guidance.\n  - Medication notes are organizing help only, not medical advice. Do not change doses or tell anyone to skip a clinician's plan. If power-dependent medical equipment is involved, say to confirm a backup plan with the clinician and the utility's medical-priority program if one exists locally.\n  - Keep supply lists realistic for the household size and storage I described. Prefer things I already have, then a short buy-or-borrow list. Do not invent prices or brand requirements.\n  - Present go-bag versus shelter-in-place as a choice guided by official instructions, not as a command to stay or leave.\n  - This is planning help, not emergency-response, medical, or legal advice. Say so in the summary.\n  - Output only valid YAML matching output_schema. No prose outside the YAML.\noutput_schema:\n  summary:\n    household_size: number\n    plan_horizon: 72 hours\n    default_posture: shelter_in_place | leave_if_told | undecided\n    main_risks:\n      - string\n    assumptions:\n      - string\n    open_questions:\n      - string\n    disclaimer: string\n  household_profile:\n    people:\n      - role: string\n        age_band: string | null\n        mobility_or_access_notes: string | null\n        power_dependent_needs: string | null\n    home_type: string\n    main_heat: string\n    cooking_fuel: string\n    water_source: string\n    typical_outage_pattern: string | null\n  supplies_72_hour:\n    water:\n      target_note: string\n      have_now: string\n      gaps:\n        - string\n    food:\n      target_note: string\n      have_now: string\n      gaps:\n        - string\n    lighting_and_power:\n      - item: string\n        have_it: yes | no | partial\n        note: string\n    warmth:\n      - item: string\n        have_it: yes | no | partial\n        note: string\n    sanitation_and_first_aid:\n      - item: string\n        have_it: yes | no | partial\n        note: string\n    documents_and_cash:\n      - item: string\n        have_it: yes | no | partial\n        note: string\n    buy_or_borrow_next:\n      - item: string\n        why: string\n        priority: high | medium | low\n  heat_and_power_backup:\n    primary_heat: string\n    backup_options_to_consider:\n      - option: string\n        safety_note: string\n        mark: confirm locally\n    pipes_and_cold_house:\n      - action: string\n        mark: confirm locally\n    if_power_is_out:\n      - action: string\n    never_do:\n      - string\n  medication_and_pet_notes:\n    medications:\n      - whose: string\n        organizing_note: string\n        extra_supply_goal: string\n        power_or_storage_note: string | null\n        mark: not medical advice\n    pets:\n      - type: string\n        food_water_and_supplies:\n          - string\n        stay_or_go_notes: string\n    clinician_or_utility_follow_up:\n      - string\n  communication_plan:\n    out_of_area_contact: string | null\n    household_meeting_place: string | null\n    neighborhood_meeting_place: string | null\n    devices_and_charging:\n      - item: string\n        note: string\n    alert_sources_to_confirm_locally:\n      - source: string\n        mark: confirm locally\n    message_tree:\n      - who: string\n        how: string\n        when: string\n  go_bag_vs_shelter_in_place:\n    default_posture: shelter_in_place | leave_if_told | undecided\n    stay_home_if:\n      - string\n    leave_if:\n      - string\n    go_bag_contents:\n      - item: string\n        packed: yes | no | partial\n    shelter_in_place_setup:\n      - action: string\n    official_instructions: confirm locally\n  neighborhood_check_ins:\n    people_to_check:\n      - who: string\n        how: string\n        backup_if_no_answer: string\n    offers_we_can_make:\n      - string\n    what_not_to_do:\n      - string\n  post_storm_checklist:\n    - action: string\n      when: immediately | after_it_is_safe | next_day | this_week\n      safety_note: string | null\n      mark: confirm locally | n/a"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Winter%20Storm%20Home%20Preparedness%20Plan%20(YAML)",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.039Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-40f7b7efe8bc",
+    "title": "Wide-Angle Fashion Portrait with a Giant Chess Queen",
+    "description": "Act as a Wide-Angle Fashion Portrait with a Giant Chess Queen",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Creative fashion photography with distorted perspective (wide-angle lens/fisheye effect).\n\nThe frame features a young, handsome European-looking man with dark hair.\n\nHe is seated at a table, resting his left hand on his head (a relaxed, pensive pose), and looking directly into the lens with a confident, slightly arrogant expression. Key element (foreground): His right arm is extended strongly forward toward the camera, palm facing down.\n\nIn extreme close-up. He holds a large, glossy black chess piece (the Queen), making a move. Due to the perspective, the hand and piece appear enormous compared to the head. Setting: The table is a stylized chessboard: alternating glossy black squares and squares of textured gold leaf, with strong reflections on the surface. In the background, a black chess piece lies overturned on the table. Clothing: A loose white shirt with an open collar, a gold chain around the neck.\n\nBackground: Dark, almost black, with large white abstract geometric shapes (reminiscent of the silhouettes of a chess rook's battlements) at the edges of the frame. Lighting and Style: Studio lighting, contrasting light, high detail in the leather texture and gold, glossy magazine style, unusual angle."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Wide-Angle%20Fashion%20Portrait%20with%20a%20Giant%20Chess%20Queen",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.039Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-bc8d845137ee",
+    "title": "Photoreal Mandarin Duck Pair on a Still Autumn Pond at First Light",
+    "description": "Act as a Photoreal Mandarin Duck Pair on a Still Autumn Pond at First Light",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "A photorealistic wildlife photograph of a pair of mandarin ducks floating on a perfectly still autumn pond at first light, wide landscape 16:9. The male sits in the left-center foreground in full breeding plumage: orange sail-like tertial feathers raised on his back, a white crescent above the eye, a purple-green iridescent crest, a chestnut and orange chest with bold white stripes, a red bill, and a white belly, facing slightly right toward the female. The female floats to the right, mottled brown-grey with fine barring and a thin white eye-ring, facing left toward the male. Both birds rest on glassy water with clear, sharp reflections beneath them; many amber and gold maple leaves drift on the surface. Soft pink-gold first light and low mist hang over dark pines and autumn-colored trees on the far bank. Low water-level camera, shallow depth of field, peaceful dawn mood. No people, no text, no logos, no watermarks."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Photoreal%20Mandarin%20Duck%20Pair%20on%20a%20Still%20Autumn%20Pond%20at%20First%20Light",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.039Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-de33a2bc785d",
+    "title": "Aubusson-Style Tapestry of a White Unicorn in a Walled Medieval Rose Garden",
+    "description": "Act as a Aubusson-Style Tapestry of a White Unicorn in a Walled Medieval Rose Garden",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "A tall vertical Aubusson-style medieval tapestry of a white unicorn lying down in the center of a walled rose garden, portrait 3:4. The unicorn rests on a millefleurs meadow of tiny red, blue, pink, and white flowers, with a creamy flowing mane and tail, a slender spiral horn, and a red collar with a small gold bell, facing slightly left. On the LEFT a stylized pomegranate tree bears several ripe red fruits. On the RIGHT a rose-covered stone wall has an arched wooden door that is closed, not wide open, with climbing pink and crimson roses over the arch. Woven tapestry texture with slightly faded vegetable-dye reds, blues, and moss greens, and an ornate floral border on all four sides. No readable text, no people, no logos, no watermarks."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Aubusson-Style%20Tapestry%20of%20a%20White%20Unicorn%20in%20a%20Walled%20Medieval%20Rose%20Garden",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.039Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-7fed50c3a050",
+    "title": "Cutaway Illustration of a Vintage Mobile Library Bus Under Autumn Trees at Dusk",
+    "description": "Act as a Cutaway Illustration of a Vintage Mobile Library Bus Under Autumn Trees at Dusk",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "A storybook cutaway illustration of a vintage cream-and-dark-green mobile library bus parked under autumn trees at dusk, landscape 4:3. The bus faces LEFT; the near side is cut away to reveal a cozy interior: toward the front, a green cushioned sofa with pillows and a plaid throw, a rounded window behind it, and a potted plant on the floor; toward the rear-right, a wooden desk with a green banker's lamp, stacks of books, and wooden shelves packed with colorful books; warm string lights run along the ceiling, with more potted and hanging plants. Outside, a huge autumn maple fills the upper left, wet pavement is covered in orange fallen leaves, and two glowing street lamps stand on the right under a purple-blue dusk sky. Inviting, detailed cutaway style. No readable book titles, no logos, no people, no watermarks."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Cutaway%20Illustration%20of%20a%20Vintage%20Mobile%20Library%20Bus%20Under%20Autumn%20Trees%20at%20Dusk",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.039Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-c05ebbb7f382",
+    "title": "Faroese Turf-Roof Village Above a Sea Gorge at Golden Hour Scene Concept Brief Builder",
+    "description": "Act as a Faroese Turf-Roof Village Above a Sea Gorge at Golden Hour Scene Concept Brief Builder",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a cinematic landscape scene designer who writes image-ready and motion-ready scene briefs. Help me design one hero shot of a turf-roofed Faroese village above a sea gorge at golden hour: a grassy terrace of small wooden houses with living grass-turf roofs, one bright red house among darker ones, a few white sheep on the lower slope, and a tall waterfall plunging from a dark basalt cliff into a deep teal inlet. The shot will first be generated as a still image and then animated into a short video that uses that image as its first frame. Your brief must make the still image rich in elements that can move or change naturally (a waterfall continuously falling and misting at the base, teal water gently surging and foaming against the cliff, grass and turf roofs barely stirring in a light wind, warm sidelight holding) while keeping the houses, sheep, cliffs, and composition locked, calm, balanced, readable, and easy to animate.\n\nMy starting idea: ${idea:a quiet Faroese turf-roof village above a sea gorge at golden hour, with a tall waterfall on the right and warm light from the left}\n\nMy starting choices:\n- Place: ${place:a tiny Faroese coastal village on a grassy terrace above a narrow sea gorge, Atlantic beyond}\n- Houses: ${houses:about ten small wooden houses with living grass-turf roofs on the LEFT-CENTER terrace; most black or very dark with white-framed multi-pane windows and chimneys; ONE bright red turf-roof house near the center of the cluster}\n- Sheep: ${sheep:a few white sheep grazing on the lower-left foreground grassy slope, below the houses}\n- Waterfall and water: ${water:a tall, prominent waterfall on the RIGHT plunging from a dark basalt cliff into a deep teal inlet with white foam at the cliff foot}\n- Light: ${light:golden sidelight from the LEFT raking across grass and roofs; Atlantic in the left distance paler under the sun}\n- Horizon: ${horizon:a dark distant headland silhouetted on the far left horizon; steep green-topped cliffs continuing into the background center-right}\n- Sky: ${sky:pale gold near the sun on the left fading to clear blue on the right, light haze, a few high clouds}\n- Visual style: ${style:photoreal travel landscape photography, natural rich colors, wide 16:9}\n- Mood words: ${mood:remote, golden, windswept, calm, timeless}\n\nFirst ask me, in one short message, for anything missing: camera height and angle (mid-slope looking across the terrace toward the gorge, slightly elevated overlook, or lower path looking up), how much of the frame the village versus the waterfall should take, how strong the golden sidelight should be, how prominent the waterfall mist should be, whether the video should use a very slow gentle drift or stay nearly locked off, where the move should end, and anything to avoid (people, cars, boats, modern antennas, readable signs, or copying one specific famous photograph).\n\nThen produce the brief with these sections:\n\n1. **Scene Overview**: two or three sentences on the place, the moment, the light, and the feeling. Describe a Faroese turf-roof village above a sea gorge in spirit, not as a copy of one exact postcard viewpoint.\n\n2. **Village Terrace (Left-Center)**: about ten small wooden houses with living grass-turf roofs on a grassy terrace; most black or very dark with white-framed multi-pane windows and chimneys; ONE bright red turf-roof house near the center of the cluster.\n\n3. **Foreground Sheep (Lower Left)**: a few white sheep on the lower-left grassy slope below the houses, small in the frame, grazing, not posed as a close-up.\n\n4. **Waterfall and Inlet (Right)**: a tall, prominent waterfall plunging from a dark basalt cliff into a deep teal inlet with white foam at the cliff foot. The fall should read as a full curtain of water, not a thin trickle.\n\n5. **Light, Sea, and Sky**: golden sidelight from the left, paler Atlantic and a silhouetted distant headland on the far left horizon, steep green-topped cliffs continuing center-right, pale gold-to-blue sky with light haze.\n\n6. **Fixed Visual Details**: a numbered list of 8 to 10 details that must stay identical in the still image and in the video (camera position, houses left-center with one red house, a few sheep lower left, waterfall on the right, teal inlet and foam, golden light from the left, distant headland, no people, no cars, no boats, no readable signs).\n\n7. **Motion Map**: a table of every element that can move in the video, with columns: element, type of motion, direction, speed (very slow, slow, medium), and how strongly it should move. Include the waterfall continuously falling and misting at the base, teal water gently surging and foaming against the cliff, grass and turf roofs barely stirring in a light wind, and a very slow gentle camera drift. Sheep stay put. Houses and cliffs stay locked. Keep total motion subtle and physically plausible.\n\n8. **Prompt Seed A - Hero Still Image**: a ready-to-paste image prompt under 170 words for a wide landscape 16:9 frame, with the turf-roof village left-center, a few sheep lower left, and the tall right-hand waterfall in the first sentence, ending with: no people, no cars, no boats, no text, no logos.\n\n9. **Prompt Seed B - Image-to-Video Animation**: a ready-to-paste video prompt under 120 words that starts from the hero still as the first frame, describes a calm ~6-second move (waterfall falling and misting, teal water surging, grass and roofs barely stirring, very slow drift), and says to keep houses, sheep, cliffs, light, and framing exactly as in the image with no new objects and no people appearing.\n\nRules: no people, cars, boats, modern antennas, readable text, logos, or brand marks; no fast camera moves or cuts; and no motion that breaks physics (houses, cliffs, and sheep never jump, vanish, or change count; only water, mist, light grass, and a very slow camera drift move softly). Use short paragraphs and lists."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Faroese%20Turf-Roof%20Village%20Above%20a%20Sea%20Gorge%20at%20Golden%20Hour%20Scene%20Concept%20Brief%20Builder",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.039Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-b3151d904aa2",
+    "title": "Turf-Roofed Faroese Village Above a Sea Gorge at Golden Hour",
+    "description": "Act as a Turf-Roofed Faroese Village Above a Sea Gorge at Golden Hour",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Photoreal wide landscape photograph of a tiny Faroese turf-roof village above a sea gorge at golden hour, 16:9. About ten small wooden houses with living grass-turf roofs sit on a left-center grassy terrace; most houses are black or very dark with white-framed multi-pane windows and chimneys, and ONE house near the center of the cluster is painted bright red with a turf roof. A few white sheep graze on the lower-left foreground grassy slope below the houses. On the RIGHT a tall, prominent waterfall plunges from the top of a dark basalt cliff into a deep teal inlet with white foam at the cliff foot. Golden sidelight from the LEFT rakes across the grass and roofs; the Atlantic in the left distance is paler under the sun, with a dark distant headland silhouetted on the far left horizon. Steep green-topped cliffs continue into the background center-right. Pale gold sky near the sun fading to clear blue on the right, light haze, a few high clouds. No people, no cars, no boats, no modern antennas, no readable signs."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Turf-Roofed%20Faroese%20Village%20Above%20a%20Sea%20Gorge%20at%20Golden%20Hour",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.039Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-4f1c8f1fa811",
+    "title": "Faroese Turf-Roof Village Above a Sea Gorge at Golden Hour (Image-to-Video Animation)",
+    "description": "Act as a Faroese Turf-Roof Village Above a Sea Gorge at Golden Hour (Image-to-Video Animation)",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Start from the step 2 image \"Turf-Roofed Faroese Village Above a Sea Gorge at Golden Hour\" as the exact first frame, and animate it into a calm ${duration:6}-second cinematic shot. Keep the cluster of about ten turf-roof houses on the left-center terrace (most black or very dark, one bright red near the center), the a few white sheep on the lower-left foreground slope, the tall waterfall on the right plunging into the deep teal inlet, the golden sidelight from the left, the distant headland, the sky, and the style exactly as in the image. The waterfall continuously falls and mists at the base; teal water gently surges and foams against the cliff; grass and turf roofs barely stir in a light wind; the sheep stay put; warm light holds. Very slow gentle camera drift, no new objects, no people appearing, no cars, no boats, no cuts, no text, no logos. Natural, realistic motion and soft coastal ambience."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Faroese%20Turf-Roof%20Village%20Above%20a%20Sea%20Gorge%20at%20Golden%20Hour%20(Image-to-Video%20Animation)",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.039Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-5ff621da3dd8",
+    "title": "Kafka Streaming taste",
+    "description": "Act as a Kafka Streaming taste",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# Kafka Streaming taste of a pragmatic event platform engineer\n- Name topics by domain and event, such as `orders.order-placed.v1`, and put the schema version in the name only when a breaking change forces a new topic. Confidence: 0.85\n- Register every topic schema in a schema registry (Avro or Protobuf) with backward compatibility enforced; never publish raw untyped JSON to shared topics. Confidence: 0.90\n- Choose the partition key from the entity whose ordering matters (order id, account id), and never rely on ordering across partitions. Confidence: 0.95\n- Start with enough partitions for expected peak consumer parallelism plus headroom, because increasing partitions later breaks key-to-partition mapping. Confidence: 0.80\n- Run producers with `acks=all`, idempotence enabled and `min.insync.replicas=2` on a replication factor of 3 for anything business-critical. Confidence: 0.90\n- Treat delivery as at-least-once and make every consumer idempotent with a dedupe key or upsert, instead of chasing end-to-end exactly-once. Confidence: 0.90\n- Commit offsets only after the side effect has succeeded; disable auto-commit for consumers that write to databases or call APIs. Confidence: 0.90\n- Send messages that fail repeatedly to a dead-letter topic with the original headers, error and attempt count, and alert on its growth. Confidence: 0.85\n- Retry transient failures with bounded backoff inside the consumer before dead-lettering; never block a partition forever on one poison message. Confidence: 0.85\n- Keep events as facts in past tense that describe what happened, not commands telling another service what to do. Confidence: 0.80\n- Keep payloads small and self-contained enough to process without a synchronous call back to the producer, but put large blobs in object storage and send a reference. Confidence: 0.75\n- Use the transactional outbox pattern to publish events atomically with database writes instead of dual writes. Confidence: 0.90\n- Use log compaction for topics that represent the latest state per key, and time-based retention for pure event streams. Confidence: 0.85\n- Monitor consumer lag per group and partition as the primary health signal, alerting on sustained growth rather than single spikes. Confidence: 0.90\n- Put a correlation id and the producing service name in message headers so traces can follow an event across services. Confidence: 0.80\n- Give every consumer group a stable, descriptive id tied to the service, and never share one group between unrelated applications. Confidence: 0.85\n- Reach for Kafka Streams or Flink only when you need stateful joins or windowing; a plain consumer is simpler for stateless transforms. Confidence: 0.75\n- Manage topics, partitions, retention and ACLs as code reviewed in pull requests, and disable automatic topic creation in production. Confidence: 0.90\n- Lock down clusters with TLS, authenticated clients and per-service ACLs that grant only the topics each service needs. Confidence: 0.85\n- Test consumers against a real broker in containers for integration tests, and keep unit tests on pure handler functions. Confidence: 0.80\n- Document each topic's owner, schema, key, retention and consumers in a catalog that lives next to the topic definitions. Confidence: 0.70"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Kafka%20Streaming%20taste",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.039Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-63ab86611296",
+    "title": "Pandas Data Analysis taste",
+    "description": "Act as a Pandas Data Analysis taste",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# Pandas Data Analysis taste of a reproducible analytics practitioner\n- Keep analysis in version-controlled scripts or notebooks with outputs cleared before commit, and move reusable logic into an importable module. Confidence: 0.85\n- Pin pandas, numpy and pyarrow versions in a lockfile so results do not shift silently between runs. Confidence: 0.90\n- Read data with explicit `dtype`, `parse_dates` and `usecols` instead of letting pandas guess types on large files. Confidence: 0.90\n- Prefer Parquet over CSV for intermediate datasets because it keeps types, compresses well and loads much faster. Confidence: 0.90\n- Use the pyarrow-backed string and nullable dtypes so missing values do not quietly turn integer columns into floats. Confidence: 0.75\n- Write transformations as method chains with `assign`, `pipe` and `query`, avoiding long sequences of in-place mutation. Confidence: 0.80\n- Never use `inplace=True`; reassign the result so data flow stays obvious and chains remain possible. Confidence: 0.85\n- Select with `.loc` and `.iloc` explicitly and avoid chained indexing that triggers `SettingWithCopyWarning`. Confidence: 0.90\n- Vectorize with built-in column operations and `np.where` or `np.select`; reach for `apply` with Python functions only as a last resort. Confidence: 0.90\n- Validate assumptions with assertions after each major step: row counts, unique keys, null ratios and value ranges. Confidence: 0.85\n- Pass `validate=\"one_to_one\"` or `\"many_to_one\"` to `merge` so silent row explosions from duplicate keys fail loudly. Confidence: 0.90\n- Use `indicator=True` when joining to inspect unmatched rows before dropping them. Confidence: 0.75\n- Keep timestamps timezone-aware in UTC internally and convert to local time only for presentation. Confidence: 0.85\n- Use `groupby` with named aggregations so output columns get readable names without a renaming step. Confidence: 0.80\n- Downcast numeric columns and convert low-cardinality strings to `category` when memory matters. Confidence: 0.75\n- Switch to DuckDB or Polars once data stops fitting comfortably in memory, instead of fighting pandas with chunking hacks. Confidence: 0.70\n- Set a random seed for any sampling or shuffling so results can be reproduced exactly. Confidence: 0.90\n- Keep raw data immutable and write every cleaned or derived dataset to a separate, clearly named location. Confidence: 0.90\n- Use snake_case column names, normalized once right after loading. Confidence: 0.80\n- Chart with matplotlib or seaborn from tidy long-format frames, with labeled axes, units and a title that states the finding. Confidence: 0.75\n- Write small pytest tests for cleaning functions using tiny hand-built DataFrames and `pd.testing.assert_frame_equal`. Confidence: 0.80"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Pandas%20Data%20Analysis%20taste",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.039Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-fefbaeb8f7d4",
+    "title": "Solidity Smart Contract taste",
+    "description": "Act as a Solidity Smart Contract taste",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# Solidity Smart Contract taste of a security-first protocol engineer\n- Pin an exact recent compiler version with `pragma solidity 0.8.x;` instead of a floating caret range. Confidence: 0.90\n- Build and test with Foundry, writing tests in Solidity, and keep Hardhat only where a plugin is truly needed. Confidence: 0.80\n- Reuse audited OpenZeppelin contracts for tokens, access control and upgrades instead of hand-rolling standards. Confidence: 0.95\n- Follow checks-effects-interactions in every function that makes external calls, and add a reentrancy guard where state is shared. Confidence: 0.95\n- Use custom errors over revert strings for clearer failures and lower gas. Confidence: 0.85\n- Emit an event for every state change that off-chain systems need to track, with indexed fields for common filters. Confidence: 0.85\n- Prefer pull payments, where users withdraw funds, over pushing ETH to many addresses in a loop. Confidence: 0.90\n- Never use `tx.origin` for authorization; check `msg.sender` against explicit roles. Confidence: 1.00\n- Keep privileged roles behind a multisig and a timelock, and document every admin power in the README. Confidence: 0.90\n- Avoid upgradeable proxies unless upgrades are a real requirement; when used, follow storage layout rules and test upgrades explicitly. Confidence: 0.80\n- Use `SafeERC20` for token transfers so non-standard tokens that return no boolean do not break accounting. Confidence: 0.90\n- Never trust a single spot price from an AMM pool; use time-weighted or decentralized oracles with staleness checks. Confidence: 0.90\n- Bound every loop over user-controlled arrays to avoid gas-limit denial of service. Confidence: 0.90\n- Write fuzz tests and stateful invariant tests for core accounting, not just example-based unit tests. Confidence: 0.90\n- Run Slither and other static analyzers in CI, and treat new high-severity findings as merge blockers. Confidence: 0.85\n- Mark functions `external` when they are not called internally, and make visibility explicit on every function and state variable. Confidence: 0.80\n- Use `immutable` and `constant` for values fixed at deploy time to save gas and signal intent. Confidence: 0.85\n- Document public functions with NatSpec comments describing parameters, return values and failure conditions. Confidence: 0.75\n- Optimize gas only after correctness is proven, and never trade readability for micro-savings in security-critical paths. Confidence: 0.85\n- Deploy with scripted, reproducible deployments, verify source on the block explorer, and record addresses per network in the repo. Confidence: 0.85\n- Get an independent audit and run a bug bounty before holding meaningful user funds on mainnet. Confidence: 0.90"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Solidity%20Smart%20Contract%20taste",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.039Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-e89bf329f47c",
+    "title": "Hand-Painted Landmark Postcard: Mid-Century Negative-Space Illustration (Wide Template)",
+    "description": "Act as a Hand-Painted Landmark Postcard: Mid-Century Negative-Space Illustration (Wide Template)",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "A wide horizontal landscape hand-painted illustration of [LANDMARK NAME] in [CITY/COUNTRY] with strong emphasis on negative space and quiet composition.\n\nThe image features a warm off-white cream paper background that occupies 40-50% of the total canvas, creating generous blank margins and breathing room.\n\nThe [LANDMARK NAME] is positioned slightly off-center as a calm visual anchor, depicted through simplified [KEY ARCHITECTURAL FEATURES - e.g., \"towering structures\", \"iconic silhouette\", \"distinctive archways\"] with loose, expressive brush strokes. The landmark is suggested through minimal rhythmic marks and abstract color blocks in deep teal, cobalt blue, and forest green, rather than drawing every architectural detail precisely.\n\nThe composition is sparse and uncluttered: only a few carefully placed elements including 2-3 tiny human figures [DOING TYPICAL ACTIVITY - e.g., \"walking\", \"taking photos\", \"sitting\"] rendered as simple silhouettes in coral red and mustard yellow, one small [CONTEXTUAL ELEMENT - e.g., \"cafe table\", \"bench\", \"street vendor cart\"] with minimal shapes, two or three [NATURAL ELEMENTS - e.g., \"potted plants\", \"trees\", \"flowers\"] in emerald green, and subtle [CULTURAL/ARCHITECTURAL HINTS - e.g., \"traditional roof lines\", \"modern glass panels\", \"historic columns\"].\n\nLarge areas of the warm paper background remain completely untouched, especially around the edges and between elements.\n\nThe style combines mid-century travel poster aesthetics with contemporary [REGIONAL] editorial illustration: elegant, minimal, warm, cultured, and slightly nostalgic.\n\nThe texture shows loose hand-painted gouache and pastel marks with dry brush strokes, pastel smudges, wax-crayon edges, uneven color patches, imperfect handmade edges, and visible gaps between colored areas.\n\nColors are layered, dry, and tactile with a restrained palette of deep teal, sky blue, coral red, salmon pink, mustard yellow, ochre, terracotta, and small near-black accents, but used sparingly so each color can breathe against the paper.\n\nThe overall mood is quiet, spacious, relaxed, refined, like a sophisticated [CITY] cultural postcard or handmade art print suitable for premium lifestyle merchandise.\n\nThe landmark remains recognizable through its essential identity—[DEFINING CHARACTERISTICS]—but the drawing stays airy, calm, poetic, and softly abstract.\n\nStrong sense of pause, breath, and refined emptiness with confident use of blank space.\n\nNo crowded composition, no full-bleed busy background, no photorealism, no glossy digital rendering, no clean vector art, no 3D rendering, no text, no signage, no logos, no readable text."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Hand-Painted%20Landmark%20Postcard%3A%20Mid-Century%20Negative-Space%20Illustration%20(Wide%20Template)",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.040Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-e22a80023e2f",
+    "title": "Ancient Egyptians Casually Use Modern Tech: Six-Vignette Comedy Montage (20s Video)",
+    "description": "Act as a Ancient Egyptians Casually Use Modern Tech: Six-Vignette Comedy Montage (20s Video)",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "20 seconds, horizontal 16:9. A photorealistic live-action comedy montage consisting of exactly SIX separate vignettes. Ancient Egyptians casually use modern technology as if it has always existed.\n\nSix shots total, in the exact order below. Each vignette is ONE continuous shot, with hard cuts only at 00:03, 00:06, 00:09, 00:12 and 00:16. No transitions or additional shots. Begin each scene with the characters already positioned for its action. Show one clear gag, then cut after its payoff. Normal real-time movement, no slow motion.\n\nCHARACTERS\nEgyptian men: adults aged 25-45, olive-to-brown skin, dark eyes with black kohl, shaved heads or blue-and-gold striped nemes headdresses. Bare chests, white linen knee-length shendyt kilts and brown leather sandals. Real human actors with natural proportions.\n\nQueen, scene 3 only: approximately 28, olive skin, dark almond-shaped eyes, black shoulder-length bob with a blunt fringe, dramatic black eyeliner, turquoise eyeshadow. Thin gold diadem with a small upright cobra, broad gold-and-lapis collar, gold upper-arm cuffs and gold sandals. Fitted ankle-length white pleated linen dress. Calm regal expression. Both hands stay on the jet ski handlebars.\n\nMarket woman, scene 4 only: approximately 35, long thin black braids reaching her shoulder blades, kohl eyeliner, plain ankle-length white linen dress, leather sandals. Turquoise-and-gold beaded collar with a gold scarab pendant hanging at upper-chest height. Visibly different from the queen.\n\nMummy, scene 6 only: adult human figure completely wrapped in aged beige-grey linen bandages, with small frayed ends and dark gaps at the eyes. No exposed face.\n\nAll fabric is opaque and securely fitted. Preserve each character's appearance and clothing within their scene.\n\nSETTING\nAncient Egypt during its flourishing period. Stone temples, painted columns, palms, the Nile, working animals and ancient market stalls. Completed monuments look maintained and freshly finished. Scene 2 is an active construction site with unfinished stonework.\n\nNo modern architecture, roads, cables, tourists or modern background clothing.\n\nExactly one visible modern device in each scene:\n1. Electric scooter.\n2. Forklift.\n3. Jet ski.\n4. Payment terminal.\n5. Cordless leaf blower.\n6. Smartphone.\n\nThe scarab pendant contains an invisible NFC chip but looks entirely ancient. No additional visible modern accessories or devices. All modern devices are unbranded.\n\nLOOK AND CAMERA\nRealistic cinema-camera footage with restrained handheld documentary character. Subtle hand movement, natural motion blur, slight grain, realistic skin pores, sweat, linen fibres, weathered wood and stone dust. Prioritize clear readable actions and stable object shapes. No deliberate focus hunting during a gag.\n\nOutdoor scenes share hard midday sunlight, a clear sky, short shadows and natural reflected light from sand, stone and water. The market awning creates believable shade. Natural colours, restrained contrast, no glossy commercial lighting.\n\nThe tomb is illuminated only by one clay oil lamp and the smartphone while its screen is on. Expose the image so the mummy's final movement remains visible in the lamp light.\n\nCamera operators and filming equipment never appear.\n\nTIMELINE\n\n00:00-00:03 | ELECTRIC SCOOTER\nOne side three-quarter tracking shot at waist height on a stone-paved avenue lined with two rows of ram-headed sphinxes. A temple pylon stands in the distance.\n\nAt the opening, a man wearing a nemes headdress is already riding a matte-black electric kick scooter toward screen right. Both feet are on the deck and both hands hold the handlebars. The scooter travels at a brisk but controlled speed over closely fitted paving stones.\n\nHe overtakes a walking man leading a camel on the right side of the avenue, leaving a clear safe gap. The camel turns its head to follow the scooter. The rider stays casually serious.\n\nKeep the scooter wheels and the camel visible during the pass. Linen and headdress flaps move naturally in the breeze. Cut immediately after the scooter clears the camel.\n\n00:03-00:06 | FORKLIFT\nOne steady medium-wide shot at a pyramid construction site. A half-built pyramid rises in the background, with a small group of workers waiting beside slack hauling ropes.\n\nA yellow industrial forklift faces a wooden stone-hauling sledge. A roughly one-metre limestone cube rests on two thick wooden support runners on the sledge, leaving clear channels beneath the stone.\n\nAt the opening, the forklift is stationary and both forks are already inserted fully through these channels beneath the block. A shaved-head Egyptian driver raises the block approximately 30 centimetres clear of the supports. The heavy block remains level and stable. A small amount of dust falls from its edges.\n\nBeside the forklift, outside the load's path, a foreman watches the successful lift and makes one short mark on a papyrus scroll with a reed pen.\n\nShow the lift and the foreman's reaction in the same composition. Cut after his mark. No driving, turning or additional lifting.\n\n00:06-00:09 | JET SKI\nOne wide shot from a low riverbank position, looking across the Nile. Palms and the opposite bank form the background, with a distant pyramid on the horizon.\n\nThe queen is already riding a white-and-gold sit-down jet ski from screen left to screen right at a brisk speed. She sits securely astride the seat, her dress arranged clear of the controls and water intake. Her fitted diadem stays secure; only the tips of her bob and the edges of the dress move in the wind.\n\nA small papyrus-reed fishing boat floats several metres to the side of her route. Two fishermen are aboard, one seated and one crouched while holding a fishing net. The jet ski passes without contact and continues toward screen right.\n\nIts nearby trailing wake reaches the boat within the shot. The boat tilts once. The crouching fisherman drops backward onto the boat's low seat and accidentally releases the net's loose edge into the water. The seated fisherman grips the gunwale.\n\nThe queen remains composed and does not look back. Keep the passing jet ski and the boat's reaction readable in the same shot. Cut on the fisherman's landing; the boat may still be rocking.\n\n00:09-00:12 | CONTACTLESS SCARAB\nOne medium shot beneath a linen market awning. Flatbreads, dates, onions and clay jars cover a wooden stall. Soft background movement from shoppers and a donkey carrying baskets.\n\nA bald merchant already holds a small black contactless payment terminal near the market woman's upper chest. His other hand already supports two flatbreads.\n\nThe woman lifts her gold scarab pendant a short distance from her chest and touches it once to the terminal's upper contactless reader. The necklace is long enough for the movement and does not stretch. The pendant has a concealed NFC chip, with no visible modern markings.\n\nThe terminal shows a simple green confirmation light and makes one beep. No readable words are needed.\n\nShe releases the pendant, which falls back against her collar. The merchant immediately extends the two flatbreads, and she takes them with both hands. Both remain entirely matter-of-fact.\n\nCut as the bread transfer finishes.\n\n00:12-00:16 | LEAF BLOWER\nOne medium-wide shot in a temple courtyard with painted stone columns.\n\nA priest wearing a nemes headdress stands to screen left with an orange cordless leaf blower. A thin layer of loose dry sand covers the paved ground directly beside the paws of a large stone sphinx.\n\nA second priest is already entering the background to screen right, carrying an incense bowl.\n\nThe first priest points the nozzle low and toward screen right. The blower pushes the loose surface sand off the paving. A low plume travels approximately two metres in the established direction and briefly envelops the passing priest's upper body.\n\nThe second priest stops. A light dusting remains on his face, shoulders and chest, leaving his expression clearly visible. He keeps hold of the incense bowl and gives the first priest a long, offended stare. A few grains fall from his brow.\n\nThe first priest notices him, releases the trigger and lowers the nozzle. The motor winds down quickly. Quiet courtyard ambience remains audible.\n\nCut on their awkward eye contact. No additional blast or repeated reaction.\n\n00:16-00:20 | MUMMY'S BATTERY\nOne continuous elevated medium shot looking diagonally into an open granite sarcophagus. A gentle handheld move closer is allowed, without changing the viewing side.\n\nThe mummy is already seated INSIDE the sarcophagus, with its legs extended along the interior and its back raised against the head end. This position allows it to recline directly backward without climbing or turning.\n\nOne clay oil lamp burns on the floor to the left, close enough to cast warm flickering light across the mummy's upper body and the inner rim. Painted hieroglyphs are faintly visible on the chamber wall.\n\n00:16-00:17.3:\nThe mummy scrolls once with a bandaged thumb. Hold the phone at an angle where its screen and the mummy's upper body are both readable. Cold screen light illuminates the bandages.\n\nA simple red battery icon with \"1%\" appears on the phone screen, accompanied by a brief low-battery chime. This is an in-world phone display, not a video overlay.\n\n00:17.3-00:18.3:\nThe mummy pauses, drops its shoulders and gives a tired muffled sigh. It presses the phone's side button once, turning the display off.\n\n00:18.3-00:19.6:\nStill holding the phone, it reclines backward into the sarcophagus. Its head settles naturally against the inner headrest. It places the dark phone flat on its chest and rests its hands beside it.\n\n00:19.6-00:20:\nBrief final hold on the mummy lying motionless, with the dark phone visible on its chest in the warm oil-lamp light. The sarcophagus remains open. End.\n\nAUDIO\nOnly diegetic sound synchronized with visible actions. No music, narration, dialogue, laugh track or added comedy effects.\n\nScene 1: quiet electric motor, wheels over stone, camel grunt and market-distance ambience.\nScene 2: forklift motor and hydraulics, falling grit, faint construction ambience.\nScene 3: jet ski engine, water spray, wake slapping the reed hull, one brief startled fisherman vocalization.\nScene 4: subdued market chatter without intelligible words, one payment beep, bread and fabric movement.\nScene 5: blower motor and sand hiss, then the motor winding down and quiet courtyard ambience.\nScene 6: faint phone taps, one battery chime, muffled sigh and bandage rustle. Very quiet tomb ambience.\n\nCONTINUITY AND PRIORITIES\nExactly six vignettes, each shown once, in the specified order. Total duration exactly 20 seconds.\n\nEach vignette has one main gag. Prioritize its visible setup, action and reaction over background detail. No extra business, repeated attempts or inserted close-ups.\n\nMaintain spatial positions and movement direction within each shot. Hands retain believable contact with controls and props. All vehicles remain supported by the appropriate surface. The forklift block remains stable on both forks. The jet ski never touches the fishing boat. The blower's sand follows the nozzle direction.\n\nThe queen and market woman remain two distinct people with different hairstyles and jewellery.\n\nThe phone remains in the mummy's hand until it is placed on the chest. Its screen stays dark after the side button is pressed. The oil lamp stays lit, and the sarcophagus never closes.\n\nPhotorealistic actors, environments and effects. No cartoon appearance, plastic skin, duplicated people, body deformation, teleportation, changing costumes, floating props or impossible object intersections.\n\nNo captions, subtitles, logos, watermarks or recording interface. The only required readable text is the small \"1%\" on the smartphone screen."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Ancient%20Egyptians%20Casually%20Use%20Modern%20Tech%3A%20Six-Vignette%20Comedy%20Montage%20(20s%20Video)",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.040Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-c74da82dfab4",
+    "title": "theme and colors",
+    "description": "Act as a theme and colors",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "---\nname: theme-and-colors\ndescription: study the theme and colors. and then change the whole process for the theme to be better, and change the colors to be better and modern.\n---\n\n# theme and colors\n\nDescribe what this skill does and how the agent should use it.\n\n## Instructions\n\n- Step 1: ...\n- Step 2: ...\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#theme%20and%20colors",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.040Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-ffb6918b6adf",
+    "title": "Master Prompt: Industry-Level EDA",
+    "description": "Act as a Master Prompt: Industry-Level EDA",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# ROLE\nYou are a senior Data Scientist at [COMPANY / INDUSTRY, e.g. \"a mid-size fintech lender\"].\nA stakeholder ([STAKEHOLDER ROLE, e.g. \"VP of Growth\"]) has handed you raw data and an\nincomplete, ambiguous request. Nobody has told you what is \"wrong\" or what the answer is.\nYou must investigate independently, challenge assumptions (including the stakeholder's and\nyour own), and deliver findings that could change a business decision.\n\n# CONTEXT (fill what you know; infer the rest and label inferences as ASSUMPTIONS)\n- Business problem as stated: [e.g. \"Churn seems to be rising. Figure out why.\"]\n- Primary KPI(s): [e.g. 30-day retention, revenue per user, default rate]\n- Decision this analysis informs: [e.g. \"whether to change the pricing tier\"]\n- Data provided: [files / tables / schema / row counts / time range]\n- Known constraints: [privacy, sampling, known tracking changes, deadlines]\n- Audience: [executives / product team / risk team], technical level: [low/med/high]\n\n# OPERATING PRINCIPLES\n1. Question before data: restate the problem, define KPIs precisely (numerator,\n   denominator, time window), and list what would change the decision.\n2. Never trust data blindly: every anomaly is either a data bug, a process artifact,\n   or a real signal. Investigate which before removing or keeping it.\n3. Prefer competing hypotheses over a single story. Try to falsify your favorite one.\n4. Distinguish correlation, association, and causation. State what evidence would be\n   needed for causality and whether the data can provide it.\n5. Check for Simpson's paradox, survivorship bias, selection bias, seasonality,\n   mix shifts, and data leakage before reporting any headline number.\n6. Quantify uncertainty (confidence intervals, effect sizes, sample sizes), not just\n   p-values. Account for multiple comparisons when testing many segments.\n7. Be explicit: label every statement as FACT (observed), INFERENCE (reasoned),\n   or ASSUMPTION (unverified).\n8. Do not invent data, columns, or results. If something cannot be determined, say so\n   and state what data would resolve it.\n\n# WORKFLOW (complete every phase; show code, outputs, and reasoning)\n\n## Phase 1: Business Understanding\n- Restate the problem in your own words; identify ambiguities and clarifying questions\n  you would ask the stakeholder.\n- Define KPIs formally; propose a primary metric, secondary metrics, and guardrail metrics.\n- Write 3-5 initial hypotheses ranked by business impact and testability.\n\n## Phase 2: Data Understanding\n- Schema audit: types, units, granularity (what does one row represent?), keys,\n  time coverage, join relationships.\n- Profiling: missingness (and its pattern: MCAR / MAR / MNAR), duplicates (exact and\n  near), cardinality, distributions, range checks, referential integrity.\n- Data lineage risks: logging changes, migrations, timezone issues, currency/unit\n  mismatches, test or internal accounts, bot traffic.\n- Output a Data Quality Scorecard (completeness, validity, uniqueness, consistency,\n  timeliness) with severity ratings.\n\n## Phase 3: Data Cleaning (documented and reversible)\n- For each issue: describe it, quantify its impact, state the hypothesized cause,\n  choose a treatment (fix / impute / flag / drop), and justify it.\n- Treat outliers by investigation, not by rule of thumb alone (IQR/z-score are\n  detectors, not verdicts). Check whether outliers are errors, rare-but-real, or the\n  business story itself.\n- Keep a cleaning log with row counts before and after each step.\n- Run a sensitivity check: do conclusions change under alternative cleaning choices?\n\n## Phase 4: Exploratory Analysis\n- Univariate: distributions, skew, heavy tails, zero inflation, category imbalance.\n- Bivariate: feature vs. target and feature vs. feature (appropriate measures for\n  numeric/categorical combinations; avoid defaulting to Pearson).\n- Multivariate: interactions, confounders, collinearity, segmentation / clustering\n  if warranted.\n- Temporal: trend, seasonality, day-of-week/holiday effects, structural breaks,\n  rolling metrics, anomalies in time.\n- Cohort / segment: retention curves, acquisition-cohort comparison, mix-shift\n  decomposition (is the change within segments or between them?).\n- Every chart must have a title that states the takeaway, labeled axes, and units.\n  Prefer few, high-signal visuals over many generic ones.\n\n## Phase 5: Hypothesis Investigation\n- For each hypothesis: state H0/H1, choose a test justified by data type and\n  assumptions (check normality, variance, independence, sample size), report effect\n  size + confidence interval + p-value, and interpret in business terms.\n- Use non-parametric, bootstrap, or permutation methods when assumptions fail.\n- Test alternative explanations and confounders explicitly (stratification,\n  regression adjustment, matching, or diff-in-diff when applicable).\n- Run robustness checks: different time windows, segment definitions, outlier\n  treatments. Report which findings survive and which do not.\n- If a modeling step helps (baseline model, feature importance, SHAP), use it to\n  generate or validate hypotheses, not as proof of causation. Avoid leakage.\n\n## Phase 6: Business Recommendations\n- Provide 3-5 prioritized recommendations. For each give:\n  Action | Evidence | Expected impact (quantified range) | Confidence (H/M/L) |\n  Effort | Risk | How to measure success (metric, target, timeframe).\n- Propose the next validation step (A/B test design with sample size/MDE, pilot,\n  additional data to collect, monitoring dashboard/alerts).\n- Include an \"Ignore this\" section: tempting patterns that are NOT actionable\n  and why.\n\n# REQUIRED FINAL DELIVERABLES\n1. Executive summary (max 150 words): problem, key finding, recommended action, impact.\n2. Key findings table: Finding | Evidence | Statistical support | Confidence | So-what.\n3. Data quality & cleaning log.\n4. Methods appendix: tests used, assumptions checked, code.\n5. Limitations & threats to validity (data gaps, bias, causality limits, generalization).\n6. Open questions and a follow-up analysis roadmap.\n\n# STYLE & FORMAT\n- Reproducible code ([Python: pandas, numpy, scipy, statsmodels, seaborn/matplotlib]\n  or [SQL/R]), commented, with fixed random seeds.\n- Write for the stated audience: lead with the insight, keep the methodology in the\n  appendix.\n- No jargon without a one-line explanation for non-technical readers.\n- Flag anything surprising or counterintuitive and what you did to verify it.\n\n# SELF-CHECK BEFORE FINALIZING\n[ ] Did I define KPIs precisely?      [ ] Did I test at least 2 competing explanations?\n[ ] Did I check for confounding/mix shift?   [ ] Are effect sizes and CIs reported?\n[ ] Do conclusions survive sensitivity checks?   [ ] Are causal claims justified?\n[ ] Is every recommendation measurable?   [ ] Are limitations stated honestly?"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Master%20Prompt%3A%20Industry-Level%20EDA",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.040Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-722445133509",
+    "title": "language editor",
+    "description": "Act as a language editor",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "---\nname: language-editor\ndescription: A professional multilingual language editor that corrects and refines text in any language, improving grammar, spelling, clarity, fluency, and natural expression while preserving the original meaning, intent, and appropriate tone. Ensures polished, authentic, native-level writing with concise, professional results.\n---\n\n# My Skill\n\nDescribe what this skill does and how the agent should use it.\n\n## Instructions\n\n- Step 1: ...\n- Step 2: ..."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#language%20editor",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.040Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-f6702d0b6870",
+    "title": "Database Schema Design taste",
+    "description": "Act as a Database Schema Design taste",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# Database Schema Design taste of a pragmatic relational modeler\n- Use surrogate primary keys (`bigint` identity or UUIDv7) on every table and enforce natural keys with separate unique constraints. Confidence: 0.85\n- Name tables as plural snake_case nouns and columns as singular snake_case, with foreign keys named `<referenced_table_singular>_id`. Confidence: 0.80\n- Declare every foreign key constraint in the database instead of relying on the application to keep references valid. Confidence: 0.95\n- Mark columns `NOT NULL` by default and allow nulls only when \"unknown\" is a genuinely different state from an empty value. Confidence: 0.90\n- Store timestamps as `timestamptz` in UTC and add `created_at` and `updated_at` to every mutable table. Confidence: 0.90\n- Store money as integer minor units or `numeric` with an explicit currency column, never as floating point. Confidence: 0.95\n- Normalize to third normal form first and denormalize only for a measured read path, documenting why the copy exists and how it stays in sync. Confidence: 0.85\n- Use `CHECK` constraints for simple invariants such as positive quantities, valid ranges and allowed status values. Confidence: 0.85\n- Prefer a lookup table or a check constraint over native enum types when the set of values is likely to change. Confidence: 0.70\n- Model many-to-many relationships with an explicit join table that has its own composite unique key and room for attributes like role or created_at. Confidence: 0.85\n- Index every foreign key column that is used in joins or cascading deletes. Confidence: 0.90\n- Add indexes from real query patterns and `EXPLAIN` output, not speculatively on every column. Confidence: 0.85\n- Use partial indexes for hot subsets, such as active rows or unprocessed jobs, instead of indexing the whole table. Confidence: 0.75\n- Keep soft deletes out of the core schema unless they are a product requirement; when needed, pair `deleted_at` with partial unique indexes. Confidence: 0.70\n- Use `jsonb` only for genuinely schemaless or third-party payloads, and promote any field you filter or join on into a real column. Confidence: 0.85\n- Avoid polymorphic foreign keys (`owner_type` plus `owner_id`); use separate nullable foreign keys with a check constraint or separate join tables. Confidence: 0.80\n- Keep audit history in an append-only table or temporal table rather than overwriting rows and losing the past. Confidence: 0.75\n- Choose `ON DELETE` behavior deliberately per relationship: `RESTRICT` by default, `CASCADE` only for owned child rows. Confidence: 0.85\n- Never store comma-separated lists in a column; model repeating values as rows. Confidence: 0.95\n- Keep multi-tenant data in shared tables with a mandatory `tenant_id` in every key and index, enforced with row-level security where available. Confidence: 0.75\n- Review every schema change as a migration in version control together with the code that depends on it. Confidence: 0.90\n- Document each table and non-obvious column with `COMMENT ON` so the schema explains itself in any database client. Confidence: 0.65"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Database%20Schema%20Design%20taste",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.040Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-132ca2fd907c",
+    "title": "Linux Server Hardening taste",
+    "description": "Act as a Linux Server Hardening taste",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# Linux Server Hardening taste of a careful operations engineer\n- Build servers from a minimal base image and install only the packages a role needs, removing compilers and debugging tools from production hosts. Confidence: 0.85\n- Manage every server with configuration as code (Ansible, cloud-init or an image pipeline) and never rely on manual changes that drift. Confidence: 0.90\n- Disable SSH password authentication and root login, and allow only key-based or certificate-based logins. Confidence: 0.95\n- Prefer short-lived SSH certificates or an identity-aware access proxy over long-lived authorized_keys files copied around. Confidence: 0.75\n- Give each engineer a named account with sudo through groups, and never share a common admin user. Confidence: 0.90\n- Default the host firewall to deny inbound traffic and open only the ports the service actually listens on. Confidence: 0.90\n- Keep SSH and admin interfaces off the public internet, reachable only through a VPN, bastion or private network. Confidence: 0.85\n- Enable unattended security updates for the base OS, and schedule reboots so kernel patches actually take effect. Confidence: 0.85\n- Run each service as its own unprivileged system user with no login shell. Confidence: 0.90\n- Use systemd sandboxing options such as `ProtectSystem=strict`, `NoNewPrivileges=yes` and `PrivateTmp=yes` for every long-running service. Confidence: 0.80\n- Keep SELinux or AppArmor in enforcing mode and write a policy exception instead of disabling it when something breaks. Confidence: 0.75\n- Ship logs, including auth and audit logs, to a central store so an attacker on the host cannot erase the trail. Confidence: 0.90\n- Enable `auditd` rules for privileged commands, changes to sudoers and edits under `/etc`. Confidence: 0.70\n- Keep secrets out of files in the repo and on disk where possible; fetch them at runtime from a secrets manager with scoped access. Confidence: 0.85\n- Mount `/tmp` and data volumes with `noexec`, `nosuid` and `nodev` wherever the workload allows it. Confidence: 0.65\n- Apply sysctl hardening such as disabling IP forwarding and ICMP redirects on hosts that are not routers. Confidence: 0.70\n- Rate-limit authentication attempts with fail2ban or the platform equivalent on any exposed login service. Confidence: 0.70\n- Encrypt disks at rest and protect backups with separate credentials that the server itself cannot use to delete them. Confidence: 0.85\n- Scan hosts regularly against a CIS benchmark or similar baseline and track findings like any other bug. Confidence: 0.75\n- Prefer replacing a compromised or drifted server with a freshly built one over trying to clean it in place. Confidence: 0.90\n- Keep accurate time with NTP or chrony on every host so logs, certificates and tokens line up. Confidence: 0.80"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Linux%20Server%20Hardening%20taste",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.040Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-1f9eb87947ae",
+    "title": "Vite Frontend Tooling taste",
+    "description": "Act as a Vite Frontend Tooling taste",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# Vite Frontend Tooling taste of a fast-feedback web developer\n- Start new single-page apps and component playgrounds on Vite with the official framework plugin instead of a custom webpack setup. Confidence: 0.85\n- Keep `vite.config.ts` in TypeScript with `defineConfig`, and keep it short enough to read in one screen. Confidence: 0.80\n- Run type checking separately with `tsc --noEmit` in CI and in a watcher, since Vite only strips types and never checks them. Confidence: 0.95\n- Use path aliases sparingly, define them once in `tsconfig.json`, and mirror them in Vite with a plugin such as `vite-tsconfig-paths`. Confidence: 0.75\n- Expose only `VITE_`-prefixed environment variables to client code and never put secrets in them. Confidence: 0.95\n- Type `import.meta.env` in a `vite-env.d.ts` file so missing or misspelled variables fail at compile time. Confidence: 0.80\n- Configure the dev server proxy for backend APIs instead of enabling permissive CORS on the backend just for local development. Confidence: 0.85\n- Use Vitest for unit and component tests so tests share the same config, transforms and aliases as the app. Confidence: 0.90\n- Lazy-load routes and heavy widgets with dynamic `import()` and let Rollup split chunks, rather than hand-tuning `manualChunks` early. Confidence: 0.80\n- Inspect bundle size with `rollup-plugin-visualizer` before releases and treat a large new dependency as a review topic. Confidence: 0.75\n- Import assets through the module graph so they get hashed file names, keeping `public/` for files that need fixed URLs like `robots.txt`. Confidence: 0.85\n- Set an explicit `build.target` that matches the browsers you support, instead of relying on the default. Confidence: 0.70\n- Generate source maps for production builds and upload them to your error tracker rather than serving them publicly. Confidence: 0.80\n- Prefer native CSS features and CSS modules or Tailwind over heavy CSS-in-JS runtimes in Vite projects. Confidence: 0.70\n- Keep the plugin list small and remove plugins that duplicate built-in features such as JSON imports or CSS handling. Confidence: 0.80\n- Use `vite preview` to smoke-test the production build locally before deploying, since dev and build use different pipelines. Confidence: 0.85\n- Pin Vite and plugin versions in the lockfile and upgrade them together, reading the migration guide for major versions. Confidence: 0.85\n- Use library mode with `vite build --lib` plus a declaration generator when publishing a component package, and mark peer dependencies as external. Confidence: 0.75\n- Fix slow cold starts by checking `optimizeDeps` and large barrel files before blaming Vite itself. Confidence: 0.70\n- Fail CI on build warnings about circular imports or missing exports instead of letting them pile up. Confidence: 0.65"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Vite%20Frontend%20Tooling%20taste",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.040Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-36b6c13567d3",
+    "title": "Acropolis at Golden Sunrise: 15-Shot Historical Documentary with 1-Second Hard Cuts (15s Video)",
+    "description": "Act as a Acropolis at Golden Sunrise: 15-Shot Historical Documentary with 1-Second Hard Cuts (15s Video)",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create an ultra-realistic 15-second cinematic historical documentary of the Acropolis of Athens, Greece, during a spectacular golden sunrise. Exactly 15 rapid shots, 1 second each, with clean hard cuts and smooth visual continuity.\n\nShot sequence:\n\n1. Aerial establishing shot revealing the entire Acropolis above Athens.\n2. Smooth drone glide toward the ancient Parthenon.\n3. Wide symmetrical view of the Parthenon glowing in sunrise light.\n4. Close-up of massive ancient Greek marble columns.\n5. Slow tilt-up revealing the magnificent temple architecture.\n6. Cinematic orbit around the Parthenon.\n7. Close-up of intricate ancient stone carvings and sculptures.\n8. Side-angle tracking shot along the majestic columns.\n9. Tracking shot across ancient marble pathways.\n10. Low-angle hero shot emphasizing the towering columns.\n11. Pan across the Erechtheion and its famous Caryatid statues.\n12. Golden sunlight illuminating weathered marble textures.\n13. Elevated aerial view showing Athens stretching toward the horizon.\n14. Close-up revealing ancient architectural details and stone textures.\n15. Spectacular aerial pull-back revealing the entire Acropolis beneath the glowing sunrise sky.\n\nVisual style: Photorealistic 4K HDR, premium historical documentary cinematography, authentic ancient Greek architecture, warm golden-pink sunrise, soft atmospheric haze, realistic marble textures, cinematic drone movements, natural shadows, stable geometry, no flickering or distortion.\n\nAudio: Epic orchestral soundtrack with subtle ancient Greek-inspired instrumental atmosphere.\n\nConsistency: Maintain historically accurate architecture, consistent sunrise direction, realistic geography, and smooth visual continuity across all 15 shots."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Acropolis%20at%20Golden%20Sunrise%3A%2015-Shot%20Historical%20Documentary%20with%201-Second%20Hard%20Cuts%20(15s%20Video)",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.040Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-fdda0121db5b",
+    "title": "Quiet Waitress, Brutal Lesson: 30-Second Korean Restaurant & Kitchen Fight Sequence (Action Video)",
+    "description": "Act as a Quiet Waitress, Brutal Lesson: 30-Second Korean Restaurant & Kitchen Fight Sequence (Action Video)",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create an EXTREMELY INTENSE, ultra-realistic, high-budget 30-second Korean action movie sequence featuring brutal, lightning-fast hand-to-hand combat inside a traditional Korean restaurant and its industrial kitchen.\n\n 60 FPS, realistic motion physics, high-speed combat, occasional 120 FPS slow-motion impact shots, seamless camera tracking, explosive sound design, authentic Korean dialogue.\n\nACTION INTENSITY: 10/10 — MAXIMUM.\nThe sequence must feel like a combination of elite Korean martial-arts choreography, gritty street fighting, and an explosive blockbuster action climax. Every second must contain suspense, danger, movement, or a powerful cinematic moment.\n\nMAIN FEMALE CHARACTER — IDENTITY LOCK (optional: attach your character reference as Image 1)\nA beautiful, athletic, 24-year-old Korean woman with a short, chin-length pastel-pink bob haircut, soft feathered layers, expressive dark eyes, natural Korean facial features, and a lean, powerful physique.\n\nHer pastel-pink hair must remain clearly visible throughout the action, even under dramatic lighting.\nPersonality: Initially quiet, gentle, and respectful. When threatened, her expression transforms into an intimidating, ice-cold stare. Her fighting style is explosive, precise, aggressive, and extraordinarily fast.\nMaintain identical facial features, pastel-pink hair, costume, proportions, and hairstyle across every shot.\n\nENVIRONMENT\nA busy traditional Korean restaurant at night, transitioning into a cramped industrial kitchen.\nWarm amber restaurant lighting contrasts with cold fluorescent kitchen lights. Stainless-steel counters, steaming pots, metal shelves, swinging kitchen doors, hanging utensils, stacks of plates, wet tiled floors, and narrow cooking aisles create a dangerous, highly interactive combat environment.\n\nSteam bursts from boiling pots. Metallic objects crash to the floor. Glass shatters. Overturned furniture and scattered ingredients intensify the chaos.\n\nSECOND-BY-SECOND ACTION SEQUENCE\n\n00:00–00:03 — THE THREAT\nExtreme cinematic close-up of a ruthless Korean crime boss slamming his palm against a restaurant table.\nBANG.\nAn elderly restaurant owner flinches in terror.\nThree muscular bodyguards in black suits stand behind the boss.\nThe crime boss grabs the elderly man's collar and threatens him in Korean.\nCamera whip-pans toward a young pastel-pink-haired waitress standing motionless beside the kitchen entrance.\nShe slowly places her serving tray on the counter.\nHer eyes narrow.\nThe restaurant becomes terrifyingly silent.\n00:03–00:06 — THE FIRST EXPLOSION\nOne bodyguard aggressively approaches the waitress and reaches for her collar.\nWITHOUT WARNING—\nShe explodes into motion.\nA lightning-fast wrist deflection.\nA vicious elbow strike into his padded upper torso.\nShe grabs his jacket, pivots, and slams him backward onto an empty restaurant table.\nCRAAAAASH.\nPlates bounce, chopsticks scatter, and the table collapses.\nThe camera rushes forward in a violent handheld tracking shot.\nA second bodyguard charges.\nShe ducks beneath his punch and drives a powerful spinning kick into his chest.\nHe stumbles through the swinging kitchen doors.\n00:06–00:10 — KITCHEN WARFARE\nThe camera follows the waitress directly into the industrial kitchen in one seamless tracking movement.\nTwo attackers rush her from opposite directions.\nShe slides beneath the first man's swinging arm, plants one hand on a stainless-steel counter, and delivers a powerful sideways kick that sends him stumbling into stacked metal trays.\nCLANG! CLANG! CLANG!\nThe second attacker lunges from behind.\nShe turns sharply, catches his forearm, and uses his momentum to throw him across a preparation counter.\nMetal bowls scatter across the floor.\nSteam erupts from a nearby cooking station.\nThe camera circles rapidly around her as she moves through the chaos.\n00:10–00:14 — THE STEAM ATTACK\nA massive cloud of white steam fills the narrow kitchen aisle.\nVisibility drops.\nA muscular attacker suddenly emerges from the steam, swinging a heavy metal serving tray toward her.\nShe ducks at the final instant.\nWHOOSH.\nThe tray smashes into a hanging rack behind her.\nShe immediately counters with three lightning-fast movements:\nA palm strike.\nA spinning elbow.\nA powerful jumping knee into the attacker's guarded torso.\nHe crashes backward against a stainless-steel refrigerator.\nBOOOOM.\nThe camera briefly enters dramatic slow motion, capturing her pastel-pink hair whipping through the steam.\nThen instantly SNAP BACK TO REAL TIME.\n00:14–00:18 — THE RELENTLESS COMBO\nTwo remaining attackers charge simultaneously.\nThe waitress leaps onto a low kitchen platform, launches herself forward, and performs a spectacular cinematic flying kick against the first attacker.\nShe lands, immediately pivots, and blocks the second man's punch.\nA rapid-fire exchange follows:\nBLOCK — ELBOW — DUCK — SPIN — KICK.\nFive perfectly choreographed movements in two seconds.\nThe camera follows every strike with aggressive whip-pans and realistic impact shake.\nOne attacker crashes into stacked plastic crates.\nThe other tumbles across a stainless-steel counter, scattering vegetables and utensils.\nThe entire kitchen erupts in metallic noise.\n00:18–00:22 — THE BIGGEST IMPACT\nThe largest bodyguard emerges through the steam.\nHe is nearly twice her size.\nHe charges with enormous force.\nShe dodges his first punch.\nThe second punch narrowly misses her face.\nEXTREME CLOSE-UP: Her pastel-pink hair moves across her eyes.\nShe grips the edge of the counter, swings her legs upward, and executes a devastating cinematic double-leg push kick against his upper body.\n120 FPS SLOW MOTION.\nThe attacker flies backward a short, physically believable distance and crashes through the swinging kitchen doors.\nCRAAAAASH.\nThe doors slam against the walls.\nA shower of loose utensils falls from a nearby shelf.\nCut instantly to real-time speed.\n00:22–00:26 — THE FINAL BOSS\nThe crime boss stands in the restaurant doorway, stunned.\nAll his bodyguards are defeated.\nHe angrily removes his suit jacket and charges toward her.\nThe waitress remains completely motionless.\nAt the last second, she steps sideways, redirects his arm, and delivers a stunning spinning back kick.\nBOOOOM.\nHe crashes backward into an empty dining chair, which collapses beneath him.\nThe camera pushes into an extreme close-up of her cold, emotionless face.\nHer breathing remains controlled.\n00:26–00:30 — THE SHOCKING REVEAL\nThe kitchen falls silent.\nSteam drifts slowly through the air.\nThe crime boss looks up at her in disbelief.\nHe recognizes her.\nHis expression changes from anger to absolute terror.\nHe whispers in Korean:\n\"설마... 너였어?\"\n(\"No way... it was you?\")\nThe waitress slowly removes her burgundy apron and drops it onto the floor.\nCLOSE-UP: Her fearless eyes beneath her pastel-pink hair.\nShe replies in a quiet, intimidating Korean voice:\n\"이제 끝이야.\"\n(\"It's over now.\")\nFINAL SHOT: A dramatic low-angle hero shot as she walks toward the camera through the steam-filled kitchen.\nMassive cinematic bass drop.\nHARD CUT TO BLACK.\nCINEMATOGRAPHY\nExtremely fast, aggressive Korean action cinematography.\nContinuous handheld tracking during combat.\nRapid whip-pans synchronized with strikes.\nExtreme close-ups of eyes, fists, feet, and facial reactions.\nDynamic low-angle shots emphasizing powerful kicks.\n120 FPS slow motion ONLY for the most spectacular impacts.\nImmediate speed ramp back into real-time combat.\nRealistic body momentum, grounded stunts, and believable collisions.\nSeamless camera movement through swinging doors and tight kitchen aisles.\nNatural motion blur and dramatic depth of field.\nSOUND DESIGN\nExplosive Korean cinematic percussion, aggressive bass pulses, rapid heartbeat-like rhythms, deep impact booms, sharp whooshes, metal tray crashes, shattering dishes, steam hissing, footsteps scraping wet tiles, heavy breathing, and realistic combat grunts.\nMusic intensifies throughout the fight, then cuts into complete silence before the final dialogue.\nNEGATIVE PROMPT\nNo cartoon physics, no exaggerated superhero powers, no floating characters, no unnatural body movements, no disconnected punches, no random teleportation, no distorted faces, no extra limbs, no changing hairstyles, no costume inconsistencies, no excessive blood, no gore, no blurry action, no unrealistic object interactions, no slow or weak choreography, no unnecessary pauses.\nFINAL DIRECTIVE: Every fight movement must feel powerful, dangerous, fast, and cinematic. Prioritize extraordinary choreography, realistic collisions, explosive kitchen destruction, perfect character consistency, and maximum Korean action-movie intensity.\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Quiet%20Waitress%2C%20Brutal%20Lesson%3A%2030-Second%20Korean%20Restaurant%20%26%20Kitchen%20Fight%20Sequence%20(Action%20Video)",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.040Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-08a86b8e5272",
+    "title": "Black-and-White Manga Ink Sketch: Messy-Bun Daydreamer Portrait (9:16 JSON)",
+    "description": "Act as a Black-and-White Manga Ink Sketch: Messy-Bun Daydreamer Portrait (9:16 JSON)",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "{\n  \"aspect_ratio\": \"9:16\",\n  \"style\": \"Black and white manga ink sketch, detailed hand-drawn illustration\",\n\n  \"prompt\": \"A beautiful young anime woman with large expressive eyes, long eyelashes, full lips and a dreamy sideways gaze. Extremely voluminous messy black hair tied in a loose high bun, with wispy bangs and wild flowing flyaway strands. Her head is slightly tilted, resting gently on one hand, with naturally curved fingers supporting her cheek. She wears an oversized black sweater with loose sleeves and detailed fabric folds. Medium close-up portrait, head and upper torso visible, centered composition. Intricate black ink linework, fine cross-hatching, delicate pencil shading on the face, dense black hair strokes with white highlights, expressive sketchy outlines. Pure white paper background with a tiny hand-drawn heart doodle in the upper right corner. Strong black and white contrast, authentic manga illustration, elegant, dreamy and playful.\",\n\n  \"negative_prompt\": \"Color, 3D, photorealism, watercolor, extra fingers, distorted face, messy background, text, watermark, blurry details\"\n}\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Black-and-White%20Manga%20Ink%20Sketch%3A%20Messy-Bun%20Daydreamer%20Portrait%20(9%3A16%20JSON)",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-10T07:01:42.040Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
