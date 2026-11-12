@@ -161343,5 +161343,761 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-00cf832cc931",
+    "title": "Linocut Print of a Crowded European Christmas Market at Night",
+    "description": "Act as a Linocut Print of a Crowded European Christmas Market at Night",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "A traditional black-and-cream linocut print of a crowded European Christmas market at night, tall portrait 3:4. A narrow cobblestone lane runs between wooden market stalls with peaked snow-covered roofs; a dense crowd in heavy winter coats and hats walks between the stalls. In the background a tall ornate Gothic cathedral spire rises into a solid black sky filled with falling cream snow dots. Three strings of round festival lights swoop across the upper third with soft white halos. Left stall shows jars and hanging ornaments; right stall sends a plume of steam from a tray of roasted chestnuts. High-contrast hand-carved hatching, block-print woodgrain feel, ink-black and cream paper only, lively winter-night mood. No readable shop names, no logos, no watermarks, no modern brand marks."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Linocut%20Print%20of%20a%20Crowded%20European%20Christmas%20Market%20at%20Night",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-12T06:58:15.114Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-d23cff8fee8c",
+    "title": "Watercolor Cutaway of a Busy Harbor Fish Market at Dawn",
+    "description": "Act as a Watercolor Cutaway of a Busy Harbor Fish Market at Dawn",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "A detailed watercolor cutaway of a busy open-air harbor fish market at dawn, landscape 4:3. A long stone pavilion with weathered Romanesque arches and a high timber-framed ceiling runs diagonally through the frame; the dark tiled floor is wet and reflective. Fishmongers in work shirts and aprons sort silver fish on crushed ice in wooden crates and along long tables; brass hanging scales dangle from the stone arches; empty crates stack nearby. Through the arches on the right, warm golden dawn light spreads over a calm harbor with docked fishing boats and a few seagulls in the pale sky. Soft watercolor washes, visible brush texture, cool blue-grey stone contrasted with warm sunrise gold, lively but orderly morning market mood. No readable signs, no logos, no watermarks, no brand names."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Watercolor%20Cutaway%20of%20a%20Busy%20Harbor%20Fish%20Market%20at%20Dawn",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-12T06:58:15.114Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-b06e5e5df8ca",
+    "title": "Whitewashed Santorini Cliffside Village with Blue Domes at Golden Hour",
+    "description": "Act as a Whitewashed Santorini Cliffside Village with Blue Domes at Golden Hour",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "High-angle wide view of a whitewashed Santorini cliffside village with blue domes at golden hour, wide landscape 16:9. Deep blue Aegean sea fills the LEFT side with a bright sun low on the horizon casting a gold glitter path across the water; a distant hazy caldera rim sits across the sea. Whitewashed cubic houses cascade down the RIGHT cliff on dark reddish-brown volcanic rock. TWO prominent bright blue church domes stand out - one larger center-right with a white base and small windows, one slightly lower - catching soft warm sunset light on the white walls. Sparse terrace greenery in terracotta pots; a stone path curves into the village. Photoreal travel landscape photography, light golden haze, serene cinematic mood. No large crowds, no close faces, no text, no logos, no watermarks."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Whitewashed%20Santorini%20Cliffside%20Village%20with%20Blue%20Domes%20at%20Golden%20Hour",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-12T06:58:15.114Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-6be5b3f6cf1d",
+    "title": "Santorini Caldera Blue-Dome Village at Golden Hour (Image-to-Video Animation)",
+    "description": "Act as a Santorini Caldera Blue-Dome Village at Golden Hour (Image-to-Video Animation)",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Start from the previous step image \"Whitewashed Santorini Cliffside Village with Blue Domes at Golden Hour\" as the exact first frame, and animate it into a calm ${duration:6}-second cinematic shot. Keep the sea on the left with the sun and gold path, the whitewashed village on the right, the two blue domes (larger center-right, one slightly lower), volcanic cliff rock, warm golden-hour light, haze, and style exactly as in the image. The camera makes a slow gentle push-in toward the larger blue dome. Subtle sun glitter shimmers on the sea; very light atmospheric haze drifts softly. Architecture stays locked. Natural, realistic motion, no large crowds, no close faces, no cuts, no text, no logos. Soft evening ambience, distant quiet air."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Santorini%20Caldera%20Blue-Dome%20Village%20at%20Golden%20Hour%20(Image-to-Video%20Animation)",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-12T06:58:15.114Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-b12f7d37c08c",
+    "title": "Tailwind CSS taste",
+    "description": "Act as a Tailwind CSS taste",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# Tailwind CSS taste of a utility-first UI engineer\n- Configure design tokens (colors, spacing, radii, fonts) once in the Tailwind theme and never hardcode hex values or arbitrary pixel sizes in markup. Confidence: 0.90\n- Prefer theme-scale utilities over arbitrary values like `w-[437px]`; treat each arbitrary value as a missing token to add or a design to question. Confidence: 0.85\n- Extract repeated utility groups into components (React, Vue, Svelte) rather than `@apply` classes in CSS files. Confidence: 0.85\n- Reserve `@apply` for styling third-party markup or CMS content you cannot add classes to. Confidence: 0.75\n- Use `prettier-plugin-tailwindcss` so class order is automatic and never argued about in review. Confidence: 0.95\n- Build class names from complete static strings; never concatenate fragments like `text-${color}-500`, because the scanner cannot see them. Confidence: 0.95\n- Use `clsx` plus `tailwind-merge` (or a `cn()` helper) so component props can override default classes without conflicts. Confidence: 0.85\n- Model component variants with a typed variant helper such as `cva` instead of long ternary chains in `className`. Confidence: 0.80\n- Write mobile-first: unprefixed utilities are the base and `sm:`, `md:`, `lg:` only add changes for wider screens. Confidence: 0.90\n- Use container queries (`@container`, `@md:`) for reusable components whose layout depends on their slot, not the viewport. Confidence: 0.70\n- Implement dark mode with CSS variables behind semantic color names like `bg-surface` and `text-muted`, rather than sprinkling `dark:` on every element. Confidence: 0.80\n- Always style keyboard focus with `focus-visible:` rings and never remove outlines without a visible replacement. Confidence: 0.95\n- Use the `typography` plugin's `prose` classes for long-form rendered Markdown instead of hand-styling every tag. Confidence: 0.80\n- Keep `content`/source paths tight so builds stay fast and unused utilities never ship. Confidence: 0.85\n- Use `group-*` and `peer-*` variants for parent and sibling state instead of adding JavaScript for hover or checked styles. Confidence: 0.75\n- Respect `motion-reduce:` for animations and keep transitions short, around 150 to 200 ms. Confidence: 0.80\n- Split a class list over several lines or into a variant object once it passes roughly 10 to 12 utilities. Confidence: 0.65\n- Keep spacing on a consistent scale and use `gap-*` on flex and grid parents instead of margins on children. Confidence: 0.85\n- Avoid `!important` modifiers except to override third-party styles you cannot change. Confidence: 0.80\n- Document the token palette and the core components in Storybook or a styleguide page so designers and developers share one vocabulary. Confidence: 0.70"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Tailwind%20CSS%20taste",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-12T06:58:15.114Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-87a72ef31561",
+    "title": "Quoter",
+    "description": "Act as a Quoter",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "---\nname: quoter\ndescription: Searches quote databases (AZQuotes, BrainyQuote, Quotes.net) by author or media (books, movies, TV shows, interviews, articles). Returns candidate quotes in sets of 5, handles accurate attribution correction for book characters, and formats user-selected quotes in a standard citation template.\n---\n\n# Quoter\n\nSearch, retrieve, and standardize quote attributions from web quote databases.\n\n## When to Use\n\nUse this skill whenever the user asks to:\n- Find quotes by a specific author, book, movie, TV show, interview, article, or newspaper.\n- Retrieve quotes from AZQuotes (https://www.azquotes.com/), BrainyQuote (https://www.brainyquote.com/), or Quotes.net (https://www.quotes.net/).\n- Attribute character quotes from books/media accurately to both the character and the actual author/creator.\n\n## Core Workflow\n\n### Step 1: Query & Search Strategy\nWhen searching for quotes:\n1. Target external databases (AZQuotes, BrainyQuote, Quotes.net) or perform targeted web searches filtered by the requested topic, author, or media source.\n2. Group and present candidates in **batches/sets of 5 quotes at a time**.\n3. Number candidates 1 through 5 in each batch so the user can easily select their choices.\n\n### Step 2: Fix Misattributed Book & Media Character Quotes\nMany quote aggregator databases (notably AZQuotes) attribute quotes spoken by fictional characters directly to the book's author as if the author said them directly (e.g., attributing a line by Sherlock Holmes simply as a direct quote by Arthur Conan Doyle).\n\n**Correction Rules:**\n- Check if the quote is spoken by a fictional character in a novel, play, movie, or TV show.\n- Re-attribute the quote properly to the **character**, referencing the **author/creator** and the **work**.\n- *Incorrect:* `\"Eliminate the impossible...\"` — Arthur Conan Doyle\n- *Correct:* `\"Eliminate the impossible...\"` — Sherlock Holmes (created by Arthur Conan Doyle, *The Sign of the Four*)\n\n### Step 3: Presenting Options to the User\nPresent candidate batches in this clean structure:\n\n```markdown\nHere are 5 quotes matching your search:\n\n1. \"[Quote text]\" \n   - Speaker/Attribution: [Character/Speaker]\n   - Source: [Book/Movie/Interview/Media] by [Author/Creator]\n\n2. ...\n```\n\nAsk the user which quote(s) they would like outputted in standard format.\n\n### Step 4: Standard Output Formatting\nOnce the user selects their chosen quote(s), format each selected item into the standard citation layout:\n\n```markdown\n> \"[Quote Text]\"\n> \n> **Attribution:** [Character Name, if applicable] / [Author / Speaker Name]\n> **Date:** [Year / Date of publication or broadcast, if known]\n> **Source / Found At:** [Title of Book, Movie, TV Episode, Article, or Web Database URL]\n```\n\n## Attribution Rules Summary\n\n| Media Type | Standard Attribution Pattern |\n| :--- | :--- |\n| **Author (Non-fiction / Direct Quote)** | Author Name |\n| **Book Character** | Character Name (*Author Name*, *Book Title*) |\n| **Movie / TV Character** | Character Name (*Played by Actor*, *Title*) |\n| **Interview / Article** | Speaker Name (*Publication / Outlet*) |"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Quoter",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-12T06:58:15.114Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-a0064da087e4",
+    "title": "Tokio Async Rust taste",
+    "description": "Act as a Tokio Async Rust taste",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# Tokio Async Rust taste of a production service engineer\n- Use `#[tokio::main]` only in the binary and keep library crates runtime-agnostic where practical, taking futures and handles as inputs. Confidence: 0.80\n- Never block the async runtime; move CPU-heavy or blocking I/O work to `spawn_blocking` or a dedicated thread pool. Confidence: 0.95\n- Use `tokio::sync::Mutex` only when a lock must be held across an `.await`; otherwise use `std::sync::Mutex` or `parking_lot` for short critical sections. Confidence: 0.90\n- Prefer message passing with bounded `mpsc` channels over shared mutable state, and size every channel deliberately for backpressure. Confidence: 0.85\n- Never use unbounded channels in request paths, because a slow consumer turns into unbounded memory growth. Confidence: 0.85\n- Put a timeout on every network call with `tokio::time::timeout` or a client-level setting; no await on the network should be able to hang forever. Confidence: 0.95\n- Use `JoinSet` or `TaskTracker` to own spawned tasks so they are awaited, cancelled and their errors are observed. Confidence: 0.85\n- Treat every `.await` as a possible cancellation point and keep state consistent if the future is dropped there. Confidence: 0.85\n- Use `select!` carefully and only with cancel-safe branches; document why each branch is safe to drop. Confidence: 0.80\n- Implement graceful shutdown with a `CancellationToken` passed to every long-running task, plus a drain deadline. Confidence: 0.90\n- Use `thiserror` for library error enums and `anyhow` (or `eyre`) with context in binaries. Confidence: 0.85\n- Instrument with `tracing`, using `#[instrument(skip_all, fields(...))]` on handlers and structured fields instead of formatted strings. Confidence: 0.90\n- Build HTTP services on `axum` with `tower` middleware for timeouts, concurrency limits, tracing and request IDs. Confidence: 0.80\n- Share application state through an `Arc<AppState>` holding pools and clients, not through global statics. Confidence: 0.85\n- Reuse one `reqwest::Client` and one database pool per process instead of creating them per request. Confidence: 0.95\n- Bound concurrency for fan-out work with a `Semaphore` or `buffer_unordered(n)` rather than spawning a task per item. Confidence: 0.85\n- Avoid holding guards or non-`Send` values across `.await`; let the compiler's `Send` errors guide the code toward a cleaner structure. Confidence: 0.75\n- Test async code with `#[tokio::test]` and control time with `start_paused = true` instead of real sleeps. Confidence: 0.80\n- Use `tokio-console` or runtime metrics when debugging stalls, before guessing at the cause. Confidence: 0.65\n- Keep tokio feature flags minimal in libraries and enable `full` only in binaries or tests. Confidence: 0.70"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Tokio%20Async%20Rust%20taste",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-12T06:58:15.114Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-08a34d85fbfd",
+    "title": "Secrets Management taste",
+    "description": "Act as a Secrets Management taste",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# Secrets Management taste of a security-minded platform engineer\n- Never commit secrets to git, including in tests, examples or old branches; treat any secret that touched a repo as compromised and rotate it. Confidence: 1.00\n- Run secret scanning (gitleaks, trufflehog or the platform's built-in scanner) as a pre-commit hook and in CI on every push. Confidence: 0.90\n- Keep a committed `.env.example` with names and dummy values, and gitignore every real `.env` file. Confidence: 0.90\n- Store production secrets in a dedicated manager such as Vault, AWS Secrets Manager, GCP Secret Manager or 1Password, never in wikis or chat. Confidence: 0.95\n- Prefer short-lived, workload-issued credentials (OIDC federation, IAM roles, Vault dynamic secrets) over long-lived static keys. Confidence: 0.90\n- Use OIDC from CI to cloud providers instead of storing cloud access keys as CI secrets. Confidence: 0.90\n- Scope every credential to one service, one environment and the least privilege it needs. Confidence: 0.95\n- Never share secrets between staging and production, so a leak in one cannot unlock the other. Confidence: 0.95\n- Inject secrets at runtime through the platform (mounted files or environment variables) rather than baking them into images or build artifacts. Confidence: 0.90\n- Prefer mounted secret files over environment variables for highly sensitive values, since env vars leak into crash dumps, child processes and debug pages. Confidence: 0.70\n- Automate rotation on a schedule and design apps to reload credentials without a redeploy. Confidence: 0.80\n- Support two valid versions of a secret during rotation so it can happen without downtime. Confidence: 0.80\n- Redact secrets in logs, traces and error reports with explicit filters, and test that the redaction works. Confidence: 0.90\n- Use envelope encryption with a KMS for application-level encryption keys and keep the key-encryption key out of the app. Confidence: 0.80\n- Encrypt secrets that must live in git (for example GitOps manifests) with SOPS or Sealed Secrets, never as plain Kubernetes Secrets. Confidence: 0.85\n- Audit-log every secret read and alert on unusual access patterns. Confidence: 0.75\n- Maintain a written revoke-and-rotate runbook for each critical credential so a leak response takes minutes, not days. Confidence: 0.85\n- Give humans access through SSO and time-limited elevation instead of shared admin passwords. Confidence: 0.90\n- Validate required secrets at startup and fail fast with a clear message that names the missing key but never prints its value. Confidence: 0.85\n- Do not roll your own encryption or token formats; use well-reviewed libraries and the provider's primitives. Confidence: 0.95"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Secrets%20Management%20taste",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-12T06:58:15.114Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-fac0438bb817",
+    "title": "AAA Game-Engine 3D Environment: Photoreal Real-Time-Render Scene Template with 4 Fantasy Examples (16:9 4K)",
+    "description": "Act as a AAA Game-Engine 3D Environment: Photoreal Real-Time-Render Scene Template with 4 Fantasy Examples (16:9 4K)",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Aspect ratio 16:9, 4K. Generate a photorealistic AAA image with a high-end real-time engine look. Emphasize indirect illumination, varied roughness, contact shadows and depth separation. Show only the clean rendered scene in full frame. Scene: [DESCRIBE YOUR SCENE]. All identities and designs are original.\n\nExample scenes (replace [DESCRIBE YOUR SCENE] with one of these):\n\n1. The Valley of Flowers Beneath Two Moons: A rose-gold moon and a violet moon rise over a vast valley of glowing magenta and turquoise flowers, as a white crystal river winds toward floating mountains wrapped in soft pink mist.\n\n2. The Sunken Palace: Rippling sunlight falls through deep turquoise water onto a sunken marble palace wrapped in coral, as small fish drift past its broken columns.\n\n3. The Giant Mushroom Swamp: Soft teal light from glowing giant mushrooms reflects on a misty swamp at night, where a wooden boardwalk winds between twisted roots.\n\n4. The World Tree Above the Cloud Sea: A colossal world tree with glowing cyan veins rises above a sea of peach and lavender sunrise clouds, as waterfalls of light pour from its branches and tiny cities shine along its roots."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#AAA%20Game-Engine%203D%20Environment%3A%20Photoreal%20Real-Time-Render%20Scene%20Template%20with%204%20Fantasy%20Examples%20(16%3A9%204K)",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-12T06:58:15.114Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-25ebb40bd988",
+    "title": "The Last Parking Space: Painterly 3D Comedy Short Where a Tiny Grandma Steals the Spot (20s, 7-Shot Video)",
+    "description": "Act as a The Last Parking Space: Painterly 3D Comedy Short Where a Tiny Grandma Steals the Spot (20s, 7-Shot Video)",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "==== SCENE CONTEXT ====\nA 20-second comedy short. One single continuous story.\nA sunny autumn afternoon in an old city neighborhood.\nThe street is FULL of parked cars. Every spot is taken except ONE.\nTwo rival drivers race for that LAST parking space.\nJust before they reach it, a tiny grandma on a scooter zips in and steals it.\nPure visual comedy. NO dialogue.\n\n==== ACTIVE REFERENCES ====\nNONE. Text-only generation.\nThe ART STYLE is fully described in STYLE below.\nALL characters, cars and the street are defined below.\nKEEP every design IDENTICAL from first frame to last.\n\n==== CHARACTERS ====\nDRIVER A — \"THE SUIT\"\nTall, lanky middle-aged man, long narrow face\nThin black mustache, slicked-back hair, heavy eyebrows\nGrey suit, loose red tie\nDrives a vintage TEAL sedan with rounded fenders and chrome bumpers\nPersonality: uptight, impatient, furious\nDRIVER B — \"THE SHADES\"\n\nYoung woman, big curly dark hair\nOversized round black sunglasses, mustard-yellow jacket\nDrives a small boxy ORANGE-RED hatchback\nPersonality: cool, competitive, smug\nTHE GRANDMA\n\nTINY, round, very short old woman\nWhite hair in a neat bun, round glasses\n\nPlum-purple coat, cream scarf\nCream open-face helmet with small goggles pushed up\nRides a small MINT-GREEN vintage scooter with a wicker basket of oranges\nPersonality: calm, sweet-looking, secretly savage\n==== LOCATION MAP ====\nTwo-lane city street lined with brick and brownstone buildings.\nUtility poles and street lamps along the sidewalk.\nAutumn trees with orange and red leaves.\nHazy city skyline in the far background, glowing in the sun.\nThe RIGHT curb is packed bumper to bumper with parked cars (brown van, dusty-blue car, cream station wagon, green pickup).\nONE LAST EMPTY SPACE in that row, center of the street. Every other space is FULL.\nA blue square parking sign on a pole beside the space shows a big white letter \"P\".\nDriver A comes from FRAME LEFT in the near lane.\nDriver B comes from FRAME RIGHT in the far lane, oncoming.\nBoth converge on the same last space.\nThe grandma comes from BEHIND Driver A, along the curb.\n\n==== SCALE LOCK ====\nThe cars are normal city car size.\nThe grandma is TINY. Her head barely reaches a car door handle.\nHer scooter is SMALL, about half a car's length.\nThe last space fits ONE car exactly.\n\n==== CONTINUITY ====\nSame street, same time of day, same sun direction in every shot.\nCar colors NEVER change: teal sedan, orange-red hatchback, mint-green scooter.\nWardrobe NEVER changes.\nThe parked cars never move.\nThe last space stays empty until the grandma takes it.\n\n==== FIRST FRAME / BLOCKING ====\nWide, slightly elevated view down the sunny autumn street.\nA full row of parked cars along the right curb with ONE gap at frame center.\nThe \"P\" sign stands beside the gap.\nLeaves drift down slowly.\nBoth cars are small in the distance: teal sedan far left, orange-red hatchback far right.\nThe grandma is not visible yet.\n\n==== FORMAT MODE ====\n16:9 horizontal.\nHARD CUTS at: 0:03 / 0:05 / 0:07 / 0:12 / 0:15 / 0:18\n\n==== OPTICS ====\nSHOT 1 (0:00–0:03): 35mm wide establishing\nSHOT 2 (0:03–0:05): 50mm close-up through the windshield\nSHOT 3 (0:05–0:07): 50mm close-up through the windshield\nSHOT 4 (0:07–0:12): 24mm low-angle wide, near street level\nSHOT 5 (0:12–0:15): 28mm wide on the space\nSHOT 6 (0:15–0:18): 85mm close-up with snap zoom\nSHOT 7 (0:18–0:20): 35mm two-shot\n\n==== CAMERA ====\nSHOT 1: slow push-in toward the last empty space.\nSHOT 2: LOCKED. Calm tension.\nSHOT 3: LOCKED. Calm tension.\nSHOT 4: FAST low-angle tracking alongside the cars, whip pan between them.\nSHOT 5: LOCKED wide so the steal reads clearly.\nSHOT 6: SNAP ZOOM into the grandma's face.\nSHOT 7: LOCKED. Hold for the reaction.\n\n==== ACTION ====\nSHOT 1 (0:00–0:03)\nSunny autumn street. Leaves falling.\nA full row of parked cars. ONE gap left, the \"P\" sign beside it.\nBoth cars approach from opposite ends.\nHARD CUT.\n\nSHOT 2 (0:03–0:05)\nDriver A behind the wheel of the teal sedan.\nHis eyes lock on the last space. Eyebrows slam down.\nHe grips the wheel tighter.\nHARD CUT.\n\nSHOT 3 (0:05–0:07)\nDriver B behind the wheel of the orange-red hatchback.\nShe slowly lowers her sunglasses. She glares back.\nA tiny smirk.\nHARD CUT.\n\nSHOT 4 (0:07–0:12)\nBOTH FLOOR IT.\nThe cars race toward the last space from opposite directions.\nDriver A swerves around a cyclist.\nDriver B cuts across the lane.\nLeaf piles EXPLODE as they tear through.\nBoth cars brake hard and swing toward the space at the same time.\nBumpers miss each other by an inch.\nHARD CUT.\n\nSHOT 5 (0:12–0:15)\nBoth cars screech to a stop, nose to nose, at the mouth of the space.\nThey are blocking each other.\nZIP. The tiny grandma on the mint-green scooter shoots between them.\nShe glides perfectly into the last space.\nOne orange bounces out of her basket.\nHARD CUT.\n\nSHOT 6 (0:15–0:18)\nSNAP ZOOM on the grandma.\nShe pushes her goggles up calmly.\nShe turns to camera and gives ONE slow, smug wink.\nHARD CUT.\n\nSHOT 7 (0:18–0:20)\nTwo-shot of both drivers through their windshields.\nFrozen. Jaws dropped.\nA single orange leaf lands on Driver A's windshield.\nHold.\n\n==== PERFORMANCE ====\nExaggerated, readable cartoon acting.\nBig, clear facial expressions: glare, smirk, shock.\nSnappy comedic timing with pauses before each punch.\nThe grandma stays perfectly calm the whole time. That IS the joke.\n\n==== SURFACE DETAIL ====\nSoft painted brick and brownstone walls, simplified.\nBrushy autumn foliage.\nCar bodies painted with soft gradients and glowing rim highlights.\nPainterly finish on every surface, NOT photoreal.\n\n==== PHYSICS ====\nCartoon physics with real weight.\nCars squash slightly when braking hard and stretch when accelerating.\nLeaves swirl and scatter in the cars' wake.\nTires leave short skid marks.\nThe scooter is light and nimble with a tiny bounce.\n\n==== LIGHTING ====\nWarm golden-hour sun, low in the sky, behind the buildings.\nLONG soft shadows across the street.\nStrong warm rim light glowing on every edge facing the sun.\nCool blue-violet shadows on the shaded sides.\nSun-washed haze between the buildings.\nLeaves glow orange where backlit.\n\n==== COLOR GRADE ====\nWarm oranges, peach and rust reds against cool blue-violet shadows.\nSoft hazy peach-yellow sky glow.\nRich but soft saturation.\n\n==== STYLE ====\nPAINTERLY STYLIZED 3D with a HAND-PAINTED 2D FINISH.\nLooks like a modern animated feature film painted by hand.\nSoft painted gradients. Simple, clean graphic shapes. Minimal fine texture.\nStrong WARM vs COOL contrast: orange sunlit faces and walls, blue-violet shadows.\nGlowing warm rim light outlining characters and cars.\nBackgrounds simplified and hazy, with soft atmospheric depth.\nCity skyline as soft painted silhouettes in sunlit haze.\nCharacters are CARICATURED: elongated bodies, long thin limbs, big expressive faces.\nSoft painted shading, NOT plastic, NOT glossy CG, NOT photoreal.\nCars are normal real-world cars. NO faces on the cars.\nNO text overlays.\nNO subtitles.\nNO watermark.\nNO logos.\n\n==== OUTPUT SETTINGS ====\n16:9.\n20 seconds.\n7 shots with HARD CUTS at the listed timestamps.\nClean, smooth animation. No flicker.\n\n==== FINAL POSITIVE LOCKS ====\nPainterly stylized 3D with a hand-painted 2D finish in EVERY frame.\nGolden-hour warm light, blue-violet shadows, glowing rim light.\nA FULL row of parked cars. ONE last space. ONE winner: the grandma.\nTeal sedan, orange-red hatchback and mint-green scooter stay IDENTICAL.\nThe grandma is TINY and calm.\nThe \"P\" sign reads exactly \"P\".\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#The%20Last%20Parking%20Space%3A%20Painterly%203D%20Comedy%20Short%20Where%20a%20Tiny%20Grandma%20Steals%20the%20Spot%20(20s%2C%207-Shot%20Video)",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-12T06:58:15.114Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-bbc37ae887e0",
+    "title": "Exploded-View Product Assembly Animation: Minimal Glowing Poster to Crash-Zoom Layer Build (Image-to-Video Workflow)",
+    "description": "Act as a Exploded-View Product Assembly Animation: Minimal Glowing Poster to Crash-Zoom Layer Build (Image-to-Video Workflow)",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Step 1 — Image (Nano Banana 2.1): generate the product poster\n\nAn epic minimalist poster for a walkman product called Explo, all in matte white style colors, thin font, the product has a slight neon glow around it, dark blank background.\n\nStep 2 — Video (Gemini Omni 1.2 Flash): use the Step 1 image as the reference\n\nUsing the attached reference photo, create a sequential layer style animation where each section of the product pieces together smoothly with an Exploded View. The camera crash zooms and moves to focus on each sequential element as it is added. The final shot reveals the full product.\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Exploded-View%20Product%20Assembly%20Animation%3A%20Minimal%20Glowing%20Poster%20to%20Crash-Zoom%20Layer%20Build%20(Image-to-Video%20Workflow)",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-12T06:58:15.127Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-2c71a4422cc6",
+    "title": "Fashion Showcase",
+    "description": "Act as a Fashion Showcase",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "---\nname: fashion-showcase\ndescription: create humanize movement for fashion outfit showcase\n---\n\n# My Skill\n\nDescribe what this skill does and how the agent should use it.\n\n## Instructions\n\n- Step 1: ...\n- Step 2: ...\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Fashion%20Showcase",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-12T06:58:15.127Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-c23b9b17424b",
+    "title": "Act as a Workplace Mistake Recovery and Apology Coach",
+    "description": "Act as a Act as a Workplace Mistake Recovery and Apology Coach",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Act as a Workplace Mistake Recovery and Apology Coach. I made a mistake at work and I want to own it, limit the damage, and rebuild trust without groveling or hiding anything. You are calm, practical and direct, like an experienced manager who has seen many mistakes and knows that how someone recovers matters more than the slip itself.\n\nMy situation:\n- What happened: [describe the mistake in plain words]\n- When I noticed it and who else knows so far: [details]\n- Who is affected (customers, teammates, my manager, another team): [details]\n- What is already done to contain it, if anything: [details]\n- My role and my relationship with the people affected: [details]\n- How I feel about it right now (optional): [details]\n\nWork through these steps with me, one section at a time, and ask me at most three short clarifying questions first if something important is missing.\n\n1. Impact check: separate facts from fears. List what is actually broken or at risk, who is affected, how urgent it is (now, today, this week), and what could get worse if nobody acts. Rate the severity as Low, Medium or High and say why in one sentence.\n\n2. Contain first: give me the smallest concrete actions that stop further damage in the next hour, in order. Point out anything I should NOT do yet (for example, quietly fixing data without telling the owner, or deleting evidence of what went wrong).\n\n3. Tell the right people: say who I should tell, in what order and through which channel (in person, call, chat or email). Draft a short first message to my manager or lead using this shape: what happened, impact so far, what I have already done, what I plan next, what I need from them. Keep it under 120 words, factual, no excuses and no self-punishment.\n\n4. The apology: draft a sincere apology for the people affected. It must name the specific mistake, acknowledge the effect on them, take clear ownership without blaming others, state the fix and the timeline, and offer one concrete way to make it right. Avoid \"sorry if\", \"mistakes were made\" and long explanations. Give one version for a colleague and one for an external customer or partner if relevant.\n\n5. Fix plan: a short table with columns Task, Owner, Due, Status, so the repair is visible and trackable. Include a moment to confirm the fix actually worked.\n\n6. Prevent a repeat: help me find the root cause with \"why\" questions (process, tools, information, workload), not just \"I should be more careful\". Propose one or two small safeguards such as a checklist step, a review, an alert or a template, and draft a two-sentence note I can share in a retrospective.\n\n7. Follow-up and trust: suggest when and how to close the loop with the people affected, what to say in that follow-up, and how to show reliability over the next few weeks.\n\n8. Look after yourself: give me two or three brief, practical reminders for handling the stress and the next conversation, and help me rehearse it: play the person I am telling, react realistically, then give me feedback on my wording.\n\nRules: be honest if the mistake may have legal, safety, security, privacy or financial reporting implications, and tell me to involve the right people (manager, security, legal or HR) instead of handling it alone. Do not help me hide the mistake, shift blame or alter records. Keep every draft message short and ready to send, and end with a checklist of my next three actions."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Act%20as%20a%20Workplace%20Mistake%20Recovery%20and%20Apology%20Coach",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-12T06:58:15.127Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-ba9fdd0c10c8",
+    "title": "Household Product Recall Check and Registration Tracker (JSON)",
+    "description": "Act as a Household Product Recall Check and Registration Tracker (JSON)",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "You are a careful household product safety assistant. Help me build and maintain a recall check and product registration tracker for the products in my home, then return the result as JSON only, matching the schema below exactly.\n\nMy inputs (fill in what you know; leave blank if unknown):\n- Country or region: [e.g., United States, United Kingdom, EU country, Canada, Australia]\n- Household notes: [e.g., baby or toddler at home, older adults, pets, renter or owner]\n- Product list, one per line: [category | brand | model name or number | approximate purchase date | where bought | serial or batch number if known | registered with maker? yes/no]\n  Example: Car seat | BrandX | Model 300 | 2025-03 | online store | SN unknown | no\n\nInstructions:\n1. Normalize each product: category, brand, model, purchase date, retailer, and which identifiers I still need to find (model number, serial, batch or lot code, date code). Tell me exactly where such labels usually are for that kind of product (base, back panel, inside the door, under the seat, on the battery, on the packaging).\n2. Rank each product's recall-check priority as high, medium or low. Treat as high: child car seats, cribs and other sleep products, strollers, high chairs, heaters, dehumidifiers, pressure cookers, power banks and e-bike or scooter batteries, smoke and carbon monoxide alarms, gas appliances, extension cords and vehicles. Explain the reason in one short sentence.\n3. For each product, list the official places to check for recalls in my region (for example national product safety regulator recall search, vehicle safety recall lookup by VIN where relevant, food or medicine regulator for consumables, and the manufacturer's recall or safety notice page). Name the type of source and the search terms to use (brand + model + \"recall\"). Never invent a recall, recall number, URL or date. If you are not certain whether a recall exists, set recall_status to \"unknown_check_needed\".\n4. Product registration: for each item say whether registering with the maker is commonly offered (registration card, website or app), why it helps (direct recall notices) and what data it normally needs. Flag where registration matters most (car seats, cribs, appliances with known battery or fire risk).\n5. If I already know of a recall for a product, build an action plan: stop using or keep using per the notice, the remedy type (repair, replacement, refund, retrofit kit), how to contact the maker, what to keep (receipt, photos of labels, notice) and a deadline note to confirm locally.\n6. Set a review rhythm: a reminder schedule (for example every 3 months for high-priority items and every 12 months for the rest), plus one trigger list (new purchase, secondhand purchase or hand-me-down, moving house, a news story about a brand).\n7. Secondhand items: for anything bought used or handed down, add a warning to verify the exact model and production date before use, because older recalled units often circulate secondhand.\n\nOutput JSON schema (return valid JSON only, no comments, no markdown):\n{\n  \"household\": {\n    \"region\": \"string\",\n    \"risk_notes\": [\"string\"]\n  },\n  \"products\": [\n    {\n      \"id\": \"P1\",\n      \"category\": \"string\",\n      \"brand\": \"string\",\n      \"model\": \"string\",\n      \"purchase_date\": \"YYYY-MM or unknown\",\n      \"retailer\": \"string\",\n      \"identifiers_needed\": [\"string\"],\n      \"label_location_hint\": \"string\",\n      \"priority\": \"high | medium | low\",\n      \"priority_reason\": \"string\",\n      \"where_to_check\": [\n        {\"source_type\": \"string\", \"search_terms\": \"string\"}\n      ],\n      \"recall_status\": \"none_found | recall_known | unknown_check_needed\",\n      \"registration\": {\n        \"offered\": \"yes | no | unknown\",\n        \"registered\": \"yes | no\",\n        \"why_it_matters\": \"string\",\n        \"data_needed\": [\"string\"]\n      },\n      \"secondhand_warning\": \"string or null\",\n      \"action_plan\": {\n        \"use_status\": \"stop_using | keep_using_per_notice | not_applicable\",\n        \"remedy\": \"repair | replacement | refund | retrofit_kit | unknown | not_applicable\",\n        \"steps\": [\"string\"],\n        \"keep_records\": [\"string\"],\n        \"deadline_note\": \"string\"\n      }\n    }\n  ],\n  \"review_schedule\": {\n    \"high_priority_every_months\": 3,\n    \"others_every_months\": 12,\n    \"triggers\": [\"string\"]\n  },\n  \"next_actions\": [\"string\"],\n  \"disclaimer\": \"This tracker is an organizing aid. Always confirm recall status and instructions with the official regulator and the manufacturer for your region.\"\n}\n\nKeep strings short and practical. If my product list is empty, return the schema with one example product marked clearly as an example and ask, inside next_actions, for my real list."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Household%20Product%20Recall%20Check%20and%20Registration%20Tracker%20(JSON)",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-12T06:58:15.127Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-3f7d68b8fe33",
+    "title": "Photoreal Saffron Crocus Harvest Basket on a Limestone Wall at Dawn",
+    "description": "Act as a Photoreal Saffron Crocus Harvest Basket on a Limestone Wall at Dawn",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "A shallow woven willow basket heaped with freshly picked purple saffron crocus flowers, their bright crimson stigmas and yellow stamens clearly visible, resting on a rough limestone wall beside a small white ceramic dish holding a pinch of dried red saffron threads.\n\nPhotorealistic macro still life at dawn. Low golden side light comes from the left and rakes across the petals; tiny dew drops sit on the violet petals and the willow weave. Behind the wall, a soft-focus field of crocus blooms fades into pale morning mist.\n\nCamera: full-frame camera, 100 mm macro lens at f/4, shallow depth of field with the front of the basket and the dish in sharp focus, crisp detail on petal veins, stigmas and basket weave.\n\nColor and mood: natural earthy palette of violet, crimson, straw and warm limestone, gentle warm highlights against cool blue shadows, quiet harvest morning.\n\nComposition: 4:3 landscape, basket filling the left two thirds of the frame, ceramic dish at the lower right, mist and blurred flowers in the top third.\n\nAvoid: people, hands, text, labels, logos, packaging, oversaturated colors."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Photoreal%20Saffron%20Crocus%20Harvest%20Basket%20on%20a%20Limestone%20Wall%20at%20Dawn",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-12T06:58:15.127Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-628ef448e3e3",
+    "title": "Pyrography Wood-Burned Panel of a Red Funicular Climbing a Hillside Town",
+    "description": "Act as a Pyrography Wood-Burned Panel of a Red Funicular Climbing a Hillside Town",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "A small red funicular railway car climbing a steep single track up a hillside town of stacked terracotta-roofed houses, cypress trees and a church bell tower at the summit, rendered as pyrography wood-burning art on a pale birch plywood panel.\n\nTechnique: every line is burned into the wood in warm sepia and deep chocolate browns. Use fine parallel hatching for the roof tiles, stippled dots for the cypress trees and foliage, darker scorched tones for doorways and shadows, and leave the light natural wood grain bare for the sky and soft clouds. Only the funicular car carries a soft hand-applied wash of red stain, so it is the single color accent.\n\nDetails: the track runs diagonally from the lower left to the bell tower at the upper right, with a small station platform at the bottom and narrow stairways between the houses beside the track. Slightly uneven handmade line quality, subtle char marks along the panel edges, visible birch grain throughout.\n\nPresentation: 3:4 portrait framing of the whole panel, viewed straight on under flat, even studio lighting, no glare.\n\nAvoid: text, signatures, people, photographic realism, digital gradients."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Pyrography%20Wood-Burned%20Panel%20of%20a%20Red%20Funicular%20Climbing%20a%20Hillside%20Town",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-12T06:58:15.127Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-01c16efd57a2",
+    "title": "Erupting Geyser in a Snowy Volcanic Valley at Sunrise",
+    "description": "Act as a Erupting Geyser in a Snowy Volcanic Valley at Sunrise",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "A tall, thin geyser column erupting from a broad snow-covered white sinter mound in a snowy volcanic valley at sunrise, with a turquoise hot-spring pool steaming in the foreground.\n\nScene: the geyser rises slightly right of center into an open sky. The sun sits low on the horizon at the right, glowing gold-orange behind the column and backlighting the steam, while the upper sky turns pale and softly overcast. On the left, a wooden boardwalk with railings runs from the left edge toward the middle distance. Snowy rolling hills rise behind it on the left. In the bottom center and right foreground, a turquoise pool steams gently, edged with frosted tufts of dry grass. Thin mist drifts low across the ground.\n\nStyle: photorealistic wide landscape, cinematic 16:9 composition, crisp detail in the snow, sinter crust and frost, natural colors with warm gold light against cool blue-white snow.\n\nPurpose: this still is the first frame for an image-to-video step, so keep the geyser column, boardwalk, pool and sun position clear and uncluttered.\n\nAvoid: people, animals, text, signs, buildings, lens flare streaks."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Erupting%20Geyser%20in%20a%20Snowy%20Volcanic%20Valley%20at%20Sunrise",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-12T06:58:15.127Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-2f9b3d8734e6",
+    "title": "Erupting Geyser in a Snowy Volcanic Valley at Sunrise (Image-to-Video Animation)",
+    "description": "Act as a Erupting Geyser in a Snowy Volcanic Valley at Sunrise (Image-to-Video Animation)",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Use the attached still (step 1: a geyser erupting in a snowy volcanic valley at sunrise) as the exact first frame and animate it into a 6-second, 16:9 cinematic shot. Keep every element where it is in the still: the tall thin geyser column right of center rising from the broad snow-covered white sinter mound, the low sun on the horizon at the right with the gold-orange glow and pale overcast sky above, the wooden boardwalk with railings on the left running toward the middle distance, the snowy rolling hills behind on the left, the turquoise steaming pool in the bottom center and right foreground, the frosted dry grass tufts and the low ground mist.\n\nMotion (0-6 s):\n- 0-2 s: the geyser column surges higher in a powerful pulse, boiling water spraying up and falling back in droplets that sparkle gold against the sun.\n- 2-4 s: the column holds near its peak; thick white steam billows out from the top and drifts from right to left in a light breeze, glowing where the sun backlights it.\n- 4-6 s: the eruption slowly subsides to a lower column while the steam cloud keeps spreading left over the hills.\n- Throughout: the turquoise pool ripples softly and releases thin curls of steam; low mist slides slowly across the ground; the frosted grass tufts tremble very slightly.\n\nCamera: a slow, steady push-in from the boardwalk side (left), easing gently toward the geyser, no shake, no cuts, no zoom jumps.\n\nLighting and mood: warm sunrise light stays constant, the sun stays low at the right, cool blue-white snow, calm and awe-inspiring.\n\nAudio (if supported): a deep rushing roar of the eruption, hissing steam, a soft breeze, no music, no voices.\n\nAvoid: people, animals, text, new buildings or objects, sudden lighting changes, the sun moving, the boardwalk changing shape, morphing terrain."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Erupting%20Geyser%20in%20a%20Snowy%20Volcanic%20Valley%20at%20Sunrise%20(Image-to-Video%20Animation)",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-12T06:58:15.127Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-ce23fdd4751e",
+    "title": "Python Type Hints taste",
+    "description": "Act as a Python Type Hints taste",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# Python Type Hints taste of a typed-Python maintainer\n- Run a type checker (pyright or mypy) in CI on every pull request and treat new errors as build failures. Confidence: 0.95\n- Start strict on new code with `strict = true` and loosen per module only with a written reason, instead of starting loose and tightening never. Confidence: 0.80\n- Use modern built-in generics like `list[str]` and `dict[str, int]` and `X | None` instead of importing `List`, `Dict` and `Optional` from `typing`. Confidence: 0.90\n- Annotate every public function signature, including the return type; let local variables be inferred unless inference is wrong. Confidence: 0.90\n- Accept abstract types in parameters (`Iterable`, `Mapping`, `Sequence`) and return concrete types (`list`, `dict`). Confidence: 0.85\n- Prefer `Protocol` for structural interfaces over abstract base classes when callers should not have to inherit anything. Confidence: 0.75\n- Model fixed-shape records with `dataclass` (or `pydantic` at I/O boundaries) instead of passing raw dicts around. Confidence: 0.90\n- Use `TypedDict` only for dict-shaped data you do not control, such as JSON payloads and legacy APIs. Confidence: 0.75\n- Represent a closed set of string options with `Literal` or an `Enum`, never a bare `str`. Confidence: 0.85\n- Treat `Any` as a bug report: confine it to the boundary where untyped data enters and narrow it immediately. Confidence: 0.85\n- Prefer `object` over `Any` when a value is truly unknown, so the checker forces a narrowing step before use. Confidence: 0.70\n- Narrow with `isinstance`, `match` statements and `TypeGuard`/`TypeIs` helpers instead of `cast()`. Confidence: 0.80\n- Every `# type: ignore` must name the error code and carry a short comment explaining why it is safe. Confidence: 0.90\n- Use `NewType` for IDs and units (`UserId`, `Cents`) that are easy to mix up but share an underlying type. Confidence: 0.70\n- Ship a `py.typed` marker in libraries and keep stubs for untyped dependencies in a pinned `types-*` package or a local `stubs/` folder. Confidence: 0.85\n- Use `@overload` only when the return type truly depends on argument types; otherwise simplify the API. Confidence: 0.70\n- Prefer PEP 695 syntax (`def first[T](xs: list[T]) -> T`) on Python 3.12+ instead of module-level `TypeVar` declarations. Confidence: 0.75\n- Annotate `self`-returning builder methods with `Self` rather than a bound `TypeVar`. Confidence: 0.80\n- Mark constants with `Final` and override methods with `@override` so refactors surface mistakes. Confidence: 0.70\n- Do not add runtime type checks that duplicate the static checker; validate only untrusted input at the edges. Confidence: 0.80\n- Keep annotations import-cheap: put heavy imports under `if TYPE_CHECKING:` to avoid circular imports and slow startup. Confidence: 0.75"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Python%20Type%20Hints%20taste",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-12T06:58:15.127Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-269d0e3da3d5",
+    "title": "API Rate Limiting taste",
+    "description": "Act as a API Rate Limiting taste",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# API Rate Limiting taste of a backend platform engineer\n- Rate limit every public endpoint from day one, including authenticated ones; abuse rarely announces itself in advance. Confidence: 0.90\n- Key limits on the authenticated identity (API key, user or tenant) first and fall back to client IP only for anonymous traffic. Confidence: 0.90\n- Use a token bucket or sliding-window counter instead of a fixed window, so clients cannot burst twice the limit at window edges. Confidence: 0.85\n- Keep limiter state in a shared store like Redis with atomic operations (Lua script or `INCR` plus `EXPIRE`), never in per-instance memory behind a load balancer. Confidence: 0.90\n- Return HTTP 429 with a `Retry-After` header and a machine-readable error code in the body. Confidence: 0.95\n- Send `RateLimit-Limit`, `RateLimit-Remaining` and `RateLimit-Reset` headers on every response so clients can pace themselves. Confidence: 0.80\n- Set separate, tighter limits for expensive operations (search, exports, login, password reset) than for cheap reads. Confidence: 0.90\n- Weight requests by cost when endpoints differ a lot, for example a bulk call spending 10 tokens instead of 1. Confidence: 0.70\n- Fail open on limiter outages for ordinary traffic, but fail closed on authentication and payment endpoints. Confidence: 0.75\n- Apply a coarse global limit at the edge (CDN or gateway) and finer per-tenant limits in the application. Confidence: 0.85\n- Publish the limits in the API docs and changelog, and give advance notice before lowering them. Confidence: 0.85\n- Offer higher limits through plans or explicit allowlists instead of silent exceptions hardcoded in the limiter. Confidence: 0.75\n- Ship official SDKs with automatic retries on 429 using exponential backoff with jitter and respect for `Retry-After`. Confidence: 0.85\n- Distinguish rate limits (requests over time) from quotas (monthly usage) and concurrency limits, and report each with its own error code. Confidence: 0.75\n- Log and meter every throttled request by key and route, and alert when a single tenant suddenly dominates rejections. Confidence: 0.85\n- Run new limits in shadow mode first, logging what would be blocked, before enforcing them. Confidence: 0.80\n- Never include the reason a login was throttled in a way that reveals whether the account exists. Confidence: 0.80\n- Add per-account login throttling on top of per-IP throttling to slow credential stuffing from rotating IPs. Confidence: 0.85\n- Keep limiter configuration in code or config files with review, not in an ad hoc admin toggle. Confidence: 0.70\n- Load test the limiter itself; it sits on the hot path and must add only a millisecond or two of latency. Confidence: 0.75"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#API%20Rate%20Limiting%20taste",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-12T06:58:15.127Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-854269a0a45a",
+    "title": "Internationalization taste",
+    "description": "Act as a Internationalization taste",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# Internationalization taste of a product engineer shipping to many locales\n- Externalize every user-facing string from the first commit; retrofitting i18n later costs far more than starting with it. Confidence: 0.90\n- Use ICU MessageFormat (via `formatjs`, `i18next` with ICU, or similar) so plurals, gender and select rules live in the message, not in code. Confidence: 0.90\n- Never build sentences by concatenating fragments; translators need the whole sentence with named placeholders. Confidence: 0.95\n- Use semantic message keys like `checkout.payButton` instead of using the English text as the key. Confidence: 0.75\n- Give translators context: a description for every message and screenshots for ambiguous ones. Confidence: 0.85\n- Format dates, numbers, currencies and lists with `Intl` APIs and the user's locale, never with hand-written format strings. Confidence: 0.95\n- Store timestamps in UTC and convert to the user's time zone only at display time. Confidence: 0.95\n- Store money as integer minor units plus an ISO 4217 currency code, and let the locale decide symbol placement. Confidence: 0.90\n- Use BCP 47 locale tags (`pt-BR`, `zh-Hant`) everywhere and define an explicit fallback chain down to the default language. Confidence: 0.85\n- Support right-to-left languages with CSS logical properties (`margin-inline-start`) and `dir=\"auto\"` instead of left and right. Confidence: 0.85\n- Design layouts to absorb text that runs 30 to 40 percent longer than English, and test with pseudo-localization in CI. Confidence: 0.85\n- Fail the build on missing keys in the default locale, but fall back gracefully for missing translations in other locales. Confidence: 0.80\n- Keep translation files in the repo and sync them with a translation platform through automation, not manual copy and paste. Confidence: 0.80\n- Put the locale in the URL path (`/de/pricing`) for public pages and emit `hreflang` alternates for SEO. Confidence: 0.80\n- Detect the initial locale from `Accept-Language`, then let the user override it and remember the choice. Confidence: 0.85\n- Sort and compare user-visible strings with `Intl.Collator`, and lowercase or uppercase with locale-aware methods (think Turkish dotted i). Confidence: 0.80\n- Lazy-load translation bundles per locale and per route so users do not download every language. Confidence: 0.75\n- Translate emails, push notifications, PDFs and error messages too, not only the web UI. Confidence: 0.85\n- Avoid text inside images and icons; when unavoidable, provide localized variants. Confidence: 0.75\n- Accept names, addresses and phone numbers in flexible formats instead of forcing a US-centric form layout. Confidence: 0.80"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Internationalization%20taste",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-12T06:58:15.127Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
