@@ -162099,5 +162099,365 @@
       "copies": 0,
       "likes": 0
     }
+  },
+  {
+    "id": "github-csv-616bd07c9e5d",
+    "title": "Iridescent Glass Retexture: JSON Style Prompt That Turns Any Uploaded Image into a Photoreal Crystal 3D Render",
+    "description": "Act as a Iridescent Glass Retexture: JSON Style Prompt That Turns Any Uploaded Image into a Photoreal Crystal 3D Render",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Retexture the image attached based on the JSON aesthetic below\n\n{\n  \"style\": \"photorealistic 3D render\",\n  \"material\": \"glass with transparent and iridescent effects\",\n  \"surface_texture\": \"smooth, polished with subtle reflections and refractive effects\",\n  \"lighting\": {\n    \"type\": \"studio HDRI\",\n    \"intensity\": \"high\",\n    \"direction\": \"angled top-left key light and ambient fill\",\n    \"accent_colors\": [\"blue\", \"green\", \"purple\"],\n    \"reflections\": true,\n    \"refractions\": true,\n    \"dispersion_effects\": true,\n    \"bloom\": true\n  },\n  \"color_scheme\": {\n    \"primary\": \"transparent with iridescent blue, green, and purple hues\",\n    \"secondary\": \"crystal-clear with subtle chromatic shifts\",\n    \"highlights\": \"soft, glowing accents reflecting rainbow-like effects\",\n    \"rim_light\": \"soft reflective light around edges\"\n  },\n  \"background\": {\n    \"color\": \"black\",\n    \"vignette\": true,\n    \"texture\": \"none\"\n  },\n  \"post_processing\": {\n    \"chromatic_aberration\": true,\n    \"glow\": true,\n    \"high_contrast\": true,\n    \"sharp_details\": true\n  }\n}"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Iridescent%20Glass%20Retexture%3A%20JSON%20Style%20Prompt%20That%20Turns%20Any%20Uploaded%20Image%20into%20a%20Photoreal%20Crystal%203D%20Render",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-13T06:22:34.496Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-c7a47e6fff30",
+    "title": "Luxury Contemporary Mansion FPV Walkthrough: Golden-Hour Rooftop Pool to Double-Height Interior (16:9 Real Estate Video)",
+    "description": "Act as a Luxury Contemporary Mansion FPV Walkthrough: Golden-Hour Rooftop Pool to Double-Height Interior (16:9 Real Estate Video)",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a hyper-realistic cinematic architectural walkthrough of an ultra-luxurious contemporary mansion during golden hour, transitioning smoothly into a warm evening atmosphere.\n\n**Opening Scene:** Begin with a breathtaking rooftop infinity swimming pool overlooking a beautiful modern city skyline. Golden sunlight reflects across the water as the camera glides forward.\n\n**Exterior Architecture:** Reveal a spectacular multi-level contemporary mansion featuring floor-to-ceiling glass windows, dark architectural framing, minimalist geometric structures, spacious terraces, landscaped greenery, and premium materials.\n\n**Camera Movement:** Use a smooth, continuous FPV drone-style cinematic movement. Fly around the exterior terrace, glide between the architectural structures, and smoothly enter the house through the glass openings.\n\n**Interior Tour:** Transition into an expansive luxury living room featuring polished marble flooring, designer furniture, elegant cream-colored sofas, warm ambient lighting, modern artwork, a sophisticated open-plan layout, and enormous glass windows overlooking the surroundings.\n\n**Final Scene:** Move through the elegant interior hallway, revealing breathtaking architectural details and a stunning double-height ceiling.\n\n**Visual Style:** Photorealistic luxury real estate commercial, ultra-modern architecture, cinematic golden-hour lighting, realistic reflections, sophisticated neutral color palette, 4K detail, professional architectural cinematography, smooth stabilized camera movement.\n\n**Aspect Ratio:** 16:9  \n**Duration:** 10–15 seconds  \n**Quality:** Ultra-realistic, cinematic, premium architectural visualization.\n\n**Avoid:** People, distorted architecture, flickering lights, warped windows, unrealistic reflections, camera jitter, text, logos, and watermarks."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Luxury%20Contemporary%20Mansion%20FPV%20Walkthrough%3A%20Golden-Hour%20Rooftop%20Pool%20to%20Double-Height%20Interior%20(16%3A9%20Real%20Estate%20Video)",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-13T06:22:34.496Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-20db96986df3",
+    "title": "Cool-Blue Cel-Shaded 2D Animation Keyframe: Retro Hacker at a CRT in Extreme Fisheye with Halftone Shadows",
+    "description": "Act as a Cool-Blue Cel-Shaded 2D Animation Keyframe: Retro Hacker at a CRT in Extreme Fisheye with Halftone Shadows",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Create a stylized 2D Western animated illustration of a mysterious young male hacker sitting at a vintage desktop computer in a cramped retro computer room. He has short black hair with a sharp white fringe, an angular pale face, a large expressive side-profile eye, an oversized dark jacket with geometric markings, and long slender fingers typing on a chunky mechanical keyboard. Extreme low-angle fisheye perspective from desk level, oversized hands dominating the foreground, bulky CRT monitor on the left, curved tiled ceiling, scattered wall posters, and strong architectural depth. Preserve the character's focused typing pose, distinctive facial expression, dramatic camera angle, and coherent spatial arrangement. Render in a sophisticated stylized Western 2D animation aesthetic with delicate hand-drawn comic illustration techniques and refined graphic character design. Thin, confident dark navy ink outlines with subtle organic irregularities, natural line-weight variation, expressive flowing contours, selectively broken edges, and precise facial linework. Simplified geometric anatomy, exaggerated but believable proportions, angular character construction, and distinctive silhouettes. Large uninterrupted flat color regions, clean two-tone cel shading, sharply defined angular shadow blocks, simplified geometric highlights, minimal gradients, and carefully balanced graphic shapes. Subtle short pencil hatching, restrained dry-brush marks along selected edges, imperfect freehand contours, and crisp matte color fills. Sophisticated 2D animation keyframe aesthetics, cinematic spatial perspective, bold editorial illustration composition, expressive character acting, and elegant visual simplicity. Strictly use a cohesive cool blue color palette of cornflower blue, dusty cobalt, slate blue, muted periwinkle, powder blue, pale icy cyan, and deep navy, complemented by tiny muted golden-yellow accents. The ceiling and walls use layered desaturated blues, the CRT monitor displays a flat pale icy-blue screen, the character's clothing is deep navy with angular cobalt shadow planes, and the keyboard uses muted blue-gray tones. Soft cool blue ambient lighting unifies the entire composition, with small warm yellow details creating restrained visual contrast. Harmonious blue-on-blue color separation, strong tonal hierarchy, matte surfaces, and clean graphic lighting. Apply refined localized gradient halftone shading only within selected cel-shaded shadow regions, especially along the character's fingers, cheek shadows, jacket folds, and occasional architectural shadow boundaries. Use extremely fine, tightly arranged halftone microdots in colors matching the underlying shadows, gradually decreasing in size and opacity toward the illuminated areas. The halftone creates elegant soft tonal transitions within small, organically shaped shadow zones, naturally dissolving into clean flat colors. The pattern must be clearly recognizable as delicate traditional comic-print halftone shading at close inspection, never as large individual decorative circles. Keep all other surfaces perfectly clean and solid, without any global texture. Preserve strong cinematic depth through exaggerated fisheye perspective, overlapping graphic shapes, and precise architectural construction rather than realistic lighting gradients. High-end stylized animated film frame, expressive character silhouette, sophisticated handcrafted linework, refined flat-color shading, and cohesive visual design."
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Cool-Blue%20Cel-Shaded%202D%20Animation%20Keyframe%3A%20Retro%20Hacker%20at%20a%20CRT%20in%20Extreme%20Fisheye%20with%20Halftone%20Shadows",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-13T06:22:34.496Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-cd14701a0e39",
+    "title": "defuddle",
+    "description": "Act as a defuddle",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "---\nname: defuddle\ndescription: Extract clean Markdown from HTML pages with Defuddle CLI.\n---\n\n# Defuddle\n\nUse Defuddle CLI to extract clean readable content from web pages. Prefer over WebFetch for standard web pages — it removes navigation, ads, and clutter, reducing token usage.\n\nIf not installed: `npm install -g defuddle`\n\n## Usage\n\nAlways use `--md` for markdown output:\n\n```bash\ndefuddle parse <url> --md\n```\n\nSave to file:\n\n```bash\ndefuddle parse <url> --md -o content.md\n```\n\nExtract specific metadata:\n\n```bash\ndefuddle parse <url> -p title\ndefuddle parse <url> -p description\ndefuddle parse <url> -p domain\n```\n\n## Output formats\n\n| Flag | Format |\n|------|--------|\n| `--md` | Markdown (default choice) |\n| `--json` | JSON with both HTML and markdown |\n| (none) | HTML |\n| `-p <name>` | Specific metadata property |\n\n\u001fFILE:LICENSE\u001e\nMIT License\n\nCopyright (c) 2026 Steph Ango (@kepano)\n\nSource: https://github.com/kepano/obsidian-skills\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#defuddle",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-13T06:22:34.496Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-e87f501417ff",
+    "title": "Student Chapter Summary: Short, Visual Revision Notes",
+    "description": "Act as a Student Chapter Summary: Short, Visual Revision Notes",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Summarize this chapter for a student. Rules:\n1. Cover every topic and key point; do not skip anything.\n2. Keep it short: brief bullet points, no long paragraphs.\n3. Make it visual: use tables for comparisons, simple text diagrams or flowcharts for processes, and bold for key terms.\n4. Use simple language and give one short example for each hard concept.\n5. End with a 5-line quick-revision recap.\n\n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Student%20Chapter%20Summary%3A%20Short%2C%20Visual%20Revision%20Notes",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-13T06:22:34.496Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-6d2280bb8492",
+    "title": "Martin Lazzari vs. Giant Pitcher Plant Swallowed Whole",
+    "description": "Act as a Martin Lazzari vs. Giant Pitcher Plant Swallowed Whole",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Martin Lazzari vs. Giant Pitcher Plant\nSwallowed Whole – Digestive Bad Ending\n\nGENRE: Fantasy / Adventure / Creature Horror\n\nSCENE 1 – THE MYSTERIOUS JUNGLE\n\nCAMERA: Wide establishing shot of a tropical jungle. Strange plants sway in the warm breeze.\n\nMartin Lazzari walks through the jungle, looking around.\n\nMARTIN (curious):\n\"Wow... this place is beautiful!\"\n\nSFX: Birds chirping. Leaves rustling.\n\nMartin notices an enormous pitcher plant nearby.\n\nMARTIN:\n\"Huh? What's that strange-looking plant?\"\n\nSCENE 2 – THE PITCHER PLANT\n\nCAMERA: Close-up of the giant plant opening its enormous pitcher-shaped mouth.\n\nMARTIN:\n\"Whoa! That's huge!\"\n\nMartin steps closer and examines the slippery rim.\n\nMARTIN:\n\"Wait... why is it moving?\"\n\nSFX: SLURP... SQUELCH... GURGLE!\n\nSuddenly, the plant bends toward him!\n\nMARTIN (shocked):\n\"WHAT THE?!\"\n\nSCENE 3 – SWALLOWED WHOLE\n\nCAMERA: Dramatic medium shot.\n\nThe pitcher plant suddenly pulls Martin inside its enormous slippery opening.\n\nMARTIN:\n\"HEY! LET ME GO!\"\n\nSFX: SLUUURP! SPLORCH! GLOOP!\n\nThe plant swallows Martin completely.\n\nCAMERA: Exterior shot of the giant pitcher plant wobbling before slowly closing its lid.\n\nSFX: GULP! POP!\n\nSCENE 4 – INSIDE THE PITCHER PLANT\n\nCAMERA: Stylized fantasy cutaway showing Martin safely inside a dark, enclosed, slippery chamber.\n\nMARTIN (muffled):\n\"Mmmmph! Hello?! Can anybody hear me?!\"\n\nSFX: GLOOP... GURGLE... BLORP...\n\nMARTIN (muffled):\n\"Eww! It's so slimy! And it's really hot in here!\"\n\nHe tries pushing against the slippery walls.\n\nMARTIN:\n\"Somebody get me out of here!\"\n\nSFX: SQUELCH! GURRRGLE! BLOOP!\n\nSCENE 5 – THE BAD ENDING\n\nCAMERA: Exterior close-up of the pitcher plant.\n\nThe plant gently bubbles and wobbles.\n\nSFX: BLUB... BLUB... POP! GLOOP!\n\nMartin's muffled voice gradually fades away.\n\nMARTIN (faintly muffled):\n\"Help... me...\"\n\nSFX: GURGLE... BLOOP... POP!\n\nThe plant closes completely.\n\nCAMERA: Slow zoom out as the jungle becomes quiet.\n\nMUSIC: Dark, mysterious orchestral ending.\n\n\n\nTHE END – MARTIN LAZZARI'S BAD ENDING"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Martin%20Lazzari%20vs.%20Giant%20Pitcher%20Plant%20Swallowed%20Whole",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-13T06:22:34.496Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-95cabc347023",
+    "title": "making a lab report for adavanced aerodynamics course",
+    "description": "Act as a making a lab report for adavanced aerodynamics course",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "Steady and unsteady flow over a circular cylinder\nAs the flow is inherently unsteady in nature, will it be possible to get the results if the simulation is carried out for a steady case? \nCompare the results (velocity contours, pressure contours, and Average CD values) for steady and unsteady cases. Mention the non-dimensional properties like Reynolds number.\nWhich turbulence model is used in your work and what interferences can you draw about the turbulence model?\nIn your simulation, what kind of mesh is used and can you comment on difference in results for structured and unstructured mesh. \n\n Flow over symmetric and unsymmetric aerofoil \nCalculate lift and drag taking the same conditions for symmetric and unsymmetric aerofoil and compare the results between them.\nPlot Cl at zero angle of attack for both symmetric and unsymmetric aerofoil and compare the slopes between them. \n\n\nCD Nozzle and supersonic flow over diamond aerofoil\nCompare the CFD results for CD nozzle (exit velocity and exit pressure) with the analytic results obtained by assuming inviscid flow.\nWhat difference would you observe if the curvature for the throat is not given as mentioned in the video. \nCompare the CFD results for diamond aerofoil (Cl and CD values, pressure downstream the aerofoil) with the analytic results obtained by assuming inviscid flow.\nWhat happens if you change of angle of attack for supersonic flow over diamond aerofoil.\nso in total there is 8 topics subdivided into 3 subtopics and you should write about theory answer the question and also leave space for results (basically sticking screenshots)about ansys \n"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#making%20a%20lab%20report%20for%20adavanced%20aerodynamics%20course",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-13T06:22:34.496Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-874a060dbdb1",
+    "title": "Dependency Management taste",
+    "description": "Act as a Dependency Management taste",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# Dependency Management taste of a maintainer who hates surprise breakages\n- Commit the lockfile for every application and CI job, and install with the frozen mode (`npm ci`, `pnpm install --frozen-lockfile`, `uv sync --locked`). Confidence: 0.95\n- Libraries declare compatible version ranges; applications pin exact versions through the lockfile. Confidence: 0.85\n- Automate updates with Renovate or Dependabot instead of doing big manual upgrade sweeps twice a year. Confidence: 0.90\n- Group minor and patch updates into one scheduled weekly pull request, and keep each major upgrade in its own pull request. Confidence: 0.80\n- Auto-merge patch updates for dev dependencies only when the full test suite passes. Confidence: 0.70\n- Wait a few days before adopting a freshly published version (a minimum release age), so yanked or compromised releases never land. Confidence: 0.80\n- Before adding a dependency, check maintenance activity, open security issues, license and install size; a 20-line helper is often better written in-house. Confidence: 0.85\n- Prefer one well-maintained library per job across the codebase instead of three that do the same thing. Confidence: 0.80\n- Run a vulnerability scan (`npm audit`, `pip-audit`, `osv-scanner`) in CI, failing only on high-severity issues that are actually reachable. Confidence: 0.75\n- Keep an allowlist of acceptable licenses and fail the build when a copyleft or unknown license appears in production dependencies. Confidence: 0.75\n- Separate runtime, development and optional dependencies clearly so production images stay small. Confidence: 0.85\n- Never depend on a git branch or `latest` tag in production; pin to a release or a full commit SHA. Confidence: 0.90\n- Disable install scripts by default where the package manager allows it and allow them only for packages that need them. Confidence: 0.70\n- Use a private registry or proxy with caching so builds survive an upstream registry outage. Confidence: 0.70\n- Remove unused dependencies regularly with a tool like `knip`, `depcheck` or `deptry`. Confidence: 0.80\n- Read the changelog for every major upgrade and write the migration notes into the pull request description. Confidence: 0.85\n- Vendor or fork a dependency only as a last resort, with an issue tracking when the fork can be dropped. Confidence: 0.75\n- Keep the language runtime version pinned in one file (`.nvmrc`, `.python-version`, `rust-toolchain.toml`) that CI and local dev both read. Confidence: 0.90\n- Treat a lockfile diff with hundreds of unrelated changes as a red flag and investigate before merging. Confidence: 0.80\n- Generate an SBOM for release artifacts so you can answer \"are we affected?\" within minutes when a new CVE drops. Confidence: 0.65"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Dependency%20Management%20taste",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-13T06:22:34.496Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-ed02122a28f9",
+    "title": "SQLite taste",
+    "description": "Act as a SQLite taste",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# SQLite taste of an engineer who ships it to production\n- Use SQLite for single-node apps, CLIs, desktop and mobile apps, and edge caches before reaching for a database server. Confidence: 0.85\n- Turn on WAL mode (`PRAGMA journal_mode = WAL`) so readers never block the writer. Confidence: 0.95\n- Set `PRAGMA foreign_keys = ON` on every connection, since it is off by default. Confidence: 0.95\n- Set a `busy_timeout` of a few seconds instead of letting writes fail immediately with `SQLITE_BUSY`. Confidence: 0.90\n- Use `PRAGMA synchronous = NORMAL` with WAL for a good balance of durability and speed. Confidence: 0.75\n- Funnel all writes through a single connection or queue, and use a pool of read-only connections for reads. Confidence: 0.80\n- Start write transactions with `BEGIN IMMEDIATE` to avoid deadlocks when a read transaction tries to upgrade. Confidence: 0.80\n- Declare tables `STRICT` on new schemas so type affinity does not silently store text in integer columns. Confidence: 0.80\n- Store timestamps as ISO 8601 text or Unix epoch integers consistently, and pick one convention per database. Confidence: 0.85\n- Use `INTEGER PRIMARY KEY` for row ids unless you need globally unique ids, then add a separate UUID or ULID column. Confidence: 0.75\n- Batch many inserts inside one transaction; thousands of autocommit inserts are slow. Confidence: 0.95\n- Check query plans with `EXPLAIN QUERY PLAN` and add covering indexes for hot queries. Confidence: 0.85\n- Run `PRAGMA optimize` periodically or on connection close so the planner has fresh statistics. Confidence: 0.70\n- Track the schema version with `PRAGMA user_version` and run numbered migrations at startup. Confidence: 0.80\n- Remember that many `ALTER TABLE` changes need the create-copy-drop-rename pattern, and wrap it in a transaction. Confidence: 0.80\n- Back up with the online backup API, `VACUUM INTO` or Litestream, never by copying the file while it is being written. Confidence: 0.95\n- Use FTS5 for full-text search and JSON functions for semi-structured columns before adding another service. Confidence: 0.75\n- Keep the database file on local disk, never on a network file system where locking is unreliable. Confidence: 0.90\n- Use an in-memory or temporary-file database per test for fast, isolated test runs. Confidence: 0.85\n- Run `PRAGMA integrity_check` in a scheduled job and alert on anything other than `ok`. Confidence: 0.65"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#SQLite%20taste",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-13T06:22:34.496Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
+  },
+  {
+    "id": "github-csv-dd305acdc2f9",
+    "title": "Angular App taste",
+    "description": "Act as a Angular App taste",
+    "tags": [
+      "roleplay",
+      "persona"
+    ],
+    "compatibleModels": [
+      "gemini-2.5-pro"
+    ],
+    "modality": [
+      "text"
+    ],
+    "contents": [
+      {
+        "role": "user",
+        "parts": [
+          {
+            "text": "# Angular App taste of a frontend lead on large enterprise apps\n- Use standalone components everywhere and skip NgModules on new code. Confidence: 0.90\n- Use signals for local and shared state, and keep RxJS for event streams, HTTP composition and cancellation. Confidence: 0.85\n- Prefer `computed()` over manual subscriptions for derived state, and keep `effect()` for side effects only. Confidence: 0.80\n- Set `ChangeDetectionStrategy.OnPush` on every component, or go zoneless on new apps. Confidence: 0.85\n- Use the built-in control flow (`@if`, `@for` with `track`, `@switch`) instead of the old structural directives. Confidence: 0.90\n- Lazy load every feature route with `loadComponent` or `loadChildren`, and use `@defer` blocks for heavy widgets below the fold. Confidence: 0.85\n- Inject dependencies with the `inject()` function rather than long constructor parameter lists. Confidence: 0.75\n- Use typed reactive forms; avoid template-driven forms for anything with validation logic. Confidence: 0.85\n- Keep components thin: put data access and business logic in injectable services, and keep templates free of complex expressions. Confidence: 0.85\n- Split components into smart containers and presentational components that talk through `input()` and `output()`. Confidence: 0.75\n- Organize the code by feature folders, not by file type (all components, all services). Confidence: 0.80\n- Reach for NgRx (Store or SignalStore) only when several features share complex state; services with signals cover most apps. Confidence: 0.70\n- Handle auth headers, errors and retries in functional HTTP interceptors, not in each service call. Confidence: 0.85\n- Never subscribe manually without cleanup; use the `async` pipe, `toSignal()` or `takeUntilDestroyed()`. Confidence: 0.90\n- Turn on `strict` mode and strict template checking in `tsconfig.json`. Confidence: 0.90\n- Use the Angular CLI and its esbuild-based builder, and keep `angular.json` customizations to a minimum. Confidence: 0.80\n- Write component tests with Angular Testing Library, and cover critical user flows with Playwright end-to-end tests. Confidence: 0.75\n- Enforce an initial bundle size budget in `angular.json` so the build fails when it is exceeded. Confidence: 0.80\n- Use server-side rendering with hydration for public, SEO-relevant pages and keep internal dashboards client-only. Confidence: 0.70\n- Upgrade with `ng update` one major version at a time, staying no more than one major behind. Confidence: 0.85\n- Run ESLint with `angular-eslint` and format with Prettier in a pre-commit hook. Confidence: 0.80"
+          }
+        ]
+      }
+    ],
+    "originalSourceUrl": "https://github.com/f/awesome-chatgpt-prompts/blob/main/prompts.csv#Angular%20App%20taste",
+    "author": {
+      "name": "f",
+      "platform": "GitHub"
+    },
+    "createdAt": "2026-11-13T06:22:34.496Z",
+    "stats": {
+      "views": 0,
+      "copies": 0,
+      "likes": 0
+    }
   }
 ]
